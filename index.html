@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELO 2026 - University of Central Florida</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #000;
+        }
+
+        #canvas-container {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        #content-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            z-index: 10;
+            pointer-events: none;
+        }
+
+        #logo-container {
+            margin-bottom: 40px;
+        }
+
+        #logo-container img {
+            max-width: 400px;
+            height: auto;
+            filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.3));
+        }
+
+        /* Placeholder logo styling - remove when actual logo is added */
+        .logo-placeholder {
+            width: 300px;
+            height: 150px;
+            background: linear-gradient(135deg, #FFD700, #FFA500, #FF6B35);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            font-weight: bold;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            margin: 0 auto;
+            box-shadow: 0 0 30px rgba(255, 215, 0, 0.5);
+        }
+
+        .date-text {
+            font-size: 28px;
+            font-weight: 600;
+            color: #FFD700;
+            text-shadow: 0 0 10px rgba(255, 215, 0, 0.5),
+                         2px 2px 4px rgba(0,0,0,0.8);
+            margin: 20px 0;
+            letter-spacing: 1px;
+        }
+
+        .cfp-text {
+            font-size: 22px;
+            font-weight: 500;
+            color: #FFA500;
+            text-shadow: 0 0 8px rgba(255, 165, 0, 0.5),
+                         2px 2px 4px rgba(0,0,0,0.8);
+            margin: 15px 0;
+            letter-spacing: 0.5px;
+        }
+
+        @media (max-width: 768px) {
+            .logo-placeholder {
+                width: 250px;
+                height: 125px;
+                font-size: 36px;
+            }
+
+            #logo-container img {
+                max-width: 300px;
+            }
+
+            .date-text {
+                font-size: 20px;
+                padding: 0 20px;
+            }
+
+            .cfp-text {
+                font-size: 18px;
+                padding: 0 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="canvas-container"></div>
+    <div id="content-overlay">
+        <div id="logo-container">
+            <!-- Replace the div below with: <img src="path/to/your/logo.png" alt="ELO 2026 Logo"> -->
+            <div class="logo-placeholder">ELO 2026</div>
+        </div>
+        <div class="date-text">
+            save the date: July 16th-18th | Online | University of Central Florida
+        </div>
+        <div class="cfp-text">
+            Call for Proposals Coming November 2025
+        </div>
+    </div>
+
+    <script src="sketch.js"></script>
+</body>
+</html>
