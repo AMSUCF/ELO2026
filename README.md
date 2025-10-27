@@ -4,8 +4,10 @@ An interactive P5.js animation for the ELO 2026 conference at the University of 
 
 ## Features
 
+- **Official ELO 2026 Logo**: Prominently displayed with glowing effects
 - **Static Electricity Effect**: Dynamic background animation with particles that create lightning-like connections
 - **Mouse Interaction**: The animation responds to mouse movement, creating stronger connections near the cursor
+- **Brand-Matched Colors**: Animation uses the vibrant color palette from the official logo (pink, cyan, orange, purple, green)
 - **Responsive Design**: Automatically adapts to different screen sizes
 - **GitHub Pages Ready**: Configured for easy deployment
 
@@ -17,19 +19,6 @@ An interactive P5.js animation for the ELO 2026 conference at the University of 
 - **Call for Proposals**: Coming November 2025
 
 ## Setup
-
-### Adding Your Logo
-
-1. Place your logo image in the repository (recommended: `assets/logo.png`)
-2. Open `index.html`
-3. Replace this line:
-   ```html
-   <div class="logo-placeholder">ELO 2026</div>
-   ```
-   with:
-   ```html
-   <img src="assets/logo.png" alt="ELO 2026 Logo">
-   ```
 
 ### Local Development
 
@@ -48,13 +37,15 @@ Simply open `index.html` in a web browser to view the animation locally.
 
 ### Colors
 
-The animation uses a warm color palette (golds, oranges) that complements typical ELO branding. To modify colors, edit the `colors` array in `sketch.js`:
+The animation uses a vibrant color palette extracted from the official ELO 2026 logo. To modify colors, edit the `colors` array in `sketch.js`:
 
 ```javascript
 colors = [
-    color(255, 215, 0, 150),    // Gold
-    color(255, 165, 0, 150),    // Orange
-    // Add or modify colors here
+    color(255, 105, 180, 150),  // Pink/Magenta
+    color(91, 111, 168, 150),   // Purple/Blue
+    color(255, 140, 66, 150),   // Orange
+    color(77, 213, 232, 150),   // Cyan/Light Blue
+    color(76, 175, 80, 150),    // Green
 ];
 ```
 

@@ -2,20 +2,20 @@
 let particles = [];
 let numParticles = 100;
 
-// Color palette - gold, orange, and warm colors
+// Color palette - vibrant colors from ELO logo
 let colors = [];
 
 function setup() {
     let canvas = createCanvas(windowWidth, windowHeight);
     canvas.parent('canvas-container');
 
-    // Initialize color palette
+    // Initialize color palette matching logo
     colors = [
-        color(255, 215, 0, 150),    // Gold
-        color(255, 165, 0, 150),    // Orange
-        color(255, 140, 0, 150),    // Dark Orange
-        color(255, 107, 53, 150),   // Red-Orange
-        color(255, 200, 100, 150),  // Light Gold
+        color(255, 105, 180, 150),  // Pink/Magenta
+        color(91, 111, 168, 150),   // Purple/Blue
+        color(255, 140, 66, 150),   // Orange
+        color(77, 213, 232, 150),   // Cyan/Light Blue
+        color(76, 175, 80, 150),    // Green
     ];
 
     // Create particles
@@ -52,7 +52,10 @@ function drawConnections() {
             // If particles are close enough, draw connection
             if (d < 120) {
                 let alpha = map(d, 0, 120, 100, 0);
-                stroke(255, 215, 0, alpha);
+                // Use a random color from palette for variety
+                let connectionColor = random(colors);
+                connectionColor.setAlpha(alpha);
+                stroke(connectionColor);
                 strokeWeight(map(d, 0, 120, 2, 0.5));
 
                 // Draw jagged lightning-like line
@@ -75,7 +78,10 @@ function drawMouseConnections() {
         // If mouse is close to particle, draw stronger connection
         if (d < 200) {
             let alpha = map(d, 0, 200, 200, 0);
-            stroke(255, 165, 0, alpha);
+            // Use cyan/pink for mouse connections (most prominent logo colors)
+            let mouseColor = random([colors[0], colors[3]]); // Pink or Cyan
+            mouseColor.setAlpha(alpha);
+            stroke(mouseColor);
             strokeWeight(map(d, 0, 200, 3, 0.5));
 
             // Draw jagged lightning-like line to mouse

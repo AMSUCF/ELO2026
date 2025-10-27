@@ -35,33 +35,17 @@
         }
 
         #logo-container img {
-            max-width: 400px;
+            max-width: 500px;
             height: auto;
-            filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.3));
-        }
-
-        /* Placeholder logo styling - remove when actual logo is added */
-        .logo-placeholder {
-            width: 300px;
-            height: 150px;
-            background: linear-gradient(135deg, #FFD700, #FFA500, #FF6B35);
-            border-radius: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 48px;
-            font-weight: bold;
-            color: white;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-            margin: 0 auto;
-            box-shadow: 0 0 30px rgba(255, 215, 0, 0.5);
+            filter: drop-shadow(0 0 30px rgba(77, 213, 232, 0.4))
+                    drop-shadow(0 0 20px rgba(255, 105, 180, 0.3));
         }
 
         .date-text {
             font-size: 28px;
             font-weight: 600;
-            color: #FFD700;
-            text-shadow: 0 0 10px rgba(255, 215, 0, 0.5),
+            color: #4DD5E8;
+            text-shadow: 0 0 10px rgba(77, 213, 232, 0.6),
                          2px 2px 4px rgba(0,0,0,0.8);
             margin: 20px 0;
             letter-spacing: 1px;
@@ -70,22 +54,16 @@
         .cfp-text {
             font-size: 22px;
             font-weight: 500;
-            color: #FFA500;
-            text-shadow: 0 0 8px rgba(255, 165, 0, 0.5),
+            color: #FF69B4;
+            text-shadow: 0 0 8px rgba(255, 105, 180, 0.6),
                          2px 2px 4px rgba(0,0,0,0.8);
             margin: 15px 0;
             letter-spacing: 0.5px;
         }
 
         @media (max-width: 768px) {
-            .logo-placeholder {
-                width: 250px;
-                height: 125px;
-                font-size: 36px;
-            }
-
             #logo-container img {
-                max-width: 300px;
+                max-width: 320px;
             }
 
             .date-text {
@@ -104,8 +82,7 @@
     <div id="canvas-container"></div>
     <div id="content-overlay">
         <div id="logo-container">
-            <!-- Replace the div below with: <img src="path/to/your/logo.png" alt="ELO 2026 Logo"> -->
-            <div class="logo-placeholder">ELO 2026</div>
+            <img src="elo.png" alt="ELO 2026 Logo">
         </div>
         <div class="date-text">
             save the date: July 16th-18th | Online | University of Central Florida
