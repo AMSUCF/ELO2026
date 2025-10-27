@@ -51,14 +51,8 @@ function drawConnections() {
 
             // If particles are close enough, draw connection
             if (d < 120) {
-                let alpha = map(d, 0, 120, 100, 0);
-                // Use a random color from palette for variety
-                let connectionColor = random(colors);
-                connectionColor.setAlpha(alpha);
-                stroke(connectionColor);
-                strokeWeight(map(d, 0, 120, 2, 0.5));
-
-                // Draw jagged lightning-like line
+                let alpha = map(d, 0, 120, 150, 0);
+                // Draw cartoony lightning-like line
                 drawLightning(
                     particles[i].pos.x, particles[i].pos.y,
                     particles[j].pos.x, particles[j].pos.y,
@@ -77,14 +71,8 @@ function drawMouseConnections() {
 
         // If mouse is close to particle, draw stronger connection
         if (d < 200) {
-            let alpha = map(d, 0, 200, 200, 0);
-            // Use cyan/pink for mouse connections (most prominent logo colors)
-            let mouseColor = random([colors[0], colors[3]]); // Pink or Cyan
-            mouseColor.setAlpha(alpha);
-            stroke(mouseColor);
-            strokeWeight(map(d, 0, 200, 3, 0.5));
-
-            // Draw jagged lightning-like line to mouse
+            let alpha = map(d, 0, 200, 220, 0);
+            // Draw cartoony lightning-like line to mouse
             drawLightning(
                 particle.pos.x, particle.pos.y,
                 mouseX, mouseY,
@@ -101,30 +89,61 @@ function drawMouseConnections() {
 }
 
 function drawLightning(x1, y1, x2, y2, alpha) {
-    let segments = 8;
-    let prevX = x1;
-    let prevY = y1;
+    let segments = 6;
+    let points = [{x: x1, y: y1}];
 
-    for (let i = 1; i <= segments; i++) {
+    // Generate jagged lightning path
+    for (let i = 1; i < segments; i++) {
         let t = i / segments;
         let x = lerp(x1, x2, t);
         let y = lerp(y1, y2, t);
 
-        // Add randomness to create jagged effect
-        if (i < segments) {
-            x += random(-5, 5);
-            y += random(-5, 5);
-        }
+        // Add more dramatic randomness for cartoony effect
+        let offset = random(-15, 15);
+        let angle = atan2(y2 - y1, x2 - x1) + HALF_PI;
+        x += cos(angle) * offset;
+        y += sin(angle) * offset;
 
-        // Randomly select color from palette
-        let col = random(colors);
-        col.setAlpha(alpha);
+        points.push({x: x, y: y});
+    }
+    points.push({x: x2, y: y2});
+
+    // Randomly select color from palette
+    let col = random(colors);
+    col.setAlpha(alpha);
+
+    // Draw cartoon outline (black)
+    stroke(0, 0, 0, alpha * 0.8);
+    strokeWeight(5);
+    for (let i = 0; i < points.length - 1; i++) {
+        line(points[i].x, points[i].y, points[i + 1].x, points[i + 1].y);
+    }
+
+    // Draw main lightning bolt
+    stroke(col);
+    strokeWeight(3);
+    for (let i = 0; i < points.length - 1; i++) {
+        line(points[i].x, points[i].y, points[i + 1].x, points[i + 1].y);
+    }
+
+    // Add small branches for extra cartoony effect (randomly)
+    if (random() > 0.7 && points.length > 2) {
+        let branchIdx = floor(random(1, points.length - 1));
+        let branchPoint = points[branchIdx];
+        let branchAngle = random(TWO_PI);
+        let branchLength = random(10, 20);
+        let branchX = branchPoint.x + cos(branchAngle) * branchLength;
+        let branchY = branchPoint.y + sin(branchAngle) * branchLength;
+
+        // Draw branch outline
+        stroke(0, 0, 0, alpha * 0.6);
+        strokeWeight(4);
+        line(branchPoint.x, branchPoint.y, branchX, branchY);
+
+        // Draw branch
         stroke(col);
-
-        line(prevX, prevY, x, y);
-
-        prevX = x;
-        prevY = y;
+        strokeWeight(2);
+        line(branchPoint.x, branchPoint.y, branchX, branchY);
     }
 }
 
@@ -139,12 +158,16 @@ class Particle {
         this.vel = createVector(random(-0.5, 0.5), random(-0.5, 0.5));
         this.acc = createVector(0, 0);
         this.maxSpeed = 2;
-        this.size = random(3, 8);
+        this.size = random(8, 16);
         this.color = random(colors);
 
         // Pulsing effect
         this.pulseOffset = random(TWO_PI);
         this.pulseSpeed = random(0.02, 0.05);
+
+        // Random rotation for triangles
+        this.rotation = random(TWO_PI);
+        this.rotationSpeed = random(-0.02, 0.02);
     }
 
     update() {
@@ -153,6 +176,9 @@ class Particle {
         this.vel.limit(this.maxSpeed);
         this.pos.add(this.vel);
         this.acc.mult(0);
+
+        // Update rotation
+        this.rotation += this.rotationSpeed;
 
         // Wrap around edges
         if (this.pos.x < 0) this.pos.x = width;
@@ -181,18 +207,37 @@ class Particle {
         let pulse = sin(frameCount * this.pulseSpeed + this.pulseOffset);
         let glowSize = map(pulse, -1, 1, this.size, this.size * 1.5);
 
-        // Draw glow
+        push();
+        translate(this.pos.x, this.pos.y);
+        rotate(this.rotation);
+
+        // Draw glow triangles
         noStroke();
         for (let i = 3; i > 0; i--) {
-            let alpha = map(i, 3, 0, 20, 100);
+            let alpha = map(i, 3, 0, 30, 120);
             this.color.setAlpha(alpha);
             fill(this.color);
-            circle(this.pos.x, this.pos.y, glowSize * (1 + i * 0.5));
+            let s = glowSize * (1 + i * 0.3);
+            this.drawTriangle(0, 0, s);
         }
 
-        // Draw core
+        // Draw core triangle with outline for cartoony effect
+        strokeWeight(2);
+        stroke(0, 0, 0, 200);
         this.color.setAlpha(255);
         fill(this.color);
-        circle(this.pos.x, this.pos.y, this.size);
+        this.drawTriangle(0, 0, this.size);
+
+        pop();
+    }
+
+    drawTriangle(x, y, size) {
+        // Draw equilateral triangle
+        let h = size * 0.866; // height of equilateral triangle
+        triangle(
+            x, y - h * 0.6,           // top point
+            x - size * 0.5, y + h * 0.4,  // bottom left
+            x + size * 0.5, y + h * 0.4   // bottom right
+        );
     }
 }
