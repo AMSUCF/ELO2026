@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Call for Proposals - ELO 2026</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@700&family=Righteous&display=swap" rel="stylesheet">
     <style>
         body {
@@ -12,17 +11,12 @@
             padding: 0;
             font-family: 'Righteous', 'Arial Black', sans-serif;
             background: #000;
+            background-image:
+                linear-gradient(rgba(40, 40, 40, 0.5) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(40, 40, 40, 0.5) 1px, transparent 1px);
+            background-size: 50px 50px;
             color: #fff;
             overflow-x: hidden;
-        }
-
-        #canvas-container {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
-            z-index: 0;
         }
 
         #content-wrapper {
@@ -235,7 +229,6 @@
     </style>
 </head>
 <body>
-    <div id="canvas-container"></div>
     <div id="content-wrapper">
         <div id="logo-container">
             <img src="elo.png" alt="ELO 2026 Logo">
@@ -312,7 +305,5 @@
             <p>Please direct all queries to the conference co-chairs: Anastasia Salter (anastasia at ucf.edu) and John Murray (jtm at ucf.edu) and logistical questions to PD Edgar (peter.edgar at ucf.edu).</p>
         </div>
     </div>
-
-    <script src="sketch.js"></script>
 </body>
 </html>
