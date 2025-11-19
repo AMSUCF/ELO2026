@@ -70,6 +70,36 @@
             letter-spacing: 1.5px;
         }
 
+        .submission-dates {
+            font-size: 32px;
+            font-weight: 700;
+            color: #FF69B4;
+            text-shadow: 0 0 25px rgba(255, 105, 180, 1),
+                         0 0 50px rgba(255, 105, 180, 0.6),
+                         0 0 75px rgba(255, 105, 180, 0.3),
+                         3px 3px 8px rgba(0,0,0,0.9);
+            margin: 25px 0 0 0;
+            letter-spacing: 2px;
+            text-align: center;
+            text-transform: uppercase;
+            animation: pulse-glow 3s ease-in-out infinite;
+        }
+
+        @keyframes pulse-glow {
+            0%, 100% {
+                text-shadow: 0 0 25px rgba(255, 105, 180, 1),
+                             0 0 50px rgba(255, 105, 180, 0.6),
+                             0 0 75px rgba(255, 105, 180, 0.3),
+                             3px 3px 8px rgba(0,0,0,0.9);
+            }
+            50% {
+                text-shadow: 0 0 35px rgba(255, 105, 180, 1),
+                             0 0 70px rgba(255, 105, 180, 0.8),
+                             0 0 105px rgba(255, 105, 180, 0.5),
+                             3px 3px 8px rgba(0,0,0,0.9);
+            }
+        }
+
         .content-section {
             background: rgba(0, 0, 0, 0.7);
             padding: 30px;
@@ -176,6 +206,12 @@
                 font-size: 22px;
             }
 
+            .submission-dates {
+                font-size: 22px;
+                padding: 0 20px;
+                letter-spacing: 1.5px;
+            }
+
             .content-section {
                 padding: 20px;
             }
@@ -210,6 +246,7 @@
         <div class="content-section">
             <h2>Conference Call for Proposals</h2>
             <p>We invite submissions for presentations, performances, and exhibition pieces at the annual Electronic Literature Organization Conference (ELO), to be hosted fully online July 15-18, 2026 by a team based at the University of Central Florida with collaborators around the world.</p>
+            <p class="submission-dates">Submissions open December 2025 through January 30th, 2026!</p>
         </div>
 
         <div class="content-section">
