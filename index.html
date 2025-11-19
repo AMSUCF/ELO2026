@@ -55,28 +55,44 @@
         }
 
         .cfp-text {
-            font-size: 26px;
+            font-size: 36px;
             font-weight: 700;
             color: #FF69B4;
-            text-shadow: 0 0 15px rgba(255, 105, 180, 0.8),
-                         0 0 30px rgba(255, 105, 180, 0.4),
-                         3px 3px 6px rgba(0,0,0,0.9);
-            margin: 20px 0;
-            letter-spacing: 1.5px;
+            text-shadow: 0 0 25px rgba(255, 105, 180, 1),
+                         0 0 50px rgba(255, 105, 180, 0.6),
+                         0 0 75px rgba(255, 105, 180, 0.3),
+                         3px 3px 8px rgba(0,0,0,0.9);
+            margin: 20px 0 10px 0;
+            letter-spacing: 2px;
             pointer-events: auto;
+            text-transform: uppercase;
         }
 
         .cfp-text a {
             color: #FF69B4;
             text-decoration: none;
             transition: all 0.3s ease;
+            display: inline-block;
         }
 
         .cfp-text a:hover {
             color: #4DD5E8;
-            text-shadow: 0 0 20px rgba(77, 213, 232, 0.9),
-                         0 0 40px rgba(77, 213, 232, 0.5),
+            text-shadow: 0 0 30px rgba(77, 213, 232, 1),
+                         0 0 60px rgba(77, 213, 232, 0.7),
+                         0 0 90px rgba(77, 213, 232, 0.4),
+                         3px 3px 8px rgba(0,0,0,0.9);
+            transform: scale(1.05);
+        }
+
+        .submission-info {
+            font-size: 20px;
+            font-weight: 700;
+            color: #4DD5E8;
+            text-shadow: 0 0 15px rgba(77, 213, 232, 0.6),
+                         0 0 30px rgba(77, 213, 232, 0.3),
                          3px 3px 6px rgba(0,0,0,0.9);
+            margin: 10px 0 20px 0;
+            letter-spacing: 1px;
         }
 
         @media (max-width: 768px) {
@@ -91,9 +107,14 @@
             }
 
             .cfp-text {
-                font-size: 20px;
+                font-size: 24px;
                 padding: 0 20px;
-                letter-spacing: 1px;
+                letter-spacing: 1.5px;
+            }
+
+            .submission-info {
+                font-size: 16px;
+                padding: 0 20px;
             }
         }
     </style>
@@ -108,7 +129,10 @@
             Save the Date: July 15th-18th | Online | University of Central Florida
         </div>
         <div class="cfp-text">
-            <a href="cfp.html">CFP available now | Submissions opening in December</a>
+            <a href="cfp.html">CFP Available Now</a>
+        </div>
+        <div class="submission-info">
+            Submissions opening in December
         </div>
     </div>
 
