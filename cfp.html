@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call for Proposals - ELO 2026</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@700&family=Righteous&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Righteous', 'Arial Black', sans-serif;
+            background: #000;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        #canvas-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: 0;
+        }
+
+        #content-wrapper {
+            position: relative;
+            z-index: 10;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px 60px;
+        }
+
+        #logo-container {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-top: 20px;
+        }
+
+        #logo-container img {
+            max-width: 400px;
+            height: auto;
+            filter: drop-shadow(0 0 30px rgba(77, 213, 232, 0.4))
+                    drop-shadow(0 0 20px rgba(255, 105, 180, 0.3));
+        }
+
+        .main-title {
+            font-size: 48px;
+            font-weight: 700;
+            color: #4DD5E8;
+            text-shadow: 0 0 20px rgba(77, 213, 232, 0.8),
+                         0 0 40px rgba(77, 213, 232, 0.4),
+                         3px 3px 6px rgba(0,0,0,0.9);
+            margin: 30px 0;
+            text-align: center;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .subtitle {
+            font-size: 28px;
+            font-weight: 700;
+            color: #FF69B4;
+            text-shadow: 0 0 15px rgba(255, 105, 180, 0.8),
+                         0 0 30px rgba(255, 105, 180, 0.4),
+                         3px 3px 6px rgba(0,0,0,0.9);
+            margin: 25px 0;
+            letter-spacing: 1.5px;
+        }
+
+        .content-section {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            margin: 30px 0;
+            border-radius: 10px;
+            border: 2px solid rgba(77, 213, 232, 0.3);
+            box-shadow: 0 0 20px rgba(77, 213, 232, 0.2);
+        }
+
+        .content-section h2 {
+            color: #4DD5E8;
+            font-size: 32px;
+            margin-top: 0;
+            margin-bottom: 20px;
+            text-shadow: 0 0 15px rgba(77, 213, 232, 0.6);
+        }
+
+        .content-section h3 {
+            color: #FF69B4;
+            font-size: 24px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            text-shadow: 0 0 10px rgba(255, 105, 180, 0.6);
+        }
+
+        .content-section p {
+            line-height: 1.8;
+            font-size: 16px;
+            margin-bottom: 15px;
+            font-family: Arial, sans-serif;
+            color: #e0e0e0;
+        }
+
+        .content-section em {
+            color: #FF69B4;
+            font-style: italic;
+        }
+
+        .content-section strong {
+            color: #4DD5E8;
+        }
+
+        .topics-container {
+            display: flex;
+            align-items: flex-start;
+            gap: 30px;
+            margin: 20px 0;
+        }
+
+        .topics-image {
+            flex-shrink: 0;
+        }
+
+        .topics-image img {
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(77, 213, 232, 0.3);
+        }
+
+        .topics-list {
+            flex: 1;
+        }
+
+        .content-section ul {
+            list-style: none;
+            padding-left: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .content-section li {
+            padding: 10px 0;
+            font-size: 16px;
+            color: #e0e0e0;
+            position: relative;
+            padding-left: 30px;
+        }
+
+        .content-section li:before {
+            content: "▸";
+            position: absolute;
+            left: 0;
+            color: #FF69B4;
+            font-size: 20px;
+        }
+
+        .timeline-list {
+            background: rgba(77, 213, 232, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #4DD5E8;
+        }
+
+        @media (max-width: 768px) {
+            #logo-container img {
+                max-width: 280px;
+            }
+
+            .main-title {
+                font-size: 32px;
+            }
+
+            .subtitle {
+                font-size: 22px;
+            }
+
+            .content-section {
+                padding: 20px;
+            }
+
+            .content-section h2 {
+                font-size: 26px;
+            }
+
+            .content-section h3 {
+                font-size: 20px;
+            }
+
+            .topics-container {
+                flex-direction: column;
+            }
+
+            .topics-image img {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="canvas-container"></div>
+    <div id="content-wrapper">
+        <div id="logo-container">
+            <img src="elo.png" alt="ELO 2026 Logo">
+        </div>
+
+        <h1 class="main-title">(UN)SUPERVISED: ELO 2026</h1>
+
+        <div class="content-section">
+            <h2>Conference Call for Proposals</h2>
+            <p>We invite submissions for presentations, performances, and exhibition pieces at the annual Electronic Literature Organization Conference (ELO), to be hosted fully online July 15-18, 2026 by a team based at the University of Central Florida with collaborators around the world.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>Theme</h2>
+            <p>The theme of ELOnline 2026 is <em>(Un)Supervised</em>. One interpretation of this might regard a kind of LLM development, but we also consider perennial questions in the field around who is watching, who is reading, and who is learning about Electronic Literature, especially E-Lit cultures outside this institution. We particularly encourage submissions that center on computational research questions and generativity and the university as spaces where community and computational creativity are contested by many actors and parties. We invite attention to both un-institutioning (such as the decoupling of the federal government from research initiatives at public and international institutions) and the adaptive, critical, reflexive processes of institution-building, maintenance, and reinforcement (initiatives, pedagogies, technologies, labs, partnerships, research organizations, platforms, large-language-models, publications, etc.).</p>
+
+            <p>As part of this theme, we invite submissions in celebration of the E-Literary arts (note ELC5) across all formats exploring the trajectories of the web, academia, and social platforms as sites of electronic literature making, community care, and movement. Topics of particular interest include:</p>
+
+            <div class="topics-container">
+                <div class="topics-image">
+                    <img src="themes.png" alt="Conference Themes">
+                </div>
+                <div class="topics-list">
+                    <ul>
+                        <li>E-Lit Access, Anthologies, + Archivism</li>
+                        <li>Emerging + Migrating E-Lit Networks, Community, + Platforms</li>
+                        <li>Critical Making, Digital Humanities, + E-Lit Criticism</li>
+                        <li>Generative / Agentic AI + Computational Creativity</li>
+                        <li>Institutional Imaginaries After Federal Withdrawal</li>
+                        <li>Theories, Aesthetics, + Praxes of Resistance</li>
+                        <li>Anti-Racist, Feminist, + Queer Edu-Labor</li>
+                        <li>Twine + Hypertext [Non]Fictions & Poetics</li>
+                        <li>Mixed + Extended Reality + Imaginaries</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2>Submission Categories</h2>
+
+            <h3>Panels</h3>
+            <p>Panels or roundtables of 3 to 6 participants are welcome. We encourage groups proposing panels to prioritize engaging formats, rather than simply organizing a series of long talks. Panels will be scheduled live on Zoom in 75 minute blocks. For panel submissions, please provide a 350 to 500-word abstract of the session, anonymized for peer review.</p>
+
+            <h3>Individual Talks</h3>
+            <p>Individual talks (10 to 12 minutes) will be organized into sessions based on common themes. For an individual talk, please provide a 250-300 word individual abstract, anonymized for peer review.</p>
+
+            <h3>Workshops</h3>
+            <p>Workshops focused on specific skills, technologies, platforms, and techniques of interest to practitioners and/or scholars of electronic literature are welcome. For a workshop, please provide a 250-300 word individual abstract, anonymized for peer review, and any details about needs or timeslot requirements.</p>
+
+            <h3>Performances</h3>
+            <p>Due to the online-only format of the conference, all performances should be suitable for Zoom, and participants are particularly encouraged to make use of the distant modality and interface as part of their performance. For performance submissions, please provide a 350 – 500-word artist statement detailing the aesthetic intentions and structure of the piece. Statements should be anonymized for peer review. Performers should keep in mind the constraints of a 10 to 12-minute time slot.</p>
+
+            <h3>Online Exhibition</h3>
+            <p>Due to the online-only format of the conference, all exhibition pieces must be designed for web deployment using web standard technologies and hosted on UCF's server space. We particularly encourage work engaging thoughtfully with the constraints and affordances of the web, and pointing towards the past, present, and imagined futures of hypertext literature. All works should include disclosure and reflection on any platforms or tools used, particularly those involving generative or agentic AI. For exhibition submissions, please provide a 350 – 500-word artist statement detailing the aesthetic intentions and structure of the piece. If available, please provide a URL of the work or a demonstration of the concept in-progress.</p>
+
+            <h3>Experimental Track</h3>
+            <p>The experimental track invites participants to propose alternative platforms and modalities for sessions, ranging from text chat to in-game meetings. Hosts of experimental track sessions are responsible for access and moderation to their proposed platform for the duration of their sessions, and are asked to consider the environmental impact and accessibility of their approach as a means for exploring future conference modalities and opportunities. For experimental track proposals, please provide a 350 – 500-word abstract of the session, anonymized for peer review.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>Timeline</h2>
+            <p>Our submission portal will open in December. The expected timeline for review is as follows:</p>
+            <ul class="timeline-list">
+                <li><strong>Submission Deadline:</strong> January 30th, 2026</li>
+                <li><strong>Notifications of Acceptance:</strong> March 15, 2026</li>
+                <li><strong>Final Exhibition Pieces and Updated Abstracts Due:</strong> May 15, 2026</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>Questions?</h2>
+            <p>Please direct all queries to the conference co-chairs: Anastasia Salter (anastasia at ucf.edu) and John Murray (jtm at ucf.edu) and logistical questions to PD Edgar (peter.edgar at ucf.edu).</p>
+        </div>
+    </div>
+
+    <script src="sketch.js"></script>
+</body>
+</html>
