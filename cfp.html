@@ -79,6 +79,33 @@
             animation: pulse-glow 3s ease-in-out infinite;
         }
 
+        .submit-button {
+            display: inline-block;
+            margin: 30px 0;
+            padding: 20px 40px;
+            font-size: 28px;
+            font-weight: 700;
+            color: #FF69B4;
+            background: rgba(0, 0, 0, 0.9);
+            border: 3px solid #FF69B4;
+            border-radius: 15px;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 25px rgba(255, 105, 180, 0.6),
+                        0 0 50px rgba(255, 105, 180, 0.3);
+        }
+
+        .submit-button:hover {
+            color: #4DD5E8;
+            border-color: #4DD5E8;
+            background: rgba(0, 0, 0, 1);
+            box-shadow: 0 0 35px rgba(77, 213, 232, 0.8),
+                        0 0 70px rgba(77, 213, 232, 0.5);
+            transform: scale(1.05);
+        }
+
         @keyframes pulse-glow {
             0%, 100% {
                 text-shadow: 0 0 25px rgba(255, 105, 180, 1),
@@ -206,6 +233,12 @@
                 letter-spacing: 1.5px;
             }
 
+            .submit-button {
+                font-size: 20px;
+                padding: 15px 30px;
+                margin: 20px 0;
+            }
+
             .content-section {
                 padding: 20px;
             }
@@ -239,7 +272,10 @@
         <div class="content-section">
             <h2>Conference Call for Proposals</h2>
             <p>We invite submissions for presentations, performances, and exhibition pieces at the annual Electronic Literature Organization Conference (ELO), to be hosted fully online July 15-18, 2026 by a team based at the University of Central Florida with collaborators around the world.</p>
-            <p class="submission-dates">Submissions open December 2025 through January 30th, 2026!</p>
+            <p class="submission-dates">Submissions Now Open Through January 30th, 2026!</p>
+            <p style="text-align: center;">
+                <a href="https://stars.library.ucf.edu/elo2026/" target="_blank" class="submit-button">Submit Your Proposal</a>
+            </p>
         </div>
 
         <div class="content-section">
@@ -292,7 +328,7 @@
 
         <div class="content-section">
             <h2>Timeline</h2>
-            <p>Our submission portal will open in December. The expected timeline for review is as follows:</p>
+            <p>Our submission portal is now open at <a href="https://stars.library.ucf.edu/elo2026/" target="_blank" style="color: #4DD5E8; text-decoration: underline;">stars.library.ucf.edu/elo2026</a>. The timeline for review is as follows:</p>
             <ul class="timeline-list">
                 <li><strong>Submission Deadline:</strong> January 30th, 2026</li>
                 <li><strong>Notifications of Acceptance:</strong> March 15, 2026</li>
