@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-17T17:33:58Z",
+  "generated": "2026-07-17T19:35:53Z",
   "source": "https://stars.library.ucf.edu/elo2026/combined_schedule/",
   "events": [
     {
@@ -514,7 +514,8 @@
       "type": "Performance",
       "start": "2026-07-16T23:00:00Z",
       "end": "2026-07-17T00:30:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/7d/bb/33/7dbb33fa898acd17341e81ed191c4fccd968bc0e2c235d342b27a96025b362fc.m3u8"
     },
     {
       "title": "\"I Believe You\": Unsupervised Unlearning in a Human–AI Philosophical Encounter",
@@ -524,7 +525,8 @@
       "type": "Individual Talk",
       "start": "2026-07-17T13:15:00Z",
       "end": "2026-07-17T14:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/79/84/d9/7984d95a9a1421106587459e99461ca9debe988c8f148c894077f63f966e3f62.m3u8"
     },
     {
       "title": "A Machine That Eats Books: Reflecting on the Impact of AI on Our Understanding of Reality Through Inkle’s TR-49",
@@ -534,7 +536,8 @@
       "type": "Individual Talk",
       "start": "2026-07-17T13:15:00Z",
       "end": "2026-07-17T14:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/e6/d0/b0/e6d0b04237e00dd67408760746cf0c2833cde37dde32add6e7ab29019a1f0f4b.m3u8"
     },
     {
       "title": "AFOA.NZ / A Flight Over Aotearoa New Zealand: Epistolary E-Lit in an Interactive Videobook for Children",
@@ -544,7 +547,8 @@
       "type": "Individual Talk",
       "start": "2026-07-17T13:15:00Z",
       "end": "2026-07-17T14:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/dd/ac/aa/ddacaaba5c603052fe6ca00e4ed34c44b4794ff9f02221e0279cbaa738771d61.m3u8"
     },
     {
       "title": "Blurring Ontologies: An Analysis of Metalepsis in Mark C. Marino’s Living Will (2010)",
@@ -554,7 +558,8 @@
       "type": "Individual Talk",
       "start": "2026-07-17T13:15:00Z",
       "end": "2026-07-17T14:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/f3/ad/0d/f3ad0da876771fc00705949f3f624b5753d65c505e461486f6be9053dd59cc58.m3u8"
     },
     {
       "title": "Coaxing the Ripples: thoughts on distant writing of interactive works",
@@ -564,7 +569,8 @@
       "type": "Individual Talk",
       "start": "2026-07-17T13:15:00Z",
       "end": "2026-07-17T14:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/dc/e4/a8/dce4a836cebb47c68b9d07c067242a4919ea25989d36df88522a60628c1420f8.m3u8"
     },
     {
       "title": "Exploring fractures in the intimate technology shaping millions of lives",
@@ -624,7 +630,8 @@
       "type": "Individual Talk",
       "start": "2026-07-17T13:15:00Z",
       "end": "2026-07-17T14:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/4c/16/b6/4c16b6f20472f771837a5abc876c0be4cbf78a28c5028bedf6853b3508cb47f9.m3u8"
     },
     {
       "title": "Water Songs: An artist’s talk discussing “Documenting the Imperceptible”",
@@ -634,7 +641,8 @@
       "type": "Individual Talk",
       "start": "2026-07-17T13:15:00Z",
       "end": "2026-07-17T14:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/f2/60/d4/f260d4d02215fe862b8d52102706513488e5f2b09200cfa8eee2a6bd8d9a0b71.m3u8"
     },
     {
       "title": "(Un)Supervised Translation: How Fans Fill in the Gaps in Visual Novel Localization",
