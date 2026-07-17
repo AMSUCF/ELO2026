@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T19:36:12Z",
+  "generated": "2026-07-17T01:45:18Z",
   "source": "https://stars.library.ucf.edu/elo2026/combined_schedule/",
   "events": [
     {
@@ -64,17 +64,8 @@
       "type": "Workshop",
       "start": "2026-07-15T18:15:00Z",
       "end": "2026-07-15T19:15:00Z",
-      "featured": false
-    },
-    {
-      "title": "The Shadow of Situationism: AI-Generated Poetry at the Avant-Garde of the Avant-Garde",
-      "url": "https://stars.library.ucf.edu/elo2026/algorithmsandimaginaries/schedule/3",
-      "presenters": "Francisco Reyes Betancourtt, University of California, Irvine",
-      "track": "Algorithms & Imaginaries",
-      "type": "Individual Talk",
-      "start": "2026-07-15T18:15:00Z",
-      "end": "2026-07-15T19:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/59/cd/6b/59cd6b09cddcd4e1848802e28511e937705c455b301270f61acab6dc9826249d.m3u8"
     },
     {
       "title": "Words Have Their Final Weapon: AI and Six Decades of Generating “Japanese Poetry”",
@@ -95,7 +86,8 @@
       "type": "Workshop",
       "start": "2026-07-15T19:30:00Z",
       "end": "2026-07-15T20:30:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/d0/c0/b2/d0c0b2bae56379fcb2be359c592f3fd4b7f5c14bc5acc723a9249058509f8704.m3u8"
     },
     {
       "title": "High-Performance Spatial Text: Ludic Constriction and Narrative Performance in XR Game Engines",
@@ -105,7 +97,8 @@
       "type": "Workshop",
       "start": "2026-07-15T19:30:00Z",
       "end": "2026-07-15T20:30:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/46/a3/05/46a30534138998143902b5aa9cd412c643872622314647a8053a1109ab8a1471.m3u8"
     },
     {
       "title": "Making the Writer’s Project",
@@ -159,7 +152,8 @@
       "type": "Panel",
       "start": "2026-07-15T20:45:00Z",
       "end": "2026-07-15T21:45:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/e3/a9/2f/e3a92fd7b5910691a6212eb048b1f608a01d8cbb24ea65afada780e219e6336a.m3u8"
     },
     {
       "title": "Out Of This World: An Exoplanetary Workshop",
@@ -169,7 +163,8 @@
       "type": "Workshop",
       "start": "2026-07-15T20:45:00Z",
       "end": "2026-07-15T21:45:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/cd/7d/90/cd7d90af4a2544c33a099dfedaffb87eb5869efc07d4d63929fdef9f72fddf29.m3u8"
     },
     {
       "title": "ELO (Un)Supervised Exhibition Launch",
@@ -179,7 +174,8 @@
       "type": "Plenary",
       "start": "2026-07-15T23:00:00Z",
       "end": "2026-07-16T00:30:00Z",
-      "featured": true
+      "featured": true,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/f0/a2/90/f0a2905f1814736218059fb6ae26b66a88a6f50eab2b5806d035b801492d440c.m3u8"
     },
     {
       "title": "Coercing Contribution: Navigating Involuntary Authors through a Mountain of Sleep",
@@ -219,7 +215,8 @@
       "type": "Individual Talk",
       "start": "2026-07-16T13:15:00Z",
       "end": "2026-07-16T14:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/61/79/74/617974c23db083751cec85a93dc8b96c484d868f4ff5a3f703dca123ceeda057.m3u8"
     },
     {
       "title": "Publishing Electronic Literature Research in Metric-Driven Academia: A Roadmap for Electronic Literature Scholars",
@@ -229,7 +226,8 @@
       "type": "Workshop",
       "start": "2026-07-16T13:15:00Z",
       "end": "2026-07-16T14:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/36/34/8a/36348a031aaef6aed9641e17e3ef58c99d7c746b20930b11183122aba487de1d.m3u8"
     },
     {
       "title": "Reimaging Authorship in Contemporary Chinese Poetry",
@@ -260,7 +258,8 @@
       "type": "Individual Talk",
       "start": "2026-07-16T14:30:00Z",
       "end": "2026-07-16T15:30:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/20/14/c5/2014c5a7700cd7d3ddca6ec6a7972f013f1d5e6e85f7e5a356323302291811b5.m3u8"
     },
     {
       "title": "A multi-language video game dialogue corpus",
@@ -290,7 +289,8 @@
       "type": "Individual Talk",
       "start": "2026-07-16T14:30:00Z",
       "end": "2026-07-16T15:30:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/cc/9b/6f/cc9b6f7176ce7f16e3bbacb4e1ed3716a5c4f512fc0462612abfbe429d42f86f.m3u8"
     },
     {
       "title": "Miniature Novels Inside Code: Reflection Scenes as Emergent Literary Form in ChoiceScript",
@@ -320,7 +320,8 @@
       "type": "Individual Talk",
       "start": "2026-07-16T14:30:00Z",
       "end": "2026-07-16T15:30:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/df/56/90/df56901b78fbfd45b6d6fbb89566ec9a97d91b3c4fc6a3c0a4b0f1b1d3c199f4.m3u8"
     },
     {
       "title": "Portuguese Net Art and e-Poetics",
@@ -330,7 +331,8 @@
       "type": "Panel",
       "start": "2026-07-16T14:30:00Z",
       "end": "2026-07-16T15:30:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/02/7a/e3/027ae317766d3a6f3191b106a54bd1fa14017d818333ab4c05bc8096b43b1f73.m3u8"
     },
     {
       "title": "Quilt Poems: Encoding Craft Traditions as Generative Poetry",
@@ -340,7 +342,8 @@
       "type": "Individual Talk",
       "start": "2026-07-16T14:30:00Z",
       "end": "2026-07-16T15:30:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/44/e6/b4/44e6b4188d8007b21ed35d6294b5320dd876f65c97a81f9cca8b79b6fef92c6f.m3u8"
     },
     {
       "title": "(Un)easily Writing the Future",
@@ -506,16 +509,6 @@
       "title": "Hacking Stone Moons: Or, a Re-viving a still born child A behind-the-scenes melodrama in three acts.",
       "url": "https://stars.library.ucf.edu/elo2026/algorithmsandimaginaries/schedule/18",
       "presenters": "Deena Larsen, Independent Claire Leyden, WSUV Quinn Carrick, WSUV Jenn Duyen, WSUV",
-      "track": "Algorithms & Imaginaries",
-      "type": "Performance",
-      "start": "2026-07-16T23:00:00Z",
-      "end": "2026-07-17T00:30:00Z",
-      "featured": false
-    },
-    {
-      "title": "The Female Voice, The Male Gaze: AI Colonial Paradox and African Feminist Futures",
-      "url": "https://stars.library.ucf.edu/elo2026/algorithmsandimaginaries/schedule/19",
-      "presenters": "Aishat Olayetunde Isiaq Mrs, The Nigeria French Language Village Ajara Badagry Lagos, Nigeria",
       "track": "Algorithms & Imaginaries",
       "type": "Performance",
       "start": "2026-07-16T23:00:00Z",
