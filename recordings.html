@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recordings On Demand — ELO 2026 (un)supervised</title>
+    <meta name="description" content="Watch ELO 2026 (un)supervised conference recordings on demand. Browse playlists by track, session type, or topic. Streamed from the STARS repository.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@700&family=Press+Start+2P&family=Righteous&family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="recordings.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="content-wrapper">
+        <header class="logo-header">
+            <nav aria-label="Site navigation">
+                <div class="cta-row header-nav">
+                    <a href="index.html" class="cta-button">ELO 2026 Home</a>
+                    <a href="schedule.html" class="cta-button">Full Schedule</a>
+                </div>
+            </nav>
+            <img src="elo.png" alt="" width="400" height="170">
+            <h1 class="glow-heading">Recordings On Demand</h1>
+            <p class="tagline">The (un)supervised sessions, anytime</p>
+        </header>
+
+        <main id="main">
+            <div class="rec-layout">
+                <!-- Player -->
+                <section class="rec-player-col" aria-label="Now playing">
+                    <div class="crt">
+                        <div class="crt-bezel">
+                            <span class="crt-led" aria-hidden="true"></span>
+                            <span class="crt-nowplaying">&#9654; NOW PLAYING</span>
+                            <span class="crt-count" id="rec-position"></span>
+                        </div>
+                        <div class="crt-screen">
+                            <div class="video-holder" id="video-holder">
+                                <p class="crt-idle" id="crt-idle">Pick a recording to start the tape &#9656;</p>
+                            </div>
+                            <div class="scanlines" aria-hidden="true"></div>
+                        </div>
+                    </div>
+                    <div class="now-meta" id="now-meta"></div>
+                    <div class="rec-transport">
+                        <button type="button" id="rec-prev" class="pixel-btn">&#9664; Prev</button>
+                        <label class="autoplay-toggle"><input type="checkbox" id="rec-autoplay" checked> Autoplay next</label>
+                        <button type="button" id="rec-next" class="pixel-btn">Next &#9654;</button>
+                    </div>
+                </section>
+
+                <!-- Playlists / browser -->
+                <section class="rec-list-col" aria-label="Recording playlists">
+                    <div class="rec-browse">
+                        <span class="rec-browse-label">Browse by</span>
+                        <div class="rec-tabs" role="tablist" id="rec-tabs" aria-label="Group recordings by">
+                            <button role="tab" type="button" class="rec-tab" data-dim="track" aria-selected="true">Track</button>
+                            <button role="tab" type="button" class="rec-tab" data-dim="type" aria-selected="false">Session type</button>
+                            <button role="tab" type="button" class="rec-tab" data-dim="tag" aria-selected="false">Topic</button>
+                        </div>
+                    </div>
+                    <input type="search" id="rec-search" class="rec-search" placeholder="Search recordings by title or presenter…" aria-label="Search recordings">
+                    <div class="rec-chips" id="rec-chips" role="group" aria-label="Playlists"></div>
+                    <p class="rec-count" id="rec-count" aria-live="polite"></p>
+                    <ol class="rec-list" id="rec-list"></ol>
+                </section>
+            </div>
+            <p class="rec-source-note">Recordings stream from the
+                <a href="https://stars.library.ucf.edu/elo2026/" target="_blank" rel="noopener">STARS repository</a>.
+                Not every session has a recording yet &mdash; more are added as they are processed.
+                Topics are auto-tagged from session titles.</p>
+        </main>
+    </div>
+    <footer class="site-footer">
+        <p>ELO (un)supervised 2026 &middot; <a href="schedule.html">Full schedule</a>
+        &middot; <a href="https://stars.library.ucf.edu/elo2026/">Conference repository on STARS</a></p>
+    </footer>
+    <script type="module" src="js/recordings.js"></script>
+</body>
+</html>
