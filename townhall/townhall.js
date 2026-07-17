@@ -357,6 +357,55 @@
       s.style.setProperty("--drift", (Math.random() * 50 - 25).toFixed(0) + "px");
       bubbles.appendChild(s);
     }
+    // fish swim across the water world and off-screen
+    var fishLayer = document.getElementById("fx-fish");
+    for (i = 0; i < 7; i++) {
+      var f = document.createElement("span");
+      var w = 34 + Math.random() * 44;
+      f.style.width = w.toFixed(0) + "px";
+      f.style.height = (w * 0.58).toFixed(0) + "px";
+      f.style.top = (8 + Math.random() * 72) + "%";
+      var dur = 14 + Math.random() * 16;
+      f.style.animationDuration = dur.toFixed(1) + "s";
+      f.style.animationDelay = (-Math.random() * dur).toFixed(1) + "s";
+      if (Math.random() < 0.5) {
+        f.className = "fish";
+        f.style.setProperty("--from", "-140px");
+        f.style.setProperty("--to", "calc(100vw + 140px)");
+      } else {
+        f.className = "fish flip";
+        f.style.setProperty("--from", "calc(100vw + 140px)");
+        f.style.setProperty("--to", "-140px");
+      }
+      var body = document.createElement("i");
+      body.style.filter = "hue-rotate(" + ((Math.random() * 360) | 0) + "deg)";
+      f.appendChild(body);
+      fishLayer.appendChild(f);
+    }
+    // birds glide through the sky (land + beach worlds), as silhouettes
+    var birdLayer = document.getElementById("fx-birds");
+    for (i = 0; i < 5; i++) {
+      var bd = document.createElement("span");
+      bd.className = "bird";
+      var bw = 24 + Math.random() * 24;
+      bd.style.width = bw.toFixed(0) + "px";
+      bd.style.height = (bw * 0.4).toFixed(0) + "px";
+      bd.style.top = (4 + Math.random() * 30) + "%";
+      var bdur = 20 + Math.random() * 20;
+      bd.style.animationDuration = bdur.toFixed(1) + "s";
+      bd.style.animationDelay = (-Math.random() * bdur).toFixed(1) + "s";
+      if (Math.random() < 0.5) {
+        bd.style.setProperty("--from", "-120px");
+        bd.style.setProperty("--to", "calc(100vw + 120px)");
+      } else {
+        bd.style.setProperty("--from", "calc(100vw + 120px)");
+        bd.style.setProperty("--to", "-120px");
+      }
+      var wing = document.createElement("i");
+      wing.style.animationDelay = (-Math.random()).toFixed(2) + "s";
+      bd.appendChild(wing);
+      birdLayer.appendChild(bd);
+    }
   }
 
   /* ---- boot ---- */

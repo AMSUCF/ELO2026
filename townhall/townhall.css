@@ -130,19 +130,13 @@ img { image-rendering: pixelated; }
 /* pixel clouds, seamlessly tiled, drift with slow parallax
    (parallax done in JS via background-position-x, so repeat-x = no edges) */
 .layer-clouds {
-  top: 3%;
+  top: 4%;
   width: 100%;
   height: 70%;
-  background-image:
-    radial-gradient(closest-side, rgba(255,255,255,1)    96%, transparent 100%),
-    radial-gradient(closest-side, rgba(255,255,255,0.72) 96%, transparent 100%),
-    radial-gradient(closest-side, rgba(255,255,255,0.9)  96%, transparent 100%),
-    radial-gradient(closest-side, rgba(255,255,255,0.55) 96%, transparent 100%),
-    radial-gradient(closest-side, rgba(255,255,255,0.82) 96%, transparent 100%),
-    radial-gradient(closest-side, rgba(255,255,255,0.62) 96%, transparent 100%);
+  background-image: url("clouds.svg");
   background-repeat: repeat-x;
-  background-size: 250px 76px, 170px 52px, 300px 90px, 140px 44px, 210px 64px, 180px 50px;
-  background-position: 20px 6%, 150px 30%, 330px 17%, 90px 52%, 260px 70%, 400px 42%;
+  background-size: 1200px 300px;
+  background-position: 0 0;
   will-change: background-position;
 }
 
@@ -183,8 +177,8 @@ img { image-rendering: pixelated; }
 /* LAND — continuous rolling grassland hills (two shades + bushes) instead of loose bumps */
 #game[data-world="land"] .layer-hills {
   bottom: 84px; height: 220px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='220' viewBox='0 0 400 220'%3E%3Cpath d='M0 104 C66 104 134 168 200 168 C266 168 334 104 400 104 L400 220 L0 220 Z' fill='%236cc35a'/%3E%3Cpath d='M0 188 C66 188 134 96 200 96 C266 96 334 188 400 188 L400 220 L0 220 Z' fill='%233ea23a'/%3E%3Cellipse cx='118' cy='214' rx='30' ry='20' fill='%232f8a30'/%3E%3Cellipse cx='300' cy='216' rx='26' ry='18' fill='%232f8a30'/%3E%3C/svg%3E");
-  background-size: 400px 220px;
+  background-image: url("hills.svg");
+  background-size: 800px 220px;
   background-position: 0 bottom;
 }
 
@@ -745,12 +739,24 @@ a:focus-visible, button:focus-visible {
 }
 #world-banner.show { animation: worldbanner 1500ms ease-out; }
 
-#fx-embers, #fx-bubbles {
+#fx-embers, #fx-bubbles, #fx-fish, #fx-birds {
   position: absolute; inset: 0; z-index: 2; pointer-events: none;
   overflow: hidden; opacity: 0; transition: opacity 0.5s ease;
 }
 #game[data-world="fire"] #fx-embers { opacity: 1; }
 #game[data-world="water"] #fx-bubbles { opacity: 1; }
+#game[data-world="water"] #fx-fish { opacity: 1; }
+#game[data-world="land"] #fx-birds,
+#game[data-world="beach"] #fx-birds { opacity: 1; }
+.fish, .bird {
+  position: absolute; left: 0;
+  animation-name: swim; animation-timing-function: linear; animation-iteration-count: infinite;
+  will-change: transform;
+}
+.fish > i, .bird > i { display: block; width: 100%; height: 100%; background-repeat: no-repeat; background-position: center; background-size: contain; }
+.fish > i { background-image: url("fish.svg"); }
+.fish.flip > i { transform: scaleX(-1); }
+.bird > i { background-image: url("bird.svg"); animation: flap 0.85s ease-in-out infinite; }
 .ember {
   position: absolute; bottom: -24px; width: 7px; height: 7px; border-radius: 50%;
   background: #ffd23f; box-shadow: 0 0 8px 2px rgba(255,110,20,0.85);
@@ -777,6 +783,14 @@ a:focus-visible, button:focus-visible {
   88%  { opacity: 1; }
   100% { transform: translateY(-102vh) translateX(var(--drift, 12px)); opacity: 0; }
 }
+@keyframes swim {
+  from { transform: translateX(var(--from)); }
+  to   { transform: translateX(var(--to)); }
+}
+@keyframes flap {
+  0%, 100% { transform: scaleY(1); }
+  50%      { transform: scaleY(0.6); }
+}
 
 @keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
 @keyframes spin { to { transform: rotate(360deg); } }
@@ -795,8 +809,8 @@ a:focus-visible, button:focus-visible {
   #hero { transition: none; }
   .pblock, .coin-ico, .stat-coin, .power-star, .flag, .title-flash { animation: none !important; }
   #world-flash.show, #world-banner.show { animation: none; }
-  .ember, .bubble { display: none; }
-  #fx-embers, #fx-bubbles { opacity: 0 !important; }
+  .ember, .bubble, .fish, .bird { display: none; }
+  #fx-embers, #fx-bubbles, #fx-fish, #fx-birds { opacity: 0 !important; }
   #portal { animation: none !important; transition: none; }
   #hero.warp-out, #hero.warp-in { animation: none !important; }
 }

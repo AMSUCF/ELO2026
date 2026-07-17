@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <g fill="#ffffff">
+    <!-- big cloud, upper-left -->
+    <g>
+      <ellipse cx="150" cy="98" rx="80" ry="30"/>
+      <ellipse cx="104" cy="84" rx="36" ry="30"/>
+      <ellipse cx="150" cy="64" rx="46" ry="40"/>
+      <ellipse cx="200" cy="80" rx="38" ry="32"/>
+      <ellipse cx="236" cy="92" rx="26" ry="22"/>
+    </g>
+    <!-- faint low cloud -->
+    <g opacity="0.5">
+      <ellipse cx="300" cy="246" rx="50" ry="18"/>
+      <ellipse cx="276" cy="236" rx="24" ry="20"/>
+      <ellipse cx="302" cy="228" rx="28" ry="24"/>
+      <ellipse cx="330" cy="237" rx="24" ry="20"/>
+    </g>
+    <!-- mid translucent cloud -->
+    <g opacity="0.64">
+      <ellipse cx="430" cy="168" rx="70" ry="26"/>
+      <ellipse cx="392" cy="153" rx="30" ry="26"/>
+      <ellipse cx="432" cy="141" rx="38" ry="34"/>
+      <ellipse cx="474" cy="154" rx="30" ry="26"/>
+    </g>
+    <!-- small high cloud -->
+    <g opacity="0.85">
+      <ellipse cx="560" cy="52" rx="52" ry="20"/>
+      <ellipse cx="534" cy="41" rx="24" ry="20"/>
+      <ellipse cx="562" cy="32" rx="30" ry="26"/>
+      <ellipse cx="590" cy="42" rx="24" ry="20"/>
+    </g>
+    <!-- big cloud, right of center -->
+    <g opacity="0.92">
+      <ellipse cx="700" cy="86" rx="78" ry="28"/>
+      <ellipse cx="656" cy="70" rx="32" ry="28"/>
+      <ellipse cx="700" cy="56" rx="42" ry="36"/>
+      <ellipse cx="746" cy="70" rx="32" ry="28"/>
+      <ellipse cx="782" cy="82" rx="24" ry="20"/>
+    </g>
+    <!-- small faint low cloud, right -->
+    <g opacity="0.54">
+      <ellipse cx="912" cy="202" rx="56" ry="20"/>
+      <ellipse cx="884" cy="190" rx="26" ry="22"/>
+      <ellipse cx="914" cy="181" rx="32" ry="28"/>
+      <ellipse cx="944" cy="191" rx="26" ry="22"/>
+    </g>
+    <!-- medium cloud, far right -->
+    <g opacity="0.8">
+      <ellipse cx="1080" cy="122" rx="66" ry="25"/>
+      <ellipse cx="1046" cy="108" rx="30" ry="26"/>
+      <ellipse cx="1082" cy="98" rx="36" ry="32"/>
+      <ellipse cx="1120" cy="110" rx="30" ry="26"/>
+    </g>
+  </g>
+</svg>
