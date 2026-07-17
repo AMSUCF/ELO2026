@@ -342,6 +342,58 @@ a:focus-visible, button:focus-visible, select:focus-visible {
 }
 .recording-soon a { color: var(--cyan); }
 
+/* ---- proceedings page ---- */
+
+.page-intro {
+  background: var(--card-bg);
+  border: 2px solid rgba(77, 213, 232, 0.45);
+  border-radius: 18px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 0 18px rgba(77, 213, 232, 0.35);
+  font-family: Arial, Helvetica, sans-serif;
+  color: #e8e8e8;
+}
+.page-intro p { margin: 0 0 0.75rem; }
+.page-intro p:last-child { margin-bottom: 0; }
+.page-intro a { color: var(--cyan); }
+
+.pdf-figure { margin: 1.5rem 0 0; }
+
+.pdf-frame {
+  border: 2px solid var(--cyan);
+  border-radius: 18px;
+  box-shadow: 0 0 22px rgba(77, 213, 232, 0.5);
+  background: #111;
+  overflow: hidden;
+}
+
+.pdf-embed {
+  display: block;
+  width: 100%;
+  height: clamp(420px, 80vh, 900px);
+  border: 0;
+  background: #111;
+}
+
+.pdf-fallback {
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #e8e8e8;
+}
+.pdf-fallback p { margin: 0 0 0.75rem; }
+.pdf-fallback p:last-child { margin-bottom: 0; }
+.pdf-fallback a { color: var(--cyan); }
+
+.pdf-caption {
+  margin-top: 0.85rem;
+  color: #bdbdbd;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
 /* Header menu on the schedule page */
 .header-nav { margin: 1rem 0; }
 .header-nav .cta-button { font-size: 0.95rem; padding: 0.5rem 1.25rem; }
