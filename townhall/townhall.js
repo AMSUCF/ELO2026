@@ -15,12 +15,14 @@
   // Three "worlds" — a dramatic Land -> Fire -> Water arc that echoes the
   // three-conference ELOrlando trilogy. Each world recolors the whole scene.
   var WORLDS = [
-    // Land = the ELO / org intro; Fire = Projects & Partners; Water = the conference.
-    { key: "land",  name: "GRASSLAND", first: 0,  last: 3 },
-    { key: "fire",  name: "VOLCANO",   first: 4,  last: 9 },
-    { key: "water", name: "OCEAN",     first: 10, last: total - 1 }
+    // Land = the ELO / org intro; Fire = Projects & Partners;
+    // Water = the 2026 conference; Beach = the ELO 2027 (Barranquilla) reveal + finale.
+    { key: "land",  name: "GRASSLAND",    first: 0,  last: 3 },
+    { key: "fire",  name: "VOLCANO",      first: 4,  last: 9 },
+    { key: "water", name: "OCEAN",        first: 10, last: 15 },
+    { key: "beach", name: "BARRANQUILLA", first: 16, last: total - 1 }
   ];
-  var FLASH_TINT = { land: "#bfe6a8", fire: "#ff6a1a", water: "#7fd6ff" };
+  var FLASH_TINT = { land: "#bfe6a8", fire: "#ff6a1a", water: "#7fd6ff", beach: "#ff9ec2" };
   function worldOf(stage) {
     for (var i = 0; i < WORLDS.length; i++) if (stage <= WORLDS[i].last) return i;
     return WORLDS.length - 1;
@@ -307,29 +309,6 @@
       heroStep(forward, moved);
     }
   }
-
-  /* ============================================================
-     EASTER EGGS — pull real session data from the schedule feed
-     (same-origin data/events.json, committed in the repo)
-     ============================================================ */
-  var tickerText = document.getElementById("ticker-text");
-  var fallback = "★ ELO 2026 (un)supervised ★ 110 events ★ 3 tracks: Algorithms & Imaginaries · Hypertexts & Fictions · Narratives & Worlds ★ 268-page proceedings ★ 48 exhibition works ★ See you in Barranquilla 2027 ★ ";
-  tickerText.textContent = fallback;
-
-  fetch("../data/events.json")
-    .then(function (r) { return r.ok ? r.json() : null; })
-    .then(function (data) {
-      if (!data || !data.events || !data.events.length) return;
-      var featured = data.events.filter(function (e) { return e.featured; });
-      var pool = (featured.length ? featured : data.events).slice(0, 14);
-      var bits = pool.map(function (e) {
-        var who = (e.presenters || "").split(",")[0].trim();
-        return e.title + (who ? " — " + who : "");
-      });
-      tickerText.textContent = "★ EASTER EGGS FROM THE 2026 PROGRAM ★  " +
-        bits.join("   ★   ") + "   ★   " + fallback;
-    })
-    .catch(function () { /* keep fallback */ });
 
   /* ---- world-intro banner + flash ---- */
   function showWorld(w) {

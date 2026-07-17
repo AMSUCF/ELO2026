@@ -63,6 +63,19 @@
   --heading: #58d7ec;
 }
 
+/* WORLD 4 — BEACH / BARRANQUILLA (the ELO 2027 reveal + finale) */
+#game[data-world="beach"] {
+  --sky-a: #3a5a9e; --sky-b: #ff8fa3; --sky-c: #ffd98a;   /* dusk: blue -> coral -> gold */
+  --cloud-a: #ffe3c8; --cloud-b: #ffc6d8;
+  --hill-a: #1f7a70; --hill-b: #2ec4b6;
+  --turf: #ffe0a3; --turf-edge: #ffb37a;
+  --soil-a: #efc47e; --soil-b: #cfa25c; --soil-line: #d9a95e;
+  --accent: #ff6ea6;
+  --panel-bg: rgba(40, 20, 40, 0.94);
+  --panel-2: #3c2038;
+  --heading: #ffb0d0;
+}
+
 * { box-sizing: border-box; }
 
 html, body {
@@ -192,6 +205,38 @@ img { image-rendering: pixelated; }
   background-size: 480px 220px;
   background-position: 0 bottom;
 }
+
+/* BEACH — turquoise sea at the horizon; palm trees along the sand */
+#game[data-world="beach"] .layer-clouds {
+  top: auto; bottom: 84px; height: 40px; opacity: 1;
+  background: linear-gradient(180deg, #56ddc9 0%, #1f9f98 100%);
+}
+#game[data-world="beach"] .layer-hills {
+  bottom: 84px; height: 210px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='540' height='210' viewBox='0 0 540 210'%3E%3Cg fill='none' stroke='%2317695c' stroke-width='8' stroke-linecap='round'%3E%3Cpath d='M100 210 C95 150 90 118 106 92'/%3E%3Cpath d='M106 92 C80 80 60 82 46 92'/%3E%3Cpath d='M106 92 C84 72 74 54 74 42'/%3E%3Cpath d='M106 92 C132 80 152 82 166 92'/%3E%3Cpath d='M106 92 C130 70 142 54 146 42'/%3E%3Cpath d='M106 92 C106 72 108 58 104 46'/%3E%3Cpath d='M420 210 C425 150 430 118 414 92'/%3E%3Cpath d='M414 92 C388 80 368 82 354 92'/%3E%3Cpath d='M414 92 C392 72 382 54 382 42'/%3E%3Cpath d='M414 92 C440 80 460 82 474 92'/%3E%3Cpath d='M414 92 C438 70 450 54 454 42'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 540px 210px;
+  background-position: 0 bottom;
+}
+
+/* the setting sun + the pink flamingo (shown only on the beach) */
+#beach-sun {
+  position: fixed; right: 15vw; top: 15%; width: 94px; height: 94px;
+  border-radius: 50%; z-index: 1; pointer-events: none;
+  opacity: 0; transition: opacity 0.6s ease;
+  background: radial-gradient(circle at 50% 45%, #fff7d6 0%, #ffd76b 42%, #ff9e6b 100%);
+  box-shadow: 0 0 70px 24px rgba(255,175,110,0.5);
+}
+#game[data-world="beach"] #beach-sun { opacity: 0.95; }
+
+#flamingo {
+  position: fixed; right: 9vw; bottom: 78px; width: 92px; height: 158px;
+  z-index: 6; pointer-events: none;
+  opacity: 0; transform: translateY(8px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  filter: drop-shadow(3px 5px 0 rgba(0,0,0,0.25));
+}
+#game[data-world="beach"] #flamingo { opacity: 1; transform: translateY(0); }
+#flamingo svg { width: 100%; height: 100%; display: block; }
 
 /* =========================================================== */
 /*  WORLD OF STAGES                                            */
@@ -624,16 +669,6 @@ figcaption { font-size: 1.15rem; color: var(--ink-dim); margin-top: 0.4rem; line
 .hud-coins { color: var(--coin); display: inline-flex; align-items: center; gap: 0.35rem; }
 @media (max-width: 620px) { .hud-title { display: none; } #hud { font-size: 0.6rem; } }
 
-/* easter-egg ticker */
-#ticker {
-  position: fixed; left: 0; right: 0; bottom: 0; z-index: 21; height: 26px;
-  overflow: hidden; white-space: nowrap;
-  background: rgba(13,10,31,0.85);
-  border-top: 2px solid var(--pink);
-  font-family: "Press Start 2P", monospace; font-size: 0.55rem; line-height: 26px;
-  color: var(--cyan);
-}
-#ticker-text { display: inline-block; padding-left: 100%; animation: scrollticker 42s linear infinite; }
 
 /* =========================================================== */
 /*  CONTROLS                                                   */
@@ -738,7 +773,6 @@ a:focus-visible, button:focus-visible {
 @keyframes spincoin { 0%,100% { transform: scaleX(1); } 50% { transform: scaleX(0.2); } }
 @keyframes wave { 0%,100% { transform: skewY(0deg); } 50% { transform: skewY(-6deg); } }
 @keyframes titlepulse { 0%,100% { filter: brightness(1); } 50% { filter: brightness(1.25); } }
-@keyframes scrollticker { from { transform: translateX(0); } to { transform: translateX(-100%); } }
 
 .title-flash { animation: titlepulse 1.8s ease-in-out infinite; }
 
@@ -749,9 +783,7 @@ a:focus-visible, button:focus-visible {
 @media (prefers-reduced-motion: reduce) {
   #world { transition: none; }
   #hero { transition: none; }
-  .pblock, .coin-ico, .stat-coin, .power-star, .flag, .title-flash,
-  #ticker-text { animation: none !important; }
-  #ticker-text { padding-left: 1rem; }
+  .pblock, .coin-ico, .stat-coin, .power-star, .flag, .title-flash { animation: none !important; }
   #world-flash.show, #world-banner.show { animation: none; }
   .ember, .bubble { display: none; }
   #fx-embers, #fx-bubbles { opacity: 0 !important; }
