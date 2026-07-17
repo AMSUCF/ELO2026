@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-17T14:06:34Z",
+  "generated": "2026-07-17T15:46:31Z",
   "source": "https://stars.library.ucf.edu/elo2026/combined_schedule/",
   "events": [
     {
@@ -187,16 +187,6 @@
       "end": "2026-07-16T14:15:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/c5/20/fc/c520fcad40bc894f0a9815d834ae6e0ab66182a855daba5b7cc75d9b7db67760.m3u8"
-    },
-    {
-      "title": "Nilo Ybyraporã: transcestral instapoetry",
-      "url": "https://stars.library.ucf.edu/elo2026/narrativesandworlds/schedule/5",
-      "presenters": "Daniela Silva de Freitas, Universidade Federal de Alfenas",
-      "track": "Narratives & Worlds",
-      "type": "Individual Talk",
-      "start": "2026-07-16T13:15:00Z",
-      "end": "2026-07-16T14:15:00Z",
-      "featured": false
     },
     {
       "title": "Perverse Pleasure: A Defence of Difficulty Without Resolution",
