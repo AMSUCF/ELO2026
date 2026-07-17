@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-17T19:35:53Z",
+  "generated": "2026-07-17T21:10:26Z",
   "source": "https://stars.library.ucf.edu/elo2026/combined_schedule/",
   "events": [
     {
@@ -359,7 +359,8 @@
       "type": "Panel",
       "start": "2026-07-16T18:15:00Z",
       "end": "2026-07-16T19:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/94/1e/83/941e83c51c3ecdb99d80608d87ed586b4d3aefc25608fd1fa779d00cf716e863.m3u8"
     },
     {
       "title": "Storyboarding for Scrollimation",
@@ -379,7 +380,8 @@
       "type": "Panel",
       "start": "2026-07-16T19:30:00Z",
       "end": "2026-07-16T20:30:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/9a/b6/ae/9ab6ae7bcbfe49f554e86b76674349ff09e409cfe6dfbae8394c092525583b4b.m3u8"
     },
     {
       "title": "Cooperation, Collaboration, and Community in Horror and Suspense Games",
@@ -504,7 +506,8 @@
       "type": "Performance",
       "start": "2026-07-16T23:00:00Z",
       "end": "2026-07-17T00:30:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/ca/d3/e7/cad3e779d3d09f237df28980419852ebbdd5d6f7ee7a6a3edf714f16b751f93a.m3u8"
     },
     {
       "title": "Hacking Stone Moons: Or, a Re-viving a still born child A behind-the-scenes melodrama in three acts.",
@@ -620,7 +623,8 @@
       "type": "Individual Talk",
       "start": "2026-07-17T13:15:00Z",
       "end": "2026-07-17T14:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/45/d2/79/45d27969f981dac146605aa2960c40c63c5d3f134fce47909448c6431b9b0d4d.m3u8"
     },
     {
       "title": "Twice,again: Virentis – Bounded (Un)Supervision as World-Building Method",
