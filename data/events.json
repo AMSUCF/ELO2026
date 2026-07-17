@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-17T09:23:38Z",
+  "generated": "2026-07-17T11:43:50Z",
   "source": "https://stars.library.ucf.edu/elo2026/combined_schedule/",
   "events": [
     {
@@ -185,7 +185,8 @@
       "type": "Individual Talk",
       "start": "2026-07-16T13:15:00Z",
       "end": "2026-07-16T14:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/c5/20/fc/c520fcad40bc894f0a9815d834ae6e0ab66182a855daba5b7cc75d9b7db67760.m3u8"
     },
     {
       "title": "Nilo Ybyraporã: transcestral instapoetry",
@@ -205,7 +206,8 @@
       "type": "Individual Talk",
       "start": "2026-07-16T13:15:00Z",
       "end": "2026-07-16T14:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/6d/de/d3/6dded32cccb0028cfc43c3c5023ca0bcbe9e182b055c5acd3d5d5e9c4d8e1d61.m3u8"
     },
     {
       "title": "Poetry of Movement: Virality, Affect and Agency in Warsan Shire’s “Home”",
@@ -248,7 +250,8 @@
       "type": "Individual Talk",
       "start": "2026-07-16T13:15:00Z",
       "end": "2026-07-16T14:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/e3/7f/cd/e37fcd0e91b0138c7131a3d8d8ed2a20c4491da74cef8dc04714408f25aaffe4.m3u8"
     },
     {
       "title": "(Un)Supervised Critical Baking: Reflective Virtual Cheesecake Simulation",
@@ -269,7 +272,8 @@
       "type": "Individual Talk",
       "start": "2026-07-16T14:30:00Z",
       "end": "2026-07-16T15:30:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/62/a2/47/62a247c902ef1bdd4148693cb7af305599be526bd4b9f96c9edca687c054533b.m3u8"
     },
     {
       "title": "Eventization and the Community Aspect of Demoparties: A case study of Silly Venture, Last Party and Lost Party",
@@ -300,7 +304,8 @@
       "type": "Individual Talk",
       "start": "2026-07-16T14:30:00Z",
       "end": "2026-07-16T15:30:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/24/d1/c3/24d1c3ec37ae189bff962ea1c7eac79bc68ef1ca49232ba588b4c9abd92c5c82.m3u8"
     },
     {
       "title": "Narrative Nubs: Systematic Sketches of Story Systems",
@@ -310,7 +315,8 @@
       "type": "Individual Talk",
       "start": "2026-07-16T14:30:00Z",
       "end": "2026-07-16T15:30:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/b8/24/8a/b8248a03256d931999ef76fad7680a8769c81a6299cb9491c18a8090be300ae8.m3u8"
     },
     {
       "title": "Never Let It Collapse: Three Passes at an Unsupervised Cat's Cradle",
@@ -413,7 +419,8 @@
       "type": "Individual Talk",
       "start": "2026-07-16T20:45:00Z",
       "end": "2026-07-16T21:45:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/d1/02/ef/d102ef81ec87d2bf000ae3daaa075c46cef986ff4d4575b41098bcbab6efb4ce.m3u8"
     },
     {
       "title": "Co-Habited Texts: Designing Cooperative Interactive Fiction as Auto-Ethnographic Method",
@@ -433,7 +440,8 @@
       "type": "Individual Talk",
       "start": "2026-07-16T20:45:00Z",
       "end": "2026-07-16T21:45:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/17/15/c5/1715c5463f4ce22812ad539b66741737be1e2acbfe8b61bdfff884179d045ef3.m3u8"
     },
     {
       "title": "National Fictions: Reading the Free Republic of Verdis as Electronic Literature",
@@ -463,7 +471,8 @@
       "type": "Individual Talk",
       "start": "2026-07-16T20:45:00Z",
       "end": "2026-07-16T21:45:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/ec/9c/e1/ec9ce1d2cc15f3eb13dc185e7d58d48b2310a851f971643e85e658670d589f58.m3u8"
     },
     {
       "title": "Remaking the Red Death: An Interactive Fiction Post-mortem",
@@ -483,7 +492,8 @@
       "type": "Individual Talk",
       "start": "2026-07-16T20:45:00Z",
       "end": "2026-07-16T21:45:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/1a/4b/10/1a4b100eca7dfa96541c16adaf672213a060f238f15b12ac9036020a944177ec.m3u8"
     },
     {
       "title": "Thinking Ahead about Your Legacy: A Workshop Aimed at Preparing Your Archives for Future Access",
