@@ -130,17 +130,19 @@ img { image-rendering: pixelated; }
 /* pixel clouds, seamlessly tiled, drift with slow parallax
    (parallax done in JS via background-position-x, so repeat-x = no edges) */
 .layer-clouds {
-  top: 8%;
+  top: 3%;
   width: 100%;
-  height: 40%;
+  height: 70%;
   background-image:
-    radial-gradient(closest-side, var(--cloud-a) 96%, transparent 100%),
-    radial-gradient(closest-side, var(--cloud-a) 96%, transparent 100%),
-    radial-gradient(closest-side, var(--cloud-b) 96%, transparent 100%);
+    radial-gradient(closest-side, rgba(255,255,255,1)    96%, transparent 100%),
+    radial-gradient(closest-side, rgba(255,255,255,0.72) 96%, transparent 100%),
+    radial-gradient(closest-side, rgba(255,255,255,0.9)  96%, transparent 100%),
+    radial-gradient(closest-side, rgba(255,255,255,0.55) 96%, transparent 100%),
+    radial-gradient(closest-side, rgba(255,255,255,0.82) 96%, transparent 100%),
+    radial-gradient(closest-side, rgba(255,255,255,0.62) 96%, transparent 100%);
   background-repeat: repeat-x;
-  background-size: 240px 84px, 160px 60px, 300px 96px;
-  background-position: 20px 24%, 150px 62%, 330px 12%;
-  opacity: 0.92;
+  background-size: 250px 76px, 170px 52px, 300px 90px, 140px 44px, 210px 64px, 180px 50px;
+  background-position: 20px 6%, 150px 30%, 330px 17%, 90px 52%, 260px 70%, 400px 42%;
   will-change: background-position;
 }
 
@@ -178,16 +180,24 @@ img { image-rendering: pixelated; }
    LAND keeps the default clouds (far) + green hills (near).
    FIRE and WATER swap in their own shapes below; both still parallax. */
 
+/* LAND — continuous rolling grassland hills (two shades + bushes) instead of loose bumps */
+#game[data-world="land"] .layer-hills {
+  bottom: 84px; height: 220px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='220' viewBox='0 0 400 220'%3E%3Cpath d='M0 104 C66 104 134 168 200 168 C266 168 334 104 400 104 L400 220 L0 220 Z' fill='%236cc35a'/%3E%3Cpath d='M0 188 C66 188 134 96 200 96 C266 96 334 188 400 188 L400 220 L0 220 Z' fill='%233ea23a'/%3E%3Cellipse cx='118' cy='214' rx='30' ry='20' fill='%232f8a30'/%3E%3Cellipse cx='300' cy='216' rx='26' ry='18' fill='%232f8a30'/%3E%3C/svg%3E");
+  background-size: 400px 220px;
+  background-position: 0 bottom;
+}
+
 /* FIRE — no fluffy clouds: volcanic mountain range behind jagged lava rocks */
 #game[data-world="fire"] .layer-clouds {
   top: auto; bottom: 116px; height: 260px; opacity: 1;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='640' height='260' viewBox='0 0 640 260'%3E%3Cpath d='M0 260 L70 120 L130 190 L210 70 L290 170 L370 100 L450 200 L530 90 L610 180 L640 140 L640 260 Z' fill='%233a1414'/%3E%3Cpath d='M210 70 L290 170 M530 90 L610 180' stroke='%23e8412a' stroke-width='4' opacity='0.4'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='640' height='260' viewBox='0 0 640 260'%3E%3Cpath d='M0 260 L0 200 L80 90 L160 190 L240 70 L320 180 L400 80 L480 190 L560 100 L640 200 L640 260 Z' fill='%233a1414'/%3E%3Cpath d='M240 70 L320 180 M400 80 L480 190' stroke='%23e8412a' stroke-width='4' opacity='0.4'/%3E%3C/svg%3E");
   background-size: 640px 260px;
   background-position: 0 bottom;
 }
 #game[data-world="fire"] .layer-hills {
   bottom: 84px; height: 150px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='420' height='150' viewBox='0 0 420 150'%3E%3Cpath d='M0 150 L40 70 L90 120 L140 50 L190 110 L240 60 L300 120 L350 70 L420 110 L420 150 Z' fill='%231c0a0a'/%3E%3Cpath d='M0 150 L40 70 L90 120 L140 50 L190 110 L240 60 L300 120 L350 70 L420 110' fill='none' stroke='%23ff7a1a' stroke-width='3' opacity='0.55'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='420' height='150' viewBox='0 0 420 150'%3E%3Cpath d='M0 150 L0 110 L52 50 L104 110 L156 44 L208 108 L260 54 L312 112 L364 58 L420 110 L420 150 Z' fill='%231c0a0a'/%3E%3Cpath d='M0 110 L52 50 L104 110 L156 44 L208 108 L260 54 L312 112 L364 58 L420 110' fill='none' stroke='%23ff7a1a' stroke-width='3' opacity='0.55'/%3E%3C/svg%3E");
   background-size: 420px 150px;
   background-position: 0 bottom;
 }
@@ -201,7 +211,7 @@ img { image-rendering: pixelated; }
 }
 #game[data-world="water"] .layer-hills {
   bottom: 84px; height: 220px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='480' height='220' viewBox='0 0 480 220'%3E%3Cg fill='none' stroke-linecap='round'%3E%3Cpath d='M40 220 C20 170 60 150 40 110 C25 80 55 60 45 30' stroke='%231a6f7f' stroke-width='12'/%3E%3Cpath d='M120 220 C140 180 100 150 130 110 C150 80 120 60 135 35' stroke='%232ec4b6' stroke-width='10'/%3E%3Cpath d='M220 220 C205 175 240 150 215 105 C200 75 235 55 220 25' stroke='%231a6f7f' stroke-width='14'/%3E%3Cpath d='M320 220 C340 180 300 150 330 105 C350 75 320 55 340 30' stroke='%232ec4b6' stroke-width='10'/%3E%3Cpath d='M420 220 C405 175 440 150 415 110 C400 80 435 60 420 35' stroke='%231a6f7f' stroke-width='12'/%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='480' height='220' viewBox='0 0 480 220'%3E%3Cpath d='M0 200 C80 184 160 184 240 200 C320 216 400 184 480 200 L480 220 L0 220 Z' fill='%2310495a'/%3E%3Cg fill='none' stroke-linecap='round'%3E%3Cpath d='M30 220 C14 175 44 150 30 112 C20 84 42 66 34 40' stroke='%231a6f7f' stroke-width='11'/%3E%3Cpath d='M90 220 C104 178 78 150 96 116 C110 88 88 66 100 46' stroke='%232ec4b6' stroke-width='9'/%3E%3Cpath d='M150 220 C136 176 160 150 146 108 C134 80 158 60 146 36' stroke='%231a6f7f' stroke-width='12'/%3E%3Cpath d='M210 220 C226 180 200 150 214 112 C226 86 206 64 216 44' stroke='%232ec4b6' stroke-width='9'/%3E%3Cpath d='M270 220 C254 176 278 150 264 110 C252 82 276 62 264 40' stroke='%231a6f7f' stroke-width='12'/%3E%3Cpath d='M330 220 C346 180 320 150 334 112 C346 86 326 64 336 44' stroke='%232ec4b6' stroke-width='9'/%3E%3Cpath d='M390 220 C374 176 398 150 384 110 C372 82 396 62 384 40' stroke='%231a6f7f' stroke-width='12'/%3E%3Cpath d='M450 220 C464 180 438 150 452 114 C464 88 444 66 454 46' stroke='%232ec4b6' stroke-width='9'/%3E%3C/g%3E%3C/svg%3E");
   background-size: 480px 220px;
   background-position: 0 bottom;
 }
@@ -229,7 +239,7 @@ img { image-rendering: pixelated; }
 #game[data-world="beach"] #beach-sun { opacity: 0.95; }
 
 #flamingo {
-  position: fixed; right: 9vw; bottom: 78px; width: 92px; height: 158px;
+  position: fixed; left: 4vw; right: auto; bottom: 78px; width: 92px; height: 158px;
   z-index: 6; pointer-events: none;
   opacity: 0; transform: translateY(8px);
   transition: opacity 0.5s ease, transform 0.5s ease;
