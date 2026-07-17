@@ -17,10 +17,10 @@
   var WORLDS = [
     // Land = the ELO / org intro; Fire = Projects & Partners;
     // Water = the 2026 conference; Beach = the ELO 2027 (Barranquilla) reveal + finale.
-    { key: "land",  name: "GRASSLAND",    first: 0,  last: 3 },
-    { key: "fire",  name: "VOLCANO",      first: 4,  last: 9 },
-    { key: "water", name: "OCEAN",        first: 10, last: 15 },
-    { key: "beach", name: "BARRANQUILLA", first: 16, last: total - 1 }
+    { key: "land",  name: "GRASSLAND",    first: 0,  last: 4 },
+    { key: "fire",  name: "VOLCANO",      first: 5,  last: 10 },
+    { key: "water", name: "OCEAN",        first: 11, last: 16 },
+    { key: "beach", name: "BARRANQUILLA", first: 17, last: total - 1 }
   ];
   var FLASH_TINT = { land: "#bfe6a8", fire: "#ff6a1a", water: "#7fd6ff", beach: "#ff9ec2" };
   function worldOf(stage) {
