@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-17T11:43:50Z",
+  "generated": "2026-07-17T14:06:34Z",
   "source": "https://stars.library.ucf.edu/elo2026/combined_schedule/",
   "events": [
     {
@@ -399,7 +399,8 @@
       "type": "Panel",
       "start": "2026-07-16T19:30:00Z",
       "end": "2026-07-16T20:30:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/ef/62/bf/ef62bf90778455289e7ef2a90942112d4b37c1c00dacff0ad45edde29c21654c.m3u8"
     },
     {
       "title": "E-Lit Periodicals in the Age of AI",
