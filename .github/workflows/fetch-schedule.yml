@@ -2,7 +2,7 @@ name: Sync schedule from STARS
 
 on:
   schedule:
-    - cron: "23 */6 * * *"   # every 6 hours
+    - cron: "23 * * * *"   # hourly
   workflow_dispatch:
 
 permissions:
