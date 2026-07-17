@@ -258,6 +258,26 @@ a:focus-visible, button:focus-visible, select:focus-visible {
 }
 .site-footer a { color: var(--cyan); }
 
+.elo-org-logo {
+  display: inline-block;
+  margin: 0 0 1rem;
+  border: none;
+}
+.elo-org-logo img {
+  width: 84px;
+  height: auto;
+  filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.25));
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+.elo-org-logo:hover img, .elo-org-logo:focus img {
+  transform: scale(1.06);
+  filter: drop-shadow(0 0 16px rgba(77, 213, 232, 0.55));
+}
+@media (prefers-reduced-motion: reduce) {
+  .elo-org-logo img { transition: none; }
+  .elo-org-logo:hover img, .elo-org-logo:focus img { transform: none; }
+}
+
 /* Screen-reader-only utility; used for link context text in schedule-page.js */
 .visually-hidden {
   position: absolute;
