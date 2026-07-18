@@ -471,6 +471,9 @@ a:hover, a:focus { color: #fff; border-color: #fff; }
 .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1.3rem; align-items: start; }
 @media (max-width: 720px) { .two-col { grid-template-columns: 1fr; } }
 
+.three-col { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.3rem; align-items: start; }
+@media (max-width: 980px) { .three-col { grid-template-columns: 1fr; } }
+
 .power-up { display: grid; place-items: center; gap: 0.4rem; align-self: center; }
 .power-star { font-size: clamp(5rem, 13vw, 8.5rem); line-height: 1; color: var(--coin); animation: spin 3s linear infinite; text-shadow: 0 0 26px rgba(255,210,63,0.85); }
 .power-label { font-family: "Press Start 2P", monospace; font-size: 0.6rem; color: var(--cyan); }
@@ -561,6 +564,7 @@ figcaption { font-size: 1.15rem; color: var(--ink-dim); margin-top: 0.4rem; line
 .mla-card-solo { max-width: 640px; margin: 1rem auto 0; text-align: center; }
 .mla-year { font-family: "Press Start 2P", monospace; font-size: 0.72rem; color: var(--coin); margin: 0 0 0.7rem; line-height: 1.55; }
 .warp-forward { color: #fff; }
+.mla-pending { font-family: "Press Start 2P", monospace; font-size: 0.6rem; color: var(--coin); margin-top: 0.7rem; text-transform: uppercase; }
 
 /* team list on reveal */
 .team-list { list-style: none; margin: 1.1rem auto 0; padding: 0; display: grid; gap: 0.5rem; max-width: 520px; }
