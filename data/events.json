@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-18T00:12:57Z",
+  "generated": "2026-07-18T03:37:09Z",
   "source": "https://stars.library.ucf.edu/elo2026/combined_schedule/",
   "events": [
     {
@@ -349,7 +349,8 @@
       "type": "Panel",
       "start": "2026-07-16T17:00:00Z",
       "end": "2026-07-16T18:00:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/d4/e5/a5/d4e5a583a9744cda8b49014cf7d911226058e64ab5476a76800be8e603b4efa1.m3u8"
     },
     {
       "title": "Post-Digital Creativity in Underacknowledged Communities",
@@ -402,7 +403,8 @@
       "type": "Panel",
       "start": "2026-07-16T19:30:00Z",
       "end": "2026-07-16T20:30:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/01/b6/d4/01b6d469f77fa39ed8c697fc71ef404795ef4e07ac381815946081edaa9470c0.m3u8"
     },
     {
       "title": "Boîte en Valise / Writing Inside the Box : Local Virtual Space and Creative Exigencies",
@@ -423,7 +425,8 @@
       "type": "Individual Talk",
       "start": "2026-07-16T20:45:00Z",
       "end": "2026-07-16T21:45:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/4c/0a/b7/4c0ab75d656304e5c0145492ad4eb08643d9523c75cf204ea9c3904154f404e2.m3u8"
     },
     {
       "title": "Compressed Cinema as a Study in LLM Latent Spaces",
@@ -444,7 +447,8 @@
       "type": "Individual Talk",
       "start": "2026-07-16T20:45:00Z",
       "end": "2026-07-16T21:45:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/0d/4f/c1/0d4fc1f8ab1c1def92ca534f9695e2896c9fb7fa2e6292c8ec72d034b179c2e5.m3u8"
     },
     {
       "title": "Necrotextual Poetics: Fine-Tuned Language Models and Oscar Wilde's Unfinished Aphorism",
@@ -454,7 +458,8 @@
       "type": "Individual Talk",
       "start": "2026-07-16T20:45:00Z",
       "end": "2026-07-16T21:45:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/40/ee/5d/40ee5d9226d6627979192603113d47243287db17e184512838f0fb98fdd0e2f7.m3u8"
     },
     {
       "title": "Red-Teaming GenAI Chatbots: Toxic “Talk” & Product Liability",
@@ -475,7 +480,8 @@
       "type": "Individual Talk",
       "start": "2026-07-16T20:45:00Z",
       "end": "2026-07-16T21:45:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/ac/2a/6e/ac2a6e1829350f2afa093fc1b40f4b89ccbe2ad95376aaef5e14f20d9d6d2c30.m3u8"
     },
     {
       "title": "The Implications of Generative-AI User Prompt Engineering Shaping the Absent Presence of Latino Women Textual Rhetoric in LLMs",
@@ -756,7 +762,8 @@
       "type": "Individual Talk",
       "start": "2026-07-17T18:15:00Z",
       "end": "2026-07-17T19:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/be/98/8c/be988c8823ca7ba86ae87c1651f50de552aa565e40362f9789cf2b4e9f57e6cd.m3u8"
     },
     {
       "title": "An/archivism, Chronopoetics, and Experimentation: Transformations of Literary and Artistic Creation in the Era of Generative AI",
@@ -776,7 +783,8 @@
       "type": "Individual Talk",
       "start": "2026-07-17T18:15:00Z",
       "end": "2026-07-17T19:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/7f/ed/bc/7fedbc087839faa416c7c2e40addc54aced0cecd575241ae22cf4fbbcca0814e.m3u8"
     },
     {
       "title": "Digitally Disfiguring the Canon",
@@ -786,7 +794,8 @@
       "type": "Individual Talk",
       "start": "2026-07-17T18:15:00Z",
       "end": "2026-07-17T19:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/7e/3f/0d/7e3f0dabed67796ed7d1c26e90b744796c52f0a7627cbeb097e76807cb190ddc.m3u8"
     },
     {
       "title": "Performing Comedy in the Virtual Space; Helping Society Get Over Itself",
@@ -796,7 +805,8 @@
       "type": "Workshop",
       "start": "2026-07-17T18:15:00Z",
       "end": "2026-07-17T19:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/77/6c/1f/776c1f2ec42c04f94870576e82702af35663b6cc42318fc54e1e1e39fbda3823.m3u8"
     },
     {
       "title": "“You can see Note 23 here.”: Conceptualizing Critical Editions of Interactive Fiction",
@@ -806,7 +816,8 @@
       "type": "Individual Talk",
       "start": "2026-07-17T18:15:00Z",
       "end": "2026-07-17T19:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/75/29/3d/75293d91b8d30c81fb18a4873157ba06fe2a2c353f5184ad70f2fbebb64ddd09.m3u8"
     },
     {
       "title": "Inventing ELIZA: an exploration of the first chatbot",
