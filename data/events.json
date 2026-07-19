@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-18T23:14:05Z",
+  "generated": "2026-07-19T00:12:47Z",
   "source": "https://stars.library.ucf.edu/elo2026/combined_schedule/",
   "events": [
     {
@@ -502,7 +502,8 @@
       "type": "Workshop",
       "start": "2026-07-16T20:45:00Z",
       "end": "2026-07-16T21:45:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/fc/63/9d/fc639d8e023cc7f8209cc9f3f7410fa7d6afc4f7210acd5cfcc6de4ed55981d9.m3u8"
     },
     {
       "title": "Authority Figures",
@@ -752,7 +753,8 @@
       "type": "Keynote",
       "start": "2026-07-17T17:00:00Z",
       "end": "2026-07-17T18:00:00Z",
-      "featured": true
+      "featured": true,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/48/6d/1d/486d1db70b75c34035020bfca00d24d8b8bfdce82194e2207066073ecc4bf7e9.m3u8"
     },
     {
       "title": "A Human Was Here: Occult Poetics, Hypertext Ritual, and the (Un)Supervised Web",
@@ -773,7 +775,8 @@
       "type": "Panel",
       "start": "2026-07-17T18:15:00Z",
       "end": "2026-07-17T19:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/53/32/af/5332af2663c799e6ff0ae2e1aac34355942e940083d27ce58acf15bf5a3d1274.m3u8"
     },
     {
       "title": "Archival Storytelling: Remembering Our Digital History",
@@ -847,7 +850,8 @@
       "type": "Performance",
       "start": "2026-07-17T23:00:00Z",
       "end": "2026-07-18T00:30:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/e0/86/3f/e0863f0d878ba28db4dee23286f991fe0a25f4d879b3fded820df219b64f15f7.m3u8"
     },
     {
       "title": "Latent Laughing Medusa",
@@ -857,7 +861,8 @@
       "type": "Performance",
       "start": "2026-07-17T23:00:00Z",
       "end": "2026-07-18T00:30:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/44/ce/fb/44cefbae5109edf2026ff1baee383ef593ba9ef968f46b8d39b8c14060fcbcba.m3u8"
     },
     {
       "title": "Surveillance as Care: Introducing the PureGenius™ Learning Platform",
@@ -877,7 +882,8 @@
       "type": "Performance",
       "start": "2026-07-17T23:00:00Z",
       "end": "2026-07-18T00:30:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/58/0e/2e/580e2e93e70eeb559ef47b6bbf7492ec14ac9d1584cd1877aa1c8d53fcc9e603.m3u8"
     },
     {
       "title": "Coding a Poetics of Love and Politics: On the Remixing Potentials of Christopher Strachey and Lillian-Yvonne Bertram’s Poem Generators",
@@ -887,7 +893,8 @@
       "type": "Individual Talk",
       "start": "2026-07-18T13:15:00Z",
       "end": "2026-07-18T14:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/e7/b9/8e/e7b98e78fceeb973fa92b232c9d2a0fa2753ef945b754fe151df0d787d6dd42c.m3u8"
     },
     {
       "title": "Coding the Wild: Digital Poetics, Artificial Intelligence, and More-Than-Human Futures in Mechanical Treehouse",
@@ -907,7 +914,8 @@
       "type": "Individual Talk",
       "start": "2026-07-18T13:15:00Z",
       "end": "2026-07-18T14:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/69/35/12/693512b913b1f4e6fe487c94647cd7dacb486136aa0f6e2a375309cba6fbded2.m3u8"
     },
     {
       "title": "How Firm is Our Foundation? : Towards a Pedagogy of AI",
@@ -967,7 +975,8 @@
       "type": "Individual Talk",
       "start": "2026-07-18T13:15:00Z",
       "end": "2026-07-18T14:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/28/9d/c6/289dc6feb3c601c1e21417fa7de9ef1cf6332dd8b0db1710d268356ed0e56865.m3u8"
     },
     {
       "title": "Detour, Digress, Destroy (on random walks): Demoing a Platform for Text Manipulation",
@@ -997,7 +1006,8 @@
       "type": "Workshop",
       "start": "2026-07-18T14:30:00Z",
       "end": "2026-07-18T15:30:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/c9/62/8e/c9628eb59de1c369d9cfaf4e10eabac6de5850915e48178cea384dd310288941.m3u8"
     },
     {
       "title": "Human Digital Interaction",
@@ -1057,7 +1067,8 @@
       "type": "Keynote",
       "start": "2026-07-18T17:00:00Z",
       "end": "2026-07-18T18:00:00Z",
-      "featured": true
+      "featured": true,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/2f/24/d1/2f24d19c6d30e81a2c3a7f91097c474b5ffb11c05519228564060a1947f42d6e.m3u8"
     },
     {
       "title": "\"The First Web Novel at 30: The Collection and the Creative Process\"",
@@ -1067,7 +1078,8 @@
       "type": "Panel",
       "start": "2026-07-18T18:15:00Z",
       "end": "2026-07-18T19:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/08/00/54/080054912b2f1bd740af18279065650840cffb940041362fde8ca18197f988f1.m3u8"
     },
     {
       "title": "Algorithmic Narrators: Linguistic Boundaries and Institutionalized Cultural Storytelling Across Generative AI Systems",
@@ -1077,7 +1089,8 @@
       "type": "Individual Talk",
       "start": "2026-07-18T18:15:00Z",
       "end": "2026-07-18T19:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/9d/44/dd/9d44dd0296678906a2b6fba5079f9c3147004492db1f93c34e720ce015047c7f.m3u8"
     },
     {
       "title": "Algorithmic Translation versus Human Imagination in Electronic Storytelling",
@@ -1087,7 +1100,8 @@
       "type": "Individual Talk",
       "start": "2026-07-18T18:15:00Z",
       "end": "2026-07-18T19:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/8b/d3/3b/8bd33b7c09c06706773ae076a82c7d45183c6cc142fece1d51e61a44f8fafc10.m3u8"
     },
     {
       "title": "Once Upon an Algorithm: Ebook Authors’ AI Folk Theories and the Standardization of Creative Practice",
@@ -1097,7 +1111,8 @@
       "type": "Individual Talk",
       "start": "2026-07-18T18:15:00Z",
       "end": "2026-07-18T19:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/17/27/6c/17276c624c59890483afe24d550e55d307b5df73bc75472cb147c7417e261157.m3u8"
     },
     {
       "title": "When AI Magic Meets Creative Writing: The AI Noberisuto Literary Prize and the Boundaries of Non-human (Co)authorship",
@@ -1107,7 +1122,8 @@
       "type": "Individual Talk",
       "start": "2026-07-18T18:15:00Z",
       "end": "2026-07-18T19:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/84/7b/dd/847bdd1eb55aa86605ff8a26fc70b413c4ec79526983fbb433eb5eb114b2d523.m3u8"
     },
     {
       "title": "Plenary: ELO Town Hall",
