@@ -1,0 +1,790 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:05.120
+So I want to move on and introduce
+our next presenter.
+
+2
+00:00:05.120 --> 00:00:11.240
+We have Andrew Burrell
+from the University of Technology Sydney.
+
+3
+00:00:11.400 --> 00:00:13.080
+Welcome, Andrew.
+
+4
+00:00:13.080 --> 00:00:15.680
+I'll turn it over to you.
+
+5
+00:00:15.680 --> 00:00:17.080
+Thanks very much.
+
+6
+00:00:17.080 --> 00:00:18.400
+I'll just get my
+
+7
+00:00:19.680 --> 00:00:22.680
+sharing.
+
+8
+00:00:24.000 --> 00:00:24.800
+There you go.
+
+9
+00:00:24.800 --> 00:00:25.880
+Yeah.
+
+10
+00:00:25.880 --> 00:00:30.480
+So Andrew Borrow from the University
+of Technology Sydney School of Design,
+
+11
+00:00:30.520 --> 00:00:33.840
+streaming in from the unceded country
+
+12
+00:00:33.840 --> 00:00:37.080
+of the Grigol and people.
+
+13
+00:00:37.320 --> 00:00:40.280
+There's some nice flow on
+
+14
+00:00:40.280 --> 00:00:44.000
+from the ripples project,
+I think, in where I'm going to go today.
+
+15
+00:00:44.040 --> 00:00:48.840
+So twice again for renters is a discrete
+outcome
+
+16
+00:00:48.840 --> 00:00:53.880
+of an ongoing series of experiments
+with digital and material outcomes
+
+17
+00:00:53.920 --> 00:00:57.560
+investigating distributed authorship via
+generative world
+
+18
+00:00:57.600 --> 00:01:00.600
+building.
+
+19
+00:01:01.000 --> 00:01:03.400
+One of the tensions this work holds
+
+20
+00:01:03.400 --> 00:01:08.640
+is the site of authorship
+within a dense ecology of text.
+
+21
+00:01:08.840 --> 00:01:13.080
+Text is archive
+Texas extraction, generative text,
+
+22
+00:01:13.080 --> 00:01:17.320
+computational frameworks
+and technological infrastructures.
+
+23
+00:01:17.720 --> 00:01:21.160
+Sitting alongside this tension,
+and ultimately more interesting
+
+24
+00:01:21.200 --> 00:01:25.680
+to me, is where creativity sits
+within this distributed field.
+
+25
+00:01:26.600 --> 00:01:30.680
+With the work, elements of agency
+are handed off to the machine,
+
+26
+00:01:30.880 --> 00:01:35.280
+and the notion of what constitutes
+the machine is also in question.
+
+27
+00:01:35.720 --> 00:01:36.480
+It is.
+
+28
+00:01:36.480 --> 00:01:40.280
+It is in part the large language models
+I'll introduce shortly,
+
+29
+00:01:40.280 --> 00:01:45.200
+but it's also a much wider ecology
+of machine code and infrastructure.
+
+30
+00:01:45.200 --> 00:01:47.560
+And the possibilities they afford
+
+31
+00:01:49.440 --> 00:01:50.840
+parentheses, as
+
+32
+00:01:50.840 --> 00:01:55.880
+as are other projects in this series,
+is based around a 50,000 word novella,
+
+33
+00:01:56.000 --> 00:01:59.240
+which is regarded
+as canon across the project.
+
+34
+00:01:59.280 --> 00:02:04.080
+It was written without revision and
+has not been edited past his first draft.
+
+35
+00:02:04.240 --> 00:02:08.520
+It was also written in what I consider
+a form of automatic writing,
+
+36
+00:02:08.840 --> 00:02:12.520
+bounded by a simple rule
+set of preexisting chapter based
+
+37
+00:02:12.560 --> 00:02:16.360
+timeline with an exponential
+chronological progression.
+
+38
+00:02:17.040 --> 00:02:19.400
+The text, as canon, becomes
+
+39
+00:02:19.400 --> 00:02:22.760
+the curated source material
+of the overall project,
+
+40
+00:02:22.760 --> 00:02:26.800
+and has been analyzed
+and annotated in many different ways.
+
+41
+00:02:28.480 --> 00:02:30.200
+At the heart of the rents
+
+42
+00:02:30.200 --> 00:02:33.520
+is an interface
+to local large language models.
+
+43
+00:02:33.800 --> 00:02:38.800
+It can, and text becomes both the material
+from which prompts are built and a foil
+
+44
+00:02:38.840 --> 00:02:41.840
+to to these generated texts
+
+45
+00:02:42.640 --> 00:02:46.600
+to prepare the canon for integration
+into the workflow towards the large
+
+46
+00:02:46.600 --> 00:02:51.040
+language models, it was fragmented,
+processed and augmented via
+
+47
+00:02:51.040 --> 00:02:54.840
+a series of distant
+reading and text manipulation devices.
+
+48
+00:02:55.440 --> 00:02:57.880
+The curated automatic text becomes
+
+49
+00:02:57.880 --> 00:03:01.080
+curated into more structured content,
+
+50
+00:03:01.280 --> 00:03:04.320
+often as a list and grouping of text.
+
+51
+00:03:04.840 --> 00:03:07.360
+These processes
+include a set of distant reading
+
+52
+00:03:07.360 --> 00:03:10.760
+methods
+that are detailed on the current slide.
+
+53
+00:03:14.760 --> 00:03:16.000
+These lists enter the
+
+54
+00:03:16.000 --> 00:03:19.840
+project as a sort of meta canon
+that can be drawn on in
+
+55
+00:03:19.840 --> 00:03:23.960
+many different ways
+within the world building framework.
+
+56
+00:03:24.000 --> 00:03:27.480
+They become integrated into the formation
+for prompts
+
+57
+00:03:27.480 --> 00:03:31.240
+for two agents
+driven by local large language models.
+
+58
+00:03:31.480 --> 00:03:35.520
+These are generic out of the box models,
+and this is important
+
+59
+00:03:35.560 --> 00:03:40.360
+for both the knowledge they contain
+and their slow differentiation
+
+60
+00:03:40.360 --> 00:03:43.440
+as the As agents via the individual
+
+61
+00:03:43.440 --> 00:03:46.440
+individual narratives as memories.
+
+62
+00:03:47.640 --> 00:03:50.680
+Of these two agents,
+one takes on the role of the planet
+
+63
+00:03:50.720 --> 00:03:54.240
+varieties, the other
+the role of a cartographer.
+
+64
+00:03:54.760 --> 00:03:56.200
+Within the logic of this world.
+
+65
+00:03:56.200 --> 00:04:00.800
+Building varieties acts as a game master
+and the cartographer
+
+66
+00:04:00.880 --> 00:04:03.280
+at the role of a player.
+
+67
+00:04:03.280 --> 00:04:07.080
+It is the model's knowledge of these roles
+within traditional text based
+
+68
+00:04:07.080 --> 00:04:11.840
+adventure games that makes a world
+building possible, and coherent.
+
+69
+00:04:13.200 --> 00:04:16.400
+System
+prompts establish a text adventure logic,
+
+70
+00:04:16.440 --> 00:04:21.440
+with these canonical fragments
+injected into the prompts as a narrative,
+
+71
+00:04:21.480 --> 00:04:24.480
+the world builds over a series of 50
+turns.
+
+72
+00:04:24.640 --> 00:04:29.520
+Accumulative memory builds
+as each response is added to the system,
+
+73
+00:04:29.520 --> 00:04:30.840
+prompts.
+
+74
+00:04:30.840 --> 00:04:35.600
+The process, defines and redefines
+the bounds of the ongoing exchange
+
+75
+00:04:35.640 --> 00:04:38.640
+taking place.
+
+76
+00:04:39.160 --> 00:04:39.960
+John Potts
+
+77
+00:04:39.960 --> 00:04:42.960
+described
+some of my earlier work of generative text
+
+78
+00:04:42.960 --> 00:04:47.240
+as placing myself in the role of damage,
+where texts would be created
+
+79
+00:04:47.240 --> 00:04:51.880
+by setting initial conditions
+and stepping back to watch what emerges.
+
+80
+00:04:52.440 --> 00:04:57.000
+Extending on this and extending
+this damage roll into the rents.
+
+81
+00:04:57.160 --> 00:05:01.440
+The Demiurge helps us imagine
+where or the ship might be cited.
+
+82
+00:05:02.040 --> 00:05:04.840
+While it's tempting to do so, we do not.
+
+83
+00:05:04.840 --> 00:05:08.680
+We do not need to move this authorship
+to the large language model
+
+84
+00:05:09.120 --> 00:05:11.680
+it sits before we even reach the model
+in the world
+
+85
+00:05:11.680 --> 00:05:15.240
+building flow,
+though it does extend into it.
+
+86
+00:05:16.440 --> 00:05:20.160
+The relocation of authorship begins
+in the canon, moves through
+
+87
+00:05:20.160 --> 00:05:23.760
+natural language processing
+and into the creation of prompt,
+
+88
+00:05:23.760 --> 00:05:27.480
+and finally can be found to
+in the infrastructure.
+
+89
+00:05:28.000 --> 00:05:31.600
+The site of the authorship
+is further distributed across decisions
+
+90
+00:05:31.640 --> 00:05:36.520
+around the use of extracted fragments,
+the prescribed rules the system prompt
+
+91
+00:05:36.560 --> 00:05:40.560
+evokes, and what we initially admitted
+into the canon.
+
+92
+00:05:42.200 --> 00:05:45.920
+Authorship is also distributed
+to the many hundreds of authors
+
+93
+00:05:45.920 --> 00:05:49.040
+of interactive fiction,
+following the rules that emerge
+
+94
+00:05:49.040 --> 00:05:52.760
+collectively across the of text adventure
+games.
+
+95
+00:05:53.200 --> 00:05:57.480
+It also sits before them
+with the authors of infrastructure,
+
+96
+00:05:57.480 --> 00:06:01.600
+both hardware and software
+that afforded these rules
+
+97
+00:06:01.600 --> 00:06:05.960
+without the command line interface,
+for example, and what it forwarded,
+
+98
+00:06:06.000 --> 00:06:09.000
+variants would not exist.
+
+99
+00:06:10.920 --> 00:06:14.280
+The big unknown question
+then is what happens to
+
+100
+00:06:14.280 --> 00:06:18.240
+the Demiurge is intention
+based on the known canon
+
+101
+00:06:18.240 --> 00:06:21.280
+as archive,
+when it collides with the unknowable
+
+102
+00:06:21.280 --> 00:06:24.280
+archive of the
+large language model weights.
+
+103
+00:06:25.800 --> 00:06:28.640
+I subtitle this talk with a term
+
+104
+00:06:28.640 --> 00:06:32.440
+arising out of the conference's
+theme of bounded unsupervised
+
+105
+00:06:33.640 --> 00:06:36.640
+variants is bounded by the framework
+supervised
+
+106
+00:06:36.640 --> 00:06:41.320
+in its prompting
+and unsupervised in its ongoing unfolding.
+
+107
+00:06:41.960 --> 00:06:45.360
+The constant feedback loop
+of adding to prompts with its own
+
+108
+00:06:45.400 --> 00:06:49.320
+outcome adds
+layers of depth to the resultant text
+
+109
+00:06:49.360 --> 00:06:53.280
+and a coherent memory
+across the emerging narrative.
+
+110
+00:06:54.640 --> 00:06:57.640
+Another side of this work,
+and of a more central,
+
+111
+00:06:57.640 --> 00:07:01.880
+ongoing concern in my practice,
+is that I describe this ongoing,
+
+112
+00:07:01.920 --> 00:07:05.040
+more than human collaboration as an active
+
+113
+00:07:05.040 --> 00:07:08.040
+and ongoing act of creativity.
+
+114
+00:07:08.120 --> 00:07:12.720
+I'm not proposing the large language model
+as a creative subject in its own right,
+
+115
+00:07:12.760 --> 00:07:17.520
+but with within a wider networked context,
+it plays
+
+116
+00:07:17.520 --> 00:07:22.400
+an important role in the creative outcome
+that would not be possible without it.
+
+117
+00:07:23.400 --> 00:07:23.840
+What I
+
+118
+00:07:23.840 --> 00:07:26.880
+am pointing to is
+that the weights of these models function
+
+119
+00:07:26.880 --> 00:07:30.880
+as an archive
+that no one fully knows or controls.
+
+120
+00:07:31.320 --> 00:07:34.240
+I see the more than human as being able
+to encompass
+
+121
+00:07:34.240 --> 00:07:37.240
+that disruptive providence
+
+122
+00:07:37.920 --> 00:07:38.720
+in this.
+
+123
+00:07:38.720 --> 00:07:42.280
+It does not need to be an equivalent
+of what we might consider to be
+
+124
+00:07:42.320 --> 00:07:43.960
+human creativity.
+
+125
+00:07:43.960 --> 00:07:44.440
+It is.
+
+126
+00:07:44.440 --> 00:07:47.440
+It is its own form of creativity.
+
+127
+00:07:49.240 --> 00:07:53.760
+This this rests
+on a relational view of creativity.
+
+128
+00:07:53.800 --> 00:07:58.720
+One way the network of cannon extraction,
+prompt and model
+
+129
+00:07:58.760 --> 00:08:01.760
+become a generative site in its own right.
+
+130
+00:08:02.560 --> 00:08:04.760
+Creativity does not sit solely in
+
+131
+00:08:04.760 --> 00:08:08.080
+any one individual, and it never has.
+
+132
+00:08:09.000 --> 00:08:13.280
+I know this is a contested position,
+but the disagreement
+
+133
+00:08:13.280 --> 00:08:17.560
+it provokes is one of the possibilities
+that this work is exploring.
+
+134
+00:08:19.760 --> 00:08:22.040
+I want to close with a reflection
+
+135
+00:08:22.040 --> 00:08:25.080
+on a single moment from over into session.
+
+136
+00:08:25.560 --> 00:08:29.080
+The cartographer asks a routine question
+about a detail
+
+137
+00:08:29.080 --> 00:08:33.000
+introduced by one of the agents
+earlier in the narrative.
+
+138
+00:08:33.640 --> 00:08:36.640
+Barrientos answers answer includes
+
+139
+00:08:36.960 --> 00:08:40.640
+a limp
+torso is now in Eric Lupine's possession.
+
+140
+00:08:40.640 --> 00:08:42.320
+But where did it go?
+
+141
+00:08:43.560 --> 00:08:45.080
+Rainbow is a protagonist
+
+142
+00:08:45.080 --> 00:08:49.160
+within the canon and appears
+frequently in the generated text.
+
+143
+00:08:49.640 --> 00:08:52.800
+Eric Lupine existing
+canon only as a secondary
+
+144
+00:08:53.120 --> 00:08:56.120
+character named but undeveloped.
+
+145
+00:08:56.640 --> 00:09:00.560
+What happens
+next has not been invented from nothing.
+
+146
+00:09:00.600 --> 00:09:04.120
+It's an emergence from a space
+the canon left open.
+
+147
+00:09:04.920 --> 00:09:07.400
+Across the loving exchange,
+lupine acquires
+
+148
+00:09:07.400 --> 00:09:10.400
+an office and encrypted data pad,
+
+149
+00:09:10.840 --> 00:09:14.760
+a role in a wider plot involving something
+the model pulls from canon,
+
+150
+00:09:14.800 --> 00:09:19.960
+namely a sect leader
+and a completely non-canon Nexus protocol.
+
+151
+00:09:20.880 --> 00:09:23.680
+Ultimately,
+none of this was altered by me.
+
+152
+00:09:23.680 --> 00:09:27.960
+But importantly, all of it is consistent
+with the elements I did.
+
+153
+00:09:28.000 --> 00:09:29.000
+Author.
+
+154
+00:09:29.000 --> 00:09:32.440
+The model found room
+inside the archive of its training data,
+
+155
+00:09:32.440 --> 00:09:37.440
+and the agent's ongoing memory
+to create these aspects of a novel world.
+
+156
+00:09:38.440 --> 00:09:41.280
+Nobody decided Eric
+the Pine would have an office,
+
+157
+00:09:41.280 --> 00:09:44.280
+a datapad, a place in a hidden plot.
+
+158
+00:09:44.640 --> 00:09:48.440
+Authorship set the conditions under
+which that would, that could that world
+
+159
+00:09:48.440 --> 00:09:53.640
+could grow, and the wider network
+ecology fostered this emergence over time.
+
+160
+00:09:56.000 --> 00:09:56.520
+Authorship.
+
+161
+00:09:56.520 --> 00:10:00.400
+Invariant is relocated
+through the many layers of its making.
+
+162
+00:10:00.760 --> 00:10:04.040
+This relocation happens
+in the writing of canon. The
+
+163
+00:10:05.080 --> 00:10:07.560
+the curation via distant reading,
+
+164
+00:10:07.560 --> 00:10:11.840
+the historical and current infrastructure
+and flows into the rules
+
+165
+00:10:11.840 --> 00:10:16.400
+that have been set, and the archive
+that sits across all of these spaces
+
+166
+00:10:16.880 --> 00:10:18.360
+twice again. Variants.
+
+167
+00:10:18.360 --> 00:10:22.880
+Does this redistribution of all
+and agency across a wide area of human
+
+168
+00:10:22.880 --> 00:10:27.280
+and more than human collaborators,
+for which I call myself part?
+
+169
+00:10:27.640 --> 00:10:30.640
+Thanks very much.

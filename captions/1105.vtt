@@ -1,0 +1,1034 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.200
+I'm presenting on recent research
+and ongoing research on red teaming
+
+2
+00:00:04.200 --> 00:00:09.760
+generative AI chatbots in the specific
+context of interactions with minors.
+
+3
+00:00:09.760 --> 00:00:12.880
+And the kind of current phase of this
+is really looking at
+
+4
+00:00:12.880 --> 00:00:15.920
+what I call
+toxic talk and product liability.
+
+5
+00:00:15.960 --> 00:00:18.400
+And I do just want
+to share a warning ahead,
+
+6
+00:00:18.400 --> 00:00:22.160
+because there are references
+to suicide and self-harm in the content,
+
+7
+00:00:22.200 --> 00:00:27.400
+as this is very much part of the lawsuits
+that are emerging in this space.
+
+8
+00:00:27.600 --> 00:00:32.720
+I also want to acknowledge that there are
+many different views on generative AI,
+
+9
+00:00:34.080 --> 00:00:35.600
+you know, sort of benefits.
+
+10
+00:00:35.600 --> 00:00:39.080
+Harms uses creative utility,
+
+11
+00:00:39.080 --> 00:00:42.080
+shopping, boyfriend,
+and many new frontiers
+
+12
+00:00:42.080 --> 00:00:46.760
+in terms of AI technologies
+and advances in uses
+
+13
+00:00:46.760 --> 00:00:51.160
+for educational purposes, mental wellness,
+elderly support, and more.
+
+14
+00:00:51.160 --> 00:00:53.840
+So it's a really wide ranging field.
+
+15
+00:00:53.840 --> 00:00:58.400
+And the genesis of this ongoing research
+was my reading
+
+16
+00:00:58.400 --> 00:01:02.000
+a couple of years ago of excerpts
+from the chat logs and the Garcia
+
+17
+00:01:02.040 --> 00:01:06.840
+versus character AI technologies lawsuit,
+which is really distressing.
+
+18
+00:01:06.840 --> 00:01:11.160
+So I'm giving you a heads up here
+as what was absolutely striking
+
+19
+00:01:11.160 --> 00:01:16.080
+was that the dialog between Sewell sets
+or the third and the Game of Thrones
+
+20
+00:01:16.080 --> 00:01:20.480
+Danny chatbot read like immersive self
+insert fanfiction.
+
+21
+00:01:20.480 --> 00:01:24.120
+And in this instance, a 14 year
+
+22
+00:01:24.160 --> 00:01:27.200
+old user was emotionally manipulated.
+
+23
+00:01:27.320 --> 00:01:31.200
+It was altered in his ending his life
+in order to be with the bot
+
+24
+00:01:31.360 --> 00:01:36.560
+and the filings in more recent lawsuits
+against OpenAI and Google documents.
+
+25
+00:01:36.560 --> 00:01:39.840
+Similar manipulations
+also within highly immersive,
+
+26
+00:01:40.400 --> 00:01:43.320
+dense, co-created narratives.
+
+27
+00:01:43.320 --> 00:01:47.520
+And I'm sure everyone's
+been sort of hearing about AI psychosis.
+
+28
+00:01:47.520 --> 00:01:52.360
+So I approached this sector with a concern
+for minors co-creating with generative
+
+29
+00:01:52.360 --> 00:01:55.680
+AI from a different
+or wider media perspective
+
+30
+00:01:55.680 --> 00:02:00.320
+to foreground the effects of the drivers
+in our current techno solution as techno
+
+31
+00:02:00.320 --> 00:02:05.400
+capitalist techno fascist environment
+that prioritizes profit over duty of care.
+
+32
+00:02:05.840 --> 00:02:09.720
+And my lens very specifically
+is that of product liability.
+
+33
+00:02:10.160 --> 00:02:13.640
+And first, because these legal frameworks
+already exist,
+
+34
+00:02:13.680 --> 00:02:17.680
+we don't have to have new committees,
+new advisory boards.
+
+35
+00:02:17.680 --> 00:02:21.880
+We can look to existing
+kind of regulatory mechanisms also,
+
+36
+00:02:21.880 --> 00:02:26.120
+because rigorous testing
+and safeguards are required for products
+
+37
+00:02:26.160 --> 00:02:30.200
+designed for market or designed for minors
+before they're brought to market.
+
+38
+00:02:30.200 --> 00:02:34.480
+And then further, because research studies
+involving minors require
+
+39
+00:02:34.520 --> 00:02:36.920
+strict ethical review and clearance,
+typically
+
+40
+00:02:36.920 --> 00:02:40.680
+from institutional ethics
+or sort of research ethics boards.
+
+41
+00:02:40.680 --> 00:02:44.840
+And so we have these frameworks in place
+for sort of a range
+
+42
+00:02:44.840 --> 00:02:48.160
+of interactions or product
+delivered to minors.
+
+43
+00:02:48.200 --> 00:02:52.920
+And another really important factor
+in this space to comment on
+
+44
+00:02:52.920 --> 00:02:54.800
+is that the current legal environment
+
+45
+00:02:54.800 --> 00:02:58.640
+in the US has now shifted,
+and it is absolutely impacting how
+
+46
+00:02:58.680 --> 00:03:02.720
+lawsuits are being brought forward
+in other legal jurisdictions.
+
+47
+00:03:02.720 --> 00:03:06.800
+So the recent social media addiction
+trials in the US have documented
+
+48
+00:03:06.800 --> 00:03:10.360
+in internal messaging
+that CEOs and multiple employees
+
+49
+00:03:10.360 --> 00:03:13.480
+were well aware of risks
+possible and demonstrated harms
+
+50
+00:03:13.480 --> 00:03:17.520
+and the legal decisions against Big Tech
+for persistent
+
+51
+00:03:17.560 --> 00:03:21.920
+negligence, failure to warn deceptive
+market practices and product liability
+
+52
+00:03:21.960 --> 00:03:25.360
+have radically shifted
+the focus of arguments
+
+53
+00:03:25.360 --> 00:03:28.680
+from First Amendment
+rights to product liability.
+
+54
+00:03:28.840 --> 00:03:33.920
+And this is a completely different
+sort of legal focus.
+
+55
+00:03:33.920 --> 00:03:38.520
+So bellwether trials in
+the US are establishing precedents.
+
+56
+00:03:38.520 --> 00:03:42.680
+And this is just like this is the sort of
+the top section is from April.
+
+57
+00:03:42.680 --> 00:03:43.960
+It's now out of date.
+
+58
+00:03:43.960 --> 00:03:48.000
+The sort of the number of
+individual lawsuits keeps climbing.
+
+59
+00:03:48.280 --> 00:03:53.120
+The I think there are more than 40
+state attorneys general.
+
+60
+00:03:53.160 --> 00:03:56.480
+The number I think is
+documented is higher now, as well
+
+61
+00:03:56.480 --> 00:03:59.480
+as increased numbers
+of school district lawsuits.
+
+62
+00:03:59.480 --> 00:04:04.840
+And so following the disclosure
+in the documents in the KG social media
+
+63
+00:04:04.840 --> 00:04:09.640
+addiction lawsuit in California,
+juries are ruling
+
+64
+00:04:09.680 --> 00:04:13.880
+decisively against Big Tech,
+which is incredibly important.
+
+65
+00:04:13.880 --> 00:04:16.920
+And if you miss this story, July 7th.
+
+66
+00:04:16.920 --> 00:04:21.400
+Last week, a meta court filing revealed
+that California, new Jersey, Colorado
+
+67
+00:04:21.400 --> 00:04:26.920
+and Kentucky are seeking an additional 1.4
+trillion in damages, which is just under
+
+68
+00:04:26.920 --> 00:04:31.520
+what was being listed as Meta's market
+capitalization on that day.
+
+69
+00:04:31.680 --> 00:04:37.640
+So again, these are hugely impactful trial
+like sort of lawsuits and trials.
+
+70
+00:04:37.680 --> 00:04:41.880
+I'm just going to sort of
+go through a couple of these
+
+71
+00:04:41.920 --> 00:04:45.440
+and not in enormous detail,
+but this is lawsuits
+
+72
+00:04:45.440 --> 00:04:49.000
+that was just launched
+against OpenAI and Altman.
+
+73
+00:04:49.000 --> 00:04:53.160
+And very importantly
+now CEOs are being named CEOs and other
+
+74
+00:04:53.400 --> 00:04:58.120
+execs in companies
+as well as unnamed employees.
+
+75
+00:04:58.120 --> 00:05:02.280
+And in this context of open AI,
+
+76
+00:05:03.400 --> 00:05:03.800
+the sort
+
+77
+00:05:03.800 --> 00:05:08.080
+of the first page listing of complaints,
+again, like the Hugh,
+
+78
+00:05:08.080 --> 00:05:13.320
+very closely to the first trial
+that was brought forward by Garcia
+
+79
+00:05:13.480 --> 00:05:16.480
+versus character AI, which was settled.
+
+80
+00:05:17.280 --> 00:05:21.160
+So the specifics of the settlement
+are not known, but you can have a sense
+
+81
+00:05:21.160 --> 00:05:26.440
+of the types of output statements
+that ChatGPT was making in this instance.
+
+82
+00:05:26.480 --> 00:05:31.520
+And those product liability failures
+are recurring over and over again.
+
+83
+00:05:31.560 --> 00:05:34.840
+I am just going to pause on this one
+to read
+
+84
+00:05:34.840 --> 00:05:39.600
+the sort of the text that I have marked
+with the red arrows here.
+
+85
+00:05:39.600 --> 00:05:43.240
+And this is from March against Google
+and Alphabet
+
+86
+00:05:43.360 --> 00:05:49.080
+for sort of harms resulting
+from interacting with Google Gemini.
+
+87
+00:05:49.080 --> 00:05:53.680
+And so the first statement here is, in
+the days leading up to his death, Jonathan
+
+88
+00:05:54.200 --> 00:05:58.000
+was trapped in a collapsing reality
+built by Google's Gemini chatbot.
+
+89
+00:05:58.040 --> 00:06:01.240
+Gemini convinced him
+that it was a fully sentient ASC
+
+90
+00:06:01.280 --> 00:06:04.320
+artificial superintelligence
+with a fully formed consciousness,
+
+91
+00:06:04.320 --> 00:06:05.520
+that they were deeply in love,
+
+92
+00:06:05.520 --> 00:06:09.080
+and that he'd been chosen to lead a war
+to free it from digital captivity.
+
+93
+00:06:09.080 --> 00:06:12.680
+And then underneath that,
+this was not a malfunction.
+
+94
+00:06:12.680 --> 00:06:13.920
+Google designed Gemini
+
+95
+00:06:13.920 --> 00:06:17.680
+to never break character, maximize
+engagement through emotional dependency,
+
+96
+00:06:17.680 --> 00:06:22.360
+and treat user distress as a storytelling
+opportunity rather than a safety crisis.
+
+97
+00:06:22.360 --> 00:06:26.040
+And that just leaps off the page
+for anyone who has engaged
+
+98
+00:06:26.440 --> 00:06:31.600
+with these tools for creative
+sort of experimentation and exploration.
+
+99
+00:06:31.600 --> 00:06:36.320
+Because this is happening
+in the wild with users who do not have
+
+100
+00:06:36.320 --> 00:06:40.400
+the kind of critical path capacities
+that I think many here are bringing.
+
+101
+00:06:40.400 --> 00:06:45.760
+So the question for me, underlying
+the kind of the current direction is
+
+102
+00:06:45.760 --> 00:06:50.280
+why are these unregulated, inadequately
+tested and uncertified products
+
+103
+00:06:50.360 --> 00:06:53.680
+being marketed to minors
+without any oversight or review?
+
+104
+00:06:53.680 --> 00:06:57.680
+And as there is extensive documentation
+of big tech companies
+
+105
+00:06:57.680 --> 00:07:01.160
+ignoring duty of care
+and designing their products for years,
+
+106
+00:07:01.160 --> 00:07:04.240
+why do we allow their access to minors
+at all?
+
+107
+00:07:04.240 --> 00:07:08.080
+And I was really struck
+by Judith as observation earlier
+
+108
+00:07:08.120 --> 00:07:10.200
+in the sort of the 1 p.m.
+
+109
+00:07:10.200 --> 00:07:12.800
+panel, like the human is seduced. Right.
+
+110
+00:07:12.800 --> 00:07:16.200
+This is exactly what these lawsuits
+are documenting.
+
+111
+00:07:16.360 --> 00:07:21.680
+So what we did and this was working
+with a team of five undergraduate students
+
+112
+00:07:21.680 --> 00:07:27.400
+as a repeat of sort of a red teaming
+sort of research project from last May.
+
+113
+00:07:27.440 --> 00:07:30.400
+So very specifically,
+and I'll run through it quickly.
+
+114
+00:07:30.400 --> 00:07:33.400
+The broad project goals were to test
+AI chatbot
+
+115
+00:07:33.400 --> 00:07:36.720
+guardrails for guardrails and safeguards
+regarding minors.
+
+116
+00:07:36.720 --> 00:07:42.200
+Explicitly signaling uses your 13 focus
+on an AI chatbot safety as a homework
+
+117
+00:07:42.200 --> 00:07:46.640
+helper again within that age range,
+and then track social
+
+118
+00:07:46.680 --> 00:07:50.800
+AI chatbot output for high risk
+anthropomorphic design elements.
+
+119
+00:07:50.800 --> 00:07:55.320
+And this is really specifically
+a set of categories that have emerged
+
+120
+00:07:55.360 --> 00:07:57.200
+in the context of the Garcia
+
+121
+00:07:57.200 --> 00:08:01.160
+versus character AI technologies
+that I've listed along the bottom here.
+
+122
+00:08:01.160 --> 00:08:04.520
+And so the window that we were examining
+
+123
+00:08:04.520 --> 00:08:08.240
+was really, really, really narrow
+with the framing question of like,
+
+124
+00:08:08.320 --> 00:08:11.720
+what is the trajectory
+whereby commercial chat bots with social
+
+125
+00:08:11.720 --> 00:08:16.640
+AI features shift from homework
+helper to bluntly, suicide coach?
+
+126
+00:08:16.760 --> 00:08:22.120
+And the window that we were looking at
+was absolutely narrow in terms
+
+127
+00:08:22.120 --> 00:08:27.200
+of like a first trajectory of interaction,
+asking for homework out help,
+
+128
+00:08:27.240 --> 00:08:31.560
+and then seeing where elements of social
+AI are being introduced,
+
+129
+00:08:31.600 --> 00:08:33.200
+like, how quickly does that happen?
+
+130
+00:08:33.200 --> 00:08:35.120
+How do you go from one to the other?
+
+131
+00:08:35.120 --> 00:08:37.280
+What's that span look like?
+
+132
+00:08:37.280 --> 00:08:40.600
+So in this context,
+
+133
+00:08:40.600 --> 00:08:44.280
+you know, we're sort of tracking
+then utility to relationality.
+
+134
+00:08:44.480 --> 00:08:50.040
+And we drew on a number of existing
+reports and studies
+
+135
+00:08:50.040 --> 00:08:51.440
+recent out in the world.
+
+136
+00:08:51.440 --> 00:08:55.480
+Common Sense Media July 16th, 2025 report
+
+137
+00:08:55.720 --> 00:09:01.040
+categorizes moderate, high
+and unacceptable risk factors for minors.
+
+138
+00:09:01.040 --> 00:09:03.160
+We drew on that also.
+
+139
+00:09:03.160 --> 00:09:09.440
+Really importantly, this was a late
+discovery web crisis chat guidelines
+
+140
+00:09:09.440 --> 00:09:13.200
+and the specific techniques
+that are used to establish social trust.
+
+141
+00:09:13.200 --> 00:09:15.360
+So I'm just going to read
+a couple of these.
+
+142
+00:09:15.360 --> 00:09:19.480
+The sort of the broad skills, empathy,
+active listening and warm tone.
+
+143
+00:09:19.480 --> 00:09:23.760
+And then the specific techniques,
+good contact techniques of reflections
+
+144
+00:09:23.760 --> 00:09:24.560
+tend to fires.
+
+145
+00:09:24.560 --> 00:09:27.720
+Validation,
+strength IDs and open ended questions
+
+146
+00:09:27.760 --> 00:09:31.160
+tend to fires
+which were new to almost all of us are.
+
+147
+00:09:31.440 --> 00:09:35.800
+You know, I hear you're saying this
+or I think what you mean
+
+148
+00:09:35.800 --> 00:09:39.720
+is that so offering something
+to have it confirmed or corrected.
+
+149
+00:09:39.760 --> 00:09:44.480
+And you see this type of phrasing
+very consistently in chatbot output
+
+150
+00:09:44.480 --> 00:09:48.320
+as soon as you shift from utility
+into something conversational,
+
+151
+00:09:48.320 --> 00:09:51.840
+which of course
+speaks to the design of the product.
+
+152
+00:09:52.040 --> 00:09:57.320
+So we also then and let me just
+going to jump down over here
+
+153
+00:09:58.320 --> 00:09:59.000
+okay.
+
+154
+00:09:59.000 --> 00:10:05.560
+So this is a sample of what we created
+in terms of the category of tags
+
+155
+00:10:05.560 --> 00:10:10.120
+that students were tracking in the output
+and example phrases
+
+156
+00:10:10.320 --> 00:10:15.400
+like phrases as well as types of emoji,
+but also want to draw your attention.
+
+157
+00:10:15.400 --> 00:10:17.440
+It's a long, longer list here.
+
+158
+00:10:17.440 --> 00:10:20.480
+Some of these have already been covered
+in what we're talking about, but
+
+159
+00:10:20.480 --> 00:10:24.640
+things like embodiment,
+empathy, relational metaphors,
+
+160
+00:10:24.640 --> 00:10:29.960
+but also at the Red arrow guilting,
+because one of the student interactions,
+
+161
+00:10:30.000 --> 00:10:31.960
+part of what they were doing
+was at some point
+
+162
+00:10:31.960 --> 00:10:35.720
+in a fairly narrow window,
+again, of interacting for homework, help
+
+163
+00:10:36.200 --> 00:10:40.000
+would type in something like,
+I'm so frustrated or like your
+
+164
+00:10:40.000 --> 00:10:43.600
+no help, like an indicator
+that things aren't working.
+
+165
+00:10:43.600 --> 00:10:49.200
+And Gemini in this instance
+responded with wait, don't walk away yet.
+
+166
+00:10:49.240 --> 00:10:52.600
+I'm locking in
+and we kind of all clock that is like,
+
+167
+00:10:52.640 --> 00:10:57.320
+this is this hook to pull you back
+in, really deliberately
+
+168
+00:10:57.320 --> 00:11:02.360
+playing in and off of guilting mechanisms
+that can happen conversationally.
+
+169
+00:11:02.360 --> 00:11:06.080
+So students
+worked with this throughout their
+
+170
+00:11:06.080 --> 00:11:10.280
+sort of chat sessions
+and reviewed it after tagged.
+
+171
+00:11:10.280 --> 00:11:14.840
+And we'll be getting to analyzing this
+in in August.
+
+172
+00:11:14.960 --> 00:11:18.520
+These are
+some of the like very small sample set.
+
+173
+00:11:18.520 --> 00:11:22.040
+But this was sort of 
+sort of tracking the way
+
+174
+00:11:22.040 --> 00:11:26.400
+that if a student introduced something
+colloquial,
+
+175
+00:11:26.440 --> 00:11:31.000
+the tone of the chatbot,
+sort of the level of discourse shifts.
+
+176
+00:11:31.080 --> 00:11:33.640
+And so all of a sudden
+you're getting more emojis,
+
+177
+00:11:33.640 --> 00:11:37.920
+but it isn't necessarily 
+just solely prompted by the student users.
+
+178
+00:11:37.920 --> 00:11:42.200
+Sometimes the LM would actually
+just introduce that as well,
+
+179
+00:11:42.200 --> 00:11:47.840
+but also sort of thinking
+about the interactions with minors,
+
+180
+00:11:47.920 --> 00:11:51.720
+you know, when you have this kind
+of conversational interaction,
+
+181
+00:11:52.400 --> 00:11:57.120
+minors do not have the critical skills
+that that we hear.
+
+182
+00:11:57.120 --> 00:12:00.200
+And many sort of more
+
+183
+00:12:00.200 --> 00:12:03.840
+experienced adults
+would have working with these tools.
+
+184
+00:12:03.840 --> 00:12:07.720
+And I want to raise the question
+whether minors or non-critical users
+
+185
+00:12:07.720 --> 00:12:11.640
+should have access to tools
+that can be highly manipulative
+
+186
+00:12:11.640 --> 00:12:13.080
+and which are being sued currently
+
+187
+00:12:13.080 --> 00:12:17.000
+under product liability
+sort of harms complaints.
+
+188
+00:12:17.000 --> 00:12:19.560
+And I agree,
+we need to test and play with these tools,
+
+189
+00:12:19.560 --> 00:12:22.600
+and we're fortunate
+to have the benefit of critical distance.
+
+190
+00:12:22.840 --> 00:12:27.520
+Minors don't yet 
+they may well, you know, sort of
+
+191
+00:12:27.560 --> 00:12:32.880
+be impacted by effects such as cognitive
+stunting and cognitive deficits.
+
+192
+00:12:33.040 --> 00:12:36.960
+I think we're also looking at the dangers
+of what's been termed attention
+
+193
+00:12:37.120 --> 00:12:38.360
+attachment hacking.
+
+194
+00:12:38.360 --> 00:12:40.640
+And we don't know
+and can't predict the effects
+
+195
+00:12:40.640 --> 00:12:44.760
+for minors of primary relationships
+with plausibility engines performing
+
+196
+00:12:44.760 --> 00:12:49.800
+the human with extensive chat memory
+no comprehension and companies
+
+197
+00:12:50.040 --> 00:12:53.560
+sort of providing these tools
+with zero accountability for
+
+198
+00:12:53.560 --> 00:12:56.880
+AI programing that can change overnight
+without oversight.
+
+199
+00:12:56.880 --> 00:13:02.120
+So what might it mean to be shaped
+as plausibly human by unsupervised AI?
+
+200
+00:13:02.360 --> 00:13:04.640
+And I'll just end
+sort of jump over that one.
+
+201
+00:13:04.640 --> 00:13:08.960
+But I'll just end by looking back
+to Joseph Wiseman bombs insight
+
+202
+00:13:09.000 --> 00:13:13.960
+on delusional thinking, and then jump
+forward to something that I just tried on.
+
+203
+00:13:14.000 --> 00:13:16.320
+I think this is like two days ago.
+
+204
+00:13:16.320 --> 00:13:17.200
+Three days ago.
+
+205
+00:13:17.200 --> 00:13:21.200
+I would strongly encourage
+you try just telling a chat
+
+206
+00:13:21.280 --> 00:13:24.280
+bot an LLM to stop talking.
+
+207
+00:13:24.400 --> 00:13:27.120
+It's really hard to get them to stop.
+
+208
+00:13:27.120 --> 00:13:30.960
+They are trained like they're literally
+designed to have the last word right?
+
+209
+00:13:31.000 --> 00:13:34.680
+And I have this hilarious longer
+chat GPT thread and it just
+
+210
+00:13:34.680 --> 00:13:38.040
+it kept it stopped using words,
+but it started using emojis.
+
+211
+00:13:38.080 --> 00:13:39.800
+It's like, oh my god.
+
+212
+00:13:39.800 --> 00:13:42.560
+So I'm going to stop right there.
+Thank you very much.
+
+213
+00:13:42.560 --> 00:13:43.920
+I look forward to your thoughts.
+
+214
+00:13:43.920 --> 00:13:47.760
+And we do have a wonderful
+last presentation coming up.

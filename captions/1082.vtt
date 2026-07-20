@@ -1,0 +1,1183 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.000
+Okay. Well thank you so much.
+
+2
+00:00:03.080 --> 00:00:04.480
+Those are amazing presentations.
+
+3
+00:00:04.480 --> 00:00:05.720
+I'm really happy to be here.
+
+4
+00:00:05.720 --> 00:00:09.560
+And today I'm really happy to be talking
+about generative poetics
+
+5
+00:00:09.560 --> 00:00:12.840
+in the context of Japanese poetry,
+something that hasn't
+
+6
+00:00:12.840 --> 00:00:16.360
+received much attention in scholarship
+in any language, really.
+
+7
+00:00:16.760 --> 00:00:20.320
+And it's been something that in my own
+field of like Japanese literary
+
+8
+00:00:20.320 --> 00:00:23.640
+studies, I've been claiming we all need
+to pay more attention to this stuff.
+
+9
+00:00:23.640 --> 00:00:27.600
+And it feels like in the last few years
+with what's happened with generative AI,
+
+10
+00:00:27.640 --> 00:00:31.840
+it kind of feels like a finger of a
+monkey's paw has curled a bit
+
+11
+00:00:33.040 --> 00:00:33.640
+even worse.
+
+12
+00:00:33.640 --> 00:00:37.960
+It's kind of an AI generated monkey's paw
+that has a few too many fingers.
+
+13
+00:00:37.960 --> 00:00:41.880
+But in any case, the connection
+between writing and generation
+
+14
+00:00:41.920 --> 00:00:47.040
+has now, in the popular imaginary, largely
+been conflated to certain types of LLM
+
+15
+00:00:47.040 --> 00:00:50.960
+based production,
+and many have discussed the normal
+
+16
+00:00:50.960 --> 00:00:54.880
+devising forces inherent
+to these kinds of text generation.
+
+17
+00:00:54.920 --> 00:00:58.080
+From my perspective, coming from Asian
+studies, I also want to start
+
+18
+00:00:58.120 --> 00:01:01.160
+today's talk off by talking a bit
+about some specific,
+
+19
+00:01:01.200 --> 00:01:05.240
+kind of unsettling aspects
+of the marketing and use of generative AI,
+
+20
+00:01:05.480 --> 00:01:10.040
+specifically in relation
+to popular conceptions of East Asia, East
+
+21
+00:01:10.040 --> 00:01:14.560
+Asia, and specifically, especially Japan,
+often becomes kind of the imaginary.
+
+22
+00:01:14.560 --> 00:01:19.440
+That is the general test case to show off
+the technology to Western audiences.
+
+23
+00:01:19.680 --> 00:01:24.600
+For example, in 2024, OpenAI premiered
+its text to video model Sora, quote
+
+24
+00:01:24.680 --> 00:01:29.560
+named after the Japanese word for sky, to
+signify its limitless creative potential.
+
+25
+00:01:29.720 --> 00:01:33.880
+And this Tokyo walk was one of their
+very first preview videos.
+
+26
+00:01:34.640 --> 00:01:39.800
+So the products of generative AI
+and the discourses around the technology
+
+27
+00:01:39.800 --> 00:01:43.280
+both fall with alarming regularity
+into orientalist
+
+28
+00:01:43.280 --> 00:01:46.280
+and techno orientalist tropes about East
+Asia.
+
+29
+00:01:46.400 --> 00:01:51.760
+In cases like Sora, Japan is ultimately
+an inherently general, always othered
+
+30
+00:01:51.760 --> 00:01:55.840
+with dehumanized non people,
+especially the central female figure
+
+31
+00:01:55.840 --> 00:01:59.400
+who's striding through a cityscape
+filled with lit signs featuring
+
+32
+00:01:59.400 --> 00:02:03.200
+nonsensical fake Asian characters
+like that's not real writing
+
+33
+00:02:03.240 --> 00:02:07.320
+as if to say, kind of, it's Japan
+as long as you don't look too closely.
+
+34
+00:02:07.320 --> 00:02:08.960
+Because why would you look too closely?
+
+35
+00:02:08.960 --> 00:02:11.600
+Because it's obviously Japan.
+
+36
+00:02:11.600 --> 00:02:14.680
+Public discourses around the use of AI
+
+37
+00:02:14.720 --> 00:02:19.120
+to fall into yet more pernicious
+orientalist tropes of East
+
+38
+00:02:19.120 --> 00:02:24.840
+Asians as copying unoriginal
+or artificial or deceitful.
+
+39
+00:02:25.040 --> 00:02:28.000
+One prominent example of
+this is the global media furor
+
+40
+00:02:28.000 --> 00:02:30.440
+that emerged around 2023.
+
+41
+00:02:30.440 --> 00:02:36.800
+Novel Sympathy Tower Tokyo Tokyo, 
+which won the Akutagawa Prize, Japan's
+
+42
+00:02:36.800 --> 00:02:37.960
+most prestigious award
+
+43
+00:02:37.960 --> 00:02:42.560
+for literary fiction, and for the novel,
+which is kind of about AI in many ways.
+
+44
+00:02:42.560 --> 00:02:47.480
+She used ChatGPT to create the responses
+when the character spoke to an in-universe
+
+45
+00:02:47.480 --> 00:02:52.200
+chatbot, totaling about maybe
+one page of text drought the whole novel.
+
+46
+00:02:52.400 --> 00:02:55.600
+But the headlines around the world
+frame things quite differently,
+
+47
+00:02:55.600 --> 00:02:59.400
+as if he had hidden her process
+and tried to get away with something.
+
+48
+00:02:59.640 --> 00:03:04.680
+Winner of Japan's top literary
+prize admits she used ChatGPT novelist
+
+49
+00:03:04.680 --> 00:03:08.960
+Rakuten wins fans most prestigious
+literary prize than reveals she used.
+
+50
+00:03:08.960 --> 00:03:13.160
+ChatGPT, the winner of a prestigious
+Japanese literary award, has confirmed.
+
+51
+00:03:13.200 --> 00:03:17.360
+AI helped her write her book and novel,
+written with the help of ChatGPT,
+
+52
+00:03:17.400 --> 00:03:18.800
+wins top Japanese literary prize.
+
+53
+00:03:18.800 --> 00:03:20.560
+Here's how the author justifies it.
+
+54
+00:03:20.560 --> 00:03:22.040
+So you see this kind of rhetoric
+
+55
+00:03:22.040 --> 00:03:25.920
+that comes up a lot,
+but I haven't given up hope on how
+
+56
+00:03:25.920 --> 00:03:30.360
+the generative can still be generative
+for thinking about Japanese literature.
+
+57
+00:03:30.360 --> 00:03:35.040
+And but it's mostly in the realm of poetry
+and of generative poetics writ large.
+
+58
+00:03:35.240 --> 00:03:38.080
+And I found the most success
+in communicating the value
+
+59
+00:03:38.080 --> 00:03:41.880
+to people in my field
+about thinking about the stuff seriously,
+
+60
+00:03:41.880 --> 00:03:46.360
+about the limits and affordances
+of text generation, and also reasserting
+
+61
+00:03:46.360 --> 00:03:47.960
+that the story of these technologies
+
+62
+00:03:47.960 --> 00:03:51.080
+and the conversations around
+them is a genuinely global
+
+63
+00:03:51.080 --> 00:03:54.920
+one, rooted in a variety
+of experimental literary practices.
+
+64
+00:03:55.120 --> 00:03:58.720
+So today, I'm spending the rest of my time
+thinking about the earlier history
+
+65
+00:03:58.720 --> 00:04:02.800
+of poetry generators
+in Japan and of Japanese poetry,
+
+66
+00:04:02.840 --> 00:04:06.840
+finding predecessors that,
+unlike the dominant uses of generative
+
+67
+00:04:06.840 --> 00:04:10.600
+AI on major platforms,
+centered diverse kinds of legibility,
+
+68
+00:04:10.640 --> 00:04:15.240
+human agency, and and interestingly
+open and contestable take on literary
+
+69
+00:04:15.240 --> 00:04:19.000
+ness and centering approaches
+that value serendipity,
+
+70
+00:04:19.040 --> 00:04:23.600
+surprise, self-examination,
+and a constant questioning of how we could
+
+71
+00:04:23.600 --> 00:04:26.880
+and should be implicated into technology
+and it into us.
+
+72
+00:04:27.440 --> 00:04:28.840
+But this has a long history.
+
+73
+00:04:28.840 --> 00:04:31.840
+Thinking about, and even being anxious
+about the general ability
+
+74
+00:04:31.840 --> 00:04:34.880
+of Japanese
+poetry is not a recent phenomenon.
+
+75
+00:04:34.920 --> 00:04:37.480
+It kind of has its roots
+in the 19th century.
+
+76
+00:04:37.480 --> 00:04:40.560
+There's a great recent book
+by Scott Mill called The Ends of Meter
+
+77
+00:04:40.560 --> 00:04:43.560
+in Modern Japanese Poetry,
+and he highlights how Marcel,
+
+78
+00:04:44.120 --> 00:04:46.720
+who's the progenitor of modern haiku
+as we know it,
+
+79
+00:04:46.720 --> 00:04:48.760
+he came up with the word haiku,
+pretty much,
+
+80
+00:04:48.760 --> 00:04:52.320
+and his mathematical anxieties
+about foreign poetry.
+
+81
+00:04:52.440 --> 00:04:56.200
+So in 1892
+he writes this a certain contemporary
+
+82
+00:04:56.200 --> 00:05:00.040
+scholar conversant with mathematics
+that says it is evident from the theory
+
+83
+00:05:00.040 --> 00:05:03.200
+of permutations that there is
+a numerical limit to the tanka
+
+84
+00:05:03.200 --> 00:05:07.360
+and haiku of Japan, which are confined
+to a mere 20 or 30 syllables.
+
+85
+00:05:07.360 --> 00:05:11.120
+In other words, sooner or later the tanka
+and haiku will reach their limit.
+
+86
+00:05:11.200 --> 00:05:15.040
+You may ask if that is so, when will
+the end come for the haiku and tanka?
+
+87
+00:05:15.040 --> 00:05:16.640
+And I reply, I can't.
+
+88
+00:05:16.640 --> 00:05:19.160
+Of course, predict
+the time of their total extinction.
+
+89
+00:05:19.160 --> 00:05:23.000
+But speaking approximately, I think
+the haiku has already played itself out.
+
+90
+00:05:23.040 --> 00:05:26.360
+Even assuming that the end is yet to come,
+we can confidently expect it
+
+91
+00:05:26.360 --> 00:05:29.640
+to arrive
+sometime during the Meiji period, i.e.
+
+92
+00:05:29.680 --> 00:05:31.440
+by the 1920s or 1930s.
+
+93
+00:05:31.440 --> 00:05:33.000
+So he thought haiku was so short
+
+94
+00:05:33.000 --> 00:05:35.440
+and there are so few syllables
+that we are running out of haiku.
+
+95
+00:05:35.440 --> 00:05:36.720
+And this is a crisis.
+
+96
+00:05:38.040 --> 00:05:39.160
+Mail points out that the
+
+97
+00:05:39.160 --> 00:05:43.960
+actual number of possible 17 syllable
+haiku in Japanese is about 26 octillion.
+
+98
+00:05:43.960 --> 00:05:46.960
+So I think we're okay
+for a little bit longer, but
+
+99
+00:05:46.960 --> 00:05:50.680
+this is an early example of the fears
+about generative foreign poetry.
+
+100
+00:05:50.680 --> 00:05:52.480
+The idea that the form is so limited
+
+101
+00:05:52.480 --> 00:05:56.280
+that it only has so many permutations
+and will eventually exhaust itself.
+
+102
+00:05:56.280 --> 00:05:59.560
+And embedded in this
+more subtly, is a kind of anxiety
+
+103
+00:05:59.560 --> 00:06:02.000
+about the role of the human
+in poetry making,
+
+104
+00:06:02.000 --> 00:06:05.000
+that if there are a set number of haiku
+and tunc out there
+
+105
+00:06:05.520 --> 00:06:08.800
+that are merely to be selected
+from existing ingredients,
+
+106
+00:06:08.840 --> 00:06:12.040
+the human is just there to curate
+or slap things together.
+
+107
+00:06:12.240 --> 00:06:17.200
+And this kind of curation of preexisting
+ingredients became computationally,
+
+108
+00:06:17.200 --> 00:06:21.880
+literally, as early as 1967, when Margaret
+Masterman and Robin MacKinnon
+
+109
+00:06:21.880 --> 00:06:25.520
+would created their computerized
+haiku program, which premiered
+
+110
+00:06:25.520 --> 00:06:30.360
+to great acclaim in the Cybernetic
+Serendipity exhibition in London in 1968.
+
+111
+00:06:30.640 --> 00:06:34.520
+So the brevity and strong
+constraints of the haiku, both formally
+
+112
+00:06:34.520 --> 00:06:37.520
+and in terms of subject matter,
+lend themselves really well
+
+113
+00:06:37.560 --> 00:06:42.000
+to this kind of test case for generation
+in a way that was a lot more nuanced
+
+114
+00:06:42.000 --> 00:06:45.880
+and a lot less creepy than that Sora video
+I showed you, and that it actually
+
+115
+00:06:45.880 --> 00:06:49.440
+is grappling with the specific specificity
+of the poetic form.
+
+116
+00:06:49.440 --> 00:06:52.840
+Masterman was just as interested
+in understanding haiku better as she was,
+
+117
+00:06:52.840 --> 00:06:56.600
+and using haiku as a way to help people
+understand computers better.
+
+118
+00:06:56.840 --> 00:07:00.040
+So in one interesting
+and complicated quote from her,
+
+119
+00:07:00.280 --> 00:07:03.120
+the fact that the difficult problem
+of producing a poems
+
+120
+00:07:03.120 --> 00:07:08.080
+generating formula was for the first time
+made explicit by a rudimentary generating
+
+121
+00:07:08.080 --> 00:07:09.320
+formula being actually
+
+122
+00:07:09.320 --> 00:07:13.880
+displayed, explains the haikus
+unexpected success at this exhibition.
+
+123
+00:07:13.880 --> 00:07:17.680
+People who are neither Japanese
+nor poets could and did work
+
+124
+00:07:17.680 --> 00:07:20.920
+the algorithm and produce a poem,
+which then in some cases
+
+125
+00:07:20.920 --> 00:07:25.400
+they carefully treasured and placed
+in their breast pockets within Japan.
+
+126
+00:07:25.440 --> 00:07:28.760
+There is also an important
+and fascinating legacy of work poetry,
+
+127
+00:07:28.760 --> 00:07:32.520
+generators and critical writings
+about them starting in the 1970s
+
+128
+00:07:32.560 --> 00:07:35.520
+that want to pretty quickly
+go through here, just to show you
+
+129
+00:07:35.520 --> 00:07:38.520
+some of the range and complexity
+of what has been done.
+
+130
+00:07:39.200 --> 00:07:42.320
+Mizutani haiku making computer haiku.
+
+131
+00:07:42.320 --> 00:07:46.120
+Tsugaru from 1979, was an early experiment
+
+132
+00:07:46.560 --> 00:07:50.760
+on the Toshiba
+Aiko's 600 that he saw as once again
+
+133
+00:07:50.760 --> 00:07:53.800
+not just a way to generate haiku,
+but to contribute
+
+134
+00:07:53.800 --> 00:07:55.920
+strongly to our understanding of haiku.
+
+135
+00:07:55.920 --> 00:07:59.600
+In the process of creating a program
+like this and interacting with it.
+
+136
+00:08:02.120 --> 00:08:05.360
+Speculating on the future of Computer
+Haiku in 1984
+
+137
+00:08:05.440 --> 00:08:09.240
+holds out hope that something
+unexpectedly amazing might happen
+
+138
+00:08:09.240 --> 00:08:12.240
+once this kind of haiku generation
+becomes the norm.
+
+139
+00:08:12.320 --> 00:08:17.200
+How many verses he said brilliant,
+baffling or clichéd might be generated?
+
+140
+00:08:17.240 --> 00:08:19.320
+The verses can be calculated
+in an instant,
+
+141
+00:08:19.320 --> 00:08:20.960
+but what kinds of images or what
+
+142
+00:08:20.960 --> 00:08:25.000
+kinds of appearances might such work
+take that we cannot predict?
+
+143
+00:08:25.040 --> 00:08:29.000
+There's only a vague premonition
+that, suddenly or unexpectedly,
+
+144
+00:08:29.000 --> 00:08:31.440
+a strikingly vivid wonder might appear.
+
+145
+00:08:31.440 --> 00:08:34.800
+So he's emphasizing
+the possibility of surprise, even
+
+146
+00:08:34.800 --> 00:08:38.560
+for the poet themselves,
+and he links the specific worldview
+
+147
+00:08:38.560 --> 00:08:42.640
+to the worldview of haiku poetics,
+like what's inherent to how haiku work?
+
+148
+00:08:42.800 --> 00:08:43.480
+Quote.
+
+149
+00:08:43.480 --> 00:08:46.840
+It comes down to the belief
+that poetry should not be created through
+
+150
+00:08:46.880 --> 00:08:49.880
+meaning,
+nor should it be read through meaning.
+
+151
+00:08:50.080 --> 00:08:53.560
+This notion has been a commonplace in
+the world of haiku for a very long time.
+
+152
+00:08:53.600 --> 00:08:54.320
+End quote.
+
+153
+00:08:54.320 --> 00:08:56.600
+So a lot of haiku poets
+now, especially in Japan,
+
+154
+00:08:56.600 --> 00:09:01.480
+say that the idea of a poem with an inner
+meaning is kind of an imposition
+
+155
+00:09:01.480 --> 00:09:06.720
+from Western poetic concepts onto haiku,
+which are meant to be much more about
+
+156
+00:09:06.720 --> 00:09:10.880
+impressions and moments and sensation,
+and not about quote unquote meaning.
+
+157
+00:09:11.720 --> 00:09:13.440
+Suzuki Shiro Yasu.
+
+158
+00:09:13.440 --> 00:09:17.600
+Around the same time, in his 1985 poem
+machine turned to free verse,
+
+159
+00:09:17.640 --> 00:09:21.720
+generating poems using a computer
+based on audience suggestions,
+
+160
+00:09:21.760 --> 00:09:26.040
+noting that, quote, people tend to think
+that poems are created in a closed room,
+
+161
+00:09:26.040 --> 00:09:29.280
+but when you do it in a public place
+and a poem just comes out,
+
+162
+00:09:29.320 --> 00:09:31.640
+it seems even people who don't usually
+write
+
+163
+00:09:31.640 --> 00:09:34.400
+can feel like they've expressed
+something about themselves.
+
+164
+00:09:34.400 --> 00:09:36.400
+It seems as the case, without exception.
+
+165
+00:09:36.400 --> 00:09:40.280
+So this idea of these poetry generators
+is unlocking poetry
+
+166
+00:09:40.280 --> 00:09:43.640
+and making it more accessible
+to a broader audience, even in person.
+
+167
+00:09:44.320 --> 00:09:46.200
+A 1985 exhibition.
+
+168
+00:09:46.200 --> 00:09:51.400
+Same year again Kurosawa and Fujita Masaki
+fictitious Museum of Lost and Found
+
+169
+00:09:51.440 --> 00:09:53.760
+was framed as a museum of artifacts
+
+170
+00:09:53.760 --> 00:09:57.640
+left behind by aliens,
+which I wish I was around for.
+
+171
+00:09:57.640 --> 00:09:58.960
+This is sounds really cool,
+
+172
+00:09:58.960 --> 00:10:02.760
+including a perpetual poem
+generating computer terminal.
+
+173
+00:10:02.760 --> 00:10:04.240
+That's one of the.
+
+174
+00:10:04.240 --> 00:10:07.080
+In 1987, Ito Takashi.
+
+175
+00:10:07.080 --> 00:10:11.760
+He imagined what a contemporary poetry
+composition support system might be,
+
+176
+00:10:11.760 --> 00:10:14.680
+though he says he was kind of doing it
+to make fun of other people
+
+177
+00:10:14.680 --> 00:10:17.560
+who are using computers
+too much and writing poetry again.
+
+178
+00:10:17.560 --> 00:10:20.240
+1987 pretty early for this.
+
+179
+00:10:20.240 --> 00:10:22.520
+Gino, Toshi, Fumi.
+
+180
+00:10:22.520 --> 00:10:26.000
+He's looking at the current state
+of contemporary poetry creation software
+
+181
+00:10:26.000 --> 00:10:31.040
+in 1995, and he used this as a way
+to critique the state of poetry itself.
+
+182
+00:10:31.040 --> 00:10:35.480
+He says the actual poems being published
+might as well be computer generated,
+
+183
+00:10:35.480 --> 00:10:39.640
+so why not just go the whole route
+and just generate them ourselves?
+
+184
+00:10:39.720 --> 00:10:42.960
+In 1996, Tulsa, Norco,
+
+185
+00:10:43.000 --> 00:10:46.440
+Nakatsu
+Ryohei came up with an interactive poem
+
+186
+00:10:46.440 --> 00:10:50.400
+interactive poem, which emerges
+out of a conversation between
+
+187
+00:10:51.640 --> 00:10:54.560
+you and
+a computerized amuse with this face
+
+188
+00:10:54.560 --> 00:10:57.320
+in which she composes
+based on your emotional state
+
+189
+00:10:57.320 --> 00:11:01.440
+and you're ideally supposed to be
+composing based on hers, like licking her
+
+190
+00:11:01.440 --> 00:11:05.360
+in the eyes, feeling what she's feeling,
+and then composing back to her.
+
+191
+00:11:05.440 --> 00:11:07.680
+But I find this really terrifying.
+
+192
+00:11:07.680 --> 00:11:09.240
+So I'm going to move on.
+
+193
+00:11:09.240 --> 00:11:12.280
+And XO Nemo is another interesting one.
+
+194
+00:11:12.280 --> 00:11:15.920
+This is an internet
+art duo symbol can scan a Kiowa
+
+195
+00:11:16.640 --> 00:11:19.760
+who gained this reputation of messing
+with the digital and a lot of ways,
+
+196
+00:11:19.760 --> 00:11:24.560
+but they made one of Japan's first online
+poem generators called BM 394.
+
+197
+00:11:24.560 --> 00:11:28.000
+And they have this sort of tongue in cheek
+description on their page that is.
+
+198
+00:11:28.040 --> 00:11:31.480
+Sounds a lot like the press releases
+of every AI company right now.
+
+199
+00:11:31.880 --> 00:11:35.400
+Quote the poetry
+writing tool long awaited by poets,
+
+200
+00:11:35.400 --> 00:11:39.640
+copywriters, musicians and adventurers
+in every expressive field is here.
+
+201
+00:11:39.640 --> 00:11:42.200
+Its name is BM 394 bio morph.
+
+202
+00:11:42.200 --> 00:11:45.160
+It is a poetry writing
+formula support machine.
+
+203
+00:11:45.160 --> 00:11:48.960
+The M3 94 adopts a bio morph
+type manipulation system,
+
+204
+00:11:48.960 --> 00:11:52.640
+allowing the user to create poems
+far beyond their ability.
+
+205
+00:11:52.680 --> 00:11:56.480
+The operation is simple input an initial
+word as the theme, and then just
+
+206
+00:11:56.480 --> 00:11:59.920
+select your favorite poem from the poems
+randomly generated by the computer.
+
+207
+00:11:59.960 --> 00:12:03.400
+You will be how surprised
+at how the bio morph based process creates
+
+208
+00:12:03.400 --> 00:12:05.000
+surprisingly brilliant poetry.
+
+209
+00:12:05.000 --> 00:12:09.760
+BM 394 at last, words
+have their final weapon, so it's like
+
+210
+00:12:09.920 --> 00:12:13.480
+kind of like their anime villains
+almost taking on that kind of rhetoric.
+
+211
+00:12:13.480 --> 00:12:17.640
+So I'm ending today in the 1990s,
+but for later generators,
+
+212
+00:12:17.640 --> 00:12:20.800
+I'd also like to point the audience
+to the renderings project
+
+213
+00:12:20.800 --> 00:12:25.280
+in the Electronic Literature Collection
+three, which has my translation of Cino
+
+214
+00:12:25.280 --> 00:12:29.120
+Nomi 2012,
+Contemporary Japanese Poetry Generator,
+
+215
+00:12:29.200 --> 00:12:34.600
+and my own 2014
+bilingual Generative Poem or Automation.
+
+216
+00:12:35.040 --> 00:12:39.360
+But going through these examples
+more than just emphasizing, hey,
+
+217
+00:12:39.400 --> 00:12:43.600
+Japan had poetry generators too,
+though I also want to do that I aim.
+
+218
+00:12:43.600 --> 00:12:46.600
+What I aim to do today
+is to give a sense of another history,
+
+219
+00:12:46.600 --> 00:12:50.640
+and another site of thinking
+about generative poetics amid a discourse
+
+220
+00:12:50.640 --> 00:12:54.440
+and within a field of elit studies
+still highly
+
+221
+00:12:54.440 --> 00:12:58.440
+dominated by a narrow slice of languages
+and locales.
+
+222
+00:12:58.440 --> 00:13:02.480
+So, for example, if we take the examples
+of haiku generation,
+
+223
+00:13:02.480 --> 00:13:05.600
+we can see how closely intertwined
+Japanese poetics were
+
+224
+00:13:05.600 --> 00:13:08.720
+with even some of the earliest experiments
+in generated literature
+
+225
+00:13:08.800 --> 00:13:11.600
+and the Japanese thinkers
+who wrote about such experiments.
+
+226
+00:13:11.600 --> 00:13:15.920
+Also, we're exploring how a form
+like haiku, one that inherently pushes
+
+227
+00:13:15.920 --> 00:13:19.080
+against historically dominant
+Western ideas of what poetry is
+
+228
+00:13:19.120 --> 00:13:20.240
+and how it works
+
+229
+00:13:20.240 --> 00:13:24.160
+due to its extreme length constraints,
+rejection of a lyrical subjectivity,
+
+230
+00:13:24.160 --> 00:13:27.200
+and even a centering of meaning,
+a type of literature that,
+
+231
+00:13:27.200 --> 00:13:30.480
+even pre-digital, was seen as always,
+inherently general.
+
+232
+00:13:30.880 --> 00:13:34.760
+We can point us to other value systems
+when it comes to the confluence
+
+233
+00:13:34.760 --> 00:13:36.640
+of computation and writing.
+
+234
+00:13:36.640 --> 00:13:39.080
+On the other hand,
+an oversize, simplistic,
+
+235
+00:13:39.080 --> 00:13:42.560
+oversimplified summary of such ideas
+can itself fall into those
+
+236
+00:13:42.600 --> 00:13:45.840
+orientalist traps
+I discussed at the beginning of this paper
+
+237
+00:13:45.840 --> 00:13:49.840
+into these maybe harmful ideas
+about the general of Asia,
+
+238
+00:13:49.880 --> 00:13:52.840
+always imitating
+and never imitating and always imitating,
+
+239
+00:13:53.880 --> 00:13:55.920
+but by juxtaposing these threads
+
+240
+00:13:55.920 --> 00:14:00.000
+along with this enormously rich history
+of generative poetics in Japan.
+
+241
+00:14:00.080 --> 00:14:04.080
+I hope to show how much more interesting
+and hard to sum up things actually are
+
+242
+00:14:04.080 --> 00:14:05.200
+and have been.
+
+243
+00:14:05.200 --> 00:14:08.440
+These aren't a final weapon, perhaps,
+but to paraphrase
+
+244
+00:14:09.160 --> 00:14:12.600
+who I quoted earlier,
+they leave open a generative space
+
+245
+00:14:12.600 --> 00:14:15.640
+where a strikingly vivid
+wonder might still appear.
+
+246
+00:14:15.680 --> 00:14:16.640
+Thank you so much.

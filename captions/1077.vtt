@@ -1,0 +1,1048 @@
+WEBVTT
+
+1
+00:34:30.160 --> 00:34:35.480
+But in lieu of a PowerPoint, I'm going to
+
+2
+00:34:36.880 --> 00:34:41.000
+I'm going to invite you all
+to take a look at my exhibit.
+
+3
+00:34:41.080 --> 00:34:44.760
+I just posted the link in chat because
+I think that's going to be more effective
+
+4
+00:34:44.760 --> 00:34:48.000
+in outlining
+what I'm speaking about than a PowerPoint.
+
+5
+00:34:48.000 --> 00:34:52.000
+And I promise, it has nothing to do
+with the fact that I hate PowerPoints.
+
+6
+00:34:52.200 --> 00:34:55.520
+So my name is Glenn Ritchey.
+
+7
+00:34:55.520 --> 00:35:00.080
+I am a going into my second year
+in the Texts and Technology program
+
+8
+00:35:00.080 --> 00:35:06.080
+here at UCF, and 
+I generally hate doing the introductions.
+
+9
+00:35:06.080 --> 00:35:09.680
+So I will say that my work is interested
+
+10
+00:35:09.680 --> 00:35:13.440
+in electronic literature
+and digital fiction broadly,
+
+11
+00:35:13.600 --> 00:35:19.200
+my background is more in traditional
+literary and cultural studies, with
+
+12
+00:35:20.360 --> 00:35:21.280
+focuses on
+
+13
+00:35:21.280 --> 00:35:25.640
+publishing and editing
+experimental literature.
+
+14
+00:35:25.840 --> 00:35:30.520
+A lot of my work
+likewise hinges on the cinematic.
+
+15
+00:35:30.520 --> 00:35:36.000
+So my paper is called “Coercing
+Contribution: Navigating
+
+16
+00:35:36.000 --> 00:35:39.280
+Involuntary Authors
+through a Mountain of Sleep.”
+
+17
+00:35:39.280 --> 00:35:42.520
+And before I get going, I'm just going
+to say thanks all for being here.
+
+18
+00:35:42.600 --> 00:35:43.960
+Much appreciated.
+
+19
+00:35:43.960 --> 00:35:49.080
+And thanks to everyone
+who has made EL0 ‘26 happen.
+
+20
+00:35:49.120 --> 00:35:52.920
+So this paper handles
+less of the technical end,
+
+21
+00:35:52.920 --> 00:35:58.760
+but more of the theoretical
+concerns of “Like a Mountaib of Sleep,”
+
+22
+00:35:58.760 --> 00:36:03.160
+which I'll just be calling “LaMoS.”
+It was built in Twine SugarCube
+
+23
+00:36:03.160 --> 00:36:06.800
+and is structured across
+two distinct passage populations
+
+24
+00:36:06.840 --> 00:36:10.320
+a small cluster of named,
+narratively distinct passages.
+
+25
+00:36:10.320 --> 00:36:15.160
+In essence, narrative beats connected
+by explicit links in a much larger set
+
+26
+00:36:15.200 --> 00:36:20.320
+of structurally undifferentiated passages
+that function as a destination pool,
+
+27
+00:36:20.320 --> 00:36:24.440
+where reader player input
+is captured at prompts throughout the text
+
+28
+00:36:24.440 --> 00:36:29.280
+and is randomized
+at the point of reinfection, meaning no
+
+29
+00:36:29.280 --> 00:36:33.680
+two traversals redeploy identical
+input into identical output,
+
+30
+00:36:33.680 --> 00:36:37.960
+and to give everything away,
+the reader receives a free verse poem
+
+31
+00:36:37.960 --> 00:36:40.760
+for their efforts
+at the end of the experience,
+
+32
+00:36:40.760 --> 00:36:43.760
+assembled from their own words
+and returned to them,
+
+33
+00:36:43.760 --> 00:36:47.840
+perhaps unrecognized
+as what I'm calling a gift.
+
+34
+00:36:47.880 --> 00:36:52.080
+This is a textual project
+I've worked on for the better and worse
+
+35
+00:36:52.080 --> 00:36:53.680
+parts of ten years.
+
+36
+00:36:53.680 --> 00:36:58.000
+In fact, yesterday I was recalling
+Patrick Lichty’s workshop on spatial
+
+37
+00:36:58.040 --> 00:37:01.040
+texts in XR
+game engines to PD [a colleague].
+
+38
+00:37:01.120 --> 00:37:03.120
+I was mostly talking
+about how I looked forward
+
+39
+00:37:03.120 --> 00:37:06.440
+to exploring yet
+another remediation of this project
+
+40
+00:37:06.440 --> 00:37:10.440
+as it began as a spatial text,
+and PD stated, “I love that you have
+
+41
+00:37:10.440 --> 00:37:14.680
+a foundational written text that you keep
+exploring in different forms.”
+
+42
+00:37:14.720 --> 00:37:18.560
+Of course I'm paraphrasing,
+but it left me to think
+
+43
+00:37:18.600 --> 00:37:21.840
+maybe this has been the better part
+of the last ten years.
+
+44
+00:37:21.880 --> 00:37:25.000
+With that said,
+this project began as a reflection
+
+45
+00:37:25.000 --> 00:37:28.080
+of my desire to create a filmic homage
+
+46
+00:37:28.120 --> 00:37:31.880
+to some of my favorite directors
+from mid-century continental Europe,
+
+47
+00:37:31.920 --> 00:37:36.720
+all of whom specialized in the effectively
+called Eurotrash.
+
+48
+00:37:37.000 --> 00:37:40.760
+Really, one gets the idea
+if they've seen Umberto Lenzi’s
+
+49
+00:37:40.760 --> 00:37:45.120
+Welcome to Spring Break from 1989,
+also called Nightmare Beach,
+
+50
+00:37:45.120 --> 00:37:50.360
+which was filmed partially
+in my hometown of Daytona Beach, Florida.
+
+51
+00:37:51.280 --> 00:37:54.880
+I soon learned that making a film,
+even on a shoestring budget,
+
+52
+00:37:54.880 --> 00:37:58.120
+is still a really tall order
+that, despite my optimism
+
+53
+00:37:58.120 --> 00:38:01.120
+and experimentation,
+just did not seem feasible.
+
+54
+00:38:01.120 --> 00:38:05.400
+So I moved on to writing a novel
+that would be about 300 pages,
+
+55
+00:38:05.400 --> 00:38:09.120
+describing the final ten minutes
+of this film that would never exist.
+
+56
+00:38:09.400 --> 00:38:12.680
+I ended up sitting with the opening
+few thousand words
+
+57
+00:38:12.680 --> 00:38:16.320
+for quite some time, as I could
+never get this project where I hoped.
+
+58
+00:38:16.320 --> 00:38:19.120
+Now, as of my more recent forays
+
+59
+00:38:19.120 --> 00:38:22.960
+into electronic literature
+and digital fictions, in my PhD,
+
+60
+00:38:23.120 --> 00:38:26.640
+I spent a lot of time experimenting
+with hypertext forms.
+
+61
+00:38:26.760 --> 00:38:31.360
+The result of my last year
+is this present iteration of “LaMoS,”
+
+62
+00:38:31.360 --> 00:38:35.720
+which postures
+as a VHS of an unrealized slasher
+
+63
+00:38:35.720 --> 00:38:40.480
+film set in a Florida
+that MTV Spring Break forgot.
+
+64
+00:38:40.680 --> 00:38:45.160
+With all of this said, my goal for
+this project is partly a celebration
+
+65
+00:38:45.160 --> 00:38:50.040
+and interrogation of the affordances
+electronic literature offers,
+
+66
+00:38:50.040 --> 00:38:55.000
+as well as a statement of appreciation
+for the Foucauldian author function.
+
+67
+00:38:55.040 --> 00:38:59.880
+Those areas where we must realize that
+our conception of the author is limited
+
+68
+00:38:59.880 --> 00:39:03.160
+to the sum of a network, in essence,
+authors,
+
+69
+00:39:03.160 --> 00:39:08.360
+publishers, marketers,
+and in this case, programmers
+
+70
+00:39:08.360 --> 00:39:12.680
+and reader players,
+amongst many other examples.
+
+71
+00:39:12.760 --> 00:39:18.040
+I've also landed on how this work yearns
+to be a cybertext labyrinth.
+
+72
+00:39:19.200 --> 00:39:21.400
+Espen Aarseth’s Cybertext
+
+73
+00:39:21.400 --> 00:39:25.880
+distinguishes the reader of conventional
+narrative from the player of a cybertext
+
+74
+00:39:25.920 --> 00:39:30.680
+on the basis of effort, stating,
+“A reader, however strongly engaged in
+
+75
+00:39:30.680 --> 00:39:35.600
+the unfolding of a narrative, is powerless
+like a spectator at a soccer game.
+
+76
+00:39:35.600 --> 00:39:39.760
+He may speculate, conjecture,
+extrapolate, even, shall abuse,
+
+77
+00:39:39.760 --> 00:39:45.160
+but he's not a player.” Cybertext demands
+what Aarseth calls “non-trivial effort
+
+78
+00:39:45.160 --> 00:39:49.800
+in the form of real traversal,
+in real choice, with consequences
+
+79
+00:39:49.800 --> 00:39:53.160
+as the condition of the reader's
+evaluation to player.”
+
+80
+00:39:53.320 --> 00:39:56.240
+In discussing the labyrinth qualities
+
+81
+00:39:56.240 --> 00:40:00.200
+applied to literary texts
+and in the pursuit of defining cybertext,
+
+82
+00:40:00.240 --> 00:40:04.240
+he is equally precise about what
+a labyrinth requires structurally.
+
+83
+00:40:04.240 --> 00:40:07.480
+Reviewing critics
+who describe strictly linear
+
+84
+00:40:07.520 --> 00:40:11.760
+print novels as labyrinths without exits,
+incidentally citing a longtime
+
+85
+00:40:11.760 --> 00:40:15.680
+influence of mine, Alain
+Robbe-Grillet in his novel Lavoisier.
+
+86
+00:40:16.280 --> 00:40:21.760
+Among other examples, Aarseth objects
+A labyrinth without exit is elaborate
+
+87
+00:40:21.760 --> 00:40:25.480
+without entrance, in other words,
+not a labyrinth at all.
+
+88
+00:40:25.760 --> 00:40:27.840
+These critics
+reached for a spatial metaphor
+
+89
+00:40:27.840 --> 00:40:32.040
+to describe difficulty
+and disorientation, achieved entirely
+
+90
+00:40:32.040 --> 00:40:36.960
+through prose style, in texts
+with no actual branching structure
+
+91
+00:40:36.960 --> 00:40:41.720
+to navigate beyond that
+which is fixed and set before the reader.
+
+92
+00:40:42.280 --> 00:40:45.840
+The metaphor, Aarseth
+insists, was a category error,
+
+93
+00:40:45.880 --> 00:40:49.080
+and this distinction is something
+that led my interests
+
+94
+00:40:49.080 --> 00:40:52.720
+toward electronic literature
+and its various forms, where
+
+95
+00:40:52.760 --> 00:40:57.400
+most of the literature that I was educated
+on, those claiming experimental
+
+96
+00:40:57.400 --> 00:41:01.880
+or avant garde status, always left me
+wanting my frustration.
+
+97
+00:41:01.880 --> 00:41:06.520
+Developing this project, from filmic
+to literate to e-literate, reflects
+
+98
+00:41:06.520 --> 00:41:10.160
+the desire to establish a looping system
+that reflects the horror
+
+99
+00:41:10.160 --> 00:41:15.120
+element of my narrative
+I yanked from Eurotrash films like Lenzi’s
+
+100
+00:41:15.160 --> 00:41:19.640
+Nightmare City and not Nightmare
+Beach and Bernard Launois’s
+
+101
+00:41:20.040 --> 00:41:23.920
+“Il était une fois le diable.”
+The main narrative element
+
+102
+00:41:23.920 --> 00:41:28.680
+I particularly enjoyed is what
+I just called nightmare looping logic.
+
+103
+00:41:28.720 --> 00:41:32.440
+The films, essentially, and the same way
+as they began, with the former
+
+104
+00:41:32.480 --> 00:41:36.960
+pointing to existential dread,
+in the latter pointing toward an emphasis
+
+105
+00:41:36.960 --> 00:41:42.240
+on the narrative and its specifics
+as an encapsulated performance.
+
+106
+00:41:42.560 --> 00:41:46.680
+My drive was to develop
+an experiential frustration and attempt
+
+107
+00:41:46.720 --> 00:41:49.880
+replicating that nonsense of my inebriated
+
+108
+00:41:49.880 --> 00:41:54.000
+spring break character
+being chased down by a killer
+
+109
+00:41:54.000 --> 00:41:58.360
+who is probably a ghost, or,
+more likely, might not even exist.
+
+110
+00:41:58.720 --> 00:42:02.520
+Further into the theoretical underpinning
+is Foucault's function
+
+111
+00:42:02.520 --> 00:42:06.800
+of the author— account of the author
+function in “What Is an Author?”
+
+112
+00:42:06.840 --> 00:42:11.160
+Which distinguishes the author function
+from the biographical individual,
+
+113
+00:42:11.200 --> 00:42:14.720
+claiming it is tied to the legal
+and institutional systems
+
+114
+00:42:14.720 --> 00:42:20.120
+that circumscribe, determine,
+and articulate the realm of discourses
+
+115
+00:42:20.160 --> 00:42:24.920
+as it gives rise to a variety of egos
+into a series of subjective positions
+
+116
+00:42:24.920 --> 00:42:28.680
+that individuals of any class
+may come to occupy.
+
+117
+00:42:29.160 --> 00:42:32.120
+Authorship on this account
+is not the property of a person,
+
+118
+00:42:32.120 --> 00:42:35.800
+but a function distributed across
+a set of positions
+
+119
+00:42:35.800 --> 00:42:39.040
+that a given discursive system
+makes available.
+
+120
+00:42:39.680 --> 00:42:43.400
+My intent for “LaMoS” is to concreteness
+this distribution
+
+121
+00:42:43.400 --> 00:42:47.240
+by staging it across four distinct loci.
+
+122
+00:42:47.360 --> 00:42:51.440
+First, the writer myself,
+who produced the original
+
+123
+00:42:51.480 --> 00:42:55.560
+print pamphlets and prose,
+working with Nouveau
+
+124
+00:42:55.560 --> 00:42:59.720
+Roman influenced constraints of typography
+and spatial fragmentation.
+
+125
+00:42:59.760 --> 00:43:05.160
+Then the designer who built the Twine
+remediation and by designer I'm
+
+126
+00:43:05.160 --> 00:43:10.240
+meaning myself, who did the remediation,
+and then those who have built
+
+127
+00:43:10.240 --> 00:43:14.280
+and maintained twine,
+translating the spatial relationships
+
+128
+00:43:14.280 --> 00:43:17.720
+into navigable nodes,
+and writing the rules that govern
+
+129
+00:43:17.760 --> 00:43:21.440
+the involuntary authorship system itself.
+
+130
+00:43:21.760 --> 00:43:25.800
+Next, the systems operation at runtime,
+capturing input,
+
+131
+00:43:25.840 --> 00:43:31.040
+applying its transformations,
+rejecting text according to the logic
+
+132
+00:43:31.080 --> 00:43:36.240
+I wrote, but does not directly execute
+at the moment of play.
+
+133
+00:43:36.720 --> 00:43:39.960
+Last is the reader player
+who types chooses
+
+134
+00:43:40.000 --> 00:43:43.040
+and without yet knowing it, contributes
+the raw material.
+
+135
+00:43:43.080 --> 00:43:46.600
+The system will redeploy
+as that so-called gift.
+
+136
+00:43:46.600 --> 00:43:50.640
+It would be difficult
+for any of these positions to claim
+
+137
+00:43:50.640 --> 00:43:54.600
+the resulting poem as it as its own,
+as it belongs to the function
+
+138
+00:43:54.600 --> 00:43:59.480
+that emerges from their interaction
+and not to any node in it.
+
+139
+00:43:59.520 --> 00:44:03.080
+Asked plainly who authored
+a given playthrough, the honest answer
+
+140
+00:44:03.080 --> 00:44:07.000
+to me is all four
+and none of them individually.
+
+141
+00:44:07.240 --> 00:44:10.200
+This point is worth valuing
+rather than mourning.
+
+142
+00:44:10.200 --> 00:44:14.400
+And a more pessimistic
+reading of the author
+
+143
+00:44:14.400 --> 00:44:18.120
+function would treat this distribution
+like evidence of loss.
+
+144
+00:44:18.120 --> 00:44:22.400
+This would take place as the individual
+author is dissolved and agency
+
+145
+00:44:22.400 --> 00:44:26.760
+is conceded to a regulating system
+that was more or less
+
+146
+00:44:26.760 --> 00:44:31.440
+the frequency I operated on in earlier
+iterations of this project.
+
+147
+00:44:31.440 --> 00:44:35.600
+As I've worked more on this project,
+my aim is to take this distribution
+
+148
+00:44:35.600 --> 00:44:39.760
+as a condition
+that makes the resulting poem possible.
+
+149
+00:44:39.840 --> 00:44:41.400
+A poem could not be handed
+
+150
+00:44:41.400 --> 00:44:45.840
+back to the reader as something
+recognizably theirs, but made strange
+
+151
+00:44:45.880 --> 00:44:49.800
+if authorship were still the property
+of a single position.
+
+152
+00:44:49.920 --> 00:44:54.800
+The multiplication of egos, Foucault
+describes, is not merely diagnosed
+
+153
+00:44:54.800 --> 00:45:00.400
+by “LaMos,” but the work depends on it
+to provide the output.
+
+154
+00:45:00.760 --> 00:45:03.120
+And I'm about five minutes out.
+
+155
+00:45:03.120 --> 00:45:07.200
+Yep. As stated earlier, “LaMoS”’s
+genealogy
+
+156
+00:45:07.200 --> 00:45:10.920
+runs through cinema and prose
+before it runs through cybertext theory.
+
+157
+00:45:10.920 --> 00:45:14.880
+Its immediate influences
+Alain Robbe-Grillet's Nouveau Roman,
+
+158
+00:45:14.920 --> 00:45:19.600
+Philip Grande’s visual grammar,
+and the exploitation adjacent cinema
+
+159
+00:45:19.600 --> 00:45:23.680
+of Jess Franco, all of which
+invite various points of frustration
+
+160
+00:45:23.680 --> 00:45:28.440
+while pursuing a set aside disorientation
+through flattened psychology.
+
+161
+00:45:28.480 --> 00:45:32.560
+Focus on material,
+surface, and spatial fragmentation
+
+162
+00:45:32.640 --> 00:45:35.520
+achieved through prose
+rather than structure.
+
+163
+00:45:35.520 --> 00:45:40.880
+“LaMoS”’s ambition across its earlier film
+and novel incarnations was to recreate
+
+164
+00:45:40.880 --> 00:45:42.880
+that specific disorientation
+
+165
+00:45:42.880 --> 00:45:46.520
+before twine or cybertext theory
+even entered the picture.
+
+166
+00:45:46.960 --> 00:45:51.520
+I'm left to consider my frustrated peers
+in a “Playable Text” seminar
+
+167
+00:45:51.560 --> 00:45:54.560
+who traversed in earlier and frankly, much
+
+168
+00:45:54.560 --> 00:45:57.600
+meaner iteration of this project.
+
+169
+00:45:57.680 --> 00:46:01.040
+Likewise,
+I want to attempt clarifying here through
+
+170
+00:46:01.080 --> 00:46:05.240
+mentioning Tracy Fullerton
+and Matthew Farber's extension of Louise
+
+171
+00:46:05.240 --> 00:46:09.680
+Rosenblatt’s transactional reading theory
+to interactive forms,
+
+172
+00:46:09.800 --> 00:46:14.440
+Rosenblatt’s, aesthetic reading,
+attention to the associations, feelings,
+
+173
+00:46:14.480 --> 00:46:19.880
+attitudes and ideas that these words and
+their reference arouse within the reader
+
+174
+00:46:19.960 --> 00:46:24.560
+describes a playable text’s function
+in a way that feels more illustrative
+
+175
+00:46:24.600 --> 00:46:29.000
+to my argument
+than a purist cybertext vocabulary alone.
+
+176
+00:46:29.000 --> 00:46:33.200
+In this spirit, I found Shira Chess’s
+reference of Bonnie Ruberg
+
+177
+00:46:33.440 --> 00:46:38.000
+in Play Like a Feminist helpful,
+which will sound familiar as Ruberg
+
+178
+00:46:38.000 --> 00:46:43.600
+states cleverly challenged the premise
+that necessitates fun as integral
+
+179
+00:46:43.640 --> 00:46:46.600
+to game design, and
+
+180
+00:46:46.600 --> 00:46:50.560
+alternatively explains
+that the spirit of no-fun is the spirit
+
+181
+00:46:50.560 --> 00:46:54.920
+of alternatives, of disruption,
+of disruptions or difference.
+
+182
+00:46:55.120 --> 00:46:58.080
+The pathfinding of feminist
+play is illuminating for someone
+
+183
+00:46:58.080 --> 00:47:01.400
+without a game design background,
+or one in games in general.
+
+184
+00:47:01.600 --> 00:47:05.000
+The outside position renders
+
+185
+00:47:05.160 --> 00:47:09.160
+“LaMoS” technically a playable text
+that happens to satisfy
+
+186
+00:47:09.200 --> 00:47:14.760
+asks formal criteria for cybertext,
+not a project that set out to build one.
+
+187
+00:47:14.760 --> 00:47:19.120
+Returning for a moment to Chess, I begin
+recognizing this projects value,
+
+188
+00:47:19.120 --> 00:47:22.040
+if only personal value,
+through the statement
+
+189
+00:47:22.040 --> 00:47:27.160
+which pulls from Salen and Zimmerman's
+Rules of Play and its implication
+
+190
+00:47:27.160 --> 00:47:30.800
+that in order to play,
+you need rules to push back out
+
+191
+00:47:30.800 --> 00:47:34.400
+to be part of a larger,
+functional, playful mechanism.
+
+192
+00:47:34.680 --> 00:47:39.360
+And with that, I immediately emailed
+doctor Mike Shier exclaiming, “Ha ha!
+
+193
+00:47:39.440 --> 00:47:43.280
+You should have failed me in this course
+because my text was not playable.”
+
+194
+00:47:43.280 --> 00:47:45.720
+But then I realized that this reflects
+
+195
+00:47:45.720 --> 00:47:49.600
+a deeper articulation
+of my enjoyment of both ludic narratives
+
+196
+00:47:49.600 --> 00:47:55.800
+and my own proclivity that to win could be
+and is probably unnecessary.
+
+197
+00:47:55.840 --> 00:48:00.000
+So this paper’s political dimension
+lives in the vocabulary
+
+198
+00:48:00.960 --> 00:48:04.960
+used throughout: “usurped,” “coercing,”
+“voluntary.”
+
+199
+00:48:05.080 --> 00:48:08.920
+It is also made clear in Foucault's
+own account of the author function
+
+200
+00:48:08.920 --> 00:48:12.320
+as tied to institutional
+and discursive regulation.
+
+201
+00:48:12.360 --> 00:48:16.680
+These aspects reflect the genre 
+I am working under as much as any single
+
+202
+00:48:16.680 --> 00:48:17.400
+theorist.
+
+203
+00:48:17.400 --> 00:48:20.440
+Robbe-Grillet, Franco, and Lenzi,
+among others.
+
+204
+00:48:20.440 --> 00:48:25.120
+But worth mentioning now is that works
+by Claire Denis and Catherine Breillat
+
+205
+00:48:25.240 --> 00:48:30.320
+have equally shaped this project since its
+earliest unrealized film incarnation.
+
+206
+00:48:30.360 --> 00:48:34.960
+My present work on the differentials
+between Giallo and slasher cinema
+
+207
+00:48:34.960 --> 00:48:37.960
+and rendering them
+through generative literature pipelines
+
+208
+00:48:38.000 --> 00:48:42.000
+read through questions
+of sexism and feminism, continues
+
+209
+00:48:42.000 --> 00:48:46.320
+along the same trajectory “LaMoS”
+has been on for nearly ten years, even
+
+210
+00:48:46.600 --> 00:48:48.360
+for a conference paper of this length.
+
+211
+00:48:48.360 --> 00:48:52.160
+I do not presently have room to develop
+the political register into a sustained
+
+212
+00:48:52.160 --> 00:48:55.200
+argument, because there is much
+I'm still trying to articulate.
+
+213
+00:48:55.240 --> 00:48:58.880
+Still, I wanted to name it here
+rather than let it pass silently.
+
+214
+00:48:58.880 --> 00:49:02.520
+And with that said, thank you for your
+patience and time, everybody.

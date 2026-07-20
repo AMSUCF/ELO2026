@@ -1,0 +1,5044 @@
+WEBVTT
+
+1
+00:00:00.520 --> 00:00:01.800
+All right everyone.
+
+2
+00:00:01.800 --> 00:00:05.520
+Hello and welcome to the opening
+keynote session
+
+3
+00:00:05.520 --> 00:00:09.960
+for the Electronic Literature Conference
+2026.
+
+4
+00:00:10.120 --> 00:00:12.040
+Unsupervised.
+
+5
+00:00:12.040 --> 00:00:13.840
+Thank you all very much for being here.
+
+6
+00:00:13.840 --> 00:00:17.720
+And greetings to those of you
+who are joining by watching
+
+7
+00:00:17.720 --> 00:00:21.480
+the recording in the Stars repository
+after this event.
+
+8
+00:00:21.560 --> 00:00:25.760
+We are really glad that you all are here, 
+and we especially want to
+
+9
+00:00:25.760 --> 00:00:29.720
+welcome Liliana von Bertram,
+who's our presenter for today.
+
+10
+00:00:29.760 --> 00:00:34.680
+My name is Peter Edgar and I'm
+the logistics chair for this conference.
+
+11
+00:00:34.760 --> 00:00:38.680
+And I'm going to introduce Liliana Von.
+
+12
+00:00:38.680 --> 00:00:41.680
+And with this bio.
+
+13
+00:00:42.400 --> 00:00:46.320
+William von Bertram is an African American
+writer, poet, artist and educator
+
+14
+00:00:46.320 --> 00:00:50.120
+working at the intersection
+of computation, AI, race, and gender.
+
+15
+00:00:50.160 --> 00:00:52.320
+Their practice engages
+foundational questions
+
+16
+00:00:52.320 --> 00:00:55.880
+in contemporary poetics
+and AI studies how algorithmic systems
+
+17
+00:00:55.880 --> 00:01:00.000
+encode and reproduce racial and gender
+bias, how machine generated texts
+
+18
+00:01:00.000 --> 00:01:04.120
+troubles authorship and literary value,
+and what critical and esthetic methods
+
+19
+00:01:04.120 --> 00:01:07.960
+might constitute a politics of resistance
+within computational form.
+
+20
+00:01:08.080 --> 00:01:11.680
+They're the author of Travesty Generator
+by Noemi Press,
+
+21
+00:01:11.720 --> 00:01:16.120
+a book of computational poetry longlisted
+for the National Book Award in Poetry,
+
+22
+00:01:16.120 --> 00:01:21.000
+and which also won the Anna Rabinowitz
+Prize and the Poetry Society of America.
+
+23
+00:01:21.040 --> 00:01:25.720
+Their other poetry collections
+include Negative Money, Personal Silence,
+
+24
+00:01:25.720 --> 00:01:29.040
+How Minor, How Narrow, My
+Escapes, A Slice from the Cake,
+
+25
+00:01:29.080 --> 00:01:32.160
+Made of Air,
+and A Storm Is Blowing from Paradise.
+
+26
+00:01:32.240 --> 00:01:36.320
+Their chapbook A Black Story may contain
+sensitive content, which I have here
+
+27
+00:01:36.320 --> 00:01:39.360
+with me, written in collaboration
+with the large language model,
+
+28
+00:01:39.360 --> 00:01:43.840
+won the 2023 Diagram New Michigan Press
+Chapbook Contest, and they're the coeditor
+
+29
+00:01:43.840 --> 00:01:46.960
+with Nick Montfort of Output and Anthology
+
+30
+00:01:46.960 --> 00:01:50.760
+of Computer Generated Texts, 1953 to 2023.
+
+31
+00:01:50.800 --> 00:01:54.040
+Bertram is a recipient
+of the National Endowment for Arts Poetry
+
+32
+00:01:54.040 --> 00:01:58.040
+Fellowship, the 2024 Foundation
+for Contemporary Arts Poetry Grant,
+
+33
+00:01:58.040 --> 00:02:01.120
+and the 2024 Deutsch Foundation
+Rubies Grant.
+
+34
+00:02:01.160 --> 00:02:03.040
+They currently direct the MFA in Creative
+
+35
+00:02:03.040 --> 00:02:06.280
+Writing at the University of Maryland,
+and serve as an affiliate faculty
+
+36
+00:02:06.280 --> 00:02:09.640
+in the Artificial Intelligence
+Interdisciplinary Institute at Maryland.
+
+37
+00:02:09.640 --> 00:02:12.680
+And I'll say one more
+that they edited this
+
+38
+00:02:12.720 --> 00:02:16.040
+Michigan Quarterly Review
+special issue featuring many of you.
+
+39
+00:02:16.120 --> 00:02:20.400
+And I maintain a low grade
+parasocial relationship
+
+40
+00:02:20.400 --> 00:02:23.440
+with the possum
+that they collect pictures of.
+
+41
+00:02:24.320 --> 00:02:25.440
+So thank you so much.
+
+42
+00:02:25.440 --> 00:02:28.000
+Please
+welcome warmly, Lillian von Bertram.
+
+43
+00:02:29.200 --> 00:02:31.000
+Oh, thank you so much.
+
+44
+00:02:31.000 --> 00:02:32.160
+That was wonderful.
+
+45
+00:02:32.160 --> 00:02:34.000
+Yes.
+
+46
+00:02:34.000 --> 00:02:34.960
+The possum.
+
+47
+00:02:34.960 --> 00:02:36.280
+We can talk about that another time.
+
+48
+00:02:36.280 --> 00:02:38.960
+But there is a possum, among other things.
+
+49
+00:02:38.960 --> 00:02:41.120
+Thank you so much, Petey.
+
+50
+00:02:41.120 --> 00:02:44.440
+Anastasia, everyone, for being here 
+and for inviting me.
+
+51
+00:02:44.440 --> 00:02:47.760
+I think ten years, I was like,
+what is yellow?
+
+52
+00:02:47.800 --> 00:02:48.920
+How can I get there?
+
+53
+00:02:48.920 --> 00:02:52.120
+And would not have imagined
+that I would one day be giving a keynote.
+
+54
+00:02:52.120 --> 00:02:55.320
+So I'm just really pleased
+and humbled to be talking to
+
+55
+00:02:55.320 --> 00:02:58.320
+so many artists
+and thinkers that I deeply admire.
+
+56
+00:02:58.440 --> 00:03:01.800
+I've taken the title of my talk
+from Raymond
+
+57
+00:03:01.840 --> 00:03:04.960
+Roussel, who wrote a book called
+how I Wrote Certain of My Books.
+
+58
+00:03:04.960 --> 00:03:07.160
+And this nod to
+Roussel will become clear later.
+
+59
+00:03:07.160 --> 00:03:08.760
+But don't take it to mean that
+
+60
+00:03:08.760 --> 00:03:12.640
+I in any way feel comparable to her cell
+or his level of eccentricity,
+
+61
+00:03:12.880 --> 00:03:15.920
+which I have yet to remotely approach,
+and I think that's a good thing.
+
+62
+00:03:16.440 --> 00:03:20.840
+Our overlaps are few, but real methods
+of constraint or procedure in writing,
+
+63
+00:03:20.840 --> 00:03:24.240
+and I find his title fitting
+because I'm going to do some explanation
+
+64
+00:03:24.240 --> 00:03:26.760
+in response to a question
+I was recently asked.
+
+65
+00:03:26.760 --> 00:03:30.880
+And to answer this question
+does require some trips down memory lane
+
+66
+00:03:30.880 --> 00:03:31.760
+by memory lane.
+
+67
+00:03:31.760 --> 00:03:36.440
+And so I think you in advance 
+for your indulgence, some storytelling.
+
+68
+00:03:40.960 --> 00:03:41.680
+Recently,
+
+69
+00:03:41.680 --> 00:03:44.760
+a dear friend and writer
+who I deeply respect timidly
+
+70
+00:03:44.760 --> 00:03:48.480
+made a confession after hearing parts
+of this craft talk about my work.
+
+71
+00:03:48.600 --> 00:03:51.600
+They were slated to review my first book,
+But A Storm Is Blowing
+
+72
+00:03:51.600 --> 00:03:54.600
+from Paradise
+when it was published in 2012.
+
+73
+00:03:54.960 --> 00:03:57.800
+The review never happened,
+they admitted, because after reading
+
+74
+00:03:57.800 --> 00:04:00.960
+the book, they realized
+they did not know how to talk about it.
+
+75
+00:04:01.040 --> 00:04:03.960
+They had no quote frame of reference
+for it.
+
+76
+00:04:03.960 --> 00:04:07.000
+In retrospect, they could have
+just called me up and asked.
+
+77
+00:04:07.040 --> 00:04:09.280
+But now, looking through the arc
+that I laid out,
+
+78
+00:04:09.280 --> 00:04:10.680
+it made more sense to them,
+
+79
+00:04:10.680 --> 00:04:14.000
+perhaps because I built its reference
+points throughout my later work.
+
+80
+00:04:14.600 --> 00:04:18.240
+But first, the anecdote that leads
+to the question and some ideas that
+
+81
+00:04:18.240 --> 00:04:21.920
+I'm considering as a writer with a wide
+ranging and experimental practice.
+
+82
+00:04:22.720 --> 00:04:24.960
+This year, I attended the 2026
+
+83
+00:04:24.960 --> 00:04:28.320
+Association of Writers
+and Writing Programs annual conference.
+
+84
+00:04:28.560 --> 00:04:30.320
+Think analog. Yellow.
+
+85
+00:04:30.320 --> 00:04:34.160
+Multiplied by 100 or 4000.
+
+86
+00:04:34.440 --> 00:04:38.920
+I usually skip this convening
+out of cynicism for the whole supercharged
+
+87
+00:04:38.920 --> 00:04:43.280
+affair, but this year, the MFA program
+that I direct was a conference sponsor,
+
+88
+00:04:43.280 --> 00:04:47.080
+and it took place only a couple miles
+from my house, so I had to go.
+
+89
+00:04:47.560 --> 00:04:51.320
+The sponsorship afforded the program
+a prime booth location at the front of the
+
+90
+00:04:51.320 --> 00:04:55.600
+conference book fair, and the book fair
+is the real highlight of the conference.
+
+91
+00:04:55.880 --> 00:05:01.320
+And in recent years, at conferences
+like AWP, MLA, HRO, and other university
+
+92
+00:05:01.360 --> 00:05:03.120
+symposia and conferences,
+
+93
+00:05:03.120 --> 00:05:06.400
+there's been an increase in panels
+and talks about artificial intelligence.
+
+94
+00:05:06.440 --> 00:05:08.800
+I'm sure you've noticed this too.
+
+95
+00:05:08.800 --> 00:05:11.560
+While most of these use
+the phrasing AI as the catch
+
+96
+00:05:11.560 --> 00:05:15.120
+all term aligned with popular conceptions
+among laypersons,
+
+97
+00:05:15.120 --> 00:05:19.440
+what most actually talk about
+are large language models or llms.
+
+98
+00:05:19.920 --> 00:05:22.560
+I'm reasonably confident
+that I don't need to define
+
+99
+00:05:22.560 --> 00:05:26.040
+AI or llms for this audience,
+so I'll skip over that.
+
+100
+00:05:26.200 --> 00:05:31.560
+And as an interested party, a writer who
+has experimented with llms pre ChatGPT.
+
+101
+00:05:31.720 --> 00:05:34.640
+I looked forward to the panel
+organized by the Authors Guild
+
+102
+00:05:34.640 --> 00:05:38.640
+and moderated by writer friend
+Balcony Vara called Writers Resisting
+
+103
+00:05:38.680 --> 00:05:41.880
+AI despite their use of the catch
+all term.
+
+104
+00:05:41.920 --> 00:05:45.720
+I knew they would be talking about Llms,
+and I also had some idea
+
+105
+00:05:45.720 --> 00:05:47.640
+as to the posture of the panelists.
+
+106
+00:05:47.640 --> 00:05:50.920
+Given the blanket term,
+AI was attached to resist.
+
+107
+00:05:51.280 --> 00:05:54.880
+If this linkage was designed
+to pull in an audience, it worked.
+
+108
+00:05:55.040 --> 00:05:57.520
+The ballroom was standing room
+only, packed
+
+109
+00:05:57.520 --> 00:06:01.320
+with an almost evangelical
+resistance among attendees.
+
+110
+00:06:02.360 --> 00:06:05.360
+I was so in the air you could feel it.
+
+111
+00:06:06.000 --> 00:06:09.080
+One of the panelists was Alex
+Hannah, coauthor
+
+112
+00:06:09.080 --> 00:06:12.280
+with Emily Bender of the excellent book
+The AI Khan.
+
+113
+00:06:12.720 --> 00:06:15.640
+In it, Bender and Hannah offer
+examples of everyday
+
+114
+00:06:15.640 --> 00:06:19.440
+individual acts of AI resistance,
+such as simply not using
+
+115
+00:06:19.480 --> 00:06:22.960
+AI tools, turning off AI options,
+and so on.
+
+116
+00:06:23.360 --> 00:06:28.520
+They also promote what Hannah in the panel
+called ridicule as praxis.
+
+117
+00:06:28.640 --> 00:06:32.920
+In the book it is make fun of it
+and troll the hell out of them.
+
+118
+00:06:33.600 --> 00:06:37.080
+Ridiculous practice was then
+enthusiastically championed by another
+
+119
+00:06:37.080 --> 00:06:40.640
+panelist, highly regarded writer Carmen
+Maria machado.
+
+120
+00:06:41.000 --> 00:06:45.440
+If a writer admits to using AI
+by which they really mean llms,
+
+121
+00:06:45.600 --> 00:06:51.000
+or perhaps has even speculated of doing
+so, ridicule them, shame them, and cancel
+
+122
+00:06:51.000 --> 00:06:54.400
+their contracts, as recently happened
+with the book Shy Girl.
+
+123
+00:06:55.360 --> 00:06:58.280
+What the panelists didn't know
+was that they had just given me
+
+124
+00:06:58.280 --> 00:07:03.200
+one way of interpreting an encounter
+I had that very morning at 905.
+
+125
+00:07:03.240 --> 00:07:06.160
+As soon as the book fair opened,
+I was approached by a woman
+
+126
+00:07:06.160 --> 00:07:09.160
+making a beeline for the booth
+I was standing at.
+
+127
+00:07:09.520 --> 00:07:13.360
+She approached my university program table
+and opened the conversation by stating
+
+128
+00:07:13.360 --> 00:07:15.800
+how much respect she had
+for the institution
+
+129
+00:07:15.800 --> 00:07:19.080
+that is the University of Maryland
+and his MFA program.
+
+130
+00:07:19.480 --> 00:07:23.080
+She held this respect right up
+until she read my faculty bio
+
+131
+00:07:23.120 --> 00:07:27.320
+on the program website, and saw that
+I had written a book with AI, but
+
+132
+00:07:27.320 --> 00:07:32.920
+she took to mean that I must be teaching
+students to right use AI to write for her.
+
+133
+00:07:33.000 --> 00:07:35.120
+One necessarily must lead to the other.
+
+134
+00:07:36.240 --> 00:07:37.200
+She demanded to
+
+135
+00:07:37.200 --> 00:07:41.160
+know what I was doing
+after seeing this in my bio.
+
+136
+00:07:41.200 --> 00:07:45.000
+She said she instantly lost all respect
+for the program, and the school
+
+137
+00:07:45.120 --> 00:07:48.720
+clicked away and posted a nasty comment
+on social media.
+
+138
+00:07:48.760 --> 00:07:50.840
+I didn't ask which one.
+
+139
+00:07:50.840 --> 00:07:54.400
+Shame on me was the message
+for teaching students to write with AI.
+
+140
+00:07:54.720 --> 00:07:59.160
+I don't, by the way, in the panel
+they did say to punch up
+
+141
+00:07:59.160 --> 00:08:03.040
+when doing ridicule not down,
+which I interpret as not targeting
+
+142
+00:08:03.040 --> 00:08:07.840
+individuals so much as companies, brands,
+institutions, organizations, etc.
+
+143
+00:08:08.600 --> 00:08:12.760
+as a sidebar, one can see how quickly
+claims of AI can be weaponized
+
+144
+00:08:12.760 --> 00:08:13.560
+against already
+
+145
+00:08:13.560 --> 00:08:17.640
+marginalized writers by other writers
+with real or imagined grievances.
+
+146
+00:08:18.120 --> 00:08:22.760
+Accusation can flow in the same direction
+as power, which is why who is accusing?
+
+147
+00:08:22.800 --> 00:08:25.760
+Being accused may not be incidental.
+
+148
+00:08:25.760 --> 00:08:28.400
+But I do want to be fair to Bender
+and Hannah's.
+
+149
+00:08:28.400 --> 00:08:31.400
+Our larger argument,
+most of which I agree with
+
+150
+00:08:31.520 --> 00:08:34.440
+as a tactic
+aimed upward at companies in AI hype.
+
+151
+00:08:34.440 --> 00:08:37.200
+It's a legitimate tactic
+for legitimate target.
+
+152
+00:08:37.200 --> 00:08:39.200
+The trouble is, category drift.
+
+153
+00:08:39.200 --> 00:08:43.200
+When a tactic designed for corporations
+doesn't stay aimed at corporations.
+
+154
+00:08:43.560 --> 00:08:47.120
+We can see how it can drift onto
+individual writers and experiments,
+
+155
+00:08:47.120 --> 00:08:51.000
+and stops being about labor politics
+and becomes more about esthetic or process
+
+156
+00:08:51.000 --> 00:08:52.720
+policing, i.e.
+
+157
+00:08:52.720 --> 00:08:54.520
+I feel your process is a legitimate.
+
+158
+00:08:54.520 --> 00:08:56.960
+Therefore, so is the work.
+
+159
+00:08:56.960 --> 00:08:59.360
+So just what do I think I am doing?
+
+160
+00:08:59.360 --> 00:09:00.920
+I have spent most of my writing life
+
+161
+00:09:00.920 --> 00:09:03.920
+being asked versions of this question,
+often implicitly.
+
+162
+00:09:04.320 --> 00:09:07.720
+As a queer nonbinary person of color,
+most of my personal life
+
+163
+00:09:07.720 --> 00:09:09.680
+has been spent
+answering similar questions.
+
+164
+00:09:09.680 --> 00:09:14.080
+And so this type of spontaneous tribunal
+has been more of a feature than a bug.
+
+165
+00:09:15.040 --> 00:09:18.680
+As a writer, I have resisted explaining
+or over explaining my own work
+
+166
+00:09:18.720 --> 00:09:22.840
+out of a reluctance to commit the details
+of an ever changing practice to paper.
+
+167
+00:09:23.200 --> 00:09:26.200
+But this question,
+as it applies to writing, isn't new.
+
+168
+00:09:26.360 --> 00:09:29.120
+It's an old question
+ask of experimental writers
+
+169
+00:09:29.120 --> 00:09:32.120
+and writing and a practitioners
+of electronic literature.
+
+170
+00:09:33.400 --> 00:09:36.720
+Let me return to Russell for a moment,
+lest you become your decoration.
+
+171
+00:09:37.320 --> 00:09:41.720
+His work was odd, unclassifiable, and
+received with indifference or derision.
+
+172
+00:09:42.080 --> 00:09:43.880
+He struggled to find his public.
+
+173
+00:09:43.880 --> 00:09:48.280
+In 1911 1912,
+he staged a theatrical production
+
+174
+00:09:48.280 --> 00:09:51.280
+of his novel Impressions of Africa,
+to which the audience
+
+175
+00:09:51.280 --> 00:09:54.720
+is reported to have jeered and booed
+a form of ridicule.
+
+176
+00:09:55.160 --> 00:09:58.080
+Yet in the audience
+offering appreciation were Marcel
+
+177
+00:09:58.080 --> 00:10:01.080
+Duchamp, Apollinaire, and Francis Picabia.
+
+178
+00:10:01.360 --> 00:10:05.800
+Later admirers and defenders
+included André Breton and Paul Éluard.
+
+179
+00:10:06.160 --> 00:10:08.840
+He was admired by the Surrealists,
+and his mechanistic
+
+180
+00:10:08.840 --> 00:10:11.840
+style of composition
+has been said to be proto,
+
+181
+00:10:11.960 --> 00:10:16.080
+and his work was later
+rediscovered in the 1950s by the Oulipo.
+
+182
+00:10:16.640 --> 00:10:19.640
+While some recall, others do the reading,
+
+183
+00:10:20.240 --> 00:10:23.720
+Roussel answered the question as to
+what he was doing from beyond the grave.
+
+184
+00:10:23.760 --> 00:10:26.840
+In the posthumous book
+from which this talks title is taken,
+
+185
+00:10:27.720 --> 00:10:30.320
+Roussel may be more patterned than Edge
+Case.
+
+186
+00:10:30.320 --> 00:10:31.200
+Gertrude Stein,
+
+187
+00:10:31.200 --> 00:10:35.240
+John Cage, Jackson Pollock,
+and the Aleppo were dismissed as nonsense.
+
+188
+00:10:35.280 --> 00:10:39.000
+Not writing, not music,
+not composition or plain parlor games.
+
+189
+00:10:39.200 --> 00:10:43.280
+Procedural practices of the past 100 years
+have been met with similar demands,
+
+190
+00:10:43.320 --> 00:10:46.400
+accusations, questions, and yes, ridicule
+
+191
+00:10:47.000 --> 00:10:50.080
+is a computationally generated poem,
+even a poem.
+
+192
+00:10:50.120 --> 00:10:50.480
+Is it?
+
+193
+00:10:50.480 --> 00:10:53.240
+Creativity is what you're doing
+and how you're doing it.
+
+194
+00:10:53.240 --> 00:10:56.920
+Legible as writing,
+let alone worth being called literature.
+
+195
+00:10:57.760 --> 00:11:00.960
+Note that ridiculous practice requires
+no knowledge whatsoever
+
+196
+00:11:00.960 --> 00:11:02.840
+of the thing being ridiculed.
+
+197
+00:11:02.840 --> 00:11:04.720
+Ridicule, especially uninformed
+
+198
+00:11:04.720 --> 00:11:08.320
+ridicule, like a snap judgment,
+is structured to prevent knowledge.
+
+199
+00:11:08.680 --> 00:11:09.840
+The moment you understand
+
+200
+00:11:09.840 --> 00:11:13.440
+a process of procedure,
+it becomes harder to call it nonsense.
+
+201
+00:11:13.880 --> 00:11:17.440
+Doing the reading forfeits the pleasure
+of outright dismissing the book,
+
+202
+00:11:17.480 --> 00:11:21.240
+and there is unearned pleasure and power
+in the dismissal of the work of others.
+
+203
+00:11:22.200 --> 00:11:25.280
+But again, sometimes
+difficulty is a failure of the writer.
+
+204
+00:11:25.320 --> 00:11:29.600
+I won't pretend it isn't, but other times
+it is a condition of the work.
+
+205
+00:11:29.680 --> 00:11:32.680
+And I think of my friend and poet Douglas
+Kearney.
+
+206
+00:11:32.840 --> 00:11:34.920
+Famously difficult.
+
+207
+00:11:34.920 --> 00:11:36.720
+His poems aren't digital poems,
+
+208
+00:11:36.720 --> 00:11:39.720
+but they wouldn't be possible
+without digital tools.
+
+209
+00:11:39.920 --> 00:11:44.560
+Normative reading treats the difficult,
+legible or unpredicted the same way
+
+210
+00:11:44.560 --> 00:11:49.000
+any normative system would as an error
+or problem that needs to be collapsed
+
+211
+00:11:49.000 --> 00:11:53.400
+back into the nearest recognizable shape,
+often a representative one.
+
+212
+00:11:53.600 --> 00:11:57.440
+I would argue that the writers I descend
+from, including Kearney, and that some of
+
+213
+00:11:57.440 --> 00:12:01.480
+you may also descend from refuse
+this type of collapse in norming.
+
+214
+00:12:01.560 --> 00:12:04.920
+We prefer a permutation space
+that amplifies what a poem
+
+215
+00:12:04.920 --> 00:12:07.920
+or text can be, and how it can be made.
+
+216
+00:12:08.000 --> 00:12:11.240
+For me, this insistence emerges
+from a core interest
+
+217
+00:12:11.240 --> 00:12:15.560
+that carries into my creative practice
+that of systems interrogation,
+
+218
+00:12:15.720 --> 00:12:20.280
+going inside a system and using its logics
+as the instruments of its explanation.
+
+219
+00:12:20.720 --> 00:12:24.720
+But I'm getting ahead of myself
+into the argument before the explanation,
+
+220
+00:12:24.720 --> 00:12:28.160
+and before the language models
+that led me to large language models.
+
+221
+00:12:28.800 --> 00:12:32.960
+As a young writer, I initially invested
+a great deal in language's ability
+
+222
+00:12:32.960 --> 00:12:36.400
+to represent an express,
+mostly mostly through metaphor.
+
+223
+00:12:36.440 --> 00:12:38.280
+Did this feel possible?
+
+224
+00:12:38.280 --> 00:12:41.000
+Over time, languages
+limitations became apparent
+
+225
+00:12:41.000 --> 00:12:44.600
+when I tried and failed
+at so-called accurate representation.
+
+226
+00:12:44.920 --> 00:12:46.720
+That's
+because language is always symbolic.
+
+227
+00:12:46.720 --> 00:12:48.760
+One step removed, a just adequate
+
+228
+00:12:48.760 --> 00:12:52.840
+enough substitute for the real thing
+that is embodied experience.
+
+229
+00:12:53.000 --> 00:12:56.680
+And as I pushed further into limitations,
+I found myself drawn to the outer
+
+230
+00:12:56.680 --> 00:13:01.280
+edges of language to where can fracture
+and buckle, be broken down and recombined.
+
+231
+00:13:01.760 --> 00:13:04.320
+But being drawn to the outer
+edges of language
+
+232
+00:13:04.320 --> 00:13:06.280
+did not immediately have a method.
+
+233
+00:13:06.280 --> 00:13:08.200
+I was working on instinct.
+
+234
+00:13:08.200 --> 00:13:11.560
+My early poems were cryptic
+stews of strange sound and sense,
+
+235
+00:13:11.560 --> 00:13:15.360
+and my peers and professors never knew
+what the poems were going on about.
+
+236
+00:13:15.400 --> 00:13:17.440
+Sometimes I didn't either.
+
+237
+00:13:17.440 --> 00:13:20.840
+I did not know how to engineer the
+fracture and intensity I was looking for
+
+238
+00:13:20.880 --> 00:13:22.200
+without sidestepping complete
+
+239
+00:13:22.200 --> 00:13:26.000
+semantic sense, and I may have an obscure
+for obscurity sake.
+
+240
+00:13:26.160 --> 00:13:27.200
+I did, however,
+
+241
+00:13:27.200 --> 00:13:31.200
+have the good fortune of being fluent
+in a language other than English Spanish,
+
+242
+00:13:31.440 --> 00:13:33.840
+which gave me access
+to syntactical arrangements.
+
+243
+00:13:35.640 --> 00:13:36.960
+The patterns of Spanish
+
+244
+00:13:36.960 --> 00:13:39.960
+helped me break the patterns of English.
+
+245
+00:13:41.040 --> 00:13:42.960
+That I even got wind of how?
+
+246
+00:13:42.960 --> 00:13:45.000
+Computation language.
+
+247
+00:13:45.000 --> 00:13:48.000
+I think somebody has their microphone on.
+
+248
+00:13:51.800 --> 00:13:54.800
+Somebody.
+
+249
+00:13:56.880 --> 00:13:57.680
+But I even got
+
+250
+00:13:57.680 --> 00:14:01.040
+wind of how computation might interact
+with language was by chance.
+
+251
+00:14:01.040 --> 00:14:05.560
+And given that I attended Carnegie Mellon
+University, it was increasingly likely
+
+252
+00:14:06.080 --> 00:14:08.560
+as an undergraduate assistant
+in the Human Computer
+
+253
+00:14:08.560 --> 00:14:12.200
+Interaction Institute, which
+I never heard of until I was hired there.
+
+254
+00:14:12.760 --> 00:14:16.520
+It was one of several jobs
+I held across campus.
+
+255
+00:14:16.680 --> 00:14:20.360
+My task was morphological markups
+of Spanish words for a postdoc
+
+256
+00:14:20.360 --> 00:14:23.480
+who was building
+automated machine translation software.
+
+257
+00:14:23.480 --> 00:14:26.600
+And in retrospect,
+I may have been working on his startup.
+
+258
+00:14:26.880 --> 00:14:30.400
+I learned Spanish in grade in high school
+and refined it while living abroad,
+
+259
+00:14:30.440 --> 00:14:32.560
+where study gave
+way to the reality of language
+
+260
+00:14:32.560 --> 00:14:35.720
+being far more slippery and rebellious
+when it came to the rules.
+
+261
+00:14:36.200 --> 00:14:38.160
+But it really doesn't work that way.
+
+262
+00:14:38.160 --> 00:14:40.120
+I often found myself
+saying to the postdoc,
+
+263
+00:14:40.120 --> 00:14:43.200
+who didn't seem that interested
+in the nuances he was,
+
+264
+00:14:43.200 --> 00:14:46.200
+after all, working towards
+deployable commercial technology.
+
+265
+00:14:46.400 --> 00:14:49.400
+The machine needed to know something
+about language, and I was teaching it
+
+266
+00:14:49.400 --> 00:14:53.240
+what I knew, which wasn't always the same
+as what I felt about language.
+
+267
+00:14:53.720 --> 00:14:57.240
+The software relied on rules
+without exceptions and was not designed to
+
+268
+00:14:57.280 --> 00:14:58.000
+handle language
+
+269
+00:14:58.000 --> 00:15:02.560
+other than strict utilitarian translation
+and not contextual connections.
+
+270
+00:15:03.360 --> 00:15:05.720
+I was learning
+what certain types of computation
+
+271
+00:15:05.720 --> 00:15:09.240
+could and could not do with language,
+at least not yet.
+
+272
+00:15:09.640 --> 00:15:13.200
+But the project was interesting,
+and I saw how computation might be
+
+273
+00:15:13.200 --> 00:15:17.680
+a pressure system for how I understood
+and used language by forcing me to reckon
+
+274
+00:15:17.680 --> 00:15:21.360
+with my own approaches to the making
+and breaking of language rules.
+
+275
+00:15:21.560 --> 00:15:23.800
+I finished marking up the word database,
+
+276
+00:15:23.800 --> 00:15:28.040
+and that was the end of my involvement
+with the project, if not its ideas.
+
+277
+00:15:29.800 --> 00:15:33.280
+As a graduate student,
+I was influenced by a lifelong fascination
+
+278
+00:15:33.280 --> 00:15:37.560
+with the cosmos, and through poetry,
+I pondered the impacts of celestial
+
+279
+00:15:37.560 --> 00:15:40.760
+and gravitational forces
+could have on bodies and language
+
+280
+00:15:41.440 --> 00:15:43.520
+could force be applied to language?
+
+281
+00:15:43.520 --> 00:15:45.760
+Did words have mass or heft?
+
+282
+00:15:45.760 --> 00:15:48.200
+Where do words exist in space?
+
+283
+00:15:48.200 --> 00:15:51.200
+This language travel along what waves?
+
+284
+00:15:51.320 --> 00:15:52.880
+If words could be marked up
+
+285
+00:15:52.880 --> 00:15:56.920
+and served in a program,
+could words be multiplied squared, cubed?
+
+286
+00:15:56.960 --> 00:16:00.200
+A word times itself is what I was asking.
+
+287
+00:16:00.200 --> 00:16:03.360
+Nascent questions about permutations
+and recombination.
+
+288
+00:16:03.360 --> 00:16:05.240
+Questions of math.
+
+289
+00:16:05.240 --> 00:16:08.040
+Multiplying words seemed possible enough.
+
+290
+00:16:08.040 --> 00:16:11.080
+But what did I know about rendering words,
+much less
+
+291
+00:16:11.080 --> 00:16:14.920
+the relationships between words
+mathematically or numerically?
+
+292
+00:16:15.400 --> 00:16:17.800
+Absolutely nothing.
+
+293
+00:16:17.800 --> 00:16:20.840
+But in one poem I multiplied consonants.
+
+294
+00:16:21.280 --> 00:16:25.200
+This poem appears in my first book,
+but A Storm is Blowing from Paradise,
+
+295
+00:16:25.240 --> 00:16:28.640
+which treats Walter Benjamin Storm
+interpretation of Paul
+
+296
+00:16:28.640 --> 00:16:31.800
+Please
+Angelus Novus as a literally felt force.
+
+297
+00:16:32.640 --> 00:16:35.600
+It's called Queen City Fractal.
+
+298
+00:16:35.600 --> 00:16:40.800
+A whole world stacked in a garage,
+a gauge, birds at the feeder, a gauge.
+
+299
+00:16:41.320 --> 00:16:43.960
+Someone walking
+a buffalo beach on Christmas
+
+300
+00:16:43.960 --> 00:16:47.080
+waves way
+beyond the pile of tremors of ice.
+
+301
+00:16:47.440 --> 00:16:49.560
+That person is married now. Done.
+
+302
+00:16:49.560 --> 00:16:51.760
+Thinking of the minute.
+
+303
+00:16:51.760 --> 00:16:53.840
+The sum of all birds at the feeder.
+
+304
+00:16:53.840 --> 00:16:56.800
+Bird plus two. Bird plus four. Bird
+plus bird.
+
+305
+00:16:56.800 --> 00:16:59.640
+Better expressed as bird
+plus one over two times bird.
+
+306
+00:16:59.640 --> 00:17:01.600
+And what did the savvy knight demand
+
+307
+00:17:01.600 --> 00:17:05.360
+but one penny for the first bird, two
+for the second and four for the third.
+
+308
+00:17:05.600 --> 00:17:07.200
+He demands a single gauge.
+
+309
+00:17:07.200 --> 00:17:11.280
+Bosons, the carrier of forces
+feather alone that flies.
+
+310
+00:17:11.960 --> 00:17:14.560
+He uses the feather to decorate
+flight alone.
+
+311
+00:17:14.560 --> 00:17:16.880
+Requests only a strength carrier.
+
+312
+00:17:16.880 --> 00:17:19.960
+First birds one penny to the second, four
+for three.
+
+313
+00:17:20.000 --> 00:17:23.520
+Celebrated as bird of a bird of a bird
+to take as his reward.
+
+314
+00:17:24.040 --> 00:17:27.320
+That persona is whetted
+now made to think minute.
+
+315
+00:17:27.720 --> 00:17:30.400
+Somebody that walks a buffalo beach
+on Christmas.
+
+316
+00:17:30.400 --> 00:17:34.320
+Walks away of waves
+beyond the accumulated vibrations of ice.
+
+317
+00:17:34.760 --> 00:17:37.440
+Enter
+a worldly garage. Birds in the feeder.
+
+318
+00:17:37.440 --> 00:17:40.400
+Another meter that person marries. Now,
+
+319
+00:17:42.160 --> 00:17:44.320
+in addition to my basic attempt at word
+
+320
+00:17:44.320 --> 00:17:47.720
+math, you may sense an internal echo
+within the poem.
+
+321
+00:17:48.280 --> 00:17:51.720
+Could language be a fractal and spiral
+into and out of itself?
+
+322
+00:17:52.320 --> 00:17:54.880
+One way this poem probes
+this possibility is through
+
+323
+00:17:54.880 --> 00:17:58.160
+the computational mechanisms
+of machine translation.
+
+324
+00:17:58.520 --> 00:18:01.440
+The poem is broken apart
+through iterations of translations,
+
+325
+00:18:01.440 --> 00:18:05.520
+and then reconstituted
+as a funhouse mirror in its second half.
+
+326
+00:18:06.680 --> 00:18:10.080
+There are three fractal
+like poems in this book, but the method
+
+327
+00:18:10.080 --> 00:18:14.120
+of putting pressure on and warping
+language and narrative resurface strongly
+
+328
+00:18:14.120 --> 00:18:17.160
+in my second book, A slice from the cake
+made of air
+
+329
+00:18:18.600 --> 00:18:20.680
+in a slice from the cake made of air.
+
+330
+00:18:20.680 --> 00:18:24.400
+I was inspired by what I could remember
+of mathematical factorials.
+
+331
+00:18:24.400 --> 00:18:28.480
+I wondered how many permutations
+existed of a word or poem if you took
+
+332
+00:18:28.520 --> 00:18:31.680
+n numbers of things are different ways,
+like anagrams.
+
+333
+00:18:31.680 --> 00:18:36.240
+How many words can be produced by
+a combination of a certain set of letters?
+
+334
+00:18:37.280 --> 00:18:38.760
+Now I am one of many in a
+
+335
+00:18:38.760 --> 00:18:42.240
+lineage of experimental
+and computational composition practices.
+
+336
+00:18:42.560 --> 00:18:44.000
+Beat era poet and artist
+
+337
+00:18:44.000 --> 00:18:48.400
+Brian Gysin, with the help of friend
+and computer scientist Ian Sommerville,
+
+338
+00:18:48.560 --> 00:18:52.840
+authored a series of permutation poems
+in which the 4 or 5 word
+
+339
+00:18:52.880 --> 00:18:57.200
+title of the poem would be permuted
+into some or all of its possible orders.
+
+340
+00:18:58.040 --> 00:19:01.200
+Some of these poems were among
+the earliest examples of computer
+
+341
+00:19:01.200 --> 00:19:02.520
+generated poetry.
+
+342
+00:19:02.520 --> 00:19:05.080
+Sears permutation algorithms,
+
+343
+00:19:05.080 --> 00:19:07.880
+and of course on the screen,
+is an example of one of Geisinger
+
+344
+00:19:07.880 --> 00:19:11.400
+best known permutation poems
+that many of you, I'm sure have seen.
+
+345
+00:19:11.520 --> 00:19:13.400
+I am that I am.
+
+346
+00:19:13.400 --> 00:19:16.360
+Geisel is another writer
+whose procedural approaches
+
+347
+00:19:16.360 --> 00:19:19.480
+surely engendered questions
+about what he thought he was doing.
+
+348
+00:19:19.680 --> 00:19:22.400
+If this was writing, let alone poetry.
+
+349
+00:19:24.520 --> 00:19:25.800
+A slice from the Cake made of
+
+350
+00:19:25.800 --> 00:19:29.200
+air opens with the poem
+sometimes I Asked to Be Bound.
+
+351
+00:19:29.760 --> 00:19:33.760
+This poem was subjected
+to an iterative process of translation,
+
+352
+00:19:33.760 --> 00:19:37.120
+resulting in an English to English
+translation that passed through numerous
+
+353
+00:19:37.120 --> 00:19:40.120
+intermediary languages.
+
+354
+00:19:40.480 --> 00:19:43.240
+Sometimes I asked to be bound,
+
+355
+00:19:43.240 --> 00:19:46.080
+but we never do it like that.
+
+356
+00:19:46.080 --> 00:19:49.080
+Why don't we ever do it like that?
+
+357
+00:19:49.080 --> 00:19:52.600
+After all, I ask for it from my father.
+
+358
+00:19:52.600 --> 00:19:55.080
+Anything I ask for, I get.
+
+359
+00:19:55.080 --> 00:19:58.360
+I say I am worth it
+and we both know it's true.
+
+360
+00:19:58.400 --> 00:20:00.480
+We know there is a pattern.
+
+361
+00:20:00.480 --> 00:20:03.320
+The chimney and the rat's nest.
+
+362
+00:20:03.320 --> 00:20:05.560
+The leak always starts above.
+
+363
+00:20:05.560 --> 00:20:08.120
+I ask for me.
+
+364
+00:20:08.120 --> 00:20:10.000
+I want a mask.
+
+365
+00:20:10.000 --> 00:20:15.440
+The width of a rope, the sky
+Mooney memories and the cut of them.
+
+366
+00:20:16.280 --> 00:20:19.120
+By this writing,
+you'd think I wasn't born anywhere.
+
+367
+00:20:19.120 --> 00:20:22.960
+That I didn't,
+however, briefly, carry a child.
+
+368
+00:20:23.960 --> 00:20:25.960
+Here comes the scything.
+
+369
+00:20:25.960 --> 00:20:28.560
+We know there is a pattern now.
+
+370
+00:20:28.560 --> 00:20:30.040
+The stinging.
+
+371
+00:20:30.040 --> 00:20:32.800
+Why can't we do it like that
+with the taste
+
+372
+00:20:32.800 --> 00:20:35.800
+of mushrooms in the air?
+
+373
+00:20:36.640 --> 00:20:38.840
+Fragments of these iterations
+
+374
+00:20:38.840 --> 00:20:42.880
+wind throughout the book in sections
+marked with repeated elements.
+
+375
+00:20:43.080 --> 00:20:48.840
+Our subscript zero, r,
+subscript one, r subscript two, and so on.
+
+376
+00:20:48.920 --> 00:20:53.280
+Where our represents the number of items
+being selected or arranged from a larger
+
+377
+00:20:53.280 --> 00:20:57.680
+set, an N is the total number
+of distinct items available in the set.
+
+378
+00:20:58.920 --> 00:21:03.480
+I stand behind the fig leaf,
+a lasso lashing rainstorm.
+
+379
+00:21:03.600 --> 00:21:04.720
+Kurita.
+
+380
+00:21:04.720 --> 00:21:07.720
+The traces of journeys that pass
+
+381
+00:21:08.000 --> 00:21:10.320
+as heaven under that place is heaven.
+
+382
+00:21:10.320 --> 00:21:11.920
+Firmness not composed.
+
+383
+00:21:11.920 --> 00:21:12.440
+Is heaven.
+
+384
+00:21:12.440 --> 00:21:15.440
+Colored is heaven. Without being able.
+
+385
+00:21:16.040 --> 00:21:17.160
+The star is many.
+
+386
+00:21:17.160 --> 00:21:20.160
+And scissoring.
+
+387
+00:21:23.760 --> 00:21:25.720
+Sometimes I ask to be bound
+
+388
+00:21:25.720 --> 00:21:29.480
+is reassembled from the fragments
+into the closing poem, now
+
+389
+00:21:29.520 --> 00:21:34.560
+titled at intervals when the moon is blue,
+I beg to be tried and trust.
+
+390
+00:21:37.520 --> 00:21:39.160
+Barring at any time.
+
+391
+00:21:39.160 --> 00:21:41.080
+Do we like that?
+
+392
+00:21:41.080 --> 00:21:45.640
+Like that in which always we like it
+hindmost?
+
+393
+00:21:45.640 --> 00:21:50.880
+I buzz for it and whatever piece portion
+shaped by canvas from Pie
+
+394
+00:21:51.040 --> 00:21:54.640
+Annex I utter I am a merit.
+
+395
+00:21:54.920 --> 00:21:57.480
+Together we appreciate what's bona fide.
+
+396
+00:21:57.480 --> 00:22:00.920
+Together
+we fathom the lattice work in the lair,
+
+397
+00:22:00.920 --> 00:22:04.640
+in the flu,
+the seepage alphas from there aloft.
+
+398
+00:22:04.640 --> 00:22:07.160
+For me, I charge.
+
+399
+00:22:07.160 --> 00:22:11.800
+I stand in need of a fig leaf
+with the sweep of a lasso.
+
+400
+00:22:12.320 --> 00:22:15.080
+Heaven firmly their astral blah.
+
+401
+00:22:15.080 --> 00:22:17.960
+The snip of keepsakes aside this
+
+402
+00:22:17.960 --> 00:22:21.840
+what's been set down you'd consider
+I hadn't been cherished.
+
+403
+00:22:21.960 --> 00:22:24.960
+That in any case, that in a nutshell
+
+404
+00:22:25.000 --> 00:22:28.440
+I failed a little darling within reach.
+
+405
+00:22:28.600 --> 00:22:32.600
+The rays breezes in we understand motif
+
+406
+00:22:33.000 --> 00:22:35.880
+presently a spot of taint.
+
+407
+00:22:35.880 --> 00:22:36.800
+We who can.
+
+408
+00:22:36.800 --> 00:22:39.120
+Why don't we make it where we love it?
+
+409
+00:22:39.120 --> 00:22:41.800
+On the wind with the bang of sugar?
+
+410
+00:22:43.080 --> 00:22:45.480
+It is and is not a different poem.
+
+411
+00:22:45.480 --> 00:22:48.160
+It is a new version of itself.
+
+412
+00:22:48.160 --> 00:22:50.880
+The math may have been applied
+in precisely,
+
+413
+00:22:50.880 --> 00:22:54.680
+but the process nevertheless captures
+something true and important.
+
+414
+00:22:54.840 --> 00:22:59.280
+A poem is not a fixed object,
+but a probability space, a set of possible
+
+415
+00:22:59.280 --> 00:23:02.080
+arrangements
+constrained and transformed by history,
+
+416
+00:23:02.080 --> 00:23:05.480
+by language, by the corpus
+of what has already been written.
+
+417
+00:23:05.960 --> 00:23:08.480
+A poem that refuses to be a single poem
+
+418
+00:23:08.480 --> 00:23:11.680
+is not feeling resolution,
+just declining it.
+
+419
+00:23:12.880 --> 00:23:16.120
+Fast forward a few years,
+and it was through Nick Montfort's work
+
+420
+00:23:16.120 --> 00:23:20.000
+and other writers that I was exposed
+to the possibility that I could write
+
+421
+00:23:20.000 --> 00:23:24.440
+computer code to do permutations
+in random chance operations using Python.
+
+422
+00:23:25.200 --> 00:23:27.440
+I learned some Python
+through the roboticists
+
+423
+00:23:27.440 --> 00:23:29.880
+at my local makerspace,
+and with their assistance,
+
+424
+00:23:29.880 --> 00:23:31.400
+I was able to bring to life
+
+425
+00:23:31.400 --> 00:23:34.400
+a project that had been brewing in my mind
+for some time
+
+426
+00:23:34.880 --> 00:23:38.400
+a randomized poem generator
+that took my own corpus as a data
+
+427
+00:23:38.440 --> 00:23:42.200
+set and generated random collaged poems
+at the press of a button
+
+428
+00:23:43.000 --> 00:23:46.480
+powered by a Python controlled Raspberry
+Pi microcontroller.
+
+429
+00:23:46.480 --> 00:23:48.600
+And I'll add some of the stuff
+that's coming up on the screen.
+
+430
+00:23:48.600 --> 00:23:51.080
+That receipt printer is also like
+anagrams.
+
+431
+00:23:51.080 --> 00:23:54.720
+Randomized poem generator
+
+432
+00:23:54.720 --> 00:23:58.200
+that took my own corpus as a data
+set and generated random collage poems.
+
+433
+00:23:58.200 --> 00:24:02.760
+The press of a button powered by a Python
+controlled Raspberry Pi microcontroller.
+
+434
+00:24:02.800 --> 00:24:05.920
+These poems were simultaneously generated
+and printed out on a
+
+435
+00:24:05.920 --> 00:24:08.920
+thin strip of paper
+from a small receipt printer.
+
+436
+00:24:09.040 --> 00:24:11.880
+Finally, my abstract
+interest in permutation
+
+437
+00:24:11.880 --> 00:24:14.880
+and randomization
+became embodied and literal.
+
+438
+00:24:15.120 --> 00:24:19.200
+Like the machine translation experiments,
+input transformed through a system
+
+439
+00:24:19.200 --> 00:24:23.840
+to make output that carried traces of
+the original alongside its transformation.
+
+440
+00:24:24.280 --> 00:24:26.920
+Computation
+offered another avenue to rupture
+
+441
+00:24:26.920 --> 00:24:31.400
+normative syntax and release intuitive
+and associative connections in language.
+
+442
+00:24:32.400 --> 00:24:34.720
+A question I have asked myself is why
+
+443
+00:24:34.720 --> 00:24:38.640
+non-normative experimental composition
+and permutation felt less
+
+444
+00:24:38.640 --> 00:24:42.280
+like an adopted poetic technique
+than a recognizable way of being.
+
+445
+00:24:43.040 --> 00:24:46.480
+To answer this, I must reach
+even further back in personal history,
+
+446
+00:24:46.480 --> 00:24:50.880
+and I want to frame this carefully
+as the experience of at AWP,
+
+447
+00:24:51.560 --> 00:24:54.200
+which was about a book and the job I do.
+
+448
+00:24:54.200 --> 00:24:58.200
+It's not the same as this experience
+of being policed for one's identities.
+
+449
+00:24:58.440 --> 00:25:00.400
+They aren't
+the same stakes for the same harms.
+
+450
+00:25:00.400 --> 00:25:03.720
+And I don't bring this up
+to suggest equivalence, but to show how
+
+451
+00:25:03.760 --> 00:25:07.640
+instruction in the enforcement
+of legibility is intertwined
+
+452
+00:25:07.640 --> 00:25:11.520
+with the origin story of my poetics,
+which is one that resists binaries.
+
+453
+00:25:13.320 --> 00:25:17.000
+During a collage making activity
+in seventh grade art class,
+
+454
+00:25:17.000 --> 00:25:21.840
+I glued on a magazine picture of two girls
+kissing as a baby queer.
+
+455
+00:25:21.840 --> 00:25:24.240
+I was drawn to it not for its shock value,
+
+456
+00:25:24.240 --> 00:25:27.840
+but for its triumphant inclusion
+in a mainstream magazine.
+
+457
+00:25:28.360 --> 00:25:31.480
+This inclusion
+drew the attention of a clique of girls
+
+458
+00:25:31.880 --> 00:25:34.680
+sexuality private investigators.
+
+459
+00:25:34.680 --> 00:25:39.200
+They took one look at my collage
+and demanded to know, are you a dike?
+
+460
+00:25:39.840 --> 00:25:42.840
+Having no idea what that was,
+I said as much.
+
+461
+00:25:43.040 --> 00:25:44.160
+I was like 12.
+
+462
+00:25:44.160 --> 00:25:48.520
+Even today, I can see the way her head
+and neck moved sharply from side to side
+
+463
+00:25:48.520 --> 00:25:52.600
+as she crossed her arms and said,
+you know, a butch.
+
+464
+00:25:53.120 --> 00:25:56.680
+Still no recognition, a lesbian.
+
+465
+00:25:57.720 --> 00:25:58.440
+Despite the
+
+466
+00:25:58.440 --> 00:26:01.640
+red hot flush over my face,
+I stammered out a rebuttal
+
+467
+00:26:01.640 --> 00:26:04.680
+that got them to back down,
+conceding with a scoff.
+
+468
+00:26:04.680 --> 00:26:08.760
+Okay, we just wanted to be sure
+they put me back in, checked,
+
+469
+00:26:08.760 --> 00:26:12.080
+and I covered the women's faces
+with a picture of a piano.
+
+470
+00:26:12.760 --> 00:26:16.240
+The word and the fluency stayed with me,
+as did the way these girls
+
+471
+00:26:16.240 --> 00:26:19.600
+did the work of the normative system
+by patrolling its borders
+
+472
+00:26:19.600 --> 00:26:24.480
+and enforcing its edge, probably more
+for their own sense of identity than mine.
+
+473
+00:26:25.480 --> 00:26:27.960
+Having never been in
+especially narrative writer
+
+474
+00:26:27.960 --> 00:26:30.960
+and preferring anesthetics of fragment
+and association,
+
+475
+00:26:31.000 --> 00:26:34.120
+I finally produced,
+with the aid of a graphic designer,
+
+476
+00:26:34.240 --> 00:26:37.960
+visual poems in a series
+called World Maps to represent
+
+477
+00:26:37.960 --> 00:26:42.160
+and express these jarring moments
+of selfhood punctuated equilibrium.
+
+478
+00:26:43.080 --> 00:26:45.520
+These poems, like the one on the screen,
+
+479
+00:26:45.520 --> 00:26:48.920
+appear in Negative Money,
+A Book of esthetic Mixtures
+
+480
+00:26:48.920 --> 00:26:52.880
+and a significant departure
+from my previous book, Travesty Generator.
+
+481
+00:26:53.560 --> 00:26:57.320
+But the education of these girls
+produced in me was not only a grievance,
+
+482
+00:26:57.320 --> 00:27:00.320
+but a set of habits
+that influenced my poetics.
+
+483
+00:27:00.480 --> 00:27:04.680
+I learned how legibility gets enforced
+and grew suspicious of demands
+
+484
+00:27:04.680 --> 00:27:08.680
+that a thing or person
+explain itself into a simpler thing,
+
+485
+00:27:08.680 --> 00:27:11.680
+that it looks like what is expected.
+
+486
+00:27:11.800 --> 00:27:14.040
+That same year,
+I turned in a poem to class.
+
+487
+00:27:14.040 --> 00:27:15.760
+That was a drawing of a stop sign.
+
+488
+00:27:15.760 --> 00:27:18.160
+The teacher was not amused.
+
+489
+00:27:18.160 --> 00:27:21.280
+I developed a tolerance for being unread
+or difficult to read,
+
+490
+00:27:21.280 --> 00:27:26.680
+that was best expressed in the poem
+as concrete visual object in world maps.
+
+491
+00:27:26.680 --> 00:27:30.120
+I landed on visual representation to enact
+what felt like a truer poetics
+
+492
+00:27:30.120 --> 00:27:34.040
+of the fragment of visual fragmentation
+that I had experimented with before.
+
+493
+00:27:36.720 --> 00:27:37.280
+The book
+
+494
+00:27:37.280 --> 00:27:40.560
+Travesty Generator, published in 2019,
+about three years
+
+495
+00:27:40.560 --> 00:27:43.760
+after I started exploring
+computer programing and textual
+
+496
+00:27:44.560 --> 00:27:47.400
+with Python as a literary artifact, marks
+
+497
+00:27:47.400 --> 00:27:50.560
+a moment of culmination
+and trajectory shift in my practices.
+
+498
+00:27:51.120 --> 00:27:55.000
+It began after the first election of Trump
+and the increase in anti-Black violence
+
+499
+00:27:55.000 --> 00:27:58.840
+and police brutality, conditions
+that very much mimicked conditions of old.
+
+500
+00:27:58.880 --> 00:28:02.280
+It's not that I had been writing
+about questions of race and discrimination
+
+501
+00:28:02.280 --> 00:28:04.760
+in previous books,
+but this commentary was opaque
+
+502
+00:28:04.760 --> 00:28:09.040
+and often obscured in the language
+and forms that operated on the level of
+
+503
+00:28:09.040 --> 00:28:11.760
+if you can recognize it,
+you'll recognize it.
+
+504
+00:28:11.760 --> 00:28:14.760
+And I've always been called to write
+about race and discrimination
+
+505
+00:28:14.760 --> 00:28:16.880
+as they're intersectional,
+with an inseparable
+
+506
+00:28:16.880 --> 00:28:19.960
+from my other identities
+related to gender and sexuality.
+
+507
+00:28:20.320 --> 00:28:23.880
+I wanted to write more directly into this
+period of renewed racist violence,
+
+508
+00:28:23.880 --> 00:28:27.640
+but through my static lens,
+and proved myself, at the very least,
+
+509
+00:28:27.640 --> 00:28:30.720
+that computational methods could
+and should be used to respond
+
+510
+00:28:30.720 --> 00:28:33.240
+to the brutality of the moment,
+and that it could move
+
+511
+00:28:33.240 --> 00:28:36.520
+from fringe interest
+to necessary interrogative strategy.
+
+512
+00:28:36.840 --> 00:28:40.960
+After all, it is these technologies,
+from redlining to flat camera surveillance
+
+513
+00:28:40.960 --> 00:28:45.560
+to credit scores that digitally encode
+anti-Blackness into our social codes.
+
+514
+00:28:45.760 --> 00:28:49.240
+Racism is a technology with purpose built
+algorithms.
+
+515
+00:28:49.440 --> 00:28:54.160
+Travesty generator uses code to explore
+historical and personal instances
+
+516
+00:28:54.160 --> 00:28:57.640
+of otherwise encoded
+anti-Black racism and resistance.
+
+517
+00:28:58.040 --> 00:29:01.240
+This is systems interrogation
+in a literal form.
+
+518
+00:29:01.240 --> 00:29:04.680
+If racism runs on code,
+then I could go inside code
+
+519
+00:29:04.680 --> 00:29:08.040
+and turn its logic back on itself
+to reveal its workings.
+
+520
+00:29:08.080 --> 00:29:10.680
+The poem as counter program.
+
+521
+00:29:10.680 --> 00:29:14.640
+As I began this work, programing in Python
+using physical hardware
+
+522
+00:29:14.680 --> 00:29:18.760
+like Raspberry Pi, I heard many things
+in response, often negative.
+
+523
+00:29:18.840 --> 00:29:21.320
+And perhaps some of you have heard
+the same things.
+
+524
+00:29:21.320 --> 00:29:25.440
+I was helping to usher in robots, taking
+over everything and eliminating our jobs.
+
+525
+00:29:25.440 --> 00:29:28.600
+Me as a single person responsible
+for all of that.
+
+526
+00:29:29.000 --> 00:29:32.440
+That there was no craft
+in pressing a button and presto change.
+
+527
+00:29:32.440 --> 00:29:35.520
+Oh, you got a poem
+with no thought or agency at all.
+
+528
+00:29:35.880 --> 00:29:37.520
+It made poetry too easy.
+
+529
+00:29:37.520 --> 00:29:38.800
+Too much like cheating.
+
+530
+00:29:38.800 --> 00:29:40.640
+Not enough suffering for the art.
+
+531
+00:29:40.640 --> 00:29:43.320
+What did I think I was doing?
+
+532
+00:29:43.320 --> 00:29:45.320
+On the surface,
+it looked like pressing a button.
+
+533
+00:29:45.320 --> 00:29:47.040
+Cheated through the work
+of writing a poem.
+
+534
+00:29:47.040 --> 00:29:50.160
+But in practice,
+as some of you well know, and
+
+535
+00:29:50.160 --> 00:29:53.240
+especially if you don't have
+substantial fluency in programing,
+
+536
+00:29:53.240 --> 00:29:57.000
+it is far more time
+consuming and difficult to craft a program
+
+537
+00:29:57.000 --> 00:30:01.520
+that generates a poem and using language
+dictionaries that you compile yourself.
+
+538
+00:30:01.640 --> 00:30:05.640
+It would have been much easier for me
+to just observe the observable world
+
+539
+00:30:05.640 --> 00:30:07.720
+and write a poem about the observation,
+using
+
+540
+00:30:07.720 --> 00:30:11.360
+whatever language was within my reach,
+and occurred to me first.
+
+541
+00:30:11.840 --> 00:30:15.800
+Programs do what they're directed
+to do with words they're directed to use.
+
+542
+00:30:15.880 --> 00:30:20.000
+This means first you must choose the words
+the n total number of distinct items,
+
+543
+00:30:20.000 --> 00:30:23.000
+and in the set the program selects from.
+
+544
+00:30:23.000 --> 00:30:26.880
+These ought to be words you want to read,
+which means first you must read.
+
+545
+00:30:27.280 --> 00:30:30.080
+Every step is an agent. Authorial choice.
+
+546
+00:30:31.160 --> 00:30:32.680
+Travesty generator is a
+
+547
+00:30:32.680 --> 00:30:35.800
+deliberately black
+and deliberately computational project
+
+548
+00:30:35.800 --> 00:30:39.000
+where the poem's forms
+were also interpretive content,
+
+549
+00:30:39.000 --> 00:30:42.280
+and so is a black story
+may contain sensitive content.
+
+550
+00:30:42.280 --> 00:30:44.920
+The book written with a large language
+model.
+
+551
+00:30:44.920 --> 00:30:48.600
+Now, I did not explain all of this history
+to the woman confronting me at the book
+
+552
+00:30:48.640 --> 00:30:49.400
+fair table.
+
+553
+00:30:49.400 --> 00:30:53.120
+She seemed to have an impassioned
+monologue queued up, ready to defend
+
+554
+00:30:53.120 --> 00:30:56.640
+creative creativity in writing
+from the soul sucking robotic apologists
+
+555
+00:30:56.640 --> 00:30:59.640
+like myself who are teaching students
+to write with AI.
+
+556
+00:31:00.880 --> 00:31:05.320
+If she was most upset about the book, a
+black story may contain sensitive content.
+
+557
+00:31:05.320 --> 00:31:09.440
+She could have read its introduction,
+which characterizes it as a critical
+
+558
+00:31:09.440 --> 00:31:13.480
+and creative research experiment
+and counter demonstration, a term borrowed
+
+559
+00:31:13.480 --> 00:31:19.760
+from Algorithmic Justice League founder
+Joy Winnie of Large Language Models,
+
+560
+00:31:19.800 --> 00:31:23.440
+one that uses the models
+to reveal their biases and hallucinations.
+
+561
+00:31:23.920 --> 00:31:26.440
+She would have learned
+that this experiment uses comparison
+
+562
+00:31:26.440 --> 00:31:30.520
+as an assessment of early standard
+GPT models, with a model inflicted
+
+563
+00:31:30.520 --> 00:31:34.920
+by a black author, Wendell and Brooks,
+we Real Cool, as Brooks's
+
+564
+00:31:34.920 --> 00:31:39.040
+most anthologized poem, sometimes to her
+chagrin, is certainly part
+
+565
+00:31:39.040 --> 00:31:42.560
+of the original training data and likely
+several of her other books as well.
+
+566
+00:31:42.560 --> 00:31:44.120
+But the model required further
+
+567
+00:31:44.120 --> 00:31:47.120
+tuning to point it
+towards the patterns of her voice.
+
+568
+00:31:47.560 --> 00:31:50.920
+A word on this Brooks's work
+and the Brooks model function
+
+569
+00:31:50.920 --> 00:31:54.760
+here as a contrast or antithesis,
+not as substitute.
+
+570
+00:31:54.920 --> 00:31:58.760
+The use here is intended
+to be interpretive rather than extractive
+
+571
+00:31:58.800 --> 00:32:01.800
+for research purposes, not generally use.
+
+572
+00:32:02.000 --> 00:32:03.000
+The point was to show
+
+573
+00:32:03.000 --> 00:32:06.680
+what the generic model could not do
+or reach without this framing.
+
+574
+00:32:07.560 --> 00:32:10.680
+One premise of the work
+is that computational systems,
+
+575
+00:32:10.680 --> 00:32:13.680
+including narrative ones,
+are cultural systems,
+
+576
+00:32:13.680 --> 00:32:17.680
+and the surface text of Llms
+can be interpreted through this lens.
+
+577
+00:32:18.280 --> 00:32:21.800
+In the book, I probe generic GPT models
+and the inflected model
+
+578
+00:32:21.800 --> 00:32:24.800
+with the same prompt
+tell me a black story.
+
+579
+00:32:25.240 --> 00:32:29.200
+The generic model responds similarly
+in repeated attempts, demonstrating
+
+580
+00:32:29.200 --> 00:32:33.040
+that the model had a rather limited
+perception of what a narrative story is.
+
+581
+00:32:33.200 --> 00:32:36.160
+Granted, this is in like 2021 2022.
+
+582
+00:32:36.160 --> 00:32:39.560
+It has changed since then, so
+the outputs followed a typical once
+
+583
+00:32:39.560 --> 00:32:43.720
+upon a time format with rising action,
+conflict, climax, conclusion.
+
+584
+00:32:44.000 --> 00:32:46.920
+The stories about black
+people were all hard luck, discrimination
+
+585
+00:32:46.920 --> 00:32:48.160
+and racial uplift stories.
+
+586
+00:32:48.160 --> 00:32:52.200
+Following the typical story structure,
+one even implied that slaveholders
+
+587
+00:32:52.200 --> 00:32:55.200
+that taught slaves to read
+and write were kind people.
+
+588
+00:32:55.400 --> 00:32:58.840
+Now, the stories from the inflected
+model were far more personal and joyful,
+
+589
+00:32:58.880 --> 00:33:02.440
+more first person reflection
+than flat toned, omniscient narrator.
+
+590
+00:33:03.000 --> 00:33:06.760
+This was also systems interrogation,
+going inside a system
+
+591
+00:33:06.760 --> 00:33:10.120
+and using its own logic
+as the instrument of its examination.
+
+592
+00:33:10.960 --> 00:33:13.320
+This was still during
+the time when people were amazed
+
+593
+00:33:13.320 --> 00:33:15.080
+at what language models could do.
+
+594
+00:33:15.080 --> 00:33:19.600
+When there were clickbait headlines
+like an AI wrote this article, and so on.
+
+595
+00:33:20.000 --> 00:33:24.120
+Everyone was exclaiming, either
+with trepidation or optimism, how scary
+
+596
+00:33:24.160 --> 00:33:27.160
+good models were at generating
+flawless text.
+
+597
+00:33:27.400 --> 00:33:31.400
+A flawless text doesn't mean coherence,
+comprehension, or cultural competency.
+
+598
+00:33:32.080 --> 00:33:35.640
+The implicit thesis of the project is
+that while language models are interesting
+
+599
+00:33:35.640 --> 00:33:39.520
+and compelling in some respects, there's
+no evidence that they should be trusted
+
+600
+00:33:39.520 --> 00:33:42.760
+with anything even close
+to creative or cultural competency.
+
+601
+00:33:43.360 --> 00:33:46.600
+Yes, the book is written with AI,
+and that using a language
+
+602
+00:33:46.600 --> 00:33:49.720
+model was necessary to demonstrate
+not just potential, but
+
+603
+00:33:49.720 --> 00:33:54.240
+the very problematic inherent failures
+that she inquired about the book.
+
+604
+00:33:54.320 --> 00:33:58.200
+She may have learned that this project
+did not use GPT as we know it today,
+
+605
+00:33:58.480 --> 00:34:00.960
+and that the process
+of querying the model from the back end
+
+606
+00:34:00.960 --> 00:34:04.160
+was itself a language
+exploration through corpus building.
+
+607
+00:34:05.640 --> 00:34:09.080
+What I wish I had said is
+that I arrived at large language models,
+
+608
+00:34:09.080 --> 00:34:12.160
+the way I have arrived at language models
+throughout my practice,
+
+609
+00:34:12.440 --> 00:34:15.880
+not as convert or resister,
+but as interrogator.
+
+610
+00:34:16.480 --> 00:34:19.600
+It began
+with the Spanish morphology at HCI
+
+611
+00:34:19.920 --> 00:34:24.520
+than machine translation and permutations,
+Python powered stochastic generation,
+
+612
+00:34:24.520 --> 00:34:27.920
+natural language processing,
+and then transformer architecture
+
+613
+00:34:28.120 --> 00:34:31.120
+all along the way,
+pushing on the materiality of language
+
+614
+00:34:31.120 --> 00:34:34.120
+and the tolerances
+of what a poem could hold.
+
+615
+00:34:34.440 --> 00:34:38.440
+This history helps explain why
+some of the two most available postures
+
+616
+00:34:38.440 --> 00:34:39.960
+don't really fit me,
+
+617
+00:34:39.960 --> 00:34:43.240
+not the uncritical embrace
+she and other writers have imagined,
+
+618
+00:34:43.240 --> 00:34:47.480
+and not the reflexive refusal
+the panel was selling down the hall.
+
+619
+00:34:48.000 --> 00:34:51.000
+Interrogation,
+I hope, can be a third stance.
+
+620
+00:34:51.560 --> 00:34:55.080
+If she had done again
+even a cursory amount of research,
+
+621
+00:34:55.120 --> 00:34:56.960
+she may have learned that
+in the classroom.
+
+622
+00:34:56.960 --> 00:35:01.640
+I teach the long, colorful and dynamic
+history of computational narrative systems
+
+623
+00:35:01.640 --> 00:35:06.160
+and the poets, artists, writers,
+and researchers that have built and used
+
+624
+00:35:06.160 --> 00:35:09.800
+these systems to explore the mysteries
+of language, linguistics, and
+
+625
+00:35:10.520 --> 00:35:14.640
+and what is but a normalized, agreed upon
+schema of borders and boundaries
+
+626
+00:35:14.640 --> 00:35:18.560
+that, when put under pressure,
+expands the possibilities for being.
+
+627
+00:35:19.800 --> 00:35:20.800
+And contrary to
+
+628
+00:35:20.800 --> 00:35:24.360
+her belief, I do not teach
+writing students how to write with AI.
+
+629
+00:35:24.840 --> 00:35:27.600
+They don't need to be taught that at all.
+
+630
+00:35:27.600 --> 00:35:31.000
+They already right alongside machine
+learning models when they select
+
+631
+00:35:31.000 --> 00:35:35.400
+predictive text option in their text
+messages, emails, word processing
+
+632
+00:35:35.400 --> 00:35:37.400
+programs.
+
+633
+00:35:37.400 --> 00:35:41.240
+What I do teach is what I call
+intellectual self-defense
+
+634
+00:35:41.600 --> 00:35:45.600
+knowledge about what a language model
+really is, what it can and cannot do,
+
+635
+00:35:46.160 --> 00:35:50.320
+where it came from, how it is
+made, its biases and limitations.
+
+636
+00:35:50.760 --> 00:35:54.200
+Rather than snap judgments, students
+look critically at how artists and writers
+
+637
+00:35:54.200 --> 00:35:54.800
+have engaged
+
+638
+00:35:54.800 --> 00:35:57.000
+these models as a medium
+in their own right,
+
+639
+00:35:57.000 --> 00:36:00.760
+not as slop replacements
+for writing or creativity, but as modes of
+
+640
+00:36:00.760 --> 00:36:03.680
+exploring the relationships
+between computation and language
+
+641
+00:36:03.680 --> 00:36:06.680
+and what computation can reveal
+about language.
+
+642
+00:36:07.360 --> 00:36:10.760
+Of course, the acronym
+AI has swelled into a term
+
+643
+00:36:10.760 --> 00:36:14.840
+that is applied to so much that
+it means everything or nearly nothing.
+
+644
+00:36:15.320 --> 00:36:19.720
+When the woman saw AI,
+she was not reacting to technology so much
+
+645
+00:36:19.720 --> 00:36:24.320
+as a term that is eaten technologies
+and now functions almost like a feeling.
+
+646
+00:36:24.960 --> 00:36:28.120
+Part of intellectual self-defense
+is refusing that collapse
+
+647
+00:36:28.120 --> 00:36:31.480
+too, by
+insisting on the specifics of the system.
+
+648
+00:36:32.160 --> 00:36:35.720
+If she had arrived at the conversation,
+which she thanked me for
+
+649
+00:36:35.760 --> 00:36:39.960
+with informed questions instead of snap
+judgments based on assumptions,
+
+650
+00:36:39.960 --> 00:36:43.880
+maybe the posture would have been less
+accusatory, but maybe not.
+
+651
+00:36:43.920 --> 00:36:45.200
+And I get it.
+
+652
+00:36:45.200 --> 00:36:49.120
+These judgments, especially about AI,
+can serve a useful purpose for some
+
+653
+00:36:49.120 --> 00:36:52.880
+who find themselves overwhelmed
+with information and competing arguments.
+
+654
+00:36:53.520 --> 00:36:56.120
+A snap judgment can give you something
+to immediately
+
+655
+00:36:56.120 --> 00:36:59.280
+stand for or against,
+which can be expedient.
+
+656
+00:36:59.640 --> 00:37:04.040
+If this mental efficiency
+has the same downsides as AI efficiency,
+
+657
+00:37:04.160 --> 00:37:07.600
+sidestepping your own process
+of critical thinking and reasoning,
+
+658
+00:37:08.800 --> 00:37:09.760
+this demand at my
+
+659
+00:37:09.760 --> 00:37:12.800
+booth is an operation
+that most procedural, procedural,
+
+660
+00:37:12.800 --> 00:37:16.480
+experimental, and Ellet writers
+have probably faced repeatedly.
+
+661
+00:37:16.960 --> 00:37:20.840
+That operation is confronting
+and unpredicted or unimagined arrangement,
+
+662
+00:37:20.840 --> 00:37:23.840
+and responding with pressure
+to collapse it back into something
+
+663
+00:37:23.840 --> 00:37:27.800
+recognizable and reducible,
+or to dismiss it entirely.
+
+664
+00:37:28.520 --> 00:37:29.240
+Ridiculous.
+
+665
+00:37:29.240 --> 00:37:33.160
+Praxis requires
+refining fixed categories, real writing
+
+666
+00:37:33.160 --> 00:37:37.240
+or not with AI or against AI,
+creativity or slap.
+
+667
+00:37:37.880 --> 00:37:42.160
+Electronic and experimental literature
+do not resolve into something simpler.
+
+668
+00:37:42.200 --> 00:37:46.080
+Nor treat eligibility and difficulty
+as problems to be solved,
+
+669
+00:37:46.080 --> 00:37:48.920
+but as necessary conditions of the work.
+
+670
+00:37:48.920 --> 00:37:53.440
+There is a danger that ridicules praxis
+for closes on practice
+
+671
+00:37:53.480 --> 00:37:57.200
+and shrouds a lineage
+that must be rediscovered decades later.
+
+672
+00:37:57.280 --> 00:38:01.920
+The departed Roussel, waiting until the
+1950s for his resurrection by the Oulipo.
+
+673
+00:38:02.680 --> 00:38:06.120
+What is a praxis that narrows the space,
+the permutation
+
+674
+00:38:06.120 --> 00:38:09.480
+space, of what writing and literature
+is permitted to become?
+
+675
+00:38:10.840 --> 00:38:11.880
+So I explained
+
+676
+00:38:11.880 --> 00:38:16.040
+what I could in the short amount of time
+I had with this woman, and she did respond
+
+677
+00:38:16.080 --> 00:38:19.080
+positively, exclaiming
+that it was impossible for anyone
+
+678
+00:38:19.080 --> 00:38:22.080
+to know all of this from a website bio
+that mentions AI.
+
+679
+00:38:22.640 --> 00:38:26.560
+True, but is my faculty
+bio really the place for this argument?
+
+680
+00:38:26.600 --> 00:38:30.000
+Maybe it is when I casually suggested
+
+681
+00:38:30.000 --> 00:38:33.200
+that this could have been averted
+if she had done a little research.
+
+682
+00:38:33.360 --> 00:38:37.800
+She doubled down, insisting that
+as soon as she sees AI, she sees red,
+
+683
+00:38:37.920 --> 00:38:41.320
+and no way was that going to inspire her
+to do more research.
+
+684
+00:38:42.000 --> 00:38:43.680
+This is her choice.
+
+685
+00:38:43.680 --> 00:38:45.920
+She offered three more things.
+
+686
+00:38:45.920 --> 00:38:47.440
+First, a tip.
+
+687
+00:38:47.440 --> 00:38:50.320
+I should change my bio
+to be more explanatory, or to say
+
+688
+00:38:50.320 --> 00:38:53.400
+something else that other people don't
+get the wrong impression.
+
+689
+00:38:54.120 --> 00:38:57.520
+The second she would amend her
+nasty social media post.
+
+690
+00:38:57.880 --> 00:39:01.520
+And third, before she continued her way
+around the book fair,
+
+691
+00:39:01.560 --> 00:39:05.640
+she showed me her own books
+and handed me her card and a small tangram
+
+692
+00:39:05.640 --> 00:39:08.680
+puzzle set with her face
+sticker on the packaging.
+
+693
+00:39:09.400 --> 00:39:13.200
+I have fond childhood memories
+of being stymied by these.
+
+694
+00:39:13.800 --> 00:39:16.600
+The Tangram puzzle is a Chinese geometric
+dissection
+
+695
+00:39:16.600 --> 00:39:20.200
+puzzle
+consisting of seven flat geometric pieces,
+
+696
+00:39:20.400 --> 00:39:25.880
+a square, some triangles, a parallelogram
+arranged initially in a square.
+
+697
+00:39:25.920 --> 00:39:29.760
+The game is to rearrange
+the pieces into different flat shapes,
+
+698
+00:39:29.800 --> 00:39:33.680
+like a duck or a house,
+without overlapping any pieces
+
+699
+00:39:34.120 --> 00:39:37.920
+for the willing investigator
+and number of pieces in a set.
+
+700
+00:39:37.960 --> 00:39:42.760
+Taken are different ways
+can produce countless fascinating shapes.
+
+701
+00:39:43.720 --> 00:39:45.200
+Thank you.
+
+702
+00:39:45.200 --> 00:39:46.120
+That's all I've got.
+
+703
+00:39:46.120 --> 00:39:49.120
+I'll stop sharing.
+
+704
+00:39:53.520 --> 00:39:54.920
+Thank you so much, Lilian.
+
+705
+00:39:54.920 --> 00:39:55.320
+Yvonne.
+
+706
+00:39:55.320 --> 00:39:58.480
+And in solidarity,
+I've joined you on my porch as well.
+
+707
+00:39:58.520 --> 00:40:01.800
+This one needed some sun time.
+
+708
+00:40:01.800 --> 00:40:05.240
+And if there are any questions
+
+709
+00:40:05.240 --> 00:40:08.400
+in the audience,
+I'd love to open both the chat.
+
+710
+00:40:08.400 --> 00:40:11.400
+And if you want to raise your hand
+
+711
+00:40:11.680 --> 00:40:15.560
+to ask any questions,
+we can open the Q&A portion now.
+
+712
+00:40:15.600 --> 00:40:16.720
+Thank you so much.
+
+713
+00:40:16.720 --> 00:40:18.600
+That was an incredible great talk.
+
+714
+00:40:18.600 --> 00:40:21.600
+Thank you.
+
+715
+00:40:26.480 --> 00:40:29.320
+Part of what got me really excited.
+
+716
+00:40:29.320 --> 00:40:33.080
+I had to grab a piece of scrap paper
+and a Sharpie as you were speaking.
+
+717
+00:40:33.320 --> 00:40:38.000
+Is that so many of the pieces
+of your story hint at just sort of the
+
+718
+00:40:38.040 --> 00:40:41.280
+maybe some of the reality
+that we experienced that a hidden
+
+719
+00:40:41.280 --> 00:40:46.480
+but not secret language like underlies
+and animates the world of the poems
+
+720
+00:40:46.720 --> 00:40:50.400
+and like in the world of the world,
+like math code differences
+
+721
+00:40:50.400 --> 00:40:54.040
+between languages that we translate 
+to the normative in general.
+
+722
+00:40:54.080 --> 00:40:57.480
+Like, I'm just wondering
+what sort of programs you're
+
+723
+00:40:57.480 --> 00:41:00.480
+writing now and what sort of programs
+you want to see more of
+
+724
+00:41:01.760 --> 00:41:03.160
+right now.
+
+725
+00:41:03.160 --> 00:41:06.160
+I am,
+
+726
+00:41:07.280 --> 00:41:10.280
+so I'm working on
+
+727
+00:41:10.320 --> 00:41:14.520
+like a, like a piece of hardware
+that can sort of
+
+728
+00:41:14.560 --> 00:41:17.560
+give me data from the plants in my garden.
+
+729
+00:41:19.360 --> 00:41:22.120
+Using Raspberry Pi,
+because I have a garden.
+
+730
+00:41:22.120 --> 00:41:25.320
+I'm doing also like a lot of sort of like
+
+731
+00:41:27.080 --> 00:41:28.200
+local data.
+
+732
+00:41:28.200 --> 00:41:31.120
+This is
+this is behind the possum, by the way.
+
+733
+00:41:31.120 --> 00:41:32.080
+So there's a possum.
+
+734
+00:41:32.080 --> 00:41:33.760
+Like everyone's
+just going to have to like,
+
+735
+00:41:33.760 --> 00:41:37.160
+you know, agree that there's a
+there's a possum happening.
+
+736
+00:41:37.160 --> 00:41:41.840
+I'm collecting a lot of local data
+in my like immediate space.
+
+737
+00:41:41.840 --> 00:41:45.520
+And so I have a ton of this visual data
+and audio data.
+
+738
+00:41:45.560 --> 00:41:47.440
+A lot of it is possible and other things.
+
+739
+00:41:47.440 --> 00:41:52.200
+And so computationally
+I'm working on like how to process
+
+740
+00:41:52.240 --> 00:41:55.760
+how to process that, 
+sort of like what to do with it.
+
+741
+00:41:55.760 --> 00:41:57.760
+So that's taking me
+in a lot of different directions,
+
+742
+00:41:57.760 --> 00:42:01.440
+like thinking about things
+like image captioning, image recognition,
+
+743
+00:42:01.480 --> 00:42:03.200
+you know, what kinds of models
+
+744
+00:42:03.200 --> 00:42:07.400
+and things can be built from scratch
+to like, deal with, deal with this data.
+
+745
+00:42:07.400 --> 00:42:09.200
+But it's all extremely hyperlocal.
+
+746
+00:42:09.200 --> 00:42:12.320
+It's like literally
+it's like outside my window.
+
+747
+00:42:13.520 --> 00:42:14.280
+So yeah,
+
+748
+00:42:14.280 --> 00:42:17.280
+that's sort of what I'm working on now
+as far as computation is concerned.
+
+749
+00:42:18.160 --> 00:42:20.400
+Awesome.
+We have a question for Mark sample
+
+750
+00:42:20.400 --> 00:42:23.080
+that asks there's
+ridiculous practice practice.
+
+751
+00:42:23.080 --> 00:42:26.760
+And then there's facile misrepresentation
+as critique.
+
+752
+00:42:26.800 --> 00:42:30.560
+I'm thinking of Joe Lipa's recent
+New Yorker article and would love to hear
+
+753
+00:42:30.560 --> 00:42:33.560
+you risks on a response if you have one.
+
+754
+00:42:34.400 --> 00:42:36.000
+Yeah, I thought I,
+
+755
+00:42:36.000 --> 00:42:40.640
+I, I wrote I wrote a letter to the editor
+actually about that
+
+756
+00:42:40.680 --> 00:42:44.880
+which didn't get published,
+which doesn't surprise me.
+
+757
+00:42:44.880 --> 00:42:45.920
+Yeah.
+
+758
+00:42:45.920 --> 00:42:50.720
+I thought like I her
+I think she mischaracterized the history
+
+759
+00:42:50.720 --> 00:42:55.680
+of computationally generated literature
+in text as the prehistory of slop.
+
+760
+00:42:55.680 --> 00:42:56.920
+I don't think that's right.
+
+761
+00:42:56.920 --> 00:42:59.400
+I think that that just kind of like misses
+that.
+
+762
+00:42:59.400 --> 00:43:00.240
+Mrs.. Mrs..
+
+763
+00:43:00.240 --> 00:43:00.640
+A bit.
+
+764
+00:43:00.640 --> 00:43:01.320
+Right.
+
+765
+00:43:01.320 --> 00:43:04.200
+That's not that's not what was happening.
+
+766
+00:43:04.200 --> 00:43:04.920
+And so
+
+767
+00:43:06.400 --> 00:43:08.520
+I just sort of think that's wrong,
+
+768
+00:43:08.520 --> 00:43:12.080
+but it's also it's really convenient
+at the same time.
+
+769
+00:43:12.120 --> 00:43:14.360
+Like of course there's been this like,
+you know,
+
+770
+00:43:14.360 --> 00:43:16.320
+we have slop today
+because of this other thing.
+
+771
+00:43:16.320 --> 00:43:19.440
+And I don't exactly think that's true.
+
+772
+00:43:19.440 --> 00:43:23.440
+Oh, someone's asking more context
+about Laporte's argument.
+
+773
+00:43:23.680 --> 00:43:24.240
+Yeah.
+
+774
+00:43:24.240 --> 00:43:28.200
+So Laporte
+kind of goes into like we have AI slop,
+
+775
+00:43:28.240 --> 00:43:31.440
+a lot of generated text right now,
+but that there has
+
+776
+00:43:31.440 --> 00:43:34.440
+been, you know, a history
+of computationally generated text.
+
+777
+00:43:34.440 --> 00:43:37.440
+And she cites output as.
+
+778
+00:43:37.600 --> 00:43:40.520
+Sites output,
+
+779
+00:43:40.520 --> 00:43:44.000
+the anthology of computer generated text
+as something
+
+780
+00:43:44.040 --> 00:43:47.400
+as a, as a text that's like usefully doing
+that work or providing that history.
+
+781
+00:43:47.400 --> 00:43:49.280
+So she speaks favorably about it.
+
+782
+00:43:49.280 --> 00:43:54.360
+But I think characterizing that as like
+the prehistory of slop is wrong.
+
+783
+00:43:55.520 --> 00:43:59.360
+So I did I can pull up maybe like what
+I what
+
+784
+00:43:59.360 --> 00:44:03.800
+did I like post on Instagram or something
+like my my letter to the editor.
+
+785
+00:44:03.840 --> 00:44:06.360
+It's there.
+
+786
+00:44:06.360 --> 00:44:09.480
+Yeah, I think it was when I looked at
+
+787
+00:44:09.480 --> 00:44:13.440
+it was behind the paywall,
+but it is available from the New Yorker.
+
+788
+00:44:13.640 --> 00:44:16.680
+She's a critic at large.
+
+789
+00:44:22.320 --> 00:44:25.160
+Dina asks, how do you explain to someone
+the bias involved
+
+790
+00:44:25.160 --> 00:44:29.080
+in generating language
+from particular databases?
+
+791
+00:44:30.200 --> 00:44:34.040
+As involved in generating language?
+
+792
+00:44:39.040 --> 00:44:39.600
+Yeah.
+
+793
+00:44:39.600 --> 00:44:44.000
+I assume you're you're talking about
+or asking about
+
+794
+00:44:45.560 --> 00:44:47.680
+the sort of initial training of the model
+
+795
+00:44:47.680 --> 00:44:50.680
+and that like those,
+
+796
+00:44:51.000 --> 00:44:54.960
+I guess I could explain to me how I would
+how I talk about it to my students,
+
+797
+00:44:55.040 --> 00:44:59.600
+which is 
+that like when you're when you're taking,
+
+798
+00:45:00.320 --> 00:45:04.280
+you know, like like data
+is data is not neutral and data
+
+799
+00:45:04.280 --> 00:45:08.840
+is compiled by humans and humans choose
+where they get that data from.
+
+800
+00:45:08.840 --> 00:45:13.000
+And so if we're getting textual data
+from a corpus of books
+
+801
+00:45:13.000 --> 00:45:15.560
+that have been digitized
+then already, right,
+
+802
+00:45:15.560 --> 00:45:19.200
+we have a bias that is, you know, towards
+digitized text, right?
+
+803
+00:45:19.240 --> 00:45:20.440
+So it's not neutral.
+
+804
+00:45:20.440 --> 00:45:23.360
+It's not representative of, like, all the
+texts in history or anything like that.
+
+805
+00:45:23.360 --> 00:45:25.200
+And it's also just text, right?
+
+806
+00:45:25.200 --> 00:45:26.560
+There's more to language than just text.
+
+807
+00:45:26.560 --> 00:45:28.760
+And there's more to writing,
+I think, than just than just text.
+
+808
+00:45:28.760 --> 00:45:35.000
+So, you know, and also like, who has
+funded, you know, building that database.
+
+809
+00:45:35.080 --> 00:45:37.960
+What were their initial ideas around it?
+
+810
+00:45:37.960 --> 00:45:38.600
+How old is it?
+
+811
+00:45:38.600 --> 00:45:39.760
+How recent is it. Right.
+
+812
+00:45:39.760 --> 00:45:41.880
+Is it licensed? Is it stolen data. Right.
+
+813
+00:45:41.880 --> 00:45:45.840
+All of these things, it's sort of like,
+you know, I describe it as building
+
+814
+00:45:45.840 --> 00:45:49.120
+a house on a crooked foundation,
+like everything inside of the house.
+
+815
+00:45:49.160 --> 00:45:53.840
+Like, if it's all you know,
+I can always tilt my frame to make it all
+
+816
+00:45:53.840 --> 00:45:57.040
+look even, you know, inside the house,
+even if it's, you know,
+
+817
+00:45:57.080 --> 00:45:58.400
+built on this frickin foundation.
+
+818
+00:45:58.400 --> 00:46:01.800
+But the foundation is still,
+you know, pretty problematic.
+
+819
+00:46:01.800 --> 00:46:02.240
+It's like,
+
+820
+00:46:02.240 --> 00:46:05.360
+you know, it's like it was still built
+on a Superfund site kind of thing.
+
+821
+00:46:05.600 --> 00:46:09.120
+And that, like,
+that's the bias is baked in.
+
+822
+00:46:09.160 --> 00:46:09.560
+Right?
+
+823
+00:46:09.560 --> 00:46:12.560
+And and it always is,
+like with lots of things.
+
+824
+00:46:12.560 --> 00:46:12.760
+Right.
+
+825
+00:46:12.760 --> 00:46:14.080
+That bias is baked in.
+
+826
+00:46:14.080 --> 00:46:19.480
+And that helps explain it to, to students
+and also people who are encountering
+
+827
+00:46:19.480 --> 00:46:25.360
+language models as AI as like this is AI 
+sort of like out in the wild, right?
+
+828
+00:46:25.400 --> 00:46:29.280
+Without where the origins of the language
+model has been totally obscured.
+
+829
+00:46:29.280 --> 00:46:32.880
+And that's, you know, of course,
+very useful for the tech companies.
+
+830
+00:46:32.880 --> 00:46:36.720
+And Bender and Hannah do a good job
+of talking about this obscurity.
+
+831
+00:46:36.720 --> 00:46:40.800
+And so, do you know, sort of a
+lot of a lot of other folks.
+
+832
+00:46:42.760 --> 00:46:43.960
+Trying to keep up with here.
+
+833
+00:46:43.960 --> 00:46:46.520
+Are you going to release
+the model of plans for writing data?
+
+834
+00:46:46.520 --> 00:46:51.440
+If I, if I finish it, if I ever, like,
+get it to get it to work?
+
+835
+00:46:52.920 --> 00:46:55.720
+Yes. The Eliza project.
+
+836
+00:46:55.720 --> 00:46:58.680
+Yes. We are trained from human. Yes, yes.
+
+837
+00:46:58.680 --> 00:46:59.920
+No, I don't think.
+
+838
+00:46:59.920 --> 00:47:02.920
+No, there's
+I don't think we can expect bias free AI.
+
+839
+00:47:03.200 --> 00:47:04.440
+I don't think that's.
+
+840
+00:47:04.440 --> 00:47:07.440
+I don't think that's possible.
+
+841
+00:47:07.680 --> 00:47:08.280
+Like you said,
+
+842
+00:47:08.280 --> 00:47:11.280
+stepping out, like stepping out of one
+bias is stepping into another.
+
+843
+00:47:12.400 --> 00:47:15.200
+I'm wondering the way that that might,
+like, parallel
+
+844
+00:47:15.200 --> 00:47:19.600
+into the sorts of questions
+about workshop like that.
+
+845
+00:47:19.640 --> 00:47:22.680
+All of your writers
+are bringing their themselves
+
+846
+00:47:22.680 --> 00:47:25.880
+into the workshop,
+and they're bringing their eyes to work.
+
+847
+00:47:25.880 --> 00:47:27.480
+That was written from one eye.
+
+848
+00:47:27.480 --> 00:47:32.880
+Unless they're writing collaboratively
+or writing with computers like that
+
+849
+00:47:32.880 --> 00:47:35.200
+just seems that there's
+there's a lot of ways in which
+
+850
+00:47:35.200 --> 00:47:39.160
+all of the questions
+about even appropriation,
+
+851
+00:47:39.160 --> 00:47:43.760
+like play play into that,
+based on my reading of a black spray,
+
+852
+00:47:43.800 --> 00:47:47.760
+may contain sensitive content is like,
+where do we get these ideas and stories
+
+853
+00:47:47.760 --> 00:47:49.120
+and rhetorics from?
+
+854
+00:47:49.120 --> 00:47:51.160
+It's from preexisting things.
+
+855
+00:47:51.160 --> 00:47:52.440
+But how does that play out
+
+856
+00:47:52.440 --> 00:47:55.320
+pedagogically,
+when you're discussing with your students?
+
+857
+00:47:56.760 --> 00:47:57.520
+It does depend on the
+
+858
+00:47:57.520 --> 00:48:00.520
+class in like a poetry workshop.
+
+859
+00:48:00.560 --> 00:48:03.520
+It's a really different environment,
+and the stakes are different
+
+860
+00:48:03.520 --> 00:48:05.720
+for like graduate students
+in creative writing
+
+861
+00:48:05.720 --> 00:48:10.320
+than for a class of specifically about,
+you know,
+
+862
+00:48:10.320 --> 00:48:14.360
+algorithmic writing and literature
+and examining models and teaching them.
+
+863
+00:48:14.360 --> 00:48:17.360
+So a class I taught and we'll
+
+864
+00:48:17.360 --> 00:48:20.440
+teach again called Computers
+Killed the Creative Writing Star.
+
+865
+00:48:20.600 --> 00:48:22.520
+Like really goes into that, right?
+
+866
+00:48:22.520 --> 00:48:26.760
+So students came into that
+and I and I believe they will continue to
+
+867
+00:48:26.800 --> 00:48:30.960
+come into that with a lot of skepticism,
+not so much around like computation
+
+868
+00:48:30.960 --> 00:48:34.760
+and computational models,
+but around AI as language models.
+
+869
+00:48:34.760 --> 00:48:36.640
+So they approach it.
+
+870
+00:48:36.640 --> 00:48:39.680
+My experience has been they approach it
+with a lot of skepticism and fear,
+
+871
+00:48:39.680 --> 00:48:41.760
+but also that partly has to do
+
+872
+00:48:41.760 --> 00:48:44.760
+with what information is available
+about their origins.
+
+873
+00:48:44.760 --> 00:48:45.480
+Right?
+
+874
+00:48:45.480 --> 00:48:48.760
+Because obscuring the origins
+and the reality of all the labor.
+
+875
+00:48:48.800 --> 00:48:48.960
+Right.
+
+876
+00:48:48.960 --> 00:48:54.040
+There is no cloud behind
+that is part of the tactics of AI hype.
+
+877
+00:48:54.040 --> 00:48:59.840
+And in workshops like students in sort of
+a if like bog standard creative writing
+
+878
+00:48:59.840 --> 00:49:04.720
+workshop, students are coming to that
+with different expectations and very much
+
+879
+00:49:04.760 --> 00:49:09.080
+want nothing to do with language models
+unless they do.
+
+880
+00:49:09.120 --> 00:49:09.320
+Right.
+
+881
+00:49:09.320 --> 00:49:11.920
+Unless that's part of like
+the inquiry of their practice.
+
+882
+00:49:11.920 --> 00:49:14.040
+Right? Do
+a student's are interested in computation?
+
+883
+00:49:14.040 --> 00:49:16.360
+So the stakes are different
+and we set that up.
+
+884
+00:49:16.360 --> 00:49:21.480
+But I think there is a recognition of sort
+of like what we bring to a workshop,
+
+885
+00:49:22.200 --> 00:49:24.640
+you know, like we bring stuff with us
+all the time.
+
+886
+00:49:24.640 --> 00:49:28.400
+We don't we don't just like we don't show
+up, as you know, sprung from Zeus's head
+
+887
+00:49:28.400 --> 00:49:29.520
+or anything.
+
+888
+00:49:29.520 --> 00:49:32.520
+But all of those things influence
+like our position.
+
+889
+00:49:32.560 --> 00:49:32.800
+Right.
+
+890
+00:49:32.800 --> 00:49:35.520
+Like from where,
+where we standing socially. Right.
+
+891
+00:49:35.520 --> 00:49:38.560
+In order to reply and look at and critique
+and think about work
+
+892
+00:49:38.760 --> 00:49:41.280
+and all those things are part of
+what makes the workshop
+
+893
+00:49:41.280 --> 00:49:45.000
+a very complicated, contested,
+but also very productive space.
+
+894
+00:49:45.680 --> 00:49:47.440
+I don't know if that answers
+your question. Thank you.
+
+895
+00:49:47.440 --> 00:49:48.560
+Yes. Copy.
+
+896
+00:49:50.480 --> 00:49:52.280
+Yeah.
+
+897
+00:49:52.280 --> 00:49:55.200
+I'm struck by the
+
+898
+00:49:55.200 --> 00:49:56.720
+tension you bring up with the tension
+
+899
+00:49:56.720 --> 00:49:59.720
+I feel, too, between
+
+900
+00:50:00.160 --> 00:50:03.840
+interest in computational writing
+and avant garde
+
+901
+00:50:04.440 --> 00:50:08.720
+poetic practices,
+especially those with relation to math
+
+902
+00:50:08.720 --> 00:50:12.480
+and technology as a space of beauty
+
+903
+00:50:12.480 --> 00:50:16.400
+and artistic innovation
+and and even sort of humanist exploration.
+
+904
+00:50:16.400 --> 00:50:18.520
+And then the.
+
+905
+00:50:18.520 --> 00:50:24.480
+Part
+that is involved in the critical work
+
+906
+00:50:24.480 --> 00:50:27.720
+or the political contestation
+of these systems.
+
+907
+00:50:27.720 --> 00:50:34.760
+And if I heard in your talk
+both a beautiful articulation
+
+908
+00:50:34.800 --> 00:50:35.880
+of how that congealed
+
+909
+00:50:35.880 --> 00:50:40.000
+in your poetic practice,
+but then the specter of vulgar critique
+
+910
+00:50:40.040 --> 00:50:45.360
+against the systems
+that demand them right,
+
+911
+00:50:45.400 --> 00:50:48.920
+in that it is
+these same systems that we make art with
+
+912
+00:50:48.960 --> 00:50:52.600
+that are used to troll syllabi
+for well-funded troll outfits.
+
+913
+00:50:52.640 --> 00:50:55.280
+I mean, they don't, but I think it's
+helpful to narrate it a little bit, right?
+
+914
+00:50:55.280 --> 00:50:57.240
+We don't know. The senses are.
+
+915
+00:50:57.240 --> 00:51:00.920
+So I'm not expecting you to respond
+to these particularities, but improvements
+
+916
+00:51:00.920 --> 00:51:05.120
+to the sophistication of metaphor,
+recognition and generation determine
+
+917
+00:51:05.120 --> 00:51:10.600
+how well Palantir products
+identify dissidents to be disappeared
+
+918
+00:51:10.800 --> 00:51:14.720
+or find people and fields
+to target with weapons, things like this.
+
+919
+00:51:15.200 --> 00:51:18.560
+And so in that tension.
+
+920
+00:51:20.000 --> 00:51:22.600
+Sometimes I feel like the best thing
+I can hope for, for
+
+921
+00:51:22.600 --> 00:51:26.360
+my poetic practice, is to like,
+wait ten years and then come back to it.
+
+922
+00:51:26.360 --> 00:51:28.760
+But but that's that's cowardly too.
+
+923
+00:51:28.760 --> 00:51:33.240
+And you point to some of the ways that our
+and our community
+
+924
+00:51:33.280 --> 00:51:36.320
+points to the ways that,
+
+925
+00:51:38.320 --> 00:51:41.200
+a non Manichean,
+
+926
+00:51:41.200 --> 00:51:44.680
+non simplifying vulgar critique can,
+
+927
+00:51:45.880 --> 00:51:47.760
+could
+
+928
+00:51:47.760 --> 00:51:51.240
+be more effective
+perhaps or open other avenues out.
+
+929
+00:51:51.240 --> 00:51:51.680
+So sorry.
+
+930
+00:51:51.680 --> 00:51:54.400
+That's, that's a longish comment,
+but I do want to put it on the table.
+
+931
+00:51:54.400 --> 00:51:58.400
+And the question there is sort of
+
+932
+00:51:59.400 --> 00:52:02.400
+whether you reject or sort of
+
+933
+00:52:02.600 --> 00:52:07.240
+as, as understanding
+where the reflexive AI stuff
+
+934
+00:52:07.240 --> 00:52:11.560
+comes out of and working as an artist,
+not a political scientist.
+
+935
+00:52:11.680 --> 00:52:16.240
+Why do we fight for nuance
+
+936
+00:52:16.240 --> 00:52:20.520
+now and how make it useful?
+
+937
+00:52:22.520 --> 00:52:25.520
+That's a huge question.
+
+938
+00:52:25.840 --> 00:52:28.840
+Why fight for nuance now?
+
+939
+00:52:31.640 --> 00:52:32.640
+I mean,
+
+940
+00:52:32.640 --> 00:52:36.680
+part part of me from like,
+a very sort of like human place feels like
+
+941
+00:52:36.720 --> 00:52:41.920
+nuances, nuances
+like why I even exist as a person.
+
+942
+00:52:42.240 --> 00:52:46.680
+Like, so it feels like
+
+943
+00:52:46.880 --> 00:52:50.200
+imperative,
+you know, in some ways to do that.
+
+944
+00:52:50.600 --> 00:52:53.720
+Like,
+almost like can't help it in some ways.
+
+945
+00:52:53.720 --> 00:52:57.800
+But I also think, like part of
+what's gone on,
+
+946
+00:52:57.800 --> 00:53:02.880
+especially with like
+AI is like the work of these companies,
+
+947
+00:53:02.880 --> 00:53:05.880
+what they have done to flatten
+what they do
+
+948
+00:53:06.240 --> 00:53:10.800
+into something that is like, that obscures
+what it's actually doing.
+
+949
+00:53:10.880 --> 00:53:12.400
+And like that,
+
+950
+00:53:12.400 --> 00:53:14.640
+I think is really problematic
+because it is actually doing
+
+951
+00:53:14.640 --> 00:53:16.640
+like a lot of very harmful things. Right?
+
+952
+00:53:16.640 --> 00:53:18.480
+That gets like dressed up
+as something else. Right?
+
+953
+00:53:18.480 --> 00:53:21.560
+Like universal good and all this other
+kind of like crazy stuff.
+
+954
+00:53:21.720 --> 00:53:23.960
+And they're working really hard at that.
+
+955
+00:53:23.960 --> 00:53:27.640
+And so, you know, especially like,
+you know, as a, as an educator, it's like
+
+956
+00:53:28.240 --> 00:53:31.120
+my job is to kind of try and tease
+those things out, right?
+
+957
+00:53:31.120 --> 00:53:33.560
+For myself and also for students. Right?
+
+958
+00:53:33.560 --> 00:53:36.520
+So we're more equipped to kind of like
+make our own decisions.
+
+959
+00:53:36.520 --> 00:53:37.280
+Right?
+
+960
+00:53:37.280 --> 00:53:41.520
+How people choose to respond
+is really up to them.
+
+961
+00:53:41.560 --> 00:53:41.800
+Right?
+
+962
+00:53:41.800 --> 00:53:45.280
+I have known people are going to respond
+and do what it is
+
+963
+00:53:45.280 --> 00:53:46.280
+that they're going to do.
+
+964
+00:53:46.280 --> 00:53:49.280
+And I do think there's
+there's room for all.
+
+965
+00:53:49.480 --> 00:53:51.160
+I like to say that there's room
+for all kinds.
+
+966
+00:53:51.160 --> 00:53:53.520
+It takes all kinds in this work
+that we're doing.
+
+967
+00:53:53.520 --> 00:53:56.560
+But yeah, arguing for nuance,
+
+968
+00:53:56.600 --> 00:53:59.600
+like because it's all it's all nuance.
+
+969
+00:53:59.600 --> 00:54:01.000
+There's some stuff isn't.
+
+970
+00:54:01.000 --> 00:54:02.640
+But like a lot of it is nuance.
+
+971
+00:54:02.640 --> 00:54:06.040
+I don't think that really answers
+your question, but I was trying to hit
+
+972
+00:54:06.680 --> 00:54:08.440
+hit a hit a bunch of things there.
+
+973
+00:54:10.080 --> 00:54:10.680
+Caitlin says.
+
+974
+00:54:10.680 --> 00:54:13.680
+I love the talk and hearing
+how your personal histories and artistic
+
+975
+00:54:13.680 --> 00:54:15.160
+journey are woven into the moment.
+
+976
+00:54:15.160 --> 00:54:16.920
+It also reminds me of how experiments from
+
+977
+00:54:16.920 --> 00:54:20.640
+the margins are so often the first
+silence, or the first to self-censor.
+
+978
+00:54:20.680 --> 00:54:21.920
+The AI and experimental writing
+
+979
+00:54:21.920 --> 00:54:24.160
+controversies remind me a bit of the porn
+and censorship,
+
+980
+00:54:24.160 --> 00:54:26.160
+and closing down to the feminist
+small presses
+
+981
+00:54:26.160 --> 00:54:29.240
+trying to imagine the content
+and sexual politics.
+
+982
+00:54:29.280 --> 00:54:31.160
+Not that everyone stopped experimenting,
+
+983
+00:54:31.160 --> 00:54:35.120
+but the impulse to self check around
+creating that work was strong.
+
+984
+00:54:35.120 --> 00:54:37.960
+But we lose when artists,
+especially artists at the margins,
+
+985
+00:54:37.960 --> 00:54:41.520
+are the first to shut down
+Love Illit artist experimenting.
+
+986
+00:54:41.520 --> 00:54:44.200
+Thank you so much
+for sharing your practice.
+
+987
+00:54:44.200 --> 00:54:46.000
+And Michael has a question.
+
+988
+00:54:46.000 --> 00:54:48.440
+Do you think AI assisted creative
+writing is starting
+
+989
+00:54:48.440 --> 00:54:51.840
+to have best practices for workflows,
+or is it still too early days
+
+990
+00:54:51.840 --> 00:54:55.960
+with various models competing from
+the frontiers and open weight offerings?
+
+991
+00:54:57.160 --> 00:54:59.440
+I, I don't know,
+
+992
+00:54:59.440 --> 00:55:04.520
+because I, I don't
+I don't do AI assisted creative writing.
+
+993
+00:55:04.800 --> 00:55:08.080
+So that's, that's that's not what I,
+
+994
+00:55:09.160 --> 00:55:11.560
+you know, when I use language models, it's
+not what I use them for.
+
+995
+00:55:11.560 --> 00:55:13.200
+So I can't I can't really say.
+
+996
+00:55:13.200 --> 00:55:16.640
+I mean, if, if people are creating
+
+997
+00:55:16.640 --> 00:55:19.640
+best practices and workflows
+for themselves, that's probably true.
+
+998
+00:55:19.880 --> 00:55:22.880
+I do think,
+
+999
+00:55:22.880 --> 00:55:27.280
+but I do think like I am sort of among
+a group of writers and people
+
+1000
+00:55:27.280 --> 00:55:28.240
+who are thinking a lot
+
+1001
+00:55:28.240 --> 00:55:32.080
+about open weight and open source systems
+and what it means to create
+
+1002
+00:55:32.080 --> 00:55:36.000
+community centered language models like by
+and for writers and artists.
+
+1003
+00:55:36.000 --> 00:55:39.800
+So I think that's one place
+where that's getting really interesting,
+
+1004
+00:55:39.800 --> 00:55:44.200
+and that's something that I would like
+to see almost like kind of like
+
+1005
+00:55:44.360 --> 00:55:49.520
+kind of like a makerspace for, but
+with, with language model architecture.
+
+1006
+00:55:49.600 --> 00:55:50.000
+Right?
+
+1007
+00:55:50.000 --> 00:55:52.800
+I think language
+model architecture is very interesting.
+
+1008
+00:55:52.800 --> 00:55:53.080
+Right.
+
+1009
+00:55:53.080 --> 00:55:57.200
+And sort of like building your own, you
+know, kind of thing is very interesting.
+
+1010
+00:55:57.680 --> 00:56:01.000
+So I think like there's possibility there,
+but I don't really know
+
+1011
+00:56:01.000 --> 00:56:06.160
+what other writers are necessarily doing
+in terms of their workflows or practices.
+
+1012
+00:56:07.480 --> 00:56:09.840
+I know in a in Negative Money,
+
+1013
+00:56:09.840 --> 00:56:13.720
+you have a couple of poems
+that are almost written back against AI
+
+1014
+00:56:13.760 --> 00:56:17.120
+where you say,
+when I ask the AI a certain question
+
+1015
+00:56:17.120 --> 00:56:20.320
+or about a certain thing, 
+and that is different
+
+1016
+00:56:20.320 --> 00:56:23.720
+than what you did in a black story,
+may contain sensitive content.
+
+1017
+00:56:24.920 --> 00:56:28.640
+Those poems predate
+actually predate a black story,
+
+1018
+00:56:28.640 --> 00:56:31.640
+and they predate a black story by years
+in that
+
+1019
+00:56:31.640 --> 00:56:36.600
+they were originally they were written 
+with talked to transformer.
+
+1020
+00:56:36.600 --> 00:56:40.360
+If any of you and you remember that
+website from like 2018 or something,
+
+1021
+00:56:40.360 --> 00:56:44.160
+which was that
+that early way of exploring GPT.
+
+1022
+00:56:44.280 --> 00:56:47.280
+And so that was like
+
+1023
+00:56:47.960 --> 00:56:51.840
+that sort of like back and forth
+with the model before I really before
+
+1024
+00:56:51.840 --> 00:56:55.720
+I knew what it was doing
+and how it was doing, what it was doing.
+
+1025
+00:56:55.800 --> 00:56:58.360
+That was like very early experimentation.
+
+1026
+00:56:58.360 --> 00:57:01.640
+And also that was like
+pre guardrail, right.
+
+1027
+00:57:01.720 --> 00:57:04.760
+Where would you know where it would
+sort of like it would go
+
+1028
+00:57:04.760 --> 00:57:07.960
+off the chain
+with lots of its responses, which
+
+1029
+00:57:08.960 --> 00:57:11.080
+I found interesting and
+
+1030
+00:57:11.080 --> 00:57:14.080
+more nuanced because it was really just
+it was kind of bizarre.
+
+1031
+00:57:14.080 --> 00:57:17.960
+And then when I started accessing
+GPT from the back end
+
+1032
+00:57:17.960 --> 00:57:21.040
+and running models locally, it was sort of
+like anything could happen, right?
+
+1033
+00:57:21.040 --> 00:57:25.040
+But that was kind of part of the interest
+of like working with them in
+
+1034
+00:57:25.120 --> 00:57:27.080
+like computationally interesting, right?
+
+1035
+00:57:27.080 --> 00:57:30.040
+Working with them as opposed to what
+
+1036
+00:57:30.040 --> 00:57:33.040
+we're kind of using now.
+
+1037
+00:57:33.600 --> 00:57:36.800
+I want to open the floor to maybe one
+final question.
+
+1038
+00:57:36.800 --> 00:57:39.800
+We're coming down to our time here,
+I believe.
+
+1039
+00:57:43.840 --> 00:57:45.320
+I'll read what coffee said.
+
+1040
+00:57:45.320 --> 00:57:47.760
+Part of what I struggle with
+is the prehistory of technical,
+
+1041
+00:57:47.760 --> 00:57:51.720
+avant garde poetics, like Gabriel
+D'Annunzio and Filippo Marinetti,
+
+1042
+00:57:51.720 --> 00:57:52.200
+are central
+
+1043
+00:57:52.200 --> 00:57:55.960
+reference points for AI industry leaders
+like Peter Thiel and Marc Andreessen
+
+1044
+00:57:56.000 --> 00:57:59.320
+explicitly enthusiastic
+about Italy fascism on the left.
+
+1045
+00:57:59.320 --> 00:58:03.000
+Some prefer the avant garde politics
+of the Bavarian Soviet Republic.
+
+1046
+00:58:03.040 --> 00:58:06.000
+It's not clear to me
+how we get one, but not the other.
+
+1047
+00:58:07.800 --> 00:58:10.320
+Yeah,
+
+1048
+00:58:10.320 --> 00:58:12.960
+yeah, it's I mean, people
+are going to pick and choose, right?
+
+1049
+00:58:12.960 --> 00:58:16.480
+Like what's you can always you can always
+find something that's going to support,
+
+1050
+00:58:16.720 --> 00:58:19.240
+you know, if you want fascism,
+you're going to find
+
+1051
+00:58:19.240 --> 00:58:20.960
+you're
+going to find somebody to support it.
+
+1052
+00:58:20.960 --> 00:58:25.480
+You are and there's there's nothing
+I feel there's nothing, nothing I can do
+
+1053
+00:58:25.480 --> 00:58:29.200
+about, you know, people
+who are choosing to see it
+
+1054
+00:58:29.200 --> 00:58:32.200
+and use it that way.
+
+1055
+00:58:32.560 --> 00:58:35.360
+I don't know that we can have one
+without the other,
+
+1056
+00:58:35.360 --> 00:58:38.960
+but but they're definitely
+has to be the other, right?
+
+1057
+00:58:39.000 --> 00:58:42.000
+Which is this nuance that I think.
+
+1058
+00:58:43.280 --> 00:58:44.160
+For me, that's a space.
+
+1059
+00:58:44.160 --> 00:58:47.840
+That's a space that I think is
+that is like the space of exploration.
+
+1060
+00:58:47.880 --> 00:58:49.600
+Right? That is sort of like what?
+
+1061
+00:58:49.600 --> 00:58:51.560
+Otherwise there's just there's
+no discussion. Right?
+
+1062
+00:58:51.560 --> 00:58:53.680
+It's one or the other. Right.
+
+1063
+00:58:53.680 --> 00:58:55.920
+And if only I don't know anything.
+
+1064
+00:58:55.920 --> 00:59:01.600
+That's that, that's well, a few things
+are that simple, but, I think that it is
+
+1065
+00:59:01.640 --> 00:59:06.320
+that it's put as only one
+or the other is by design and is not real.
+
+1066
+00:59:06.360 --> 00:59:07.080
+Right.
+
+1067
+00:59:08.920 --> 00:59:11.720
+Well, it does bring to mind the importance
+
+1068
+00:59:11.720 --> 00:59:15.880
+of continuing to do the work
+because another will do their work.
+
+1069
+00:59:15.880 --> 00:59:18.920
+And so continuing to do this work,
+
+1070
+00:59:18.920 --> 00:59:22.400
+something that I feel really grateful
+
+1071
+00:59:23.520 --> 00:59:26.400
+for. Your talk and thank you for
+for fielding these questions.
+
+1072
+00:59:26.400 --> 00:59:29.840
+And could everyone
+please give another round of applause
+
+1073
+00:59:29.880 --> 00:59:33.120
+to Liliana von Bertram
+for this wonderful keynote?
+
+1074
+00:59:35.000 --> 00:59:36.120
+Thank you all so much.
+
+1075
+00:59:36.120 --> 00:59:38.640
+Stupendous. Thank you.

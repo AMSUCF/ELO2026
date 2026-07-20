@@ -25,6 +25,10 @@ STREAMING_API = "https://stars.library.ucf.edu/do/api/streaming/path?article_uri
 # track url is redirect bookkeeping that breaks the request.
 CAPTION_QUERY_KEYS = {"filename", "article", "context", "type"}
 OUTPUT = Path(__file__).resolve().parent.parent / "data" / "events.json"
+# Captions vendored into the repo by scripts/vendor_captions.py, named by
+# STARS article id. Serving our own copy keeps the archive working even
+# though bepress refuses cross-origin requests for the originals.
+CAPTION_DIR = Path(__file__).resolve().parent.parent / "captions"
 EASTERN = ZoneInfo("America/New_York")
 # Day-of program changes not reflected in STARS, applied on top of every
 # sync: event url -> replacement fields.
@@ -143,6 +147,18 @@ def extract_caption_url(html):
     return _normalize_caption_url(unescape(file_match.group(1)))
 
 
+def vendored_captions(captions, caption_dir=CAPTION_DIR):
+    """Map event url -> repo-relative .vtt path for captions already vendored.
+    Events whose caption file has not been downloaded yet are left out, so the
+    player can fall back to linking at STARS."""
+    found = {}
+    for event_url, caption_url in captions.items():
+        match = re.search(r"[?&]article=(\d+)", caption_url or "")
+        if match and (caption_dir / f"{match.group(1)}.vtt").exists():
+            found[event_url] = f"captions/{match.group(1)}.vtt"
+    return found
+
+
 def check_captions(events, videos, previous, fetcher):
     """Map event url -> caption file url for recorded sessions whose STARS
     page advertises a captions track. Only recorded sessions are checked,
@@ -184,9 +200,11 @@ def check_videos(events, previous, fetcher):
     return videos
 
 
-def build_payload(events, rss_links, generated, videos=None, captions=None):
+def build_payload(events, rss_links, generated, videos=None, captions=None,
+                  caption_files=None):
     videos = videos or {}
     captions = captions or {}
+    caption_files = caption_files or {}
     events = [{**ev, **OVERRIDES.get(ev["url"], {})} for ev in events]
     out = []
     for ev in sorted(events, key=lambda e: (e["start"], e["title"])):
@@ -195,6 +213,8 @@ def build_payload(events, rss_links, generated, videos=None, captions=None):
             entry["video"] = videos[ev["url"]]
         if ev["url"] in captions:
             entry["captions"] = captions[ev["url"]]
+        if ev["url"] in caption_files:
+            entry["captions_file"] = caption_files[ev["url"]]
         out.append(entry)
     return {"generated": generated, "source": SCHEDULE_URL, "events": out}
 
@@ -220,6 +240,12 @@ def validate(payload):
                 errors.append(f"bad captions url: {ev.get('title')}")
             if "video" not in ev:
                 errors.append(f"captions without a recording: {ev.get('title')}")
+        if "captions_file" in ev:
+            path = str(ev["captions_file"])
+            if not path.startswith("captions/") or not path.endswith(".vtt"):
+                errors.append(f"bad captions_file path: {ev.get('title')}")
+            elif not (CAPTION_DIR.parent / path).exists():
+                errors.append(f"captions_file missing on disk: {path}")
     if not any(ev.get("featured") for ev in events):
         errors.append("no featured events matched the RSS feed")
     return errors
@@ -238,8 +264,9 @@ def main():
     captions = check_captions(
         events, videos, load_previous_field(OUTPUT, "captions"), _fetch
     )
+    caption_files = vendored_captions(captions)
     generated = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    payload = build_payload(events, rss_links, generated, videos, captions)
+    payload = build_payload(events, rss_links, generated, videos, captions, caption_files)
     errors = validate(payload)
     if errors:
         for err in errors:
@@ -251,8 +278,8 @@ def main():
         encoding="utf-8",
     )
     print(
-        f"Wrote {len(payload['events'])} events "
-        f"({len(videos)} with recordings, {len(captions)} with captions) to {OUTPUT}"
+        f"Wrote {len(payload['events'])} events ({len(videos)} with recordings, "
+        f"{len(captions)} with captions, {len(caption_files)} served locally) to {OUTPUT}"
     )
     return 0
 

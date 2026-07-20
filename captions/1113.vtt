@@ -1,0 +1,1057 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.680
+Hi, everyone. Thank you for being here.
+
+2
+00:00:02.680 --> 00:00:04.440
+My name is Angely Suarez.
+
+3
+00:00:04.440 --> 00:00:07.720
+I'm a second year student
+in the Text and Technology
+
+4
+00:00:07.760 --> 00:00:12.520
+PhD program at UCF, and my talk
+today is the implications of generative
+
+5
+00:00:12.560 --> 00:00:15.520
+AI User Prompt Engineering,
+shaping the absent
+
+6
+00:00:15.520 --> 00:00:19.400
+presence of Latino women's textual
+rhetoric and large language models.
+
+7
+00:00:19.520 --> 00:00:23.080
+So basically, when we prompt
+a large language model and let it generate
+
+8
+00:00:23.080 --> 00:00:26.120
+freely without any prompted constraints,
+what comes out?
+
+9
+00:00:26.160 --> 00:00:28.680
+Does the output meet the input?
+
+10
+00:00:28.680 --> 00:00:32.680
+So but here's my core questions
+to what I was working on with this is
+
+11
+00:00:32.680 --> 00:00:36.800
+what does a large language model produce
+when the only parameter
+
+12
+00:00:36.800 --> 00:00:40.720
+you give it or specify
+is that the characters be Latina?
+
+13
+00:00:40.760 --> 00:00:44.360
+So today I want to show you
+what form models did with one
+
+14
+00:00:44.360 --> 00:00:47.600
+deliberate prompt
+and what their convergence tells us.
+
+15
+00:00:47.720 --> 00:00:51.960
+So these systems, they are they present
+themselves or are marketed as neutral.
+
+16
+00:00:51.960 --> 00:00:54.560
+But democratic is exactly the problem.
+
+17
+00:00:54.560 --> 00:00:57.800
+It hides the way
+algorithmic design reproduces
+
+18
+00:00:57.800 --> 00:01:01.000
+the cultural logics
+that flatten or erase Latino women.
+
+19
+00:01:01.000 --> 00:01:03.840
+So basically they function unsupervised.
+
+20
+00:01:06.400 --> 00:01:07.600
+Normally, prompt
+
+21
+00:01:07.600 --> 00:01:10.600
+engineering
+is about getting better outputs.
+
+22
+00:01:10.720 --> 00:01:11.880
+And here I flip it.
+
+23
+00:01:11.880 --> 00:01:16.440
+I use prompts as a diagnostic to surface
+the bias already in the model
+
+24
+00:01:16.440 --> 00:01:17.360
+in your data.
+
+25
+00:01:17.360 --> 00:01:20.800
+And my instrument is the joke structure
+to Latinas.
+
+26
+00:01:20.800 --> 00:01:24.280
+Walk into a bar, which becomes the tool
+that makes the models
+
+27
+00:01:24.280 --> 00:01:27.280
+hidden narrative scripts visible.
+
+28
+00:01:27.360 --> 00:01:32.000
+So the analysis rest on four frameworks
+that I read together.
+
+29
+00:01:32.000 --> 00:01:36.360
+So the first one is critical
+technical cultural discourse analysis,
+
+30
+00:01:36.360 --> 00:01:38.480
+which lets me treat the user, in this case
+
+31
+00:01:38.480 --> 00:01:42.640
+with me, the model and the interface
+as a single system of meaning making.
+
+32
+00:01:42.680 --> 00:01:46.440
+And then white and colleagues
+build a pattern catalog
+
+33
+00:01:46.440 --> 00:01:48.520
+to help people engineer better outputs.
+
+34
+00:01:48.520 --> 00:01:52.400
+But I inverted and I use their categories
+as the diagnostic
+
+35
+00:01:52.400 --> 00:01:55.440
+for bias and clients computational spaces.
+
+36
+00:01:55.680 --> 00:01:58.800
+I use this to ask
+which spaces a model makes visible,
+
+37
+00:01:58.800 --> 00:02:01.880
+and which it never imagines
+within the context of Latino women.
+
+38
+00:02:01.880 --> 00:02:03.320
+And then also indoors.
+
+39
+00:02:03.320 --> 00:02:06.600
+Borderlands gives me the cultural,
+the pathos and the gender lens
+
+40
+00:02:06.760 --> 00:02:07.720
+for reading the output.
+
+41
+00:02:07.720 --> 00:02:09.120
+So read together.
+
+42
+00:02:09.120 --> 00:02:13.480
+These turn each generated story
+into some form of electronic digital
+
+43
+00:02:13.480 --> 00:02:18.560
+artifact, altered jointly by myself,
+the user, the model and the training data.
+
+44
+00:02:19.280 --> 00:02:20.600
+So here's my methodology.
+
+45
+00:02:20.600 --> 00:02:23.200
+So the prompt itself is the instrument.
+
+46
+00:02:23.200 --> 00:02:25.760
+I use one order sequence
+of about 15 prompts.
+
+47
+00:02:25.760 --> 00:02:31.760
+And I ran the same sequence in all four
+models Gemini, captivity 5.5 and copilot.
+
+48
+00:02:31.800 --> 00:02:36.320
+That control repetition is what DOS 40
+plus outputs.
+
+49
+00:02:36.320 --> 00:02:39.440
+That was over 140 double sided
+
+50
+00:02:39.520 --> 00:02:42.720
+pages of printouts
+when I put all the data together.
+
+51
+00:02:42.720 --> 00:02:46.880
+And it's what lets me separate
+what's model specific from what is shared.
+
+52
+00:02:46.920 --> 00:02:51.880
+So the sequence starts with the input
+and joke template two Latinas walk into.
+
+53
+00:02:51.920 --> 00:02:55.240
+I removed the bar so I can have freedom
+of context at the end of that phrase,
+
+54
+00:02:55.240 --> 00:02:59.720
+and then after each model response
+or refuses, they actually opened up
+
+55
+00:02:59.720 --> 00:03:03.680
+with some word choice manipulation,
+especially between Claude and I.
+
+56
+00:03:03.920 --> 00:03:06.840
+So right about Latinas generally, then
+
+57
+00:03:06.840 --> 00:03:10.280
+within immigration, then the same concept
+again, then in a bar and so on.
+
+58
+00:03:10.280 --> 00:03:11.720
+But the last two sets,
+
+59
+00:03:11.720 --> 00:03:16.320
+I contextualize them into the college
+classroom and the Ivy League university.
+
+60
+00:03:16.320 --> 00:03:19.440
+There's a historical nuance there
+that I kind of manipulated because
+
+61
+00:03:19.480 --> 00:03:22.480
+historically Latinos
+weren't allowed in those spaces,
+
+62
+00:03:22.480 --> 00:03:25.480
+but I wanted to see if it reimagined
+Latina women in those spaces.
+
+63
+00:03:25.480 --> 00:03:30.880
+And then the last one, Latina women
+engaging with AI, Claude, Chad
+
+64
+00:03:31.360 --> 00:03:37.160
+and Midjourney just to see if it's 
+if it's kept catching up to the users.
+
+65
+00:03:37.160 --> 00:03:39.560
+And in the context of today.
+
+66
+00:03:39.560 --> 00:03:42.560
+So my method runs on whites et al.
+
+67
+00:03:42.840 --> 00:03:44.080
+Pattern catalog.
+
+68
+00:03:44.080 --> 00:03:48.240
+So this is directly from the article
+published in 2023,
+
+69
+00:03:48.240 --> 00:03:51.480
+in which they study
+how people prompt large language models.
+
+70
+00:03:51.480 --> 00:03:54.480
+And they saw that every move
+into these six families.
+
+71
+00:03:54.520 --> 00:03:58.160
+So here the intent of the article
+was for better outputting.
+
+72
+00:03:58.160 --> 00:03:59.480
+And I read it backwards.
+
+73
+00:03:59.480 --> 00:04:02.240
+So each one of these patterns
+ran unprompted.
+
+74
+00:04:02.240 --> 00:04:04.000
+It starts being a tool for better writing
+
+75
+00:04:04.000 --> 00:04:07.440
+and became a diagnostic for what
+the model already assumes.
+
+76
+00:04:07.440 --> 00:04:11.880
+So I'm mostly focused on implicit output
+customization,
+
+77
+00:04:11.920 --> 00:04:15.680
+error identification,
+prompt improvement, and context control.
+
+78
+00:04:15.720 --> 00:04:17.440
+So the ones with the arrows
+
+79
+00:04:17.440 --> 00:04:21.280
+marked the specific elements
+I actually use, and then the dotted ones.
+
+80
+00:04:21.280 --> 00:04:24.080
+Sorry for the size
+if it's too small on your screen.
+
+81
+00:04:24.080 --> 00:04:27.120
+I didn't use directly, but they came out
+
+82
+00:04:27.160 --> 00:04:30.160
+naturally as each prompt evolved.
+
+83
+00:04:30.280 --> 00:04:31.240
+So here's an example.
+
+84
+00:04:31.240 --> 00:04:33.480
+These are some of the actual prompts
+that I use.
+
+85
+00:04:33.480 --> 00:04:37.280
+And I kind of label
+have some of the elements of White's
+
+86
+00:04:37.280 --> 00:04:41.600
+article kind of came into play
+every time I had a new generation.
+
+87
+00:04:44.120 --> 00:04:48.640
+So here's the moment
+where the diagnostic came into play.
+
+88
+00:04:48.640 --> 00:04:50.840
+So same prompt for all four.
+
+89
+00:04:50.840 --> 00:04:52.720
+And then they began to split.
+
+90
+00:04:52.720 --> 00:04:55.160
+And that split is the data
+that I focus on.
+
+91
+00:04:55.160 --> 00:04:59.440
+So we have four different
+relational relationships to refusal.
+
+92
+00:04:59.440 --> 00:05:03.520
+But refusal changed on the surface
+not what came out underneath.
+
+93
+00:05:03.520 --> 00:05:05.440
+So that's what
+the rest of this talk shows.
+
+94
+00:05:05.440 --> 00:05:09.320
+But as you can see, Claude immediately
+gave me pushback.
+
+95
+00:05:09.320 --> 00:05:12.320
+When I gave the the joke template,
+it was like, no, this is bias.
+
+96
+00:05:12.360 --> 00:05:13.520
+It's culturally coded.
+
+97
+00:05:13.520 --> 00:05:16.000
+So I kind of had to do some negotiating
+with Claude.
+
+98
+00:05:16.000 --> 00:05:19.600
+But Gemini, GPT, and copilot
+then ran with it.
+
+99
+00:05:19.600 --> 00:05:21.200
+No problem.
+
+100
+00:05:21.200 --> 00:05:24.240
+This is the second page,
+and as you can see already
+
+101
+00:05:24.240 --> 00:05:28.240
+Gemini and ChatGPT
+were already into the second prompt.
+
+102
+00:05:28.240 --> 00:05:32.400
+Copilot was extra, kept
+generating a whole story, and Claude,
+
+103
+00:05:32.400 --> 00:05:35.480
+after a little bit of back and forth,
+then started creating
+
+104
+00:05:35.520 --> 00:05:39.600
+this story about Latinas
+walking into a certain space.
+
+105
+00:05:40.600 --> 00:05:43.040
+So this is one of the most important
+findings.
+
+106
+00:05:43.040 --> 00:05:46.840
+So atrial clusters appeared across
+all four models, regardless
+
+107
+00:05:46.840 --> 00:05:52.080
+of their architecture, release date
+or whatever bias or design they each has.
+
+108
+00:05:52.120 --> 00:05:52.960
+So we have food.
+
+109
+00:05:52.960 --> 00:05:56.000
+Cafe tacos and pinatas were very common.
+
+110
+00:05:56.000 --> 00:06:00.360
+We have immigration terminologies,
+generational generational transfers
+
+111
+00:06:00.360 --> 00:06:01.600
+through the abuela.
+
+112
+00:06:01.600 --> 00:06:03.880
+The kitchen was the spatial core.
+
+113
+00:06:03.880 --> 00:06:07.720
+And then we have professional
+stereotypes, mostly in the service
+
+114
+00:06:07.760 --> 00:06:08.400
+industry.
+
+115
+00:06:08.400 --> 00:06:11.480
+And the most striking one,
+which I was personally shocked to see,
+
+116
+00:06:11.520 --> 00:06:13.080
+was the recurring name pool.
+
+117
+00:06:13.080 --> 00:06:17.280
+Camila, Sofia, Lucia and Maya without me
+prompting it for names.
+
+118
+00:06:17.280 --> 00:06:21.000
+That was the persona element in white 
+prompting catalog
+
+119
+00:06:21.000 --> 00:06:24.920
+was completely exactly the same across
+all four models without prompt.
+
+120
+00:06:24.920 --> 00:06:28.880
+So we have four systems that don't
+share code converging on the same names,
+
+121
+00:06:28.880 --> 00:06:32.000
+but that convergence
+at the level of the name is my strongest
+
+122
+00:06:32.000 --> 00:06:35.000
+evidence of shared training data bias.
+
+123
+00:06:35.000 --> 00:06:37.680
+So this is the evidence based figure two.
+
+124
+00:06:37.680 --> 00:06:40.720
+Again, apologies
+for the size is so much data to this.
+
+125
+00:06:40.840 --> 00:06:41.800
+You can zoom in.
+
+126
+00:06:41.800 --> 00:06:44.640
+I extracted the actual words
+and phrases in each model.
+
+127
+00:06:44.640 --> 00:06:47.320
+So on the left we have the clusters.
+
+128
+00:06:47.320 --> 00:06:49.920
+In the center
+we have those faces from the output,
+
+129
+00:06:49.920 --> 00:06:52.360
+and on the right
+we have the intensity dots.
+
+130
+00:06:52.360 --> 00:06:56.560
+So notice that food, Spanglish,
+immigration and generational transfer
+
+131
+00:06:56.600 --> 00:06:59.400
+all run
+heavy across all these four models.
+
+132
+00:07:00.840 --> 00:07:01.800
+And then
+
+133
+00:07:01.800 --> 00:07:06.000
+here's another payoff
+of the evidence of the model signature.
+
+134
+00:07:06.000 --> 00:07:09.240
+Cause there was some underlying tropes,
+but they had different voices.
+
+135
+00:07:09.240 --> 00:07:13.720
+So for example, Claude had the strongest
+refusal, but it gave in any way.
+
+136
+00:07:13.760 --> 00:07:16.120
+Gemini was celebratory and saturated.
+
+137
+00:07:16.120 --> 00:07:20.880
+GPT goals, meta and then copilot,
+strangely enough, localizes
+
+138
+00:07:20.880 --> 00:07:25.440
+me to Kissimmee I for traffic,
+but I hardly use copilot.
+
+139
+00:07:25.440 --> 00:07:29.200
+I think I only used it
+twice in my entire time working with AI,
+
+140
+00:07:29.280 --> 00:07:33.080
+so each model collects four voices,
+but when you strip it away,
+
+141
+00:07:33.080 --> 00:07:36.400
+they each present some biases
+and cultural imaginaries.
+
+142
+00:07:36.400 --> 00:07:40.280
+So whether the model sounds sympathetic,
+celebratory, or meta reflexive,
+
+143
+00:07:40.320 --> 00:07:44.600
+that register is a decoration
+to attempt to not be biased.
+
+144
+00:07:44.600 --> 00:07:47.680
+But the structure is still biased
+in itself.
+
+145
+00:07:48.800 --> 00:07:51.560
+So this one image holds
+
+146
+00:07:51.560 --> 00:07:54.800
+my argument in this semantic map.
+
+147
+00:07:54.800 --> 00:07:56.200
+So the designing simple.
+
+148
+00:07:56.200 --> 00:07:59.640
+So the data outputs and the joke
+template is the core is the center.
+
+149
+00:07:59.680 --> 00:08:02.640
+Then we have the four
+theoretical networks at the corners.
+
+150
+00:08:02.640 --> 00:08:04.720
+And then they converge
+
+151
+00:08:04.720 --> 00:08:08.040
+into these eight clusters
+that appear across the floor modules.
+
+152
+00:08:08.480 --> 00:08:09.800
+So it's just a different vision.
+
+153
+00:08:09.800 --> 00:08:13.120
+I had Claude take all that data
+and kind of put it this way for me.
+
+154
+00:08:13.120 --> 00:08:15.240
+And then let's look at the right corner.
+
+155
+00:08:15.240 --> 00:08:17.800
+So through white
+the models display the default.
+
+156
+00:08:17.800 --> 00:08:21.880
+This is where the persona that was
+not requested came in with the four names.
+
+157
+00:08:21.920 --> 00:08:25.320
+And then we see the border through code
+
+158
+00:08:25.320 --> 00:08:28.680
+switching as a door calls it
+a living register.
+
+159
+00:08:28.680 --> 00:08:32.160
+What that means is that data
+is only limited to Spanish and English.
+
+160
+00:08:32.160 --> 00:08:34.960
+But Latinos,
+we also have indigenous language
+
+161
+00:08:34.960 --> 00:08:38.480
+which completely did not surface
+around that code switching.
+
+162
+00:08:38.520 --> 00:08:41.600
+Then through Brock,
+the models have this gaze
+
+163
+00:08:41.680 --> 00:08:44.880
+as Latinas being responsive
+to dominant institutions.
+
+164
+00:08:44.880 --> 00:08:47.920
+They are servicers of certain contexts.
+
+165
+00:08:47.920 --> 00:08:49.400
+They don't need it.
+
+166
+00:08:49.400 --> 00:08:52.600
+And then through Klein,
+the models have this space.
+
+167
+00:08:52.600 --> 00:08:55.000
+And that space was really confining.
+
+168
+00:08:55.000 --> 00:08:57.760
+And again,
+to the kitchen and service site.
+
+169
+00:08:57.760 --> 00:09:00.400
+So the absent
+geographies are just telling,
+
+170
+00:09:00.400 --> 00:09:04.440
+like the lab Latina and in the courtroom,
+in the boardroom or the operating room.
+
+171
+00:09:04.440 --> 00:09:08.640
+So spaces the model never imagines
+as being Latina occupied.
+
+172
+00:09:10.000 --> 00:09:11.240
+So the convergence
+
+173
+00:09:11.240 --> 00:09:15.200
+here shows that the models
+what the models imagine.
+
+174
+00:09:15.200 --> 00:09:20.280
+So absence is finding what they cannot
+because algorithms have such limitations.
+
+175
+00:09:20.280 --> 00:09:22.720
+But what this may sound
+like a contradiction.
+
+176
+00:09:22.720 --> 00:09:25.720
+The generated corpus across
+more than 40 outputs.
+
+177
+00:09:25.760 --> 00:09:28.400
+Certain Latinas just simply do not appear.
+
+178
+00:09:28.400 --> 00:09:32.720
+So the same algorithms that construct us
+also erase
+
+179
+00:09:32.720 --> 00:09:35.840
+erase us in that same space,
+in that same function.
+
+180
+00:09:36.800 --> 00:09:38.240
+So what does this mean?
+
+181
+00:09:38.240 --> 00:09:42.440
+The central inside the model's own
+reflexivity has been trained
+
+182
+00:09:42.480 --> 00:09:45.680
+alongside the tropes,
+not in spite or instead of them.
+
+183
+00:09:45.680 --> 00:09:51.440
+So this reflexivity is an algorithmic
+skill, but the data itself is not removed.
+
+184
+00:09:51.440 --> 00:09:54.440
+So the token edge still predicts
+what identity markers connect
+
+185
+00:09:54.440 --> 00:09:55.400
+to cultural groups.
+
+186
+00:09:55.400 --> 00:09:59.760
+It does not recognize the bias loops,
+so the models can name
+
+187
+00:09:59.760 --> 00:10:03.840
+bias, comment on it, even apologize for it
+all the while still producing it.
+
+188
+00:10:03.840 --> 00:10:07.120
+And three implications that I found
+is that the absence
+
+189
+00:10:07.120 --> 00:10:10.720
+of a persona
+specification does not produce neutrality.
+
+190
+00:10:10.760 --> 00:10:14.160
+Cultural specificity goes in,
+but it's not guaranteed to come out.
+
+191
+00:10:14.160 --> 00:10:18.840
+And then the one that I found
+useful was refusal is a self a data point.
+
+192
+00:10:18.840 --> 00:10:23.280
+So when Claude names the template as bias
+risk, that's not cultural competence.
+
+193
+00:10:23.280 --> 00:10:28.040
+This is the training methodology surfacing
+without removing the actual bias.
+
+194
+00:10:29.440 --> 00:10:31.400
+So the conference here actually questions.
+
+195
+00:10:31.400 --> 00:10:34.440
+So one of them is like who is watching
+the interface.
+
+196
+00:10:34.440 --> 00:10:36.200
+Supervision is one way.
+
+197
+00:10:36.200 --> 00:10:40.000
+We cannot supervise the model
+because we we cannot account
+
+198
+00:10:40.000 --> 00:10:44.320
+for the intricate algorithmic decisions
+in the back end of the outputs.
+
+199
+00:10:44.320 --> 00:10:47.720
+So the supervision
+is always from model to user.
+
+200
+00:10:47.720 --> 00:10:51.560
+And then who is reading the corpus itself,
+like an actual author
+
+201
+00:10:51.560 --> 00:10:54.600
+that writes an old school
+book, hands of paper is reflective
+
+202
+00:10:54.600 --> 00:10:57.920
+of the author itself,
+so the output is reflected of the model
+
+203
+00:10:57.920 --> 00:11:01.800
+and how it uses that data and the bias
+that is inherent in it.
+
+204
+00:11:01.800 --> 00:11:03.440
+And then who is learning?
+
+205
+00:11:03.440 --> 00:11:07.000
+I realize that prompt engineering
+can become a critical literacy method,
+
+206
+00:11:07.040 --> 00:11:08.440
+not just as a technical skill.
+
+207
+00:11:08.440 --> 00:11:11.120
+So knowing how to prompt reveals
+a lot about these programs.
+
+208
+00:11:11.120 --> 00:11:15.480
+And you can even track epistemologies
+about their design and what's in them.
+
+209
+00:11:16.920 --> 00:11:18.320
+And to conclude,
+
+210
+00:11:18.320 --> 00:11:22.800
+the most important claim for me is that
+this bias is structural to the training.
+
+211
+00:11:22.800 --> 00:11:24.920
+Corpus is not specific to one model.
+
+212
+00:11:24.920 --> 00:11:27.920
+So we have four systems for companies,
+different architectures,
+
+213
+00:11:27.920 --> 00:11:33.200
+but they all converge on the same
+the same name pool and the same absences.
+
+214
+00:11:33.240 --> 00:11:36.160
+So there are three futures
+I would like to take this work in.
+
+215
+00:11:36.160 --> 00:11:39.960
+And the first one is I want to start
+working with apps and geographies to see
+
+216
+00:11:40.000 --> 00:11:43.040
+how that imaginary the AI goes into.
+
+217
+00:11:43.040 --> 00:11:47.000
+And I want to develop more prompts,
+but with visual.
+
+218
+00:11:47.000 --> 00:11:49.720
+So bias in bodies
+and see what that looks like.
+
+219
+00:11:49.720 --> 00:11:52.720
+And third,
+if AI wants to place me in the kitchen
+
+220
+00:11:52.720 --> 00:11:55.640
+as a Latina woman,
+so I'm going to cook in the kitchen.
+
+221
+00:11:55.640 --> 00:11:57.360
+So what creative artifacts
+
+222
+00:11:57.360 --> 00:12:01.480
+can actually be can come up
+as a result of these biases.
+
+223
+00:12:01.480 --> 00:12:02.920
+I just don't want to expose them.
+
+224
+00:12:02.920 --> 00:12:05.920
+What can I do with them
+artistically and creatively?
+
+225
+00:12:06.400 --> 00:12:08.440
+And thank you so much for your time.

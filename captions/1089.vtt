@@ -1,0 +1,897 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.520
+I'm going to be presenting on
+
+2
+00:00:01.520 --> 00:00:05.760
+a poetry portfolio
+I created called connected disconnected.
+
+3
+00:00:05.840 --> 00:00:10.040
+This originated from some coursework
+I was doing
+
+4
+00:00:10.040 --> 00:00:12.840
+at the University of Central Florida,
+and the text and technology program
+
+5
+00:00:12.840 --> 00:00:17.000
+that I ultimately turned into a larger 
+AI assistant work.
+
+6
+00:00:17.360 --> 00:00:22.920
+This was the theme of
+my poetry, was inspired by the connection
+
+7
+00:00:22.920 --> 00:00:27.880
+between technology and society, 
+which kind of mirrored my writing process
+
+8
+00:00:27.880 --> 00:00:31.360
+of working alongside
+cloud code while keeping my own authorship
+
+9
+00:00:31.360 --> 00:00:34.360
+of my poetry and works.
+
+10
+00:00:34.600 --> 00:00:37.200
+And this was inspired by my interest
+in seeing
+
+11
+00:00:37.200 --> 00:00:41.520
+if AI was able to evoke emotion
+through my own prompting.
+
+12
+00:00:41.560 --> 00:00:44.760
+So, of course, as we know, like
+AI is not capable
+
+13
+00:00:44.760 --> 00:00:47.760
+of emotional intelligence,
+but through specific prompting,
+
+14
+00:00:47.800 --> 00:00:51.960
+terms and guidance,
+I wanted to see if I could use cloud code
+
+15
+00:00:51.960 --> 00:00:56.640
+to create emotional graphics that mirrored
+the actions of my own written poetry.
+
+16
+00:00:57.200 --> 00:01:02.440
+So this was inspired by looking at how,
+you know, in the humanities,
+
+17
+00:01:02.440 --> 00:01:05.240
+our understanding of character, style,
+image and creativity
+
+18
+00:01:05.240 --> 00:01:08.680
+and how sometimes that can get buried
+within the use of AI
+
+19
+00:01:08.680 --> 00:01:13.360
+and the overshadowing of the technical
+aspects of AI.
+
+20
+00:01:13.400 --> 00:01:16.400
+So I wanted to look at how it can be used
+for creativity
+
+21
+00:01:16.400 --> 00:01:20.480
+through like rhetorical prompting
+with my background in rhetoric.
+
+22
+00:01:20.840 --> 00:01:24.480
+So I wanted to start with my own poetry,
+which connects humans through
+
+23
+00:01:24.640 --> 00:01:27.560
+lived experiences, subjects and surveys,
+
+24
+00:01:27.560 --> 00:01:30.600
+and then use AI to handle
+the technical tasks.
+
+25
+00:01:30.600 --> 00:01:34.600
+In order to remediate my site
+and create this hypertext
+
+26
+00:01:34.600 --> 00:01:38.480
+and digital portfolio
+where my poems can reside.
+
+27
+00:01:38.960 --> 00:01:41.840
+And this was heavily
+based on my studies on Hayles
+
+28
+00:01:41.840 --> 00:01:46.080
+and looking at how to create a partnership
+between humans and technology
+
+29
+00:01:46.080 --> 00:01:47.520
+so that humans don't get lost
+
+30
+00:01:47.520 --> 00:01:50.720
+in their roles of implementing technology
+and creative spaces.
+
+31
+00:01:52.640 --> 00:01:57.520
+So I'm going to be speaking a bit
+about why I chose to use
+
+32
+00:01:57.560 --> 00:02:01.920
+AI with my poetry,
+how I chose the platform that I used,
+
+33
+00:02:01.920 --> 00:02:02.800
+some of the inspiration
+
+34
+00:02:02.800 --> 00:02:06.680
+behind that in terms of scholarship,
+and then some examples from my site.
+
+35
+00:02:06.800 --> 00:02:10.200
+So you can see kind of what I was building
+and the goals of my live demo,
+
+36
+00:02:10.200 --> 00:02:13.200
+which I will share a QR code
+to at the end.
+
+37
+00:02:14.480 --> 00:02:17.000
+So looking at agent versus
+
+38
+00:02:17.000 --> 00:02:20.400
+generative AI, obviously there's a place
+for generative AI.
+
+39
+00:02:20.440 --> 00:02:22.320
+It can be a good brainstorming tool
+
+40
+00:02:22.320 --> 00:02:24.480
+that can help with a lot of like workflows
+and things like that.
+
+41
+00:02:24.480 --> 00:02:26.160
+But the purpose of this project,
+
+42
+00:02:26.160 --> 00:02:30.040
+I really wanted to ensure that my voice
+landed in the final portfolio.
+
+43
+00:02:30.040 --> 00:02:35.160
+So I turned to a genetic
+AI to ensure that the technical support
+
+44
+00:02:35.160 --> 00:02:38.160
+I was doing was strictly for
+
+45
+00:02:38.720 --> 00:02:42.440
+for graphics and automation tools
+and coding and things like that.
+
+46
+00:02:42.600 --> 00:02:45.480
+So when I learned about cloud code,
+I had experimented with that a bit
+
+47
+00:02:45.480 --> 00:02:47.840
+on the first poem
+and was really pleased with
+
+48
+00:02:47.840 --> 00:02:51.680
+some of the results was able to get,
+which in turn led me to create
+
+49
+00:02:51.680 --> 00:02:55.520
+the final portfolio and the larger project
+that I'll be showing today.
+
+50
+00:02:57.480 --> 00:03:00.960
+So in terms of the theoretical framework,
+as I mentioned,
+
+51
+00:03:01.000 --> 00:03:04.680
+this borrowed heavily from Hayles,
+but I ultimately decided to step further
+
+52
+00:03:04.680 --> 00:03:08.600
+and bring in my rhetoric background
+into this prompting.
+
+53
+00:03:08.600 --> 00:03:10.520
+So I wanted to take this
+
+54
+00:03:10.520 --> 00:03:13.480
+all the way back to Aristotle
+and think about this in terms of pathos,
+
+55
+00:03:13.480 --> 00:03:16.640
+because I wanted to see
+if I connected that term to this,
+
+56
+00:03:16.680 --> 00:03:21.160
+if it could understand how to apply
+emotional graphics to my work,
+
+57
+00:03:21.160 --> 00:03:25.240
+and how rhetoric could speak to
+AI through creative writing.
+
+58
+00:03:25.640 --> 00:03:27.600
+So I also turned to the concept
+of the medium
+
+59
+00:03:27.600 --> 00:03:29.640
+as the message
+for a lot of these graphics.
+
+60
+00:03:29.640 --> 00:03:33.440
+Because when I was doing the prompting
+with Claude Code, I was very specific
+
+61
+00:03:33.440 --> 00:03:38.440
+in inputting that I didn't want these
+to just be like artistic features
+
+62
+00:03:38.440 --> 00:03:41.520
+that represented the poems,
+but I wanted them to be something
+
+63
+00:03:41.520 --> 00:03:44.680
+that the audience participates in,
+and that when they click around
+
+64
+00:03:44.680 --> 00:03:48.680
+and they're seeing these graphics, it's
+part of the poem and the final results, so
+
+65
+00:03:48.680 --> 00:03:52.680
+that my audience is actually contributing
+to the meaning and themes of my poem.
+
+66
+00:03:54.600 --> 00:03:57.600
+So here's an example of the first poem
+that's on my site.
+
+67
+00:03:57.640 --> 00:04:01.880
+So in here I actually,
+through my prompting, the Cloud Code
+
+68
+00:04:01.880 --> 00:04:05.000
+wanted the poems
+to be in the interface of a phone.
+
+69
+00:04:05.000 --> 00:04:08.440
+So again, with the themes of my poem,
+we have society and technology.
+
+70
+00:04:08.440 --> 00:04:12.760
+So this entire portfolio sort of resembles
+a push and pull of that.
+
+71
+00:04:12.760 --> 00:04:14.160
+So what we gain and lose,
+
+72
+00:04:14.160 --> 00:04:17.920
+we have the accessibility of a phone,
+easy access to communication,
+
+73
+00:04:17.920 --> 00:04:21.120
+but then we have the aspect
+of what gets taken away
+
+74
+00:04:21.120 --> 00:04:24.720
+in relationships or physical settings
+and things like that.
+
+75
+00:04:24.720 --> 00:04:29.680
+So when a user clicks into the icon,
+they can choose any one of those icons
+
+76
+00:04:29.680 --> 00:04:32.840
+on the left that they want,
+and it will open up an icon
+
+77
+00:04:32.840 --> 00:04:35.720
+that each has a poem
+that resides within it.
+
+78
+00:04:35.720 --> 00:04:39.680
+So for example, 
+the messaging app, if they go in there,
+
+79
+00:04:39.680 --> 00:04:42.640
+they're going to actually respond
+to the poem in a text thread.
+
+80
+00:04:42.640 --> 00:04:46.840
+If they respond negatively to technology,
+they're going to get this outcome on
+
+81
+00:04:46.840 --> 00:04:49.040
+figure four
+that says message cannot be delivered.
+
+82
+00:04:49.040 --> 00:04:51.560
+So again,
+this graphic isn't just about an esthetic,
+
+83
+00:04:51.560 --> 00:04:52.600
+but it actually changes
+
+84
+00:04:52.600 --> 00:04:56.080
+the final result of the poem
+based on how the audience feels.
+
+85
+00:04:56.520 --> 00:05:00.760
+And then the maps on sort of resembles
+navigating
+
+86
+00:05:01.040 --> 00:05:04.120
+one's own opinions
+or beliefs in the poem.
+
+87
+00:05:04.120 --> 00:05:07.160
+So all of these esthetic choices
+were used to help
+
+88
+00:05:07.160 --> 00:05:10.960
+design the theme
+and outcome of my opponent cells.
+
+89
+00:05:13.440 --> 00:05:13.880
+So here we
+
+90
+00:05:13.880 --> 00:05:16.880
+have the next poem,
+which was more of a word cluster.
+
+91
+00:05:16.960 --> 00:05:21.400
+So this one had a range of words
+that a user can go and click on.
+
+92
+00:05:21.400 --> 00:05:25.120
+When they click on a word,
+it opens up its own poem.
+
+93
+00:05:25.120 --> 00:05:27.680
+So a poem resides
+within each of these words.
+
+94
+00:05:27.680 --> 00:05:28.880
+And when I was
+
+95
+00:05:28.880 --> 00:05:32.960
+prompting for this particular poem,
+I was really looking at juxtaposition.
+
+96
+00:05:32.960 --> 00:05:36.280
+So I wanted words
+that said like human touch, love,
+
+97
+00:05:36.280 --> 00:05:39.960
+in contrast with things
+like ghost and memory and data.
+
+98
+00:05:40.280 --> 00:05:44.760
+And when a user clicks and pauses
+on a word, it creates a heart shape on.
+
+99
+00:05:44.760 --> 00:05:46.560
+This creates imagery
+that represents, again,
+
+100
+00:05:46.560 --> 00:05:50.560
+that human connection,
+which juxtaposes with the
+
+101
+00:05:50.560 --> 00:05:54.720
+sort of mechanical
+words and poems that are placed here.
+
+102
+00:05:55.840 --> 00:05:57.360
+So lastly, we have when
+
+103
+00:05:57.360 --> 00:06:01.440
+pixels cry again using juxtaposition
+to think of something like pixels.
+
+104
+00:06:01.440 --> 00:06:05.200
+Using a bit of humor here as well,
+having a little song with this one.
+
+105
+00:06:05.200 --> 00:06:09.560
+And then we have like the tears
+in the background to kind of create this
+
+106
+00:06:09.600 --> 00:06:11.120
+like melodramatic effect.
+
+107
+00:06:11.120 --> 00:06:12.800
+So when users hover over
+
+108
+00:06:12.800 --> 00:06:14.560
+certain words in here,
+you're going to get a glitch
+
+109
+00:06:14.560 --> 00:06:18.640
+effect, you're going to have connection
+failed and tears in the background.
+
+110
+00:06:18.640 --> 00:06:23.440
+So I'm kind of playing around
+with the aspect of AI
+
+111
+00:06:23.560 --> 00:06:26.480
+not really being able to be emotional 
+as sort of
+
+112
+00:06:26.480 --> 00:06:29.480
+like the humor
+and the actions behind the words.
+
+113
+00:06:29.920 --> 00:06:33.760
+So the prompting process and my methods
+
+114
+00:06:33.760 --> 00:06:37.760
+utilize rhetorical analysis,
+AI literacy and decoding poetic devices.
+
+115
+00:06:37.760 --> 00:06:44.160
+So ultimately I was driven
+by asking it to create pesos through
+
+116
+00:06:44.160 --> 00:06:49.400
+specific images, such as like the rain
+or In the tears and things like that.
+
+117
+00:06:49.400 --> 00:06:50.560
+And I was using
+
+118
+00:06:51.640 --> 00:06:54.360
+AI literacy
+literacy to create iterations of this.
+
+119
+00:06:54.360 --> 00:06:58.560
+So whenever it would do something that
+didn't produce the result that I wanted,
+
+120
+00:06:58.560 --> 00:07:04.360
+I would have to be a lot more specific
+with my language, tie more terms to it,
+
+121
+00:07:04.360 --> 00:07:08.080
+and just to kind of get that final result
+that I was looking for.
+
+122
+00:07:08.080 --> 00:07:12.080
+And ultimately, I found that feeding
+at specific poetic devices
+
+123
+00:07:12.080 --> 00:07:16.240
+was really helpful in that 
+because it was able to use
+
+124
+00:07:16.360 --> 00:07:19.320
+these poetic devices to create
+a little bit more of an emotional appeal.
+
+125
+00:07:19.320 --> 00:07:23.040
+For example, if I said like juxtaposition,
+the word cluster was able to create that
+
+126
+00:07:23.040 --> 00:07:25.240
+heart with that poem
+that was a bit more mechanical
+
+127
+00:07:25.240 --> 00:07:28.120
+and that kind of produced
+a more like dramatic effect.
+
+128
+00:07:28.120 --> 00:07:30.600
+So I found that to be the most useful
+in kind of
+
+129
+00:07:30.600 --> 00:07:33.960
+pushing the boundaries of emotion
+with cloud code,
+
+130
+00:07:33.960 --> 00:07:37.240
+given the limitations that, of course,
+are going to fall into place of that.
+
+131
+00:07:39.040 --> 00:07:42.680
+So of course, with this, there's
+going to be limitations.
+
+132
+00:07:42.680 --> 00:07:47.560
+I came in with some pretty extravagant
+ideas on some things that I wanted to do
+
+133
+00:07:47.600 --> 00:07:52.000
+in terms of like, artistic,
+you know, like faces and things like that.
+
+134
+00:07:52.000 --> 00:07:55.520
+I really I wanted there for the pixel one,
+I wanted like more
+
+135
+00:07:55.640 --> 00:07:59.560
+of a realistic face and somebody's crying,
+you know, a I just can't produce that.
+
+136
+00:07:59.560 --> 00:08:02.920
+So I had to turn to
+
+137
+00:08:03.600 --> 00:08:06.880
+smaller symbols
+that just resembled my own writing,
+
+138
+00:08:06.880 --> 00:08:08.520
+just kind of keeping that at the forefront
+
+139
+00:08:08.520 --> 00:08:11.040
+and using this as something
+that just brought my poetry
+
+140
+00:08:11.040 --> 00:08:15.000
+into digital spaces, and looking more
+at giving agency to the users,
+
+141
+00:08:15.000 --> 00:08:18.960
+and that hypertext features versus
+something that might be more artistic
+
+142
+00:08:18.960 --> 00:08:23.040
+and elaborate overall,
+is pretty pleased with the final results.
+
+143
+00:08:23.080 --> 00:08:27.480
+Given the limitations of AI, 
+and just especially in the sense
+
+144
+00:08:27.480 --> 00:08:31.080
+of the audience being able to contribute
+to the final meaning of the poem
+
+145
+00:08:31.080 --> 00:08:34.840
+in some way, which spoke to kind of
+the emotional aspect that I was going for.
+
+146
+00:08:34.840 --> 00:08:37.120
+So all in all,
+given the limitations of AI,
+
+147
+00:08:37.120 --> 00:08:41.360
+I was pleased with cloud code
+and its ability to create graphics
+
+148
+00:08:41.360 --> 00:08:44.720
+that resemble my writing
+and still keeping my authorship there.
+
+149
+00:08:45.680 --> 00:08:47.840
+So ultimately, going back to
+
+150
+00:08:47.840 --> 00:08:49.800
+my original question
+of why I chose to work with
+
+151
+00:08:49.800 --> 00:08:54.920
+AI as a rhetoric student,
+I have grappled with some of these
+
+152
+00:08:54.960 --> 00:08:59.640
+like technical platforms and softwares,
+but ultimately with my focus on writing
+
+153
+00:08:59.640 --> 00:09:02.960
+cloud code allowed me
+to create all of these visions that I had,
+
+154
+00:09:03.000 --> 00:09:06.040
+bring my poetry into new spaces without
+
+155
+00:09:06.720 --> 00:09:10.200
+having to be fluent in all of these
+languages and platforms and technologies.
+
+156
+00:09:10.200 --> 00:09:12.680
+So this screenshot on the left
+just kind of shows,
+
+157
+00:09:12.680 --> 00:09:14.880
+like all of those things
+that I would have to be fluent in
+
+158
+00:09:14.880 --> 00:09:18.680
+to done this manually
+without the assistance of cloud code.
+
+159
+00:09:18.680 --> 00:09:21.920
+So that was kind of part
+of the inspiration behind this project
+
+160
+00:09:21.920 --> 00:09:25.160
+as well,
+was the ability to focus on my writing
+
+161
+00:09:25.160 --> 00:09:30.080
+while still grappling with
+some of these remediation and exploring
+
+162
+00:09:30.080 --> 00:09:35.840
+digital poetry and ways that that fit
+with my skill sets and my ultimate goals.
+
+163
+00:09:36.840 --> 00:09:37.800
+So if anybody
+
+164
+00:09:37.800 --> 00:09:40.800
+wants to see this live,
+it does work on a mobile device.
+
+165
+00:09:40.840 --> 00:09:43.400
+Of course, it's
+a little easier on a desktop,
+
+166
+00:09:43.400 --> 00:09:45.520
+but you definitely can scan it
+and check it out
+
+167
+00:09:45.520 --> 00:09:47.040
+if you have any questions about it.
+
+168
+00:09:47.040 --> 00:09:52.120
+I'm happy to answer that for anybody
+that wants to explore it further.
+
+169
+00:09:52.280 --> 00:09:55.200
+Again, each one in the portfolio
+
+170
+00:09:55.200 --> 00:09:59.040
+is a different genre of poetry,
+so you can click on them
+
+171
+00:09:59.040 --> 00:10:01.520
+and kind of explore what John is
+you want to experiment with.
+
+172
+00:10:01.520 --> 00:10:05.840
+And there's some poems and here
+that I didn't touch on in the figures
+
+173
+00:10:05.840 --> 00:10:06.400
+or screenshots.
+
+174
+00:10:06.400 --> 00:10:07.880
+So you'll see new materials.
+
+175
+00:10:07.880 --> 00:10:10.760
+So if you have questions
+about that as well and how to answer them.
+
+176
+00:10:10.760 --> 00:10:18.080
+But ultimately I felt that AI was useful
+in handling
+
+177
+00:10:18.120 --> 00:10:23.160
+the technical tools, as I mentioned, 
+and that my place as a writer
+
+178
+00:10:23.240 --> 00:10:26.360
+student was really useful in prompting,
+which of course
+
+179
+00:10:26.760 --> 00:10:30.440
+influenced the final result
+and what I achieved, and kind of showing
+
+180
+00:10:30.440 --> 00:10:33.440
+how writing does
+have a place in the collaboration with AI.
+
+181
+00:10:33.600 --> 00:10:38.120
+And in the future,
+I definitely want to broaden this work,
+
+182
+00:10:38.120 --> 00:10:41.760
+and I would like to do something user
+testing on this as well,
+
+183
+00:10:41.800 --> 00:10:45.680
+just to see how audiences interpret it
+from their viewpoint,
+
+184
+00:10:45.720 --> 00:10:48.560
+and see how I can make
+additional iterations based on that.
+
+185
+00:10:48.560 --> 00:10:51.720
+So thank you very much.

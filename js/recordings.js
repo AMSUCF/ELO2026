@@ -144,15 +144,19 @@ function renderList() {
 }
 
 function renderNowMeta(ev) {
-  // Captions live on STARS: bepress blocks cross-origin requests for the
-  // caption file itself, so a <track> here would never load. Flag captioned
-  // sessions and send visitors to the STARS player instead.
-  const captions = ev.captions
-    ? `<a class="cc-link" href="${esc(ev.url)}" target="_blank" rel="noopener">
+  // Captions we have vendored are served from this origin and attach straight
+  // to the player. Anything not vendored yet still has to be watched on STARS,
+  // which refuses cross-origin requests for the caption file itself.
+  let captions = "";
+  if (ev.captions_file) {
+    captions = `<span class="cc-link"><span class="cc-badge" aria-hidden="true">CC</span>
+        Captions available &mdash; use the player&rsquo;s subtitles button</span>`;
+  } else if (ev.captions) {
+    captions = `<a class="cc-link" href="${esc(ev.url)}" target="_blank" rel="noopener">
          <span class="cc-badge" aria-hidden="true">CC</span> Watch with captions on STARS
          <span class="visually-hidden">(opens in a new window)</span>
-       </a>`
-    : "";
+       </a>`;
+  }
   el.nowMeta.innerHTML = `
     <h2 class="now-title">${esc(ev.title)}</h2>
     ${ev.presenters ? `<p class="now-presenters">${esc(ev.presenters)}</p>` : ""}
@@ -222,6 +226,20 @@ async function play(ev) {
   video.playsInline = true;
   video.className = "recording-player";
   video.setAttribute("aria-label", `Recording: ${ev.title}`);
+
+  // Same-origin WebVTT, so this loads where a STARS-hosted track could not.
+  // Added before the element is in the document so the track is picked up
+  // with the first load rather than needing a second pass.
+  if (ev.captions_file) {
+    const track = document.createElement("track");
+    track.kind = "captions";
+    track.label = "English";
+    track.srclang = "en";
+    track.src = ev.captions_file;
+    track.default = true;
+    video.appendChild(track);
+  }
+
   holder.appendChild(video);
 
   const src = ev.video;

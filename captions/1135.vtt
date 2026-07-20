@@ -1,0 +1,1019 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.520
+Up next we have Tehri Marttila and Jay David Bolter.
+
+2
+00:00:04.760 --> 00:00:06.720
+I will throw it over to them.
+
+3
+00:00:06.720 --> 00:00:09.720
+Thank you.
+
+4
+00:00:14.640 --> 00:00:15.800
+And so sorry.
+
+5
+00:00:15.800 --> 00:00:16.960
+Also Watson Hartsoe.
+
+6
+00:00:16.960 --> 00:00:20.520
+I missed that in reading the sorry
+Watson.
+
+7
+00:00:20.560 --> 00:00:21.960
+All good.
+
+8
+00:00:21.960 --> 00:00:22.760
+Thank you Glenn.
+
+9
+00:00:22.760 --> 00:00:27.560
+So I'm I'm here I was asked by my team
+members to be the only one talking.
+
+10
+00:00:27.560 --> 00:00:29.520
+So I'm going to be the only one talking.
+
+11
+00:00:29.520 --> 00:00:35.080
+But I'm here on behalf of our team
+consisting of Watson, Jay and myself
+
+12
+00:00:35.320 --> 00:00:38.720
+to talk to you a little bit
+about something we've been working on
+
+13
+00:00:38.720 --> 00:00:42.600
+over the last few months,
+which we call ripples. So
+
+14
+00:00:44.440 --> 00:00:47.400
+ripples is effectively a
+
+15
+00:00:47.400 --> 00:00:50.240
+set of three artworks that prove
+
+16
+00:00:50.240 --> 00:00:53.200
+this idea of distant writing.
+
+17
+00:00:53.200 --> 00:00:58.720
+And it's actually, very importantly,
+a collective practice based exploration
+
+18
+00:00:58.720 --> 00:01:05.080
+of this idea of distant writing,
+where we patiently and iteratively coax
+
+19
+00:01:05.080 --> 00:01:09.160
+and interactive
+emergent digital literary experience
+
+20
+00:01:09.320 --> 00:01:12.240
+towards something of interest.
+
+21
+00:01:12.240 --> 00:01:14.520
+So it's been a bit of a struggle.
+
+22
+00:01:14.520 --> 00:01:18.120
+So each of the individual works
+actually explores
+
+23
+00:01:18.320 --> 00:01:21.400
+specific themes and specific
+
+24
+00:01:21.440 --> 00:01:24.440
+approaches to emergence in the writing.
+
+25
+00:01:24.520 --> 00:01:29.160
+And then overall, more important
+than the artwork
+
+26
+00:01:29.160 --> 00:01:33.960
+as a product for us
+has been the artwork as a process.
+
+27
+00:01:34.720 --> 00:01:37.720
+So about this concept of distant writing,
+
+28
+00:01:37.720 --> 00:01:40.360
+I wish I could
+say, let's have a show of hands.
+
+29
+00:01:40.360 --> 00:01:42.880
+How many of you know
+this concept of disarray?
+
+30
+00:01:42.880 --> 00:01:47.120
+But we came across these
+this idea of distant writing,
+
+31
+00:01:47.120 --> 00:01:51.120
+as articulated by Luciano Florida
+in a 2025 paper
+
+32
+00:01:51.440 --> 00:01:55.640
+called Decent Writing Literary Production
+in the Age of Artificial Intelligence,
+
+33
+00:01:55.640 --> 00:01:59.600
+where he kind of riffs off
+of this idea of close reading, where human
+
+34
+00:01:59.640 --> 00:02:02.680
+actually reads
+an interpretive, interprets a text
+
+35
+00:02:02.680 --> 00:02:06.160
+which was then taken on
+by the digital humanities,
+
+36
+00:02:06.600 --> 00:02:10.960
+you know, take distant reading
+as this kind of computational analysis
+
+37
+00:02:10.960 --> 00:02:14.760
+of large corpora
+to detect these overarching patterns,
+
+38
+00:02:15.200 --> 00:02:18.840
+to then kind of extrapolate into the idea
+of close writing or something.
+
+39
+00:02:18.840 --> 00:02:21.800
+We in one of our meetings
+called legacy writing.
+
+40
+00:02:21.800 --> 00:02:25.160
+So where a human author
+actually composes text directly.
+
+41
+00:02:25.160 --> 00:02:30.000
+So for him, then the distant writing
+is this type of writing where human is
+
+42
+00:02:30.040 --> 00:02:33.200
+kind of
+like the designer of narrative constraint,
+
+43
+00:02:33.320 --> 00:02:37.520
+sets requirements
+through prompts and curates AI output,
+
+44
+00:02:37.520 --> 00:02:42.240
+but the LMS ultimately
+are the ones who execute the text.
+
+45
+00:02:42.720 --> 00:02:47.560
+And Florida himself
+has this very interesting approach
+
+46
+00:02:47.560 --> 00:02:50.800
+to using distant writing most first
+
+47
+00:02:50.800 --> 00:02:54.160
+and foremost, kind of to
+as a way of dealing with abundance.
+
+48
+00:02:54.160 --> 00:02:57.240
+Because he had this interesting idea
+already a long time ago,
+
+49
+00:02:57.240 --> 00:03:02.480
+before these technologies
+came to take secondary characters
+
+50
+00:03:02.480 --> 00:03:07.920
+of known novels
+and then to bring them into new narrative.
+
+51
+00:03:07.920 --> 00:03:12.080
+But that was so much,
+too much data for human cognition alone.
+
+52
+00:03:12.080 --> 00:03:16.400
+So once these tools became available, 
+Florida
+
+53
+00:03:16.480 --> 00:03:20.400
+took the secondary characters
+as his data set and used
+
+54
+00:03:20.400 --> 00:03:23.720
+LMS to generate a story
+that brings the secondary characters
+
+55
+00:03:23.720 --> 00:03:26.320
+into a coherent
+and meaningful interaction.
+
+56
+00:03:26.320 --> 00:03:30.280
+In a printed book called encounters,
+which is forthcoming.
+
+57
+00:03:30.880 --> 00:03:33.800
+And then we have another idea.
+
+58
+00:03:33.800 --> 00:03:35.080
+Well, the same idea.
+
+59
+00:03:35.080 --> 00:03:38.760
+It's different words
+writing at a distance, which was proposed
+
+60
+00:03:38.760 --> 00:03:42.960
+by Hans Bayern in a paper from 2024,
+
+61
+00:03:42.960 --> 00:03:46.160
+where Bayard is basically also
+
+62
+00:03:47.000 --> 00:03:51.840
+thinking in very much along the same lines
+in terms of the distance between author
+
+63
+00:03:51.840 --> 00:03:56.840
+and final text or human and final text,
+let's put it that way.
+
+64
+00:03:56.960 --> 00:03:59.840
+But he kind of takes a granular
+
+65
+00:03:59.840 --> 00:04:05.400
+approach to the the degree of distance
+to in order for us to be able
+
+66
+00:04:05.400 --> 00:04:09.440
+to think about the implications of that
+order of magnitude of the distance.
+
+67
+00:04:09.440 --> 00:04:15.080
+So basically, primary authorship, human
+rights, the text, secondary authorship,
+
+68
+00:04:15.120 --> 00:04:16.800
+we would have some kind of a code
+
+69
+00:04:16.800 --> 00:04:20.440
+or ruleset there
+in between that determines the text.
+
+70
+00:04:20.600 --> 00:04:25.200
+Tertiary authorship
+is where we would have a weighted model
+
+71
+00:04:25.560 --> 00:04:32.320
+and the code, but we are the ones in
+control of the weighted model.
+
+72
+00:04:32.400 --> 00:04:34.120
+Quaternary authorship.
+
+73
+00:04:34.120 --> 00:04:39.920
+In his Quaternary authorship in his model
+is where we also have
+
+74
+00:04:39.920 --> 00:04:43.680
+like a corporate closed
+proprietary interface in between.
+
+75
+00:04:43.680 --> 00:04:48.640
+So there were ceding authorship
+also to the proprietary interface.
+
+76
+00:04:49.320 --> 00:04:52.560
+The way that BioMed uses
+this approach is that he trains
+
+77
+00:04:52.560 --> 00:04:56.640
+a model on four contemporary novels,
+and then generates writing,
+
+78
+00:04:56.640 --> 00:05:00.720
+which is curious, into a printed book,
+which was published in 2023
+
+79
+00:05:00.720 --> 00:05:03.800
+called Berlin Miami. So
+
+80
+00:05:04.880 --> 00:05:05.720
+again, distant
+
+81
+00:05:05.720 --> 00:05:10.880
+writing with these llms is yet again
+an expansion of possibilities
+
+82
+00:05:11.000 --> 00:05:15.560
+that redefines the relationship
+between author, reader and text, clearly
+
+83
+00:05:15.560 --> 00:05:21.400
+part of a long continuum of this type
+of processes of redefinition.
+
+84
+00:05:21.880 --> 00:05:25.760
+But what we thought
+was that ultimately, this approach to
+
+85
+00:05:25.800 --> 00:05:30.000
+writing at a distance can be interpreted
+and utilized in endless ways.
+
+86
+00:05:30.000 --> 00:05:34.560
+So, inspired by these ideas,
+we embarked on our own experiments.
+
+87
+00:05:34.600 --> 00:05:36.760
+Where so where?
+
+88
+00:05:36.760 --> 00:05:41.640
+Florida and Bayard aimed for a traditional
+printed book as a final product.
+
+89
+00:05:42.360 --> 00:05:45.160
+Our aim was to create a digital
+reading experience.
+
+90
+00:05:45.160 --> 00:05:49.920
+So a text that changes where user
+agency plays a role
+
+91
+00:05:49.920 --> 00:05:54.000
+in shaping the evolution of the text
+in a meaningful way.
+
+92
+00:05:54.800 --> 00:05:59.040
+And our creative constraint
+was this idea of the ripple,
+
+93
+00:05:59.120 --> 00:06:04.720
+which just emerged in one of our
+meetings, where we think of the ripple
+
+94
+00:06:04.760 --> 00:06:09.200
+as something where the user chooses,
+writes, or does something,
+
+95
+00:06:09.280 --> 00:06:13.680
+and then that choice
+somehow has to ripple through in the LM
+
+96
+00:06:13.680 --> 00:06:18.280
+generated literary experience
+in a meaningful and coherent way.
+
+97
+00:06:18.880 --> 00:06:24.520
+And as such, our job assistant writers
+is to author the system in a way
+
+98
+00:06:24.520 --> 00:06:30.480
+that makes it robust for unsupervised
+but meaningful interaction with the user.
+
+99
+00:06:31.600 --> 00:06:33.520
+So onto our ripples.
+
+100
+00:06:33.520 --> 00:06:35.880
+I'm going to show you a brief.
+
+101
+00:06:35.880 --> 00:06:36.240
+Yeah.
+
+102
+00:06:36.240 --> 00:06:39.240
+So overall, the three experiments in the
+
+103
+00:06:39.240 --> 00:06:44.320
+in our three distinct experience
+experiments are kind of experiments
+
+104
+00:06:44.320 --> 00:06:48.160
+in the materiality of the LM
+as a writing machine,
+
+105
+00:06:48.160 --> 00:06:52.040
+but with different takes on what
+that means.
+
+106
+00:06:52.280 --> 00:06:56.880
+And all of our experiments are based on
+
+107
+00:06:57.160 --> 00:07:02.480
+this kind of world jockey system
+prompts created by Watson at some point,
+
+108
+00:07:02.520 --> 00:07:07.560
+which is this complex prompt that evokes
+sort of this multi
+
+109
+00:07:07.560 --> 00:07:13.440
+plane system that allows users to steer
+an interactive world much like a DJ would.
+
+110
+00:07:13.480 --> 00:07:17.280
+So this is the prompt
+and you can access it
+
+111
+00:07:17.280 --> 00:07:20.280
+and play with it yourself if you like.
+
+112
+00:07:20.720 --> 00:07:24.880
+So, you know, we define
+quite a lot of things in the prompt.
+
+113
+00:07:24.880 --> 00:07:25.920
+And yesterday
+
+114
+00:07:25.920 --> 00:07:30.160
+when I put it into Gemini Canvas,
+it gave me something that looks like this.
+
+115
+00:07:30.160 --> 00:07:33.720
+So there's this idea of like a world
+and some beings
+
+116
+00:07:33.720 --> 00:07:37.280
+and then, you know,
+you can click and have stuff happen.
+
+117
+00:07:37.320 --> 00:07:41.400
+But what happened was that effectively,
+from this shared system
+
+118
+00:07:41.400 --> 00:07:44.760
+prompt, we kind of all rippled
+in our own direction.
+
+119
+00:07:44.760 --> 00:07:48.520
+So Jay went on to kind of
+
+120
+00:07:48.520 --> 00:07:51.960
+recreate, replicate or transpose
+
+121
+00:07:52.600 --> 00:07:57.520
+aspects of Wim Wenders
+film Wings of Desire,
+
+122
+00:07:58.120 --> 00:08:02.800
+to kind of explore
+this idea of being privy to the stream
+
+123
+00:08:02.800 --> 00:08:07.840
+of consciousness of different characters
+and then whispering to influence those.
+
+124
+00:08:07.880 --> 00:08:13.240
+I went on into this kind of almost game
+like world where you have entities
+
+125
+00:08:13.240 --> 00:08:19.440
+and then you play out
+different actions on them.
+
+126
+00:08:19.440 --> 00:08:23.320
+And then Watson basically went and created
+this kind of text
+
+127
+00:08:23.360 --> 00:08:26.600
+based world
+that you can just watch endlessly grow.
+
+128
+00:08:26.600 --> 00:08:29.880
+And these are all included
+in the exhibition.
+
+129
+00:08:29.880 --> 00:08:34.240
+So I invite you to go and play them
+or experience them there,
+
+130
+00:08:34.240 --> 00:08:37.720
+but I'll show you briefly
+a snippet of these.
+
+131
+00:08:37.720 --> 00:08:42.520
+So here we have a girl on the train
+and we hear her thoughts.
+
+132
+00:08:42.560 --> 00:08:45.720
+More pressing is sorting out
+the next study group meetings
+
+133
+00:08:45.760 --> 00:08:49.520
+time finally locking in something concrete
+to anchor the week.
+
+134
+00:08:49.760 --> 00:08:52.400
+Daniels message waits unread.
+
+135
+00:08:52.400 --> 00:08:54.800
+Leave that for tonight.
+Feels like reclaiming.
+
+136
+00:08:54.800 --> 00:08:57.800
+And we whisper Daniel will wait,
+
+137
+00:08:58.320 --> 00:09:02.760
+and she thinks the phrase lingers
+as background pressure and her thoughts.
+
+138
+00:09:02.800 --> 00:09:06.200
+A man's tapping shoe
+keeps pace with the hum of bus schedules.
+
+139
+00:09:06.200 --> 00:09:10.520
+So here we see the whisper
+rippling into this person's thoughts.
+
+140
+00:09:10.760 --> 00:09:12.640
+We click on another character.
+
+141
+00:09:14.240 --> 00:09:15.800
+A young woman packs her bag
+
+142
+00:09:15.800 --> 00:09:20.040
+two rows ahead, methodical, like me
+checking the list of bills on the phone.
+
+143
+00:09:20.080 --> 00:09:21.640
+No sudden moves here.
+
+144
+00:09:21.640 --> 00:09:25.280
+No surprises, no surprises. Maybe sending.
+
+145
+00:09:25.280 --> 00:09:26.400
+And we whisper.
+
+146
+00:09:26.400 --> 00:09:29.400
+There are always surprises.
+
+147
+00:09:29.920 --> 00:09:34.280
+The whisper carries the echo of unexpected
+turns I can't control.
+
+148
+00:09:34.320 --> 00:09:36.600
+Still jotting down the bills tonight.
+
+149
+00:09:36.600 --> 00:09:40.920
+A habit I trust offers some steady ground
+to stand on before Berlin.
+
+150
+00:09:40.920 --> 00:09:43.920
+So there's some coherence in there.
+
+151
+00:09:44.560 --> 00:09:46.280
+And now for this one.
+
+152
+00:09:46.280 --> 00:09:47.960
+So here's our ecology.
+
+153
+00:09:47.960 --> 00:09:49.160
+I choose the sun.
+
+154
+00:09:49.160 --> 00:09:52.160
+I shift behind a cloud,
+and a cloud appears.
+
+155
+00:09:52.480 --> 00:09:55.320
+Now I choose the sun again.
+
+156
+00:09:55.320 --> 00:09:56.960
+I am warming the earth.
+
+157
+00:09:56.960 --> 00:09:58.120
+And then I promote
+
+158
+00:09:58.120 --> 00:10:01.920
+the growth of a blueberry,
+and a blueberry spawns onto the screen.
+
+159
+00:10:02.400 --> 00:10:05.160
+I picked the blueberry.
+
+160
+00:10:05.160 --> 00:10:08.080
+I am promoted by the sun
+
+161
+00:10:08.080 --> 00:10:11.080
+and then I produce sweet blueberries.
+
+162
+00:10:11.280 --> 00:10:15.240
+Well now we did not see a blueberry
+appear, so it doesn't always work.
+
+163
+00:10:15.240 --> 00:10:16.760
+We choose the bug.
+
+164
+00:10:16.760 --> 00:10:20.280
+I am shaded by the blueberry
+and then I crawled beneath its leaves
+
+165
+00:10:20.320 --> 00:10:22.120
+searching for fallen debris.
+
+166
+00:10:23.880 --> 00:10:25.440
+I choose the bug again.
+
+167
+00:10:25.440 --> 00:10:28.960
+I am shaded by the blueberry
+and then I retreat further into the ground
+
+168
+00:10:28.960 --> 00:10:34.720
+cover, hiding from the watchful eyes
+of the owl, and the bug disappears.
+
+169
+00:10:35.000 --> 00:10:37.040
+And then in what sense? Ripple.
+
+170
+00:10:37.040 --> 00:10:40.960
+I'm going to let this play, but then pause
+just so we can see a tiny detail.
+
+171
+00:10:41.000 --> 00:10:46.640
+Okay, so what's important here
+is that in the interface to begin
+
+172
+00:10:46.640 --> 00:10:51.560
+interacting, Watson evokes the ripple
+through this prompt to drop a stone.
+
+173
+00:10:51.560 --> 00:10:57.000
+So we dropped the stone,
+which in this case is a line of text.
+
+174
+00:10:57.080 --> 00:11:00.280
+And then as we let it play through,
+basically
+
+175
+00:11:00.360 --> 00:11:04.040
+we get this sequence of sentences
+that just go on forever.
+
+176
+00:11:04.040 --> 00:11:09.480
+So ripples emerge as layered interfaces
+tuned, not authored by the performer.
+
+177
+00:11:09.960 --> 00:11:14.440
+Whispers flow as subtle
+shifts, altering collective thought.
+
+178
+00:11:14.440 --> 00:11:15.800
+Atmospherically,
+
+179
+00:11:17.040 --> 00:11:18.320
+ecologies embody
+
+180
+00:11:18.320 --> 00:11:22.200
+temporary alignments
+where user becomes distributed cognition,
+
+181
+00:11:22.200 --> 00:11:24.800
+and here you can actually also branch
+
+182
+00:11:24.800 --> 00:11:29.320
+and choose to take the experience
+in different directions.
+
+183
+00:11:29.320 --> 00:11:32.880
+And again,
+all of these kind of go on infinitely.
+
+184
+00:11:33.400 --> 00:11:38.040
+So I don't
+or we don't really have conclusions,
+
+185
+00:11:38.040 --> 00:11:42.440
+but rather we decided to kind of list
+some questions that emerge
+
+186
+00:11:42.440 --> 00:11:47.840
+through our practice based process
+into exploring this materiality.
+
+187
+00:11:47.840 --> 00:11:52.640
+So first of our questions
+we asked ourselves this a lot.
+
+188
+00:11:53.160 --> 00:11:56.280
+How long are we entertained
+in reading these?
+
+189
+00:11:56.640 --> 00:12:01.680
+I remember that Watson at one point
+said that he would just play his system
+
+190
+00:12:01.680 --> 00:12:05.640
+and just let it play,
+much like a radio in the background.
+
+191
+00:12:05.640 --> 00:12:10.440
+So but then in other times,
+it feels like these systems just kind of
+
+192
+00:12:10.480 --> 00:12:14.320
+start breaking up, become boring even,
+
+193
+00:12:14.600 --> 00:12:17.640
+or start stop making sense.
+
+194
+00:12:18.560 --> 00:12:23.680
+In my case, I also had to think a lot
+about what controls the narrative.
+
+195
+00:12:23.680 --> 00:12:28.880
+So do I put in a level of variable
+states or code,
+
+196
+00:12:28.880 --> 00:12:34.760
+or is the experience
+just based on text that the LM generates?
+
+197
+00:12:35.800 --> 00:12:38.760
+We also thought about this question.
+
+198
+00:12:38.760 --> 00:12:45.120
+So can writing become a field in which
+actions accumulate rather than disappear?
+
+199
+00:12:45.120 --> 00:12:50.000
+So where we see consequences
+also playing out over time and where
+
+200
+00:12:50.040 --> 00:12:53.040
+in a way nothing is lost.
+
+201
+00:12:53.760 --> 00:12:57.840
+We also struggled a lot
+with trying to get the writing
+
+202
+00:12:57.880 --> 00:13:02.280
+to sound right, because when you write it
+yourself, you know what you're going for
+
+203
+00:13:02.280 --> 00:13:04.400
+and you write it
+the way you want it to be written.
+
+204
+00:13:04.400 --> 00:13:08.480
+But because we were giving up that
+
+205
+00:13:08.680 --> 00:13:12.600
+or putting that distance between ourselves
+and the writing at some time,
+
+206
+00:13:12.640 --> 00:13:15.600
+sometimes it became hard
+to even understand what it was
+
+207
+00:13:15.600 --> 00:13:21.200
+that we were looking for in the writing,
+and then how to tell the LM to
+
+208
+00:13:21.240 --> 00:13:24.600
+do what we wanted to do
+to make it sound right.
+
+209
+00:13:25.240 --> 00:13:28.360
+So many of these questions
+
+210
+00:13:28.400 --> 00:13:33.240
+kind of,
+you know, converge on to this question
+
+211
+00:13:33.280 --> 00:13:36.920
+of what is the proper
+distance in distant writing
+
+212
+00:13:38.120 --> 00:13:40.320
+and also
+
+213
+00:13:40.320 --> 00:13:41.080
+this question
+
+214
+00:13:41.080 --> 00:13:46.000
+of what should the human author contribute
+and how should they constrain the LM
+
+215
+00:13:46.000 --> 00:13:49.800
+in order to produce the most engaging
+reading experience,
+
+216
+00:13:50.160 --> 00:13:54.960
+and something else that we often
+found ourselves orbiting around was
+
+217
+00:13:55.320 --> 00:13:58.320
+when do you know it's done?
+
+218
+00:13:59.600 --> 00:14:02.600
+Well, the presentation is done now.

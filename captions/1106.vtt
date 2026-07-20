@@ -1,0 +1,1096 @@
+WEBVTT
+
+1
+00:00:00.600 --> 00:00:01.800
+My name is Mallen Clifton.
+
+2
+00:00:01.800 --> 00:00:05.400
+I'm a PhD candidate
+at Stanford University.
+
+3
+00:00:05.440 --> 00:00:07.760
+Just about to start dissertation.
+
+4
+00:00:07.760 --> 00:00:11.200
+But this presentation is not about that.
+
+5
+00:00:11.240 --> 00:00:12.960
+It's about something different.
+
+6
+00:00:12.960 --> 00:00:18.960
+I'm interested in the latent space, 
+which is a pretty vague concept.
+
+7
+00:00:18.960 --> 00:00:22.640
+And so I'm using this work,
+compressed cinema as a case study.
+
+8
+00:00:22.840 --> 00:00:25.920
+I might try to turn this into an article
+or something.
+
+9
+00:00:25.920 --> 00:00:27.840
+So, you know, especially in terms of that.
+
+10
+00:00:27.840 --> 00:00:30.040
+But in general,
+if y'all have any thoughts, comments,
+
+11
+00:00:30.040 --> 00:00:33.040
+critiques at the end,
+I'd be happy to hear it.
+
+12
+00:00:33.960 --> 00:00:36.920
+So I'll just get started.
+
+13
+00:00:36.920 --> 00:00:41.000
+The main question I'm thinking about this,
+especially in terms of the conference
+
+14
+00:00:41.040 --> 00:00:44.160
+theme, is how do we
+how do we supervise the unsupervised,
+
+15
+00:00:44.400 --> 00:00:48.800
+right, the latent space that we know it
+
+16
+00:00:48.800 --> 00:00:53.760
+as this hidden structure
+within large language models?
+
+17
+00:00:53.880 --> 00:00:57.760
+But it's not something
+that you can actually understand
+
+18
+00:00:57.960 --> 00:00:59.280
+the workings of easily.
+
+19
+00:00:59.280 --> 00:01:03.000
+And even if you do get that data
+to actually know how it works,
+
+20
+00:01:03.000 --> 00:01:06.560
+because there's so much information
+there and it's very hard to understand,
+
+21
+00:01:06.600 --> 00:01:10.680
+like why things are actually configured
+the way they are.
+
+22
+00:01:10.720 --> 00:01:13.160
+And so a more technical question
+I'm asking is how do we understand
+
+23
+00:01:13.160 --> 00:01:17.760
+the function of the latent space in LMS
+as a pertains to literary production?
+
+24
+00:01:17.920 --> 00:01:20.920
+And I do believe
+this has pretty important ramifications.
+
+25
+00:01:20.920 --> 00:01:21.400
+Right.
+
+26
+00:01:21.400 --> 00:01:24.400
+People are reading AI generated
+writing every day.
+
+27
+00:01:24.760 --> 00:01:27.360
+This is going to build
+into larger pressures.
+
+28
+00:01:27.360 --> 00:01:30.360
+We started to think about,
+you know, like worries about being able
+
+29
+00:01:30.360 --> 00:01:33.760
+to detect AI generated text
+and questions around that.
+
+30
+00:01:33.760 --> 00:01:38.080
+And I think it also has larger
+implications for meaning and intent in AI,
+
+31
+00:01:38.120 --> 00:01:41.960
+as it's further integrated into decision
+making systems, really,
+
+32
+00:01:42.000 --> 00:01:45.480
+you know, on the scale of corporations,
+even government,
+
+33
+00:01:45.480 --> 00:01:49.120
+the fact that we are seeing this text
+every day, we need to understand
+
+34
+00:01:49.160 --> 00:01:50.920
+like how it's actually working.
+
+35
+00:01:50.920 --> 00:01:55.040
+And so it's really essential
+to look at the latent space
+
+36
+00:01:55.040 --> 00:01:57.000
+if we want to answer these questions.
+
+37
+00:01:57.000 --> 00:01:58.160
+Why is that?
+
+38
+00:01:58.160 --> 00:02:02.280
+I have a few quotes
+I pulled from Antonio Simone,
+
+39
+00:02:02.320 --> 00:02:05.680
+who offered his own writing,
+A Theory of Latent Spaces.
+
+40
+00:02:05.720 --> 00:02:08.600
+He's actually mainly talking about it
+in terms of visual culture.
+
+41
+00:02:08.600 --> 00:02:10.800
+And so I think it's interesting to
+look at what he's saying,
+
+42
+00:02:10.800 --> 00:02:13.120
+but then try to translate that
+into what I'm more interested
+
+43
+00:02:13.120 --> 00:02:16.720
+in terms of literary culture
+and literary production.
+
+44
+00:02:16.760 --> 00:02:20.960
+So a few particular quotes that I thought
+were especially interesting.
+
+45
+00:02:21.120 --> 00:02:24.040
+First of all, latent space is determined.
+
+46
+00:02:24.040 --> 00:02:28.720
+The epistemology field of these 
+LM systems, right.
+
+47
+00:02:28.760 --> 00:02:32.160
+What they can and cannot see or for us,
+what they can and cannot say.
+
+48
+00:02:32.280 --> 00:02:35.960
+So they really are circumscribing
+the boundaries of what
+
+49
+00:02:36.000 --> 00:02:39.000
+written words are even able to appear.
+
+50
+00:02:39.720 --> 00:02:42.440
+Especially as, you know,
+
+51
+00:02:42.440 --> 00:02:45.480
+we're thinking about all of the content
+that they're being trained on.
+
+52
+00:02:45.480 --> 00:02:48.640
+It's a way of ordering
+and processing that information.
+
+53
+00:02:48.880 --> 00:02:52.680
+All of that cultural memory,
+pretty much that has become unmanageable.
+
+54
+00:02:52.960 --> 00:02:57.760
+So how is it taking books,
+articles, wiki pages
+
+55
+00:02:57.760 --> 00:03:01.560
+and putting training that
+so that it becomes
+
+56
+00:03:01.560 --> 00:03:05.600
+circumscribed into particular formations
+in the latent space?
+
+57
+00:03:05.760 --> 00:03:11.200
+He also talks about image operations
+through vectorization.
+
+58
+00:03:11.200 --> 00:03:14.000
+And a quick explanation for
+that is basically,
+
+59
+00:03:14.000 --> 00:03:18.000
+you know, when we are training these llms,
+they can't
+
+60
+00:03:18.120 --> 00:03:19.680
+read the strings of text themselves.
+
+61
+00:03:19.680 --> 00:03:22.880
+They have to turn them into 
+numerical vectors,
+
+62
+00:03:22.880 --> 00:03:27.760
+which then it does functions
+and operations with that.
+
+63
+00:03:27.760 --> 00:03:33.080
+So it can actually allow for operations
+that aren't necessarily possible
+
+64
+00:03:33.080 --> 00:03:37.440
+or possible in the way we understand them
+when we're just writing with our own
+
+65
+00:03:37.440 --> 00:03:39.640
+hands, though,
+doing different things with them,
+
+66
+00:03:39.640 --> 00:03:43.080
+which also then forces us to rethink
+the concepts
+
+67
+00:03:43.080 --> 00:03:46.240
+we use to describe, in my terms,
+literary analysis.
+
+68
+00:03:46.280 --> 00:03:49.280
+Right? How are we going to rethink?
+
+69
+00:03:49.560 --> 00:03:54.760
+Metaphors or synonyms or alliteration?
+
+70
+00:03:54.760 --> 00:03:58.680
+Even these simple concepts,
+then, are kind of reconfigured
+
+71
+00:03:58.720 --> 00:04:03.560
+when they become the output of llms,
+and that is completely determined
+
+72
+00:04:03.560 --> 00:04:04.840
+by the latent space.
+
+73
+00:04:04.840 --> 00:04:08.960
+He also proposes an interesting concept
+around the latent space as a meta archive.
+
+74
+00:04:09.000 --> 00:04:13.760
+But then, rather than an archive
+which you think is based
+
+75
+00:04:13.760 --> 00:04:16.840
+in the performances
+of preservation of text
+
+76
+00:04:16.840 --> 00:04:21.600
+or retrieval of it,
+the LM then is or like the latent
+
+77
+00:04:21.600 --> 00:04:25.880
+space is in transforming that rather
+than preserving those original texts.
+
+78
+00:04:25.880 --> 00:04:30.880
+So what this translation
+in this meta archive look for text.
+
+79
+00:04:31.040 --> 00:04:32.160
+He doesn't answer those questions.
+
+80
+00:04:32.160 --> 00:04:34.640
+And that's something
+I'm curious about in my own research.
+
+81
+00:04:35.840 --> 00:04:39.720
+So how do we actually go about trying
+to offer
+
+82
+00:04:39.720 --> 00:04:43.560
+some theory of latent spaces
+for literary culture and text?
+
+83
+00:04:43.600 --> 00:04:47.040
+I want to pull from
+
+84
+00:04:47.080 --> 00:04:50.080
+another really interesting thinker for me,
+Hannah Speyer.
+
+85
+00:04:50.160 --> 00:04:55.400
+And he, in his own article on surface
+reading,
+
+86
+00:04:55.400 --> 00:05:00.680
+pulls into another critic,
+into his discussion, Wilhelm Flusser.
+
+87
+00:05:00.800 --> 00:05:04.480
+And he says Flusser emphasizes
+negotiating the relationship
+
+88
+00:05:04.480 --> 00:05:09.280
+between surface and depth by beginning
+from the surface rather than the depth,
+
+89
+00:05:09.600 --> 00:05:12.800
+for only the phenomenon of service
+can provide the intuition
+
+90
+00:05:12.840 --> 00:05:15.920
+that the abstract knowledge
+of technical substructure cannot.
+
+91
+00:05:15.920 --> 00:05:19.680
+So even if we have some abstract knowledge
+of how this latent space
+
+92
+00:05:19.720 --> 00:05:22.720
+is configured, how the LMS function,
+
+93
+00:05:22.920 --> 00:05:26.800
+you actually might get a better sense
+by looking at the surface.
+
+94
+00:05:26.800 --> 00:05:31.040
+And for me, that's, you know,
+like the textual output of these LMS
+
+95
+00:05:31.080 --> 00:05:36.040
+to create a start,
+to build a technical imagination
+
+96
+00:05:36.120 --> 00:05:40.040
+of what
+the latent space actually looks like.
+
+97
+00:05:41.360 --> 00:05:45.480
+So with
+this set, obviously you can't extrapolate
+
+98
+00:05:45.480 --> 00:05:49.720
+from a single example of a little output,
+but that doesn't mean you shouldn't.
+
+99
+00:05:49.720 --> 00:05:51.960
+You should disregard all examples, right?
+
+100
+00:05:51.960 --> 00:05:57.080
+I think that still seeing various ones
+then starts to build those tools
+
+101
+00:05:57.120 --> 00:06:00.880
+of a technical imagination
+that I'm trying to achieve
+
+102
+00:06:00.920 --> 00:06:04.600
+to better to get a better sense
+of what these latent spaces look like.
+
+103
+00:06:04.600 --> 00:06:08.800
+And here I have Ross Godwin's one
+The Road, Ryan Hauser's generated
+
+104
+00:06:08.800 --> 00:06:12.160
+Poetry on top, and Boyer's Berlin Miami,
+which are all
+
+105
+00:06:14.080 --> 00:06:17.080
+generated text based on certain
+
+106
+00:06:17.760 --> 00:06:20.680
+inputs and certain restrictions.
+
+107
+00:06:20.680 --> 00:06:23.320
+What's interesting is that 
+I also chose these three
+
+108
+00:06:23.320 --> 00:06:26.640
+because there's all critical
+writing about all of them.
+
+109
+00:06:27.320 --> 00:06:30.560
+And what's interesting
+in all this critical writing about this
+
+110
+00:06:30.560 --> 00:06:35.560
+LM generated writing is that they agree
+on a lot of things where there's perhaps
+
+111
+00:06:35.600 --> 00:06:40.080
+like overly correct details, but sometimes
+to the detriment of the actual writing,
+
+112
+00:06:40.080 --> 00:06:45.280
+that there is cohesion,
+but not a full like coherency.
+
+113
+00:06:45.320 --> 00:06:45.920
+Right?
+
+114
+00:06:45.920 --> 00:06:49.000
+I'm not a full artistic unity
+within the work.
+
+115
+00:06:49.000 --> 00:06:53.000
+Sometimes it's fragmented
+and sometimes it becomes two smooth.
+
+116
+00:06:53.000 --> 00:06:57.680
+And so these cohesion and patterns
+are implied or almost over implied.
+
+117
+00:06:57.680 --> 00:07:02.400
+But it doesn't
+get to a full, continuous narrative.
+
+118
+00:07:02.440 --> 00:07:04.600
+And so my work
+
+119
+00:07:04.600 --> 00:07:07.840
+aims to extend this research,
+but also complicated because
+
+120
+00:07:07.840 --> 00:07:11.120
+what I'm looking at with compressed
+cinema, as I'll go into and explain,
+
+121
+00:07:11.120 --> 00:07:17.280
+is that all of these works
+that I'm showing here are based on these
+
+122
+00:07:18.560 --> 00:07:19.160
+sample
+
+123
+00:07:19.160 --> 00:07:23.360
+in training samples
+that do have some sense of like coherency
+
+124
+00:07:23.360 --> 00:07:27.080
+and artistic unity
+right there for its full science fiction.
+
+125
+00:07:27.080 --> 00:07:31.120
+All of these training for one, the road,
+there's actually a road trip with sensors
+
+126
+00:07:31.120 --> 00:07:36.120
+that sense, as the car goes
+to generate the output.
+
+127
+00:07:36.120 --> 00:07:39.120
+And so there is some sense of continuity
+here.
+
+128
+00:07:39.600 --> 00:07:42.600
+Press cinema is a little bit different.
+
+129
+00:07:42.720 --> 00:07:46.600
+So comparison is an art book of film
+
+130
+00:07:46.600 --> 00:07:50.480
+stills by Casey Reyes
+with captions by Allison Parrish.
+
+131
+00:07:50.640 --> 00:07:55.120
+But all of these are AI generated
+or AI assisted in some way.
+
+132
+00:07:55.120 --> 00:08:00.400
+And I'm especially interested
+in the captions for works, is that Reyes
+
+133
+00:08:00.440 --> 00:08:05.400
+took existing films
+and then created sets of images
+
+134
+00:08:05.400 --> 00:08:10.160
+based on them by way of generating
+generative adversarial networks.
+
+135
+00:08:11.800 --> 00:08:13.640
+Then Parrish
+
+136
+00:08:13.640 --> 00:08:17.400
+looked at those film stills
+
+137
+00:08:18.400 --> 00:08:20.560
+she composed herself.
+
+138
+00:08:20.560 --> 00:08:24.160
+Quote in putting from her dense,
+minimalist descriptions of each image
+
+139
+00:08:24.160 --> 00:08:25.320
+spread.
+
+140
+00:08:25.320 --> 00:08:28.640
+But then she took the mask
+filling functionality of Facebook's
+
+141
+00:08:28.680 --> 00:08:32.640
+AI Bart model to then
+Italy, uncompressed those descriptions.
+
+142
+00:08:32.640 --> 00:08:36.920
+So the film the images are compressed
+from original films,
+
+143
+00:08:36.920 --> 00:08:43.040
+and then Parrish writes the captions and
+then compresses those with an LM model.
+
+144
+00:08:43.080 --> 00:08:47.000
+Bart the very dense captions.
+
+145
+00:08:47.000 --> 00:08:52.120
+You can see this in one example that
+she gave of a free uncompressed caption.
+
+146
+00:08:52.200 --> 00:08:57.320
+The paints buckled a shoulders
+thermocline and elbows tint full crook
+
+147
+00:08:57.520 --> 00:09:01.600
+night sheared off, drools
+a golden geode, then waltzes.
+
+148
+00:09:01.600 --> 00:09:06.600
+So while it's specific in its phrasing,
+each phrase itself is unconventional,
+
+149
+00:09:06.600 --> 00:09:09.320
+ambiguous, and interpretation,
+so it's dense in the way
+
+150
+00:09:09.320 --> 00:09:12.000
+it allows an abundance
+of meaning in these laconic fragments.
+
+151
+00:09:12.000 --> 00:09:17.160
+So then she uses Bart to uncompressed
+those and expand them outwards.
+
+152
+00:09:17.200 --> 00:09:20.200
+Bart is a bidirectional
+and autoregressive transformer,
+
+153
+00:09:20.200 --> 00:09:24.440
+so it kind of combines two functionalities
+of machine learning models.
+
+154
+00:09:24.440 --> 00:09:30.120
+So bidirectional encoder
+is basically look at a fragment of text
+
+155
+00:09:30.120 --> 00:09:33.960
+where some parts of it
+have been snipped out, and they try to
+
+156
+00:09:34.000 --> 00:09:37.840
+guess where they've been snipped out
+and what those blank spaces
+
+157
+00:09:37.840 --> 00:09:42.640
+might look like in autoregressive decoder
+then, is a little bit different,
+
+158
+00:09:42.640 --> 00:09:45.680
+where it's given a string of text
+and is supposed to complete
+
+159
+00:09:45.720 --> 00:09:47.120
+like the next likely word.
+
+160
+00:09:47.120 --> 00:09:51.000
+So think of, you know,
+like when you're texting
+
+161
+00:09:51.000 --> 00:09:54.080
+and it suggests a word that's similar to
+what an auto regressive
+
+162
+00:09:54.120 --> 00:09:57.120
+decoder is doing
+when you put them together, then
+
+163
+00:09:57.440 --> 00:10:00.880
+say that you're given that caption
+I just read aloud from parish.
+
+164
+00:10:01.280 --> 00:10:05.640
+The Bart model would look at it be like,
+I think there's some missing spaces here.
+
+165
+00:10:05.640 --> 00:10:07.480
+I think they're here, here and here.
+
+166
+00:10:07.480 --> 00:10:09.640
+And then the model also goes,
+
+167
+00:10:09.640 --> 00:10:12.960
+okay, well, based on
+what else is going around in the passage,
+
+168
+00:10:12.960 --> 00:10:16.720
+I think that the empty spaces
+should have the words XYZ.
+
+169
+00:10:17.880 --> 00:10:20.560
+So then uncompressed is also interesting
+in that parish's
+
+170
+00:10:20.560 --> 00:10:24.200
+fragments, what Bart might see is tokens
+that have been masked
+
+171
+00:10:24.200 --> 00:10:27.920
+or eliminated to some extent,
+or in fact the original text.
+
+172
+00:10:27.960 --> 00:10:28.720
+Right?
+
+173
+00:10:28.720 --> 00:10:32.280
+So even while uncompressed, a file
+is generally to return detailed
+
+174
+00:10:32.280 --> 00:10:36.880
+information to it, perish
+this assumption in her generating process.
+
+175
+00:10:37.560 --> 00:10:40.560
+So what do these captions
+actually look like?
+
+176
+00:10:40.800 --> 00:10:43.600
+What I find interesting is that
+even though they are so fragmented,
+
+177
+00:10:43.600 --> 00:10:45.640
+they're not, you know, this continuous
+narrative, right?
+
+178
+00:10:45.640 --> 00:10:48.760
+They're like fragmented captions
+of discrete parts of the narrative.
+
+179
+00:10:49.080 --> 00:10:52.480
+It then starts to converge, similar
+
+180
+00:10:52.480 --> 00:10:56.440
+to what we see in those 
+other examples of LM generated text.
+
+181
+00:10:56.480 --> 00:11:00.240
+I claim that they established
+sensory detail, scene and characters,
+
+182
+00:11:00.240 --> 00:11:05.920
+even while her initial fragments don't
+necessarily seem to try to do that. So
+
+183
+00:11:06.960 --> 00:11:07.840
+the sentences
+
+184
+00:11:07.840 --> 00:11:12.200
+discuss crystalline mouthparts
+that are soft and shiny and soak,
+
+185
+00:11:12.200 --> 00:11:15.680
+and the sun begins to lighten
+and the rain stops.
+
+186
+00:11:15.680 --> 00:11:19.320
+And so, while it's not connected to
+an obvious narrative, these lines conjure
+
+187
+00:11:19.480 --> 00:11:22.920
+wet greenery, the interest to cease
+between rain and sign and light
+
+188
+00:11:22.960 --> 00:11:24.400
+reflecting off of the do.
+
+189
+00:11:24.400 --> 00:11:28.640
+Or there's a scenery
+in terms of a church, a large Gothic
+
+190
+00:11:28.640 --> 00:11:32.360
+Revival stained glass window which adds
+to the intensity of the imagery,
+
+191
+00:11:33.160 --> 00:11:37.160
+and the narrative continues
+that this is where they live.
+
+192
+00:11:37.200 --> 00:11:41.800
+The pillars mutter look, which locates
+this place containing pillars
+
+193
+00:11:41.800 --> 00:11:44.600
+which are commonly found in Gothic
+Revival architecture.
+
+194
+00:11:44.600 --> 00:11:45.400
+Right.
+
+195
+00:11:45.400 --> 00:11:50.000
+And then there's also some sense
+of characterization around the pillars.
+
+196
+00:11:50.640 --> 00:11:52.560
+The narrator comments.
+
+197
+00:11:52.560 --> 00:11:56.640
+Salt peers around the room
+and raises his face
+
+198
+00:11:56.640 --> 00:11:58.960
+to the ceiling and gazes in disgust.
+
+199
+00:12:00.520 --> 00:12:03.520
+So if we extrapolate from the one pre
+
+200
+00:12:03.520 --> 00:12:06.440
+uncompressed writing sample
+that Parrish gives us, she's not concerned
+
+201
+00:12:06.440 --> 00:12:09.680
+in presenting a clear narrative,
+but in reading the final Bartosz
+
+202
+00:12:09.800 --> 00:12:12.880
+version, it's hard to ignore the gestures
+towards such a possibility.
+
+203
+00:12:13.040 --> 00:12:16.640
+On the sentence level, we can surmise
+why the individual components of the story
+
+204
+00:12:16.680 --> 00:12:18.040
+will emerge.
+
+205
+00:12:18.040 --> 00:12:21.720
+Makes sense that a lot of
+the original text was surrealistic images,
+
+206
+00:12:21.720 --> 00:12:25.600
+so it makes sense that Bart would choose
+to repeat this with more sensory imagery.
+
+207
+00:12:25.880 --> 00:12:29.480
+But even if
+
+208
+00:12:30.720 --> 00:12:34.360
+all of this has some gesture
+towards possibility,
+
+209
+00:12:34.360 --> 00:12:38.400
+the fact that Bart picks up
+on these individual elements of character
+
+210
+00:12:38.400 --> 00:12:42.840
+and scene is some specific choice
+determined by the latent space.
+
+211
+00:12:42.840 --> 00:12:47.040
+So Parrish does uncompressed
+racist films in a particular way
+
+212
+00:12:47.240 --> 00:12:52.440
+by reintroducing that sensory detail,
+environment and character driven action.
+
+213
+00:12:53.600 --> 00:12:54.040
+So there's
+
+214
+00:12:54.040 --> 00:12:57.880
+some sense of narrative ness,
+even while it's not a full narrative.
+
+215
+00:12:57.880 --> 00:12:59.400
+And what I think is especially weird
+
+216
+00:12:59.400 --> 00:13:03.120
+is that this is where it becomes
+it comes from a logical fragments
+
+217
+00:13:03.160 --> 00:13:07.000
+rather than logical continuity
+like we see in those other examples.
+
+218
+00:13:07.520 --> 00:13:11.200
+The way that the latent space vectorize
+as input text, it's
+
+219
+00:13:11.280 --> 00:13:15.440
+circumscribed as the possible outputs
+of what is even available to be generated,
+
+220
+00:13:15.440 --> 00:13:19.400
+and it by transforming
+rather than preserving the text that's
+
+221
+00:13:19.400 --> 00:13:23.720
+trained on it, produces similar forms
+
+222
+00:13:24.000 --> 00:13:28.000
+throughout various options of input text.
+
+223
+00:13:28.080 --> 00:13:32.600
+It starts to move towards
+a similar output.
+
+224
+00:13:32.760 --> 00:13:36.360
+And so I have a quote
+which I think is actually really helpful.
+
+225
+00:13:36.360 --> 00:13:41.480
+Overview of lens by three blue one brown,
+where I suggest that maybe
+
+226
+00:13:41.520 --> 00:13:46.360
+latent space is latent spaces are encoding
+these higher level concepts
+
+227
+00:13:47.560 --> 00:13:51.400
+cast just like the name of a thing or what
+
+228
+00:13:51.440 --> 00:13:56.840
+a noun is, but maybe larger narrative
+ness qualities are encoded.
+
+229
+00:13:57.600 --> 00:13:58.640
+And thank you.
+
+230
+00:13:58.640 --> 00:14:00.080
+That's all I have for my presentation.

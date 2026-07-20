@@ -1,0 +1,890 @@
+WEBVTT
+
+1
+00:56:24.400 --> 00:56:24.720
+All right.
+
+2
+00:56:24.720 --> 00:56:27.720
+Hello, I'm Nick Montfort.
+
+3
+00:56:27.760 --> 00:56:32.840
+My thanks to the Yellow Conference team
+and to all of you for joining me today.
+
+4
+00:56:32.840 --> 00:56:37.280
+I'll be speaking about a research project
+at the two institutions
+
+5
+00:56:37.280 --> 00:56:41.800
+I'm affiliated with, MIT's Trope Tank and
+
+6
+00:56:42.600 --> 00:56:47.160
+the center for Digital Narratives, center
+for the center
+
+7
+00:56:47.160 --> 00:56:50.560
+for Digital Narrative
+at the University of Bergen in Norway.
+
+8
+00:56:50.800 --> 00:56:54.480
+I'll introduce this
+Narrative Knobs project, and I'll give you
+
+9
+00:56:54.600 --> 00:56:58.000
+one hint of the research
+result we have at this point.
+
+10
+00:56:59.600 --> 00:57:02.280
+So here's how we'll proceed.
+
+11
+00:57:02.280 --> 00:57:05.640
+First, a short
+discussion of what a story generator
+
+12
+00:57:05.640 --> 00:57:09.120
+is with a bit of historical context,
+
+13
+00:57:09.600 --> 00:57:13.440
+then an introduction
+to the project overall.
+
+14
+00:57:13.440 --> 00:57:18.440
+And after that I'll look at four
+abstracted reimplementation
+
+15
+00:57:18.640 --> 00:57:24.040
+or sketches or nubs
+that we've developed so far.
+
+16
+00:57:24.080 --> 00:57:27.920
+And finally,
+a little about one research result
+
+17
+00:57:27.920 --> 00:57:32.040
+we obtained so far,
+which is a nuanced understanding
+
+18
+00:57:32.040 --> 00:57:38.080
+of how the story worlds of these four
+generators are organized as universes.
+
+19
+00:57:38.080 --> 00:57:40.280
+That is, their cosmologies.
+
+20
+00:57:40.280 --> 00:57:44.200
+I'll just contrast the cosmologies
+of two generators in today's
+
+21
+00:57:44.200 --> 00:57:47.200
+brief presentation.
+
+22
+00:57:51.360 --> 00:57:52.760
+So to begin with,
+
+23
+00:57:52.760 --> 00:57:55.840
+some examples of story generation,
+
+24
+00:57:55.840 --> 00:57:58.840
+just two of them in context.
+
+25
+00:57:58.920 --> 00:58:02.520
+But context is a very broad
+historical one.
+
+26
+00:58:02.560 --> 00:58:06.280
+This is a timeline by my collaborator
+Jacob Cosmic.
+
+27
+00:58:06.640 --> 00:58:10.320
+And beginning in 1960,
+
+28
+00:58:10.360 --> 00:58:14.560
+when there was a sort of demo developed
+
+29
+00:58:14.560 --> 00:58:21.720
+by MIT programmers for a CBS documentary,
+there's been a huge amount of activity
+
+30
+00:58:21.720 --> 00:58:25.080
+in Story Generation
+for many different purposes.
+
+31
+00:58:25.800 --> 00:58:29.640
+A lot of it has been research based,
+and if you read survey papers,
+
+32
+00:58:29.640 --> 00:58:33.840
+you'll find a lot of the regular sorts
+of usual suspects.
+
+33
+00:58:34.040 --> 00:58:37.600
+But there's many other sorts of systems
+as well.
+
+34
+00:58:37.720 --> 00:58:42.160
+And to give you an idea of what a story
+generator is from our perspective,
+
+35
+00:58:42.200 --> 00:58:45.160
+I'll start off and turn
+
+36
+00:58:45.160 --> 00:58:48.400
+to probably
+the most canonical of them all,
+
+37
+00:58:48.640 --> 00:58:51.400
+tailspin by James Meehan system
+
+38
+00:58:51.400 --> 00:58:55.160
+that he published his dissertation
+about in 1976.
+
+39
+00:58:55.200 --> 00:59:00.760
+It's known for generating stories
+about anthropomorphic animals
+
+40
+00:59:00.760 --> 00:59:04.200
+who are trying to satisfy their
+
+41
+00:59:04.360 --> 00:59:08.440
+hungers, for instance, and and be able.
+
+42
+00:59:08.480 --> 00:59:11.600
+Joe Bear is looking for some honey
+and so forth,
+
+43
+00:59:11.640 --> 00:59:16.720
+but it actually can generate
+other sorts of stories as well.
+
+44
+00:59:16.720 --> 00:59:20.600
+And here it's not Jobert,
+but Joe Newton and Maggie Smith,
+
+45
+00:59:20.640 --> 00:59:23.600
+who are working to satisfy
+a different need.
+
+46
+00:59:23.600 --> 00:59:25.680
+At the base of Maslow's hierarchy.
+
+47
+00:59:25.680 --> 00:59:30.000
+They were horny
+and needed to get together.
+
+48
+00:59:31.680 --> 00:59:33.000
+Tailspin is also famous
+
+49
+00:59:33.000 --> 00:59:36.720
+for coming up with Miss Spun Tales
+like this one.
+
+50
+00:59:36.800 --> 00:59:40.480
+Gravity was implemented as a character,
+so gravity drowned
+
+51
+00:59:40.480 --> 00:59:42.480
+when it fell into the river.
+
+52
+00:59:42.480 --> 00:59:47.840
+And these are interesting examples
+that neon writes about in his thesis,
+
+53
+00:59:47.840 --> 00:59:52.720
+and they're probably actually more famous
+in many ways than the successful stories
+
+54
+00:59:52.760 --> 00:59:54.000
+came out of tailspin.
+
+55
+00:59:54.000 --> 00:59:58.480
+Although tailspin did influence The Sims,
+Richard Evans based some of the character
+
+56
+00:59:58.480 --> 01:00:02.640
+generation or character development
+and behavior
+
+57
+01:00:02.760 --> 01:00:07.040
+on Tailspin Story Machine.
+
+58
+01:00:07.040 --> 01:00:10.800
+Now let's set the Wayback Machine
+for 1983.
+
+59
+01:00:10.840 --> 01:00:15.280
+Is an attainment piece of software,
+
+60
+01:00:15.320 --> 01:00:19.360
+actually seven different pieces
+of software for seven different platforms.
+
+61
+01:00:19.360 --> 01:00:23.200
+And here we see the Commodore 64 version,
+one of three
+
+62
+01:00:23.240 --> 01:00:26.760
+that runs on its own
+generating these stories.
+
+63
+01:00:26.800 --> 01:00:30.560
+I've turned off the sound,
+but there's leap motifs that go with
+
+64
+01:00:30.560 --> 01:00:34.520
+each of the different sorts of objects
+these animistic pan
+
+65
+01:00:35.120 --> 01:00:37.960
+actors
+who are going around and doing stuff.
+
+66
+01:00:39.520 --> 01:00:40.640
+So to
+
+67
+01:00:40.640 --> 01:00:44.200
+put those back in context,
+we see on already
+
+68
+01:00:44.240 --> 01:00:47.560
+a variety of different art
+projects, commercial projects
+
+69
+01:00:47.560 --> 01:00:53.200
+and research projects in the first half
+of this timeline, and then from 1990 on,
+
+70
+01:00:53.240 --> 01:00:58.320
+a lot of additional activity, 
+which is still ongoing.
+
+71
+01:00:59.280 --> 01:01:02.240
+Now to introduce
+the Narrative Nubs project.
+
+72
+01:01:02.240 --> 01:01:05.600
+Our project is to develop systematic
+
+73
+01:01:05.600 --> 01:01:08.760
+and abstract re re implementations
+
+74
+01:01:08.760 --> 01:01:12.160
+of these story generators, story
+generators of these sorts.
+
+75
+01:01:12.200 --> 01:01:17.160
+And there are six of us, Yuka
+being the lead on the project
+
+76
+01:01:17.200 --> 01:01:21.440
+now and programing that after work
+
+77
+01:01:21.440 --> 01:01:26.800
+by four others and my having founded this
+and worked with Louis
+
+78
+01:01:26.800 --> 01:01:30.680
+and Daniel quite a while ago, and Michel
+and more recently
+
+79
+01:01:31.000 --> 01:01:34.000
+the project is
+
+80
+01:01:34.600 --> 01:01:36.800
+located
+
+81
+01:01:36.800 --> 01:01:37.200
+here.
+
+82
+01:01:37.200 --> 01:01:41.400
+In the chat
+I've pasted the URL on Koeberg,
+
+83
+01:01:41.400 --> 01:01:46.520
+which is a development platform very much
+like GitHub, except community based.
+
+84
+01:01:46.680 --> 01:01:50.400
+So the idea at a very high level
+
+85
+01:01:50.400 --> 01:01:55.960
+is we take an existing story
+generator like story machine,
+
+86
+01:01:55.960 --> 01:02:00.000
+and we develop our abstract
+reimplementation
+
+87
+01:02:00.000 --> 01:02:03.600
+of it as freely bourbon source software
+that anyone can use.
+
+88
+01:02:03.600 --> 01:02:07.120
+And in the process
+of doing this, we learned some things.
+
+89
+01:02:08.280 --> 01:02:10.360
+There's no generative AI involved.
+
+90
+01:02:10.360 --> 01:02:15.320
+Since we've been talking about
+AI a lot at yellow 2026, the systems
+
+91
+01:02:15.320 --> 01:02:20.600
+we study are in many cases AI systems,
+but they're good old fashioned AI systems.
+
+92
+01:02:20.640 --> 01:02:25.040
+Go find we're not studying
+any gen AI systems,
+
+93
+01:02:25.040 --> 01:02:28.320
+and we're not using gen AI to write code.
+
+94
+01:02:28.320 --> 01:02:32.000
+Claude is not a member of our team,
+and despite the track,
+
+95
+01:02:32.080 --> 01:02:34.120
+there's no relationship to hypertext.
+
+96
+01:02:34.120 --> 01:02:35.760
+Also,
+
+97
+01:02:35.760 --> 01:02:38.840
+a miniature now is a related concept
+
+98
+01:02:38.880 --> 01:02:42.000
+a small scale version of a computer system
+with the essentials.
+
+99
+01:02:42.000 --> 01:02:45.120
+So Roger Schank
+had his students develop these miniatures,
+
+100
+01:02:45.120 --> 01:02:48.560
+and in fact, Mian did one for tailspin.
+
+101
+01:02:48.560 --> 01:02:51.880
+But there's been many other tailspin
+implementations that have been done
+
+102
+01:02:51.880 --> 01:02:55.920
+over the years,
+and we implementations of other systems.
+
+103
+01:02:55.920 --> 01:03:00.160
+What we're doing that's different
+is creating a systematic set
+
+104
+01:03:00.200 --> 01:03:05.280
+of reimplementation, and they're meant
+to be abstract, capture the essence.
+
+105
+01:03:05.280 --> 01:03:08.840
+So they're miniature like,
+but not by the original developers.
+
+106
+01:03:08.840 --> 01:03:11.960
+They're in Python three,
+a widely used language.
+
+107
+01:03:12.000 --> 01:03:14.640
+They share libraries that we developed.
+
+108
+01:03:14.640 --> 01:03:19.280
+Their coded in a consistent style,
+and they're more concise,
+
+109
+01:03:19.440 --> 01:03:21.240
+more concise than the originals.
+
+110
+01:03:21.240 --> 01:03:27.000
+Now, this all has certain instrumental
+purposes because we make this available.
+
+111
+01:03:27.000 --> 01:03:32.040
+We have a version one release already and 
+people can use it for future research.
+
+112
+01:03:32.040 --> 01:03:36.400
+They can integrate and modify the knobs,
+they can use it in teaching and learning,
+
+113
+01:03:36.400 --> 01:03:40.080
+and they can make nubs
+the basis of new artistic projects.
+
+114
+01:03:40.880 --> 01:03:45.400
+But abstracted
+reimplementation is itself research.
+
+115
+01:03:45.840 --> 01:03:48.840
+The general concept
+is programing as inquiry.
+
+116
+01:03:48.840 --> 01:03:52.760
+But more specifically, what
+we're conducting is what your neighbor
+
+117
+01:03:53.000 --> 01:03:57.400
+described as rational reconstruction,
+helping us move from knowhow
+
+118
+01:03:57.400 --> 01:04:00.840
+and implicit understanding of yeah,
+we know what tailspin does.
+
+119
+01:04:00.880 --> 01:04:03.880
+We know what Story
+Machine does to know what
+
+120
+01:04:03.960 --> 01:04:07.600
+explicit knowledge
+of how its rules functioned.
+
+121
+01:04:07.840 --> 01:04:12.440
+Abstraction also compels us to determine
+what's essential about these systems
+
+122
+01:04:12.440 --> 01:04:13.760
+from our perspective,
+
+123
+01:04:13.760 --> 01:04:18.120
+and this compels a better understanding
+of these existing story systems.
+
+124
+01:04:18.880 --> 01:04:22.600
+So here is an overview of what we've done.
+
+125
+01:04:22.640 --> 01:04:27.520
+A diagram that Jacob produced showing
+that we have so far
+
+126
+01:04:27.560 --> 01:04:31.840
+four nubs, gesture Taylor, Story Machine
+and Through the Park.
+
+127
+01:04:31.920 --> 01:04:37.200
+Two of these share
+a library a realized that transforms
+
+128
+01:04:38.760 --> 01:04:39.640
+abstract sentence
+
+129
+01:04:39.640 --> 01:04:42.960
+representations into surface text.
+
+130
+01:04:43.680 --> 01:04:46.200
+And these nubs are based on systems
+
+131
+01:04:46.200 --> 01:04:49.200
+of very different sorts.
+
+132
+01:04:49.440 --> 01:04:50.560
+So let me tell you
+
+133
+01:04:50.560 --> 01:04:53.560
+a little bit about what they are.
+
+134
+01:04:53.760 --> 01:04:58.840
+You saw Story Machine,
+but what our nub of it does is in
+
+135
+01:04:58.840 --> 01:05:03.960
+many ways quite an extreme extraction
+and an extreme abstraction,
+
+136
+01:05:03.960 --> 01:05:06.960
+because we're interested in presenting
+
+137
+01:05:07.000 --> 01:05:10.080
+text based story generation.
+
+138
+01:05:10.360 --> 01:05:13.640
+We've left aside all the animation,
+
+139
+01:05:13.680 --> 01:05:17.560
+the sound, the
+
+140
+01:05:17.560 --> 01:05:22.320
+the iconography,
+what's on screen or off screen,
+
+141
+01:05:22.600 --> 01:05:26.880
+and we've simply taken
+the sentences that are generated.
+
+142
+01:05:26.880 --> 01:05:31.920
+And that's our abstraction of what Story
+Machine does.
+
+143
+01:05:32.640 --> 01:05:37.840
+In the nub for gesture.
+
+144
+01:05:37.880 --> 01:05:42.480
+We have a text based system to begin with,
+and we've tried to understand it
+
+145
+01:05:42.480 --> 01:05:46.400
+with reference to the extensive work
+that Lim Pemberton did.
+
+146
+01:05:46.880 --> 01:05:50.680
+More than one advanced degree
+about this, modeling
+
+147
+01:05:50.680 --> 01:05:55.520
+the structure of old French epics,
+and then building a specific story
+
+148
+01:05:55.520 --> 01:05:58.640
+generator
+that operationalized those ideas.
+
+149
+01:05:58.640 --> 01:06:03.000
+So here's the beginning
+of one complex story that our gesture nub
+
+150
+01:06:03.040 --> 01:06:08.880
+has generated
+about one of these old French epic heroes
+
+151
+01:06:08.960 --> 01:06:15.760
+seeking a woman and going to assault
+a city in order to capture
+
+152
+01:06:16.800 --> 01:06:18.080
+the Taylor
+
+153
+01:06:18.080 --> 01:06:21.960
+nub models a system from 1991 by
+
+154
+01:06:21.960 --> 01:06:26.080
+Smith and Whitten that has anthropomorphic
+animals in the tundra.
+
+155
+01:06:26.320 --> 01:06:30.120
+And you can see that sometimes
+things turn out better or worse.
+
+156
+01:06:30.160 --> 01:06:33.720
+Or in this case, the Arctic turn. Truman.
+
+157
+01:06:33.720 --> 01:06:37.320
+It's a game playing model
+using the minimax algorithm,
+
+158
+01:06:37.520 --> 01:06:41.600
+and the last model is one
+based on ellipses.
+
+159
+01:06:41.640 --> 01:06:47.280
+It's an extremely simple system
+that I developed in 2008, but it's across
+
+160
+01:06:47.640 --> 01:06:52.240
+four languages, and that may make it
+a little more interesting.
+
+161
+01:06:52.400 --> 01:06:57.680
+And I'll just hint at the cosmology
+of two of these story worlds
+
+162
+01:06:57.680 --> 01:07:02.320
+as being something that we understood
+better through our existing process.
+
+163
+01:07:02.320 --> 01:07:05.040
+So there's a great chain of being
+
+164
+01:07:05.040 --> 01:07:07.960
+that I'm going to tell you
+about in about 15 seconds.
+
+165
+01:07:07.960 --> 01:07:12.720
+It holds all throughout the Middle Ages,
+for instance,
+
+166
+01:07:12.720 --> 01:07:16.840
+that things that have more properties
+are better than things with fewer God,
+
+167
+01:07:16.840 --> 01:07:20.640
+better than angels, better than humans,
+better than non-human animals,
+
+168
+01:07:20.880 --> 01:07:23.080
+better than plants, better than rocks.
+
+169
+01:07:23.080 --> 01:07:26.160
+So which of these different types
+
+170
+01:07:26.160 --> 01:07:29.280
+of story universes are more in line
+with the great chain of being?
+
+171
+01:07:29.280 --> 01:07:34.840
+And when we get down to nuance, how is it
+that they resisted or embrace it?
+
+172
+01:07:34.840 --> 01:07:38.320
+So jester, of course,
+being based on the old French epic,
+
+173
+01:07:38.360 --> 01:07:42.320
+actual medieval literature
+is quite related to this.
+
+174
+01:07:42.320 --> 01:07:46.880
+And one of the things we did
+in implementing the system is to model
+
+175
+01:07:46.920 --> 01:07:50.680
+God as a first order entity
+within the system,
+
+176
+01:07:50.680 --> 01:07:56.680
+because the characters praise God after
+they've been successful at their conquest.
+
+177
+01:07:56.720 --> 01:08:01.480
+On the other hand, Story Machine very much
+resists the great chain of being.
+
+178
+01:08:01.480 --> 01:08:04.520
+It's a lexical system
+in which all sorts of things can happen.
+
+179
+01:08:04.520 --> 01:08:09.200
+Any actor is as likely to perform
+an action
+
+180
+01:08:09.200 --> 01:08:12.880
+that's intransitive
+or on some other action,
+
+181
+01:08:12.880 --> 01:08:16.760
+so the boy can eat the apple
+as easily as the apple can eat the boy.
+
+182
+01:08:17.880 --> 01:08:18.800
+There
+
+183
+01:08:18.800 --> 01:08:21.840
+are a few
+exceptions, and working with the system
+
+184
+01:08:21.840 --> 01:08:25.680
+so far has helped us to locate
+what those are and to see
+
+185
+01:08:25.680 --> 01:08:29.520
+how this flattened cosmology is not total.
+
+186
+01:08:30.040 --> 01:08:31.760
+So that's what I've got for you today.
+
+187
+01:08:31.760 --> 01:08:36.520
+I went a little over time,
+but we did go through some examples
+
+188
+01:08:36.520 --> 01:08:40.440
+of story generation and introduction
+to rather extensive project,
+
+189
+01:08:40.520 --> 01:08:44.920
+the four knobs we have
+and the cosmology of story worlds.
+
+190
+01:08:44.960 --> 01:08:47.960
+Thank you for your patience and attention.
