@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-20T15:23:36Z",
+  "generated": "2026-07-20T16:49:40Z",
   "source": "https://stars.library.ucf.edu/elo2026/combined_schedule/",
   "events": [
     {
@@ -935,7 +935,8 @@
       "type": "Panel",
       "start": "2026-07-18T13:15:00Z",
       "end": "2026-07-18T14:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/71/0e/4c/710e4ce234152c56c8ae4371b39903c4ba68effa33d261aacac8ca91eaef730d.m3u8"
     },
     {
       "title": "Small Changes, Large Effects: A Chaos Theory Framework for Electronic Literature in Climate Education for Indian Primary Students",
@@ -945,7 +946,8 @@
       "type": "Individual Talk",
       "start": "2026-07-18T13:15:00Z",
       "end": "2026-07-18T14:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/7d/70/a7/7d70a772a61b943be44716e206c1163f0bdb474d086454e012012fc0c8c4235d.m3u8"
     },
     {
       "title": "Teaching Writers to Think Queerly: Twine, Interactive Narrative, and the Unlearning of Linear Storytelling",
@@ -955,7 +957,8 @@
       "type": "Individual Talk",
       "start": "2026-07-18T13:15:00Z",
       "end": "2026-07-18T14:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/19/b6/59/19b6593923ac06b72906a7deb141adc4cbfaea5f9c59a8ae91118a0e8258de54.m3u8"
     },
     {
       "title": "Twine and Inky: A Hypertext Multi-tool for the Creative Writing Classroom",
@@ -965,7 +968,8 @@
       "type": "Individual Talk",
       "start": "2026-07-18T13:15:00Z",
       "end": "2026-07-18T14:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/0f/5c/4f/0f5c4f3202a4ce02c6bae6d5b76e527e8777806f589791c9dc0da75b727d68a9.m3u8"
     },
     {
       "title": "Vibe Coding: AI, Digital Text Recycling, and the Remediation of Digital Poetry",
@@ -986,7 +990,8 @@
       "type": "Individual Talk",
       "start": "2026-07-18T14:30:00Z",
       "end": "2026-07-18T15:30:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/5a/01/21/5a01219ec8aea553145741bff14fd76d83b3bba6158007bc621bab9ffd615df2.m3u8"
     },
     {
       "title": "Digital Nollywood as Interactive Narrative: Gender, Power, and Audience Rewriting",
@@ -996,7 +1001,8 @@
       "type": "Individual Talk",
       "start": "2026-07-18T14:30:00Z",
       "end": "2026-07-18T15:30:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/c2/60/50/c2605074417f60208a1943f514ee0a666db42404234813c77594275b9e8a2767.m3u8"
     },
     {
       "title": "Exiled to Latent Space: Writing from Dimensions We Cannot Enter",
@@ -1017,7 +1023,8 @@
       "type": "Individual Talk",
       "start": "2026-07-18T14:30:00Z",
       "end": "2026-07-18T15:30:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/07/2d/71/072d71a50f7e470b244e49532f2fd0e005f4adf5b885af5bfb192516435a3544.m3u8"
     },
     {
       "title": "New Beginnings",
@@ -1027,7 +1034,8 @@
       "type": "Individual Talk",
       "start": "2026-07-18T14:30:00Z",
       "end": "2026-07-18T15:30:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/61/72/80/6172802c6851189ed2264701822f9bfcb7fb487262e17706341978bf95f1eb0e.m3u8"
     },
     {
       "title": "Reacting to Electronic Literature in Akwa Ibom State, Nigeria",
@@ -1037,7 +1045,8 @@
       "type": "Individual Talk",
       "start": "2026-07-18T14:30:00Z",
       "end": "2026-07-18T15:30:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/b4/08/38/b40838ce3dc7b375321ea6883c51714182ab05efa881541284f7c73f2cca4d5e.m3u8"
     },
     {
       "title": "The Question is a Node: Online Quizzes as Interactive Non-Fiction",
@@ -1047,7 +1056,8 @@
       "type": "Individual Talk",
       "start": "2026-07-18T14:30:00Z",
       "end": "2026-07-18T15:30:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/39/61/d4/3961d49426ed9e1a8cbb0e2fd7369fa0b3b27e9f57ec7ac8d6554ee3ad1d92c9.m3u8"
     },
     {
       "title": "Unsupervised Pedagogy and Electronic Literature under Infrastructural Constraint: Experiences from Calabar",
@@ -1057,7 +1067,8 @@
       "type": "Individual Talk",
       "start": "2026-07-18T14:30:00Z",
       "end": "2026-07-18T15:30:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/50/e7/ff/50e7ff875d64a7c41ed223114457dea86a362b68b22f97b302c8d546aaf5ed39.m3u8"
     },
     {
       "title": "Keynote: Leonardo Flores, \"Beyond Impossible Writing: Electronic Literature in the Age of AI\"",
