@@ -1,248 +1,296 @@
-// Static electricity particles
-let particles = [];
-let numParticles = 100;
+// Static-electricity backdrop for the landing page.
+//
+// This runs on every visitor's machine behind the page content, so the work
+// per frame is deliberately bounded rather than proportional to the window:
+//   * particle count scales with viewport area but is hard-capped
+//   * neighbour search uses a spatial grid, not an all-pairs sweep
+//   * the number of lightning bolts drawn per frame is capped
+//   * pixel density is pinned to 1 (this is decoration, not detail work)
+// A 4K window with an uncapped all-pairs sweep was drawing tens of thousands
+// of line() calls per frame, which is enough to lock up a browser tab.
 
-// Color palette - vibrant colors from ELO logo
-let colors = [];
+const CONNECT_RADIUS = 120;
+const CONNECT_RADIUS_SQ = CONNECT_RADIUS * CONNECT_RADIUS;
+const MOUSE_RADIUS = 180;
+const MOUSE_RADIUS_SQ = MOUSE_RADIUS * MOUSE_RADIUS;
+const MAX_BOLTS_PER_FRAME = 42;
+const MAX_MOUSE_BOLTS = 8;
+const AREA_PER_PARTICLE = 34000;
+const MIN_PARTICLES = 18;
+const MAX_PARTICLES = 55;
+const TARGET_FPS = 30;
+
+// Palette from the ELO logo, kept as plain RGB so that per-draw alpha changes
+// never mutate a shared p5.Color the way random(colors) + setAlpha() did.
+const PALETTE = [
+  [255, 105, 180], // pink
+  [91, 111, 168],  // purple-blue
+  [255, 140, 66],  // orange
+  [77, 213, 232],  // cyan
+  [76, 175, 80],   // green
+];
+
+let particles = [];
+let grid = null;
+let reducedMotion = false;
+let resizeTimer = null;
+
+function particleTarget() {
+  const wanted = Math.round((width * height) / AREA_PER_PARTICLE);
+  return Math.max(MIN_PARTICLES, Math.min(MAX_PARTICLES, wanted));
+}
+
+function prefersReducedMotion() {
+  return Boolean(window.matchMedia?.("(prefers-reduced-motion: reduce)").matches);
+}
 
 function setup() {
-    let canvas = createCanvas(windowWidth, windowHeight);
-    canvas.parent('canvas-container');
+  const canvas = createCanvas(windowWidth, windowHeight);
+  canvas.parent("canvas-container");
+  pixelDensity(1);
+  frameRate(TARGET_FPS);
 
-    // Initialize color palette matching logo
-    colors = [
-        color(255, 105, 180, 150),  // Pink/Magenta
-        color(91, 111, 168, 150),   // Purple/Blue
-        color(255, 140, 66, 150),   // Orange
-        color(77, 213, 232, 150),   // Cyan/Light Blue
-        color(76, 175, 80, 150),    // Green
-    ];
+  grid = new SpatialGrid(CONNECT_RADIUS);
+  syncParticleCount();
 
-    // Create particles
-    for (let i = 0; i < numParticles; i++) {
-        particles.push(new Particle());
+  reducedMotion = prefersReducedMotion();
+  if (reducedMotion) {
+    redraw();
+    noLoop();
+  }
+
+  // A background tab still burns CPU on some browsers; stop entirely instead.
+  document.addEventListener("visibilitychange", () => {
+    if (document.hidden || reducedMotion) noLoop();
+    else loop();
+  });
+
+  window.matchMedia?.("(prefers-reduced-motion: reduce)").addEventListener?.(
+    "change",
+    (evt) => {
+      reducedMotion = evt.matches;
+      if (reducedMotion) { redraw(); noLoop(); } else loop();
     }
+  );
+}
 
-    // Respect prefers-reduced-motion: render one static frame, no animation
-    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-        noLoop();
-    }
+function syncParticleCount() {
+  const target = particleTarget();
+  while (particles.length > target) particles.pop();
+  while (particles.length < target) particles.push(new Particle());
 }
 
 function draw() {
-    // Fade background for trail effect
-    background(0, 0, 0, 25);
+  background(0, 0, 0, 25);
 
-    // Update and display particles
-    for (let particle of particles) {
-        particle.update();
-        particle.display();
-    }
+  for (const particle of particles) {
+    particle.update();
+    particle.display();
+  }
 
-    // Draw connections between nearby particles
-    drawConnections();
-
-    // Draw connections to mouse
-    drawMouseConnections();
+  grid.rebuild(particles);
+  drawConnections();
+  drawMouseConnections();
 }
 
+// Only particles sharing or adjoining a grid cell can be within
+// CONNECT_RADIUS, so this visits a bounded neighbourhood per particle
+// instead of every other particle.
 function drawConnections() {
-    for (let i = 0; i < particles.length; i++) {
-        for (let j = i + 1; j < particles.length; j++) {
-            let d = dist(
-                particles[i].pos.x, particles[i].pos.y,
-                particles[j].pos.x, particles[j].pos.y
-            );
+  let bolts = 0;
+  for (let i = 0; i < particles.length && bolts < MAX_BOLTS_PER_FRAME; i++) {
+    const a = particles[i];
+    for (const b of grid.neighbours(a)) {
+      // Each pair is visited twice; draw it once.
+      if (b.id <= a.id) continue;
+      const dx = a.pos.x - b.pos.x;
+      const dy = a.pos.y - b.pos.y;
+      const dSq = dx * dx + dy * dy;
+      if (dSq >= CONNECT_RADIUS_SQ) continue;
 
-            // If particles are close enough, draw connection
-            if (d < 120) {
-                let alpha = map(d, 0, 120, 150, 0);
-                // Draw cartoony lightning-like line
-                drawLightning(
-                    particles[i].pos.x, particles[i].pos.y,
-                    particles[j].pos.x, particles[j].pos.y,
-                    alpha
-                );
-            }
-        }
+      const alpha = map(Math.sqrt(dSq), 0, CONNECT_RADIUS, 150, 0);
+      drawLightning(a.pos.x, a.pos.y, b.pos.x, b.pos.y, alpha);
+      if (++bolts >= MAX_BOLTS_PER_FRAME) break;
     }
+  }
 }
 
 function drawMouseConnections() {
-    let mouse = createVector(mouseX, mouseY);
+  // mouseX/mouseY sit at (0, 0) until the pointer enters the page; skip the
+  // effect entirely rather than firing bolts at the corner.
+  if (!mouseHasMoved()) return;
 
-    for (let particle of particles) {
-        let d = dist(particle.pos.x, particle.pos.y, mouseX, mouseY);
+  let bolts = 0;
+  for (const particle of particles) {
+    const dx = particle.pos.x - mouseX;
+    const dy = particle.pos.y - mouseY;
+    const dSq = dx * dx + dy * dy;
+    if (dSq >= MOUSE_RADIUS_SQ) continue;
 
-        // If mouse is close to particle, draw stronger connection
-        if (d < 200) {
-            let alpha = map(d, 0, 200, 220, 0);
-            // Draw cartoony lightning-like line to mouse
-            drawLightning(
-                particle.pos.x, particle.pos.y,
-                mouseX, mouseY,
-                alpha
-            );
-
-            // Push particles slightly away from mouse
-            let force = p5.Vector.sub(particle.pos, mouse);
-            force.normalize();
-            force.mult(0.3);
-            particle.applyForce(force);
-        }
+    if (bolts < MAX_MOUSE_BOLTS) {
+      const alpha = map(Math.sqrt(dSq), 0, MOUSE_RADIUS, 220, 0);
+      drawLightning(particle.pos.x, particle.pos.y, mouseX, mouseY, alpha);
+      bolts++;
     }
+
+    const dist = Math.sqrt(dSq) || 1;
+    particle.applyForce(createVector((dx / dist) * 0.3, (dy / dist) * 0.3));
+  }
+}
+
+function mouseHasMoved() {
+  return mouseX !== 0 || mouseY !== 0 || pmouseX !== 0 || pmouseY !== 0;
 }
 
 function drawLightning(x1, y1, x2, y2, alpha) {
-    let segments = 6;
-    let points = [{x: x1, y: y1}];
+  const segments = 4;
+  const angle = Math.atan2(y2 - y1, x2 - x1) + HALF_PI;
+  const cosA = Math.cos(angle);
+  const sinA = Math.sin(angle);
 
-    // Generate jagged lightning path
-    for (let i = 1; i < segments; i++) {
-        let t = i / segments;
-        let x = lerp(x1, x2, t);
-        let y = lerp(y1, y2, t);
+  const points = [{ x: x1, y: y1 }];
+  for (let i = 1; i < segments; i++) {
+    const t = i / segments;
+    const offset = random(-12, 12);
+    points.push({
+      x: lerp(x1, x2, t) + cosA * offset,
+      y: lerp(y1, y2, t) + sinA * offset,
+    });
+  }
+  points.push({ x: x2, y: y2 });
 
-        // Add more dramatic randomness for cartoony effect
-        let offset = random(-15, 15);
-        let angle = atan2(y2 - y1, x2 - x1) + HALF_PI;
-        x += cos(angle) * offset;
-        y += sin(angle) * offset;
+  const rgb = PALETTE[(Math.random() * PALETTE.length) | 0];
 
-        points.push({x: x, y: y});
-    }
-    points.push({x: x2, y: y2});
+  stroke(0, 0, 0, alpha * 0.8);
+  strokeWeight(5);
+  strokePath(points);
 
-    // Randomly select color from palette
-    let col = random(colors);
-    col.setAlpha(alpha);
-
-    // Draw cartoon outline (black)
-    stroke(0, 0, 0, alpha * 0.8);
-    strokeWeight(5);
-    for (let i = 0; i < points.length - 1; i++) {
-        line(points[i].x, points[i].y, points[i + 1].x, points[i + 1].y);
-    }
-
-    // Draw main lightning bolt
-    stroke(col);
-    strokeWeight(3);
-    for (let i = 0; i < points.length - 1; i++) {
-        line(points[i].x, points[i].y, points[i + 1].x, points[i + 1].y);
-    }
-
-    // Add small branches for extra cartoony effect (randomly)
-    if (random() > 0.7 && points.length > 2) {
-        let branchIdx = floor(random(1, points.length - 1));
-        let branchPoint = points[branchIdx];
-        let branchAngle = random(TWO_PI);
-        let branchLength = random(10, 20);
-        let branchX = branchPoint.x + cos(branchAngle) * branchLength;
-        let branchY = branchPoint.y + sin(branchAngle) * branchLength;
-
-        // Draw branch outline
-        stroke(0, 0, 0, alpha * 0.6);
-        strokeWeight(4);
-        line(branchPoint.x, branchPoint.y, branchX, branchY);
-
-        // Draw branch
-        stroke(col);
-        strokeWeight(2);
-        line(branchPoint.x, branchPoint.y, branchX, branchY);
-    }
+  stroke(rgb[0], rgb[1], rgb[2], alpha);
+  strokeWeight(3);
+  strokePath(points);
 }
 
+function strokePath(points) {
+  noFill();
+  beginShape();
+  for (const p of points) vertex(p.x, p.y);
+  endShape();
+}
+
+// Mobile browsers fire resize on every address-bar nudge; rebuilding the
+// canvas that often is expensive, so coalesce the bursts.
 function windowResized() {
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(() => {
     resizeCanvas(windowWidth, windowHeight);
+    grid = new SpatialGrid(CONNECT_RADIUS);
+    syncParticleCount();
+    if (reducedMotion) redraw();
+  }, 200);
 }
 
-// Particle class
+// Uniform grid keyed by cell coordinate, rebuilt each frame.
+class SpatialGrid {
+  constructor(cellSize) {
+    this.cellSize = cellSize;
+    this.cells = new Map();
+  }
+
+  rebuild(items) {
+    this.cells.clear();
+    for (const item of items) {
+      const key = this.key(item.pos.x, item.pos.y);
+      let bucket = this.cells.get(key);
+      if (!bucket) this.cells.set(key, (bucket = []));
+      bucket.push(item);
+    }
+  }
+
+  key(x, y) {
+    const cx = Math.floor(x / this.cellSize);
+    const cy = Math.floor(y / this.cellSize);
+    return `${cx},${cy}`;
+  }
+
+  *neighbours(item) {
+    const cx = Math.floor(item.pos.x / this.cellSize);
+    const cy = Math.floor(item.pos.y / this.cellSize);
+    for (let ox = -1; ox <= 1; ox++) {
+      for (let oy = -1; oy <= 1; oy++) {
+        const bucket = this.cells.get(`${cx + ox},${cy + oy}`);
+        if (bucket) yield* bucket;
+      }
+    }
+  }
+}
+
+let nextParticleId = 0;
+
 class Particle {
-    constructor() {
-        this.pos = createVector(random(width), random(height));
-        this.vel = createVector(random(-0.5, 0.5), random(-0.5, 0.5));
-        this.acc = createVector(0, 0);
-        this.maxSpeed = 2;
-        this.size = random(8, 16);
-        this.color = random(colors);
+  constructor() {
+    this.id = nextParticleId++;
+    this.pos = createVector(random(width), random(height));
+    this.vel = createVector(random(-0.5, 0.5), random(-0.5, 0.5));
+    this.acc = createVector(0, 0);
+    this.maxSpeed = 2;
+    this.size = random(8, 16);
+    this.rgb = PALETTE[(Math.random() * PALETTE.length) | 0];
+    this.pulseOffset = random(TWO_PI);
+    this.pulseSpeed = random(0.02, 0.05);
+    this.rotation = random(TWO_PI);
+    this.rotationSpeed = random(-0.02, 0.02);
+  }
 
-        // Pulsing effect
-        this.pulseOffset = random(TWO_PI);
-        this.pulseSpeed = random(0.02, 0.05);
+  update() {
+    this.vel.add(this.acc);
+    this.vel.limit(this.maxSpeed);
+    this.pos.add(this.vel);
+    this.acc.mult(0);
+    this.rotation += this.rotationSpeed;
 
-        // Random rotation for triangles
-        this.rotation = random(TWO_PI);
-        this.rotationSpeed = random(-0.02, 0.02);
+    if (this.pos.x < 0) this.pos.x = width;
+    if (this.pos.x > width) this.pos.x = 0;
+    if (this.pos.y < 0) this.pos.y = height;
+    if (this.pos.y > height) this.pos.y = 0;
+
+    // Gentle pull toward centre plus a little jitter, without allocating
+    // fresh p5.Vectors for each force every frame.
+    const toCenterX = width / 2 - this.pos.x;
+    const toCenterY = height / 2 - this.pos.y;
+    const len = Math.hypot(toCenterX, toCenterY) || 1;
+    this.acc.x += (toCenterX / len) * 0.01 + random(-0.05, 0.05);
+    this.acc.y += (toCenterY / len) * 0.01 + random(-0.05, 0.05);
+  }
+
+  applyForce(force) {
+    this.acc.add(force);
+  }
+
+  display() {
+    const pulse = Math.sin(frameCount * this.pulseSpeed + this.pulseOffset);
+    const glowSize = map(pulse, -1, 1, this.size, this.size * 1.5);
+    const [r, g, b] = this.rgb;
+
+    push();
+    translate(this.pos.x, this.pos.y);
+    rotate(this.rotation);
+
+    noStroke();
+    for (let i = 3; i > 0; i--) {
+      fill(r, g, b, map(i, 3, 0, 30, 120));
+      this.drawTriangle(glowSize * (1 + i * 0.3));
     }
 
-    update() {
-        // Update velocity and position
-        this.vel.add(this.acc);
-        this.vel.limit(this.maxSpeed);
-        this.pos.add(this.vel);
-        this.acc.mult(0);
+    strokeWeight(2);
+    stroke(0, 0, 0, 200);
+    fill(r, g, b, 255);
+    this.drawTriangle(this.size);
 
-        // Update rotation
-        this.rotation += this.rotationSpeed;
+    pop();
+  }
 
-        // Wrap around edges
-        if (this.pos.x < 0) this.pos.x = width;
-        if (this.pos.x > width) this.pos.x = 0;
-        if (this.pos.y < 0) this.pos.y = height;
-        if (this.pos.y > height) this.pos.y = 0;
-
-        // Add slight drift toward center
-        let center = createVector(width / 2, height / 2);
-        let toCenter = p5.Vector.sub(center, this.pos);
-        toCenter.normalize();
-        toCenter.mult(0.01);
-        this.applyForce(toCenter);
-
-        // Add some random movement
-        let randomForce = createVector(random(-0.05, 0.05), random(-0.05, 0.05));
-        this.applyForce(randomForce);
-    }
-
-    applyForce(force) {
-        this.acc.add(force);
-    }
-
-    display() {
-        // Pulsing glow effect
-        let pulse = sin(frameCount * this.pulseSpeed + this.pulseOffset);
-        let glowSize = map(pulse, -1, 1, this.size, this.size * 1.5);
-
-        push();
-        translate(this.pos.x, this.pos.y);
-        rotate(this.rotation);
-
-        // Draw glow triangles
-        noStroke();
-        for (let i = 3; i > 0; i--) {
-            let alpha = map(i, 3, 0, 30, 120);
-            this.color.setAlpha(alpha);
-            fill(this.color);
-            let s = glowSize * (1 + i * 0.3);
-            this.drawTriangle(0, 0, s);
-        }
-
-        // Draw core triangle with outline for cartoony effect
-        strokeWeight(2);
-        stroke(0, 0, 0, 200);
-        this.color.setAlpha(255);
-        fill(this.color);
-        this.drawTriangle(0, 0, this.size);
-
-        pop();
-    }
-
-    drawTriangle(x, y, size) {
-        // Draw equilateral triangle
-        let h = size * 0.866; // height of equilateral triangle
-        triangle(
-            x, y - h * 0.6,           // top point
-            x - size * 0.5, y + h * 0.4,  // bottom left
-            x + size * 0.5, y + h * 0.4   // bottom right
-        );
-    }
+  drawTriangle(size) {
+    const h = size * 0.866;
+    triangle(0, -h * 0.6, -size * 0.5, h * 0.4, size * 0.5, h * 0.4);
+  }
 }

@@ -21,6 +21,9 @@ RSS_URL = "https://stars.library.ucf.edu/elo2026/combined_schedule/all/recent-ev
 # STARS (bepress) streaming lookup: 200 + JSON [m3u8 url] once a session
 # recording has finished transcoding, 404 otherwise.
 STREAMING_API = "https://stars.library.ucf.edu/do/api/streaming/path?article_uri="
+# Query keys that address a STARS attachment; everything else on the caption
+# track url is redirect bookkeeping that breaks the request.
+CAPTION_QUERY_KEYS = {"filename", "article", "context", "type"}
 OUTPUT = Path(__file__).resolve().parent.parent / "data" / "events.json"
 EASTERN = ZoneInfo("America/New_York")
 # Day-of program changes not reflected in STARS, applied on top of every
@@ -93,18 +96,71 @@ def parse_rss_links(xml):
     return set(re.findall(r"<item>.*?<link>\s*(\S+?)\s*</link>", xml, re.S))
 
 
-def load_previous_videos(path):
-    """Map event url -> video url from the last sync, so a transient API
-    failure never drops a recording that was already published."""
+def load_previous_field(path, field):
+    """Map event url -> field value from the last sync, so a transient API
+    failure never drops something that was already published."""
     try:
         payload = json.loads(path.read_text(encoding="utf-8"))
     except (OSError, ValueError):
         return {}
     return {
-        ev["url"]: ev["video"]
+        ev["url"]: ev[field]
         for ev in payload.get("events", [])
-        if ev.get("url") and ev.get("video")
+        if ev.get("url") and ev.get(field)
     }
+
+
+def load_previous_videos(path):
+    return load_previous_field(path, "video")
+
+
+def _normalize_caption_url(url):
+    """STARS renders the track url with sc_redirect/nold appended, and those
+    parameters make viewcontent.cgi return a 500. Keep only the selectors
+    that actually address the file."""
+    parts = urllib.parse.urlsplit(url)
+    kept = [
+        (k, v)
+        for k, v in urllib.parse.parse_qsl(parts.query)
+        if k in CAPTION_QUERY_KEYS
+    ]
+    if not kept:
+        return None
+    return urllib.parse.urlunsplit(
+        (parts.scheme, parts.netloc, parts.path, urllib.parse.urlencode(kept), "")
+    )
+
+
+def extract_caption_url(html):
+    """Pull the caption file out of the JW Player setup on a STARS article
+    page, which bepress renders inline as tracks: [{file, kind: "captions"}]."""
+    block = re.search(r"tracks:\s*\[(.*?)\]", html, re.S)
+    if not block or '"captions"' not in block.group(1):
+        return None
+    file_match = re.search(r'file:\s*"([^"]+)"', block.group(1))
+    if not file_match:
+        return None
+    return _normalize_caption_url(unescape(file_match.group(1)))
+
+
+def check_captions(events, videos, previous, fetcher):
+    """Map event url -> caption file url for recorded sessions whose STARS
+    page advertises a captions track. Only recorded sessions are checked,
+    since a caption track without a recording has nothing to caption."""
+    captions = {}
+    for ev in events:
+        url = ev["url"]
+        if url not in videos:
+            continue
+        try:
+            found = extract_caption_url(fetcher(url.rstrip("/") + "/"))
+        except (OSError, ValueError):
+            found = None
+        if found:
+            captions[url] = found
+        elif url in previous:
+            captions[url] = previous[url]
+    return captions
 
 
 def check_videos(events, previous, fetcher):
@@ -128,14 +184,17 @@ def check_videos(events, previous, fetcher):
     return videos
 
 
-def build_payload(events, rss_links, generated, videos=None):
+def build_payload(events, rss_links, generated, videos=None, captions=None):
     videos = videos or {}
+    captions = captions or {}
     events = [{**ev, **OVERRIDES.get(ev["url"], {})} for ev in events]
     out = []
     for ev in sorted(events, key=lambda e: (e["start"], e["title"])):
         entry = {**ev, "featured": ev["url"] in rss_links}
         if ev["url"] in videos:
             entry["video"] = videos[ev["url"]]
+        if ev["url"] in captions:
+            entry["captions"] = captions[ev["url"]]
         out.append(entry)
     return {"generated": generated, "source": SCHEDULE_URL, "events": out}
 
@@ -156,6 +215,11 @@ def validate(payload):
             errors.append(f"start after end: {ev.get('title')}")
         if "video" in ev and not str(ev["video"]).startswith("https://"):
             errors.append(f"bad video url: {ev.get('title')}")
+        if "captions" in ev:
+            if not str(ev["captions"]).startswith("https://"):
+                errors.append(f"bad captions url: {ev.get('title')}")
+            if "video" not in ev:
+                errors.append(f"captions without a recording: {ev.get('title')}")
     if not any(ev.get("featured") for ev in events):
         errors.append("no featured events matched the RSS feed")
     return errors
@@ -170,9 +234,12 @@ def _fetch(url):
 def main():
     events = parse_schedule(_fetch(SCHEDULE_URL))
     rss_links = parse_rss_links(_fetch(RSS_URL))
-    videos = check_videos(events, load_previous_videos(OUTPUT), _fetch)
+    videos = check_videos(events, load_previous_field(OUTPUT, "video"), _fetch)
+    captions = check_captions(
+        events, videos, load_previous_field(OUTPUT, "captions"), _fetch
+    )
     generated = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    payload = build_payload(events, rss_links, generated, videos)
+    payload = build_payload(events, rss_links, generated, videos, captions)
     errors = validate(payload)
     if errors:
         for err in errors:
@@ -183,7 +250,10 @@ def main():
         json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
-    print(f"Wrote {len(payload['events'])} events ({len(videos)} with recordings) to {OUTPUT}")
+    print(
+        f"Wrote {len(payload['events'])} events "
+        f"({len(videos)} with recordings, {len(captions)} with captions) to {OUTPUT}"
+    )
     return 0
 
 

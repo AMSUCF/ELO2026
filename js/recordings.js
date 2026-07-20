@@ -1,10 +1,12 @@
 // ELO 2026 "Recordings On Demand" portal.
 // Loads the STARS-scraped schedule (data/events.json), keeps the events that
 // have a recording, and lets visitors browse them as playlists by track,
-// session type, or auto-tagged topic. Playback reuses the HLS pattern from the
-// schedule page (native HLS on Safari, hls.js elsewhere).
+// session type, or auto-tagged topic. Playback is delegated to hls-player.js.
 
-const HLS_JS_SRC = "https://cdn.jsdelivr.net/npm/hls.js@1.5.15/dist/hls.min.js";
+import { attachStream } from "./hls-player.js";
+import { recordingId, shareUrl } from "./recordings-core.js";
+
+const VHS_STORAGE_KEY = "elo2026:vhs";
 
 const esc = (s) =>
   String(s).replace(/[&<>"']/g, (c) => ({
@@ -49,19 +51,25 @@ const state = {
 
 const el = {};
 
-/* ---------- HLS loader (once) ---------- */
-let hlsLoader = null;
-function loadHlsJs() {
-  if (!hlsLoader) {
-    hlsLoader = new Promise((resolve, reject) => {
-      const script = document.createElement("script");
-      script.src = HLS_JS_SRC;
-      script.onload = () => resolve(window.Hls);
-      script.onerror = () => reject(new Error("hls.js failed to load"));
-      document.head.appendChild(script);
-    });
-  }
-  return hlsLoader;
+/* ---------- VHS treatment ---------- */
+// The CRT scanlines and bezel are the point of the page, so they stay on by
+// default — except for reduced-motion visitors, who start without the
+// animated parts. Either way an explicit choice is remembered.
+function prefersReducedMotion() {
+  return Boolean(window.matchMedia?.("(prefers-reduced-motion: reduce)").matches);
+}
+
+function vhsEnabled() {
+  const stored = localStorage.getItem(VHS_STORAGE_KEY);
+  if (stored === "on") return true;
+  if (stored === "off") return false;
+  return !prefersReducedMotion();
+}
+
+function applyVhs(enabled) {
+  document.body.classList.toggle("no-vhs", !enabled);
+  const toggle = document.getElementById("vhs-toggle");
+  if (toggle) toggle.checked = !enabled;
 }
 
 /* ---------- values + counts for the active dimension ---------- */
@@ -136,10 +144,50 @@ function renderList() {
 }
 
 function renderNowMeta(ev) {
+  // Captions live on STARS: bepress blocks cross-origin requests for the
+  // caption file itself, so a <track> here would never load. Flag captioned
+  // sessions and send visitors to the STARS player instead.
+  const captions = ev.captions
+    ? `<a class="cc-link" href="${esc(ev.url)}" target="_blank" rel="noopener">
+         <span class="cc-badge" aria-hidden="true">CC</span> Watch with captions on STARS
+         <span class="visually-hidden">(opens in a new window)</span>
+       </a>`
+    : "";
   el.nowMeta.innerHTML = `
     <h2 class="now-title">${esc(ev.title)}</h2>
     ${ev.presenters ? `<p class="now-presenters">${esc(ev.presenters)}</p>` : ""}
-    ${badgesHtml(ev)}`;
+    ${badgesHtml(ev)}
+    <div class="now-actions">
+      <button type="button" class="pixel-btn" id="rec-share">Share this recording</button>
+      ${captions}
+    </div>`;
+}
+
+async function copyShareLink(button, ev) {
+  const url = shareUrl(recordingId(ev.url), window.location);
+  const original = button.textContent.trim();
+  try {
+    await navigator.clipboard.writeText(url);
+  } catch {
+    // Clipboard access can be denied (insecure context, no user activation).
+    // Offer a selected field rather than a modal dialog.
+    let field = document.getElementById("share-fallback");
+    if (!field) {
+      field = document.createElement("input");
+      field.type = "text";
+      field.readOnly = true;
+      field.id = "share-fallback";
+      field.className = "share-fallback";
+      field.setAttribute("aria-label", "Link to this recording — copy it to share");
+      button.parentElement.appendChild(field);
+    }
+    field.value = url;
+    field.focus();
+    field.select();
+    return;
+  }
+  button.textContent = "Link copied!";
+  setTimeout(() => { button.textContent = original; }, 2000);
 }
 
 function currentIndex() {
@@ -177,23 +225,11 @@ async function play(ev) {
   holder.appendChild(video);
 
   const src = ev.video;
-  try {
-    if (video.canPlayType("application/vnd.apple.mpegurl")) {
-      video.src = src;
-    } else {
-      const Hls = await loadHlsJs();
-      if (Hls && Hls.isSupported()) {
-        const hls = new Hls();
-        hls.loadSource(src);
-        hls.attachMedia(video);
-        hls.on(Hls.Events.ERROR, (_e, data) => { if (data.fatal) fallback(holder, src); });
-      } else {
-        video.src = src; // last-ditch
-      }
-    }
-  } catch {
-    fallback(holder, src);
-  }
+  // Keep the address bar on the recording being watched so the page can be
+  // linked and shared at any point, without adding a history entry per click.
+  history.replaceState(null, "", `#${recordingId(ev.url)}`);
+
+  attachStream(video, src, () => fallback(holder, src));
 
   video.addEventListener("ended", () => {
     if (!el.autoplay.checked) return;
@@ -260,6 +296,17 @@ function init(payload) {
   });
   el.prev.addEventListener("click", () => step(-1));
   el.next.addEventListener("click", () => step(1));
+  el.nowMeta.addEventListener("click", (e) => {
+    const share = e.target.closest("#rec-share");
+    if (share && state.playing) copyShareLink(share, state.playing);
+  });
+
+  applyVhs(vhsEnabled());
+  document.getElementById("vhs-toggle").addEventListener("change", (e) => {
+    const enabled = !e.target.checked;
+    localStorage.setItem(VHS_STORAGE_KEY, enabled ? "on" : "off");
+    applyVhs(enabled);
+  });
   let t;
   search.addEventListener("input", () => {
     clearTimeout(t);
@@ -267,6 +314,27 @@ function init(payload) {
   });
 
   setDim("track");
+  openFromHash();
+  window.addEventListener("hashchange", openFromHash);
+}
+
+// A shared link (#rec-<collection>-<n>) should land on that recording with it
+// already playing, whichever playlist happens to be selected.
+function openFromHash() {
+  const id = window.location.hash.slice(1);
+  if (!id) return;
+  const match = state.all.find((ev) => recordingId(ev.url) === id);
+  if (!match || match === state.playing) return;
+  // Clear any filter that would hide the linked recording from the list.
+  if (!state.list.includes(match)) {
+    state.filter = null;
+    state.query = "";
+    const search = document.getElementById("rec-search");
+    if (search) search.value = "";
+    renderChips();
+    renderList();
+  }
+  play(match);
 }
 
 fetch("data/events.json")

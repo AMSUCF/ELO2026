@@ -8,11 +8,38 @@ from scripts.fetch_schedule import (
     STREAMING_API,
     _to_utc_iso,
     build_payload,
+    check_captions,
     check_videos,
+    extract_caption_url,
+    load_previous_field,
     load_previous_videos,
     parse_rss_links,
     parse_schedule,
     validate,
+)
+
+# How bepress renders the JW Player caption track on a STARS article page,
+# including the sc_redirect/nold parameters that break viewcontent.cgi.
+ARTICLE_WITH_CAPTIONS = """
+  <script>
+  jwplayer("hosted-streaming").setup({
+    playlist: [{
+      sources: [{ file: "https://s3.amazonaws.com/x/y.m3u8" }],
+      tracks: [
+        {
+          file: "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&amp;article=1055&amp;context=elo2026&amp;type=additional&amp;sc_redirect=1&amp;nold=t",
+          label: "1",
+          kind: "captions"
+        }
+      ]
+    }]
+  });
+  </script>
+"""
+
+CAPTION_URL = (
+    "https://stars.library.ucf.edu/cgi/viewcontent.cgi"
+    "?filename=0&article=1055&context=elo2026&type=additional"
 )
 
 FIXTURE = Path(__file__).parent / "fixtures" / "combined_schedule.html"
@@ -177,6 +204,111 @@ class CheckVideosTests(unittest.TestCase):
     def test_garbage_response_ignored(self):
         videos = check_videos(self.EVENTS[:1], {}, lambda url: "not json")
         self.assertEqual(videos, {})
+
+
+class CaptionExtractionTests(unittest.TestCase):
+    def test_pulls_caption_url_from_article_page(self):
+        self.assertEqual(extract_caption_url(ARTICLE_WITH_CAPTIONS), CAPTION_URL)
+
+    def test_strips_redirect_params_that_break_viewcontent(self):
+        # sc_redirect/nold make STARS answer 500, so they must not survive.
+        url = extract_caption_url(ARTICLE_WITH_CAPTIONS)
+        self.assertNotIn("sc_redirect", url)
+        self.assertNotIn("nold", url)
+
+    def test_unescapes_html_entities(self):
+        self.assertNotIn("&amp;", extract_caption_url(ARTICLE_WITH_CAPTIONS))
+
+    def test_page_without_tracks_has_no_captions(self):
+        self.assertIsNone(extract_caption_url("<html><body>no player</body></html>"))
+
+    def test_non_caption_track_is_ignored(self):
+        html = ARTICLE_WITH_CAPTIONS.replace('kind: "captions"', 'kind: "thumbnails"')
+        self.assertIsNone(extract_caption_url(html))
+
+
+class CheckCaptionsTests(unittest.TestCase):
+    EVENTS = [
+        {"url": "https://stars.library.ucf.edu/elo2026/a/schedule/1"},
+        {"url": "https://stars.library.ucf.edu/elo2026/a/schedule/2"},
+    ]
+
+    def test_only_recorded_sessions_are_checked(self):
+        seen = []
+
+        def fetcher(url):
+            seen.append(url)
+            return ARTICLE_WITH_CAPTIONS
+
+        videos = {self.EVENTS[0]["url"]: "https://s3.amazonaws.com/x/y.m3u8"}
+        captions = check_captions(self.EVENTS, videos, {}, fetcher)
+        self.assertEqual(captions, {self.EVENTS[0]["url"]: CAPTION_URL})
+        self.assertEqual(seen, [self.EVENTS[0]["url"] + "/"])
+
+    def test_session_without_caption_track_gets_no_entry(self):
+        videos = {self.EVENTS[0]["url"]: "https://s3.amazonaws.com/x/y.m3u8"}
+        self.assertEqual(check_captions(self.EVENTS, videos, {}, lambda u: "<html></html>"), {})
+
+    def test_fetch_failure_keeps_previous_captions(self):
+        def fetcher(url):
+            raise OSError("network down")
+
+        videos = {self.EVENTS[0]["url"]: "https://s3.amazonaws.com/x/y.m3u8"}
+        previous = {self.EVENTS[0]["url"]: CAPTION_URL}
+        self.assertEqual(check_captions(self.EVENTS, videos, previous, fetcher), previous)
+
+
+class CaptionPayloadTests(unittest.TestCase):
+    def setUp(self):
+        self.events = parse_schedule(FIXTURE.read_text(encoding="utf-8"))
+        self.links = parse_rss_links(RSS_FIXTURE.read_text(encoding="utf-8"))
+        self.url = self.events[0]["url"]
+
+    def _payload(self, captions):
+        return build_payload(
+            self.events,
+            self.links,
+            "2026-07-20T12:00:00Z",
+            {self.url: "https://s3.amazonaws.com/x/y.m3u8"},
+            captions,
+        )
+
+    def test_captions_attached_to_matching_event(self):
+        payload = self._payload({self.url: CAPTION_URL})
+        by_url = {e["url"]: e for e in payload["events"]}
+        self.assertEqual(by_url[self.url]["captions"], CAPTION_URL)
+        self.assertEqual(validate(payload), [])
+
+    def test_events_without_captions_omit_the_field(self):
+        payload = self._payload({})
+        self.assertTrue(all("captions" not in e for e in payload["events"]))
+
+    def test_bad_caption_url_fails_validation(self):
+        payload = self._payload({self.url: "not-a-url"})
+        self.assertTrue(any("captions" in e for e in validate(payload)))
+
+    def test_captions_without_a_recording_fails_validation(self):
+        payload = build_payload(
+            self.events, self.links, "2026-07-20T12:00:00Z", {}, {self.url: CAPTION_URL}
+        )
+        self.assertTrue(any("without a recording" in e for e in validate(payload)))
+
+
+class LoadPreviousFieldTests(unittest.TestCase):
+    def test_reads_an_arbitrary_field(self):
+        payload = {
+            "events": [
+                {"url": "https://example.com/a", "captions": "https://example.com/a.srt"},
+                {"url": "https://example.com/b"},
+            ]
+        }
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "events.json"
+            path.write_text(json.dumps(payload), encoding="utf-8")
+            self.assertEqual(
+                load_previous_field(path, "captions"),
+                {"https://example.com/a": "https://example.com/a.srt"},
+            )
 
 
 class LoadPreviousVideosTests(unittest.TestCase):

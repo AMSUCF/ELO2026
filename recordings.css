@@ -139,6 +139,41 @@
 .rec-source-note { font-family: Arial, Helvetica, sans-serif; color: #bdbdbd; font-size: 0.9rem; text-align: center; margin-top: 1.75rem; }
 .rec-source-note a { color: var(--cyan); }
 
+/* ---------- share + captions on the now-playing panel ---------- */
+.now-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 0.7rem; margin-top: 0.6rem; }
+
+.cc-link {
+  display: inline-flex; align-items: center; gap: 0.45rem;
+  font-family: Arial, Helvetica, sans-serif; font-size: 0.85rem;
+  color: var(--cyan); text-decoration: none;
+}
+.cc-link:hover, .cc-link:focus { text-decoration: underline; }
+.cc-badge {
+  font-family: "VT323", monospace; font-size: 1rem; line-height: 1.3;
+  border: 1px solid var(--cyan); border-radius: 4px; padding: 0 0.35rem;
+}
+
+.share-fallback {
+  flex: 1 1 18rem; min-width: 12rem;
+  padding: 0.4rem 0.6rem; border: 2px solid var(--cyan); border-radius: 6px;
+  background: #120c22; color: var(--cyan);
+  font-family: Arial, Helvetica, sans-serif; font-size: 0.85rem;
+}
+
+.vhs-toggle { font-size: 1.1rem; }
+
+/* ---------- "Remove VHS effect" ----------
+   Strips the CRT dressing down to a plain player: no scanlines, no vignette,
+   no glow, no blinking record light. */
+body.no-vhs .scanlines { display: none; }
+body.no-vhs .crt-screen::after { display: none; }
+body.no-vhs .crt {
+  background: var(--card-bg);
+  box-shadow: none;
+  border-color: rgba(77, 213, 232, 0.5);
+}
+body.no-vhs .crt-led { animation: none; background: #4b4b57; box-shadow: none; }
+
 @keyframes recblink { 0%, 100% { opacity: 1; } 50% { opacity: 0.2; } }
 @media (prefers-reduced-motion: reduce) {
   .crt-led { animation: none; }
