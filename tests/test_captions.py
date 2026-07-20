@@ -98,5 +98,64 @@ class VendoredCaptionsTests(unittest.TestCase):
             )
 
 
+class BrowserSnippetTests(unittest.TestCase):
+    """The snippet is what makes the next vendoring round repeatable, so it is
+    checked for the pieces that made the first round work."""
+
+    def _snippet(self, ids):
+        from scripts.vendor_captions import BROWSER_SNIPPET
+        import json as _json
+
+        return BROWSER_SNIPPET % {"ids": _json.dumps(ids)}
+
+    def test_embeds_the_ids_as_a_javascript_array(self):
+        self.assertIn('["1016", "1017"]', self._snippet(["1016", "1017"]))
+
+    def test_builds_the_caption_url_that_actually_works(self):
+        snippet = self._snippet(["1055"])
+        # The sc_redirect/nold params make viewcontent.cgi 500; they must not
+        # reappear, and the four selectors that do work must all be present.
+        self.assertNotIn("sc_redirect", snippet)
+        self.assertNotIn("nold", snippet)
+        for key in ("filename", "article", "context", "type"):
+            self.assertIn(key, snippet)
+
+    def test_retries_more_slowly_after_rate_limiting(self):
+        snippet = self._snippet(["1055"])
+        self.assertIn("[1, 150]", snippet)
+        self.assertIn("[2, 1500]", snippet)
+        self.assertIn("[3, 4000]", snippet)
+
+    def test_downloads_the_bundle_the_unpacker_expects(self):
+        self.assertIn("elo2026-captions.json", self._snippet(["1055"]))
+
+    def test_each_request_has_its_own_deadline(self):
+        # bepress holds connections open once it decides it is being scraped,
+        # so a run without timeouts stalls forever on the first hung fetch.
+        snippet = self._snippet(["1055"])
+        self.assertIn("AbortController", snippet)
+        self.assertIn("TIMEOUT_MS", snippet)
+        self.assertIn("abort.signal", snippet)
+
+    def test_gives_up_after_repeated_stalls(self):
+        snippet = self._snippet(["1055"])
+        self.assertIn("stalled >= 3", snippet)
+
+    def test_snippet_is_valid_javascript(self):
+        import shutil
+        import subprocess
+
+        node = shutil.which("node")
+        if not node:
+            self.skipTest("node not available")
+        # --check parses without executing.
+        with tempfile.NamedTemporaryFile("w", suffix=".js", delete=False, encoding="utf-8") as fh:
+            fh.write(self._snippet(["1016", "1017"]))
+            path = fh.name
+        result = subprocess.run([node, "--check", path], capture_output=True, text=True)
+        Path(path).unlink(missing_ok=True)
+        self.assertEqual(result.returncode, 0, result.stderr)
+
+
 if __name__ == "__main__":
     unittest.main()

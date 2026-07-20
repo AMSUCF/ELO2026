@@ -9,19 +9,24 @@ and writes into the repo.
 
 To refresh captions after new recordings are published:
 
- 1. Run `python scripts/fetch_schedule.py` so data/events.json lists the new
-    caption urls, then `python scripts/vendor_captions.py --ids` to print the
-    article ids still missing from captions/.
- 2. Open any https://stars.library.ucf.edu/elo2026/... page and, in the
-    console, fetch each id from
-    https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=<ID>&context=elo2026&type=additional
-    into an object keyed by id, then download it as JSON. Space the requests
-    out -- bepress starts answering 403 at roughly ten per second.
- 3. `python scripts/vendor_captions.py <bundle.json>`
+ 1. python scripts/fetch_schedule.py        # pick up newly published captions
+ 2. python scripts/vendor_captions.py --snippet > snippet.js
+ 3. Open any https://stars.library.ucf.edu/elo2026/... page, paste the snippet
+    into the console, and wait for it to download elo2026-captions.json.
+ 4. python scripts/vendor_captions.py ~/Downloads/elo2026-captions.json
+ 5. python scripts/fetch_schedule.py        # record the new captions_file paths
+
+The snippet paces itself and retries: bepress starts answering 403 at roughly
+ten requests per second, and those same ids succeed when asked more slowly.
+Push it further and bepress stops answering altogether, holding connections
+open rather than refusing them, so each request carries its own timeout and
+the run gives up after three stalls. Every step is resumable -- a partial
+bundle is fine, and re-running --snippet asks only for what is still missing.
 
 Usage:
     python scripts/vendor_captions.py ~/Downloads/elo2026-captions.json
     python scripts/vendor_captions.py --ids
+    python scripts/vendor_captions.py --snippet
 """
 
 import json
@@ -51,6 +56,78 @@ def wanted_ids():
 
 def missing_ids():
     return [i for i in wanted_ids() if not (CAPTION_DIR / f"{i}.vtt").exists()]
+
+
+BROWSER_SNIPPET = """// Paste into the console of any https://stars.library.ucf.edu/elo2026/... page.
+// Fetches the caption files listed below and downloads them as one JSON bundle.
+(async () => {
+  const IDS = %(ids)s;
+  const CAPTION = (id) => "https://stars.library.ucf.edu/cgi/viewcontent.cgi?" +
+    new URLSearchParams({ filename: "0", article: id, context: "elo2026", type: "additional" });
+  const HAS_CUES = /\\d{1,2}:\\d{2}:\\d{2}[,.]\\d/;
+  const TIMEOUT_MS = 20000;
+  const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+  // Once bepress decides it is being scraped it stops answering and simply
+  // holds the connection open, so every request needs its own deadline --
+  // without one the whole run stalls silently on the first hung fetch.
+  const fetchWithTimeout = async (url) => {
+    const abort = new AbortController();
+    const timer = setTimeout(() => abort.abort(), TIMEOUT_MS);
+    try {
+      return await fetch(url, { signal: abort.signal });
+    } finally {
+      clearTimeout(timer);
+    }
+  };
+
+  const data = {}, failed = [];
+  // bepress answers 403 when pushed past roughly ten requests a second, so
+  // each pass slows down and only retries what is still missing.
+  for (const [pass, gap] of [[1, 150], [2, 1500], [3, 4000]]) {
+    const todo = IDS.filter((id) => !data[id]);
+    if (!todo.length) break;
+    console.log(`[captions] pass ${pass}: ${todo.length} to fetch, ${gap}ms apart`);
+    let stalled = 0;
+    for (const id of todo) {
+      try {
+        const r = await fetchWithTimeout(CAPTION(id));
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        const text = await r.text();
+        if (!HAS_CUES.test(text)) throw new Error("not a caption file");
+        data[id] = text;
+        stalled = 0;
+      } catch (err) {
+        const why = err.name === "AbortError" ? "timed out" : err.message;
+        if (pass === 3) failed.push(id + ": " + why);
+        // A run of timeouts means bepress has stopped answering entirely;
+        // pushing on just burns time. Save what we have and come back later.
+        if (err.name === "AbortError" && ++stalled >= 3) {
+          console.warn("[captions] STARS stopped responding — stopping early with " +
+                       Object.keys(data).length + " files. Re-run later for the rest.");
+          break;
+        }
+      }
+      console.log(`[captions] ${Object.keys(data).length}/${IDS.length}`);
+      await sleep(gap);
+    }
+    if (stalled >= 3) break;
+  }
+
+  const got = Object.keys(data).length;
+  console.log(`[captions] fetched ${got}/${IDS.length}`);
+  if (failed.length) console.warn("[captions] still failing:", failed);
+  if (!got) return "nothing to download";
+
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([JSON.stringify(data)], { type: "application/json" }));
+  a.download = "elo2026-captions.json";
+  document.body.appendChild(a);
+  a.click();
+  setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 5000);
+  return `downloading ${got} caption files`;
+})();
+"""
 
 
 def unpack(bundle_path):
@@ -86,6 +163,13 @@ def unpack(bundle_path):
 
 
 def main(argv):
+    if argv and argv[0] == "--snippet":
+        missing = missing_ids()
+        if not missing:
+            print("// Every captioned session is already vendored — nothing to fetch.")
+            return 0
+        print(BROWSER_SNIPPET % {"ids": json.dumps(missing)})
+        return 0
     if not argv or argv[0] == "--ids":
         missing = missing_ids()
         print(f"{len(wanted_ids())} captioned sessions, {len(missing)} not yet vendored")

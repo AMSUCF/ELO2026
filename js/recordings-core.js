@@ -24,3 +24,14 @@ export function recordingId(url) {
 export function shareUrl(id, location) {
   return `${location.origin}${location.pathname}#${id}`;
 }
+
+// Where a recording's captions stand, which the player renders three ways:
+//   "local" — vendored into captions/, played as a same-origin <track>
+//   "stars" — STARS has them but they are not vendored yet, so link out
+//             (bepress refuses cross-origin requests for the file itself)
+//   "soon"  — STARS has not published captions for this session yet
+export function captionState(ev) {
+  if (ev.captions_file) return "local";
+  if (ev.captions) return "stars";
+  return "soon";
+}

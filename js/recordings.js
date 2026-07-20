@@ -4,7 +4,7 @@
 // session type, or auto-tagged topic. Playback is delegated to hls-player.js.
 
 import { attachStream } from "./hls-player.js";
-import { recordingId, shareUrl } from "./recordings-core.js";
+import { captionState, recordingId, shareUrl } from "./recordings-core.js";
 
 const VHS_STORAGE_KEY = "elo2026:vhs";
 
@@ -144,19 +144,16 @@ function renderList() {
 }
 
 function renderNowMeta(ev) {
-  // Captions we have vendored are served from this origin and attach straight
-  // to the player. Anything not vendored yet still has to be watched on STARS,
-  // which refuses cross-origin requests for the caption file itself.
-  let captions = "";
-  if (ev.captions_file) {
-    captions = `<span class="cc-link"><span class="cc-badge" aria-hidden="true">CC</span>
-        Captions available &mdash; use the player&rsquo;s subtitles button</span>`;
-  } else if (ev.captions) {
-    captions = `<a class="cc-link" href="${esc(ev.url)}" target="_blank" rel="noopener">
+  const captions = {
+    local: `<span class="cc-link"><span class="cc-badge" aria-hidden="true">CC</span>
+        Captions available &mdash; use the player&rsquo;s subtitles button</span>`,
+    stars: `<a class="cc-link" href="${esc(ev.url)}" target="_blank" rel="noopener">
          <span class="cc-badge" aria-hidden="true">CC</span> Watch with captions on STARS
          <span class="visually-hidden">(opens in a new window)</span>
-       </a>`;
-  }
+       </a>`,
+    soon: `<span class="cc-link cc-pending"><span class="cc-badge" aria-hidden="true">CC</span>
+        Captions coming soon</span>`,
+  }[captionState(ev)];
   el.nowMeta.innerHTML = `
     <h2 class="now-title">${esc(ev.title)}</h2>
     ${ev.presenters ? `<p class="now-presenters">${esc(ev.presenters)}</p>` : ""}
@@ -237,6 +234,15 @@ async function play(ev) {
     track.srclang = "en";
     track.src = ev.captions_file;
     track.default = true;
+    // If the file 404s or fails to parse, correct the label rather than
+    // leaving it promising captions the player cannot show.
+    track.addEventListener("error", () => {
+      const note = el.nowMeta.querySelector(".cc-link");
+      if (note) {
+        note.classList.add("cc-pending");
+        note.innerHTML = `<span class="cc-badge" aria-hidden="true">CC</span> Captions coming soon`;
+      }
+    });
     video.appendChild(track);
   }
 

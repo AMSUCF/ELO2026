@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { recordingId, shareUrl } from "../js/recordings-core.js";
+import { captionState, recordingId, shareUrl } from "../js/recordings-core.js";
 
 const STARS = "https://stars.library.ucf.edu/elo2026";
 
@@ -49,3 +49,23 @@ test("share url is absolute and drops any query string", () => {
 
 
 
+
+test("vendored captions play locally", () => {
+  assert.equal(
+    captionState({ captions_file: "captions/1055.vtt", captions: "https://stars/x" }),
+    "local"
+  );
+});
+
+test("captions known to STARS but not vendored link out", () => {
+  assert.equal(captionState({ captions: "https://stars.library.ucf.edu/cgi/x" }), "stars");
+});
+
+test("a recording with no captions is marked coming soon", () => {
+  assert.equal(captionState({}), "soon");
+  assert.equal(captionState({ video: "https://example.com/a.m3u8" }), "soon");
+});
+
+test("a local file wins even if it is the only caption signal", () => {
+  assert.equal(captionState({ captions_file: "captions/1004.vtt" }), "local");
+});
