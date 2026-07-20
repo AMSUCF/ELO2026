@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-20T19:11:24Z",
+  "generated": "2026-07-20T20:44:52Z",
   "source": "https://stars.library.ucf.edu/elo2026/combined_schedule/",
   "events": [
     {
@@ -1244,7 +1244,8 @@
       "type": "Plenary",
       "start": "2026-07-18T19:30:00Z",
       "end": "2026-07-18T20:30:00Z",
-      "featured": true
+      "featured": true,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/97/01/c3/9701c379f766fdf8b152b1718e6c79ae8c55e224b3f5f1c024af051bd71f7fdf.m3u8"
     },
     {
       "title": "2026 Electronic Literature Awards Ceremony and Closing Remarks",
@@ -1254,7 +1255,8 @@
       "type": "Plenary",
       "start": "2026-07-18T20:45:00Z",
       "end": "2026-07-18T21:45:00Z",
-      "featured": true
+      "featured": true,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/46/be/ae/46beae619dd1f1751bcd2d0ad6c682250dbf229e671c38cf56c4fc59918f9729.m3u8"
     }
   ]
 }
