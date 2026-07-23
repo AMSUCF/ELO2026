@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-23T14:37:31Z",
+  "generated": "2026-07-23T16:50:29Z",
   "source": "https://stars.library.ucf.edu/elo2026/combined_schedule/",
   "events": [
     {
@@ -319,7 +319,8 @@
       "type": "Individual Talk",
       "start": "2026-07-16T14:30:00Z",
       "end": "2026-07-16T15:30:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/3c/59/61/3c59618b5f1f5bffa8598b1ef7f6bac94f5836a0559bc4c83b4031a96334e59a.m3u8"
     },
     {
       "title": "Hosting the Gap: Digital Typography as Linguistic Hospitality in Translation",
@@ -685,7 +686,8 @@
       "type": "Individual Talk",
       "start": "2026-07-17T13:15:00Z",
       "end": "2026-07-17T14:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/dc/14/50/dc1450a38cf50d6bd21497a2013bafd1b44e78abde5bddeebebc98e802c097a4.m3u8"
     },
     {
       "title": "In Dark times, Should the Stars Also Go Out?: Disco Elysium & Melancholic Agency",
@@ -705,7 +707,8 @@
       "type": "Individual Talk",
       "start": "2026-07-17T13:15:00Z",
       "end": "2026-07-17T14:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/9e/c8/23/9ec82367973430fe39f36bd1708d18049a850688d7bdcf721b7976f8075c5bc0.m3u8"
     },
     {
       "title": "Network of Time: Reading History Through Photographic Adjacency",
@@ -715,7 +718,8 @@
       "type": "Individual Talk",
       "start": "2026-07-17T13:15:00Z",
       "end": "2026-07-17T14:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/24/86/06/2486060df3dbae0901066930a5e90e8d8add85c9857ac3fb44b6dd9b568fbadb.m3u8"
     },
     {
       "title": "Supervising the Creation of New Forms of Philosophy",
@@ -775,7 +779,8 @@
       "type": "Individual Talk",
       "start": "2026-07-17T14:30:00Z",
       "end": "2026-07-17T15:30:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/f6/fb/55/f6fb557381824efe0ae502d49e798c082766fc9d122ce86e50890cd46a49f13b.m3u8"
     },
     {
       "title": "Conflicting agencies at the heart of literariness",
@@ -796,7 +801,8 @@
       "type": "Individual Talk",
       "start": "2026-07-17T14:30:00Z",
       "end": "2026-07-17T15:30:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/f2/bd/a2/f2bda23653721fc2469cb0f4cdce5c839c10e00af5b478fb8d959759cd3e9499.m3u8"
     },
     {
       "title": "From Voice to Environment: Authorship in Spatial Collage",
@@ -806,7 +812,8 @@
       "type": "Individual Talk",
       "start": "2026-07-17T14:30:00Z",
       "end": "2026-07-17T15:30:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/d3/b3/b0/d3b3b077a087a5d3a2909f60c108c9ac13a605c51425abd4977f14669419cd9f.m3u8"
     },
     {
       "title": "Positioning Electronic literature as an Emerging Creative Industry in the Majority World: A Comparative Analysis with Video Games and Digital Arts",
@@ -816,7 +823,8 @@
       "type": "Individual Talk",
       "start": "2026-07-17T14:30:00Z",
       "end": "2026-07-17T15:30:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/e0/a6/81/e0a681e2cdbdd8985b8a4996ed45ef5d03473712ba27dd4b3b2d08259e6616f9.m3u8"
     },
     {
       "title": "Posthuman Ethics and Networked Agency in AI-Human Cocreations",
@@ -1019,7 +1027,8 @@
       "type": "Individual Talk",
       "start": "2026-07-18T13:15:00Z",
       "end": "2026-07-18T14:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/82/d8/57/82d857211ef26430ec4747db6414c4911b08c3d6878081e2988a45c4a385b33a.m3u8"
     },
     {
       "title": "From AI to EI: Towards an ‘Environmental Intelligence’",
