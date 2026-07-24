@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-24T11:57:55Z",
+  "generated": "2026-07-24T14:17:08Z",
   "source": "https://stars.library.ucf.edu/elo2026/combined_schedule/",
   "events": [
     {
@@ -697,7 +697,8 @@
       "type": "Individual Talk",
       "start": "2026-07-17T13:15:00Z",
       "end": "2026-07-17T14:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/9e/c8/23/9ec82367973430fe39f36bd1708d18049a850688d7bdcf721b7976f8075c5bc0.m3u8"
     },
     {
       "title": "Migritude in the Digital Space: An Analysis of Migration Narratives in Twenty-First-Century Electronic Literature",
