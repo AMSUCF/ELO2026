@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-24T14:17:08Z",
+  "generated": "2026-07-24T15:47:39Z",
   "source": "https://stars.library.ucf.edu/elo2026/combined_schedule/",
   "events": [
     {
@@ -950,7 +950,8 @@
       "type": "Panel",
       "start": "2026-07-17T19:30:00Z",
       "end": "2026-07-17T20:30:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/f3/3e/eb/f33eeb8d2acf0efc8fd4c6d64eea0b856ed9f908f9f85cf791d904e0f35a28bd.m3u8"
     },
     {
       "title": "Essay on the future of writing-reading: thought, meditation and synchronicities",
