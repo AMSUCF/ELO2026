@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-25T19:38:13Z",
+  "generated": "2026-07-25T21:11:29Z",
   "source": "https://stars.library.ucf.edu/elo2026/combined_schedule/",
   "events": [
     {
@@ -433,7 +433,8 @@
       "type": "Workshop",
       "start": "2026-07-16T18:15:00Z",
       "end": "2026-07-16T19:15:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/27/07/54/270754d1f8947b6ca25720e60b713d3b77b1168e37d26d9aa6dfad03501cd042.m3u8"
     },
     {
       "title": "CELL Project Roundtable 2026",
@@ -846,7 +847,8 @@
       "type": "Experimental Track",
       "start": "2026-07-17T14:30:00Z",
       "end": "2026-07-17T15:30:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/87/18/ff/8718ffc6e6fc12ca2cf8256cc14d90ce0ea9473eb89bd24e56284b0cef68937f.m3u8"
     },
     {
       "title": "“Huir sí es mejor plan”: Rethinking the Subject in Digital Literature",
@@ -961,7 +963,8 @@
       "type": "Experimental Track",
       "start": "2026-07-17T20:45:00Z",
       "end": "2026-07-17T21:45:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/ae/d5/ca/aed5ca7f784ad7259f137ca7272f76d0ad469d2bbcab4ed39e4158e9480250fe.m3u8"
     },
     {
       "title": "Inscription",
