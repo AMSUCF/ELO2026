@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-25T19:37:23Z",
+  "generated": "2026-07-26T05:00:39Z",
   "source": "https://stars.library.ucf.edu/elo2026/combined_schedule/",
   "events": [
     {
@@ -854,7 +854,8 @@
       "type": "Experimental Track",
       "start": "2026-07-17T20:45:00Z",
       "end": "2026-07-17T21:45:00Z",
-      "featured": false
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/ae/d5/ca/aed5ca7f784ad7259f137ca7272f76d0ad469d2bbcab4ed39e4158e9480250fe.m3u8"
     },
     {
       "title": "Inscription",
