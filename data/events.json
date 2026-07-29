@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-29T14:33:58Z",
+  "generated": "2026-07-29T19:47:36Z",
   "source": "https://stars.library.ucf.edu/elo2026/combined_schedule/",
   "events": [
     {
@@ -706,17 +706,6 @@
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/f2/bd/a2/f2bda23653721fc2469cb0f4cdce5c839c10e00af5b478fb8d959759cd3e9499.m3u8"
     },
     {
-      "title": "From Voice to Environment: Authorship in Spatial Collage",
-      "url": "https://stars.library.ucf.edu/elo2026/narrativesandworlds/schedule/16",
-      "presenters": "Daniel Lichtman, St. John’s university",
-      "track": "Narratives & Worlds",
-      "type": "Individual Talk",
-      "start": "2026-07-17T14:30:00Z",
-      "end": "2026-07-17T15:30:00Z",
-      "featured": false,
-      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/d3/b3/b0/d3b3b077a087a5d3a2909f60c108c9ac13a605c51425abd4977f14669419cd9f.m3u8"
-    },
-    {
       "title": "Positioning Electronic literature as an Emerging Creative Industry in the Majority World: A Comparative Analysis with Video Games and Digital Arts",
       "url": "https://stars.library.ucf.edu/elo2026/narrativesandworlds/schedule/24",
       "presenters": "Mehulkumar Desai Mr., Indian Institute of Technology, Indian School of Mines, Dhanbad Shanmugapriya T, Indian Institute of Technology (ISM) Dhanbad",
@@ -855,9 +844,20 @@
       "track": "Algorithms & Imaginaries",
       "type": "Experimental Track",
       "start": "2026-07-17T20:45:00Z",
-      "end": "2026-07-17T21:45:00Z",
+      "end": "2026-07-18T00:30:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/ae/d5/ca/aed5ca7f784ad7259f137ca7272f76d0ad469d2bbcab4ed39e4158e9480250fe.m3u8"
+    },
+    {
+      "title": "From Voice to Environment: Authorship in Spatial Collage",
+      "url": "https://stars.library.ucf.edu/elo2026/narrativesandworlds/schedule/16",
+      "presenters": "Daniel Lichtman, St. John’s university",
+      "track": "Narratives & Worlds",
+      "type": "Individual Talk",
+      "start": "2026-07-17T20:45:00Z",
+      "end": "2026-07-17T21:45:00Z",
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/d3/b3/b0/d3b3b077a087a5d3a2909f60c108c9ac13a605c51425abd4977f14669419cd9f.m3u8"
     },
     {
       "title": "Inscription",
@@ -1065,6 +1065,17 @@
       "end": "2026-07-18T15:30:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/b4/08/38/b40838ce3dc7b375321ea6883c51714182ab05efa881541284f7c73f2cca4d5e.m3u8"
+    },
+    {
+      "title": "The Female Voice, The Male Gaze: AI Colonial Paradox and African Feminist Futures",
+      "url": "https://stars.library.ucf.edu/elo2026/narrativesandworlds/schedule/35",
+      "presenters": "Aishat Olayetunde Isiaq Mrs, The Nigeria French Language Village Ajara Badagry Lagos, Nigeria",
+      "track": "Narratives & Worlds",
+      "type": "Individual Talk",
+      "start": "2026-07-18T14:30:00Z",
+      "end": "2026-07-18T15:30:00Z",
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/69/11/ef/6911efbb67a3db7c554516ce5156d5c8d91ccb53b4386f0576489e54b5b1eba9.m3u8"
     },
     {
       "title": "The Question is a Node: Online Quizzes as Interactive Non-Fiction",
