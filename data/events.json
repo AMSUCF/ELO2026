@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-29T18:16:32Z",
+  "generated": "2026-07-29T19:49:14Z",
   "source": "https://stars.library.ucf.edu/elo2026/combined_schedule/",
   "events": [
     {
@@ -320,7 +320,8 @@
       "start": "2026-07-16T14:30:00Z",
       "end": "2026-07-16T15:30:00Z",
       "featured": false,
-      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/3c/59/61/3c59618b5f1f5bffa8598b1ef7f6bac94f5836a0559bc4c83b4031a96334e59a.m3u8"
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/3c/59/61/3c59618b5f1f5bffa8598b1ef7f6bac94f5836a0559bc4c83b4031a96334e59a.m3u8",
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1100&context=elo2026&type=additional"
     },
     {
       "title": "Hosting the Gap: Digital Typography as Linguistic Hospitality in Translation",
@@ -434,7 +435,8 @@
       "start": "2026-07-16T18:15:00Z",
       "end": "2026-07-16T19:15:00Z",
       "featured": false,
-      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/27/07/54/270754d1f8947b6ca25720e60b713d3b77b1168e37d26d9aa6dfad03501cd042.m3u8"
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/27/07/54/270754d1f8947b6ca25720e60b713d3b77b1168e37d26d9aa6dfad03501cd042.m3u8",
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1155&context=elo2026&type=additional"
     },
     {
       "title": "CELL Project Roundtable 2026",
@@ -688,7 +690,8 @@
       "start": "2026-07-17T13:15:00Z",
       "end": "2026-07-17T14:15:00Z",
       "featured": false,
-      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/dc/14/50/dc1450a38cf50d6bd21497a2013bafd1b44e78abde5bddeebebc98e802c097a4.m3u8"
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/dc/14/50/dc1450a38cf50d6bd21497a2013bafd1b44e78abde5bddeebebc98e802c097a4.m3u8",
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1011&context=elo2026&type=additional"
     },
     {
       "title": "In Dark times, Should the Stars Also Go Out?: Disco Elysium & Melancholic Agency",
@@ -710,7 +713,8 @@
       "start": "2026-07-17T13:15:00Z",
       "end": "2026-07-17T14:15:00Z",
       "featured": false,
-      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/9e/c8/23/9ec82367973430fe39f36bd1708d18049a850688d7bdcf721b7976f8075c5bc0.m3u8"
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/9e/c8/23/9ec82367973430fe39f36bd1708d18049a850688d7bdcf721b7976f8075c5bc0.m3u8",
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1044&context=elo2026&type=additional"
     },
     {
       "title": "Network of Time: Reading History Through Photographic Adjacency",
@@ -721,7 +725,8 @@
       "start": "2026-07-17T13:15:00Z",
       "end": "2026-07-17T14:15:00Z",
       "featured": false,
-      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/24/86/06/2486060df3dbae0901066930a5e90e8d8add85c9857ac3fb44b6dd9b568fbadb.m3u8"
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/24/86/06/2486060df3dbae0901066930a5e90e8d8add85c9857ac3fb44b6dd9b568fbadb.m3u8",
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1025&context=elo2026&type=additional"
     },
     {
       "title": "Supervising the Creation of New Forms of Philosophy",
@@ -771,7 +776,8 @@
       "start": "2026-07-17T14:30:00Z",
       "end": "2026-07-17T15:30:00Z",
       "featured": false,
-      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/d6/fb/bd/d6fbbdf61827811f1048e412721718ec95c07fb2f12bd3ba3b154b67bcba4f35.m3u8"
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/d6/fb/bd/d6fbbdf61827811f1048e412721718ec95c07fb2f12bd3ba3b154b67bcba4f35.m3u8",
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1153&context=elo2026&type=additional"
     },
     {
       "title": "Code poetry and labour: the game excess of work",
@@ -782,7 +788,8 @@
       "start": "2026-07-17T14:30:00Z",
       "end": "2026-07-17T15:30:00Z",
       "featured": false,
-      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/f6/fb/55/f6fb557381824efe0ae502d49e798c082766fc9d122ce86e50890cd46a49f13b.m3u8"
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/f6/fb/55/f6fb557381824efe0ae502d49e798c082766fc9d122ce86e50890cd46a49f13b.m3u8",
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1148&context=elo2026&type=additional"
     },
     {
       "title": "Conflicting agencies at the heart of literariness",
@@ -793,7 +800,8 @@
       "start": "2026-07-17T14:30:00Z",
       "end": "2026-07-17T15:30:00Z",
       "featured": false,
-      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/ae/85/f8/ae85f810f3010c05098f5320ada5ce8c9ccc60ac1e8ed8cdcda4d35718f99e95.m3u8"
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/ae/85/f8/ae85f810f3010c05098f5320ada5ce8c9ccc60ac1e8ed8cdcda4d35718f99e95.m3u8",
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1173&context=elo2026&type=additional"
     },
     {
       "title": "Electronic Literature in AI data work",
@@ -804,18 +812,8 @@
       "start": "2026-07-17T14:30:00Z",
       "end": "2026-07-17T15:30:00Z",
       "featured": false,
-      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/f2/bd/a2/f2bda23653721fc2469cb0f4cdce5c839c10e00af5b478fb8d959759cd3e9499.m3u8"
-    },
-    {
-      "title": "From Voice to Environment: Authorship in Spatial Collage",
-      "url": "https://stars.library.ucf.edu/elo2026/narrativesandworlds/schedule/16",
-      "presenters": "Daniel Lichtman, St. John’s university",
-      "track": "Narratives & Worlds",
-      "type": "Individual Talk",
-      "start": "2026-07-17T14:30:00Z",
-      "end": "2026-07-17T15:30:00Z",
-      "featured": false,
-      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/d3/b3/b0/d3b3b077a087a5d3a2909f60c108c9ac13a605c51425abd4977f14669419cd9f.m3u8"
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/f2/bd/a2/f2bda23653721fc2469cb0f4cdce5c839c10e00af5b478fb8d959759cd3e9499.m3u8",
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1023&context=elo2026&type=additional"
     },
     {
       "title": "Positioning Electronic literature as an Emerging Creative Industry in the Majority World: A Comparative Analysis with Video Games and Digital Arts",
@@ -826,7 +824,8 @@
       "start": "2026-07-17T14:30:00Z",
       "end": "2026-07-17T15:30:00Z",
       "featured": false,
-      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/e0/a6/81/e0a681e2cdbdd8985b8a4996ed45ef5d03473712ba27dd4b3b2d08259e6616f9.m3u8"
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/e0/a6/81/e0a681e2cdbdd8985b8a4996ed45ef5d03473712ba27dd4b3b2d08259e6616f9.m3u8",
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1083&context=elo2026&type=additional"
     },
     {
       "title": "Posthuman Ethics and Networked Agency in AI-Human Cocreations",
@@ -837,7 +836,8 @@
       "start": "2026-07-17T14:30:00Z",
       "end": "2026-07-17T15:30:00Z",
       "featured": false,
-      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/65/5d/90/655d905a8dc3c5ecd17bd816a7a881ee0fff42db84ecded970d3ab7677ad62b1.m3u8"
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/65/5d/90/655d905a8dc3c5ecd17bd816a7a881ee0fff42db84ecded970d3ab7677ad62b1.m3u8",
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1142&context=elo2026&type=additional"
     },
     {
       "title": "The Headless Seven: A Live Hydraen Field Experiment",
@@ -848,7 +848,8 @@
       "start": "2026-07-17T14:30:00Z",
       "end": "2026-07-17T15:30:00Z",
       "featured": false,
-      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/87/18/ff/8718ffc6e6fc12ca2cf8256cc14d90ce0ea9473eb89bd24e56284b0cef68937f.m3u8"
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/87/18/ff/8718ffc6e6fc12ca2cf8256cc14d90ce0ea9473eb89bd24e56284b0cef68937f.m3u8",
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1172&context=elo2026&type=additional"
     },
     {
       "title": "“Huir sí es mejor plan”: Rethinking the Subject in Digital Literature",
@@ -859,7 +860,8 @@
       "start": "2026-07-17T14:30:00Z",
       "end": "2026-07-17T15:30:00Z",
       "featured": false,
-      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/84/4c/6d/844c6db5b7bd3dbead49bce07af0d1c7d64979e3356b4cc63b5184c8aee0482c.m3u8"
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/84/4c/6d/844c6db5b7bd3dbead49bce07af0d1c7d64979e3356b4cc63b5184c8aee0482c.m3u8",
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1123&context=elo2026&type=additional"
     },
     {
       "title": "Plenary: Electronic Literature Collective 5",
@@ -870,7 +872,8 @@
       "start": "2026-07-17T17:00:00Z",
       "end": "2026-07-17T18:00:00Z",
       "featured": true,
-      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/48/6d/1d/486d1db70b75c34035020bfca00d24d8b8bfdce82194e2207066073ecc4bf7e9.m3u8"
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/48/6d/1d/486d1db70b75c34035020bfca00d24d8b8bfdce82194e2207066073ecc4bf7e9.m3u8",
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1177&context=elo2026&type=additional"
     },
     {
       "title": "A Human Was Here: Occult Poetics, Hypertext Ritual, and the (Un)Supervised Web",
@@ -894,7 +897,8 @@
       "start": "2026-07-17T18:15:00Z",
       "end": "2026-07-17T19:15:00Z",
       "featured": false,
-      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/53/32/af/5332af2663c799e6ff0ae2e1aac34355942e940083d27ce58acf15bf5a3d1274.m3u8"
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/53/32/af/5332af2663c799e6ff0ae2e1aac34355942e940083d27ce58acf15bf5a3d1274.m3u8",
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1112&context=elo2026&type=additional"
     },
     {
       "title": "Archival Storytelling: Remembering Our Digital History",
@@ -953,7 +957,8 @@
       "start": "2026-07-17T19:30:00Z",
       "end": "2026-07-17T20:30:00Z",
       "featured": false,
-      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/f3/3e/eb/f33eeb8d2acf0efc8fd4c6d64eea0b856ed9f908f9f85cf791d904e0f35a28bd.m3u8"
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/f3/3e/eb/f33eeb8d2acf0efc8fd4c6d64eea0b856ed9f908f9f85cf791d904e0f35a28bd.m3u8",
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1117&context=elo2026&type=additional"
     },
     {
       "title": "Essay on the future of writing-reading: thought, meditation and synchronicities",
@@ -962,9 +967,22 @@
       "track": "Algorithms & Imaginaries",
       "type": "Experimental Track",
       "start": "2026-07-17T20:45:00Z",
+      "end": "2026-07-18T00:30:00Z",
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/ae/d5/ca/aed5ca7f784ad7259f137ca7272f76d0ad469d2bbcab4ed39e4158e9480250fe.m3u8",
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1061&context=elo2026&type=additional"
+    },
+    {
+      "title": "From Voice to Environment: Authorship in Spatial Collage",
+      "url": "https://stars.library.ucf.edu/elo2026/narrativesandworlds/schedule/16",
+      "presenters": "Daniel Lichtman, St. John’s university",
+      "track": "Narratives & Worlds",
+      "type": "Individual Talk",
+      "start": "2026-07-17T20:45:00Z",
       "end": "2026-07-17T21:45:00Z",
       "featured": false,
-      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/ae/d5/ca/aed5ca7f784ad7259f137ca7272f76d0ad469d2bbcab4ed39e4158e9480250fe.m3u8"
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/d3/b3/b0/d3b3b077a087a5d3a2909f60c108c9ac13a605c51425abd4977f14669419cd9f.m3u8",
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1160&context=elo2026&type=additional"
     },
     {
       "title": "Inscription",
@@ -1033,7 +1051,8 @@
       "start": "2026-07-18T13:15:00Z",
       "end": "2026-07-18T14:15:00Z",
       "featured": false,
-      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/82/d8/57/82d857211ef26430ec4747db6414c4911b08c3d6878081e2988a45c4a385b33a.m3u8"
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/82/d8/57/82d857211ef26430ec4747db6414c4911b08c3d6878081e2988a45c4a385b33a.m3u8",
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1076&context=elo2026&type=additional"
     },
     {
       "title": "From AI to EI: Towards an ‘Environmental Intelligence’",
@@ -1078,7 +1097,8 @@
       "start": "2026-07-18T13:15:00Z",
       "end": "2026-07-18T14:15:00Z",
       "featured": false,
-      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/7d/70/a7/7d70a772a61b943be44716e206c1163f0bdb474d086454e012012fc0c8c4235d.m3u8"
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/7d/70/a7/7d70a772a61b943be44716e206c1163f0bdb474d086454e012012fc0c8c4235d.m3u8",
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1038&context=elo2026&type=additional"
     },
     {
       "title": "Teaching Writers to Think Queerly: Twine, Interactive Narrative, and the Unlearning of Linear Storytelling",
@@ -1089,7 +1109,8 @@
       "start": "2026-07-18T13:15:00Z",
       "end": "2026-07-18T14:15:00Z",
       "featured": false,
-      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/19/b6/59/19b6593923ac06b72906a7deb141adc4cbfaea5f9c59a8ae91118a0e8258de54.m3u8"
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/19/b6/59/19b6593923ac06b72906a7deb141adc4cbfaea5f9c59a8ae91118a0e8258de54.m3u8",
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1114&context=elo2026&type=additional"
     },
     {
       "title": "Twine and Inky: A Hypertext Multi-tool for the Creative Writing Classroom",
@@ -1100,7 +1121,8 @@
       "start": "2026-07-18T13:15:00Z",
       "end": "2026-07-18T14:15:00Z",
       "featured": false,
-      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/0f/5c/4f/0f5c4f3202a4ce02c6bae6d5b76e527e8777806f589791c9dc0da75b727d68a9.m3u8"
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/0f/5c/4f/0f5c4f3202a4ce02c6bae6d5b76e527e8777806f589791c9dc0da75b727d68a9.m3u8",
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1074&context=elo2026&type=additional"
     },
     {
       "title": "Vibe Coding: AI, Digital Text Recycling, and the Remediation of Digital Poetry",
@@ -1135,7 +1157,8 @@
       "start": "2026-07-18T14:30:00Z",
       "end": "2026-07-18T15:30:00Z",
       "featured": false,
-      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/c2/60/50/c2605074417f60208a1943f514ee0a666db42404234813c77594275b9e8a2767.m3u8"
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/c2/60/50/c2605074417f60208a1943f514ee0a666db42404234813c77594275b9e8a2767.m3u8",
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1020&context=elo2026&type=additional"
     },
     {
       "title": "Exiled to Latent Space: Writing from Dimensions We Cannot Enter",
@@ -1182,7 +1205,19 @@
       "start": "2026-07-18T14:30:00Z",
       "end": "2026-07-18T15:30:00Z",
       "featured": false,
-      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/b4/08/38/b40838ce3dc7b375321ea6883c51714182ab05efa881541284f7c73f2cca4d5e.m3u8"
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/b4/08/38/b40838ce3dc7b375321ea6883c51714182ab05efa881541284f7c73f2cca4d5e.m3u8",
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1139&context=elo2026&type=additional"
+    },
+    {
+      "title": "The Female Voice, The Male Gaze: AI Colonial Paradox and African Feminist Futures",
+      "url": "https://stars.library.ucf.edu/elo2026/narrativesandworlds/schedule/35",
+      "presenters": "Aishat Olayetunde Isiaq Mrs, The Nigeria French Language Village Ajara Badagry Lagos, Nigeria",
+      "track": "Narratives & Worlds",
+      "type": "Individual Talk",
+      "start": "2026-07-18T14:30:00Z",
+      "end": "2026-07-18T15:30:00Z",
+      "featured": false,
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/69/11/ef/6911efbb67a3db7c554516ce5156d5c8d91ccb53b4386f0576489e54b5b1eba9.m3u8"
     },
     {
       "title": "The Question is a Node: Online Quizzes as Interactive Non-Fiction",
@@ -1205,7 +1240,8 @@
       "start": "2026-07-18T14:30:00Z",
       "end": "2026-07-18T15:30:00Z",
       "featured": false,
-      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/50/e7/ff/50e7ff875d64a7c41ed223114457dea86a362b68b22f97b302c8d546aaf5ed39.m3u8"
+      "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/50/e7/ff/50e7ff875d64a7c41ed223114457dea86a362b68b22f97b302c8d546aaf5ed39.m3u8",
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1053&context=elo2026&type=additional"
     },
     {
       "title": "Keynote: Leonardo Flores, \"Beyond Impossible Writing: Electronic Literature in the Age of AI\"",
