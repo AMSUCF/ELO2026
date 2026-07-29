@@ -1,0 +1,4705 @@
+WEBVTT
+
+1
+00:00:00.200 --> 00:00:01.320
+Welcome back everybody.
+
+2
+00:00:01.320 --> 00:00:05.040
+We are in the Algorithms and Imaginaries
+track at the L0
+
+3
+00:00:05.120 --> 00:00:08.400
+2026 Unsupervised conference.
+
+4
+00:00:08.400 --> 00:00:11.080
+Thank you for joining us today.
+
+5
+00:00:11.080 --> 00:00:15.640
+Those of you who are logged in on zoom,
+and for those of you who will be watching
+
+6
+00:00:16.440 --> 00:00:18.720
+in perpetuity over
+
+7
+00:00:18.720 --> 00:00:21.720
+at the UCF repository
+where this conference is stored
+
+8
+00:00:22.360 --> 00:00:26.360
+today, I'm here to introduce
+Professor Leonardo Flores,
+
+9
+00:00:27.120 --> 00:00:30.640
+who is the chair of the English department
+at Appalachian State University
+
+10
+00:00:30.640 --> 00:00:34.360
+and president of the Latin American
+Electronic Literature Network,
+
+11
+00:00:34.520 --> 00:00:37.720
+which publishes the elite anthologies.
+
+12
+00:00:38.080 --> 00:00:42.200
+His research areas are electronic
+literature, digital writing, and AI,
+
+13
+00:00:42.240 --> 00:00:48.560
+and he's known for the extensive blog
+I e poetry, the Electronic Literature
+
+14
+00:00:48.560 --> 00:00:52.320
+Collection, volume
+three third Gen Electronic Literature,
+
+15
+00:00:52.320 --> 00:00:55.360
+and the anthology volume one.
+
+16
+00:00:55.400 --> 00:00:58.960
+He's part of the MLA
+Task Force on AI in Teaching and Research,
+
+17
+00:00:58.960 --> 00:01:02.240
+and co-chaired
+its AI in Research Working Group.
+
+18
+00:01:02.280 --> 00:01:04.200
+He is available to offer talks.
+
+19
+00:01:04.200 --> 00:01:06.280
+And I've got Leonard here.
+
+20
+00:01:08.200 --> 00:01:10.440
+He's available
+to offer talks and workshops on AI
+
+21
+00:01:10.440 --> 00:01:14.320
+and its impact on education, policy,
+scholarship and creativity.
+
+22
+00:01:14.400 --> 00:01:15.480
+It was a part of an E!
+
+23
+00:01:15.480 --> 00:01:19.280
+Poetry workshop at a conference
+recently with Leo that was really great,
+
+24
+00:01:19.280 --> 00:01:20.920
+so I can't recommend it enough.
+
+25
+00:01:20.920 --> 00:01:25.040
+And he is a cyborg digital writer
+with a thriving creative coding practice.
+
+26
+00:01:25.080 --> 00:01:29.400
+For more information on his current work,
+you can visit and out of the florist net.
+
+27
+00:01:29.600 --> 00:01:32.040
+So please give a round of applause
+for Leo.
+
+28
+00:01:32.040 --> 00:01:33.000
+Welcome!
+
+29
+00:01:33.000 --> 00:01:35.920
+Thank you so much for giving us keynote.
+
+30
+00:01:35.920 --> 00:01:38.200
+Thank you. Thank you.
+
+31
+00:01:38.200 --> 00:01:41.000
+So my talk is
+thank you all for being here.
+
+32
+00:01:41.000 --> 00:01:43.040
+I'm honored by the invitation.
+
+33
+00:01:43.040 --> 00:01:47.200
+This is my very first keynote
+I give for the yellow.
+
+34
+00:01:47.200 --> 00:01:50.600
+And I'm just so honored to have the chance
+
+35
+00:01:50.600 --> 00:01:54.240
+to talk to this community
+that I hold so dear.
+
+36
+00:01:55.240 --> 00:01:56.600
+All right.
+
+37
+00:01:56.600 --> 00:01:59.400
+My talk is is titled Beyond Impossible
+
+38
+00:01:59.400 --> 00:02:02.480
+Writing Electronic Literature
+in the Age of AI.
+
+39
+00:02:02.720 --> 00:02:05.560
+And over the course of this talk,
+
+40
+00:02:05.560 --> 00:02:09.320
+you will understand what I mean by this.
+
+41
+00:02:09.320 --> 00:02:12.440
+And the image is a little bit of a hint
+throughout.
+
+42
+00:02:12.440 --> 00:02:15.440
+You might see some cyborg versions of me.
+
+43
+00:02:15.440 --> 00:02:17.240
+I call them cyber layouts.
+
+44
+00:02:17.240 --> 00:02:20.480
+There's a point to it,
+you know, cyborg writing and all that.
+
+45
+00:02:20.520 --> 00:02:24.000
+I don't think I have to explain it
+too much to this community.
+
+46
+00:02:25.800 --> 00:02:27.280
+For those who don't know me.
+
+47
+00:02:27.280 --> 00:02:29.400
+Who am I? What do I do? Right.
+
+48
+00:02:29.400 --> 00:02:34.040
+Well, I've been studying and researching
+electronic literature for over 25 years.
+
+49
+00:02:34.400 --> 00:02:37.760
+I served on the MLA Forces
+
+50
+00:02:37.800 --> 00:02:42.760
+Joint Task Force on and Writing,
+which published a number of working papers
+
+51
+00:02:42.760 --> 00:02:46.920
+offering guidance
+to the field on electronic,
+
+52
+00:02:48.080 --> 00:02:51.320
+on the use of AI in academia policy.
+
+53
+00:02:51.560 --> 00:02:55.520
+All these things after that team
+
+54
+00:02:55.560 --> 00:03:00.920
+kind of ended operations, MLA
+formed a new task force on AI
+
+55
+00:03:00.920 --> 00:03:06.040
+and Teaching and Research, which has been
+operating for the past year and a half.
+
+56
+00:03:06.040 --> 00:03:09.520
+And, you know,
+we published some statements on AI
+
+57
+00:03:09.520 --> 00:03:13.320
+and educational technologies and agents
+and AI and assessments.
+
+58
+00:03:13.480 --> 00:03:18.000
+But the most important work
+I've been doing was co-chairing the
+
+59
+00:03:18.000 --> 00:03:22.440
+AI and Research Working Group,
+which just published earlier in June,
+
+60
+00:03:23.200 --> 00:03:27.240
+AI and the Humanities A framework
+for Language and Literary Scholarship.
+
+61
+00:03:27.240 --> 00:03:30.800
+So I really recommend
+you take a peek at that guidance.
+
+62
+00:03:31.600 --> 00:03:35.240
+And there's another working group,
+
+63
+00:03:35.680 --> 00:03:42.080
+the AI and Pedagogy Working Group, that's
+about to publish guidance on that area.
+
+64
+00:03:42.640 --> 00:03:46.280
+So my goal with this talk
+is to bring a little perspective
+
+65
+00:03:46.280 --> 00:03:50.160
+and a little nuance
+to how people are responding to AI,
+
+66
+00:03:51.600 --> 00:03:53.960
+even in this community.
+
+67
+00:03:53.960 --> 00:03:57.280
+So part one putting things in perspective.
+
+68
+00:03:58.160 --> 00:04:03.800
+So I want to highlight some touch points
+in computational writing and chatbots.
+
+69
+00:04:03.840 --> 00:04:06.480
+Right. And this will be familiar
+to this community.
+
+70
+00:04:06.480 --> 00:04:07.480
+Right.
+
+71
+00:04:07.480 --> 00:04:11.680
+1953 Christopher Stretches Love Letter
+Generator
+
+72
+00:04:12.240 --> 00:04:15.560
+in a way, is one of the foundational works
+in our field.
+
+73
+00:04:15.600 --> 00:04:20.920
+The earliest one we're aware of
+actually made with computation, right?
+
+74
+00:04:21.040 --> 00:04:24.560
+1964 Eliza by Joseph was born.
+
+75
+00:04:25.200 --> 00:04:27.680
+You know, I wish there was a,
+
+76
+00:04:27.680 --> 00:04:31.040
+I don't know, booklet study about that
+that we could reference.
+
+77
+00:04:31.480 --> 00:04:34.480
+Anyways, talk about that more later.
+
+78
+00:04:35.600 --> 00:04:36.760
+1983.
+
+79
+00:04:36.760 --> 00:04:38.600
+There's a
+there's a bunch of other things going
+
+80
+00:04:38.600 --> 00:04:40.880
+on, interactive fiction
+and all these things.
+
+81
+00:04:40.880 --> 00:04:45.840
+But I'm really focusing on computational
+writing as computer generated writing.
+
+82
+00:04:47.200 --> 00:04:49.320
+You know, Policeman beard is half
+
+83
+00:04:49.320 --> 00:04:54.640
+constructed by Richter, 1984
+a travesty generator for micros
+
+84
+00:04:54.680 --> 00:04:59.360
+kind of puts Markov chain generators
+on the hands of the people.
+
+85
+00:05:01.040 --> 00:05:04.280
+And why is this moving all right.
+
+86
+00:05:04.440 --> 00:05:08.200
+There's been a loner prize for chatbots
+that lasted
+
+87
+00:05:08.480 --> 00:05:12.840
+almost 20 years
+trying to pass the Turing test.
+
+88
+00:05:12.840 --> 00:05:18.280
+And, you know, from 2002 to the present,
+Philip m Parker has authored over
+
+89
+00:05:18.280 --> 00:05:22.800
+a million books, several hundred thousand
+of which are available, and Amazon.
+
+90
+00:05:22.800 --> 00:05:25.200
+Burgess
+
+91
+00:05:25.200 --> 00:05:26.800
+now he's using AI,
+
+92
+00:05:26.800 --> 00:05:29.800
+but before he was using pre AI
+
+93
+00:05:30.320 --> 00:05:32.560
+computer generated writing methods.
+
+94
+00:05:32.560 --> 00:05:37.240
+And, you know, from 2013
+
+95
+00:05:37.240 --> 00:05:41.760
+to the present, nano gen mode
+or National Novel Generation Months
+
+96
+00:05:42.520 --> 00:05:46.880
+has surpassed 1000 novels generated. And,
+
+97
+00:05:47.920 --> 00:05:50.120
+you know, some recommended reading.
+
+98
+00:05:50.120 --> 00:05:54.400
+You can actually read and experience
+this history with little anyone.
+
+99
+00:05:54.400 --> 00:05:59.880
+Bertram and Nick Montfort's
+wonderful anthology output, documenting
+
+100
+00:05:59.920 --> 00:06:05.600
+200 works and 70 years of computation
+of computer generated text writing.
+
+101
+00:06:05.600 --> 00:06:09.320
+And, of course, the hot off the press
+inventing Eliza
+
+102
+00:06:09.400 --> 00:06:12.560
+how the first chatbot
+shaped the future of eyes.
+
+103
+00:06:12.600 --> 00:06:13.880
+We have to read it sideways.
+
+104
+00:06:13.880 --> 00:06:20.440
+Thank you all by a wonderful team,
+including our very own Mark Marina.
+
+105
+00:06:22.080 --> 00:06:23.280
+One more touch point.
+
+106
+00:06:23.280 --> 00:06:27.360
+November 30th, 2022 ChatGPT gets launched
+
+107
+00:06:28.320 --> 00:06:31.840
+and it proved to the general population
+
+108
+00:06:32.160 --> 00:06:36.160
+that computers were able to pass
+the Turing test for writing, right.
+
+109
+00:06:36.200 --> 00:06:39.760
+All of a sudden
+there was a line of demarcation
+
+110
+00:06:40.560 --> 00:06:43.440
+before that time.
+
+111
+00:06:43.440 --> 00:06:48.360
+You know, computers generating
+text was a quirky thing
+
+112
+00:06:48.360 --> 00:06:54.960
+that fringe practitioners did,
+and all of a sudden anyone could do it.
+
+113
+00:06:54.960 --> 00:06:59.560
+And this should have been celebrated
+as a milestone in computation.
+
+114
+00:06:59.600 --> 00:07:02.880
+But instead a moral panic ensued.
+
+115
+00:07:04.360 --> 00:07:06.680
+Essays like the college Essayist dead.
+
+116
+00:07:06.680 --> 00:07:09.280
+It came out like, what, a week later?
+
+117
+00:07:09.280 --> 00:07:11.840
+Two weeks later. Yeah. A week later.
+
+118
+00:07:11.840 --> 00:07:12.280
+Stephen.
+
+119
+00:07:12.280 --> 00:07:17.200
+Marsha, not nobody is prepared
+for how AI will transform academia.
+
+120
+00:07:17.640 --> 00:07:19.840
+Listen, I get it.
+
+121
+00:07:19.840 --> 00:07:22.760
+It's it's been it's been pretty bad.
+
+122
+00:07:22.760 --> 00:07:26.480
+So what does this all look like?
+
+123
+00:07:26.520 --> 00:07:28.200
+This AI moral panic.
+
+124
+00:07:28.200 --> 00:07:31.360
+Well, students are going to cheat with AI.
+
+125
+00:07:32.480 --> 00:07:35.040
+AI is a plagiarism machine.
+
+126
+00:07:35.040 --> 00:07:38.040
+AI will displace writers and artists.
+
+127
+00:07:38.320 --> 00:07:40.480
+AI is going to take your job.
+
+128
+00:07:40.480 --> 00:07:43.280
+A steals your intellectual property.
+
+129
+00:07:43.280 --> 00:07:46.000
+Kids won't learn to think or create.
+
+130
+00:07:46.000 --> 00:07:51.920
+An AI is financially unsustainable
+and AI is bad for the environment.
+
+131
+00:07:51.920 --> 00:07:56.080
+And listen, many of these statements
+are actually true.
+
+132
+00:07:56.120 --> 00:08:00.360
+The problem is that AI, like cheating
+wasn't invented and plagiarism
+
+133
+00:08:00.360 --> 00:08:01.400
+wasn't invented.
+
+134
+00:08:01.400 --> 00:08:04.560
+With AI it existed before, right?
+
+135
+00:08:04.680 --> 00:08:08.080
+A lot of these
+like people losing jobs over
+
+136
+00:08:08.120 --> 00:08:11.800
+technological developments is nothing new.
+
+137
+00:08:11.840 --> 00:08:13.000
+Right.
+
+138
+00:08:13.000 --> 00:08:16.080
+We can think of many, many, many examples.
+
+139
+00:08:16.480 --> 00:08:17.760
+The very web.
+
+140
+00:08:17.760 --> 00:08:20.680
+Right?
+
+141
+00:08:20.680 --> 00:08:24.520
+The very web caused a lot of of job
+displacement.
+
+142
+00:08:24.560 --> 00:08:24.840
+Right?
+
+143
+00:08:24.840 --> 00:08:28.200
+Like like,
+I don't know, travel agents are kind of a
+
+144
+00:08:28.200 --> 00:08:31.200
+rare thing these days.
+
+145
+00:08:31.640 --> 00:08:34.760
+And of course, there's really bad
+environmental impact.
+
+146
+00:08:34.760 --> 00:08:41.400
+Now, the problem with the moral panic
+is that that source of the moral panic
+
+147
+00:08:41.400 --> 00:08:44.840
+becomes a scapegoat
+for all the other anxieties
+
+148
+00:08:44.840 --> 00:08:48.720
+that people have,
+and that scapegoating is the problem.
+
+149
+00:08:49.520 --> 00:08:53.640
+So, you know, one piece
+that really captured the imagination,
+
+150
+00:08:53.640 --> 00:08:56.880
+an idea that captured,
+that really took hold in the public
+
+151
+00:08:56.880 --> 00:09:00.840
+imaginary, was this idea
+of a bottle of water per email.
+
+152
+00:09:00.880 --> 00:09:02.640
+Right? Like, here you are.
+
+153
+00:09:02.640 --> 00:09:06.960
+You sent an email using AI,
+and now all of a sudden,
+
+154
+00:09:07.000 --> 00:09:08.880
+it's like dumping a bottle of water.
+
+155
+00:09:08.880 --> 00:09:13.000
+That's a very visceral image
+that persists to this day.
+
+156
+00:09:13.000 --> 00:09:16.800
+And this article published in 2024,
+September 18th.
+
+157
+00:09:16.840 --> 00:09:18.320
+Right.
+
+158
+00:09:18.320 --> 00:09:20.440
+I mean, again, it's not wrong.
+
+159
+00:09:20.440 --> 00:09:24.600
+It presents information
+such as right, this nice infographic,
+
+160
+00:09:24.640 --> 00:09:27.800
+100 word email generated by an AI chatbot
+using
+
+161
+00:09:27.800 --> 00:09:32.560
+GPT four once requires
+a little more than one bottle
+
+162
+00:09:32.600 --> 00:09:36.960
+519ml of water,
+and they do the math once weekly
+
+163
+00:09:36.960 --> 00:09:42.080
+for a year
+requires 27l, about 1.3 water cooler jugs.
+
+164
+00:09:42.120 --> 00:09:46.840
+Of course, if I have a week
+in which I send one email.
+
+165
+00:09:47.080 --> 00:09:48.760
+My God.
+
+166
+00:09:48.760 --> 00:09:49.320
+Right. So.
+
+167
+00:09:49.320 --> 00:09:52.080
+So you can imagine
+how this problem compounds
+
+168
+00:09:53.720 --> 00:09:55.320
+once weekly for a year.
+
+169
+00:09:55.320 --> 00:10:00.320
+By one out of ten working Americans,
+roughly 16 million people requires,
+
+170
+00:10:00.320 --> 00:10:01.080
+and so on.
+
+171
+00:10:01.080 --> 00:10:04.480
+It gives the,
+you know, equal to the water consumed
+
+172
+00:10:04.480 --> 00:10:08.320
+by all Rhode Island
+households for 1.5 days.
+
+173
+00:10:08.360 --> 00:10:11.360
+So horrifying. Yes.
+
+174
+00:10:12.480 --> 00:10:14.520
+Now they take it further.
+
+175
+00:10:14.520 --> 00:10:14.880
+Right.
+
+176
+00:10:14.880 --> 00:10:20.840
+Microsoft's data center used 700,000l
+of water while training GPT three,
+
+177
+00:10:20.880 --> 00:10:27.840
+and it takes about 6992l of water
+to produce 1 pound of beef,
+
+178
+00:10:27.960 --> 00:10:32.080
+mostly used to grow, feed, clean
+the farm and hydrate cows.
+
+179
+00:10:32.360 --> 00:10:33.920
+And therefore training.
+
+180
+00:10:33.920 --> 00:10:39.440
+GPT three has the same water cost
+as producing 100 pounds of beef, nearly
+
+181
+00:10:39.480 --> 00:10:42.640
+double the amount of an average American,
+nearly
+
+182
+00:10:42.680 --> 00:10:45.680
+double the amount in average
+American eats in a year.
+
+183
+00:10:46.360 --> 00:10:49.360
+There's a similar calculation
+done with rice.
+
+184
+00:10:49.800 --> 00:10:54.560
+So the vegetarians have a comparison
+point as well. Now,
+
+185
+00:10:56.360 --> 00:10:57.400
+Ted Underwood
+
+186
+00:10:57.400 --> 00:11:01.440
+had a really interesting response
+that opened my eyes on blue Sky.
+
+187
+00:11:01.600 --> 00:11:05.560
+I read the article to the end,
+where I discovered that one quarter
+
+188
+00:11:05.560 --> 00:11:10.240
+pound burger equals 3368 emails.
+
+189
+00:11:10.240 --> 00:11:13.560
+So if I skipped one hamburger,
+I can ask a model to write
+
+190
+00:11:13.560 --> 00:11:16.640
+one email a week for 64 years.
+
+191
+00:11:17.000 --> 00:11:19.720
+So what's clever
+about what Ted Underwood did there
+
+192
+00:11:19.720 --> 00:11:23.200
+is that he applied the math the other way.
+
+193
+00:11:23.240 --> 00:11:24.160
+Right.
+
+194
+00:11:24.160 --> 00:11:27.840
+And so and by the way, 100 pounds of beef.
+
+195
+00:11:27.840 --> 00:11:30.360
+That's not even a single cow, right?
+
+196
+00:11:30.360 --> 00:11:33.360
+Just just to give you a sense of scale,
+
+197
+00:11:33.920 --> 00:11:37.640
+let's look at the data
+on on meat production.
+
+198
+00:11:37.680 --> 00:11:37.920
+Right.
+
+199
+00:11:37.920 --> 00:11:40.920
+When we think about
+I went to our world and data.
+
+200
+00:11:41.280 --> 00:11:42.960
+This is in 2020 right.
+
+201
+00:11:42.960 --> 00:11:46.040
+And you can see that land use
+
+202
+00:11:46.040 --> 00:11:49.800
+change,
+farm animal feed processing, transport,
+
+203
+00:11:49.800 --> 00:11:54.000
+retail and packaging
+all generate greenhouse gases.
+
+204
+00:11:54.040 --> 00:11:54.480
+Right.
+
+205
+00:11:54.480 --> 00:11:57.440
+That that beef and beef is the worst.
+
+206
+00:11:57.440 --> 00:12:00.200
+Worst of all the meats.
+
+207
+00:12:00.200 --> 00:12:02.400
+It's the worst culprit of all.
+
+208
+00:12:02.400 --> 00:12:03.920
+Followed by Lanman.
+
+209
+00:12:03.920 --> 00:12:08.680
+Mutton, cheese, beef, dairy herd,
+chocolate, coffee,
+
+210
+00:12:08.720 --> 00:12:13.760
+prawns, farmed palm oil, pig meat,
+poultry meat, olive oil, etc.
+
+211
+00:12:13.760 --> 00:12:16.640
+and we keep going down from there.
+
+212
+00:12:18.400 --> 00:12:20.080
+Wait a minute.
+
+213
+00:12:20.080 --> 00:12:25.240
+If people are so concerned with
+the environmental impact of AI, I thought,
+
+214
+00:12:26.360 --> 00:12:29.360
+where's the beef with beef?
+
+215
+00:12:30.440 --> 00:12:33.440
+Why isn't there a moral panic about beef?
+
+216
+00:12:33.480 --> 00:12:39.240
+Beeps environmental impact
+is 2000 to 2900% worse
+
+217
+00:12:39.240 --> 00:12:42.240
+than AI's environmental impact?
+
+218
+00:12:42.240 --> 00:12:44.320
+Of course, many people like beef.
+
+219
+00:12:44.320 --> 00:12:46.480
+Meat consumption
+is part of the status quo.
+
+220
+00:12:46.480 --> 00:12:51.560
+We've been eating beef for millennia,
+and beef isn't disrupting our livelihood.
+
+221
+00:12:51.600 --> 00:12:53.440
+So? So I get that.
+
+222
+00:12:53.440 --> 00:12:55.000
+And we need to eat.
+
+223
+00:12:55.000 --> 00:12:58.000
+So food equals life. Great.
+
+224
+00:12:58.120 --> 00:12:59.880
+The question is, do we need to eat beef?
+
+225
+00:12:59.880 --> 00:13:02.760
+Right? By the way, I eat beef.
+
+226
+00:13:02.760 --> 00:13:04.200
+Just saying.
+
+227
+00:13:04.200 --> 00:13:05.720
+But we don't need AI.
+
+228
+00:13:05.720 --> 00:13:08.720
+So AI equals death in this equation.
+
+229
+00:13:10.320 --> 00:13:13.640
+But don't worry, folks,
+the tech industry has a solution.
+
+230
+00:13:15.000 --> 00:13:17.400
+Here I have screenshots of the main pages
+
+231
+00:13:17.400 --> 00:13:22.320
+or near the main pages for Beyond Beef
+and Impossible
+
+232
+00:13:22.360 --> 00:13:26.440
+Meats, Beyond Foods and Impossible Foods
+because they make things beyond beef,
+
+233
+00:13:26.480 --> 00:13:26.720
+right?
+
+234
+00:13:26.720 --> 00:13:29.600
+Like Beyond chicken or Impossible Chicken?
+
+235
+00:13:29.600 --> 00:13:33.800
+A couple of days ago, I had an impossible
+nugget in preparation for this talk.
+
+236
+00:13:33.840 --> 00:13:35.520
+People, I did this for you.
+
+237
+00:13:36.480 --> 00:13:38.080
+Anyways,
+
+238
+00:13:38.080 --> 00:13:42.240
+their websites have
+all kinds of hype about I mean, marketing.
+
+239
+00:13:42.280 --> 00:13:48.280
+I mean information
+about their environmental benefits, right?
+
+240
+00:13:48.440 --> 00:13:51.560
+Beyond Burger and Beyond Steak
+become the first base
+
+241
+00:13:51.560 --> 00:13:55.040
+meat products
+that qualify as climate solutions.
+
+242
+00:13:55.080 --> 00:13:57.440
+See, these people aren't doing it
+for the money.
+
+243
+00:13:57.440 --> 00:13:59.440
+They're doing it to save the planet.
+
+244
+00:13:59.440 --> 00:14:00.800
+And I love that.
+
+245
+00:14:00.800 --> 00:14:04.160
+And why eating a Beyond Burger
+is better for the planet.
+
+246
+00:14:04.200 --> 00:14:06.400
+Look at this beautiful Beyond Burger.
+
+247
+00:14:06.400 --> 00:14:09.040
+I, you know, by sight.
+
+248
+00:14:09.040 --> 00:14:11.640
+You probably can't tell it apart
+from a burger.
+
+249
+00:14:11.640 --> 00:14:15.480
+And they offer tools like a calculator
+where you can choose
+
+250
+00:14:15.520 --> 00:14:20.200
+right, the the beef
+and you can choose different proteins.
+
+251
+00:14:20.240 --> 00:14:22.120
+How many people are consuming it?
+
+252
+00:14:22.120 --> 00:14:23.440
+How many times a week.
+
+253
+00:14:23.440 --> 00:14:27.480
+And so, you know, one person
+eating beef once a week
+
+254
+00:14:28.160 --> 00:14:32.240
+will will,
+you know, I mean, using impossible beef
+
+255
+00:14:33.520 --> 00:14:35.040
+will reduce your water
+
+256
+00:14:35.040 --> 00:14:39.120
+usage by 1274 gallons
+
+257
+00:14:39.120 --> 00:14:42.920
+or 14 personal days of water usage.
+
+258
+00:14:42.920 --> 00:14:45.920
+So there's the campaign, right?
+
+259
+00:14:46.000 --> 00:14:49.000
+Tech startups to the rescue.
+
+260
+00:14:49.000 --> 00:14:52.960
+So the the big meat substitute
+industry, right?
+
+261
+00:14:53.000 --> 00:14:54.080
+Both. Impossible.
+
+262
+00:14:54.080 --> 00:14:55.440
+There's some interesting parallels
+
+263
+00:14:55.440 --> 00:14:59.320
+with AI and its rise,
+both impossible and beyond.
+
+264
+00:14:59.320 --> 00:15:02.760
+Companies
+burst into the market at around 2016.
+
+265
+00:15:03.000 --> 00:15:05.760
+They are supported by the same venture
+
+266
+00:15:05.760 --> 00:15:08.760
+capital and stock market that supports AI.
+
+267
+00:15:09.480 --> 00:15:11.440
+Their products have version numbers.
+
+268
+00:15:11.440 --> 00:15:15.640
+I think they're in like the three point
+something version of both the burgers
+
+269
+00:15:15.640 --> 00:15:18.640
+and the meats
+and the stakes and the chickens.
+
+270
+00:15:18.880 --> 00:15:21.280
+So so that's great.
+
+271
+00:15:21.280 --> 00:15:23.760
+There is an ancient history
+of meat substitutes.
+
+272
+00:15:23.760 --> 00:15:25.760
+They didn't invent this.
+
+273
+00:15:25.760 --> 00:15:30.040
+The industry really started in the 1930s
+with the seventh day Adventists.
+
+274
+00:15:30.040 --> 00:15:33.040
+They were the first to really kind of
+kick it up to a
+
+275
+00:15:33.040 --> 00:15:36.200
+more industrial level. And,
+
+276
+00:15:37.440 --> 00:15:39.320
+you know, these companies are growing
+
+277
+00:15:39.320 --> 00:15:44.040
+companies capitalizing on a growing
+vegan meat substitute industry.
+
+278
+00:15:45.360 --> 00:15:48.400
+They present themselves
+as technological solutions.
+
+279
+00:15:48.400 --> 00:15:52.560
+But come on, they're really just
+capitalist opportunism.
+
+280
+00:15:53.160 --> 00:15:56.960
+From the point of view of vegetarians,
+they completely missed the point.
+
+281
+00:15:56.960 --> 00:16:02.840
+And from the point, I mean,
+like vegetarian cuisine is a thing, right?
+
+282
+00:16:02.880 --> 00:16:06.640
+Their entire cultures
+that have elaborate vegetarian
+
+283
+00:16:07.080 --> 00:16:10.920
+cuisines, it's not about finding
+
+284
+00:16:11.040 --> 00:16:14.040
+like vegetarians aren't craving beef
+
+285
+00:16:15.040 --> 00:16:17.080
+that they can eat because it's not beef.
+
+286
+00:16:17.080 --> 00:16:22.240
+It's beyond or impossible beef from
+the point of view of meat connoisseurs.
+
+287
+00:16:22.280 --> 00:16:25.920
+Those of us who like meat,
+they completely missed the point.
+
+288
+00:16:25.960 --> 00:16:27.320
+I mean, they try.
+
+289
+00:16:27.320 --> 00:16:33.000
+But you know, I ate that impossible nugget
+and it was a nugget.
+
+290
+00:16:33.040 --> 00:16:38.080
+I mean, if you're aiming for the nugget,
+you're aiming pretty low, I'll say.
+
+291
+00:16:38.720 --> 00:16:43.000
+But they do capitalize from those
+who can't tell the difference.
+
+292
+00:16:43.040 --> 00:16:46.040
+And I use the word capitalize on purpose.
+
+293
+00:16:46.040 --> 00:16:51.440
+I want to keep gesturing towards
+capitalism, which is behind all this.
+
+294
+00:16:54.360 --> 00:16:57.440
+So beyond impossible writing
+
+295
+00:16:57.440 --> 00:17:02.600
+the title of of of this
+or the first half of the title of my talk,
+
+296
+00:17:03.360 --> 00:17:07.840
+AI generated writing is like impossible
+or beyond fake meat products.
+
+297
+00:17:07.880 --> 00:17:12.800
+It's a big tech solution
+and quotation marks an invented problem.
+
+298
+00:17:13.000 --> 00:17:17.200
+It's fueled by capitalist
+or opportunism and hype,
+
+299
+00:17:17.240 --> 00:17:20.240
+and it completely misses the point.
+
+300
+00:17:20.560 --> 00:17:23.560
+From the point of view of writing
+pedagogy,
+
+301
+00:17:24.000 --> 00:17:26.480
+reading connoisseurs, literary critic
+
+302
+00:17:26.480 --> 00:17:29.480
+scholars, electronic literature.
+
+303
+00:17:29.800 --> 00:17:33.640
+And that's why
+I called the first half of my talk
+
+304
+00:17:33.880 --> 00:17:36.880
+Beyond Impossible Writing
+
+305
+00:17:37.400 --> 00:17:41.280
+Part two Electronic Literature and AI.
+
+306
+00:17:43.640 --> 00:17:45.480
+Let's start by defining my terms.
+
+307
+00:17:45.480 --> 00:17:46.880
+I like to use both
+
+308
+00:17:46.880 --> 00:17:50.640
+electronic literature and digital writing,
+and I define them this way.
+
+309
+00:17:51.520 --> 00:17:55.720
+Digital writing refers to writing
+that embraces the potential digital media
+
+310
+00:17:55.760 --> 00:18:01.200
+offers to produce generative,
+interactive, multimodal, kinetic hypertext
+
+311
+00:18:01.560 --> 00:18:06.080
+textual works that engage digital culture
+to go beyond
+
+312
+00:18:06.080 --> 00:18:10.680
+the limitations of the page,
+whether that is printed or virtual.
+
+313
+00:18:11.560 --> 00:18:15.800
+Electronic literature is literary
+digital writing.
+
+314
+00:18:15.920 --> 00:18:19.200
+It's an older term in the field,
+and it includes practices
+
+315
+00:18:19.200 --> 00:18:23.680
+that aren't strictly digital writing,
+such as sound or video poetry,
+
+316
+00:18:23.680 --> 00:18:27.080
+and which language is not presented
+in written form.
+
+317
+00:18:27.800 --> 00:18:30.360
+Anyways, that's my definition.
+
+318
+00:18:30.360 --> 00:18:32.320
+I won't debate it right now.
+
+319
+00:18:33.640 --> 00:18:37.400
+The situation as a field, we're interested
+
+320
+00:18:37.400 --> 00:18:41.080
+in going beyond traditional writing,
+normative writing, if you will.
+
+321
+00:18:41.280 --> 00:18:45.680
+But the AI moral panic
+has resulted in a reification,
+
+322
+00:18:45.680 --> 00:18:50.200
+I would say even fetishization
+of traditional writing,
+
+323
+00:18:50.440 --> 00:18:55.480
+and it has resulted in a backlash
+against computational writing and bots.
+
+324
+00:18:55.640 --> 00:19:00.760
+We we heard several examples in Lily von
+Bertram's keynote
+
+325
+00:19:00.800 --> 00:19:04.880
+just a few days ago,
+and this is a problem for our field.
+
+326
+00:19:05.440 --> 00:19:09.520
+At the same time,
+AI has tremendous potential
+
+327
+00:19:09.520 --> 00:19:12.520
+to benefit our field.
+
+328
+00:19:13.600 --> 00:19:16.320
+This slide,
+the next three slides are from a talk
+
+329
+00:19:16.320 --> 00:19:19.320
+I gave a few years ago in India
+
+330
+00:19:19.360 --> 00:19:24.120
+about the potential digital writing has,
+but I'm also referencing,
+
+331
+00:19:24.720 --> 00:19:27.960
+you know, a talk I gave on
+
+332
+00:19:28.560 --> 00:19:33.760
+what's needed to be for electronic
+literature to thrive, to exist.
+
+333
+00:19:35.200 --> 00:19:38.880
+There are three main areas that that need
+
+334
+00:19:38.920 --> 00:19:41.920
+three conditions that need to be met
+for electronic literature.
+
+335
+00:19:41.920 --> 00:19:46.280
+The first one is access to digital devices
+and the internet.
+
+336
+00:19:46.760 --> 00:19:50.120
+The second is skills, information
+
+337
+00:19:50.120 --> 00:19:54.320
+and communication technology
+skills or ICT skills.
+
+338
+00:19:54.360 --> 00:19:59.320
+This is a Unesco established term
+and they define it as.
+
+339
+00:19:59.320 --> 00:20:02.560
+Basic skills are like sending an email
+with an attachment.
+
+340
+00:20:02.760 --> 00:20:07.120
+Standard skills are creating
+a presentation using presentation software
+
+341
+00:20:07.160 --> 00:20:12.440
+like a PowerPoint
+or whatever, and advanced programing.
+
+342
+00:20:13.600 --> 00:20:16.600
+And then finally privilege.
+
+343
+00:20:16.960 --> 00:20:19.960
+You know, Maslow's hierarchy of needs,
+
+344
+00:20:20.480 --> 00:20:23.720
+you know, puts art and creativity
+at the very top of the pyramid.
+
+345
+00:20:23.720 --> 00:20:28.760
+You have to meet all your other needs
+before you're able to create art.
+
+346
+00:20:29.520 --> 00:20:31.680
+And feel free to create art.
+
+347
+00:20:31.680 --> 00:20:36.720
+Of course, people create art in
+all conditions, but you know what I mean.
+
+348
+00:20:38.000 --> 00:20:39.280
+Also, access to
+
+349
+00:20:39.280 --> 00:20:43.760
+a scene, to an audience, to a community,
+to a field where this work, this
+
+350
+00:20:43.760 --> 00:20:50.400
+production at the very least, generates
+cultural capital, if not actual capital.
+
+351
+00:20:50.600 --> 00:20:53.280
+More on that later.
+
+352
+00:20:53.280 --> 00:20:55.680
+Now, some of you may
+
+353
+00:20:55.680 --> 00:20:59.120
+be familiar with my work
+on third generation electronic literature.
+
+354
+00:20:59.120 --> 00:21:02.600
+I want to kind of map
+this onto the generations.
+
+355
+00:21:03.080 --> 00:21:07.160
+So the first generation,
+if we think of access, well,
+
+356
+00:21:07.360 --> 00:21:10.800
+computers weren't very available
+during the first.
+
+357
+00:21:10.840 --> 00:21:13.600
+You know,
+during the beginnings of computation,
+
+358
+00:21:13.600 --> 00:21:16.400
+you needed to have access
+to a mainframe computer.
+
+359
+00:21:16.400 --> 00:21:21.560
+Then personal computers came into
+the scene in the sort of late 70s 80s.
+
+360
+00:21:22.400 --> 00:21:25.760
+But if you wanted to do any creation
+there, you had to
+
+361
+00:21:25.960 --> 00:21:28.920
+you had to have advanced ICT skills.
+
+362
+00:21:28.920 --> 00:21:31.880
+You had to be able to program. Right.
+
+363
+00:21:33.120 --> 00:21:34.880
+The second generation
+
+364
+00:21:34.880 --> 00:21:40.360
+from the web, as Hayles conceptualized
+from the beginnings of the web,
+
+365
+00:21:40.400 --> 00:21:43.760
+1995 more or less to the present,
+
+366
+00:21:45.240 --> 00:21:48.800
+you need access to personal computers,
+internet, web hosting.
+
+367
+00:21:48.800 --> 00:21:53.160
+So there were divides that have been,
+you know, narrowed,
+
+368
+00:21:54.000 --> 00:21:56.400
+but still you needed advanced ICT
+
+369
+00:21:56.400 --> 00:21:59.400
+skills programing, whether it was HTML,
+
+370
+00:21:59.560 --> 00:22:03.520
+JavaScript or using advanced
+authoring software
+
+371
+00:22:03.560 --> 00:22:06.760
+like Flash or Director
+or some other platforms.
+
+372
+00:22:08.640 --> 00:22:11.680
+However, platforms like flash, software
+
+373
+00:22:11.720 --> 00:22:16.480
+like flash lowered that technical barrier
+and gave a whole generation
+
+374
+00:22:16.480 --> 00:22:21.720
+of wonderful writers and artists
+the space to create rich multimedia works.
+
+375
+00:22:21.720 --> 00:22:25.400
+And that's why it was so
+and still is so important.
+
+376
+00:22:26.000 --> 00:22:31.520
+Now, the third generation,
+I posited that because what it requires
+
+377
+00:22:31.520 --> 00:22:35.800
+that access is access to digital devices,
+internet, social media networks,
+
+378
+00:22:35.840 --> 00:22:41.840
+app platforms, mobile devices, touchscreen
+devices, smartphones, all those things.
+
+379
+00:22:41.880 --> 00:22:47.600
+If you have access to that,
+then you don't need advanced ICT skills
+
+380
+00:22:47.600 --> 00:22:52.200
+to create things like a meme
+or to use cheap bots done
+
+381
+00:22:52.200 --> 00:22:55.200
+quick to program and create a bot
+
+382
+00:22:55.280 --> 00:22:57.720
+and deploy it on Twitter.
+
+383
+00:22:57.720 --> 00:23:01.200
+May at rest, in peace or in pieces.
+
+384
+00:23:01.960 --> 00:23:04.960
+And then using, you know,
+
+385
+00:23:05.120 --> 00:23:09.520
+something like Instagram or TikTok
+and generating creating things
+
+386
+00:23:09.560 --> 00:23:10.760
+videos, images
+
+387
+00:23:10.760 --> 00:23:14.600
+that you put text on and does things
+and share it through these spaces.
+
+388
+00:23:15.160 --> 00:23:17.520
+So these things are a lot more intuitive.
+
+389
+00:23:17.520 --> 00:23:18.520
+There are a lot more,
+
+390
+00:23:19.520 --> 00:23:21.200
+you know, inviting.
+
+391
+00:23:21.200 --> 00:23:25.120
+And it broadens the the potential creation
+
+392
+00:23:25.760 --> 00:23:28.760
+in the in the field and in the world.
+
+393
+00:23:29.720 --> 00:23:33.440
+So some thoughts, right, that I gave
+at that talk.
+
+394
+00:23:33.800 --> 00:23:36.840
+Platforms that require higher ICT skills
+
+395
+00:23:36.840 --> 00:23:40.960
+perpetuate digital divides and platforms
+that require
+
+396
+00:23:40.960 --> 00:23:45.120
+higher economic investment
+perpetuate digital divides.
+
+397
+00:23:45.160 --> 00:23:45.480
+Right.
+
+398
+00:23:45.480 --> 00:23:50.160
+So if you have to have a computer
+and pay for server space
+
+399
+00:23:50.160 --> 00:23:53.320
+so you can upload your work, that's
+
+400
+00:23:53.320 --> 00:23:56.800
+going to slice a whole bunch of people
+out of the equation.
+
+401
+00:23:57.080 --> 00:24:00.120
+But if you have GeoCities
+or some other free hosting
+
+402
+00:24:00.160 --> 00:24:03.120
+that lowers that barrier, right?
+
+403
+00:24:03.120 --> 00:24:08.120
+Technologies that require lower ICT
+skills and lower economic barriers
+
+404
+00:24:08.120 --> 00:24:11.440
+break these digital divides,
+or at least build bridges
+
+405
+00:24:11.440 --> 00:24:14.440
+across the digital divides.
+
+406
+00:24:15.960 --> 00:24:17.000
+This is a slide
+
+407
+00:24:17.000 --> 00:24:23.880
+from presentation that Malda and I gave
+yesterday, titled Positioning
+
+408
+00:24:23.880 --> 00:24:28.240
+Electronic Literature as an Emerging
+Creative Industry in the Majority World.
+
+409
+00:24:28.480 --> 00:24:31.880
+A Comparative analysis
+with video games and Digital arts.
+
+410
+00:24:32.240 --> 00:24:34.960
+Great knack for long titles. Love it.
+
+411
+00:24:34.960 --> 00:24:39.920
+But notice this adds even further
+nuance to the digital divide idea.
+
+412
+00:24:40.560 --> 00:24:44.040
+There's a
+there's three layers of digital divide.
+
+413
+00:24:44.080 --> 00:24:47.640
+According to to the authors access divide.
+
+414
+00:24:48.520 --> 00:24:49.600
+Here they're talking about.
+
+415
+00:24:49.600 --> 00:24:52.640
+In the early half of India's population
+still has poor
+
+416
+00:24:52.680 --> 00:24:55.680
+or no reliable,
+affordable internet connectivity.
+
+417
+00:24:56.040 --> 00:24:58.000
+There's a literacy divide.
+
+418
+00:24:58.000 --> 00:25:01.680
+Limited digital literacy
+among creators constrain the meaningful
+
+419
+00:25:01.680 --> 00:25:03.680
+use of tools for creative production.
+
+420
+00:25:03.680 --> 00:25:10.320
+I would say that maps nicely onto the ICT
+skills and then outcome divide.
+
+421
+00:25:10.920 --> 00:25:13.680
+Access
+does not translate into empowerment.
+
+422
+00:25:13.680 --> 00:25:18.000
+Audiences often lack the digital literacy
+to interpret and appreciate
+
+423
+00:25:18.040 --> 00:25:19.240
+ulitsa esthetics,
+
+424
+00:25:19.240 --> 00:25:24.160
+and I think this is a nice addition
+to this idea of privilege and community.
+
+425
+00:25:24.240 --> 00:25:24.840
+Right?
+
+426
+00:25:24.840 --> 00:25:29.480
+If you need a you need a community
+that gets it and values it.
+
+427
+00:25:29.520 --> 00:25:33.160
+And heck,
+I think the field of electronic literature
+
+428
+00:25:33.280 --> 00:25:36.080
+worldwide still has that problem.
+
+429
+00:25:36.080 --> 00:25:37.920
+There are scenes and there spaces
+
+430
+00:25:37.920 --> 00:25:42.440
+where work is appreciated,
+but not in a mainstream way.
+
+431
+00:25:44.520 --> 00:25:45.080
+How the
+
+432
+00:25:45.080 --> 00:25:48.080
+divide comes to us, to our community.
+
+433
+00:25:48.280 --> 00:25:50.600
+It's communicating with computers.
+
+434
+00:25:50.600 --> 00:25:55.640
+Programing or coding is something that is
+very useful to our community and beyond.
+
+435
+00:25:55.640 --> 00:25:59.200
+When we're able to communicate
+with computers, they can do powerful,
+
+436
+00:25:59.480 --> 00:26:01.600
+powerful things for us.
+
+437
+00:26:01.600 --> 00:26:04.120
+Programing is an advanced ICT skill.
+
+438
+00:26:04.120 --> 00:26:08.160
+It takes years to master and continuous
+learning to
+
+439
+00:26:08.200 --> 00:26:11.160
+to to be able to do things with it.
+
+440
+00:26:11.160 --> 00:26:13.440
+Most of us, I include myself,
+
+441
+00:26:13.440 --> 00:26:19.040
+don't have the time to dedicate to this,
+and this require us to hire
+
+442
+00:26:19.040 --> 00:26:22.680
+or collaborate
+with programmers to get work done.
+
+443
+00:26:23.960 --> 00:26:26.280
+However, most of us don't have the money
+
+444
+00:26:26.280 --> 00:26:29.640
+or available programmer
+friends to do this.
+
+445
+00:26:31.000 --> 00:26:35.600
+I wonder how many of the programing
+like prowess people
+
+446
+00:26:35.600 --> 00:26:39.800
+in our community that really advanced
+coders in our community
+
+447
+00:26:40.000 --> 00:26:45.080
+get swamped with invitations
+to collaborate for their skills?
+
+448
+00:26:45.600 --> 00:26:50.120
+So something to to think about the burden
+that we might place
+
+449
+00:26:50.280 --> 00:26:55.200
+on members of our field
+who, you know, then have to say no.
+
+450
+00:26:55.200 --> 00:26:57.360
+Or maybe they say yes and it works.
+
+451
+00:26:57.360 --> 00:26:59.560
+But anyways, tricky
+
+452
+00:27:00.520 --> 00:27:04.000
+AI lowers
+the technical bar to make programing
+
+453
+00:27:04.080 --> 00:27:07.080
+coding accessible to us.
+
+454
+00:27:09.640 --> 00:27:13.000
+Now thinking about
+and let's unpack this a little bit.
+
+455
+00:27:13.080 --> 00:27:17.440
+You know, the lowest level low level
+to high level computer languages right.
+
+456
+00:27:17.480 --> 00:27:21.440
+The lowest level is is binary
+machine code.
+
+457
+00:27:21.480 --> 00:27:21.720
+Right.
+
+458
+00:27:21.720 --> 00:27:24.800
+You are ones that you're putting in ones
+and zeros.
+
+459
+00:27:24.840 --> 00:27:30.280
+It gives you complete control
+over the machine and every aspect of it.
+
+460
+00:27:30.320 --> 00:27:33.320
+However, it's
+
+461
+00:27:33.400 --> 00:27:36.760
+very hard to read as a as a human being.
+
+462
+00:27:36.760 --> 00:27:39.760
+It's very hard to write as a human being.
+
+463
+00:27:39.920 --> 00:27:42.680
+And so as you move from lowest level
+
+464
+00:27:42.680 --> 00:27:45.680
+to highest level, notice
+that the list goes down.
+
+465
+00:27:45.800 --> 00:27:49.560
+You have a language, you have CSC
+
+466
+00:27:49.560 --> 00:27:53.440
+plus plus that gives you
+some manual memory and hardware control.
+
+467
+00:27:53.480 --> 00:27:55.720
+So that's great.
+
+468
+00:27:55.720 --> 00:27:57.480
+Python JavaScript.
+
+469
+00:27:57.480 --> 00:27:59.080
+We have human readable code.
+
+470
+00:27:59.080 --> 00:28:03.720
+I would add Pascal and Basic
+and I think Lisp was pretty good.
+
+471
+00:28:03.760 --> 00:28:05.920
+And other programing languages right.
+
+472
+00:28:05.920 --> 00:28:11.880
+That are sort of higher level
+SQL, HTML you have declarative intents.
+
+473
+00:28:12.960 --> 00:28:15.000
+But now with AI
+
+474
+00:28:15.000 --> 00:28:18.440
+we could consider that
+to be the highest level prompting.
+
+475
+00:28:18.440 --> 00:28:20.120
+We use natural language.
+
+476
+00:28:20.120 --> 00:28:22.720
+It's English or Spanish or Italian.
+
+477
+00:28:22.720 --> 00:28:27.200
+And you talk in your native language
+with the AI system
+
+478
+00:28:27.200 --> 00:28:30.200
+and it produces the code.
+
+479
+00:28:30.200 --> 00:28:34.600
+And these AI systems are able to operate
+at multiple levels
+
+480
+00:28:34.600 --> 00:28:38.560
+of computer languages
+for us on our behalf.
+
+481
+00:28:39.480 --> 00:28:42.680
+You know, it's kind of like talking
+to a programmer, collaborator
+
+482
+00:28:42.680 --> 00:28:44.560
+or a person you hired.
+
+483
+00:28:44.560 --> 00:28:48.360
+You tell them what you want them to do,
+they do it.
+
+484
+00:28:48.400 --> 00:28:49.960
+You see the results.
+
+485
+00:28:49.960 --> 00:28:52.880
+Maybe they're not exactly
+what you thought they were.
+
+486
+00:28:52.880 --> 00:28:57.440
+So you have a further conversation
+where hopefully they are able to
+
+487
+00:28:57.480 --> 00:28:58.720
+then refine that.
+
+488
+00:28:58.720 --> 00:29:02.640
+If this is a hired person,
+you are accumulating a lot of billable
+
+489
+00:29:02.640 --> 00:29:03.720
+hours, right?
+
+490
+00:29:03.720 --> 00:29:08.120
+And again,
+I don't want to deny people their salaries
+
+491
+00:29:08.120 --> 00:29:10.520
+and they're a way to make a living.
+
+492
+00:29:10.520 --> 00:29:15.760
+But those of us who aren't flush with
+money to pay for programmers,
+
+493
+00:29:16.760 --> 00:29:17.840
+you know,
+
+494
+00:29:17.840 --> 00:29:21.240
+an AI system can do this for us at a
+
+495
+00:29:22.400 --> 00:29:25.400
+accessible way, in an accessible way.
+
+496
+00:29:27.520 --> 00:29:30.520
+Thinking about electronic literature
+growth.
+
+497
+00:29:30.760 --> 00:29:33.680
+Yesterday at a talk here at ELO
+
+498
+00:29:33.680 --> 00:29:36.720
+Maria,
+I made a key point in her presentation
+
+499
+00:29:36.720 --> 00:29:41.520
+titled code, Poetry and Labor
+the Game Excess of work.
+
+500
+00:29:42.640 --> 00:29:43.640
+Here's the quote.
+
+501
+00:29:43.640 --> 00:29:49.280
+Code poetry is born out of workers of code
+that turn to use their material
+
+502
+00:29:49.280 --> 00:29:55.120
+for non instrumental, playful and esthetic
+means beyond its immediate function,
+
+503
+00:29:55.120 --> 00:29:59.360
+rather than artists
+looking for a new medium of expression.
+
+504
+00:29:59.520 --> 00:30:04.160
+And that is one wonderful source
+of elit growth and development.
+
+505
+00:30:04.200 --> 00:30:08.200
+As more people develop advanced ICT
+skills.
+
+506
+00:30:08.240 --> 00:30:11.440
+A portion of them will want to express
+themselves artistically
+
+507
+00:30:11.440 --> 00:30:14.520
+and will do so through digital writing,
+
+508
+00:30:14.720 --> 00:30:19.520
+electronic literature, games
+and other digital art forms.
+
+509
+00:30:19.520 --> 00:30:21.480
+So I think that's wonderful.
+
+510
+00:30:21.480 --> 00:30:25.720
+But do we want this to be the only growth
+vector for electronic literature
+
+511
+00:30:25.720 --> 00:30:27.360
+and digital writing?
+
+512
+00:30:27.360 --> 00:30:32.480
+Does it mean that for us to be able
+to have more electronic literature
+
+513
+00:30:32.600 --> 00:30:35.240
+around the world,
+and for the field to grow,
+
+514
+00:30:35.240 --> 00:30:38.640
+it means we have to raise the world's
+digital literacy
+
+515
+00:30:38.640 --> 00:30:41.680
+all the way up
+so that enough people are there.
+
+516
+00:30:42.960 --> 00:30:44.880
+I don't think we have that power.
+
+517
+00:30:44.880 --> 00:30:46.600
+I don't think we have that ability.
+
+518
+00:30:46.600 --> 00:30:51.560
+We're talking about re redesigning
+entire educational systems,
+
+519
+00:30:51.560 --> 00:30:54.880
+which to this day are still book and print
+
+520
+00:30:54.880 --> 00:30:57.880
+based.
+
+521
+00:30:59.560 --> 00:31:00.760
+As a field,
+
+522
+00:31:00.760 --> 00:31:06.000
+it behooves us to encourage,
+nurture, train, celebrate elit
+
+523
+00:31:06.120 --> 00:31:10.720
+creation from many other vectors
+such as social media
+
+524
+00:31:10.720 --> 00:31:15.360
+and app platforms, video game
+communities, experimental literature,
+
+525
+00:31:15.560 --> 00:31:19.120
+fanfiction communities, and AI power
+
+526
+00:31:19.120 --> 00:31:22.120
+empowered creativity.
+
+527
+00:31:22.280 --> 00:31:24.920
+But what about all the AI slop?
+
+528
+00:31:24.920 --> 00:31:27.920
+I know, I know, but what about.
+
+529
+00:31:29.480 --> 00:31:31.520
+Sturgeon theater?
+
+530
+00:31:31.520 --> 00:31:35.080
+Sturgeon, a science fiction writer,
+first formulated.
+
+531
+00:31:35.240 --> 00:31:37.320
+He gives us the answer here.
+
+532
+00:31:37.320 --> 00:31:42.560
+Back in 1951,
+he formulated this famous adage in which,
+
+533
+00:31:42.640 --> 00:31:46.160
+you know, he was being interviewed
+and people would be like, well.
+
+534
+00:31:46.200 --> 00:31:50.280
+But so much science fiction is crap
+or chloride or slop.
+
+535
+00:31:50.280 --> 00:31:54.240
+And his response was, well, 90% of
+everything is crap.
+
+536
+00:31:54.280 --> 00:31:59.840
+So, you know, he later, I mean,
+it might be true than 90% of science
+
+537
+00:31:59.840 --> 00:32:03.840
+fiction is crap, but 90% of all writing
+and everything is crap.
+
+538
+00:32:04.880 --> 00:32:06.120
+He later expanded on
+
+539
+00:32:06.120 --> 00:32:09.920
+this back in 1958, in writing,
+and he said, all right.
+
+540
+00:32:09.960 --> 00:32:13.080
+The revelation
+is, 90% of everything is crud.
+
+541
+00:32:13.760 --> 00:32:16.440
+Corollary one the existence of immense
+
+542
+00:32:16.440 --> 00:32:19.800
+quantities of trash and science
+fiction is admitted.
+
+543
+00:32:19.800 --> 00:32:23.040
+And it is regrettable,
+but it is no more unnatural
+
+544
+00:32:23.040 --> 00:32:26.200
+than the existence of trash anywhere.
+
+545
+00:32:26.560 --> 00:32:30.120
+And corollary two
+the best science fiction is as good
+
+546
+00:32:30.120 --> 00:32:33.240
+as the best fiction in any field.
+
+547
+00:32:33.960 --> 00:32:36.360
+Now, I want you to substitute
+science fiction
+
+548
+00:32:36.360 --> 00:32:40.760
+for like electronic literature,
+AI, etc., etc.
+
+549
+00:32:40.760 --> 00:32:44.000
+and you get the point
+I'm trying to make here.
+
+550
+00:32:45.560 --> 00:32:47.480
+So yeah,
+
+551
+00:32:47.480 --> 00:32:50.480
+there is increased access
+and there is a problem.
+
+552
+00:32:50.520 --> 00:32:56.080
+Upscale AI has suddenly brought computer
+generated writing to the masses.
+
+553
+00:32:56.640 --> 00:33:00.320
+Loosely defined, a huge
+part of the population is now writing
+
+554
+00:33:00.760 --> 00:33:02.760
+and digital writing.
+
+555
+00:33:02.760 --> 00:33:06.920
+90% of that is slop, crap, crud,
+whatever you want to call it.
+
+556
+00:33:06.920 --> 00:33:09.280
+And there's so much more of it.
+
+557
+00:33:09.280 --> 00:33:13.520
+I think when our community was small
+in the pre times,
+
+558
+00:33:14.360 --> 00:33:17.800
+right, I think we had a better percentage
+than 90%.
+
+559
+00:33:17.800 --> 00:33:21.080
+But now we're joining
+the rest of the world of writing
+
+560
+00:33:21.080 --> 00:33:25.160
+and novels
+and fiction and poetry and everything,
+
+561
+00:33:26.320 --> 00:33:27.760
+where we all need to like
+
+562
+00:33:27.760 --> 00:33:31.960
+cope with being having a 90% crap ratio.
+
+563
+00:33:33.320 --> 00:33:36.320
+This does not invalidate
+the work of our community,
+
+564
+00:33:36.920 --> 00:33:41.760
+but the AI moral panic and backlash
+against AI companies
+
+565
+00:33:41.880 --> 00:33:43.360
+affects our community.
+
+566
+00:33:43.360 --> 00:33:46.360
+As I've said before.
+
+567
+00:33:46.560 --> 00:33:49.560
+The problem with power without knowledge
+
+568
+00:33:49.640 --> 00:33:55.160
+is that many people can use an AI system
+to generate text, images, etc.
+
+569
+00:33:55.360 --> 00:33:58.360
+but if they're unaware of the history
+of computational writing,
+
+570
+00:33:58.360 --> 00:34:02.920
+the existence of electronic literature,
+they're still going to be thinking
+
+571
+00:34:02.920 --> 00:34:07.320
+of writing as this paper based thing
+that people that humans do.
+
+572
+00:34:07.320 --> 00:34:10.920
+And they have not had the paradigm shift
+
+573
+00:34:11.080 --> 00:34:14.920
+of how the media transforms
+writing and literature.
+
+574
+00:34:15.160 --> 00:34:19.320
+So yeah, they will initially use
+AI to produce traditional writing.
+
+575
+00:34:19.320 --> 00:34:23.440
+And yes, this is a massive failure
+of the imagination,
+
+576
+00:34:23.440 --> 00:34:27.280
+but they don't even know what to
+imagine, right?
+
+577
+00:34:27.320 --> 00:34:30.320
+I mean, this is where education
+is so important.
+
+578
+00:34:31.000 --> 00:34:34.360
+That kind of writing
+I've already compared to the beyond slash
+
+579
+00:34:34.400 --> 00:34:37.400
+impossible Meat, right? Write it.
+
+580
+00:34:37.480 --> 00:34:38.600
+It just
+
+581
+00:34:39.680 --> 00:34:42.360
+misses the point entirely.
+
+582
+00:34:42.360 --> 00:34:46.200
+I think as a community,
+we can help broaden these horizons.
+
+583
+00:34:46.200 --> 00:34:49.680
+We have been creating resources, archives,
+
+584
+00:34:49.680 --> 00:34:53.480
+collections, publications, awards.
+
+585
+00:34:53.480 --> 00:34:58.760
+We have conferences, we have exhibitions,
+we have online exhibitions.
+
+586
+00:34:58.760 --> 00:35:03.600
+We have all kinds of activity
+that show how wonderful this can be.
+
+587
+00:35:03.600 --> 00:35:08.960
+And I think, I don't know, at some point,
+hopefully the masses
+
+588
+00:35:08.960 --> 00:35:12.880
+will discover all these great resources
+where we're creating,
+
+589
+00:35:13.280 --> 00:35:15.960
+but if not, we need to keep, keep pushing
+
+590
+00:35:15.960 --> 00:35:18.960
+and keep having outreach.
+
+591
+00:35:19.640 --> 00:35:22.440
+Now let's think about AI as a platform.
+
+592
+00:35:22.440 --> 00:35:27.120
+So when AI is used to generate
+traditional paper based writing, it's
+
+593
+00:35:27.120 --> 00:35:33.080
+an interesting to me because it shows
+how tired traditional writing has become.
+
+594
+00:35:33.560 --> 00:35:35.600
+I'm not saying it's exhausted, though.
+
+595
+00:35:35.600 --> 00:35:38.840
+That's a synonym of tired. It's not spent.
+
+596
+00:35:38.840 --> 00:35:40.120
+It's not over, right?
+
+597
+00:35:40.120 --> 00:35:44.640
+There's still room to continue developing
+this thing we call writing,
+
+598
+00:35:44.640 --> 00:35:48.160
+even in traditional ways,
+even with the, you know,
+
+599
+00:35:48.680 --> 00:35:52.400
+page, one to page last novel or whatever.
+
+600
+00:35:54.160 --> 00:35:56.360
+But, you know, like that's that's
+
+601
+00:35:56.360 --> 00:35:59.600
+where most people are operating,
+even with using AI.
+
+602
+00:36:00.520 --> 00:36:03.760
+I think AI used to generate code
+to produce
+
+603
+00:36:03.760 --> 00:36:07.320
+electronic literature results
+in much more interesting results.
+
+604
+00:36:07.680 --> 00:36:10.600
+It expands the horizon of possibilities,
+
+605
+00:36:10.600 --> 00:36:14.000
+especially for folks
+who don't have the coding skills.
+
+606
+00:36:14.160 --> 00:36:17.680
+The trick is to use AI to produce, work
+in other programing
+
+607
+00:36:17.680 --> 00:36:21.000
+languages and establish digital platforms.
+
+608
+00:36:21.040 --> 00:36:24.800
+This way you use AI to create work,
+and then you set it aside
+
+609
+00:36:24.800 --> 00:36:28.120
+and the work lives on in its own platform,
+
+610
+00:36:28.120 --> 00:36:31.120
+not dependent on AI.
+
+611
+00:36:31.480 --> 00:36:34.120
+Let's give you a quick example.
+
+612
+00:36:34.120 --> 00:36:36.880
+I love poetry.
+
+613
+00:36:36.880 --> 00:36:41.520
+Some of you, if you don't know the history
+phase one I wrote 500 daily posts
+
+614
+00:36:41.520 --> 00:36:46.320
+on Tumblr, reading one poem every day
+and writing about it every day.
+
+615
+00:36:46.320 --> 00:36:52.120
+And that ended up with about 700 pages
+of writing when I did the word count.
+
+616
+00:36:52.800 --> 00:36:57.000
+Phase two, I ported it to WordPress,
+I developed metadata,
+
+617
+00:36:57.000 --> 00:37:02.240
+I invited collaborators,
+and we expanded it to over 700 entries.
+
+618
+00:37:03.280 --> 00:37:06.720
+That went on until like 2017.
+
+619
+00:37:07.000 --> 00:37:10.600
+From 2017 to 2019, I kind of.
+
+620
+00:37:10.880 --> 00:37:13.520
+I received a grant to translate it
+to Spanish.
+
+621
+00:37:13.520 --> 00:37:17.880
+I used a WordPress
+plugin called WordPress Multilingual
+
+622
+00:37:17.880 --> 00:37:21.680
+and Pause Development
+while we did all this work.
+
+623
+00:37:22.960 --> 00:37:24.240
+And we did it.
+
+624
+00:37:24.240 --> 00:37:26.960
+It was translated into Spanish.
+It was wonderful.
+
+625
+00:37:26.960 --> 00:37:32.080
+And then in 2024, the no longer supported
+WordPress
+
+626
+00:37:32.080 --> 00:37:37.120
+multilingual plugin corrupted the database
+and crashed the site.
+
+627
+00:37:37.120 --> 00:37:41.360
+And it was down for two years or so
+
+628
+00:37:42.440 --> 00:37:43.800
+in January.
+
+629
+00:37:43.800 --> 00:37:49.080
+Anastasia Salter thank you Anastasia,
+I gave a wonderful AI coding
+
+630
+00:37:50.080 --> 00:37:53.160
+workshop at MLA and I learned
+
+631
+00:37:53.160 --> 00:37:56.320
+how to taught me how to use Claude code
+
+632
+00:37:56.960 --> 00:38:00.320
+in an agent way,
+and I use Claude code to restore
+
+633
+00:38:00.360 --> 00:38:06.360
+I Hardy poetry or I love it from a backup
+XML file and re-implement
+
+634
+00:38:06.360 --> 00:38:09.480
+the whole thing on Jekyll,
+which is a static site
+
+635
+00:38:10.520 --> 00:38:11.600
+system.
+
+636
+00:38:11.600 --> 00:38:15.560
+Now I Heart Poetry is 100% bilingual,
+
+637
+00:38:15.560 --> 00:38:19.080
+and as a static site
+it has minimal dependencies.
+
+638
+00:38:19.240 --> 00:38:22.240
+It is archive ready.
+
+639
+00:38:22.760 --> 00:38:25.760
+One more example my creative practice.
+
+640
+00:38:26.120 --> 00:38:28.040
+I've always been a nerd about programing.
+
+641
+00:38:28.040 --> 00:38:32.760
+I learned Basic and Pascal in my teens,
+HTML in my late 20s.
+
+642
+00:38:33.200 --> 00:38:37.680
+My scholarly and creative practices
+have always been intertwined.
+
+643
+00:38:38.200 --> 00:38:41.240
+I went through
+what I like to call a hacker
+
+644
+00:38:41.440 --> 00:38:47.040
+period hacker
+plus author 2012 through 2022,
+
+645
+00:38:47.080 --> 00:38:50.720
+in which I adapted other people's code
+and made bots
+
+646
+00:38:50.760 --> 00:38:53.720
+using cheap bots done quick.
+
+647
+00:38:53.720 --> 00:38:55.120
+Now I'm in a phase.
+
+648
+00:38:55.120 --> 00:39:00.120
+I call myself a cyborg writer,
+and I use AI systems to generate code,
+
+649
+00:39:00.200 --> 00:39:05.240
+iteratively modifying it by hand
+to achieve my creative goals.
+
+650
+00:39:05.640 --> 00:39:09.640
+This has led to remarkable
+creative productivity, and you can see
+
+651
+00:39:09.680 --> 00:39:13.400
+my creative work
+at in my website out of the Flores net.
+
+652
+00:39:15.600 --> 00:39:17.080
+Let's think about and bring
+
+653
+00:39:17.080 --> 00:39:20.480
+this to a close
+with a thought about AI as infrastructure.
+
+654
+00:39:21.080 --> 00:39:24.360
+The models these companies are training
+aren't just services,
+
+655
+00:39:24.360 --> 00:39:26.320
+they are infrastructure.
+
+656
+00:39:26.320 --> 00:39:29.800
+We may not like how,
+how or why they're doing it,
+
+657
+00:39:29.800 --> 00:39:32.480
+but we can still benefit from it.
+
+658
+00:39:32.480 --> 00:39:34.120
+Let me give you an example.
+
+659
+00:39:34.120 --> 00:39:39.120
+The Roman Empire now was a Roman Empire
+a good thing, historically speaking?
+
+660
+00:39:39.120 --> 00:39:44.080
+Well, you know,
+empires in general are not a great thing.
+
+661
+00:39:44.080 --> 00:39:49.480
+And this is my cue to bring a nod
+to Rupert Garrison's data empire.
+
+662
+00:39:50.240 --> 00:39:52.520
+Still now hot off the press,
+
+663
+00:39:52.520 --> 00:39:55.520
+so you should check it out.
+
+664
+00:39:55.560 --> 00:39:58.120
+Were there some benefits
+from the Roman Empire?
+
+665
+00:39:58.120 --> 00:40:03.840
+Well, you know, Pax Romana
+write a little piece with its discontents,
+
+666
+00:40:03.840 --> 00:40:07.760
+but at least it brought a certain
+period of peace and prosperity.
+
+667
+00:40:08.320 --> 00:40:10.880
+Of course, under the
+thumb of the Roman Empire.
+
+668
+00:40:12.040 --> 00:40:15.040
+Latin became a lingua franca.
+
+669
+00:40:15.160 --> 00:40:19.080
+It became a commonly spoken language
+throughout the region,
+
+670
+00:40:19.080 --> 00:40:22.560
+and it became the foundation
+for romance languages.
+
+671
+00:40:23.120 --> 00:40:24.080
+Infrastructure.
+
+672
+00:40:24.080 --> 00:40:25.480
+They created aqueducts.
+
+673
+00:40:25.480 --> 00:40:28.160
+They created extensive road systems.
+
+674
+00:40:28.160 --> 00:40:32.200
+And really,
+do we need to weigh in and have a cost
+
+675
+00:40:32.200 --> 00:40:35.480
+benefit analysis of the Roman Empire
+at this point?
+
+676
+00:40:35.520 --> 00:40:37.200
+No, it happened right.
+
+677
+00:40:37.200 --> 00:40:39.080
+I think we're in a similar situation.
+
+678
+00:40:39.080 --> 00:40:44.160
+I think people feel this pressure
+to do a cost benefit analysis of AI,
+
+679
+00:40:44.560 --> 00:40:47.600
+and I think it's rather unfair.
+
+680
+00:40:49.520 --> 00:40:53.320
+Here's a map from Wikipedia of
+
+681
+00:40:53.920 --> 00:40:57.000
+of of the roads
+that the Roman Empire built.
+
+682
+00:40:57.120 --> 00:40:58.920
+Pretty extensive.
+
+683
+00:40:58.920 --> 00:41:02.040
+This was important infrastructure
+for the time.
+
+684
+00:41:02.040 --> 00:41:06.320
+I don't think that part of the world
+had seen infrastructure like this.
+
+685
+00:41:08.320 --> 00:41:10.760
+But AI infrastructure
+
+686
+00:41:10.760 --> 00:41:14.560
+can be used against the
+the people who create it, right?
+
+687
+00:41:14.600 --> 00:41:16.160
+Like the barbarians used
+
+688
+00:41:16.160 --> 00:41:19.720
+those very same roads
+to usher the fall of the Roman Empire.
+
+689
+00:41:20.200 --> 00:41:22.720
+I think we can use AI infrastructure
+
+690
+00:41:22.720 --> 00:41:27.760
+to work against the interests of big
+AI or,
+
+691
+00:41:27.920 --> 00:41:32.520
+you know, however we define the problem,
+I think we can use it
+
+692
+00:41:32.520 --> 00:41:36.040
+to develop our own projects,
+creative and critical.
+
+693
+00:41:36.400 --> 00:41:40.760
+And I would like for you to consider open
+local models
+
+694
+00:41:40.840 --> 00:41:45.880
+versus Frontier Cloud
+proprietary corporate models.
+
+695
+00:41:46.000 --> 00:41:47.960
+Let's elaborate on this.
+
+696
+00:41:47.960 --> 00:41:53.480
+So local AI you can use your computer
+to use AI systems.
+
+697
+00:41:53.480 --> 00:41:56.560
+You can download them onto your computer,
+install them.
+
+698
+00:41:56.560 --> 00:41:59.400
+They run for free.
+
+699
+00:41:59.400 --> 00:42:02.160
+You know, offline their private.
+
+700
+00:42:02.160 --> 00:42:05.280
+They don't rely on data centers.
+
+701
+00:42:06.400 --> 00:42:07.840
+And sure, they may
+
+702
+00:42:07.840 --> 00:42:11.680
+not be as versatile
+and powerful as the frontier models,
+
+703
+00:42:11.680 --> 00:42:16.800
+but that need for compression
+leads to specialized models.
+
+704
+00:42:17.400 --> 00:42:20.240
+Here's a little graph of a number of
+
+705
+00:42:20.240 --> 00:42:23.080
+of models, for example.
+
+706
+00:42:23.080 --> 00:42:26.880
+You know,
+and this kind of like Google Gamma four
+
+707
+00:42:27.160 --> 00:42:31.320
+is supposed to be highly scalable and
+and give you
+
+708
+00:42:31.360 --> 00:42:35.080
+native low latency
+audio vision and agent efficiency.
+
+709
+00:42:35.120 --> 00:42:42.680
+So that's an important breakthrough when
+three is specialized for code generation.
+
+710
+00:42:42.680 --> 00:42:45.080
+And it is very multilingual.
+
+711
+00:42:45.080 --> 00:42:49.400
+That's what I used to create my most
+recent work of electronic literature.
+
+712
+00:42:49.840 --> 00:42:52.840
+Deep seek Microsoft Mistral, like
+
+713
+00:42:54.440 --> 00:42:55.920
+most of the major companies
+
+714
+00:42:55.920 --> 00:42:58.920
+are, are producing
+and publishing open models.
+
+715
+00:42:58.920 --> 00:43:02.600
+And this is a really important
+infrastructural
+
+716
+00:43:02.600 --> 00:43:05.600
+contribution.
+
+717
+00:43:05.640 --> 00:43:07.240
+The cons of local AI.
+
+718
+00:43:07.240 --> 00:43:11.240
+Well, they're not as powerful
+as as a big frontier models.
+
+719
+00:43:11.280 --> 00:43:15.320
+Yeah, admittedly they're a genetic
+
+720
+00:43:15.320 --> 00:43:18.320
+and multimodal
+capabilities are still developing.
+
+721
+00:43:18.320 --> 00:43:21.320
+Some say they're
+they're about six months behind.
+
+722
+00:43:21.800 --> 00:43:24.440
+They can be slower depending on your
+
+723
+00:43:24.440 --> 00:43:28.000
+the model you're using
+and your computer hardware.
+
+724
+00:43:28.000 --> 00:43:33.760
+So next time you buy a computer you might
+want to splurge a little on that.
+
+725
+00:43:36.160 --> 00:43:37.320
+There's a good
+
+726
+00:43:37.320 --> 00:43:41.200
+principle called the good stewardship
+principle that I learned from
+
+727
+00:43:41.240 --> 00:43:45.600
+an AI influencer called shea ammonia.
+
+728
+00:43:46.720 --> 00:43:48.760
+And you know what I mean?
+
+729
+00:43:48.760 --> 00:43:50.440
+Like, I knew the concept.
+
+730
+00:43:50.440 --> 00:43:55.400
+She really applied it very effectively
+to AI and local AI.
+
+731
+00:43:55.560 --> 00:43:59.760
+In a nutshell, it's the idea of
+using the right tool for the job
+
+732
+00:43:59.760 --> 00:44:04.520
+and using the tool that will cause
+the sort of least environmental impact.
+
+733
+00:44:04.680 --> 00:44:08.800
+For example,
+I'm shifting to Quinn and Gamma,
+
+734
+00:44:08.840 --> 00:44:11.800
+local open models for creative coding.
+
+735
+00:44:11.800 --> 00:44:17.000
+Again, my creative coding isn't on the
+scale of some people's creative coding.
+
+736
+00:44:17.520 --> 00:44:20.040
+I use cloud code when I need a genetic
+
+737
+00:44:20.040 --> 00:44:23.800
+AI capabilities
+and more advanced coding problems.
+
+738
+00:44:23.800 --> 00:44:27.640
+Or occasionally
+I might be using my local model
+
+739
+00:44:27.640 --> 00:44:31.680
+and I hit a wall in terms of development,
+and Claude can help me
+
+740
+00:44:31.720 --> 00:44:35.960
+get over that wall, address
+that issue better.
+
+741
+00:44:36.000 --> 00:44:39.560
+But again, it's spot
+treating instead of using it all the time.
+
+742
+00:44:39.960 --> 00:44:45.480
+I use Gemini for some image generation
+and a little bit of research support
+
+743
+00:44:47.400 --> 00:44:50.440
+in a metaphor of use before even earlier
+today.
+
+744
+00:44:50.560 --> 00:44:54.240
+Listen, I don't need a tank to drive
+to the grocery store.
+
+745
+00:44:54.280 --> 00:44:58.040
+My fuel efficient car is better
+for the job, right?
+
+746
+00:44:58.160 --> 00:45:02.120
+The tank is going to just cause
+all kinds of trouble along the way.
+
+747
+00:45:02.160 --> 00:45:05.160
+So? So, yeah.
+
+748
+00:45:05.480 --> 00:45:07.400
+Now what?
+
+749
+00:45:07.400 --> 00:45:08.640
+Well, we.
+
+750
+00:45:08.640 --> 00:45:10.560
+And by we, I mean we all.
+
+751
+00:45:10.560 --> 00:45:14.160
+You two need to decide if you use
+
+752
+00:45:14.160 --> 00:45:17.160
+AI to benefit our work or not.
+
+753
+00:45:17.320 --> 00:45:19.520
+For some, it's not worth it.
+
+754
+00:45:19.520 --> 00:45:20.800
+Totally respect it.
+
+755
+00:45:20.800 --> 00:45:23.800
+For others, it is.
+
+756
+00:45:24.280 --> 00:45:27.480
+We hopefully respect each other's
+decisions.
+
+757
+00:45:28.240 --> 00:45:33.680
+Unfortunately, that is not the case
+with a lot of the AI moral panic.
+
+758
+00:45:33.680 --> 00:45:37.360
+And so there's like almost like an
+AI cancel culture
+
+759
+00:45:37.400 --> 00:45:41.120
+going out there and backlash against AI,
+not against the big.
+
+760
+00:45:41.360 --> 00:45:45.120
+Well, yes, against the big companies,
+but also against creators,
+
+761
+00:45:45.160 --> 00:45:49.400
+also against, for example,
+the editors of the ELC five.
+
+762
+00:45:49.560 --> 00:45:51.720
+ET cetera.
+
+763
+00:45:51.720 --> 00:45:54.520
+I think we need to respect
+each other's decisions,
+
+764
+00:45:54.520 --> 00:45:58.040
+and I think we need to think twice
+before casting stones.
+
+765
+00:45:58.880 --> 00:46:01.960
+Yes, it's a biblical Jesus reference
+
+766
+00:46:02.120 --> 00:46:06.240
+because there is no ethical consumption
+in their capitalism.
+
+767
+00:46:06.400 --> 00:46:11.480
+If someone goes on Facebook,
+which uses exactly the same infrastructure
+
+768
+00:46:11.480 --> 00:46:15.320
+and has well-documented social ills,
+
+769
+00:46:16.280 --> 00:46:18.160
+social and environmental, and,
+
+770
+00:46:18.160 --> 00:46:21.440
+you know, we can add to
+the list is to attack me
+
+771
+00:46:21.440 --> 00:46:24.440
+for using AI.
+
+772
+00:46:24.480 --> 00:46:27.280
+Listen, I'm
+sorry if I don't take you to seriously,
+
+773
+00:46:27.280 --> 00:46:31.840
+but you are critiquing the infrastructure
+of the very same building.
+
+774
+00:46:31.880 --> 00:46:34.880
+We're both standing in.
+
+775
+00:46:38.400 --> 00:46:41.400
+I want to remind this community in 2011
+
+776
+00:46:42.760 --> 00:46:44.800
+published an important essay
+
+777
+00:46:44.800 --> 00:46:49.360
+that resonated in our community
+why I have Stopped Creating it.
+
+778
+00:46:49.400 --> 00:46:53.600
+And he raised
+many of the very same concerns
+
+779
+00:46:53.600 --> 00:46:56.600
+that we have right now about AI.
+
+780
+00:46:56.880 --> 00:47:01.160
+Except back then
+he was raising these concerns about you.
+
+781
+00:47:01.160 --> 00:47:06.480
+No data centers that people really worry
+about, data centers beyond the
+
+782
+00:47:06.920 --> 00:47:10.320
+and some other folks, a handful of folks
+that people really complain
+
+783
+00:47:10.320 --> 00:47:13.320
+about data centers before
+
+784
+00:47:13.480 --> 00:47:15.360
+AI a little bit,
+
+785
+00:47:15.360 --> 00:47:18.560
+not at the scale
+we're we're we're doing it now.
+
+786
+00:47:19.000 --> 00:47:23.600
+He stepped away from Illit
+for several years and then came back
+
+787
+00:47:23.600 --> 00:47:28.200
+and is doing really important and ethical
+and and you know,
+
+788
+00:47:28.240 --> 00:47:33.480
+he found a way
+to resolve the ethical quandaries
+
+789
+00:47:33.480 --> 00:47:37.960
+that this damned capitalist system world
+we live in
+
+790
+00:47:38.560 --> 00:47:42.960
+makes us do, makes us
+do, have make impossible choices.
+
+791
+00:47:45.960 --> 00:47:48.960
+But I'm still angry
+and worried about AI and its impacts.
+
+792
+00:47:48.960 --> 00:47:51.400
+Well, yeah, I am too.
+
+793
+00:47:51.400 --> 00:47:55.080
+But how about we direct
+our anger against AI's adverse
+
+794
+00:47:55.080 --> 00:47:58.560
+effects towards the big
+AI companies that are causing them?
+
+795
+00:47:58.880 --> 00:48:02.320
+There's so much work to be done
+to mitigate, regulate
+
+796
+00:48:02.320 --> 00:48:04.720
+and hold them accountable.
+
+797
+00:48:04.720 --> 00:48:08.880
+But also if AIC enemy no then enemy
+
+798
+00:48:09.640 --> 00:48:11.880
+use their tools against them.
+
+799
+00:48:11.880 --> 00:48:15.560
+That amount is an important situation,
+a strategy
+
+800
+00:48:15.560 --> 00:48:21.240
+in which you use the tools
+of of of the system against it for art.
+
+801
+00:48:21.600 --> 00:48:23.640
+Art is a form of resistance.
+
+802
+00:48:23.640 --> 00:48:27.400
+Remember none of these platforms,
+most of these platforms
+
+803
+00:48:27.400 --> 00:48:31.440
+were not created for us to make art in it.
+
+804
+00:48:31.440 --> 00:48:35.800
+But we are human beings
+and we make art wherever we can.
+
+805
+00:48:36.680 --> 00:48:39.640
+Poetic mischief AI interrogation.
+
+806
+00:48:39.640 --> 00:48:40.240
+Thank you.
+
+807
+00:48:40.240 --> 00:48:42.120
+Lilian. Yvonne, for those terms.
+
+808
+00:48:42.120 --> 00:48:43.240
+They're great.
+
+809
+00:48:43.240 --> 00:48:44.480
+And more.
+
+810
+00:48:44.480 --> 00:48:49.360
+And read, learn, strategize, vote,
+
+811
+00:48:49.960 --> 00:48:56.840
+do other things because AI is already here
+and we need to reckon with it
+
+812
+00:48:57.000 --> 00:49:01.320
+and hopefully benefit from
+it, warts and all.
+
+813
+00:49:02.240 --> 00:49:03.120
+Thank you.
+
+814
+00:49:06.200 --> 00:49:07.520
+And I will
+
+815
+00:49:07.520 --> 00:49:10.520
+publish my slideshow in my website
+
+816
+00:49:10.680 --> 00:49:13.680
+net tomorrow.
+
+817
+00:49:19.760 --> 00:49:22.760
+Thank you.
+
+818
+00:49:22.840 --> 00:49:26.440
+Plastic provocation
+and some great responses
+
+819
+00:49:27.160 --> 00:49:30.640
+to some of the concerns
+raised by our colleagues who,
+
+820
+00:49:30.960 --> 00:49:33.040
+especially
+if you're in an English department,
+
+821
+00:49:33.040 --> 00:49:34.800
+may not be feeling the most receptive
+
+822
+00:49:34.800 --> 00:49:37.800
+to electronic literature
+and generative text face to face.
+
+823
+00:49:38.720 --> 00:49:40.080
+Yeah, folks, I had to.
+
+824
+00:49:40.080 --> 00:49:42.040
+I had to completely cut off the chat
+
+825
+00:49:42.040 --> 00:49:45.040
+from my field of vision
+because it was distracting me.
+
+826
+00:49:45.040 --> 00:49:48.640
+So I'm going to go back,
+but I'm here for questions.
+
+827
+00:49:48.640 --> 00:49:51.640
+So yeah,
+
+828
+00:49:51.760 --> 00:49:52.600
+please jump in.
+
+829
+00:49:52.600 --> 00:49:55.600
+Raise your hand
+or throw a question to chat.
+
+830
+00:50:02.480 --> 00:50:04.600
+I haven't seen any actual questions.
+
+831
+00:50:04.600 --> 00:50:05.040
+The shot.
+
+832
+00:50:05.040 --> 00:50:08.040
+So the chat is very entertaining.
+
+833
+00:50:09.520 --> 00:50:12.520
+Looking forward to that.
+
+834
+00:50:14.320 --> 00:50:16.520
+Yeah I have a question.
+
+835
+00:50:16.520 --> 00:50:18.000
+It's kind of a loaded question.
+
+836
+00:50:18.000 --> 00:50:20.920
+And I think you touched on this
+a little bit.
+
+837
+00:50:20.920 --> 00:50:25.600
+Do you see any scenario
+where we become obsolete?
+
+838
+00:50:25.840 --> 00:50:28.480
+Our he let people us
+
+839
+00:50:28.480 --> 00:50:33.080
+because of a problem of people
+outside our closed society
+
+840
+00:50:33.120 --> 00:50:36.080
+making it right and left all the time,
+which they've been doing,
+
+841
+00:50:36.080 --> 00:50:39.600
+as you point out for a while
+now, and we just get left behind.
+
+842
+00:50:39.640 --> 00:50:42.760
+We are the forerunners,
+but the forerunners don't win the race.
+
+843
+00:50:42.960 --> 00:50:44.800
+Do you foresee that possibility?
+
+844
+00:50:44.800 --> 00:50:46.840
+Yeah. And you know what?
+
+845
+00:50:46.840 --> 00:50:52.040
+I'm okay with that possibility because
+it means that Ellett is here to stay.
+
+846
+00:50:52.120 --> 00:50:55.480
+I would not want us to be
+
+847
+00:50:56.160 --> 00:50:59.280
+a forgotten little chapter
+in some corner of a book
+
+848
+00:50:59.320 --> 00:51:04.200
+that said, you know, for a few years,
+a couple of oddballs made some illit.
+
+849
+00:51:05.160 --> 00:51:06.480
+They called it illit.
+
+850
+00:51:06.480 --> 00:51:09.280
+It was a French practice. And.
+
+851
+00:51:09.280 --> 00:51:09.920
+Yeah.
+
+852
+00:51:09.920 --> 00:51:12.840
+No, that was that was that.
+
+853
+00:51:12.840 --> 00:51:16.400
+You know, I'd rather eel it becomes
+
+854
+00:51:17.640 --> 00:51:20.480
+part of literature, part of art,
+part of expression
+
+855
+00:51:20.480 --> 00:51:23.480
+in the world.
+
+856
+00:51:24.520 --> 00:51:25.640
+Thank you.
+
+857
+00:51:25.640 --> 00:51:28.640
+Yeah, yeah.
+
+858
+00:51:34.880 --> 00:51:37.880
+Other.
+
+859
+00:51:38.000 --> 00:51:41.000
+Or more comment than a question.
+
+860
+00:51:45.640 --> 00:51:48.120
+Dina asked.
+
+861
+00:51:48.120 --> 00:51:51.120
+Places
+where there's little internet or access
+
+862
+00:51:51.640 --> 00:51:53.240
+that spread.
+
+863
+00:51:53.240 --> 00:51:56.640
+What was that again about using
+
+864
+00:51:56.680 --> 00:52:01.120
+AI tools in places where there is
+little internet or kind of access.
+
+865
+00:52:01.600 --> 00:52:06.320
+So accessibility of AI tools,
+you can install them on a local machine
+
+866
+00:52:06.320 --> 00:52:07.320
+and run it.
+
+867
+00:52:07.320 --> 00:52:10.520
+So yeah,
+you don't need the internet for that.
+
+868
+00:52:10.520 --> 00:52:12.320
+You don't need cloud services for that.
+
+869
+00:52:12.320 --> 00:52:16.760
+And these tools have come a long way
+from the early days of the open model.
+
+870
+00:52:16.800 --> 00:52:20.920
+So yeah, take a take offline illit
+
+871
+00:52:21.600 --> 00:52:24.920
+AI into communities and help people code.
+
+872
+00:52:25.480 --> 00:52:28.320
+Yeah.
+And do you have a guidebook for that?
+
+873
+00:52:29.640 --> 00:52:31.480
+You know,
+
+874
+00:52:31.480 --> 00:52:34.160
+I have I have my,
+
+875
+00:52:34.160 --> 00:52:40.400
+my cyborg digital writing
+primer has some steps towards that.
+
+876
+00:52:40.440 --> 00:52:44.600
+It's not a super elaborate one,
+but it's actually not hard to do.
+
+877
+00:52:44.600 --> 00:52:47.560
+So I updated it recently.
+You can check it out.
+
+878
+00:52:47.560 --> 00:52:49.440
+It's on my website.
+
+879
+00:52:49.440 --> 00:52:55.000
+I will see if I can find it and share it
+with you real quick in the chat.
+
+880
+00:52:55.000 --> 00:52:58.040
+And then you can you can learn to do it.
+
+881
+00:52:58.080 --> 00:53:01.080
+It is not hard to do.
+
+882
+00:53:04.400 --> 00:53:08.520
+I was wondering if you could say
+a little bit about the reaction
+
+883
+00:53:08.520 --> 00:53:11.720
+you've gotten from, like,
+the MLA community
+
+884
+00:53:12.320 --> 00:53:16.080
+to your perspective on this,
+if you've put.
+
+885
+00:53:17.680 --> 00:53:20.000
+Well, listen, I haven't exactly
+
+886
+00:53:20.000 --> 00:53:22.960
+I mean, listen,
+I haven't super shared this
+
+887
+00:53:22.960 --> 00:53:26.360
+because I know that electronic literature
+is not a mainstream practice.
+
+888
+00:53:26.360 --> 00:53:31.240
+What I do when I do my work with the MLA
+is and the task forces
+
+889
+00:53:31.240 --> 00:53:35.640
+and the working groups I'm a part of
+is I bring perspective into this.
+
+890
+00:53:35.640 --> 00:53:37.520
+I bring the perspective that our field
+
+891
+00:53:37.520 --> 00:53:41.880
+and the insights that that I've developed
+and our field has developed.
+
+892
+00:53:41.920 --> 00:53:44.280
+Because I'm not just me, I'm I'm me.
+
+893
+00:53:44.280 --> 00:53:47.280
+And and and the discourse of this field
+
+894
+00:53:48.080 --> 00:53:52.320
+to bear on some of
+this so that we don't end up
+
+895
+00:53:53.440 --> 00:53:55.440
+reaffirming,
+
+896
+00:53:55.440 --> 00:53:59.800
+you know, a romantic idea of writing
+as, as,
+
+897
+00:53:59.840 --> 00:54:03.320
+you know, this person selecting one word
+and then another
+
+898
+00:54:03.600 --> 00:54:07.880
+entirely out of their brain and
+putting them in sequences and all that.
+
+899
+00:54:07.880 --> 00:54:12.600
+So and of course,
+I also bring my experience as a,
+
+900
+00:54:12.640 --> 00:54:16.960
+as a, as a leader, as a department chair,
+as an English professor,
+
+901
+00:54:17.680 --> 00:54:21.120
+as someone who write, who studies
+all this. And.
+
+902
+00:54:21.320 --> 00:54:26.360
+Yeah, so, so basically I work with teams
+with really smart people
+
+903
+00:54:26.640 --> 00:54:31.920
+who know more about some of these things,
+and we join the conversation
+
+904
+00:54:31.920 --> 00:54:36.080
+and we work things through
+and we make our recommendations.
+
+905
+00:54:36.480 --> 00:54:38.440
+I think that's great. I think you should.
+
+906
+00:54:38.440 --> 00:54:44.000
+I think it'd be great if you did
+this more outside of the the community.
+
+907
+00:54:44.040 --> 00:54:48.840
+I was just I just did
+an interview with folks in Bruno Latour
+
+908
+00:54:50.240 --> 00:54:51.480
+lab who are now
+
+909
+00:54:51.480 --> 00:54:57.880
+researching everyday use of AI,
+and they their commentary was that
+
+910
+00:54:57.920 --> 00:55:02.040
+they talked to a lot of people
+who discovered
+
+911
+00:55:02.040 --> 00:55:04.760
+that they were and discovered,
+as they were talking about it,
+
+912
+00:55:04.760 --> 00:55:08.000
+that they used
+AI a lot in their everyday life,
+
+913
+00:55:08.000 --> 00:55:11.120
+but that they felt like they couldn't
+admit it
+
+914
+00:55:11.960 --> 00:55:17.080
+because there's so much shame
+attached to the use of this now.
+
+915
+00:55:17.080 --> 00:55:21.960
+And I think trying to distinguish
+between legitimate uses,
+
+916
+00:55:21.960 --> 00:55:26.960
+and also for the necessity of artists
+to engage with these technologies, to
+
+917
+00:55:27.000 --> 00:55:30.920
+not just leave it to to corporate goals
+
+918
+00:55:30.920 --> 00:55:35.560
+and to for, for for corporations
+to entirely bend the tools
+
+919
+00:55:36.160 --> 00:55:40.440
+using the tools that they make
+as well as using smaller models.
+
+920
+00:55:40.880 --> 00:55:41.520
+So important.
+
+921
+00:55:41.520 --> 00:55:43.520
+So thanks I think this is great.
+
+922
+00:55:43.520 --> 00:55:44.840
+Thank you Scott.
+
+923
+00:55:44.840 --> 00:55:47.360
+That means a lot. I'll add, you know,
+
+924
+00:55:49.240 --> 00:55:52.680
+one of the recent operas, right?
+
+925
+00:55:52.720 --> 00:55:56.560
+When Google announced
+that they were now going to integrate
+
+926
+00:55:56.600 --> 00:55:59.000
+AI further
+into their search engines. Right.
+
+927
+00:55:59.000 --> 00:56:01.360
+And that sort of search engine is over.
+
+928
+00:56:01.360 --> 00:56:04.800
+And the other one and it's like, no,
+we can't trust the AI.
+
+929
+00:56:04.840 --> 00:56:07.600
+I'm switching to duck. Duck. Great.
+
+930
+00:56:07.600 --> 00:56:10.320
+Do the things that make you feel good
+about it.
+
+931
+00:56:10.320 --> 00:56:16.640
+However, you know Safiya moya Noble's
+algorithms of oppression.
+
+932
+00:56:16.640 --> 00:56:23.080
+It's not like we had this great system
+for search that had no politics or biases.
+
+933
+00:56:23.080 --> 00:56:26.000
+And now AI is inserting all these biases.
+No, no.
+
+934
+00:56:26.000 --> 00:56:28.720
+Those were always already there. Right?
+
+935
+00:56:28.720 --> 00:56:34.160
+So if you're going to use a Google service
+for searching and finding information,
+
+936
+00:56:35.000 --> 00:56:38.480
+you know, pick the model
+the best suits you.
+
+937
+00:56:38.480 --> 00:56:41.760
+I don't know if if any of you
+have been making the adjustment,
+
+938
+00:56:41.760 --> 00:56:45.440
+but I'm now asking questions on the Google
+search bar
+
+939
+00:56:45.520 --> 00:56:48.600
+rather than keywords,
+
+940
+00:56:48.800 --> 00:56:51.600
+and that is a little paradigm shift
+
+941
+00:56:51.600 --> 00:56:54.760
+in how we search and find information.
+
+942
+00:56:54.800 --> 00:56:58.960
+So again,
+let's let's think through these things.
+
+943
+00:56:59.000 --> 00:57:04.440
+Let's get past our gut response
+and really kind of explore these things.
+
+944
+00:57:08.040 --> 00:57:11.040
+Other questions or comments.
+
+945
+00:57:14.800 --> 00:57:17.120
+Oh there's AI that runs on mobile
+phones too.
+
+946
+00:57:17.120 --> 00:57:19.160
+They're pretty modest little models.
+
+947
+00:57:19.160 --> 00:57:23.120
+But let's face it, mobile phones
+aren't great for coding anyways.
+
+948
+00:57:23.120 --> 00:57:26.960
+So yeah, you could have a little AI system
+on your phone.
+
+949
+00:57:27.400 --> 00:57:31.480
+I personally don't find
+a tremendous amount of utility to it.
+
+950
+00:57:31.520 --> 00:57:33.080
+I'd rather use the one that's
+
+951
+00:57:33.080 --> 00:57:36.840
+more connected to the cloud services
+because I can, you know,
+
+952
+00:57:36.880 --> 00:57:41.880
+like if I'm traveling somewhere
+and I see something and it's not labeled,
+
+953
+00:57:41.920 --> 00:57:46.160
+I just got back from a lovely trip
+with a family to England and Scotland.
+
+954
+00:57:46.800 --> 00:57:52.200
+I could take a picture of something
+and ask the AI system, what is this?
+
+955
+00:57:52.240 --> 00:57:53.480
+What am I looking at?
+
+956
+00:57:53.480 --> 00:57:56.720
+And it'll search
+and I'll try to give you an answer,
+
+957
+00:57:56.720 --> 00:57:58.760
+and I'll take that answer
+with a grain of salt.
+
+958
+00:57:58.760 --> 00:58:01.360
+But it's it's better than just
+
+959
+00:58:02.760 --> 00:58:05.760
+not not knowing.
+
+960
+00:58:05.760 --> 00:58:07.640
+Oh, I see a good question.
+
+961
+00:58:07.640 --> 00:58:11.480
+Teagan wants to respond to the question
+why is it good?
+
+962
+00:58:11.480 --> 00:58:14.480
+Or Alison's question why is he look good?
+
+963
+00:58:15.240 --> 00:58:17.680
+Listen, here's why Elit is good.
+
+964
+00:58:17.680 --> 00:58:20.200
+That's a actually excellent question.
+
+965
+00:58:20.200 --> 00:58:22.120
+Why do we even do this?
+
+966
+00:58:22.120 --> 00:58:25.120
+Listen, part of my response
+
+967
+00:58:25.880 --> 00:58:26.400
+I've.
+
+968
+00:58:26.400 --> 00:58:29.400
+I've been long enough in this field,
+
+969
+00:58:29.640 --> 00:58:32.080
+working in English departments,
+working with people
+
+970
+00:58:32.080 --> 00:58:36.760
+who just don't get what it is
+that I do with elit and all that,
+
+971
+00:58:36.760 --> 00:58:39.760
+both as scholar, as a scholar
+and as a creator
+
+972
+00:58:41.560 --> 00:58:42.880
+that I frequently have
+
+973
+00:58:42.880 --> 00:58:46.520
+to find my find myself
+justifying electronic literature.
+
+974
+00:58:46.720 --> 00:58:49.160
+Here's my justification.
+
+975
+00:58:49.160 --> 00:58:52.160
+I think it gives us
+
+976
+00:58:52.160 --> 00:58:57.200
+a glimpse into the future
+of digital writing, of writing and digital
+
+977
+00:58:57.200 --> 00:59:01.600
+media, of human artistic expression
+in digital media.
+
+978
+00:59:02.120 --> 00:59:05.520
+I think in the future,
+when these things, folks,
+
+979
+00:59:05.520 --> 00:59:09.200
+let's remember,
+this is still early days, right?
+
+980
+00:59:09.240 --> 00:59:14.640
+This is like digital literacy program
+encoding all these things.
+
+981
+00:59:14.680 --> 00:59:19.120
+They're not part of most,
+most school curricula.
+
+982
+00:59:19.160 --> 00:59:22.320
+It's the privileged, highly private,
+
+983
+00:59:22.320 --> 00:59:26.080
+special schools
+that get that kind of investment.
+
+984
+00:59:26.400 --> 00:59:27.720
+But really,
+
+985
+00:59:29.640 --> 00:59:30.880
+until code
+
+986
+00:59:30.880 --> 00:59:35.920
+literacy and coding
+just becomes as normal as writing on paper
+
+987
+00:59:35.920 --> 00:59:40.960
+or on a, on a computer,
+virtual paper word processor,
+
+988
+00:59:42.080 --> 00:59:47.000
+you know, it's it's not going to become
+quite normalized, right?
+
+989
+00:59:47.040 --> 00:59:51.000
+So with electronic literature,
+both in its past
+
+990
+00:59:51.000 --> 00:59:54.960
+and in its present
+and in its many, many iterations.
+
+991
+00:59:55.000 --> 00:59:55.720
+Right.
+
+992
+00:59:55.720 --> 00:59:59.320
+Like what might writing
+look like in a virtual space?
+
+993
+00:59:59.320 --> 01:00:05.560
+What might writing look like
+in a sort of X or AR kind of space?
+
+994
+01:00:05.560 --> 01:00:09.560
+What might writing look like
+when it's written through with variables
+
+995
+01:00:09.560 --> 01:00:10.800
+and algorithms?
+
+996
+01:00:10.800 --> 01:00:13.680
+What does writing look like
+when it's multimodal?
+
+997
+01:00:13.680 --> 01:00:16.960
+What does writing look like
+when it's interactive?
+
+998
+01:00:17.560 --> 01:00:18.240
+Right?
+
+999
+01:00:18.240 --> 01:00:21.760
+What does writing look like
+when it combines many or all of those
+
+1000
+01:00:21.760 --> 01:00:25.800
+things are digital data or installations
+or all these things?
+
+1001
+01:00:26.320 --> 01:00:29.920
+Our community, this thing we call Elit,
+
+1002
+01:00:29.960 --> 01:00:33.600
+is a freaking lab, an experimental lab
+
+1003
+01:00:33.920 --> 01:00:36.920
+for human expression in
+
+1004
+01:00:37.120 --> 01:00:39.560
+with digital media in its capabilities.
+
+1005
+01:00:39.560 --> 01:00:43.160
+And I think, I think that's the future.
+
+1006
+01:00:43.200 --> 01:00:46.200
+I will say that out, you know,
+
+1007
+01:00:46.240 --> 01:00:49.480
+come back to me and many more years
+
+1008
+01:00:49.520 --> 01:00:53.080
+if there's an afterlife
+or a digital afterlife or whatever.
+
+1009
+01:00:53.160 --> 01:00:54.880
+Go find me and tell me.
+
+1010
+01:00:55.880 --> 01:00:58.840
+I don't believe in any
+of those things, but, you know, whatever.
+
+1011
+01:00:58.840 --> 01:01:02.840
+If we bump into each other
+in the long picture,
+
+1012
+01:01:04.040 --> 01:01:06.080
+so be it, you know?
+
+1013
+01:01:06.080 --> 01:01:06.680
+We'll see.
+
+1014
+01:01:06.680 --> 01:01:09.680
+We'll see if I was right
+or if I was wrong.
+
+1015
+01:01:09.720 --> 01:01:13.840
+But in the meantime, we do
+the work as best we know.
+
+1016
+01:01:13.840 --> 01:01:16.880
+And we, you know, we try to nurture
+
+1017
+01:01:16.920 --> 01:01:19.920
+the best practices.
+
+1018
+01:01:20.280 --> 01:01:23.600
+Well, I can't imagine
+a better note to end on than that.
+
+1019
+01:01:24.080 --> 01:01:25.800
+Thank you so much.
+
+1020
+01:01:25.800 --> 01:01:27.400
+That was fantastic.
+
+1021
+01:01:27.400 --> 01:01:31.960
+And there are only four events
+left in the conference, folks.
+
+1022
+01:01:31.960 --> 01:01:36.640
+So please play another round of applause
+and check out the two concurrent sessions.
+
+1023
+01:01:36.680 --> 01:01:38.920
+We have
+
+1024
+01:01:38.920 --> 01:01:40.960
+individual papers starting up
+
+1025
+01:01:40.960 --> 01:01:45.520
+here, and our panel on the first web novel
+as 30,
+
+1026
+01:01:45.560 --> 01:01:49.600
+starting up on just a few minutes
+over on the Hypertext
+
+1027
+01:01:49.600 --> 01:01:51.560
+and Fictions track,
+which is about to launch.
+
+1028
+01:01:51.560 --> 01:01:55.920
+So please consider
+switching over or hanging around here
+
+1029
+01:01:57.000 --> 01:01:59.800
+for more yellow.
+
+1030
+01:01:59.800 --> 01:02:02.280
+And after that, we do have the town hall.
+
+1031
+01:02:02.280 --> 01:02:06.160
+With the 2027 conference announcement
+and our award ceremony
+
+1032
+01:02:06.160 --> 01:02:11.280
+to celebrate members of the community
+and wrap up this four day adventure.
+
+1033
+01:02:11.320 --> 01:02:15.400
+So I hope you'll consider sticking around
+this afternoon and joining us.
+
+1034
+01:02:16.280 --> 01:02:17.120
+Thank you all.

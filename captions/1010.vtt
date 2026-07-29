@@ -1,0 +1,1075 @@
+WEBVTT
+
+1
+00:00:00.160 --> 00:00:03.800
+Our last presenter for this panel is
+
+2
+00:00:04.000 --> 00:00:07.600
+Yohanna Waliya with Vibe coding, AI,
+
+3
+00:00:07.760 --> 00:00:11.640
+digital text recycling
+and the remediation of digital poetry.
+
+4
+00:00:14.240 --> 00:00:15.160
+Hello.
+
+5
+00:00:15.160 --> 00:00:18.160
+Good afternoon or good morning?
+
+6
+00:00:18.480 --> 00:00:19.080
+Yeah.
+
+7
+00:00:19.080 --> 00:00:24.920
+Please meet me to share my screen. Yes.
+
+8
+00:00:26.760 --> 00:00:28.520
+You do have permission, I believe.
+
+9
+00:00:28.520 --> 00:00:31.520
+Okay.
+
+10
+00:00:33.720 --> 00:00:34.000
+Okay.
+
+11
+00:00:34.000 --> 00:00:36.520
+I don't know if you can see my screen
+there.
+
+12
+00:00:36.520 --> 00:00:38.520
+Yes we can.
+
+13
+00:00:38.520 --> 00:00:41.120
+Okay.
+
+14
+00:00:41.120 --> 00:00:43.600
+As my topic
+
+15
+00:00:43.600 --> 00:00:47.240
+implies, vibe coding,
+
+16
+00:00:48.280 --> 00:00:50.600
+AI, digital text recycling,
+
+17
+00:00:50.600 --> 00:00:53.920
+and the limitation of digital poetry.
+
+18
+00:00:54.120 --> 00:00:59.920
+So my work is sent is to theorize the
+
+19
+00:00:59.920 --> 00:01:02.920
+AI aided.
+
+20
+00:01:05.920 --> 00:01:07.080
+Creative writing,
+
+21
+00:01:07.080 --> 00:01:11.320
+whereby we share co-authorship
+
+22
+00:01:11.320 --> 00:01:14.320
+with artificial intelligence
+
+23
+00:01:15.760 --> 00:01:18.080
+more especially in the in terms
+
+24
+00:01:18.080 --> 00:01:21.360
+of coding in the electronic literature.
+
+25
+00:01:22.480 --> 00:01:25.480
+We are
+
+26
+00:01:26.640 --> 00:01:28.880
+two in this paper.
+
+27
+00:01:28.880 --> 00:01:33.280
+We are we intended to show that section
+
+28
+00:01:33.680 --> 00:01:36.280
+that AI does the role that
+
+29
+00:01:36.280 --> 00:01:39.520
+AI plays in the production
+
+30
+00:01:40.480 --> 00:01:42.320
+in all because
+
+31
+00:01:42.320 --> 00:01:46.440
+coding all this
+which natural language instruction
+
+32
+00:01:46.440 --> 00:01:50.880
+given to computer intelligence
+in order to produce the work of art.
+
+33
+00:01:51.600 --> 00:01:53.560
+That's true prompting.
+
+34
+00:01:53.560 --> 00:01:58.120
+And in this kind of prompting
+for electronic literature production,
+
+35
+00:01:58.280 --> 00:02:01.280
+we are interested
+
+36
+00:02:01.520 --> 00:02:04.320
+in in doing such kind of things.
+
+37
+00:02:04.320 --> 00:02:08.240
+We give computer the rhythm,
+
+38
+00:02:08.560 --> 00:02:11.840
+we give computer our affection
+
+39
+00:02:12.160 --> 00:02:18.000
+in order to produce digital poetry
+and the system on its own.
+
+40
+00:02:18.040 --> 00:02:21.600
+Now, because it's trained on large
+data sets,
+
+41
+00:02:22.040 --> 00:02:26.960
+it will speak to us
+back, does give us feedback
+
+42
+00:02:27.000 --> 00:02:31.880
+according to what we want it to do,
+and therefore we.
+
+43
+00:02:31.880 --> 00:02:36.800
+And finding ourselves
+relating with non-human
+
+44
+00:02:36.840 --> 00:02:39.320
+that's pretending to be like human.
+
+45
+00:02:39.320 --> 00:02:42.320
+And in order to produce the work of art.
+
+46
+00:02:45.640 --> 00:02:48.480
+Then this kind of art,
+
+47
+00:02:48.480 --> 00:02:53.640
+because of a lot of data, said
+that this computer is being fed upon.
+
+48
+00:02:54.360 --> 00:02:56.240
+We now have
+
+49
+00:02:57.240 --> 00:02:59.400
+a site, a
+
+50
+00:02:59.400 --> 00:03:02.720
+kind of recycling of text.
+
+51
+00:03:03.480 --> 00:03:07.520
+All we have in humanities most,
+most often is the second of text.
+
+52
+00:03:07.960 --> 00:03:12.160
+But this last cycle of text bomb
+fruit remediation
+
+53
+00:03:13.000 --> 00:03:16.360
+and what I call digital text is cycling.
+
+54
+00:03:16.840 --> 00:03:22.000
+Because as we know, we have our website.
+
+55
+00:03:22.040 --> 00:03:26.200
+Like there is this kind of objecting
+that is used to happen
+
+56
+00:03:26.280 --> 00:03:30.720
+when we are initiating new
+packages and models,
+
+57
+00:03:30.880 --> 00:03:34.600
+and then the previous ones
+dies of like that.
+
+58
+00:03:34.600 --> 00:03:40.000
+And therefore that's what is making
+some website that or what God oscillates,
+
+59
+00:03:40.240 --> 00:03:46.120
+it goes into obsolescence
+because into like extension
+
+60
+00:03:46.120 --> 00:03:51.840
+because of the new programing languages
+and also packages that are coming up
+
+61
+00:03:51.880 --> 00:03:55.680
+that are stronger than those 
+existing ones.
+
+62
+00:03:55.720 --> 00:03:59.320
+And what do we have
+when we custom computer, what do we have?
+
+63
+00:03:59.360 --> 00:04:02.680
+We have three forces
+that drive our composition.
+
+64
+00:04:02.880 --> 00:04:04.200
+We have the rhythm.
+
+65
+00:04:04.200 --> 00:04:06.720
+We have the intuition and our affection.
+
+66
+00:04:09.080 --> 00:04:10.880
+Then the
+
+67
+00:04:10.880 --> 00:04:14.440
+framework we use we we use three lessons.
+
+68
+00:04:14.440 --> 00:04:18.760
+That's three ways of approaching
+computer production.
+
+69
+00:04:18.800 --> 00:04:20.360
+That's co-creation.
+
+70
+00:04:20.360 --> 00:04:21.440
+We have remediation.
+
+71
+00:04:21.440 --> 00:04:22.760
+We have text cycling.
+
+72
+00:04:22.760 --> 00:04:24.560
+We have consumer authorship.
+
+73
+00:04:24.560 --> 00:04:26.560
+Anyway. Remediation.
+
+74
+00:04:26.560 --> 00:04:31.920
+What we have we have new media
+that fashion, old media, existing media.
+
+75
+00:04:32.280 --> 00:04:37.320
+The scaffolding of understanding AI
+is the working of inherited digital text.
+
+76
+00:04:38.240 --> 00:04:40.840
+Then we have in the digital cycle
+what do we do?
+
+77
+00:04:40.840 --> 00:04:43.840
+This is a new critical term
+proposed by the paper.
+
+78
+00:04:43.880 --> 00:04:49.360
+I added poetically, processing and cooling
+existing text back into circulation.
+
+79
+00:04:49.600 --> 00:04:53.840
+When you look at this,
+we look at the cases of
+
+80
+00:04:53.840 --> 00:04:56.960
+where this AI has been used in the work
+
+81
+00:04:56.960 --> 00:05:02.600
+of Leonardo Florence,
+where we has recycled,
+
+82
+00:05:02.720 --> 00:05:07.200
+the tiny protest and the
+
+83
+00:05:08.720 --> 00:05:11.040
+tiny protest protesters.
+
+84
+00:05:11.040 --> 00:05:16.000
+When you look at tiny protest
+30 protests was on Twitter before,
+
+85
+00:05:16.240 --> 00:05:21.520
+but it went into extinction
+because they stopped the bot
+
+86
+00:05:21.520 --> 00:05:24.720
+from running due to the change
+
+87
+00:05:24.720 --> 00:05:27.800
+of ownership of Twitter.
+
+88
+00:05:28.840 --> 00:05:31.440
+Then we have in the possible authorship
+
+89
+00:05:31.440 --> 00:05:36.280
+we no longer exist alone
+before all humanity studies.
+
+90
+00:05:36.480 --> 00:05:39.520
+They are anthropocentric,
+the center around human
+
+91
+00:05:39.520 --> 00:05:42.720
+being, the center around only human being.
+
+92
+00:05:42.760 --> 00:05:46.960
+But now, with advent
+of another form of human beings
+
+93
+00:05:46.960 --> 00:05:49.960
+that have come to exist with us,
+so that Zeno
+
+94
+00:05:49.960 --> 00:05:54.040
+and the artificial intelligence,
+we have to redefine
+
+95
+00:05:54.080 --> 00:05:59.080
+who is the center of human
+of our society today.
+
+96
+00:05:59.200 --> 00:06:04.720
+So we have to also accept that
+that are also beings that are still with
+
+97
+00:06:04.720 --> 00:06:07.760
+us, that are non-human,
+but they behave like human.
+
+98
+00:06:07.760 --> 00:06:13.800
+And that's why co-authorship in a,
+in the present literary works has to do
+
+99
+00:06:13.800 --> 00:06:18.240
+with distribution across bodies, machine
+and inherited material text.
+
+100
+00:06:18.800 --> 00:06:22.200
+Now, what is the role of AI
+in our production?
+
+101
+00:06:22.760 --> 00:06:26.840
+The role AI serve as archive holding
+
+102
+00:06:27.240 --> 00:06:30.240
+the surface inherited digital text
+
+103
+00:06:30.240 --> 00:06:33.240
+style addresses the reuses,
+
+104
+00:06:33.440 --> 00:06:37.000
+then it works
+as actively shaping our as koto.
+
+105
+00:06:37.040 --> 00:06:42.000
+It shepherds our languages alongside
+the human poet in reality, in real time.
+
+106
+00:06:42.640 --> 00:06:44.960
+Then we have formative engine
+
+107
+00:06:46.000 --> 00:06:47.320
+driving the mutation and the
+
+108
+00:06:47.320 --> 00:06:51.000
+configuration of text into new poetic form
+such as
+
+109
+00:06:52.280 --> 00:06:56.120
+the LMS, LMS and the rest.
+
+110
+00:06:56.600 --> 00:06:59.760
+The paper argue
+that autoship is across human effect,
+
+111
+00:06:59.800 --> 00:07:03.680
+now affect now algorithm, interface
+and inherited digital materials.
+
+112
+00:07:03.720 --> 00:07:07.640
+And this is what we have in our work.
+
+113
+00:07:07.640 --> 00:07:10.960
+So we have the work by.
+
+114
+00:07:11.680 --> 00:07:14.920
+Gauri by
+
+115
+00:07:15.480 --> 00:07:19.440
+Nick Ford and Tiny Protest by
+
+116
+00:07:19.440 --> 00:07:22.960
+Leonardo Flores
+and Michael Work and Jamaica's.
+
+117
+00:07:23.520 --> 00:07:26.120
+What do we see here? The this the present.
+
+118
+00:07:26.120 --> 00:07:30.480
+The first one here has been are
+
+119
+00:07:31.400 --> 00:07:35.840
+has been, has been fucked
+as it has been used
+
+120
+00:07:35.920 --> 00:07:39.520
+because the court is free
+open access and everyone can use it.
+
+121
+00:07:39.560 --> 00:07:44.440
+But if the code was not prompted,
+we didn't use human languages to do that.
+
+122
+00:07:45.000 --> 00:07:49.360
+But it is programed by somebody
+and anybody can adapt to it
+
+123
+00:07:49.720 --> 00:07:52.640
+and use it for production.
+
+124
+00:07:52.640 --> 00:07:58.200
+I think from the last time I visited
+the website, we have about 46 authors
+
+125
+00:07:58.600 --> 00:08:03.080
+who that have forked this work
+and use it to produce
+
+126
+00:08:03.120 --> 00:08:06.240
+similar kind of generative literature.
+
+127
+00:08:06.920 --> 00:08:09.520
+30 protest has been imitated.
+
+128
+00:08:09.520 --> 00:08:12.680
+What you see 30 protest is one of the work
+that
+
+129
+00:08:13.040 --> 00:08:16.520
+has has been remediated severally.
+
+130
+00:08:16.560 --> 00:08:22.960
+You can find it as well as an app
+on a Twitter, though it has been stopped
+
+131
+00:08:23.000 --> 00:08:29.360
+now, it has been republished
+on another platform differently.
+
+132
+00:08:29.360 --> 00:08:31.880
+So what do we see?
+
+133
+00:08:31.880 --> 00:08:36.440
+We see that there are set the text
+and no more static
+
+134
+00:08:36.840 --> 00:08:41.800
+as the way we try to preserve
+our society, our environment.
+
+135
+00:08:41.880 --> 00:08:45.080
+That's how our digital texts
+have been preserved from extinction,
+
+136
+00:08:45.480 --> 00:08:50.200
+because most of the material of the text
+
+137
+00:08:50.240 --> 00:08:54.480
+that's the algorithm
+material can also be obsolete.
+
+138
+00:08:54.920 --> 00:08:58.080
+So that's why also we do recycling and
+
+139
+00:08:59.040 --> 00:09:02.680
+and, and a limitation.
+
+140
+00:09:02.960 --> 00:09:05.960
+Then we have also my
+
+141
+00:09:06.000 --> 00:09:09.400
+I actually use AI like deep sick
+
+142
+00:09:09.520 --> 00:09:12.480
+and to recycle the text
+
+143
+00:09:12.480 --> 00:09:15.480
+and to make the work to be
+
+144
+00:09:16.560 --> 00:09:17.360
+similarly.
+
+145
+00:09:17.360 --> 00:09:20.680
+It's perfect because we have already
+published it somewhere.
+
+146
+00:09:22.360 --> 00:09:25.360
+Then we have seen.
+
+147
+00:09:26.240 --> 00:09:27.600
+Also the implication goal here.
+
+148
+00:09:27.600 --> 00:09:32.120
+This is the Godhead that we have
+as an example here.
+
+149
+00:09:32.920 --> 00:09:35.800
+So visual examples of those words
+
+150
+00:09:35.800 --> 00:09:39.440
+we have Jamaica's
+which is an art is again.
+
+151
+00:09:39.520 --> 00:09:42.720
+And you see that one thing that I discover
+
+152
+00:09:42.720 --> 00:09:47.240
+is that the static values of this work
+is imparted,
+
+153
+00:09:48.920 --> 00:09:52.280
+sympathetic in the sense that it is now
+
+154
+00:09:52.440 --> 00:09:55.440
+no longer human esthetics,
+
+155
+00:09:56.040 --> 00:10:00.280
+but also the machine and the human
+has been collaborated together.
+
+156
+00:10:00.400 --> 00:10:04.280
+And that's what we call
+what we call sympathetic esthetics.
+
+157
+00:10:04.320 --> 00:10:08.320
+And when you look at the tiny protest,
+these are tiny protests
+
+158
+00:10:08.360 --> 00:10:11.360
+from one media to another.
+
+159
+00:10:11.480 --> 00:10:15.080
+When you see the last obligation
+of standing protest
+
+160
+00:10:15.320 --> 00:10:20.720
+that is renamed as tiny Protest the King,
+you discover that the esthetic value
+
+161
+00:10:20.720 --> 00:10:26.240
+there is more appreciated than the one,
+
+162
+00:10:26.280 --> 00:10:29.760
+the one that was published
+on the top on Tepper.
+
+163
+00:10:30.160 --> 00:10:30.520
+Tepper
+
+164
+00:10:31.920 --> 00:10:35.360
+Tepper magazine, which is which we have
+
+165
+00:10:35.400 --> 00:10:39.760
+which had only the literature texts
+where we call
+
+166
+00:10:41.360 --> 00:10:42.800
+mono poetic
+
+167
+00:10:42.800 --> 00:10:46.200
+kind of verses of one line or two lines.
+
+168
+00:10:46.280 --> 00:10:49.280
+They stick out. That's what we get there.
+
+169
+00:10:49.560 --> 00:10:52.680
+So this is tiny protest
+work on the Twitter.
+
+170
+00:10:55.120 --> 00:10:57.760
+Now, continuous textual afterlife.
+
+171
+00:10:57.760 --> 00:11:01.240
+Why do we think about recycling,
+as I mentioned earlier,
+
+172
+00:11:01.720 --> 00:11:05.000
+that because this text
+can also go into extinction.
+
+173
+00:11:05.000 --> 00:11:09.920
+And the verb coding, let's put poems
+circulate again, mutate
+
+174
+00:11:10.040 --> 00:11:13.040
+and remind across interfaces and
+
+175
+00:11:13.600 --> 00:11:16.640
+and how golden system
+that stays finished.
+
+176
+00:11:16.640 --> 00:11:21.360
+So our text through our collaborative
+will artificial intelligence.
+
+177
+00:11:21.360 --> 00:11:26.640
+We made this text to live forever to win
+
+178
+00:11:26.640 --> 00:11:29.640
+the world will change another technology.
+
+179
+00:11:29.760 --> 00:11:33.760
+So the AI preserves our work
+
+180
+00:11:33.760 --> 00:11:37.520
+and put it
+bringing up all our work to life.
+
+181
+00:11:38.280 --> 00:11:39.160
+Our alter ship.
+
+182
+00:11:39.160 --> 00:11:41.480
+Is this a across human effect?
+
+183
+00:11:41.480 --> 00:11:48.120
+As I said earlier,
+and now we have to look at what naming
+
+184
+00:11:48.120 --> 00:11:52.040
+the tools, questioning the implication
+of those tools in our production.
+
+185
+00:11:52.280 --> 00:11:55.880
+The paper explicitly discloses
+the AI tools
+
+186
+00:11:55.880 --> 00:11:59.120
+and platform involved in creative process.
+
+187
+00:11:59.160 --> 00:12:02.160
+Written disclosure itself
+as a part of the poetic
+
+188
+00:12:02.160 --> 00:12:05.160
+is not a footnote to it.
+
+189
+00:12:05.200 --> 00:12:08.200
+That's why we have a static
+what sensibility
+
+190
+00:12:08.200 --> 00:12:11.200
+do train models
+
+191
+00:12:11.240 --> 00:12:16.440
+bring into all impulse
+on a human or on a form poems form?
+
+192
+00:12:18.400 --> 00:12:19.200
+That's what
+
+193
+00:12:19.200 --> 00:12:23.080
+we try to answer in this work now.
+
+194
+00:12:23.120 --> 00:12:27.280
+Cultural, we culturally,
+
+195
+00:12:28.520 --> 00:12:30.520
+whose language, imagery
+
+196
+00:12:30.520 --> 00:12:33.520
+and archives shape the database.
+
+197
+00:12:34.640 --> 00:12:36.880
+A poem draws on that.
+
+198
+00:12:36.880 --> 00:12:40.800
+The poem draws on mostly machine
+
+199
+00:12:40.800 --> 00:12:44.760
+cannot produce its own language is human
+that imputed that language.
+
+200
+00:12:44.760 --> 00:12:47.160
+And it is our culture that is there.
+
+201
+00:12:47.160 --> 00:12:50.720
+Though through deep learning,
+machine intelligence
+
+202
+00:12:50.760 --> 00:12:54.920
+can get new data sets learning from us.
+
+203
+00:12:54.960 --> 00:12:58.400
+And that's why we say
+the machine is creative now,
+
+204
+00:12:58.520 --> 00:13:03.320
+because that's also how human
+being creative human beings so work.
+
+205
+00:13:03.360 --> 00:13:08.640
+They read from large data set of different
+books of literature, and then they now
+
+206
+00:13:08.640 --> 00:13:14.200
+follow the pattern of previous writers
+to fabricate their own.
+
+207
+00:13:14.320 --> 00:13:18.680
+That's how also machine is being fed
+or fed and fed with through artificial,
+
+208
+00:13:18.800 --> 00:13:23.680
+through machine learning and also deep
+learning to now create its own work.
+
+209
+00:13:23.680 --> 00:13:29.080
+That's why we can boldly say
+or convincingly say that the machine also
+
+210
+00:13:29.120 --> 00:13:32.920
+has its own culture now,
+because the culture now is longer
+
+211
+00:13:32.920 --> 00:13:36.560
+human already, what we call it
+now, artificial intelligence culture,
+
+212
+00:13:36.800 --> 00:13:41.560
+because they are able,
+they they are able also to produce
+
+213
+00:13:42.160 --> 00:13:45.000
+learning from human
+being to produce their own work.
+
+214
+00:13:47.280 --> 00:13:50.280
+Distinctive
+poetics of electronic literature.
+
+215
+00:13:50.280 --> 00:13:52.560
+Vibe coding is situated
+within the history of generative
+
+216
+00:13:52.560 --> 00:13:58.040
+and the procedural writing,
+while making it turn towards affective
+
+217
+00:13:58.040 --> 00:14:02.400
+and intuitive code coding practice,
+offering digital texture recycling
+
+218
+00:14:02.440 --> 00:14:05.520
+as a new perceptual term of understanding
+
+219
+00:14:05.560 --> 00:14:08.560
+a I made a digital poetry,
+
+220
+00:14:09.080 --> 00:14:11.760
+so that's why we have in our study
+
+221
+00:14:11.760 --> 00:14:16.640
+we have so many things
+that we have bring them into light.
+
+222
+00:14:16.680 --> 00:14:19.880
+So we now look at,
+
+223
+00:14:21.040 --> 00:14:25.120
+our last word
+
+224
+00:14:25.200 --> 00:14:28.200
+is, as we have come to the end,
+
+225
+00:14:29.120 --> 00:14:33.840
+we have to conclude by saying that
+
+226
+00:14:35.160 --> 00:14:38.680
+AI recycle our texts,
+
+227
+00:14:39.800 --> 00:14:42.520
+and auto ship is being shared
+
+228
+00:14:42.520 --> 00:14:45.280
+between human and AI.
+
+229
+00:14:45.280 --> 00:14:51.000
+AI also can invent its own culture
+from our own culture,
+
+230
+00:14:51.640 --> 00:14:54.440
+the same pattern that other human beings
+
+231
+00:14:54.440 --> 00:14:57.880
+and also produce.
+
+232
+00:14:57.880 --> 00:15:02.640
+And that is how 
+we see the work of electronic literature
+
+233
+00:15:03.120 --> 00:15:07.720
+moving from human to machine
+and to sympathetic.
+
+234
+00:15:07.760 --> 00:15:10.960
+That is a sympathetic kind
+
+235
+00:15:11.000 --> 00:15:15.040
+of production, where human and machine
+
+236
+00:15:15.520 --> 00:15:18.240
+is sort of a techno
+
+237
+00:15:18.240 --> 00:15:22.080
+symbiotic producing culture
+in the nearest future.
+
+238
+00:15:22.080 --> 00:15:25.120
+And from this time, first,
+for what we begin to see is
+
+239
+00:15:25.120 --> 00:15:29.680
+that we share work
+that are produced from human being
+
+240
+00:15:29.720 --> 00:15:32.720
+and machine as our own new culture.
+
+241
+00:15:32.960 --> 00:15:34.360
+Thank you for listening.

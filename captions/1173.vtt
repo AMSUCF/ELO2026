@@ -1,0 +1,851 @@
+WEBVTT
+
+1
+00:00:00.040 --> 00:00:03.160
+we have our last presenter
+
+2
+00:00:04.200 --> 00:00:06.320
+who I believe was able to join us.
+
+3
+00:00:06.320 --> 00:00:07.160
+Yes.
+
+4
+00:00:07.160 --> 00:00:09.480
+Anna Marques da Silva.
+
+5
+00:00:09.480 --> 00:00:12.600
+Whenever you are ready, take it away.
+
+6
+00:00:18.240 --> 00:00:20.160
+Oh, I believe you might be needed.
+
+7
+00:00:20.160 --> 00:00:25.240
+And here you can hear you,
+
+8
+00:00:26.520 --> 00:00:27.320
+Anna.
+
+9
+00:00:27.320 --> 00:00:30.320
+You're muted.
+
+10
+00:00:33.080 --> 00:00:34.120
+Sorry.
+
+11
+00:00:34.120 --> 00:00:36.880
+Oh no trouble. No trouble at all.
+
+12
+00:00:36.880 --> 00:00:38.280
+Good afternoon everyone.
+
+13
+00:00:38.280 --> 00:00:40.200
+My presentation focuses on
+
+14
+00:00:40.200 --> 00:00:44.320
+how the notion of authorship
+and generative literature evolved in time.
+
+15
+00:00:44.440 --> 00:00:50.200
+I see waves regarding the authorship
+theory and generative poetics.
+
+16
+00:00:50.480 --> 00:00:53.800
+As an introduction, I will briefly address
+the first definitions of
+
+17
+00:00:54.240 --> 00:00:57.760
+of generative literature,
+as well as the importance of the notions
+
+18
+00:00:57.760 --> 00:01:01.360
+of a literary,
+of the notion of a literary algorithm
+
+19
+00:01:01.920 --> 00:01:03.680
+in the dawn of the computer age.
+
+20
+00:01:03.680 --> 00:01:07.040
+Generative art was understood
+within the framework
+
+21
+00:01:07.040 --> 00:01:10.760
+of conceptual esthetics as solo,
+which stated
+
+22
+00:01:10.800 --> 00:01:13.800
+the idea becomes a machine
+that makes the art.
+
+23
+00:01:14.000 --> 00:01:17.640
+What is at stake
+here is the encoding into an algorithm
+
+24
+00:01:17.680 --> 00:01:22.120
+of an idea of what literature, the visual
+arts, music, or any other language
+
+25
+00:01:22.120 --> 00:01:26.640
+may be, as well as the automation
+of the processes that exhaust all possible
+
+26
+00:01:26.640 --> 00:01:30.360
+variations of the material expression
+of such an idea.
+
+27
+00:01:31.000 --> 00:01:34.320
+Throughout the following decades,
+different authors proposed different
+
+28
+00:01:34.800 --> 00:01:38.280
+theoretical perspectives
+on what generative literature is,
+
+29
+00:01:38.280 --> 00:01:41.720
+but the affiliation
+with conceptual esthetics remained.
+
+30
+00:01:42.240 --> 00:01:44.880
+Philip Boots,
+co-founder of the group Slayer
+
+31
+00:01:44.880 --> 00:01:48.400
+in 1977 and 2012, observable
+
+32
+00:01:48.400 --> 00:01:51.400
+in 20 and 2003,
+
+33
+00:01:51.480 --> 00:01:54.920
+considered the code to be an integral part
+of the literary work.
+
+34
+00:01:54.960 --> 00:01:57.440
+In the near technical process.
+
+35
+00:01:57.440 --> 00:02:01.840
+For boots, what is understood to be
+a generative work is the entire system
+
+36
+00:02:01.840 --> 00:02:05.680
+which is constituted by the code,
+the database, the processing device,
+
+37
+00:02:05.720 --> 00:02:09.760
+the author, each
+specific textual configuration generated
+
+38
+00:02:09.760 --> 00:02:13.920
+at each iteration, and the virtual
+whole that comprises all possible
+
+39
+00:02:13.960 --> 00:02:17.880
+textual configurations
+contained within the programed model.
+
+40
+00:02:17.880 --> 00:02:19.040
+And we might add.
+
+41
+00:02:19.040 --> 00:02:23.280
+Of course, the reader Jean-Pierre
+Balak, French pioneer of computer
+
+42
+00:02:23.280 --> 00:02:26.680
+generated
+narrative, defined generative literature
+
+43
+00:02:26.680 --> 00:02:30.520
+as the production of literary texts
+in continuous mutation
+
+44
+00:02:30.560 --> 00:02:34.360
+through a specific dictionary
+and the set of rules for him.
+
+45
+00:02:34.400 --> 00:02:38.800
+A textual generator is an automaton,
+and I'm quoting an automaton capable
+
+46
+00:02:38.800 --> 00:02:43.480
+of producing a psychologically
+and limited quantity of acceptable objects
+
+47
+00:02:43.480 --> 00:02:47.640
+within a previously defined
+domain of communication bulb.
+
+48
+00:02:47.720 --> 00:02:51.520
+This proposed a definition
+intimately linked to establish discursive
+
+49
+00:02:51.520 --> 00:02:54.560
+conventions. For now, awards are proven.
+
+50
+00:02:54.600 --> 00:02:58.800
+A textual generator is a tool,
+and I'm quoting for textual performance,
+
+51
+00:02:58.800 --> 00:03:02.120
+which may be used to play
+a variety of compositions,
+
+52
+00:03:02.400 --> 00:03:08.040
+and for the Portuguese poet Pedro Barbosa,
+a generative text and I quote.
+
+53
+00:03:08.120 --> 00:03:12.200
+Aims aims to develop through the machine
+a literary textual algorithm
+
+54
+00:03:12.240 --> 00:03:15.240
+until its capacity for
+meaning is exhausted
+
+55
+00:03:15.240 --> 00:03:18.240
+within a given field of possibilities.
+
+56
+00:03:18.520 --> 00:03:23.320
+Taken together, the proposals
+by bulb, boots, Prune and Barbosa
+
+57
+00:03:23.440 --> 00:03:28.000
+merged the notion of generative texts
+with the notion of textual generator
+
+58
+00:03:28.080 --> 00:03:31.560
+defining the text from its model
+and its mechanism.
+
+59
+00:03:32.160 --> 00:03:35.840
+If, however, we aim
+for a definition of generative literature
+
+60
+00:03:35.840 --> 00:03:40.240
+that goes beyond the mere mechanism,
+the idea of a literary algorithm
+
+61
+00:03:40.280 --> 00:03:45.560
+to which the hinted becomes crucial,
+such an idea is virtually implicit
+
+62
+00:03:45.560 --> 00:03:50.400
+in any generative literary text,
+but seems to have never been explicitly
+
+63
+00:03:50.400 --> 00:03:55.040
+put forward following the path
+indicated by the aforementioned authors.
+
+64
+00:03:55.040 --> 00:03:59.400
+But fine tuning it a little bit,
+we can define a generative literary text
+
+65
+00:03:59.400 --> 00:04:03.200
+as a text program to be generated
+through computational processes
+
+66
+00:04:03.200 --> 00:04:06.440
+that creatively explored
+the exhaustion of variations
+
+67
+00:04:06.440 --> 00:04:09.600
+around the self-reflexive
+model of literature.
+
+68
+00:04:10.920 --> 00:04:12.240
+The particularity of
+
+69
+00:04:12.240 --> 00:04:16.640
+generative textual lies in its dual
+machining dimension.
+
+70
+00:04:16.800 --> 00:04:20.880
+The text is a concrete,
+not metaphorical, machine, understood
+
+71
+00:04:20.880 --> 00:04:24.680
+as a complex, manipulable device
+for producing new texts.
+
+72
+00:04:24.960 --> 00:04:27.880
+A generator is the set of processes
+determined by
+
+73
+00:04:27.880 --> 00:04:30.880
+and contained in a program
+conceived by the author.
+
+74
+00:04:30.880 --> 00:04:34.680
+From these there arise
+to to distinct and interrelated
+
+75
+00:04:34.720 --> 00:04:39.280
+interrelated levels of writing,
+the authorial writing of the instructions
+
+76
+00:04:39.280 --> 00:04:42.440
+and the machine
+execution of the instructions.
+
+77
+00:04:42.800 --> 00:04:45.640
+The question of writing
+and authorship is one of the questions
+
+78
+00:04:45.640 --> 00:04:48.640
+that deserve more attention
+in generative poetics.
+
+79
+00:04:48.760 --> 00:04:52.480
+Indeed, no other literary form
+has interfered more dramatically
+
+80
+00:04:52.480 --> 00:04:54.200
+with authorship.
+
+81
+00:04:54.200 --> 00:04:56.640
+The first theoretical approaches to this
+problem
+
+82
+00:04:56.640 --> 00:05:00.240
+were proposed
+in the last quarter of the 20th century.
+
+83
+00:05:00.440 --> 00:05:03.520
+The Portuguese for the Portuguese
+pioneer were Bosa.
+
+84
+00:05:03.520 --> 00:05:07.320
+Authorship and I quote
+can only encompass the project, the model,
+
+85
+00:05:07.320 --> 00:05:12.320
+and the structure of the set of texts
+to be realized that meaning and formed
+
+86
+00:05:12.320 --> 00:05:15.400
+and form assumed
+by each of its multiple variations,
+
+87
+00:05:15.440 --> 00:05:18.320
+escape its author
+to a greater or lesser degree, and
+
+88
+00:05:19.520 --> 00:05:21.160
+quote.
+
+89
+00:05:21.160 --> 00:05:24.160
+And this was written in 1977.
+
+90
+00:05:24.960 --> 00:05:29.160
+Later, Jean-Pierre
+proposed the notion of meta author.
+
+91
+00:05:29.480 --> 00:05:33.360
+The author,
+he says, is one who accepts responsibility
+
+92
+00:05:33.400 --> 00:05:37.400
+for the text produced
+but does not feel fully involved in them.
+
+93
+00:05:37.520 --> 00:05:41.360
+Establishes the distance
+between writing and subjectivity.
+
+94
+00:05:41.560 --> 00:05:45.120
+What the what the writes is
+in fact a machine,
+
+95
+00:05:45.320 --> 00:05:48.320
+but wrote this in 1997.
+
+96
+00:05:48.960 --> 00:05:51.520
+In the decades
+following, the first experiments
+
+97
+00:05:51.520 --> 00:05:55.160
+with automatic text generation,
+several authors
+
+98
+00:05:55.160 --> 00:05:58.960
+published works
+focused on remix, pastiche, and parody.
+
+99
+00:05:59.080 --> 00:06:02.000
+Generative literature
+became increasingly dialogic,
+
+100
+00:06:02.000 --> 00:06:06.520
+and the conception of distributed
+authorship emerged more than a meta
+
+101
+00:06:06.560 --> 00:06:10.440
+authorship centered on the conception
+and control of the code.
+
+102
+00:06:10.480 --> 00:06:13.480
+Distributed authorship is shared
+among communities of authors
+
+103
+00:06:13.480 --> 00:06:17.160
+and readers who adapt and remix code
+circulating on the network.
+
+104
+00:06:17.400 --> 00:06:21.440
+The concept also refers more generally,
+the concept of generative
+
+105
+00:06:21.480 --> 00:06:25.840
+of distributed authorship
+also refers more generally more generally,
+
+106
+00:06:25.840 --> 00:06:29.640
+to the cognitive assemblages that
+articulate the human and the machining.
+
+107
+00:06:30.040 --> 00:06:33.840
+Examples of distributed authorship
+include Montfort's generators,
+
+108
+00:06:33.880 --> 00:06:38.440
+notably
+the already quoted, cited, referred sorry
+
+109
+00:06:40.160 --> 00:06:41.280
+Scott was adapted by
+
+110
+00:06:41.280 --> 00:06:45.000
+a number of new authors to generate
+vastly different types of texts.
+
+111
+00:06:45.120 --> 00:06:49.560
+Another example is John Cayley's work,
+namely crucial pieces
+
+112
+00:06:49.560 --> 00:06:51.400
+such as how it is and Common Tanks
+
+113
+00:06:51.400 --> 00:06:55.400
+or the Listeners works that expose
+and support the logic of globalized
+
+114
+00:06:55.440 --> 00:06:59.840
+techno capitalist capitalism,
+operating as a pharmacological critique.
+
+115
+00:06:59.880 --> 00:07:04.160
+To use Stigler, terms of the capture
+of human language and function,
+
+116
+00:07:04.160 --> 00:07:08.200
+and functioning as allegorical devices
+to refer to Alexander Galloway
+
+117
+00:07:08.240 --> 00:07:11.880
+that revealed digital culture
+as a culture of cybernetic control.
+
+118
+00:07:12.320 --> 00:07:16.280
+The works of this second wave underscore
+the collaborative nature of the network
+
+119
+00:07:16.280 --> 00:07:20.840
+as a literary space, bringing to the floor
+the notion of writing as a proliferation
+
+120
+00:07:20.840 --> 00:07:23.240
+of writings and allusions,
+and the notion of reading
+
+121
+00:07:23.240 --> 00:07:26.640
+as a proliferation of readings,
+while at the same time
+
+122
+00:07:26.680 --> 00:07:28.280
+enabling a deeper understanding
+
+123
+00:07:28.280 --> 00:07:32.400
+of technical mediation and end up
+the landscape of digital culture.
+
+124
+00:07:33.000 --> 00:07:36.760
+In more recent experiments,
+strategies of authorial inscription
+
+125
+00:07:36.760 --> 00:07:39.000
+and in distant reading,
+
+126
+00:07:39.000 --> 00:07:42.400
+sorry distance writing
+and the work of the human in the loop,
+
+127
+00:07:42.480 --> 00:07:45.680
+either before
+or after the moment of machine generation,
+
+128
+00:07:45.680 --> 00:07:48.440
+and reinforce the notion
+of writing as a series
+
+129
+00:07:48.440 --> 00:07:51.440
+of different layers of composition
+strategies.
+
+130
+00:07:51.520 --> 00:07:55.960
+Economical example is the work
+of Canadian poet Jarvi, particularly
+
+131
+00:07:55.960 --> 00:08:01.200
+his long term project Big Data Poetry,
+and one of its iterations rewrites.
+
+132
+00:08:01.320 --> 00:08:04.320
+In this hybrid writing experiments,
+the first layers
+
+133
+00:08:04.320 --> 00:08:07.600
+of composition correspond
+to the training of a neural network
+
+134
+00:08:07.600 --> 00:08:11.440
+and to the fine tuning of its parameters,
+all done by Java.
+
+135
+00:08:11.800 --> 00:08:14.520
+The second layer of work is the machine
+generation
+
+136
+00:08:14.520 --> 00:08:18.960
+itself, and I would have not exactly
+of texts and not exactly of language,
+
+137
+00:08:18.960 --> 00:08:21.960
+but that discussion would fit another
+talk.
+
+138
+00:08:22.160 --> 00:08:23.960
+Finally, the third layer of work
+
+139
+00:08:23.960 --> 00:08:27.800
+corresponds to the authorial
+editing of the generated output.
+
+140
+00:08:27.960 --> 00:08:30.760
+Only after this series of different
+writing moments
+
+141
+00:08:30.760 --> 00:08:35.200
+can we consider the bones of rewrites
+to be proper bones, instead of machine
+
+142
+00:08:35.520 --> 00:08:39.120
+labor or mimesis of a given database
+
+143
+00:08:40.520 --> 00:08:41.160
+when possible.
+
+144
+00:08:41.160 --> 00:08:41.920
+Conclusion.
+
+145
+00:08:41.920 --> 00:08:45.080
+To be drawn from this brief
+sketch of the evolution of the notion
+
+146
+00:08:45.080 --> 00:08:49.040
+of authorship in generative literature
+is that, contrary to the most
+
+147
+00:08:49.080 --> 00:08:52.440
+to the most obvious
+predictions, theater is very much alive.
+
+148
+00:08:52.680 --> 00:08:56.280
+In fact, the automation of writing
+reinforces the author's role
+
+149
+00:08:56.280 --> 00:09:00.040
+in the conceptualization
+of of what the literary work may be.
+
+150
+00:09:00.080 --> 00:09:04.040
+Hence, the centrality of the concept
+of a literary algorithm
+
+151
+00:09:04.040 --> 00:09:07.480
+and of self-reflexive
+notion of the literary
+
+152
+00:09:07.960 --> 00:09:10.680
+as writing tools
+become more and more opaque.
+
+153
+00:09:10.680 --> 00:09:14.000
+Literary cyber writing increasingly claims
+more autonomy,
+
+154
+00:09:14.040 --> 00:09:17.360
+finding ways to inscribe authorial voice
+and intent.
+
+155
+00:09:17.840 --> 00:09:20.800
+Generative literary texts are no longer
+small,
+
+156
+00:09:20.800 --> 00:09:24.600
+self-contained, autonomous machines
+controlled by a meta author.
+
+157
+00:09:24.880 --> 00:09:28.480
+With the rise of the web,
+they became embedded in larger systems,
+
+158
+00:09:28.480 --> 00:09:32.080
+where the circulation of texts
+and the networked dynamics
+
+159
+00:09:32.080 --> 00:09:35.720
+of writing and reading gave way
+to the distribution of authorship.
+
+160
+00:09:35.880 --> 00:09:39.640
+Now, in the age of AI,
+literary authors of generative textually
+
+161
+00:09:39.760 --> 00:09:44.000
+no longer explore
+just the programing of text generators,
+
+162
+00:09:44.000 --> 00:09:47.000
+but also the training,
+prompting, and editing.
+
+163
+00:09:47.320 --> 00:09:51.000
+Generative literature
+is increasingly permeated
+
+164
+00:09:51.000 --> 00:09:55.200
+by systems whose logistics conflict
+with the domain of the literary.
+
+165
+00:09:55.360 --> 00:09:59.160
+In fact, in such an environment saturated
+not only with technical
+
+166
+00:09:59.200 --> 00:10:03.080
+but also with political layers
+or surreal agency necessarily conflicts
+
+167
+00:10:03.080 --> 00:10:06.880
+with an increasing number
+of other agencies, some of them explicit.
+
+168
+00:10:06.920 --> 00:10:08.880
+Many others, given.
+
+169
+00:10:08.880 --> 00:10:11.320
+Authors of generative literature,
+does explore
+
+170
+00:10:11.320 --> 00:10:15.200
+not only the computation of language
+and its embedding in a networked
+
+171
+00:10:15.200 --> 00:10:19.480
+discursive field, but also an increasingly
+complex mesh of technical,
+
+172
+00:10:19.680 --> 00:10:23.520
+political, conflicting voices
+because of this friction.
+
+173
+00:10:23.560 --> 00:10:27.440
+Authors of generative literature
+and I mean literature, not me message
+
+174
+00:10:27.480 --> 00:10:31.760
+and not morphologies during
+those times are in the singular position
+
+175
+00:10:31.760 --> 00:10:36.200
+of demonstrating through practice
+what is and what is not Sable.
+
+176
+00:10:36.240 --> 00:10:41.040
+Carving out spaces of literary possibility
+within the cybernetic landscape.
+
+177
+00:10:41.080 --> 00:10:42.240
+Thank you very much.

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-29T23:17:37Z",
+  "generated": "2026-07-29T21:31:12Z",
   "source": "https://stars.library.ucf.edu/elo2026/combined_schedule/",
   "events": [
     {
@@ -321,7 +321,8 @@
       "end": "2026-07-16T15:30:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/3c/59/61/3c59618b5f1f5bffa8598b1ef7f6bac94f5836a0559bc4c83b4031a96334e59a.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1100&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1100&context=elo2026&type=additional",
+      "captions_file": "captions/1100.vtt"
     },
     {
       "title": "Hosting the Gap: Digital Typography as Linguistic Hospitality in Translation",
@@ -411,7 +412,8 @@
       "end": "2026-07-16T18:00:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/d4/e5/a5/d4e5a583a9744cda8b49014cf7d911226058e64ab5476a76800be8e603b4efa1.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1037&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1037&context=elo2026&type=additional",
+      "captions_file": "captions/1037.vtt"
     },
     {
       "title": "Post-Digital Creativity in Underacknowledged Communities",
@@ -436,7 +438,8 @@
       "end": "2026-07-16T19:15:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/27/07/54/270754d1f8947b6ca25720e60b713d3b77b1168e37d26d9aa6dfad03501cd042.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1155&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1155&context=elo2026&type=additional",
+      "captions_file": "captions/1155.vtt"
     },
     {
       "title": "CELL Project Roundtable 2026",
@@ -474,7 +477,8 @@
       "end": "2026-07-16T20:30:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/01/b6/d4/01b6d469f77fa39ed8c697fc71ef404795ef4e07ac381815946081edaa9470c0.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1066&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1066&context=elo2026&type=additional",
+      "captions_file": "captions/1066.vtt"
     },
     {
       "title": "Boîte en Valise / Writing Inside the Box : Local Virtual Space and Creative Exigencies",
@@ -590,7 +594,8 @@
       "end": "2026-07-16T21:45:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/fc/63/9d/fc639d8e023cc7f8209cc9f3f7410fa7d6afc4f7210acd5cfcc6de4ed55981d9.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1069&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1069&context=elo2026&type=additional",
+      "captions_file": "captions/1069.vtt"
     },
     {
       "title": "Authority Figures",
@@ -691,7 +696,8 @@
       "end": "2026-07-17T14:15:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/dc/14/50/dc1450a38cf50d6bd21497a2013bafd1b44e78abde5bddeebebc98e802c097a4.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1011&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1011&context=elo2026&type=additional",
+      "captions_file": "captions/1011.vtt"
     },
     {
       "title": "In Dark times, Should the Stars Also Go Out?: Disco Elysium & Melancholic Agency",
@@ -714,7 +720,8 @@
       "end": "2026-07-17T14:15:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/9e/c8/23/9ec82367973430fe39f36bd1708d18049a850688d7bdcf721b7976f8075c5bc0.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1044&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1044&context=elo2026&type=additional",
+      "captions_file": "captions/1044.vtt"
     },
     {
       "title": "Network of Time: Reading History Through Photographic Adjacency",
@@ -726,7 +733,8 @@
       "end": "2026-07-17T14:15:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/24/86/06/2486060df3dbae0901066930a5e90e8d8add85c9857ac3fb44b6dd9b568fbadb.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1025&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1025&context=elo2026&type=additional",
+      "captions_file": "captions/1025.vtt"
     },
     {
       "title": "Supervising the Creation of New Forms of Philosophy",
@@ -777,7 +785,8 @@
       "end": "2026-07-17T15:30:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/d6/fb/bd/d6fbbdf61827811f1048e412721718ec95c07fb2f12bd3ba3b154b67bcba4f35.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1153&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1153&context=elo2026&type=additional",
+      "captions_file": "captions/1153.vtt"
     },
     {
       "title": "Code poetry and labour: the game excess of work",
@@ -789,7 +798,8 @@
       "end": "2026-07-17T15:30:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/f6/fb/55/f6fb557381824efe0ae502d49e798c082766fc9d122ce86e50890cd46a49f13b.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1148&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1148&context=elo2026&type=additional",
+      "captions_file": "captions/1148.vtt"
     },
     {
       "title": "Conflicting agencies at the heart of literariness",
@@ -801,7 +811,8 @@
       "end": "2026-07-17T15:30:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/ae/85/f8/ae85f810f3010c05098f5320ada5ce8c9ccc60ac1e8ed8cdcda4d35718f99e95.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1173&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1173&context=elo2026&type=additional",
+      "captions_file": "captions/1173.vtt"
     },
     {
       "title": "Electronic Literature in AI data work",
@@ -813,7 +824,8 @@
       "end": "2026-07-17T15:30:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/f2/bd/a2/f2bda23653721fc2469cb0f4cdce5c839c10e00af5b478fb8d959759cd3e9499.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1023&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1023&context=elo2026&type=additional",
+      "captions_file": "captions/1023.vtt"
     },
     {
       "title": "Positioning Electronic literature as an Emerging Creative Industry in the Majority World: A Comparative Analysis with Video Games and Digital Arts",
@@ -825,7 +837,8 @@
       "end": "2026-07-17T15:30:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/e0/a6/81/e0a681e2cdbdd8985b8a4996ed45ef5d03473712ba27dd4b3b2d08259e6616f9.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1083&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1083&context=elo2026&type=additional",
+      "captions_file": "captions/1083.vtt"
     },
     {
       "title": "Posthuman Ethics and Networked Agency in AI-Human Cocreations",
@@ -837,7 +850,8 @@
       "end": "2026-07-17T15:30:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/65/5d/90/655d905a8dc3c5ecd17bd816a7a881ee0fff42db84ecded970d3ab7677ad62b1.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1142&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1142&context=elo2026&type=additional",
+      "captions_file": "captions/1142.vtt"
     },
     {
       "title": "The Headless Seven: A Live Hydraen Field Experiment",
@@ -849,7 +863,8 @@
       "end": "2026-07-17T15:30:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/87/18/ff/8718ffc6e6fc12ca2cf8256cc14d90ce0ea9473eb89bd24e56284b0cef68937f.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1172&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1172&context=elo2026&type=additional",
+      "captions_file": "captions/1172.vtt"
     },
     {
       "title": "“Huir sí es mejor plan”: Rethinking the Subject in Digital Literature",
@@ -861,7 +876,8 @@
       "end": "2026-07-17T15:30:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/84/4c/6d/844c6db5b7bd3dbead49bce07af0d1c7d64979e3356b4cc63b5184c8aee0482c.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1123&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1123&context=elo2026&type=additional",
+      "captions_file": "captions/1123.vtt"
     },
     {
       "title": "Plenary: Electronic Literature Collective 5",
@@ -873,7 +889,8 @@
       "end": "2026-07-17T18:00:00Z",
       "featured": true,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/48/6d/1d/486d1db70b75c34035020bfca00d24d8b8bfdce82194e2207066073ecc4bf7e9.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1177&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1177&context=elo2026&type=additional",
+      "captions_file": "captions/1177.vtt"
     },
     {
       "title": "A Human Was Here: Occult Poetics, Hypertext Ritual, and the (Un)Supervised Web",
@@ -898,7 +915,8 @@
       "end": "2026-07-17T19:15:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/53/32/af/5332af2663c799e6ff0ae2e1aac34355942e940083d27ce58acf15bf5a3d1274.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1112&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1112&context=elo2026&type=additional",
+      "captions_file": "captions/1112.vtt"
     },
     {
       "title": "Archival Storytelling: Remembering Our Digital History",
@@ -910,7 +928,8 @@
       "end": "2026-07-17T19:15:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/7f/ed/bc/7fedbc087839faa416c7c2e40addc54aced0cecd575241ae22cf4fbbcca0814e.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1057&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1057&context=elo2026&type=additional",
+      "captions_file": "captions/1057.vtt"
     },
     {
       "title": "Digitally Disfiguring the Canon",
@@ -922,7 +941,8 @@
       "end": "2026-07-17T19:15:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/7e/3f/0d/7e3f0dabed67796ed7d1c26e90b744796c52f0a7627cbeb097e76807cb190ddc.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1026&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1026&context=elo2026&type=additional",
+      "captions_file": "captions/1026.vtt"
     },
     {
       "title": "Performing Comedy in the Virtual Space; Helping Society Get Over Itself",
@@ -934,7 +954,8 @@
       "end": "2026-07-17T19:15:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/77/6c/1f/776c1f2ec42c04f94870576e82702af35663b6cc42318fc54e1e1e39fbda3823.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1093&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1093&context=elo2026&type=additional",
+      "captions_file": "captions/1093.vtt"
     },
     {
       "title": "“You can see Note 23 here.”: Conceptualizing Critical Editions of Interactive Fiction",
@@ -946,7 +967,8 @@
       "end": "2026-07-17T19:15:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/75/29/3d/75293d91b8d30c81fb18a4873157ba06fe2a2c353f5184ad70f2fbebb64ddd09.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1102&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1102&context=elo2026&type=additional",
+      "captions_file": "captions/1102.vtt"
     },
     {
       "title": "Inventing ELIZA: an exploration of the first chatbot",
@@ -958,7 +980,8 @@
       "end": "2026-07-17T20:30:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/f3/3e/eb/f33eeb8d2acf0efc8fd4c6d64eea0b856ed9f908f9f85cf791d904e0f35a28bd.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1117&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1117&context=elo2026&type=additional",
+      "captions_file": "captions/1117.vtt"
     },
     {
       "title": "Essay on the future of writing-reading: thought, meditation and synchronicities",
@@ -970,7 +993,8 @@
       "end": "2026-07-18T00:30:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/ae/d5/ca/aed5ca7f784ad7259f137ca7272f76d0ad469d2bbcab4ed39e4158e9480250fe.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1061&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1061&context=elo2026&type=additional",
+      "captions_file": "captions/1061.vtt"
     },
     {
       "title": "From Voice to Environment: Authorship in Spatial Collage",
@@ -982,7 +1006,8 @@
       "end": "2026-07-17T21:45:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/d3/b3/b0/d3b3b077a087a5d3a2909f60c108c9ac13a605c51425abd4977f14669419cd9f.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1160&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1160&context=elo2026&type=additional",
+      "captions_file": "captions/1160.vtt"
     },
     {
       "title": "Inscription",
@@ -994,7 +1019,8 @@
       "end": "2026-07-18T00:30:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/e0/86/3f/e0863f0d878ba28db4dee23286f991fe0a25f4d879b3fded820df219b64f15f7.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1072&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1072&context=elo2026&type=additional",
+      "captions_file": "captions/1072.vtt"
     },
     {
       "title": "Latent Laughing Medusa",
@@ -1006,7 +1032,8 @@
       "end": "2026-07-18T00:30:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/44/ce/fb/44cefbae5109edf2026ff1baee383ef593ba9ef968f46b8d39b8c14060fcbcba.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1145&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1145&context=elo2026&type=additional",
+      "captions_file": "captions/1145.vtt"
     },
     {
       "title": "Surveillance as Care: Introducing the PureGenius™ Learning Platform",
@@ -1028,7 +1055,8 @@
       "end": "2026-07-18T00:30:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/58/0e/2e/580e2e93e70eeb559ef47b6bbf7492ec14ac9d1584cd1877aa1c8d53fcc9e603.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1079&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1079&context=elo2026&type=additional",
+      "captions_file": "captions/1079.vtt"
     },
     {
       "title": "Coding a Poetics of Love and Politics: On the Remixing Potentials of Christopher Strachey and Lillian-Yvonne Bertram’s Poem Generators",
@@ -1040,7 +1068,8 @@
       "end": "2026-07-18T14:15:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/e7/b9/8e/e7b98e78fceeb973fa92b232c9d2a0fa2753ef945b754fe151df0d787d6dd42c.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1140&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1140&context=elo2026&type=additional",
+      "captions_file": "captions/1140.vtt"
     },
     {
       "title": "Coding the Wild: Digital Poetics, Artificial Intelligence, and More-Than-Human Futures in Mechanical Treehouse",
@@ -1052,7 +1081,8 @@
       "end": "2026-07-18T14:15:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/82/d8/57/82d857211ef26430ec4747db6414c4911b08c3d6878081e2988a45c4a385b33a.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1076&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1076&context=elo2026&type=additional",
+      "captions_file": "captions/1076.vtt"
     },
     {
       "title": "From AI to EI: Towards an ‘Environmental Intelligence’",
@@ -1064,7 +1094,8 @@
       "end": "2026-07-18T14:15:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/69/35/12/693512b913b1f4e6fe487c94647cd7dacb486136aa0f6e2a375309cba6fbded2.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1008&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1008&context=elo2026&type=additional",
+      "captions_file": "captions/1008.vtt"
     },
     {
       "title": "How Firm is Our Foundation? : Towards a Pedagogy of AI",
@@ -1086,7 +1117,8 @@
       "end": "2026-07-18T14:15:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/71/0e/4c/710e4ce234152c56c8ae4371b39903c4ba68effa33d261aacac8ca91eaef730d.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1122&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1122&context=elo2026&type=additional",
+      "captions_file": "captions/1122.vtt"
     },
     {
       "title": "Small Changes, Large Effects: A Chaos Theory Framework for Electronic Literature in Climate Education for Indian Primary Students",
@@ -1098,7 +1130,8 @@
       "end": "2026-07-18T14:15:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/7d/70/a7/7d70a772a61b943be44716e206c1163f0bdb474d086454e012012fc0c8c4235d.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1038&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1038&context=elo2026&type=additional",
+      "captions_file": "captions/1038.vtt"
     },
     {
       "title": "Teaching Writers to Think Queerly: Twine, Interactive Narrative, and the Unlearning of Linear Storytelling",
@@ -1110,7 +1143,8 @@
       "end": "2026-07-18T14:15:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/19/b6/59/19b6593923ac06b72906a7deb141adc4cbfaea5f9c59a8ae91118a0e8258de54.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1114&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1114&context=elo2026&type=additional",
+      "captions_file": "captions/1114.vtt"
     },
     {
       "title": "Twine and Inky: A Hypertext Multi-tool for the Creative Writing Classroom",
@@ -1122,7 +1156,8 @@
       "end": "2026-07-18T14:15:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/0f/5c/4f/0f5c4f3202a4ce02c6bae6d5b76e527e8777806f589791c9dc0da75b727d68a9.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1074&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1074&context=elo2026&type=additional",
+      "captions_file": "captions/1074.vtt"
     },
     {
       "title": "Vibe Coding: AI, Digital Text Recycling, and the Remediation of Digital Poetry",
@@ -1134,7 +1169,8 @@
       "end": "2026-07-18T14:15:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/28/9d/c6/289dc6feb3c601c1e21417fa7de9ef1cf6332dd8b0db1710d268356ed0e56865.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1010&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1010&context=elo2026&type=additional",
+      "captions_file": "captions/1010.vtt"
     },
     {
       "title": "Detour, Digress, Destroy (on random walks): Demoing a Platform for Text Manipulation",
@@ -1146,7 +1182,8 @@
       "end": "2026-07-18T15:30:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/5a/01/21/5a01219ec8aea553145741bff14fd76d83b3bba6158007bc621bab9ffd615df2.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1099&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1099&context=elo2026&type=additional",
+      "captions_file": "captions/1099.vtt"
     },
     {
       "title": "Digital Nollywood as Interactive Narrative: Gender, Power, and Audience Rewriting",
@@ -1158,7 +1195,8 @@
       "end": "2026-07-18T15:30:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/c2/60/50/c2605074417f60208a1943f514ee0a666db42404234813c77594275b9e8a2767.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1020&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1020&context=elo2026&type=additional",
+      "captions_file": "captions/1020.vtt"
     },
     {
       "title": "Exiled to Latent Space: Writing from Dimensions We Cannot Enter",
@@ -1170,7 +1208,8 @@
       "end": "2026-07-18T15:30:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/c9/62/8e/c9628eb59de1c369d9cfaf4e10eabac6de5850915e48178cea384dd310288941.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1059&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1059&context=elo2026&type=additional",
+      "captions_file": "captions/1059.vtt"
     },
     {
       "title": "Human Digital Interaction",
@@ -1182,7 +1221,8 @@
       "end": "2026-07-18T15:30:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/07/2d/71/072d71a50f7e470b244e49532f2fd0e005f4adf5b885af5bfb192516435a3544.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1103&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1103&context=elo2026&type=additional",
+      "captions_file": "captions/1103.vtt"
     },
     {
       "title": "New Beginnings",
@@ -1194,7 +1234,8 @@
       "end": "2026-07-18T15:30:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/61/72/80/6172802c6851189ed2264701822f9bfcb7fb487262e17706341978bf95f1eb0e.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1119&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1119&context=elo2026&type=additional",
+      "captions_file": "captions/1119.vtt"
     },
     {
       "title": "Reacting to Electronic Literature in Akwa Ibom State, Nigeria",
@@ -1206,7 +1247,8 @@
       "end": "2026-07-18T15:30:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/b4/08/38/b40838ce3dc7b375321ea6883c51714182ab05efa881541284f7c73f2cca4d5e.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1139&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1139&context=elo2026&type=additional",
+      "captions_file": "captions/1139.vtt"
     },
     {
       "title": "The Female Voice, The Male Gaze: AI Colonial Paradox and African Feminist Futures",
@@ -1229,7 +1271,8 @@
       "end": "2026-07-18T15:30:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/39/61/d4/3961d49426ed9e1a8cbb0e2fd7369fa0b3b27e9f57ec7ac8d6554ee3ad1d92c9.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1163&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1163&context=elo2026&type=additional",
+      "captions_file": "captions/1163.vtt"
     },
     {
       "title": "Unsupervised Pedagogy and Electronic Literature under Infrastructural Constraint: Experiences from Calabar",
@@ -1241,7 +1284,8 @@
       "end": "2026-07-18T15:30:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/50/e7/ff/50e7ff875d64a7c41ed223114457dea86a362b68b22f97b302c8d546aaf5ed39.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1053&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1053&context=elo2026&type=additional",
+      "captions_file": "captions/1053.vtt"
     },
     {
       "title": "Keynote: Leonardo Flores, \"Beyond Impossible Writing: Electronic Literature in the Age of AI\"",
@@ -1253,7 +1297,8 @@
       "end": "2026-07-18T18:00:00Z",
       "featured": true,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/2f/24/d1/2f24d19c6d30e81a2c3a7f91097c474b5ffb11c05519228564060a1947f42d6e.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1178&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1178&context=elo2026&type=additional",
+      "captions_file": "captions/1178.vtt"
     },
     {
       "title": "\"The First Web Novel at 30: The Collection and the Creative Process\"",
@@ -1265,7 +1310,8 @@
       "end": "2026-07-18T19:15:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/08/00/54/080054912b2f1bd740af18279065650840cffb940041362fde8ca18197f988f1.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1133&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1133&context=elo2026&type=additional",
+      "captions_file": "captions/1133.vtt"
     },
     {
       "title": "Algorithmic Narrators: Linguistic Boundaries and Institutionalized Cultural Storytelling Across Generative AI Systems",
@@ -1277,7 +1323,8 @@
       "end": "2026-07-18T19:15:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/9d/44/dd/9d44dd0296678906a2b6fba5079f9c3147004492db1f93c34e720ce015047c7f.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1137&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1137&context=elo2026&type=additional",
+      "captions_file": "captions/1137.vtt"
     },
     {
       "title": "Algorithmic Translation versus Human Imagination in Electronic Storytelling",
@@ -1289,7 +1336,8 @@
       "end": "2026-07-18T19:15:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/8b/d3/3b/8bd33b7c09c06706773ae076a82c7d45183c6cc142fece1d51e61a44f8fafc10.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1095&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1095&context=elo2026&type=additional",
+      "captions_file": "captions/1095.vtt"
     },
     {
       "title": "Once Upon an Algorithm: Ebook Authors’ AI Folk Theories and the Standardization of Creative Practice",
@@ -1301,7 +1349,8 @@
       "end": "2026-07-18T19:15:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/17/27/6c/17276c624c59890483afe24d550e55d307b5df73bc75472cb147c7417e261157.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1128&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1128&context=elo2026&type=additional",
+      "captions_file": "captions/1128.vtt"
     },
     {
       "title": "When AI Magic Meets Creative Writing: The AI Noberisuto Literary Prize and the Boundaries of Non-human (Co)authorship",
@@ -1313,7 +1362,8 @@
       "end": "2026-07-18T19:15:00Z",
       "featured": false,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/84/7b/dd/847bdd1eb55aa86605ff8a26fc70b413c4ec79526983fbb433eb5eb114b2d523.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1058&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1058&context=elo2026&type=additional",
+      "captions_file": "captions/1058.vtt"
     },
     {
       "title": "Plenary: ELO Town Hall",
@@ -1325,7 +1375,8 @@
       "end": "2026-07-18T20:30:00Z",
       "featured": true,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/97/01/c3/9701c379f766fdf8b152b1718e6c79ae8c55e224b3f5f1c024af051bd71f7fdf.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1179&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1179&context=elo2026&type=additional",
+      "captions_file": "captions/1179.vtt"
     },
     {
       "title": "2026 Electronic Literature Awards Ceremony and Closing Remarks",
@@ -1337,7 +1388,8 @@
       "end": "2026-07-18T21:45:00Z",
       "featured": true,
       "video": "https://s3.amazonaws.com/bepress-streaming-outbox-production/article_files/46/be/ae/46beae619dd1f1751bcd2d0ad6c682250dbf229e671c38cf56c4fc59918f9729.m3u8",
-      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1180&context=elo2026&type=additional"
+      "captions": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?filename=0&article=1180&context=elo2026&type=additional",
+      "captions_file": "captions/1180.vtt"
     }
   ]
 }

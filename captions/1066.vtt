@@ -1,0 +1,4801 @@
+WEBVTT
+
+1
+00:00:00.240 --> 00:00:02.640
+It is 330 on the dot.
+
+2
+00:00:02.640 --> 00:00:08.840
+So I would just want to welcome you all
+to the Algorithms and Imaginaries track.
+
+3
+00:00:08.880 --> 00:00:14.320
+We are back in business
+and I'm going to I'm
+
+4
+00:00:15.120 --> 00:00:18.400
+playtesting using InDesign
+as a PowerPoint method today,
+
+5
+00:00:18.560 --> 00:00:22.840
+and I want to welcome you to our panel,
+Ellett periodicals.
+
+6
+00:00:22.840 --> 00:00:25.000
+In the age of AI,
+
+7
+00:00:25.000 --> 00:00:26.600
+we have four panelists.
+
+8
+00:00:26.600 --> 00:00:29.480
+Kira will be joining us shortly.
+
+9
+00:00:29.480 --> 00:00:32.480
+It is myself, PD Edgar,
+
+10
+00:00:33.280 --> 00:00:36.080
+Covid Devere, Glenn, Richie,
+
+11
+00:00:36.080 --> 00:00:39.040
+Glenn S Richard, and Kira Abbott.
+
+12
+00:00:39.040 --> 00:00:41.400
+And so we're just super excited
+
+13
+00:00:41.400 --> 00:00:44.320
+to have you all joining us
+for this discussion today.
+
+14
+00:00:44.320 --> 00:00:47.840
+And I'll invite Glenn to kick us off.
+
+15
+00:00:50.080 --> 00:00:50.760
+All right.
+
+16
+00:00:50.760 --> 00:00:52.640
+Yes. Hello, everyone.
+
+17
+00:00:52.640 --> 00:00:57.720
+Thank you to all of our fine ELO folks,
+both those attending,
+
+18
+00:00:57.720 --> 00:01:01.720
+all of those attending,
+presenting and running the organization.
+
+19
+00:01:01.720 --> 00:01:03.080
+I never thought it could be so fun
+
+20
+00:01:03.080 --> 00:01:05.840
+to just do this online,
+which has been really neat.
+
+21
+00:01:05.840 --> 00:01:11.400
+I had such a blast in Toronto last year,
+but my name is Glenn Ritchie.
+
+22
+00:01:11.440 --> 00:01:16.680
+I am a text and technology PhD student
+at University of Central Florida,
+
+23
+00:01:16.960 --> 00:01:21.040
+focusing on electronic literature
+and visual cultures.
+
+24
+00:01:21.280 --> 00:01:26.040
+I don't like using slide decks very much,
+so I apologize.
+
+25
+00:01:26.040 --> 00:01:30.800
+This morning I just had people look
+through the exhibit when I presented that,
+
+26
+00:01:32.320 --> 00:01:35.440
+and relevant to this panel insofar
+as it concerns
+
+27
+00:01:35.840 --> 00:01:40.960
+and publishing my first Python generated
+book, Francoism, is soon to be released
+
+28
+00:01:40.960 --> 00:01:45.400
+by Inside the Castle,
+as well as a Python remixed novella
+
+29
+00:01:45.440 --> 00:01:49.600
+based on Inside the Castle
+proprietor John Trefis.
+
+30
+00:01:49.600 --> 00:01:50.800
+Massive.
+
+31
+00:01:50.800 --> 00:01:54.560
+I do feel like a bit of a fish
+out of water here, as my experiences
+
+32
+00:01:54.560 --> 00:01:59.200
+have much more to do with publishing
+through traditional literary presses.
+
+33
+00:01:59.200 --> 00:02:02.200
+But I am grateful to P.D.
+
+34
+00:02:02.200 --> 00:02:07.360
+and company all the same, as this is
+a useful engagement and learning more
+
+35
+00:02:07.360 --> 00:02:11.840
+about the electronic literature field,
+specifically through periodicals.
+
+36
+00:02:12.320 --> 00:02:15.880
+This panel asks
+what electronic literature's periodicals
+
+37
+00:02:16.160 --> 00:02:19.400
+are bringing to the table in a moment
+saturated by AI,
+
+38
+00:02:19.680 --> 00:02:22.520
+rather than what
+we might take away from them.
+
+39
+00:02:22.520 --> 00:02:24.400
+I want to present on that.
+
+40
+00:02:24.400 --> 00:02:28.440
+I want to press on that framing
+rather than answer it directly.
+
+41
+00:02:28.480 --> 00:02:30.800
+What gets brought to the table and copy
+and paste
+
+42
+00:02:30.800 --> 00:02:35.560
+in computational literature specifically
+is rarely the finished artifact alone,
+
+43
+00:02:35.560 --> 00:02:38.640
+but the labor of making a rule governed
+
+44
+00:02:38.640 --> 00:02:42.040
+process
+legible to someone who did not write it.
+
+45
+00:02:42.040 --> 00:02:43.800
+That's been my experience learning
+
+46
+00:02:43.800 --> 00:02:46.840
+more about how to craft
+computational literature,
+
+47
+00:02:47.680 --> 00:02:52.240
+that labor can be expressed
+through process documentation,
+
+48
+00:02:52.240 --> 00:02:53.280
+and I want to attempt
+
+49
+00:02:53.280 --> 00:02:57.280
+speaking across some of the questions
+this panel has posed to me.
+
+50
+00:02:57.960 --> 00:03:01.120
+And, you know, say that documentation is
+
+51
+00:03:01.120 --> 00:03:04.120
+what persists when the product does not.
+
+52
+00:03:04.320 --> 00:03:09.120
+When a press goes quiet
+between residences, when a models outputs
+
+53
+00:03:09.120 --> 00:03:14.440
+flat and into statistical sameness,
+and when a zines next issue never arrives.
+
+54
+00:03:14.480 --> 00:03:15.360
+My understanding
+
+55
+00:03:15.360 --> 00:03:19.800
+is that computational literatures,
+periodicals, presses, and platforms
+
+56
+00:03:19.880 --> 00:03:24.240
+are not only publishing texts,
+but that they further represent methods
+
+57
+00:03:24.240 --> 00:03:28.200
+for making texts, regardless
+of whether they say so.
+
+58
+00:03:28.480 --> 00:03:33.160
+And in some cases,
+when we're choosing to revive texts,
+
+59
+00:03:34.720 --> 00:03:36.560
+the tradition I draw from in
+
+60
+00:03:36.560 --> 00:03:40.560
+my work is older than the moment
+this panel is responding to.
+
+61
+00:03:41.280 --> 00:03:45.000
+I use Markov chains, cut up
+composition and
+
+62
+00:03:46.000 --> 00:03:47.200
+constraint.
+
+63
+00:03:47.200 --> 00:03:52.800
+These are not post ChatGPT inventions
+and they run through the works
+
+64
+00:03:52.800 --> 00:03:56.120
+largely influenced by
+
+65
+00:03:56.120 --> 00:03:59.640
+and of Marguerite Duras, Allen
+Road, Greer, Samuel Beckett
+
+66
+00:04:00.400 --> 00:04:03.400
+and Situationist de tournament.
+
+67
+00:04:03.600 --> 00:04:07.120
+Decades before anyone called
+a generative system ai.
+
+68
+00:04:07.960 --> 00:04:10.320
+In fact, Francoism.
+
+69
+00:04:10.320 --> 00:04:13.880
+My book is largely scripted
+in that tradition,
+
+70
+00:04:13.880 --> 00:04:18.800
+from 183 examples of films
+
+71
+00:04:18.800 --> 00:04:24.320
+through subtitles and screenshots
+or stills from Spanish cult cinema.
+
+72
+00:04:24.320 --> 00:04:27.360
+Director Jess Franco,
+who tends to sit between
+
+73
+00:04:27.360 --> 00:04:30.360
+these lineages and maintains
+
+74
+00:04:31.080 --> 00:04:35.320
+a sort of human based algorithm practice.
+
+75
+00:04:35.800 --> 00:04:38.840
+And so does Recap massive,
+
+76
+00:04:39.200 --> 00:04:44.160
+a Python
+remixed novella built from John Massive,
+
+77
+00:04:44.160 --> 00:04:48.720
+which is a text that I've described,
+sometimes reads as though no human
+
+78
+00:04:48.720 --> 00:04:53.480
+could have wrote it, and sometimes reads
+as though a very particular human did.
+
+79
+00:04:53.800 --> 00:04:56.680
+The work is meant to unsettle
+the question of authorship,
+
+80
+00:04:56.680 --> 00:04:59.680
+rather than resolve it in either
+direction.
+
+81
+00:04:59.840 --> 00:05:04.080
+Neither project was produced by AI
+in any sense.
+
+82
+00:05:04.080 --> 00:05:04.720
+This panels
+
+83
+00:05:04.720 --> 00:05:09.840
+other work might have concern over,
+but both were produced by procedures.
+
+84
+00:05:09.840 --> 00:05:13.920
+Ecco built
+with Claude and ran offline on texts
+
+85
+00:05:13.920 --> 00:05:17.440
+I chose toward literary effects
+I was after.
+
+86
+00:05:17.760 --> 00:05:22.000
+The publishing context is also differently
+shaped than most of what's on the panel.
+
+87
+00:05:22.000 --> 00:05:25.800
+Inside
+the castle is publishing both books,
+
+88
+00:05:25.800 --> 00:05:31.800
+and it's not a periodical or zine,
+but they are working as a small
+
+89
+00:05:31.800 --> 00:05:37.760
+experimental literary press who work
+through an annual intensive residency
+
+90
+00:05:37.760 --> 00:05:43.160
+as incidentally positioned adjacent
+to computationally generated literature.
+
+91
+00:05:43.160 --> 00:05:48.320
+And this is amid a regular publishing
+schedule with a rolling cadence of issues.
+
+92
+00:05:49.280 --> 00:05:52.080
+This structural difference is why
+
+93
+00:05:52.080 --> 00:05:55.760
+documentation documentation
+has mattered to my practice at all.
+
+94
+00:05:55.920 --> 00:05:59.760
+Inside, the castle does not maintain
+coding knowledge in-house.
+
+95
+00:05:59.800 --> 00:06:05.360
+The press can publish work
+like mine only, or to me,
+
+96
+00:06:05.480 --> 00:06:11.280
+because I can help translate the process
+to its editor and provide documentation.
+
+97
+00:06:11.600 --> 00:06:15.040
+A novelist and publisher
+without a programing background
+
+98
+00:06:15.040 --> 00:06:20.080
+can then evaluate, argue
+with, and stand behind that work.
+
+99
+00:06:20.880 --> 00:06:24.800
+Documentation,
+then, is not a transparency gesture added
+
+100
+00:06:24.800 --> 00:06:28.960
+after the fact, but a condition under
+which the collaboration exists.
+
+101
+00:06:29.120 --> 00:06:33.640
+Without it, there might not be a novel,
+or there would be a novel in my private
+
+102
+00:06:33.680 --> 00:06:36.640
+knowledge
+of how it was made without disclosure,
+
+103
+00:06:36.640 --> 00:06:40.720
+or any way for the second
+to inform the first.
+
+104
+00:06:40.720 --> 00:06:44.720
+So while I come to this panel
+as something of an outsider
+
+105
+00:06:44.720 --> 00:06:48.480
+to periodical publishing,
+as particular pressures of submission,
+
+106
+00:06:48.480 --> 00:06:52.000
+economies,
+issue cadence and editorial collectives,
+
+107
+00:06:52.000 --> 00:06:55.040
+I do want to suggest
+that the underlying questions,
+
+108
+00:06:55.720 --> 00:06:59.000
+the underlying question is shared
+across our different formats.
+
+109
+00:06:59.000 --> 00:07:00.440
+How does a non-specialist
+
+110
+00:07:00.440 --> 00:07:04.480
+editor or reader gain enough
+purchase on a rule governance system
+
+111
+00:07:04.480 --> 00:07:08.280
+to make a real esthetic judgment
+about what it produces?
+
+112
+00:07:08.320 --> 00:07:14.200
+The question, I think, predates large
+language models and will likely outlast
+
+113
+00:07:14.200 --> 00:07:18.560
+the current hype cycle around them,
+no matter which way you look at it.
+
+114
+00:07:18.560 --> 00:07:22.640
+And I want to be precise
+about what process documentation
+
+115
+00:07:22.640 --> 00:07:23.880
+does not represent to me.
+
+116
+00:07:23.880 --> 00:07:28.200
+In this case, it is not primarily
+a defensive AI assisted writing
+
+117
+00:07:28.200 --> 00:07:32.640
+against a moral panic register that treats
+the mere presence of an algorithm,
+
+118
+00:07:33.360 --> 00:07:36.000
+as many people just conflate algorithms
+
+119
+00:07:36.000 --> 00:07:39.760
+with llms or gen AI as contamination,
+
+120
+00:07:39.960 --> 00:07:42.920
+regardless of what it actually does or
+
+121
+00:07:42.920 --> 00:07:45.960
+how legibly it accomplishes that task.
+
+122
+00:07:46.000 --> 00:07:48.960
+I don't think documentation resolves
+that anxiety,
+
+123
+00:07:48.960 --> 00:07:50.680
+and I don't think it should try to.
+
+124
+00:07:50.680 --> 00:07:56.040
+What it does instead is refuse to refuse
+the terms of the panic altogether
+
+125
+00:07:56.040 --> 00:08:01.000
+by insisting that process is available
+for inspection, and thus becomes.
+
+126
+00:08:05.280 --> 00:08:07.200
+What goes a count of
+
+127
+00:08:07.200 --> 00:08:10.520
+theater in decolonizing
+the mind gives me better language for
+
+128
+00:08:10.520 --> 00:08:14.760
+this, based on where I'm at than anything
+in my understanding of computational
+
+129
+00:08:14.760 --> 00:08:18.960
+literature, is critical vocabulary
+describing theater actors
+
+130
+00:08:18.960 --> 00:08:23.120
+who were from the community
+and who moved from barely being able
+
+131
+00:08:23.120 --> 00:08:27.680
+to say their lines to perform
+with apparent effortlessness.
+
+132
+00:08:27.800 --> 00:08:31.040
+Googie writes that the audience could see
+how the actors evolved,
+
+133
+00:08:31.040 --> 00:08:36.280
+and that perfection was thus shown to be
+a process, a historical social process.
+
+134
+00:08:36.280 --> 00:08:40.640
+But it was admired no less, admired
+more, in fact, because the audience
+
+135
+00:08:40.640 --> 00:08:45.480
+recognized it as a product of themselves
+in their collective contribution.
+
+136
+00:08:46.120 --> 00:08:50.320
+What Cambria Demystified
+was not theater as such,
+
+137
+00:08:50.320 --> 00:08:53.880
+but the illusion that fluency arrives
+from nowhere,
+
+138
+00:08:53.880 --> 00:08:57.520
+that mastery is a natural property
+of the performer
+
+139
+00:08:57.520 --> 00:09:01.440
+rather than a visible, shared,
+laborious process.
+
+140
+00:09:01.760 --> 00:09:06.200
+This is also where documentations, debt
+to open source culture and critical
+
+141
+00:09:06.240 --> 00:09:09.760
+making becomes explicit
+rather than incidental.
+
+142
+00:09:10.120 --> 00:09:14.360
+Open source software does not
+solely ask users to trust the code works,
+
+143
+00:09:14.360 --> 00:09:19.040
+but it makes the code available
+to be read, forked, and corrected.
+
+144
+00:09:19.160 --> 00:09:24.040
+Critical making as a research tradition
+treats fabrication and coding themselves
+
+145
+00:09:24.040 --> 00:09:28.360
+as forms of inquiry, where the object is
+not just evidence of an argument,
+
+146
+00:09:28.360 --> 00:09:33.320
+but the arguments site of production
+available for others to interrogate.
+
+147
+00:09:33.480 --> 00:09:36.440
+My commitment to process documentation
+draws on
+
+148
+00:09:36.440 --> 00:09:39.520
+both traditions
+more than it draws on anything
+
+149
+00:09:39.640 --> 00:09:45.080
+in AI discourse that I've noticed,
+at least in the From the Popular Front.
+
+150
+00:09:47.240 --> 00:09:49.480
+So with that said, the camera
+
+151
+00:09:49.480 --> 00:09:54.360
+through actors in open source repository
+and a critical making lab
+
+152
+00:09:54.400 --> 00:10:00.320
+share a premise that most AI panic
+and most AI evangelism both skip past.
+
+153
+00:10:00.360 --> 00:10:03.360
+The process becomes untrustworthy,
+
+154
+00:10:03.560 --> 00:10:05.640
+sorry, it becomes trustworthy
+
+155
+00:10:05.640 --> 00:10:09.240
+through visibility
+and collective correction now,
+
+156
+00:10:09.520 --> 00:10:12.560
+not through the moral status of the tool
+that produced it.
+
+157
+00:10:13.040 --> 00:10:17.680
+I'd like to generalize
+this claim beyond my two projects.
+
+158
+00:10:18.200 --> 00:10:21.160
+Structured transparent process
+documentation
+
+159
+00:10:21.160 --> 00:10:24.560
+is useful to publishers
+for reasons already discussed.
+
+160
+00:10:24.600 --> 00:10:28.320
+It gives an editor without a programing
+background, something to evaluate
+
+161
+00:10:28.320 --> 00:10:32.640
+and to stand behind in the form
+of an extended statement.
+
+162
+00:10:32.680 --> 00:10:35.680
+As far as artistic statements are
+
+163
+00:10:36.520 --> 00:10:40.520
+as hard as they are to enforce,
+but as equally useful to the author
+
+164
+00:10:40.520 --> 00:10:44.440
+using generative AI as a coding aid,
+because it forces a reckoning
+
+165
+00:10:44.440 --> 00:10:48.680
+with what was actually understood versus
+what was merely produced.
+
+166
+00:10:48.720 --> 00:10:52.440
+I come to coding
+from a creative background,
+
+167
+00:10:52.440 --> 00:10:56.800
+where ideas arrive faster
+than my technical fluency can follow,
+
+168
+00:10:56.800 --> 00:11:01.160
+so I've successfully used tools
+like Claude to help implement architecture
+
+169
+00:11:01.160 --> 00:11:04.600
+I can conceive of,
+but not yet write unaided.
+
+170
+00:11:04.880 --> 00:11:07.880
+The risk in that practice is obvious.
+
+171
+00:11:07.920 --> 00:11:10.920
+It is possible to ship code
+that you cannot explain,
+
+172
+00:11:10.920 --> 00:11:14.560
+and a lot of people do it, as evidenced
+by vibe coders.
+
+173
+00:11:15.160 --> 00:11:18.400
+So documentation
+then becomes, in my discipline,
+
+174
+00:11:18.400 --> 00:11:23.320
+a way of closing that gap, not
+after the fact, but as a report on work or
+
+175
+00:11:24.400 --> 00:11:27.680
+not after the fact, as a report on work
+already finished,
+
+176
+00:11:27.680 --> 00:11:31.000
+but as a condition of finishing the work
+honestly at all.
+
+177
+00:11:31.000 --> 00:11:35.080
+And to me, a lot of this was illuminated
+
+178
+00:11:35.760 --> 00:11:40.440
+and at least close enough to what Salter
+and Murray describe in their concept
+
+179
+00:11:40.440 --> 00:11:45.840
+of distant coding, which concerns central
+pedagogical tensions of programing.
+
+180
+00:11:46.560 --> 00:11:48.920
+How to make use of increasingly
+
+181
+00:11:48.920 --> 00:11:52.280
+capable tools
+without letting that capability substitute
+
+182
+00:11:52.320 --> 00:11:57.880
+for the necessary knowledge and discovery
+that coding literacy actually requires.
+
+183
+00:11:57.960 --> 00:12:01.960
+Documentation is then, how
+I try to keep that tension resolved toward
+
+184
+00:12:01.960 --> 00:12:07.120
+building a literacy, rather
+than thoughtlessly putting forth output.
+
+185
+00:12:07.240 --> 00:12:10.840
+And I will wrap up by saying,
+
+186
+00:12:11.240 --> 00:12:15.200
+what documentation offers here,
+then, is not a solution to precarity,
+
+187
+00:12:15.200 --> 00:12:18.560
+but a different object
+to evaluate persistence by.
+
+188
+00:12:18.600 --> 00:12:21.680
+If a projects process is documented, chat
+logs,
+
+189
+00:12:21.680 --> 00:12:24.920
+development notes,
+the reasoning behind a curatorial choice.
+
+190
+00:12:24.920 --> 00:12:30.520
+Then even a Prescott, silent for two years
+has left something legible behind.
+
+191
+00:12:30.640 --> 00:12:31.880
+Not just books, but
+
+192
+00:12:31.880 --> 00:12:36.000
+a record of how the books were made
+available to be picked up by someone else,
+
+193
+00:12:36.040 --> 00:12:40.600
+taught in a classroom,
+or returned to by the original maker
+
+194
+00:12:40.640 --> 00:12:44.560
+with without having to reconstruct
+their own methodology from memory.
+
+195
+00:12:44.720 --> 00:12:47.560
+Documentation is a way of being alive
+
+196
+00:12:47.560 --> 00:12:50.680
+in memory rather than alive in real time.
+
+197
+00:12:50.840 --> 00:12:54.600
+It does not resolve, really,
+any of the anxieties
+
+198
+00:12:54.600 --> 00:12:58.600
+that we're trying to tackle here,
+but it gives that anxiety
+
+199
+00:12:58.640 --> 00:13:01.720
+somewhere to rest
+besides the publication calendar.
+
+200
+00:13:01.720 --> 00:13:06.080
+And here's where I'll make a connection
+between my past and DIY
+
+201
+00:13:06.120 --> 00:13:10.840
+creative communities, mostly in punk music
+and even some of what
+
+202
+00:13:10.880 --> 00:13:14.840
+Dena Larsen covered yesterday
+in the workshop on Wikipedia.
+
+203
+00:13:14.880 --> 00:13:19.880
+Relative to ello, we must feed the beast
+from a DIY creative background.
+
+204
+00:13:19.920 --> 00:13:23.920
+The speaks more to my greatest aspiration
+I've had for any of my work,
+
+205
+00:13:23.920 --> 00:13:27.720
+which incidentally translates
+well into academia that I must trust
+
+206
+00:13:27.720 --> 00:13:30.840
+the regard
+that regardless of technical capabilities
+
+207
+00:13:30.840 --> 00:13:34.520
+or immediate recognition,
+regardless of perceived value,
+
+208
+00:13:34.560 --> 00:13:38.600
+the arc of my work will
+perhaps be discovered by someone someday.
+
+209
+00:13:38.640 --> 00:13:42.160
+Rather than discouraging creatives
+working from a diverse array
+
+210
+00:13:42.160 --> 00:13:47.840
+of backgrounds in a fashion
+that is functioning amongst moral panics,
+
+211
+00:13:47.840 --> 00:13:52.200
+why not encourage dialog in the form
+of putting the process on display?
+
+212
+00:13:52.280 --> 00:13:54.480
+Thank you for your attention, folks.
+
+213
+00:13:57.280 --> 00:13:58.400
+Thank you so much, Glenn.
+
+214
+00:13:58.400 --> 00:13:59.840
+That was awesome.
+
+215
+00:13:59.840 --> 00:14:03.320
+I can't
+I can't wait to approach Francoism.
+
+216
+00:14:03.360 --> 00:14:06.080
+It's going to be so good.
+
+217
+00:14:06.080 --> 00:14:09.000
+And if anyone has more links
+
+218
+00:14:09.000 --> 00:14:12.000
+to share in the chat, please.
+
+219
+00:14:12.200 --> 00:14:15.200
+Up next copy.
+
+220
+00:14:26.040 --> 00:14:29.040
+Sorry.
+
+221
+00:14:31.240 --> 00:14:34.240
+My slides and myself coming through.
+
+222
+00:14:35.120 --> 00:14:38.120
+Yes. Okay, perfect.
+
+223
+00:14:38.360 --> 00:14:39.360
+I'm joining you from you
+
+224
+00:14:39.360 --> 00:14:43.680
+Waterloo on the Heldman, trapped
+between Lake Ontario and Lake Erie.
+
+225
+00:14:43.800 --> 00:14:46.520
+So we're discussing before the panel.
+
+226
+00:14:46.520 --> 00:14:49.280
+The air is joked with smoke right now.
+
+227
+00:14:49.280 --> 00:14:52.680
+And as a fun color,
+I was you in the Northeast and Great Lakes
+
+228
+00:14:52.680 --> 00:14:55.680
+may also be experiencing this,
+but sorry if I start coughing.
+
+229
+00:14:55.680 --> 00:14:58.560
+And maybe this is also a tonal
+and metaphorical backdrop,
+
+230
+00:14:58.560 --> 00:15:02.040
+but what I want to talk about
+is a little brighter than that.
+
+231
+00:15:02.520 --> 00:15:07.240
+The search in my editorial practice
+in the last couple of years
+
+232
+00:15:07.280 --> 00:15:11.480
+as a member of the editorial collective
+with Paper Magazine and reflections around
+
+233
+00:15:11.480 --> 00:15:17.760
+that on tiny, open and collaborative
+writing and publishing practices,
+
+234
+00:15:18.760 --> 00:15:22.240
+so many of you may already be.
+
+235
+00:15:24.480 --> 00:15:27.000
+Familiar with the publication,
+
+236
+00:15:27.000 --> 00:15:30.160
+but taper is a few different things.
+
+237
+00:15:30.200 --> 00:15:33.200
+It's a computational writing journal.
+
+238
+00:15:34.960 --> 00:15:39.240
+It's a archive of self-contained HTML,
+
+239
+00:15:39.280 --> 00:15:43.080
+CSS, and JSS and JavaScript works.
+
+240
+00:15:43.400 --> 00:15:46.120
+All pages that are under two kilobytes.
+
+241
+00:15:46.120 --> 00:15:49.840
+After some experiments in the first
+few issues that are self-contained,
+
+242
+00:15:50.440 --> 00:15:55.680
+it's a cultural and archival space
+
+243
+00:15:56.240 --> 00:15:59.240
+published from 2018 to 2026.
+
+244
+00:15:59.960 --> 00:16:03.960
+From the conception of Nick Montfort's
+and his trout tack,
+
+245
+00:16:04.000 --> 00:16:07.000
+and then with by Quarto Press.
+
+246
+00:16:07.320 --> 00:16:10.320
+Again, I've only been involved
+for the last couple of years
+
+247
+00:16:10.680 --> 00:16:13.480
+as a note to its transitioning
+to self publication.
+
+248
+00:16:13.480 --> 00:16:16.680
+That can certainly have enough
+on their plate, but the publication
+
+249
+00:16:16.680 --> 00:16:19.680
+will continue.
+
+250
+00:16:19.720 --> 00:16:23.400
+One thing that publishing transition does
+also produce, as well as everything else
+
+251
+00:16:23.400 --> 00:16:28.040
+about this moment, is reflection
+on what we're carrying forward. Why?
+
+252
+00:16:28.040 --> 00:16:33.360
+What the different values
+of this very eccentric but curiously
+
+253
+00:16:33.360 --> 00:16:36.360
+read publication are.
+
+254
+00:16:37.120 --> 00:16:39.680
+And I think the rotating
+and sort of horizontal
+
+255
+00:16:39.680 --> 00:16:43.640
+editorial process
+reinforces that pluralism.
+
+256
+00:16:46.000 --> 00:16:48.800
+If you're not familiar, while I'm talking,
+
+257
+00:16:48.800 --> 00:16:53.080
+you can sort of look at the website
+and explore a few works.
+
+258
+00:16:53.600 --> 00:16:56.360
+Our latest issue features 21 pieces
+
+259
+00:16:56.360 --> 00:16:59.360
+by 20 different artists
+
+260
+00:16:59.640 --> 00:17:02.600
+from a 5% editorial collective.
+
+261
+00:17:02.600 --> 00:17:06.160
+Each issue has a theme, introduces
+
+262
+00:17:06.160 --> 00:17:10.880
+the call for the next work,
+and has some surrounding matter.
+
+263
+00:17:11.040 --> 00:17:15.040
+Traditionally written by the publisher,
+that playfully introduce and explore
+
+264
+00:17:15.040 --> 00:17:17.240
+the linkages between the pieces
+
+265
+00:17:17.240 --> 00:17:20.280
+and and contribute
+to the sort of community building.
+
+266
+00:17:21.400 --> 00:17:22.680
+Why so many things?
+
+267
+00:17:22.680 --> 00:17:23.720
+Like so many things?
+
+268
+00:17:23.720 --> 00:17:27.880
+Now, unfortunately, I do have to think
+about the practices of taper
+
+269
+00:17:27.920 --> 00:17:31.680
+as a negative space,
+as lens a different path
+
+270
+00:17:31.680 --> 00:17:35.800
+in the question
+of computational creativity
+
+271
+00:17:36.560 --> 00:17:41.520
+and the technologies of language
+that our field has been exploring,
+
+272
+00:17:41.520 --> 00:17:45.880
+and that are more sort of personal
+dispositional level,
+
+273
+00:17:45.880 --> 00:17:50.200
+it would be so much more convenient to
+to take a sort of centrist
+
+274
+00:17:50.200 --> 00:17:54.560
+or third position to where it's LMS,
+but I but I really hate them, so.
+
+275
+00:17:54.560 --> 00:17:57.200
+So why can't I make my piece?
+
+276
+00:17:57.200 --> 00:18:00.040
+Why am I searching in taper,
+in art practice,
+
+277
+00:18:00.040 --> 00:18:03.640
+in other spaces
+for resistant and alternative things?
+
+278
+00:18:03.680 --> 00:18:05.520
+I think much of it is just
+
+279
+00:18:06.920 --> 00:18:07.280
+thinking
+
+280
+00:18:07.280 --> 00:18:10.280
+about the overall moment
+and the infrastructures around it.
+
+281
+00:18:10.280 --> 00:18:13.800
+So as I sort of ritualized gesture,
+I'll rehearse these quickly
+
+282
+00:18:14.280 --> 00:18:16.680
+because it may be useful to write.
+
+283
+00:18:16.680 --> 00:18:19.200
+We can think about what the products are
+
+284
+00:18:19.200 --> 00:18:21.440
+and our screens
+and explore them in interesting ways.
+
+285
+00:18:21.440 --> 00:18:24.440
+But the physical infrastructure,
+right, is now mostly
+
+286
+00:18:24.480 --> 00:18:25.800
+well through many data centers.
+
+287
+00:18:25.800 --> 00:18:29.440
+But all the providers work with each other
+and optics contracting to
+
+288
+00:18:29.480 --> 00:18:33.440
+with the Memphis Data Center,
+where in classic VC fashion,
+
+289
+00:18:33.480 --> 00:18:37.640
+they broke the laws to install the limited
+laws and regulations there are in
+
+290
+00:18:39.240 --> 00:18:43.360
+these industrial zones of exception
+to build even more fracked gas turbines,
+
+291
+00:18:43.360 --> 00:18:47.960
+to cause even more environmental racism
+in the surrounding communities
+
+292
+00:18:47.960 --> 00:18:51.040
+to, you know, burn fracked gas,
+to answer all your all
+
+293
+00:18:51.040 --> 00:18:54.800
+our queries and make make the world's
+first trillionaire richer.
+
+294
+00:18:55.640 --> 00:18:57.240
+And it's a centralizing project.
+
+295
+00:18:57.240 --> 00:18:59.240
+We make our little art around it.
+
+296
+00:18:59.240 --> 00:19:01.840
+But I think the function you see,
+and the cause of
+
+297
+00:19:01.840 --> 00:19:05.400
+so many of the public intuitions of people
+who haven't followed new media art
+
+298
+00:19:05.440 --> 00:19:09.240
+may not even have heard about that
+kind of practice is seeing in their fields
+
+299
+00:19:09.280 --> 00:19:14.120
+AI propaganda, either absurdities
+or the very profitable,
+
+300
+00:19:14.600 --> 00:19:19.800
+extensive networks that lead to real world
+race riots like those in Belfast
+
+301
+00:19:19.840 --> 00:19:24.400
+last month, where investigations show
+that actually a big part of it,
+
+302
+00:19:24.680 --> 00:19:30.280
+alongside like ideological propaganda
+networks, is for profit, scare mongering,
+
+303
+00:19:30.320 --> 00:19:34.760
+AI images of sort of threats of migration
+
+304
+00:19:34.800 --> 00:19:38.000
+made by Sri Lankans in some cases
+
+305
+00:19:38.240 --> 00:19:41.320
+that that get ad money, while
+
+306
+00:19:41.320 --> 00:19:45.600
+also leading to the burnings of homes
+of migrants.
+
+307
+00:19:45.600 --> 00:19:49.600
+And all of these things operate under
+American law, where officially models
+
+308
+00:19:49.600 --> 00:19:53.360
+are not supposed to acknowledge
+transgenderism, critical race theory.
+
+309
+00:19:53.360 --> 00:19:54.720
+In these other matters,
+
+310
+00:19:55.920 --> 00:19:57.560
+architecturally and technically,
+
+311
+00:19:57.560 --> 00:19:59.760
+theoretically,
+it may be hard to make Transformers
+
+312
+00:19:59.760 --> 00:20:03.680
+follow that law, but that is the system
+you're collaborating
+
+313
+00:20:03.680 --> 00:20:06.680
+with institutionally
+and at the level of governance.
+
+314
+00:20:07.760 --> 00:20:10.760
+And we talk about Claude like this
+friendly character.
+
+315
+00:20:10.880 --> 00:20:15.320
+But in a recent interview,
+Dario al-Mahdi, CEO of anthropic, talks
+
+316
+00:20:15.320 --> 00:20:21.600
+about how the possible use of the product
+to target the girls school for bombing
+
+317
+00:20:21.600 --> 00:20:25.920
+causing 150 bets, is a use case
+that doesn't violate our
+
+318
+00:20:26.040 --> 00:20:29.800
+that being anthropic red lines
+due to the ties with the sort of
+
+319
+00:20:29.840 --> 00:20:31.520
+ethical discourse of the effective
+
+320
+00:20:31.520 --> 00:20:35.720
+altruist movement, anthropic positions
+itself as a sort of liberal alternative.
+
+321
+00:20:35.720 --> 00:20:39.800
+But they also my sense of morality
+and ethics
+
+322
+00:20:39.840 --> 00:20:42.840
+does not encompass sort of.
+
+323
+00:20:44.640 --> 00:20:46.920
+Excusing violation of,
+
+324
+00:20:46.920 --> 00:20:49.880
+you know, murder of civilians in wartime.
+
+325
+00:20:49.880 --> 00:20:54.280
+So that's that's the problem
+that I think motivates concern about Elms.
+
+326
+00:20:54.280 --> 00:20:57.520
+And then we can talk about the speculative
+and the utopian to the side of that.
+
+327
+00:20:57.560 --> 00:20:59.080
+I don't think taper answers that.
+
+328
+00:20:59.080 --> 00:21:01.800
+I just like ritually bringing that up.
+
+329
+00:21:04.800 --> 00:21:07.280
+What taper does.
+
+330
+00:21:07.280 --> 00:21:10.280
+Sorry for the jarring shift in tone is
+
+331
+00:21:11.000 --> 00:21:14.480
+that tiny works
+each of these that fit in just 2048
+
+332
+00:21:14.520 --> 00:21:17.520
+bytes, about 2000 characters,
+
+333
+00:21:19.520 --> 00:21:20.080
+works,
+
+334
+00:21:20.080 --> 00:21:24.080
+and a kind of a static explorations
+that are in a legacy
+
+335
+00:21:24.080 --> 00:21:28.000
+of demo, scene and size
+coding works as well as in constraint.
+
+336
+00:21:28.640 --> 00:21:31.400
+One piece I think of
+
+337
+00:21:31.400 --> 00:21:34.080
+from taper number 13 is by M Davies.
+
+338
+00:21:34.080 --> 00:21:37.280
+Fox law, a chain letter piece
+
+339
+00:21:37.880 --> 00:21:40.680
+that also explores the haunting
+the issues theme with superstitions.
+
+340
+00:21:40.680 --> 00:21:43.680
+There's reference to to a moral panic
+around the fax machine.
+
+341
+00:21:44.120 --> 00:21:49.000
+And here she imagines there really
+is a sort of haunting of this fax machine
+
+342
+00:21:49.600 --> 00:21:52.120
+little generative,
+playful, interactive works
+
+343
+00:21:52.120 --> 00:21:56.560
+and the smallness
+allows for a variety of compelling things.
+
+344
+00:21:56.560 --> 00:22:02.520
+One, it's the pedagogical and artistic
+practice smallness means pieces of
+
+345
+00:22:02.520 --> 00:22:06.880
+teachable pieces are sort of generous,
+and the reader's time you can fit it into,
+
+346
+00:22:07.040 --> 00:22:11.520
+you know, see seeing a piece
+as a link to it from somewhere else.
+
+347
+00:22:12.120 --> 00:22:14.520
+And we can also understand how they work.
+
+348
+00:22:14.520 --> 00:22:15.640
+It doesn't mean it's always easy.
+
+349
+00:22:15.640 --> 00:22:18.640
+There's a lot of tricky
+computational techniques.
+
+350
+00:22:18.680 --> 00:22:21.480
+Then there's the whole sustainable
+software side.
+
+351
+00:22:21.480 --> 00:22:23.560
+The hardware requirements are minimal
+
+352
+00:22:23.560 --> 00:22:27.560
+explorations
+of tiny computers, even solar panels.
+
+353
+00:22:29.320 --> 00:22:30.000
+Supported
+
+354
+00:22:30.000 --> 00:22:33.200
+servers can all host
+taper pieces generally effortlessly.
+
+355
+00:22:33.200 --> 00:22:37.080
+Maybe some pieces with 3D graphics
+or some other of the more advanced
+
+356
+00:22:37.120 --> 00:22:41.360
+HTML features
+might struggle on the oldest hardware,
+
+357
+00:22:41.360 --> 00:22:45.400
+but the majority of our compared
+to modern software is free,
+
+358
+00:22:46.120 --> 00:22:49.120
+and it's also a poetic esthetic
+
+359
+00:22:49.840 --> 00:22:50.720
+precision.
+
+360
+00:22:50.720 --> 00:22:54.560
+In these works,
+you can often find pieces like Davies.
+
+361
+00:22:54.560 --> 00:22:56.920
+Sometimes that's a kind of modernist
+precision,
+
+362
+00:22:56.920 --> 00:23:00.760
+other times that's just a playful
+tonal precision, and it's so different
+
+363
+00:23:00.760 --> 00:23:05.240
+from the explorations of scale
+that also exists in our job.
+
+364
+00:23:05.600 --> 00:23:07.120
+And there's there's play with this.
+
+365
+00:23:07.120 --> 00:23:10.800
+There are generative works that are very
+extensive in that tiny constraint.
+
+366
+00:23:11.400 --> 00:23:16.360
+But this kind of attention and intention
+are central
+
+367
+00:23:17.440 --> 00:23:21.280
+in existent open software
+histories and legacies.
+
+368
+00:23:21.280 --> 00:23:23.160
+The remixing of the works are
+
+369
+00:23:24.120 --> 00:23:25.680
+fundamental to them, and
+
+370
+00:23:25.680 --> 00:23:29.440
+we kind of uniquely publish things
+that are both tool and software.
+
+371
+00:23:29.440 --> 00:23:30.520
+Sometimes.
+
+372
+00:23:30.520 --> 00:23:35.520
+John Cayley's piece, a tool for Tapered
+Air, is a tiny text editor of fading poems
+
+373
+00:23:35.520 --> 00:23:40.320
+orchestrated by White space
+that also has its own poem.
+
+374
+00:23:40.600 --> 00:23:44.200
+In the directions has its own
+
+375
+00:23:44.720 --> 00:23:48.680
+yeah, poem in this form
+that doubles as directions to the piece.
+
+376
+00:23:48.720 --> 00:23:51.840
+There are pieces that have produced
+clocks, other little tools,
+
+377
+00:23:51.840 --> 00:23:54.840
+and you can kind of imagine
+they're not necessarily a practical,
+
+378
+00:23:54.840 --> 00:24:00.760
+but a quite compelling or beautiful world
+where many different people
+
+379
+00:24:00.760 --> 00:24:04.000
+make little pieces of software
+to solve tiny problems.
+
+380
+00:24:05.760 --> 00:24:09.640
+And there's also an openness
+to the publishing structure that I think
+
+381
+00:24:09.680 --> 00:24:13.040
+allows for the interest of many,
+many of the works.
+
+382
+00:24:16.600 --> 00:24:18.640
+The small form, the
+
+383
+00:24:20.240 --> 00:24:21.080
+open email
+
+384
+00:24:21.080 --> 00:24:24.800
+based submission,
+all these other things are helpful.
+
+385
+00:24:25.200 --> 00:24:26.680
+It doesn't sort of cost much.
+
+386
+00:24:26.680 --> 00:24:29.160
+And on any kind of computer,
+maybe that's a little harder.
+
+387
+00:24:29.160 --> 00:24:34.240
+It does require some kind of computer,
+or it's very hard to edit HTML on a phone
+
+388
+00:24:34.280 --> 00:24:38.360
+to try writing a piece for paper
+come to time.
+
+389
+00:24:38.360 --> 00:24:41.480
+My last theme is sort of around
+collaboration in kind of many different
+
+390
+00:24:41.480 --> 00:24:42.200
+senses.
+
+391
+00:24:42.200 --> 00:24:46.120
+This community has explored
+very richly algorithmic human
+
+392
+00:24:46.680 --> 00:24:50.840
+collaborations
+and whole extensions and co-authorship.
+
+393
+00:24:50.840 --> 00:24:55.160
+But there's also often mode
+of kind of homage co-authorship
+
+394
+00:24:55.960 --> 00:25:00.360
+ideas
+rippling across practitioners in the form.
+
+395
+00:25:00.360 --> 00:25:05.720
+And here one piece of like a celebrate
+is Mars Afro sambas in a three piece
+
+396
+00:25:05.760 --> 00:25:09.640
+sequence exploring the musician and poet
+Vinicius de Moraes,
+
+397
+00:25:11.320 --> 00:25:13.280
+and it shows how these
+
+398
+00:25:13.280 --> 00:25:16.480
+translations of form can do some
+some pretty interesting things.
+
+399
+00:25:17.120 --> 00:25:18.320
+I've also found
+
+400
+00:25:19.280 --> 00:25:20.600
+that one
+
+401
+00:25:20.600 --> 00:25:24.880
+thing that lets this work
+as a creative community around paper,
+
+402
+00:25:24.880 --> 00:25:28.680
+I think, is the sort of play
+between fixed,
+
+403
+00:25:28.720 --> 00:25:32.160
+very strict constraints and
+
+404
+00:25:33.280 --> 00:25:37.040
+openness and relationality
+and sort of dynamism.
+
+405
+00:25:38.080 --> 00:25:40.200
+A true Olympian lesson.
+
+406
+00:25:40.200 --> 00:25:43.320
+But that is one thing I learned over
+those two years, I think quite a bit.
+
+407
+00:25:43.320 --> 00:25:45.640
+And I think part of the ethos paper
+was founded on that.
+
+408
+00:25:45.640 --> 00:25:49.960
+I've come to appreciate in some very
+concrete ways, like deadline extensions.
+
+409
+00:25:50.000 --> 00:25:50.560
+Right?
+
+410
+00:25:50.560 --> 00:25:54.040
+Absolute about the deadline,
+but it's on anywhere on Earth time.
+
+411
+00:25:54.040 --> 00:25:56.440
+There's a regular publishing cycle,
+so if you miss one,
+
+412
+00:25:56.440 --> 00:25:58.600
+there's a chance of submitting
+another one.
+
+413
+00:25:58.600 --> 00:26:04.560
+That kind of thing makes the rules
+transparent and equal for many people
+
+414
+00:26:04.560 --> 00:26:09.080
+to publish in it, and allows
+for both kind of established writers
+
+415
+00:26:09.080 --> 00:26:13.360
+and people who have just heard about this
+to have a chance to publish it.
+
+416
+00:26:13.360 --> 00:26:14.240
+And so I think it does
+
+417
+00:26:14.240 --> 00:26:17.480
+take the sort of fairness of the rules
+and very active efforts.
+
+418
+00:26:17.520 --> 00:26:21.360
+And this is an ongoing question
+to figure out how to introduce people
+
+419
+00:26:21.360 --> 00:26:25.560
+to this esoteric rad,
+how to be especially sort of generous
+
+420
+00:26:25.560 --> 00:26:28.720
+when possible with new contributors
+
+421
+00:26:29.240 --> 00:26:31.920
+and, and so on.
+
+422
+00:26:31.920 --> 00:26:32.880
+I think that's time.
+
+423
+00:26:32.880 --> 00:26:35.880
+So the last thing I will suggest is
+just how
+
+424
+00:26:36.040 --> 00:26:38.400
+this is not the alternative to LMS.
+
+425
+00:26:38.400 --> 00:26:40.600
+It is part of the search for
+
+426
+00:26:43.560 --> 00:26:45.720
+non fascist and playful
+
+427
+00:26:45.720 --> 00:26:48.720
+engagements with computation
+and art in its wake.
+
+428
+00:26:49.520 --> 00:26:53.840
+It's complicit in various ways,
+and everything is in different ways,
+
+429
+00:26:54.080 --> 00:26:58.640
+in part through the use of platforms
+and editorial side, in part
+
+430
+00:26:58.680 --> 00:26:59.520
+through the deep questions
+
+431
+00:26:59.520 --> 00:27:03.400
+about open source software
+and the relationship to centralization.
+
+432
+00:27:04.200 --> 00:27:06.400
+People like Meredith Whittaker,
+David Gray Witter
+
+433
+00:27:06.400 --> 00:27:11.480
+point out the way that open software
+does actually serve Big Tech as well.
+
+434
+00:27:11.480 --> 00:27:15.400
+But it is complicated,
+and there's a lot to say for the vision.
+
+435
+00:27:15.400 --> 00:27:20.040
+And similarly, the collaborative vision is
+is it's always an ongoing question
+
+436
+00:27:20.080 --> 00:27:24.320
+of of where
+the actual contributions are coming from
+
+437
+00:27:24.840 --> 00:27:27.840
+and how to kind of keep keep that going.
+
+438
+00:27:28.480 --> 00:27:31.480
+Thanks so much
+and looking forward to the discussion.
+
+439
+00:27:35.840 --> 00:27:37.120
+Thank you so much.
+
+440
+00:27:37.120 --> 00:27:37.920
+That was awesome.
+
+441
+00:27:37.920 --> 00:27:40.640
+I'm really excited for our discussion.
+
+442
+00:27:40.640 --> 00:27:44.400
+And now I'll introduce
+Kira Aubert is our next presenter.
+
+443
+00:27:48.400 --> 00:27:48.600
+Okay.
+
+444
+00:27:48.600 --> 00:27:49.120
+Thank you.
+
+445
+00:27:49.120 --> 00:27:52.120
+I'm just going to share my screen.
+
+446
+00:28:02.360 --> 00:28:03.440
+There we go.
+
+447
+00:28:03.440 --> 00:28:06.440
+Can I see my slides?
+
+448
+00:28:06.880 --> 00:28:08.000
+Yes, it was full screen
+
+449
+00:28:08.000 --> 00:28:11.000
+and then it went back to the Canva
+preview.
+
+450
+00:28:11.400 --> 00:28:14.400
+Okay.
+
+451
+00:28:21.040 --> 00:28:21.840
+Let me try again.
+
+452
+00:28:21.840 --> 00:28:24.840
+Sorry.
+
+453
+00:28:33.560 --> 00:28:36.560
+I I'm just going to.
+
+454
+00:28:38.040 --> 00:28:41.040
+Make this.
+
+455
+00:28:58.240 --> 00:28:58.800
+For some reason.
+
+456
+00:28:58.800 --> 00:28:59.840
+It's not working.
+
+457
+00:28:59.840 --> 00:29:02.840
+Okay I will.
+
+458
+00:29:04.400 --> 00:29:06.840
+I've downloaded the slides, so I'll
+just pull them up and share from there.
+
+459
+00:29:06.840 --> 00:29:12.080
+Sorry folks,
+but I will start by saying that
+
+460
+00:29:13.400 --> 00:29:17.560
+I come to this project as someone who is
+
+461
+00:29:18.520 --> 00:29:21.520
+has been very interested in.
+
+462
+00:29:24.840 --> 00:29:27.840
+In periodical
+
+463
+00:29:27.960 --> 00:29:32.120
+periodicals for quite a while,
+and I have been.
+
+464
+00:29:34.960 --> 00:29:37.960
+Thinking about
+
+465
+00:29:38.040 --> 00:29:39.600
+periodicals in the context
+
+466
+00:29:39.600 --> 00:29:42.560
+of the current moment
+that we're in, in AI.
+
+467
+00:29:42.560 --> 00:29:46.840
+And when PD offered the opportunity
+to present on this panel,
+
+468
+00:29:46.840 --> 00:29:51.040
+I was really excited
+to dive into Filter Instancing,
+
+469
+00:29:51.680 --> 00:29:55.760
+which I'm sure many of you know about as
+it is funded by ELO.
+
+470
+00:29:56.360 --> 00:30:00.040
+So today I'm going to take you
+through a discussion of Filter Ensign,
+
+471
+00:30:00.240 --> 00:30:03.240
+and which I'll just call filter,
+
+472
+00:30:03.440 --> 00:30:06.040
+which exemplify exemplifies for me
+
+473
+00:30:06.040 --> 00:30:09.760
+this emergent form
+of electronic literature that situated
+
+474
+00:30:09.760 --> 00:30:13.520
+at this intersection of social media
+and literary production.
+
+475
+00:30:14.160 --> 00:30:18.480
+It was launched in 2020,
+and it's hosted entirely on Instagram.
+
+476
+00:30:19.040 --> 00:30:23.920
+And a filter curates works
+that engage with disrupt and are optimized
+
+477
+00:30:23.920 --> 00:30:28.640
+for the poetics of the platform itself,
+the platform being Instagram.
+
+478
+00:30:29.440 --> 00:30:33.360
+And so here I'm going to be talking about
+Filter Instancing
+
+479
+00:30:33.960 --> 00:30:38.040
+as a periodical that usefully confronts,
+plays with, and complicates
+
+480
+00:30:38.040 --> 00:30:42.080
+social media platforms in particular,
+and their AI driven algorithms.
+
+481
+00:30:42.080 --> 00:30:45.320
+And I'm doing kind of a close
+reading of filter,
+
+482
+00:30:45.480 --> 00:30:49.040
+but I'd like to note that
+my thinking draws on scholars from
+
+483
+00:30:49.080 --> 00:30:52.120
+and including NP and Hales,
+Joanna Drucker, as well
+
+484
+00:30:52.120 --> 00:30:56.440
+as methods and platform studies
+and other work that I have done
+
+485
+00:30:56.440 --> 00:31:01.120
+to do close readings
+as as they say, of platforms.
+
+486
+00:31:01.120 --> 00:31:05.560
+And I come from this from a literary
+studies background and the close reading.
+
+487
+00:31:06.520 --> 00:31:08.040
+I also want to note that this close
+reading
+
+488
+00:31:08.040 --> 00:31:11.400
+treats Instagram
+not merely as an interface, but as an
+
+489
+00:31:11.400 --> 00:31:16.120
+algorithmically mediated environment,
+which is important to keep in mind.
+
+490
+00:31:16.680 --> 00:31:19.760
+Although Meta's recommendation systems
+remain opaque,
+
+491
+00:31:19.840 --> 00:31:22.840
+they nevertheless are shaping
+the conditions of visibility
+
+492
+00:31:22.880 --> 00:31:25.880
+under
+which literary production occurs online.
+
+493
+00:31:25.960 --> 00:31:26.520
+Right.
+
+494
+00:31:26.520 --> 00:31:29.760
+So accordingly, this analysis reads
+not the algorithm itself,
+
+495
+00:31:29.760 --> 00:31:33.840
+but the observable ways
+in which filter is trying to negotiate
+
+496
+00:31:33.880 --> 00:31:37.120
+platform logics through formal,
+editorial and participatory
+
+497
+00:31:37.120 --> 00:31:40.120
+practices.
+
+498
+00:31:40.240 --> 00:31:42.440
+So, as I said, it was founded in
+
+499
+00:31:42.440 --> 00:31:45.440
+November 21st, 2020, by Sarah
+
+500
+00:31:46.240 --> 00:31:47.800
+Whitcomb.
+
+501
+00:31:47.800 --> 00:31:48.920
+Sorry. Excuse me.
+
+502
+00:31:48.920 --> 00:31:51.440
+Sarah Whitcomb
+
+503
+00:31:51.440 --> 00:31:57.240
+Loyola and Chloe Milligan, and was funded
+by this Emerging Spaces for startup
+
+504
+00:31:57.240 --> 00:32:03.440
+grant from the Ello and Filters
+seems to be using platform features
+
+505
+00:32:03.440 --> 00:32:07.720
+as literary constraints,
+and they do this by foregrounding features
+
+506
+00:32:07.720 --> 00:32:11.160
+like a ten image
+frame, posts, time limited
+
+507
+00:32:11.160 --> 00:32:15.480
+stories, boomerangs,
+reels, interactive stickers,
+
+508
+00:32:15.480 --> 00:32:18.480
+all those types of affordances
+that we find on Instagram.
+
+509
+00:32:18.480 --> 00:32:21.960
+So that Instagram becomes more
+than a distribution
+
+510
+00:32:22.040 --> 00:32:25.160
+channel
+and more than just social media add ons.
+
+511
+00:32:29.360 --> 00:32:32.440
+And importantly,
+it's not simply publishing litter
+
+512
+00:32:32.640 --> 00:32:36.520
+literature on Instagram, but creating
+literature through Instagram, right?
+
+513
+00:32:36.560 --> 00:32:40.240
+So taking the platform
+as a form of literary constraint,
+
+514
+00:32:40.320 --> 00:32:44.720
+and this is interesting
+because previous platforms were circulated
+
+515
+00:32:44.760 --> 00:32:48.120
+such as Tumblr in particular,
+allowed users a lot of freedom
+
+516
+00:32:48.120 --> 00:32:51.840
+to personalize and customize
+their their pages and their content.
+
+517
+00:32:51.880 --> 00:32:52.080
+Right.
+
+518
+00:32:52.080 --> 00:32:55.240
+So if you knew a little bit of TML or CSS,
+
+519
+00:32:55.440 --> 00:32:58.320
+you could design your own Tumblr
+page, for example.
+
+520
+00:32:58.320 --> 00:33:02.280
+But as we moved into the mid 2000
+and even the 20 tens.
+
+521
+00:33:02.320 --> 00:33:04.800
+We started to get social media platforms
+being developed
+
+522
+00:33:04.800 --> 00:33:08.200
+that were much more restricted
+in terms of what users could personalize.
+
+523
+00:33:08.240 --> 00:33:12.720
+So on Instagram, like the grid esthetic,
+the basic post has evolved a bit.
+
+524
+00:33:12.720 --> 00:33:16.000
+So you can do different sizing
+and different different things to it,
+
+525
+00:33:16.000 --> 00:33:20.280
+but it's generally pretty static and
+there are very specific constraints there.
+
+526
+00:33:20.280 --> 00:33:21.800
+And you know, you can't do much
+
+527
+00:33:21.800 --> 00:33:25.280
+to personalize your profile
+or your posts in general.
+
+528
+00:33:25.960 --> 00:33:29.520
+So filter takes this critical
+and creative approach to several elements
+
+529
+00:33:29.520 --> 00:33:33.760
+of form on Instagram
+that I find particularly interesting.
+
+530
+00:33:36.160 --> 00:33:37.680
+So here we see
+
+531
+00:33:37.680 --> 00:33:41.960
+Instagram being treated not just as this
+method of distribution, but as
+
+532
+00:33:42.920 --> 00:33:45.720
+using affordances
+and technical constraints
+
+533
+00:33:45.720 --> 00:33:49.960
+as poetic constraints, which is extending
+this tradition of constraint based
+
+534
+00:33:49.960 --> 00:33:53.480
+writing into a platformed environment
+and probing questions
+
+535
+00:33:53.480 --> 00:33:57.600
+into how temporality, interactivity,
+and platform esthetics
+
+536
+00:33:57.640 --> 00:34:00.640
+shape narrative and poetic composition.
+
+537
+00:34:02.120 --> 00:34:04.600
+So in particular,
+
+538
+00:34:04.600 --> 00:34:07.880
+we can think of traditional literary
+constraints
+
+539
+00:34:08.040 --> 00:34:12.680
+such as the sonnet or iambic pentameter,
+right, or rhyming conventions.
+
+540
+00:34:12.680 --> 00:34:18.920
+We can also think about
+different movements here, like that
+
+541
+00:34:19.920 --> 00:34:24.480
+Glen referenced already, as well
+as concrete poetry, even hypertext.
+
+542
+00:34:24.520 --> 00:34:24.680
+Right?
+
+543
+00:34:24.680 --> 00:34:28.680
+There are specific technical and
+technological constraints in all of these.
+
+544
+00:34:29.520 --> 00:34:31.840
+In contrast with filter,
+we see the platform
+
+545
+00:34:31.840 --> 00:34:34.120
+becoming the form of literary constraint.
+
+546
+00:34:34.120 --> 00:34:38.360
+So Instagram imposes things like image
+dimensions, character limits.
+
+547
+00:34:39.160 --> 00:34:42.440
+They introduce scrolling behavior.
+
+548
+00:34:42.440 --> 00:34:45.120
+So you have to keep this in mind
+when you're posting right.
+
+549
+00:34:45.120 --> 00:34:49.480
+Algorithmic visibility ephemerality
+and these all become literary constraints
+
+550
+00:34:49.480 --> 00:34:52.760
+that we have to contend
+with as a periodical.
+
+551
+00:34:53.080 --> 00:34:55.920
+So in this sense, filter aligns
+with scholarship
+
+552
+00:34:55.920 --> 00:34:59.480
+on platform specific cultural production
+that understands media
+
+553
+00:34:59.680 --> 00:35:04.080
+not as neutral containers,
+but as shaping conditions of expression,
+
+554
+00:35:04.080 --> 00:35:08.440
+as actively shaping the literary,
+the literary work that we're receiving.
+
+555
+00:35:08.600 --> 00:35:12.560
+And it's in this embracing of Instagram's
+affordances as a form of literary
+
+556
+00:35:12.560 --> 00:35:16.400
+constraint, where I see filter
+making a really generative intervention in
+
+557
+00:35:16.400 --> 00:35:17.600
+third gen Elliott.
+
+558
+00:35:20.200 --> 00:35:22.080
+So this embracing of the Instagram
+
+559
+00:35:22.080 --> 00:35:25.880
+platform as constraint extends
+beyond the Instagram page.
+
+560
+00:35:26.280 --> 00:35:31.400
+So Polly Silken, who designed the logo for
+filter, was quoted on filters.
+
+561
+00:35:31.400 --> 00:35:34.120
+Instagram is saying
+that the logo begins with a square
+
+562
+00:35:34.120 --> 00:35:36.160
+and you can see it in the middle
+here, right?
+
+563
+00:35:36.160 --> 00:35:39.080
+So we have the square,
+the Instagram square,
+
+564
+00:35:39.080 --> 00:35:41.600
+but the shape that holds
+all of Instagram content.
+
+565
+00:35:41.600 --> 00:35:45.360
+But it has these inner shapes
+that are bursting out a bit
+
+566
+00:35:45.400 --> 00:35:48.880
+the way it might break out
+of the traditional confines of Instagram.
+
+567
+00:35:48.920 --> 00:35:54.600
+So I see this as really central to what
+filter is trying to do on Instagram.
+
+568
+00:35:54.600 --> 00:35:58.520
+So they're interested in Instagram
+as a site of literary constraint
+
+569
+00:35:58.520 --> 00:35:59.640
+in both the ways in which
+
+570
+00:35:59.640 --> 00:36:03.160
+the platform constrains the literature,
+but also in the ways
+
+571
+00:36:03.160 --> 00:36:06.880
+in which Instagram illit can
+and might burst out of those constraints.
+
+572
+00:36:07.360 --> 00:36:10.680
+And this example here is from the online
+installation
+
+573
+00:36:10.680 --> 00:36:15.360
+of the inaugural issue in the next,
+which was supported by ello as well.
+
+574
+00:36:15.360 --> 00:36:16.400
+And see here.
+
+575
+00:36:16.400 --> 00:36:19.680
+This is mirroring the Instagram
+grid layout, using that familiar
+
+576
+00:36:19.760 --> 00:36:23.080
+tiled interface
+as an entry point into the exhibition.
+
+577
+00:36:23.520 --> 00:36:26.320
+And this sort of underscores
+how interface design structures
+
+578
+00:36:26.320 --> 00:36:29.600
+reading practices
+even before a text is encountered.
+
+579
+00:36:30.680 --> 00:36:31.360
+And obviously
+
+580
+00:36:31.360 --> 00:36:34.440
+here, the traveling exhibit maintains
+the constraints of Instagram,
+
+581
+00:36:34.440 --> 00:36:38.160
+even as Elliott bursts
+free from Instagram via the exhibition.
+
+582
+00:36:38.200 --> 00:36:41.200
+Right?
+
+583
+00:36:41.360 --> 00:36:43.840
+So the affordance of Instagram here
+
+584
+00:36:43.840 --> 00:36:46.840
+become the compositional tools
+or constraints.
+
+585
+00:36:46.960 --> 00:36:51.520
+And these tools are based on
+whether you're making a post or a story.
+
+586
+00:36:51.560 --> 00:36:53.560
+Right,
+and which type of post you're making.
+
+587
+00:36:53.560 --> 00:36:56.360
+And of course, stories disappear
+after 24 hours.
+
+588
+00:36:56.360 --> 00:36:59.720
+So if we think about Instagram Stories,
+we might think of the following
+
+589
+00:36:59.760 --> 00:37:01.480
+as our compositional tools.
+
+590
+00:37:01.480 --> 00:37:07.360
+So these would be polls,
+perhaps questions, stickers, countdowns,
+
+591
+00:37:07.400 --> 00:37:08.960
+maybe gifts.
+
+592
+00:37:08.960 --> 00:37:13.480
+And then of course,
+this may not seem like a tool,
+
+593
+00:37:13.480 --> 00:37:17.280
+but it is the fact that
+the content disappears within 24 hours.
+
+594
+00:37:17.800 --> 00:37:21.320
+So this is a specific tool
+that you're employing
+
+595
+00:37:21.320 --> 00:37:24.320
+in whatever content you are creating.
+
+596
+00:37:24.360 --> 00:37:27.080
+Whereas with a post,
+you're more likely to stick to something
+
+597
+00:37:27.080 --> 00:37:28.680
+a little more concrete.
+
+598
+00:37:28.680 --> 00:37:30.000
+You know it's going to last longer.
+
+599
+00:37:30.000 --> 00:37:33.120
+So you might want to be a little bit
+
+600
+00:37:33.640 --> 00:37:37.120
+more polished
+in what you're posting there.
+
+601
+00:37:37.120 --> 00:37:39.480
+And additionally,
+the size constraints of an Instagram
+
+602
+00:37:39.480 --> 00:37:41.560
+story are different
+than an Instagram post, right?
+
+603
+00:37:41.560 --> 00:37:46.640
+So the ideal Instagram story is 1080
+by 1920
+
+604
+00:37:46.680 --> 00:37:51.320
+pixels, whereas a post can now be square,
+landscape or portrait.
+
+605
+00:37:52.560 --> 00:37:53.560
+One thing to note, however,
+
+606
+00:37:53.560 --> 00:37:56.560
+is that although in has allowed
+
+607
+00:37:56.600 --> 00:38:00.760
+for other post sizes on the grid images,
+they all kind of get mushed together.
+
+608
+00:38:00.760 --> 00:38:05.520
+So you end up getting some of this content
+
+609
+00:38:06.760 --> 00:38:09.760
+bursting through as as the
+
+610
+00:38:10.160 --> 00:38:15.040
+the designer said,
+based on how it shows up on on the grid.
+
+611
+00:38:16.760 --> 00:38:19.840
+So the problem of platforms,
+
+612
+00:38:20.920 --> 00:38:22.760
+I think comes through a lot here too.
+
+613
+00:38:22.760 --> 00:38:24.040
+And the Zen remains critically
+
+614
+00:38:24.040 --> 00:38:28.560
+aware of this cultural
+weight of social media and optimization.
+
+615
+00:38:28.720 --> 00:38:30.960
+So the products are not only disruptive,
+
+616
+00:38:30.960 --> 00:38:35.280
+but they're also burdened to write
+by Instagram as a platform,
+
+617
+00:38:35.320 --> 00:38:40.320
+by Instagram's economies of attention, by,
+you know, branding and performance.
+
+618
+00:38:40.360 --> 00:38:43.160
+These all inflect the literary gestures
+being made.
+
+619
+00:38:43.160 --> 00:38:46.600
+And in this way, filter stages,
+I think, are productive tension
+
+620
+00:38:46.600 --> 00:38:51.600
+between experimentation and being enclosed
+or constrained by a platform.
+
+621
+00:38:51.680 --> 00:38:53.480
+Asking whether platform native illit
+
+622
+00:38:53.480 --> 00:38:57.640
+can meaningfully resist
+the logics of the very system it inhabits.
+
+623
+00:38:59.200 --> 00:39:00.560
+And the story
+
+624
+00:39:00.560 --> 00:39:04.920
+to the question If Instagram disappeared
+tomorrow, would filter still exist?
+
+625
+00:39:05.000 --> 00:39:05.560
+Right.
+
+626
+00:39:05.560 --> 00:39:09.560
+And so this tension here is complicated
+by the infrastructural fragility
+
+627
+00:39:09.560 --> 00:39:13.880
+that we find on, on social media
+in general.
+
+628
+00:39:13.920 --> 00:39:15.720
+But, you know, on the internet in general
+
+629
+00:39:15.720 --> 00:39:19.440
+too, but on, on periodicals
+that are based entirely on social media
+
+630
+00:39:19.480 --> 00:39:24.000
+and the project has no standalone websites
+and posts are fairly infrequent.
+
+631
+00:39:24.040 --> 00:39:27.320
+And actually the last post
+was made in April of 2025.
+
+632
+00:39:27.360 --> 00:39:30.040
+So this points to something beyond
+Instagram, right?
+
+633
+00:39:30.040 --> 00:39:32.040
+The difficulties that we all know of.
+
+634
+00:39:32.040 --> 00:39:34.640
+Time constraints, resource constraints,
+financial constraints.
+
+635
+00:39:34.640 --> 00:39:35.280
+Right.
+
+636
+00:39:35.280 --> 00:39:38.200
+But from the infrastructure side,
+we can raise some questions.
+
+637
+00:39:38.200 --> 00:39:41.280
+Central to contemporary periodicals.
+
+638
+00:39:41.520 --> 00:39:45.360
+How do we determine
+when a platform baseline is ongoing,
+
+639
+00:39:45.400 --> 00:39:49.520
+when it's dormant or when it's defunct
+if you're not within the in-group, right.
+
+640
+00:39:49.880 --> 00:39:53.120
+What does publication mean
+when archives are partial,
+
+641
+00:39:53.440 --> 00:39:56.400
+algorithms are obscuring visibility
+and longevity depends
+
+642
+00:39:56.400 --> 00:39:59.400
+on portrait
+platforms beyond editorial control.
+
+643
+00:40:01.680 --> 00:40:02.440
+And if
+
+644
+00:40:02.440 --> 00:40:06.200
+innovative literary forms are increasingly
+emerging on commercial platforms,
+
+645
+00:40:06.200 --> 00:40:09.280
+what are the responsibilities
+that we have to preserve them,
+
+646
+00:40:09.280 --> 00:40:13.440
+and how can we preserve them with these
+issues of copyright and data access?
+
+647
+00:40:13.480 --> 00:40:17.840
+And actually, my friend and colleague
+Camilla Home Sosa, who I presented with
+
+648
+00:40:17.880 --> 00:40:22.560
+yesterday, has a chapter in the edited
+collection Reading Insta Poetry,
+
+649
+00:40:22.560 --> 00:40:26.680
+in which she argues that it's
+our data, it's not their data, right?
+
+650
+00:40:26.920 --> 00:40:29.880
+And it's supposed to be publicly available
+data, and it's not ethical
+
+651
+00:40:29.880 --> 00:40:33.160
+for tech companies
+to keep researchers from that data.
+
+652
+00:40:33.160 --> 00:40:36.600
+And she's talking about this
+in terms of studying social media.
+
+653
+00:40:36.600 --> 00:40:40.640
+But in terms of preserving content,
+this is apt as well.
+
+654
+00:40:40.680 --> 00:40:44.200
+And I think these questions become
+increasingly important as social media
+
+655
+00:40:44.200 --> 00:40:47.320
+platforms
+become more dominated by AI content.
+
+656
+00:40:47.320 --> 00:40:52.320
+And visibility on the apps is increasingly
+driven by AI based algorithms.
+
+657
+00:40:52.640 --> 00:40:53.520
+Oh, and she also notes
+
+658
+00:40:53.520 --> 00:40:57.280
+that we should be fighting for rights
+as researchers to access this data.
+
+659
+00:40:57.320 --> 00:40:58.040
+She's from Norway.
+
+660
+00:40:58.040 --> 00:41:01.040
+So, like they they know what's up.
+
+661
+00:41:01.480 --> 00:41:03.880
+Every day I think, oh,
+I should maybe move to Norway.
+
+662
+00:41:03.880 --> 00:41:07.360
+But yeah, that's
+that's the word from Camilla.
+
+663
+00:41:08.280 --> 00:41:11.480
+So in conclusion,
+what does filter show us?
+
+664
+00:41:12.320 --> 00:41:15.040
+I think it's
+showing us a specific snapshot
+
+665
+00:41:15.040 --> 00:41:19.600
+in, in a snapshot of this moment in elit
+where we have
+
+666
+00:41:19.600 --> 00:41:23.960
+possibility, precarity
+and platform dependance merging into one.
+
+667
+00:41:24.000 --> 00:41:24.920
+Right.
+
+668
+00:41:24.920 --> 00:41:29.120
+It shows us that platform affordances
+can function as literary form
+
+669
+00:41:29.120 --> 00:41:32.080
+or literary constraint
+and really interesting and fun ways,
+
+670
+00:41:32.080 --> 00:41:35.400
+and that social media can host
+meaningful literary experimentation
+
+671
+00:41:35.400 --> 00:41:38.440
+that usefully expands
+conceptions of third gen elit.
+
+672
+00:41:38.520 --> 00:41:41.560
+But it also shows us
+the precarity of third gen elit,
+
+673
+00:41:41.560 --> 00:41:45.120
+and the future of such work remains
+precarious because it's inseparable
+
+674
+00:41:45.120 --> 00:41:49.760
+from corporate infrastructures
+as well as their AI driven algorithms.
+
+675
+00:41:51.240 --> 00:41:53.280
+And that is all from me.
+
+676
+00:41:53.280 --> 00:41:56.280
+So thank you very much.
+
+677
+00:41:56.520 --> 00:41:58.080
+Thank you so much, Cara.
+
+678
+00:41:58.080 --> 00:42:00.720
+That's great.
+
+679
+00:42:00.720 --> 00:42:02.520
+I'm going to do a little bit
+
+680
+00:42:02.520 --> 00:42:05.520
+of bopping around with my screen
+share today.
+
+681
+00:42:05.600 --> 00:42:08.960
+I wanted to think a little cross-sectional
+
+682
+00:42:09.520 --> 00:42:15.120
+for my talk
+about what AI means to literary magazines.
+
+683
+00:42:15.120 --> 00:42:20.640
+Now a big, big push in my research
+moving forward will be
+
+684
+00:42:20.640 --> 00:42:24.880
+hopefully I get an AWS panel
+approved to think together
+
+685
+00:42:24.880 --> 00:42:30.120
+with the co-founder of Chill Subs
+about how traditional literary magazines
+
+686
+00:42:30.120 --> 00:42:33.120
+think about AI
+and put together AI policies.
+
+687
+00:42:33.320 --> 00:42:38.800
+But I wanted to think about our magazines,
+like our publications specifically.
+
+688
+00:42:38.800 --> 00:42:42.920
+And for the record,
+there are many publications.
+
+689
+00:42:43.240 --> 00:42:48.400
+I'm logging the lit mags that are
+lit adjacent and there are so many
+
+690
+00:42:49.560 --> 00:42:50.280
+drunken boats.
+
+691
+00:42:50.280 --> 00:42:54.240
+Latest issue is out
+and we've got like hypertext
+
+692
+00:42:54.240 --> 00:42:57.520
+magazines and magazines
+archived at the next.
+
+693
+00:42:57.520 --> 00:43:01.320
+And so there are many periodicals in Elit,
+but I'm thinking
+
+694
+00:43:01.560 --> 00:43:04.560
+about some of the ones that are,
+that are publishing right now
+
+695
+00:43:04.600 --> 00:43:08.320
+and about like when they say
+that they accept or,
+
+696
+00:43:08.560 --> 00:43:12.400
+or like publish AI, like,
+what are they actually doing?
+
+697
+00:43:12.400 --> 00:43:13.840
+What are people actually doing?
+
+698
+00:43:13.840 --> 00:43:17.680
+And I think to,
+to Glen's point about documentation
+
+699
+00:43:18.000 --> 00:43:21.120
+and what we talked about at our panel
+last year at ello,
+
+700
+00:43:21.520 --> 00:43:24.520
+we're all publishing process notes,
+which is really helpful
+
+701
+00:43:24.920 --> 00:43:27.880
+for the sake of that sort of transparency,
+
+702
+00:43:27.880 --> 00:43:32.320
+the processes
+by which these magazines come into being
+
+703
+00:43:32.600 --> 00:43:37.280
+is and the pieces that they publish
+come into being as visible or really like.
+
+704
+00:43:37.320 --> 00:43:39.000
+I'm really grateful that that's true.
+
+705
+00:43:39.000 --> 00:43:42.280
+So I'm going to drop into the chat
+like the list of magazines
+
+706
+00:43:42.280 --> 00:43:45.360
+that we were thinking about today
+or that I was thinking about.
+
+707
+00:43:45.920 --> 00:43:49.920
+And so those are all the links
+and I'll go ahead and share.
+
+708
+00:43:50.200 --> 00:43:55.640
+I need to take down a magazine
+that Mark DMs me to look into later.
+
+709
+00:43:56.000 --> 00:43:59.000
+That'll be my my, my little cheat meal
+
+710
+00:43:59.120 --> 00:44:02.400
+after the conferences over tonight
+to go look up that magazine.
+
+711
+00:44:02.560 --> 00:44:03.960
+Thanks, Mark.
+
+712
+00:44:03.960 --> 00:44:08.280
+So I'm going to attempt to use InDesign as
+
+713
+00:44:10.080 --> 00:44:13.080
+let's see if I can do this my as my
+
+714
+00:44:13.800 --> 00:44:15.160
+presentation today.
+
+715
+00:44:15.160 --> 00:44:20.160
+So I'm going to hide my welcome
+and open my about.
+
+716
+00:44:20.320 --> 00:44:24.080
+I'm PD
+and I work with a lot of print layout.
+
+717
+00:44:24.120 --> 00:44:26.120
+I use InDesign constantly.
+
+718
+00:44:26.120 --> 00:44:29.440
+This is the biggest computer assistance
+
+719
+00:44:29.440 --> 00:44:34.080
+to my writing
+and to my work as a scholar that I have
+
+720
+00:44:34.120 --> 00:44:37.120
+is I'm using it to lay things out,
+to lay out literary magazines.
+
+721
+00:44:37.120 --> 00:44:41.160
+I worked at Blackwater Review, so graphic
+novel that I worked on for a friend.
+
+722
+00:44:41.840 --> 00:44:47.200
+The the citation here is from the Michigan
+Quarterly Review.
+
+723
+00:44:47.640 --> 00:44:53.240
+Erasure of Claude's explanation of a poem
+that I generated with the Markov chain.
+
+724
+00:44:54.040 --> 00:44:57.960
+And then I'm working with archival stuff
+as well within design, and I'm
+
+725
+00:44:57.960 --> 00:45:02.960
+thinking about connecting the dots
+and what on Earth we're doing with AI. So
+
+726
+00:45:04.400 --> 00:45:04.960
+for this, I
+
+727
+00:45:04.960 --> 00:45:07.960
+wanted to think
+about like creating an alignment chart.
+
+728
+00:45:08.000 --> 00:45:11.000
+It's like we have Chaotic Evil AI
+
+729
+00:45:11.320 --> 00:45:14.200
+and we have like neutral good
+
+730
+00:45:14.200 --> 00:45:19.080
+AI and these sorts of like moral questions
+and ethical questions as copiers
+
+731
+00:45:19.080 --> 00:45:23.960
+bringing up are like at the heart
+of a lot of our conversations right now.
+
+732
+00:45:24.080 --> 00:45:27.800
+And on today's alignment chart,
+I want to throw together
+
+733
+00:45:27.960 --> 00:45:30.120
+and try to map out
+what the magazines are doing.
+
+734
+00:45:30.120 --> 00:45:33.160
+So are we doing pretty traditional forms,
+
+735
+00:45:33.160 --> 00:45:36.160
+working with very traditional forms of
+
+736
+00:45:37.160 --> 00:45:39.840
+working with forms like on Instagram
+
+737
+00:45:39.840 --> 00:45:42.960
+that are really about the interface
+and about mediation,
+
+738
+00:45:43.200 --> 00:45:46.840
+but aren't necessarily computational
+or coded in a certain way.
+
+739
+00:45:46.880 --> 00:45:49.600
+And then we also have obviously
+like code poetics.
+
+740
+00:45:49.600 --> 00:45:52.960
+And so most of what they are,
+almost all of what are all of what
+
+741
+00:45:53.000 --> 00:45:57.000
+taper publishes is going to be in this top
+row here, this like code poetics.
+
+742
+00:45:57.440 --> 00:46:00.400
+And so then the question
+is there is taper. Now
+
+743
+00:46:01.400 --> 00:46:04.400
+we've got all this human composed code.
+
+744
+00:46:04.760 --> 00:46:09.680
+Is, is taper publishing
+generated generally composed code.
+
+745
+00:46:09.960 --> 00:46:12.520
+So I've got the alignment tags here.
+
+746
+00:46:12.520 --> 00:46:18.160
+And I'm going to sort of hop
+into what some of the magazines are up to.
+
+747
+00:46:18.320 --> 00:46:22.200
+So if you'll click in your chat
+on The fathoms,
+
+748
+00:46:22.240 --> 00:46:26.320
+this is a really interesting case
+of a magazine that popped up last year
+
+749
+00:46:26.480 --> 00:46:29.320
+that claims and, you know,
+
+750
+00:46:29.320 --> 00:46:32.760
+I wouldn't put it past anyone in here
+to be the person behind the fathoms.
+
+751
+00:46:33.120 --> 00:46:35.720
+So I'll put it.
+
+752
+00:46:35.720 --> 00:46:38.080
+Use my words carefully.
+
+753
+00:46:38.080 --> 00:46:40.840
+The fathoms purports to be an
+
+754
+00:46:40.840 --> 00:46:43.920
+AI receiving submissions of only
+
+755
+00:46:44.720 --> 00:46:48.840
+AI generated
+non-human edited creative writing,
+
+756
+00:46:49.320 --> 00:46:51.840
+but everything that The Fathoms publishes
+
+757
+00:46:51.840 --> 00:46:55.080
+so far, I think it just closed submissions
+for its second issue.
+
+758
+00:46:55.440 --> 00:46:59.080
+Is this,
+like very analog sense of poetics.
+
+759
+00:46:59.080 --> 00:47:04.160
+It is a short story or a poem
+generated by a large language model.
+
+760
+00:47:04.560 --> 00:47:06.880
+It is really straightforward.
+
+761
+00:47:06.880 --> 00:47:10.680
+If you are interested in sort of the
+
+762
+00:47:11.640 --> 00:47:14.840
+agents reasoning question mark behind
+what's going on.
+
+763
+00:47:14.840 --> 00:47:18.680
+We published one of their manifestos once
+they got deployed form from chill subs
+
+764
+00:47:18.720 --> 00:47:21.720
+at remediating letters to the editor.
+
+765
+00:47:22.080 --> 00:47:25.200
+But everything happening
+there is really traditional.
+
+766
+00:47:25.840 --> 00:47:27.880
+It is.
+
+767
+00:47:27.880 --> 00:47:29.200
+There's there's more that could be done.
+
+768
+00:47:29.200 --> 00:47:32.200
+I think then
+
+769
+00:47:32.600 --> 00:47:34.840
+thinking about filter,
+
+770
+00:47:34.840 --> 00:47:37.600
+a lot of these pieces are dependent.
+
+771
+00:47:37.600 --> 00:47:41.760
+Like Kira said in your presentation,
+dependent on the interface of Instagram,
+
+772
+00:47:41.800 --> 00:47:45.560
+like the works depend on
+and are engaging with actively,
+
+773
+00:47:45.600 --> 00:47:48.240
+like the work
+that is happening on the platform
+
+774
+00:47:48.240 --> 00:47:50.960
+and using the platforms affordances
+for the esthetics.
+
+775
+00:47:50.960 --> 00:47:52.440
+And so right near the end,
+
+776
+00:47:52.440 --> 00:47:55.840
+I think there are a couple of pieces
+that have Dall-E generated images.
+
+777
+00:47:55.840 --> 00:48:01.480
+And so those trend over into the
+like the AI composed images and text.
+
+778
+00:48:02.800 --> 00:48:05.440
+And then
+
+779
+00:48:05.440 --> 00:48:08.440
+if you'll click on curated AI,
+this is what I found
+
+780
+00:48:08.560 --> 00:48:15.640
+this curated I came out in 2016, 2017,
+and it was a bunch of fine tuned
+
+781
+00:48:15.680 --> 00:48:20.080
+large language models that were either
+I fine tuned a large language model
+
+782
+00:48:20.080 --> 00:48:20.840
+and this is what I got.
+
+783
+00:48:20.840 --> 00:48:25.640
+So that's that top left category
+like cluster or in this bottom
+
+784
+00:48:26.080 --> 00:48:30.520
+bottom cluster
+I asked X language model to right.
+
+785
+00:48:30.520 --> 00:48:33.520
+And I maybe added
+some line breaks along the way.
+
+786
+00:48:33.880 --> 00:48:37.720
+And very few of the other works
+in in curated AI are
+
+787
+00:48:39.080 --> 00:48:41.120
+are engaging beyond
+
+788
+00:48:41.120 --> 00:48:44.960
+like generating text
+and how much control the person has over
+
+789
+00:48:45.000 --> 00:48:48.600
+the corpus underneath, or the model
+underneath what's being generated.
+
+790
+00:48:49.120 --> 00:48:51.760
+And then we've got like AI.
+
+791
+00:48:51.760 --> 00:48:55.840
+Literary review
+published a lot of material
+
+792
+00:48:56.520 --> 00:48:59.400
+that was similar to curated AI.
+
+793
+00:48:59.400 --> 00:49:04.840
+I asked Claude or ChatGPT
+to generate content about this idea
+
+794
+00:49:04.840 --> 00:49:09.080
+or to engage with me on this idea,
+and then I curated that work and pulled it
+
+795
+00:49:09.080 --> 00:49:12.440
+together into a poem of some kind,
+or into a story of some kind.
+
+796
+00:49:13.720 --> 00:49:16.440
+So let
+me go ahead and hide a couple of these.
+
+797
+00:49:16.440 --> 00:49:19.720
+And then at the same time,
+there were a number of works
+
+798
+00:49:19.720 --> 00:49:23.720
+that were really, really fun
+and engaging with,
+
+799
+00:49:24.640 --> 00:49:27.640
+with AI generated images of words,
+
+800
+00:49:27.680 --> 00:49:31.480
+which has been like
+one of my favorite pieces so far.
+
+801
+00:49:32.080 --> 00:49:35.080
+Area Literary Review closed last year,
+
+802
+00:49:35.240 --> 00:49:38.240
+and you can read more about
+
+803
+00:49:38.520 --> 00:49:41.520
+sort of Dan's decisions in that
+
+804
+00:49:42.560 --> 00:49:44.400
+at his unplugged
+
+805
+00:49:44.400 --> 00:49:47.400
+log out letter
+that I just posted in the chat as well.
+
+806
+00:49:47.640 --> 00:49:51.200
+But AI literature reviews
+really solid in terms
+
+807
+00:49:51.200 --> 00:49:54.760
+of wanting to pick up
+what what people were doing with Llms
+
+808
+00:49:54.800 --> 00:49:59.640
+and with with the
+with the big models from the beginning,
+
+809
+00:49:59.680 --> 00:50:03.480
+it only published a very few,
+like four works that were
+
+810
+00:50:04.600 --> 00:50:08.640
+where the person working with the machine
+had some control over,
+
+811
+00:50:09.200 --> 00:50:12.280
+like fine tuning a large language model
+or something like that.
+
+812
+00:50:12.920 --> 00:50:15.480
+Ensemble Park is next
+in that in that group,
+
+813
+00:50:15.480 --> 00:50:19.560
+and there's a pretty wide range ensemble
+park, very,
+
+814
+00:50:19.560 --> 00:50:24.120
+very code literate publication
+with extensive process notes.
+
+815
+00:50:24.120 --> 00:50:28.920
+And if you get the print copies,
+there are interviews between Kyle
+
+816
+00:50:28.920 --> 00:50:32.840
+and Katie and all of their contributors,
+which I think to
+
+817
+00:50:34.160 --> 00:50:36.400
+I think
+it was coffee's point about legibility,
+
+818
+00:50:36.400 --> 00:50:39.400
+like making our computational works
+
+819
+00:50:40.040 --> 00:50:44.880
+understandable to an audience on the level
+of what's happening in the computer
+
+820
+00:50:44.880 --> 00:50:49.320
+and what's happening in the artist's mind
+is they're putting something together.
+
+821
+00:50:50.520 --> 00:50:52.600
+And last is remediate.
+
+822
+00:50:52.600 --> 00:50:54.800
+We're kind of all over the board.
+
+823
+00:50:54.800 --> 00:50:58.280
+When I started the magazine,
+I wanted to be
+
+824
+00:50:59.960 --> 00:51:04.320
+an agnostic about to what degree
+the computer was assisting.
+
+825
+00:51:04.600 --> 00:51:08.160
+So I use InDesign for everything,
+as I've already said.
+
+826
+00:51:08.160 --> 00:51:13.120
+So that is my computer assistance
+there works that I've made that depend
+
+827
+00:51:13.120 --> 00:51:17.680
+on InDesign to exist, and that is computer
+assistance in a similar way to
+
+828
+00:51:18.120 --> 00:51:23.720
+to to AI generating code
+that generates more writing.
+
+829
+00:51:24.120 --> 00:51:25.960
+And so
+
+830
+00:51:25.960 --> 00:51:29.400
+that is it's a scattershot
+that we've also people
+
+831
+00:51:29.400 --> 00:51:33.080
+who in their process notes are like,
+I did not use AI and I never would to,
+
+832
+00:51:33.120 --> 00:51:37.040
+but they're they've been drawn into
+conversation hopefully with
+
+833
+00:51:38.000 --> 00:51:41.520
+with many of you, like Ellet practitioners
+who have been doing this work
+
+834
+00:51:41.560 --> 00:51:44.600
+a long time and sometimes come away
+from our readings being like,
+
+835
+00:51:44.600 --> 00:51:49.160
+I didn't know Illit existed, like,
+this is this is great.
+
+836
+00:51:50.080 --> 00:51:54.760
+So this is sort of the the field right now
+for what we're doing.
+
+837
+00:51:54.960 --> 00:51:58.640
+And I think there are many ways
+that we could keep
+
+838
+00:51:58.640 --> 00:52:02.080
+pushing what we're doing in Ellet.
+
+839
+00:52:02.880 --> 00:52:05.520
+There are some if I go over here
+
+840
+00:52:05.520 --> 00:52:08.640
+to Gina's some specific ways that
+
+841
+00:52:09.160 --> 00:52:12.160
+that people have been working,
+this could be way more specific.
+
+842
+00:52:12.480 --> 00:52:17.240
+But thinking about Twitter
+bots, blue blue bots, winery chat bots
+
+843
+00:52:18.080 --> 00:52:22.760
+like interface image and video generation
+and text generation as being sort
+
+844
+00:52:22.760 --> 00:52:27.080
+of the scaffolding on the right side
+for what's being composed by an LLM.
+
+845
+00:52:28.160 --> 00:52:32.080
+And then
+our like, really traditional human
+
+846
+00:52:32.120 --> 00:52:38.560
+like analog algorithms like Aleppo
+and N plus one and those sorts.
+
+847
+00:52:38.640 --> 00:52:42.880
+What Yvonne was talking about yesterday,
+thinking about the ways that
+
+848
+00:52:42.880 --> 00:52:46.880
+the mathematics play into the language
+of an analog poem regardless.
+
+849
+00:52:47.280 --> 00:52:50.360
+So I hope this was helpful.
+
+850
+00:52:50.800 --> 00:52:54.760
+This gives gives you a little picture of
+I'll turn these into slides,
+
+851
+00:52:54.760 --> 00:52:58.560
+I'll export them all and share them.
+
+852
+00:53:00.080 --> 00:53:02.120
+But I wanted to move into our
+
+853
+00:53:02.120 --> 00:53:05.120
+our larger discussion.
+
+854
+00:53:06.120 --> 00:53:09.120
+So I'll spotlight our panel.
+
+855
+00:53:13.720 --> 00:53:16.120
+And I wanted to to bring us back
+
+856
+00:53:16.120 --> 00:53:19.120
+around to some of the questions
+that we were thinking about.
+
+857
+00:53:20.320 --> 00:53:23.040
+Let me open my
+
+858
+00:53:23.040 --> 00:53:26.040
+I have a billion tabs open.
+
+859
+00:53:28.320 --> 00:53:30.560
+All of our presentations
+seem to anticipate
+
+860
+00:53:30.560 --> 00:53:34.760
+what computer assisted writing
+looks like at its best, and I wanted
+
+861
+00:53:34.760 --> 00:53:39.000
+to pick back up on if there are any ways
+that AI or algorithms complicate or tamper
+
+862
+00:53:39.000 --> 00:53:42.480
+with our experience of these journals
+and their poetics,
+
+863
+00:53:43.360 --> 00:53:48.200
+ways that you've experienced algorithms
+at their worst, and I wonder if you could
+
+864
+00:53:48.200 --> 00:53:51.720
+speak to the way that you engage
+with AI generated code at taper.
+
+865
+00:53:53.080 --> 00:53:53.760
+Yeah.
+
+866
+00:53:53.760 --> 00:53:55.320
+And I should highlight. Speaking.
+
+867
+00:53:55.320 --> 00:53:58.200
+And speaking as myself,
+because I think there's
+
+868
+00:53:58.200 --> 00:54:02.440
+very different views on Llms
+and their place and things.
+
+869
+00:54:02.440 --> 00:54:05.920
+But taper formally has a agnostic
+
+870
+00:54:05.960 --> 00:54:08.960
+policy towards composition methods.
+
+871
+00:54:09.080 --> 00:54:11.120
+We require a statement, we require code.
+
+872
+00:54:11.120 --> 00:54:14.120
+And so there are decent number of people
+who are using
+
+873
+00:54:15.680 --> 00:54:18.680
+LLM based code
+composition in various ways,
+
+874
+00:54:19.120 --> 00:54:22.120
+and some very good pieces of
+come out of it.
+
+875
+00:54:22.160 --> 00:54:25.640
+Some of I think the critiques I bring up
+are kind of orthogonal
+
+876
+00:54:25.680 --> 00:54:27.600
+to whether they work or not,
+or they're motivated
+
+877
+00:54:27.600 --> 00:54:28.840
+by the fact that they are effective.
+
+878
+00:54:28.840 --> 00:54:34.600
+In some ways,
+I think it does complicate my engagement.
+
+879
+00:54:34.600 --> 00:54:35.640
+As an editor,
+
+880
+00:54:35.640 --> 00:54:39.600
+I would like to know whether code
+is written by hand or not, to know whether
+
+881
+00:54:39.840 --> 00:54:44.120
+like, it's useful for me to read it
+and think about it and talk about it.
+
+882
+00:54:44.160 --> 00:54:48.080
+I mean, I could learn by thinking
+about LLM generated code,
+
+883
+00:54:48.080 --> 00:54:51.440
+but it feels like a waste of my time
+to comment on it.
+
+884
+00:54:51.600 --> 00:54:52.200
+And I
+
+885
+00:54:52.200 --> 00:54:55.240
+yeah, I have to concede to some surprise
+that I thought this constraint
+
+886
+00:54:55.240 --> 00:54:56.600
+would be very hard.
+
+887
+00:54:56.600 --> 00:55:01.280
+And I think at writing,
+doing a lot with a little bit of code,
+
+888
+00:55:02.960 --> 00:55:04.880
+experienced programmers are
+
+889
+00:55:04.880 --> 00:55:09.400
+still much better at that than the LMS,
+but I yeah,
+
+890
+00:55:09.920 --> 00:55:12.760
+I thought it would be pretty hard
+for the lens
+
+891
+00:55:12.760 --> 00:55:15.960
+to produce things that work in this form.
+
+892
+00:55:16.000 --> 00:55:18.920
+People find ways to make it use beyond
+just the things that aren't surprising
+
+893
+00:55:18.920 --> 00:55:22.640
+to me, like documentation, search in this
+and so on.
+
+894
+00:55:23.040 --> 00:55:27.040
+And I do wonder about the sustainability
+
+895
+00:55:27.040 --> 00:55:30.040
+of free submission and.
+
+896
+00:55:31.920 --> 00:55:35.760
+Sort of open composition agnostic things.
+
+897
+00:55:35.760 --> 00:55:38.760
+But I do think the best version of taper
+
+898
+00:55:39.040 --> 00:55:41.520
+is able to
+
+899
+00:55:41.520 --> 00:55:43.960
+consider the works
+
+900
+00:55:43.960 --> 00:55:47.680
+in their statement,
+their code and their presentation.
+
+901
+00:55:47.720 --> 00:55:50.720
+And they're like, implement
+their execution.
+
+902
+00:55:53.400 --> 00:55:56.160
+On their own merits cohesively
+
+903
+00:55:56.160 --> 00:55:59.160
+and and in fine detail.
+
+904
+00:56:02.480 --> 00:56:03.920
+Yeah.
+
+905
+00:56:03.920 --> 00:56:06.600
+Thanks. Glenn or Kara, I don't know.
+
+906
+00:56:06.600 --> 00:56:09.600
+What are you thinking about?
+
+907
+00:56:15.560 --> 00:56:17.040
+This is a little bit
+
+908
+00:56:17.040 --> 00:56:21.120
+tangential from what you actually ask,
+but I'm going to go there anyway.
+
+909
+00:56:21.480 --> 00:56:25.520
+What I find so interesting
+to think about Instagram,
+
+910
+00:56:25.520 --> 00:56:30.160
+because I predominantly study
+Instagram poetry or poetry in general,
+
+911
+00:56:30.160 --> 00:56:36.000
+and poetry is like the Achilles
+heel to AI systems.
+
+912
+00:56:36.000 --> 00:56:37.440
+It can jailbreak a lot of AI, and
+
+913
+00:56:37.440 --> 00:56:41.240
+I just think that's particularly poetic
+and I really enjoy that.
+
+914
+00:56:41.280 --> 00:56:46.000
+So I have been thinking
+about that and about,
+
+915
+00:56:47.360 --> 00:56:49.920
+yeah, we might
+
+916
+00:56:49.920 --> 00:56:53.720
+try to reclaim
+the glory days of social media before
+
+917
+00:56:53.720 --> 00:56:59.760
+it was all shut down and really difficult
+to actually burst through those frames.
+
+918
+00:56:59.760 --> 00:57:05.360
+And I don't know, like looking at
+social media today and trying to produce
+
+919
+00:57:05.680 --> 00:57:10.360
+literary content that goes on there
+when everything else is clearly AI slop.
+
+920
+00:57:10.360 --> 00:57:13.920
+It's a little soul sucking
+
+921
+00:57:15.080 --> 00:57:17.280
+to have to be in that space, right?
+
+922
+00:57:17.280 --> 00:57:21.120
+I don't know if others feel this way, but
+things that are just so produced by AI.
+
+923
+00:57:22.280 --> 00:57:24.680
+You just get really sick of
+it really quickly.
+
+924
+00:57:24.680 --> 00:57:27.920
+So I think it's important
+to try to find other ways
+
+925
+00:57:27.920 --> 00:57:31.880
+to inhabit those spaces, or other spaces
+to try to inhabit.
+
+926
+00:57:32.920 --> 00:57:35.280
+That's my very random thoughts.
+
+927
+00:57:35.280 --> 00:57:37.200
+AI exhaustion 100%.
+
+928
+00:57:37.200 --> 00:57:40.200
+Yeah.
+
+929
+00:57:41.880 --> 00:57:45.880
+So yeah, as I'm listening to you all the.
+
+930
+00:57:46.280 --> 00:57:50.720
+Way that I can think about
+it comes less from a fielding publications
+
+931
+00:57:51.320 --> 00:57:55.960
+perspective and definitely more from
+I definitely get the AI exhaustion.
+
+932
+00:57:55.960 --> 00:58:01.360
+As somebody who got really interested
+in the AI fruit drama videos
+
+933
+00:58:01.360 --> 00:58:05.680
+that have been going around on Instagram,
+and it's hard for somebody like me
+
+934
+00:58:05.680 --> 00:58:09.160
+that's more interested
+in things like cultural jamming and
+
+935
+00:58:10.200 --> 00:58:13.200
+frankly, just like shit posting as well.
+
+936
+00:58:13.360 --> 00:58:15.760
+Not to see like the poetics of it.
+
+937
+00:58:15.760 --> 00:58:19.920
+And my favorite example of
+that is kind of holding
+
+938
+00:58:19.920 --> 00:58:22.920
+the mirror up to it, where,
+
+939
+00:58:24.400 --> 00:58:27.200
+kind of like the worst turned
+
+940
+00:58:27.200 --> 00:58:32.600
+organically or like humanly comical
+has been the people who are now
+
+941
+00:58:32.720 --> 00:58:37.560
+writing their own AI drama scripts by hand
+
+942
+00:58:37.560 --> 00:58:41.920
+and acting them out with cardboard
+made props and etc., etc.
+
+943
+00:58:41.920 --> 00:58:46.160
+so that's just more of the productive
+angle that I look at it.
+
+944
+00:58:46.200 --> 00:58:51.000
+I mean, obviously it's it's hard
+being somebody who's AI agnostic
+
+945
+00:58:51.000 --> 00:58:55.680
+and sees like Kaveh mentioned, Belfast
+
+946
+00:58:55.720 --> 00:59:00.680
+just earlier and that's actually been
+an increasing area of study.
+
+947
+00:59:00.680 --> 00:59:03.960
+Whereas when I started my work
+on Belfast's
+
+948
+00:59:04.840 --> 00:59:09.920
+paramilitary murals and stuff like that,
+the worst we would see was just kind of
+
+949
+00:59:09.960 --> 00:59:14.840
+like placard painted, printed stuff
+rather than hand-painted stuff.
+
+950
+00:59:14.840 --> 00:59:19.200
+So the recent emergence and just
+
+951
+00:59:20.320 --> 00:59:22.320
+the recent emergence of AI
+
+952
+00:59:22.320 --> 00:59:26.640
+imagery, with that sense of expediency
+of printing it and getting it in
+
+953
+00:59:26.640 --> 00:59:30.760
+front of tourists
+largely is pretty interesting
+
+954
+00:59:30.800 --> 00:59:35.760
+to see, insofar
+is that these communities, who are more
+
+955
+00:59:36.640 --> 00:59:41.480
+rooted in a systemic racism,
+can't help but show their hands.
+
+956
+00:59:41.480 --> 00:59:45.840
+So it's the it's the nastiest
+elements of it, but it does become
+
+957
+00:59:46.960 --> 00:59:47.800
+productive.
+
+958
+00:59:47.800 --> 00:59:52.760
+It's a productive tension
+as far as trying to look at other ways
+
+959
+00:59:52.760 --> 00:59:56.560
+of looking at what AI generates
+and how it generates it.
+
+960
+00:59:56.600 --> 01:00:00.560
+If, you know,
+if not from a looking at the code
+
+961
+01:00:00.560 --> 01:00:03.560
+or having the accessibility
+to look at the code.
+
+962
+01:00:05.520 --> 01:00:07.000
+I know we're running up on time,
+
+963
+01:00:07.000 --> 01:00:11.040
+but I wanted to respond to Yvonne
+said, curious about code chauvinism.
+
+964
+01:00:11.040 --> 01:00:12.760
+If someone is trying to do something
+and googles
+
+965
+01:00:12.760 --> 01:00:15.160
+it, gets a snippet from StackOverflow
+and uses it,
+
+966
+01:00:15.160 --> 01:00:17.720
+is that preferable
+as an editor than an LLM?
+
+967
+01:00:17.720 --> 01:00:18.840
+Searching a StackOverflow
+
+968
+01:00:18.840 --> 01:00:22.200
+and getting the same snippet
+or generating the same snippet?
+
+969
+01:00:22.600 --> 01:00:25.600
+And I wonder if that connects
+to what you're saying about
+
+970
+01:00:25.600 --> 01:00:30.560
+like relational and rule bound venues
+like that, that we are
+
+971
+01:00:30.920 --> 01:00:35.560
+you're consenting to a social dynamic
+when you publish in a magazine
+
+972
+01:00:36.120 --> 01:00:38.600
+that you
+you have seen the submission protocols
+
+973
+01:00:38.600 --> 01:00:41.640
+and the guidelines and the codes
+are all clear for you to read
+
+974
+01:00:41.640 --> 01:00:44.640
+the magazine and say,
+this is a place that I want to be,
+
+975
+01:00:44.680 --> 01:00:49.240
+and you participated in it in a way that.
+
+976
+01:00:52.480 --> 01:00:54.800
+That the LM.
+
+977
+01:00:54.800 --> 01:00:59.200
+Oh, well, one said, I bring up questions
+of proof of work around to value judgments
+
+978
+01:00:59.200 --> 01:01:01.040
+that are pretty inescapable
+from capitalism.
+
+979
+01:01:01.040 --> 01:01:04.040
+Our production. Yeah.
+
+980
+01:01:04.680 --> 01:01:08.280
+Speak briefly to that
+since we are fairly code focused.
+
+981
+01:01:08.320 --> 01:01:12.240
+I mean, I think editorial position
+is still that it's all equal.
+
+982
+01:01:12.280 --> 01:01:12.600
+Right?
+
+983
+01:01:12.600 --> 01:01:16.840
+So I may have different feelings,
+but it's the publication
+
+984
+01:01:16.840 --> 01:01:19.200
+decisions are not tied to
+how the code was written.
+
+985
+01:01:19.200 --> 01:01:20.240
+That is the policy.
+
+986
+01:01:20.240 --> 01:01:22.240
+It could be discussed,
+it could be changed.
+
+987
+01:01:22.240 --> 01:01:25.240
+But to the issue,
+
+988
+01:01:26.480 --> 01:01:30.680
+it's again a question of individual versus
+sort of systemic choices.
+
+989
+01:01:30.680 --> 01:01:35.520
+And there I think what's useful about
+going to some of the earlier histories
+
+990
+01:01:35.520 --> 01:01:40.520
+and bringing up free
+and open source communities
+
+991
+01:01:40.520 --> 01:01:45.920
+and bringing them at the art world
+contexts, and ideally doing so with a
+
+992
+01:01:46.440 --> 01:01:50.280
+deliberate reflection about what
+to carry forward and what to forget
+
+993
+01:01:50.320 --> 01:01:53.680
+is that this is not just about
+the critique of like, vibe coding.
+
+994
+01:01:53.680 --> 01:01:59.960
+It's a also a critique of all the
+sloppiness of corporate closed software.
+
+995
+01:01:59.960 --> 01:02:03.480
+And I think this is a problem in our lives
+in a big way.
+
+996
+01:02:03.520 --> 01:02:05.080
+It's not just an artisanal problem.
+
+997
+01:02:05.080 --> 01:02:08.680
+It's a problem of like extreme
+vulnerability to ransomware.
+
+998
+01:02:08.720 --> 01:02:10.200
+State governments getting shut down
+
+999
+01:02:10.200 --> 01:02:14.240
+or library system was out for months,
+and it's worse in wartime.
+
+1000
+01:02:15.240 --> 01:02:18.240
+So that's
+one problem that the sort of like
+
+1001
+01:02:18.240 --> 01:02:22.240
+something has gone wrong,
+like I believe in a critique, even within
+
+1002
+01:02:23.800 --> 01:02:27.160
+some forms of capitalist
+modernist economy,
+
+1003
+01:02:27.560 --> 01:02:31.120
+there are different
+kinds of capitalist modernist economy.
+
+1004
+01:02:31.120 --> 01:02:34.800
+And what Microsoft is,
+is like producing software
+
+1005
+01:02:34.800 --> 01:02:38.440
+that's not very functional
+for our uses and planet.
+
+1006
+01:02:38.440 --> 01:02:41.080
+And so in that sense,
+it is tied to a learning process.
+
+1007
+01:02:41.080 --> 01:02:44.080
+And I totally concede that like
+
+1008
+01:02:44.960 --> 01:02:48.760
+an LM kind of code, collage can be a way
+
+1009
+01:02:48.760 --> 01:02:51.800
+of learning about code and about software
+and interacting with it.
+
+1010
+01:02:51.800 --> 01:02:54.800
+There's all the questions around it.
+
+1011
+01:02:55.080 --> 01:02:58.080
+And yes, it is a sort of
+
+1012
+01:02:59.360 --> 01:03:01.600
+of a privilege
+
+1013
+01:03:01.600 --> 01:03:06.560
+sort of insider question, but I value
+expertise even in an industrial society.
+
+1014
+01:03:06.600 --> 01:03:12.600
+And I think valuing repair and expertise
+and equalizing our values of repair
+
+1015
+01:03:12.600 --> 01:03:18.000
+and expertise between crafts
+means valuing code as as a craft.
+
+1016
+01:03:18.000 --> 01:03:21.200
+It doesn't mean all composition
+has to be done by by hand coding.
+
+1017
+01:03:21.200 --> 01:03:25.360
+But but I am proud or interested
+in taper as a publication.
+
+1018
+01:03:25.360 --> 01:03:26.320
+Not all publications
+
+1019
+01:03:26.320 --> 01:03:30.320
+have to take that space,
+but I like the the the ones that encourage
+
+1020
+01:03:30.480 --> 01:03:36.000
+sort of engaging with the craft of coding,
+even during the sort of proletarian
+
+1021
+01:03:36.000 --> 01:03:41.760
+izing of code and the structural
+vulnerabilities of building
+
+1022
+01:03:41.760 --> 01:03:45.240
+all the software that people's life depend
+on, that no one knows how it works.
+
+1023
+01:03:49.840 --> 01:03:52.960
+I think
+we're running up on our time for today.
+
+1024
+01:03:52.960 --> 01:03:55.800
+Thank you all so much
+for being a part of this panel,
+
+1025
+01:03:55.800 --> 01:03:58.840
+and thank you all for your questions
+and comments.
+
+1026
+01:03:58.920 --> 01:04:03.120
+We're really grateful for your time,
+and we hope to see you again
+
+1027
+01:04:03.120 --> 01:04:04.640
+at some other panels today.

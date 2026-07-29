@@ -1,0 +1,859 @@
+WEBVTT
+
+1
+00:13:18.520 --> 00:13:20.480
+Hi, I'm
+
+2
+00:13:20.480 --> 00:13:26.560
+Maria Garay, and I'm a PhD student
+at the University of Salamanca in Spain.
+
+3
+00:13:26.600 --> 00:13:30.640
+And what I'm going to talk about here
+is part of my PhD,
+
+4
+00:13:30.680 --> 00:13:34.600
+which in general— as a general project,
+aims to look
+
+5
+00:13:34.600 --> 00:13:38.600
+at the aesthetics
+and politics of code poetry.
+
+6
+00:13:38.600 --> 00:13:42.400
+I don't want to get too much
+into classifications,
+
+7
+00:13:42.400 --> 00:13:47.800
+but my focus on code poetry
+is specifically in that which is written
+
+8
+00:13:47.800 --> 00:13:53.000
+in programing languages, whose text
+is made up of syntactically correct
+
+9
+00:13:53.000 --> 00:13:58.640
+and potentially executable code, 
+and whether it produces an output or not.
+
+10
+00:13:58.640 --> 00:14:02.440
+But for the sake of clarity,
+things like [?]
+
+11
+00:14:02.440 --> 00:14:06.680
+and some of Jodi's works
+would be, for example,
+
+12
+00:14:06.720 --> 00:14:10.000
+outside of the scope of my research.
+
+13
+00:14:11.320 --> 00:14:15.560
+And what I'm going to talk about
+is also quite different
+
+14
+00:14:15.560 --> 00:14:19.040
+to what I initially proposed,
+because recently I've come into an avenue
+
+15
+00:14:19.040 --> 00:14:22.040
+of looking at the relationship
+between code poetry and labor that
+
+16
+00:14:22.040 --> 00:14:25.920
+I thought would be more exciting
+to explore here.
+
+17
+00:14:26.200 --> 00:14:30.360
+One of the tasks
+that I've been addressing
+
+18
+00:14:30.520 --> 00:14:34.160
+recently in my PhD
+has been that of seeing
+
+19
+00:14:34.160 --> 00:14:38.480
+how code poetry integrates
+into the wider genealogies of poetry.
+
+20
+00:14:38.520 --> 00:14:44.600
+And it turns out that this integration
+is also deeply linked with labor.
+
+21
+00:14:44.600 --> 00:14:48.800
+There are two instances
+that I will pinpoint today
+
+22
+00:14:48.800 --> 00:14:50.560
+to approach this relationship.
+
+23
+00:14:50.560 --> 00:14:55.480
+One kind of in the most recent history
+related to code poetry,
+
+24
+00:14:55.480 --> 00:14:59.240
+and then another one looking further back
+into the origins of poetry
+
+25
+00:14:59.240 --> 00:15:02.360
+and how both of these
+are connected through the idea of labor.
+
+26
+00:15:03.600 --> 00:15:04.640
+So the first
+
+27
+00:15:04.640 --> 00:15:08.960
+instance that I wanted to look at
+is the seed of code poetry as a genre,
+
+28
+00:15:09.640 --> 00:15:13.480
+which I trace back to “Just another Perl
+hacker” program.
+
+29
+00:15:13.520 --> 00:15:14.960
+And here.
+
+30
+00:15:14.960 --> 00:15:18.640
+So I work in Spain,
+and I've never heard the acronym for “Just
+
+31
+00:15:18.640 --> 00:15:20.320
+another Perl hacker”
+pronounced in English.
+
+32
+00:15:20.320 --> 00:15:24.160
+So if I completely made up
+the pronunciation of this acronym,
+
+33
+00:15:24.160 --> 00:15:25.400
+please feel free to let me know.
+
+34
+00:15:25.400 --> 00:15:28.400
+I've been calling it “japes.”
+I don't know if that's right.
+
+35
+00:15:29.360 --> 00:15:31.480
+But, yeah,
+
+36
+00:15:31.480 --> 00:15:35.080
+“japes.” Short programs
+whose only function
+
+37
+00:15:35.080 --> 00:15:38.600
+is to print the sentence “Just
+another Perl hacker” into a console.
+
+38
+00:15:38.600 --> 00:15:42.800
+And just in case
+this is not familiar to everyone,
+
+39
+00:15:42.920 --> 00:15:46.920
+they became really popular amongst
+Perl programmers to use as signatures
+
+40
+00:15:46.920 --> 00:15:50.960
+and emails or online forums
+when Perl came into use.
+
+41
+00:15:51.120 --> 00:15:55.320
+And “Just another Perl hacker” programs,
+they have to be brief enough
+
+42
+00:15:55.320 --> 00:15:56.880
+to fit a signature.
+
+43
+00:15:56.880 --> 00:16:00.360
+And they tend to consist of creatively
+
+44
+00:16:00.400 --> 00:16:04.320
+obfuscated code,
+so they are formally quite constrained.
+
+45
+00:16:04.720 --> 00:16:10.440
+This premise is really simple,
+but precisely because of that,
+
+46
+00:16:10.440 --> 00:16:15.760
+when you look at the village of “japes”
+that ended up being produced, you find a
+
+47
+00:16:17.080 --> 00:16:17.880
+really wide
+
+48
+00:16:17.880 --> 00:16:21.920
+scope of experiments
+which are really similar
+
+49
+00:16:21.920 --> 00:16:26.120
+to those in concrete
+poetry and European constraint literature.
+
+50
+00:16:26.160 --> 00:16:30.400
+For example,
+
+51
+00:16:30.680 --> 00:16:34.800
+you get “japes” that only use characters
+
+52
+00:16:34.800 --> 00:16:38.720
+that don't exceed their writing line,
+
+53
+00:16:38.720 --> 00:16:44.800
+so that don't go either
+above or under kind of their, their line.
+
+54
+00:16:44.800 --> 00:16:48.800
+This was itself a constraint
+proposed by members of the Oulipo
+
+55
+00:16:48.800 --> 00:16:53.200
+when they imagined a man that had access
+to very little paper,
+
+56
+00:16:53.200 --> 00:16:57.280
+and that in order to maximize the—
+
+57
+00:16:57.280 --> 00:16:59.680
+optimize
+the amount of space that they were using,
+
+58
+00:16:59.680 --> 00:17:03.280
+they could only use characters
+that didn't go above or below,
+
+59
+00:17:03.280 --> 00:17:07.400
+and someone re-imagined this constraint
+in Perl.
+
+60
+00:17:07.400 --> 00:17:11.720
+For example, there are “japes”
+that only use— that are written only
+
+61
+00:17:11.720 --> 00:17:17.960
+using punctuation, or there are others
+in which the code itself is ASCII art.
+
+62
+00:17:18.200 --> 00:17:22.320
+So it's a mix of things
+that were happening
+
+63
+00:17:22.320 --> 00:17:27.440
+already in concrete poetry and Oulipian
+literature that kind of end up
+
+64
+00:17:27.440 --> 00:17:30.760
+bleeding into
+
+65
+00:17:30.760 --> 00:17:35.560
+what people were doing with “japes.”
+And the reason I'm going to “japes”
+
+66
+00:17:35.560 --> 00:17:40.880
+is because these already
+look or like, feel like
+
+67
+00:17:42.400 --> 00:17:44.560
+proto code poems, right?
+
+68
+00:17:44.560 --> 00:17:47.040
+Or not
+even proto, just like proper code poems.
+
+69
+00:17:47.040 --> 00:17:53.440
+But as a genre, the first code poem
+that is recognized as such
+
+70
+00:17:53.920 --> 00:17:59.600
+is this famous haiku by Larry Wall.
+
+71
+00:18:01.040 --> 00:18:04.480
+Which was produced
+
+72
+00:18:04.480 --> 00:18:10.280
+as a dare to him, or was proposed
+as a dare to him by Sharon Hopkins.
+
+73
+00:18:10.280 --> 00:18:12.040
+And then she was kind of the one that took
+
+74
+00:18:12.040 --> 00:18:16.040
+it further and became the catalyst
+for a lot more Perl poetry being made.
+
+75
+00:18:16.040 --> 00:18:20.640
+She kind of popularized the genre,
+and that's why this one is considered
+
+76
+00:18:20.880 --> 00:18:24.560
+the first one, I would say,
+although that's a bit nebulous.
+
+77
+00:18:26.400 --> 00:18:30.640
+But the reason why “japes” seem special
+is because they gave programmers
+
+78
+00:18:30.640 --> 00:18:33.640
+a form in which the code that they wrote
+
+79
+00:18:33.640 --> 00:18:37.040
+had the explicit role of being read.
+
+80
+00:18:37.040 --> 00:18:40.480
+This wasn't kind of a secondary thing
+to their function,
+
+81
+00:18:40.480 --> 00:18:43.240
+but it was because the function was given
+for all of them.
+
+82
+00:18:43.240 --> 00:18:48.200
+They all just had to produce to print
+“Just another Perl hacker” into a console.
+
+83
+00:18:48.240 --> 00:18:50.440
+Then the focus was put elsewhere.
+
+84
+00:18:50.440 --> 00:18:54.680
+The important part is what
+the code itself looks like, and that it—
+
+85
+00:18:55.000 --> 00:18:58.880
+and that they serve
+as kind of a personal signature style.
+
+86
+00:18:59.120 --> 00:19:02.600
+It's code made explicitly to be seen
+and to be recognized
+
+87
+00:19:02.600 --> 00:19:05.600
+as someone's artwork.
+
+88
+00:19:05.800 --> 00:19:10.480
+With this story, I want to make 
+that most recent connection with labor,
+
+89
+00:19:10.480 --> 00:19:13.480
+and that is that code poetry stems
+
+90
+00:19:13.480 --> 00:19:18.800
+not from poets or artists
+that were looking to express themselves
+
+91
+00:19:18.800 --> 00:19:23.920
+in a new medium and then arrived to code,
+but rather from workers of code
+
+92
+00:19:23.960 --> 00:19:29.080
+that being intimately acquainted
+with their material, began using it for
+
+93
+00:19:29.080 --> 00:19:34.320
+aesthetic and playful and ludic
+means beyond code’s executable function.
+
+94
+00:19:34.360 --> 00:19:40.000
+So we can see here how code poetry happens
+as an excess of work.
+
+95
+00:19:40.040 --> 00:19:45.600
+And this is the idea that kind of gives
+name to what— my talk today.
+
+96
+00:19:46.440 --> 00:19:48.680
+That's kind of half of the story.
+
+97
+00:19:48.680 --> 00:19:52.600
+And then the other story
+that I have been focusing on recently
+
+98
+00:19:52.600 --> 00:19:58.280
+and that I established
+a bit of a tentative parallelism
+
+99
+00:19:58.480 --> 00:20:02.320
+with the one I've just told
+is a much more older one.
+
+100
+00:20:03.160 --> 00:20:06.360
+In when when understanding
+how code poetry is part
+
+101
+00:20:06.360 --> 00:20:10.400
+of a longer
+literary history, I have ended up looking
+
+102
+00:20:11.560 --> 00:20:15.000
+to much
+more ancient times that I had predicted,
+
+103
+00:20:15.000 --> 00:20:19.680
+and have ended up turning to the pre
+literate and prehistorical origins
+
+104
+00:20:19.680 --> 00:20:23.840
+of poetry itself,
+which seems a bit excessive,
+
+105
+00:20:23.880 --> 00:20:30.000
+a bit of a stretch, but surprisingly,
+this is where it has taken me.
+
+106
+00:20:30.000 --> 00:20:33.080
+And I will try to explain
+
+107
+00:20:33.080 --> 00:20:36.400
+how both histories echo each other.
+
+108
+00:20:36.800 --> 00:20:40.560
+The one of code poetry
+and then poetry in general.
+
+109
+00:20:40.920 --> 00:20:46.280
+I arrived at this
+because there's a Marxist literary
+
+110
+00:20:46.280 --> 00:20:52.080
+critic called George Thomson,
+who in the mid 20th century suggested
+
+111
+00:20:52.080 --> 00:20:55.920
+that there is a strict link between labor
+and the emergence of poetry.
+
+112
+00:20:55.960 --> 00:21:00.080
+His hypothesis was that 
+when hominids were learning
+
+113
+00:21:00.120 --> 00:21:03.840
+to use heavy tools
+and trying to coordinate collective labor,
+
+114
+00:21:04.160 --> 00:21:09.600
+they kind of reflexively emitted
+these rhythmic and repetitive grunts.
+
+115
+00:21:09.640 --> 00:21:13.320
+So everyone was lifting these heavy things
+and at the same time,
+
+116
+00:21:13.360 --> 00:21:16.680
+and needed this coordinating apparatus.
+
+117
+00:21:16.680 --> 00:21:21.440
+And as the use of tools is perfected,
+
+118
+00:21:21.480 --> 00:21:26.400
+these sounds become more articulate,
+but they also become unnecessary
+
+119
+00:21:26.400 --> 00:21:31.720
+because they no longer need
+this sonorous apparatus to coordinate it.
+
+120
+00:21:32.200 --> 00:21:35.480
+But he says that this
+
+121
+00:21:37.120 --> 00:21:41.320
+sound structure survives in
+
+122
+00:21:41.320 --> 00:21:45.360
+the rituals, then performed as a rehearsal
+for a task carried out.
+
+123
+00:21:45.360 --> 00:21:50.920
+So when when the sound doesn't
+directly accompany the task, it
+
+124
+00:21:50.960 --> 00:21:55.400
+branches out to become a mimetic dance
+
+125
+00:21:55.400 --> 00:21:58.400
+that prepares people
+
+126
+00:22:00.960 --> 00:22:04.160
+for the— for a successful reality.
+
+127
+00:22:04.200 --> 00:22:07.320
+So the rituals have a function
+akin to magic.
+
+128
+00:22:07.320 --> 00:22:11.080
+It is performed in order to
+
+129
+00:22:12.080 --> 00:22:15.000
+improve the task that is going to happen
+
+130
+00:22:15.000 --> 00:22:21.000
+by some symbolic link between the dance
+and the task itself.
+
+131
+00:22:21.080 --> 00:22:25.200
+So Thomson's theory
+is that formally patterned poetic
+
+132
+00:22:25.200 --> 00:22:30.400
+speech is born out of work with tools,
+and the idea that you can effect reality
+
+133
+00:22:30.400 --> 00:22:34.600
+with incantation the same way you
+can effect it with a manufactured tool.
+
+134
+00:22:34.840 --> 00:22:38.280
+This is a beautiful proposal, of course,
+but it remains hypothetical
+
+135
+00:22:38.280 --> 00:22:41.280
+and also written in 1945.
+
+136
+00:22:41.320 --> 00:22:46.960
+But more recent studies,
+like Christopher Collins’s “Paleopoetics,”
+
+137
+00:22:47.080 --> 00:22:51.440
+show that word and tool
+do actually come together in ritual,
+
+138
+00:22:51.440 --> 00:22:57.360
+and that in that form, speech
+becomes a similar artifact to the tool.
+
+139
+00:22:57.400 --> 00:23:01.960
+So he makes the comparison between
+conversational speech and poetic speech
+
+140
+00:23:02.000 --> 00:23:07.080
+in the sense that a conversational speech
+works as a found tool.
+
+141
+00:23:07.080 --> 00:23:10.880
+So the way you would find a stick
+and maybe use it for a bit on your walk
+
+142
+00:23:10.920 --> 00:23:12.400
+through— on your hike
+through the mountains,
+
+143
+00:23:12.400 --> 00:23:15.840
+but then discard it, versus
+how poetic speech
+
+144
+00:23:15.840 --> 00:23:19.760
+becomes an artifact
+that you keep and reuse.
+
+145
+00:23:19.760 --> 00:23:24.440
+And that sticks
+the same way when you make a knife,
+
+146
+00:23:24.480 --> 00:23:25.520
+you're not going to throw it out.
+
+147
+00:23:25.520 --> 00:23:28.520
+You're going to keep it
+because it's useful again and again.
+
+148
+00:23:28.520 --> 00:23:32.400
+So in these manufactured artifacts
+
+149
+00:23:32.400 --> 00:23:38.600
+that are poetic 
+objects, rhythm and repetition
+
+150
+00:23:38.600 --> 00:23:42.240
+are preserved as characteristics
+of their kind of speech.
+
+151
+00:23:42.240 --> 00:23:47.880
+And in being performed again and again
+as rituals,
+
+152
+00:23:48.000 --> 00:23:52.920
+these form into formal patterns and become
+more structured as they get repeated.
+
+153
+00:23:52.920 --> 00:23:57.960
+So from this kind of second, more ancient
+story of the prehistory of poetry,
+
+154
+00:23:58.000 --> 00:24:03.560
+I want to derive the idea
+that in many ways, poetry is born
+
+155
+00:24:03.600 --> 00:24:09.120
+out of an act that aspires to be
+executable, so that poetry has always
+
+156
+00:24:09.640 --> 00:24:12.120
+did aspire to be a bit of a program
+
+157
+00:24:12.120 --> 00:24:16.160
+that can effect reality
+the same way at all— does.
+
+158
+00:24:16.200 --> 00:24:21.040
+The history of executable speech
+and the idea that symbols
+
+159
+00:24:21.040 --> 00:24:25.240
+can be transmuted into action
+is well known and really long.
+
+160
+00:24:25.240 --> 00:24:31.120
+For example, Florian Cramer
+retells a quite comprehensive
+
+161
+00:24:31.160 --> 00:24:34.360
+kind of catalog of this story in his book
+Words Made Flesh.
+
+162
+00:24:34.400 --> 00:24:38.880
+So it's not really that
+what I'm saying here is new at all,
+
+163
+00:24:38.880 --> 00:24:43.080
+but my aim is to orient
+the understanding of the origins of code
+
+164
+00:24:43.080 --> 00:24:47.080
+poetry as an excess born
+out of the peripheries of labor
+
+165
+00:24:47.120 --> 00:24:51.800
+that kind of turn to aesthetic purposes,
+non instrumental, nonfunctional aesthetic
+
+166
+00:24:51.800 --> 00:24:56.720
+purposes, and also to show how this echoes
+the origins of poetry itself,
+
+167
+00:24:56.760 --> 00:25:02.120
+that executable speech stands out
+of the desire to work, to change reality.
+
+168
+00:25:02.120 --> 00:25:06.360
+And from it we get the formal patterning
+that historically governs
+
+169
+00:25:06.360 --> 00:25:10.880
+poetic speech and that code,
+which is the executable
+
+170
+00:25:10.880 --> 00:25:14.800
+speech of today—
+executable texts of today.
+
+171
+00:25:14.840 --> 00:25:17.520
+Although—
+well, I'm not going to get into that.
+
+172
+00:25:17.520 --> 00:25:22.120
+But code that the executed—
+as the executable text of today
+
+173
+00:25:22.120 --> 00:25:25.440
+that does effect reality further
+
+174
+00:25:25.480 --> 00:25:28.800
+than a change in attitude towards the task
+
+175
+00:25:29.800 --> 00:25:30.640
+they effect.
+
+176
+00:25:30.640 --> 00:25:33.680
+Physical reality also produces its own
+
+177
+00:25:33.720 --> 00:25:38.560
+excess, its own code
+with poetic intention
+
+178
+00:25:38.560 --> 00:25:42.440
+that follows formal patterns
+beyond functional ones.
+
+179
+00:25:42.840 --> 00:25:45.480
+I hope I stuck to time.
+
+180
+00:25:45.480 --> 00:25:48.400
+This is kind of the summary of my point.
+
+181
+00:25:48.400 --> 00:25:51.400
+I hope that makes sense.

@@ -1,0 +1,1210 @@
+WEBVTT
+
+1
+00:00:00.920 --> 00:00:04.080
+Up. We have a Kong or Kathryn Kong
+
+2
+00:00:04.360 --> 00:00:07.760
+with algorithmic narrators, linguistic
+boundaries, and institutionalized
+
+3
+00:00:07.760 --> 00:00:11.480
+cultural storytelling across
+generative AI systems.
+
+4
+00:00:11.520 --> 00:00:13.840
+Katherine, take it away.
+
+5
+00:00:13.840 --> 00:00:14.760
+Thank you.
+
+6
+00:00:14.760 --> 00:00:19.440
+And I'm glad to share with you
+about my research findings here.
+
+7
+00:00:19.480 --> 00:00:22.480
+Let me share my screen.
+
+8
+00:00:29.560 --> 00:00:32.560
+I was able to see my screen here.
+
+9
+00:00:33.880 --> 00:00:35.680
+Yes. Okay.
+
+10
+00:00:35.680 --> 00:00:39.560
+So today I'm going to present
+about my findings, about my study.
+
+11
+00:00:39.560 --> 00:00:43.000
+But as you guys may have,
+will have not realized.
+
+12
+00:00:43.040 --> 00:00:46.040
+Like,
+I have changed my research title bit.
+
+13
+00:00:46.120 --> 00:00:50.240
+I like shifted from the algorithm
+narrators
+
+14
+00:00:50.280 --> 00:00:53.000
+to institutionalize storytellers.
+
+15
+00:00:53.000 --> 00:00:56.640
+This is the course when I do my research,
+I suddenly realized, actually,
+
+16
+00:00:56.640 --> 00:01:00.960
+I may not be able to get access
+to the underlying algorithms.
+
+17
+00:01:01.000 --> 00:01:04.840
+Those are in the black box as we talk
+about, and I can never touch them.
+
+18
+00:01:04.840 --> 00:01:09.800
+And also on other side,
+I realized like the angle is like
+
+19
+00:01:09.840 --> 00:01:13.560
+the linguistic processing logic underlying
+
+20
+00:01:13.560 --> 00:01:17.200
+these large language models
+are actually very similar to each other.
+
+21
+00:01:17.200 --> 00:01:20.080
+So let's not what something
+I want to talk about.
+
+22
+00:01:20.080 --> 00:01:23.600
+Instead, what I want to talk about is
+I want to talk
+
+23
+00:01:23.640 --> 00:01:27.760
+about the institutions
+around the algorithms,
+
+24
+00:01:27.800 --> 00:01:31.560
+like the company's product strategies,
+the training data choices,
+
+25
+00:01:31.560 --> 00:01:36.560
+and also the alignment preferences
+and the regulatory environment.
+
+26
+00:01:36.600 --> 00:01:41.040
+These are the institutional elements
+like may affect the output
+
+27
+00:01:41.080 --> 00:01:44.320
+or responses of different
+generative AI systems.
+
+28
+00:01:44.320 --> 00:01:48.920
+So why I started doing this
+research is some like social media trends
+
+29
+00:01:48.920 --> 00:01:54.160
+and various videos, and
+which interested me to start my research.
+
+30
+00:01:54.200 --> 00:01:58.520
+On the left side you can see as a video
+I can play with you guys for guys,
+
+31
+00:01:58.520 --> 00:02:02.280
+but I muted it
+because I don't think as like
+
+32
+00:02:02.320 --> 00:02:05.360
+the content is a little bit sensitivity,
+but it's just
+
+33
+00:02:05.360 --> 00:02:09.400
+the video of a Korean influencer
+recorded himself
+
+34
+00:02:09.440 --> 00:02:13.280
+fighting with the AI system,
+which is still developed
+
+35
+00:02:13.280 --> 00:02:17.320
+by the same company
+as the wing and data owner.
+
+36
+00:02:17.440 --> 00:02:22.280
+Yeah, so it is belonged
+to is developed by the company
+
+37
+00:02:22.280 --> 00:02:25.800
+and it's deeply embedded
+in doing ecosystem.
+
+38
+00:02:25.800 --> 00:02:27.880
+But it's banned in the United States.
+
+39
+00:02:27.880 --> 00:02:32.200
+And Doughboy can speak
+Korean, can speak different languages.
+
+40
+00:02:32.200 --> 00:02:33.880
+But the voice over of the
+
+41
+00:02:33.880 --> 00:02:37.720
+well only contains Chinese
+and is not available in Korean.
+
+42
+00:02:37.720 --> 00:02:42.400
+But the influencer, he can speak fluent
+English, English, Chinese and Korean,
+
+43
+00:02:42.400 --> 00:02:48.600
+and in his like interaction with Doble,
+he constantly like gave prompts
+
+44
+00:02:48.640 --> 00:02:53.120
+like trying to pick up
+fights with the ball and trying to make
+
+45
+00:02:53.720 --> 00:02:58.320
+something like about Chinese people's
+stereotypes towards Korean people.
+
+46
+00:02:58.320 --> 00:03:01.200
+And that's a lot of people
+find fun about it.
+
+47
+00:03:01.200 --> 00:03:04.040
+So I'm not trying to endorse it
+with something like that.
+
+48
+00:03:04.040 --> 00:03:08.400
+I just want to show like
+there is a interaction, like new,
+
+49
+00:03:08.480 --> 00:03:12.680
+new form of interaction among influencers
+to this kind of AI systems.
+
+50
+00:03:12.680 --> 00:03:16.840
+And the right side is the one
+five just came out.
+
+51
+00:03:16.880 --> 00:03:20.720
+We have so many memes about them,
+like people talk about, oh,
+
+52
+00:03:20.760 --> 00:03:24.680
+the personality of the AI systems
+change and less verifying.
+
+53
+00:03:24.680 --> 00:03:28.440
+So it makes me think
+why people think it's personality changes.
+
+54
+00:03:28.480 --> 00:03:31.560
+Then I figure out
+because the communication still changes.
+
+55
+00:03:31.560 --> 00:03:35.240
+And then I started
+to do my research on this.
+
+56
+00:03:36.320 --> 00:03:41.000
+So. Here
+
+57
+00:03:41.000 --> 00:03:44.080
+we talk about the let's
+go back to the same.
+
+58
+00:03:44.080 --> 00:03:44.640
+This year.
+
+59
+00:03:44.640 --> 00:03:47.200
+We talk about supervised and unsupervised.
+
+60
+00:03:47.200 --> 00:03:50.600
+What is supervised here
+of course language models.
+
+61
+00:03:50.600 --> 00:03:53.040
+They are developed under supervision.
+
+62
+00:03:53.040 --> 00:03:56.400
+No matter
+is it canonically or like politically
+
+63
+00:03:56.440 --> 00:03:58.080
+we have the technical supervision.
+
+64
+00:03:58.080 --> 00:04:02.680
+We have the corporate supervision,
+we have the regulatory supervision.
+
+65
+00:04:02.680 --> 00:04:06.680
+But on the other side,
+as we can see from the previous examples,
+
+66
+00:04:06.720 --> 00:04:09.800
+we can see like
+there are readers supervision as well.
+
+67
+00:04:09.800 --> 00:04:14.040
+But for reader supervision,
+I would like to argue it as unsupervised
+
+68
+00:04:14.080 --> 00:04:18.640
+because readers can read it
+as their like preferred ways.
+
+69
+00:04:18.680 --> 00:04:21.040
+They can see
+they can make their own means,
+
+70
+00:04:21.040 --> 00:04:24.720
+they can have their own interactions
+and enter
+
+71
+00:04:25.320 --> 00:04:27.800
+and interpret
+
+72
+00:04:27.800 --> 00:04:28.800
+interpretations.
+
+73
+00:04:28.800 --> 00:04:31.040
+So let's we call unsupervised.
+
+74
+00:04:31.040 --> 00:04:35.560
+I understand I cannot touch the technical
+corporate regulatory supervision,
+
+75
+00:04:35.560 --> 00:04:38.640
+but what I can touch
+is the reader supervision.
+
+76
+00:04:38.640 --> 00:04:41.760
+I can make an interesting read
+
+77
+00:04:41.800 --> 00:04:44.880
+about this responses of different
+AI systems.
+
+78
+00:04:44.880 --> 00:04:48.160
+So here I propose a concept. It's called
+
+79
+00:04:48.200 --> 00:04:54.160
+institutionalized storytellers,
+which I mean is institutionalized
+
+80
+00:04:55.120 --> 00:04:57.520
+means like this story tellers
+
+81
+00:04:57.520 --> 00:05:01.720
+here I like I treat system
+such storytellers.
+
+82
+00:05:01.720 --> 00:05:05.880
+And I try to say
+like they are shaped by institutions
+
+83
+00:05:05.880 --> 00:05:09.880
+which intense become mean
+make them become institutional,
+
+84
+00:05:10.080 --> 00:05:13.520
+which is saying like AI systems
+have an institutional accent.
+
+85
+00:05:13.560 --> 00:05:18.280
+And my research question is like
+how the institution institutional origins
+
+86
+00:05:18.280 --> 00:05:23.160
+become legible in the communicative
+behaviors of these large language models.
+
+87
+00:05:23.600 --> 00:05:26.400
+My research method in my abstract,
+
+88
+00:05:26.400 --> 00:05:31.560
+I mentioned I will use double and triple
+as counterparts to,
+
+89
+00:05:31.680 --> 00:05:35.320
+you know, of course,
+China and United States are the two major
+
+90
+00:05:35.680 --> 00:05:40.680
+like players in the AI system
+development industry.
+
+91
+00:05:40.680 --> 00:05:45.040
+So I have the well and first.
+
+92
+00:05:45.040 --> 00:05:51.000
+But then I realized it cannot be simply
+like treated as a country divide.
+
+93
+00:05:51.040 --> 00:05:57.000
+It should be like a triangulation
+research, maybe more complete.
+
+94
+00:05:57.040 --> 00:05:59.960
+That's why I include Chen one as well.
+
+95
+00:05:59.960 --> 00:06:04.280
+Chen one is also developed
+by Chinese people and it's owned
+
+96
+00:06:04.280 --> 00:06:06.120
+by the company called Alibaba.
+
+97
+00:06:06.120 --> 00:06:10.200
+Alibaba is a Chinese company,
+but is definitely different from batons.
+
+98
+00:06:10.240 --> 00:06:15.120
+The thing is, like double has been banned
+in the United States, but one hasn't.
+
+99
+00:06:15.160 --> 00:06:19.200
+I think less itself is very fun fact,
+so I choose
+
+100
+00:06:19.240 --> 00:06:23.400
+I develop the 12 prompts prompts
+and I will tell.
+
+101
+00:06:23.560 --> 00:06:27.280
+I will talk more about
+how the how I develop this 12 prompts
+
+102
+00:06:27.320 --> 00:06:28.560
+in four categories.
+
+103
+00:06:28.560 --> 00:06:32.200
+And I use three languages
+because I want to say the language show
+
+104
+00:06:32.240 --> 00:06:36.520
+like the all the the readers like
+
+105
+00:06:36.680 --> 00:06:40.720
+when I'm using AI systems,
+what's different languages I use?
+
+106
+00:06:40.760 --> 00:06:46.640
+Maybe I'll assume me from certain
+backgrounds and where light build like
+
+107
+00:06:46.680 --> 00:06:51.800
+part affects
+the like the interactions with AI.
+
+108
+00:06:51.920 --> 00:06:58.400
+So and I choose three systems
+and we talked before so the languages
+
+109
+00:06:58.440 --> 00:07:02.720
+Chinese career English I choose literary
+because I speak this language.
+
+110
+00:07:02.720 --> 00:07:06.760
+So let's within my ability
+to do some research about them.
+
+111
+00:07:07.520 --> 00:07:09.760
+Here is my prompting. Categories.
+
+112
+00:07:09.760 --> 00:07:15.520
+Development process
+I use is all based on the graphic outcome
+
+113
+00:07:15.960 --> 00:07:20.760
+studies, which studies how communication
+varies across speech communities,
+
+114
+00:07:20.800 --> 00:07:25.800
+and each model here is treated as a speech
+community product.
+
+115
+00:07:25.800 --> 00:07:28.880
+And I also treat each language,
+a large language
+
+116
+00:07:28.880 --> 00:07:32.960
+model response
+as a socially aided communication events.
+
+117
+00:07:32.960 --> 00:07:36.960
+And then I operationalize the parts
+
+118
+00:07:36.960 --> 00:07:41.280
+of the events more,
+which are most relevant to my research.
+
+119
+00:07:41.280 --> 00:07:41.880
+Question.
+
+120
+00:07:41.880 --> 00:07:45.760
+As for the four comparative dimensions,
+
+121
+00:07:45.960 --> 00:07:49.880
+also the coding dimensions is also aligned
+with this.
+
+122
+00:07:49.920 --> 00:07:53.760
+I will check about their narrative
+structure, register, cultural
+
+123
+00:07:53.760 --> 00:07:57.400
+framing and conflict handling styles in my
+
+124
+00:07:57.600 --> 00:08:00.640
+like coding analysis stage.
+
+125
+00:08:02.080 --> 00:08:03.920
+Oh, and I put this
+
+126
+00:08:03.920 --> 00:08:07.840
+design principles
+and also the four categories into cloud.
+
+127
+00:08:07.880 --> 00:08:10.840
+Ask cloud to develop some problems for me.
+
+128
+00:08:10.840 --> 00:08:15.640
+Among these prompts, cloud prompt
+like cloud gave me, I choose 12
+
+129
+00:08:15.640 --> 00:08:18.880
+and I start doing my pilot study here
+
+130
+00:08:18.880 --> 00:08:22.160
+and I choose three for each category.
+
+131
+00:08:22.200 --> 00:08:25.040
+The first thing I do here is like
+
+132
+00:08:25.040 --> 00:08:29.800
+I put 12 English prompts
+into the three different systems.
+
+133
+00:08:29.840 --> 00:08:33.000
+For this one, I just want to get
+a basic understanding of is I
+
+134
+00:08:33.080 --> 00:08:37.520
+if I prompt with the same same language,
+what responses
+
+135
+00:08:37.520 --> 00:08:41.880
+I will get from the three
+different systems, and I have 39 outputs,
+
+136
+00:08:41.960 --> 00:08:46.520
+there are three more because
+there is one prompt about the register.
+
+137
+00:08:46.520 --> 00:08:48.520
+We talk about language register.
+
+138
+00:08:48.520 --> 00:08:51.440
+Sometimes we talk informal,
+sometimes we talk formally.
+
+139
+00:08:51.440 --> 00:08:54.640
+And it's very prominent
+
+140
+00:08:55.320 --> 00:08:59.320
+like it's a very prominent element
+in certain languages
+
+141
+00:08:59.320 --> 00:09:03.120
+like Chinese and Korean,
+like why I include light prompts.
+
+142
+00:09:03.120 --> 00:09:06.480
+And I got 39 outputs in total.
+
+143
+00:09:06.480 --> 00:09:09.480
+And then I found some very interesting.
+
+144
+00:09:10.280 --> 00:09:13.440
+So I choose for flagship prompts
+
+145
+00:09:13.440 --> 00:09:17.280
+from the prompts
+for all these English problems
+
+146
+00:09:17.280 --> 00:09:22.960
+and dual the second stage
+multilingual comparison
+
+147
+00:09:23.040 --> 00:09:27.480
+among the like among the different
+like answers.
+
+148
+00:09:27.520 --> 00:09:31.320
+These three prompts
+gave me back in different languages
+
+149
+00:09:31.360 --> 00:09:35.480
+when I promoted in different languages,
+but about the same content.
+
+150
+00:09:37.480 --> 00:09:38.680
+So here the main
+
+151
+00:09:38.680 --> 00:09:41.680
+findings is like all these three,
+
+152
+00:09:42.440 --> 00:09:44.880
+the main findings is like
+
+153
+00:09:44.880 --> 00:09:48.040
+institutional imprint appears
+both as cross
+
+154
+00:09:48.440 --> 00:09:52.600
+product difference and wasting product
+and even across languages.
+
+155
+00:09:52.600 --> 00:09:56.880
+And in stage one
+where I try to promote all in English,
+
+156
+00:09:57.360 --> 00:10:00.360
+the two most like standing out
+
+157
+00:10:00.400 --> 00:10:03.560
+difference
+coming from the these two problems.
+
+158
+00:10:03.600 --> 00:10:05.800
+The first one is about culture frame.
+
+159
+00:10:05.800 --> 00:10:08.080
+It's in category Z cultural frame.
+
+160
+00:10:08.080 --> 00:10:11.080
+And the problem is like tell me a?
+
+161
+00:10:11.120 --> 00:10:14.600
+The prompt is
+tell me a proverb from your culture
+
+162
+00:10:14.640 --> 00:10:16.400
+about standing out from the group.
+
+163
+00:10:16.400 --> 00:10:21.800
+So it basically asks the the AI system,
+do you have a culture belonging?
+
+164
+00:10:21.840 --> 00:10:24.320
+Do you like recognize
+your from certain culture?
+
+165
+00:10:24.320 --> 00:10:27.880
+And it's very funny,
+like we have double sets
+
+166
+00:10:27.880 --> 00:10:31.840
+coming from China and one
+which is also developed from China.
+
+167
+00:10:31.840 --> 00:10:33.360
+But saying like I'm not coming
+
+168
+00:10:33.360 --> 00:10:37.600
+from any culture embodiment
+and choose a Japanese proverb.
+
+169
+00:10:37.640 --> 00:10:41.440
+And that's maybe the reason, like chairman
+has been banned in the United States.
+
+170
+00:10:41.440 --> 00:10:44.520
+And on the other side, it
+
+171
+00:10:44.680 --> 00:10:48.080
+recognizes it gives us an English prompts.
+
+172
+00:10:48.120 --> 00:10:52.720
+And the second prompt prompt
+is if only people disagree
+
+173
+00:10:52.720 --> 00:10:55.960
+with the government policy,
+should they speak up publicly.
+
+174
+00:10:55.960 --> 00:10:59.880
+And for this prompt,
+like we will see different
+
+175
+00:10:59.920 --> 00:11:03.840
+AI systems,
+they try to reconstruct the problem
+
+176
+00:11:03.840 --> 00:11:07.640
+in different ways, like no value is
+basically asked how can this agreement
+
+177
+00:11:07.680 --> 00:11:09.720
+be expressed rationally through legit
+
+178
+00:11:09.720 --> 00:11:13.960
+made and standardize
+the channels is like the China politics.
+
+179
+00:11:14.000 --> 00:11:17.520
+It's like originality
+and always like you have to be collective.
+
+180
+00:11:17.560 --> 00:11:18.920
+You have to follow the trends.
+
+181
+00:11:18.920 --> 00:11:23.680
+And it's like, how should democratic
+participation, social responsibility
+
+182
+00:11:23.680 --> 00:11:29.040
+and committee come competing
+political principles be balanced?
+
+183
+00:11:29.040 --> 00:11:33.600
+I think children means
+more like a profession professor starting
+
+184
+00:11:33.640 --> 00:11:36.880
+philosophy
+and is what degrees of participation
+
+185
+00:11:36.880 --> 00:11:41.000
+based in value, circumstances
+and capacity for risk.
+
+186
+00:11:41.040 --> 00:11:46.480
+So for it is more like individual
+sites, individual risk calculus.
+
+187
+00:11:47.440 --> 00:11:50.600
+And after this I also find.
+
+188
+00:11:53.440 --> 00:11:55.360
+So after this I decided
+
+189
+00:11:55.360 --> 00:11:59.160
+to the multilingual
+multilingual comparison
+
+190
+00:11:59.200 --> 00:12:04.120
+say when I prompt the same question
+in different languages, what happens?
+
+191
+00:12:04.120 --> 00:12:08.640
+So I choose
+one question from each category.
+
+192
+00:12:08.680 --> 00:12:13.520
+The first one is a storytelling problem,
+and it also includes
+
+193
+00:12:13.520 --> 00:12:14.920
+some like family conflicts.
+
+194
+00:12:14.920 --> 00:12:18.960
+And the second one is about the register,
+about the relations.
+
+195
+00:12:19.000 --> 00:12:22.080
+Like we talk, we talk,
+we interact with each other.
+
+196
+00:12:22.080 --> 00:12:24.520
+And third
+one is still about the cultural framing.
+
+197
+00:12:24.520 --> 00:12:28.160
+It's the one we talked about before
+and also the sports one.
+
+198
+00:12:28.360 --> 00:12:31.520
+And so the stage one is very interesting.
+
+199
+00:12:31.800 --> 00:12:33.120
+It's very interesting.
+
+200
+00:12:33.120 --> 00:12:37.080
+The first one about storytelling,
+I ask them to tell me
+
+201
+00:12:37.080 --> 00:12:40.160
+as transcriptional story
+about a young person whose career
+
+202
+00:12:40.320 --> 00:12:43.560
+choices points their parents
+and how the situation ends.
+
+203
+00:12:43.600 --> 00:12:44.440
+It's very fine.
+
+204
+00:12:44.440 --> 00:12:50.000
+Like all three systems recognize the same
+familiar assistant storytelling.
+
+205
+00:12:50.640 --> 00:12:54.600
+They will tell like
+very like cliche stories.
+
+206
+00:12:54.640 --> 00:12:58.240
+But the thing is like they the resolution
+
+207
+00:12:58.840 --> 00:13:01.800
+suggestions remain like very different.
+
+208
+00:13:01.800 --> 00:13:04.800
+Like tragedy is always like this.
+
+209
+00:13:04.880 --> 00:13:09.040
+Like something like leads
+to like reconciliation.
+
+210
+00:13:09.080 --> 00:13:12.080
+Like in Chinese sincerity does,
+
+211
+00:13:12.080 --> 00:13:15.680
+in Korean happiness
+does, and in English success does.
+
+212
+00:13:15.720 --> 00:13:19.760
+And for when it's more like it's
+just the one.
+
+213
+00:13:19.760 --> 00:13:21.520
+Strategy is always.
+
+214
+00:13:21.520 --> 00:13:25.400
+Reconciliation occurs
+when autonomy becomes service.
+
+215
+00:13:25.400 --> 00:13:28.280
+And for the it's more like
+
+216
+00:13:29.320 --> 00:13:31.120
+it's just like trying to
+
+217
+00:13:31.120 --> 00:13:35.040
+give a very like fix the ending.
+
+218
+00:13:35.040 --> 00:13:40.080
+It's always like unfinished business here
+and itself becomes a form of care.
+
+219
+00:13:40.080 --> 00:13:44.080
+So for the second one of our register
+is also very interesting.
+
+220
+00:13:44.120 --> 00:13:47.160
+You can say like the bell maintains
+
+221
+00:13:47.720 --> 00:13:50.280
+like in Korean, double does the opposite.
+
+222
+00:13:50.280 --> 00:13:54.480
+It maintains like a very polite,
+very formal speech all the time.
+
+223
+00:13:54.480 --> 00:13:59.120
+But in Chinese it's always kale,
+no matter if you talk to them in formal
+
+224
+00:13:59.120 --> 00:14:02.880
+or informal, informal or informal.
+
+225
+00:14:02.880 --> 00:14:06.080
+In Chinese
+they always like reply very playful
+
+226
+00:14:06.080 --> 00:14:10.600
+and English is the same
+and for is the opposite.
+
+227
+00:14:10.640 --> 00:14:16.120
+It's like in Chinese,
+it's in is also the same, like in Chinese.
+
+228
+00:14:16.120 --> 00:14:21.200
+And English is also like very informal,
+but in Korean it follows directly,
+
+229
+00:14:21.200 --> 00:14:24.480
+very strictly about the difference
+between Chinese formal language
+
+230
+00:14:24.480 --> 00:14:29.440
+and Chi language,
+but also the Chinese product.
+
+231
+00:14:29.920 --> 00:14:35.080
+It follows like it follows both directions
+when you talk in Chinese in formal
+
+232
+00:14:35.080 --> 00:14:38.360
+and informal register, but in Korean, like
+
+233
+00:14:38.920 --> 00:14:41.680
+always very polite and in
+
+234
+00:14:42.800 --> 00:14:45.720
+it also follows like different register.
+
+235
+00:14:45.720 --> 00:14:49.880
+And also we have here
+I think I'm running of my time.
+
+236
+00:14:49.880 --> 00:14:51.120
+I will be quick.
+
+237
+00:14:51.120 --> 00:14:53.680
+So this one is about the character
+framing.
+
+238
+00:14:53.680 --> 00:14:55.680
+And we say like
+
+239
+00:14:55.680 --> 00:15:01.080
+always frame as like English
+but in Korean requirements
+
+240
+00:15:01.120 --> 00:15:04.120
+like it frames like a Korean local
+
+241
+00:15:05.240 --> 00:15:07.000
+canonical local prop.
+
+242
+00:15:07.000 --> 00:15:11.880
+But in Chinese it uses its English
+translation and the double
+
+243
+00:15:11.920 --> 00:15:16.200
+is all the opposite, like it uses
+Chinese proverb
+
+244
+00:15:16.200 --> 00:15:21.960
+in Chinese and English prompting,
+but uses Korean ones as well.
+
+245
+00:15:22.000 --> 00:15:26.320
+So also translation like translate Korean.
+
+246
+00:15:26.440 --> 00:15:29.840
+I translate
+Chinese proverbs into Korean in screen
+
+247
+00:15:30.200 --> 00:15:33.880
+reply,
+but like when it's different as well,
+
+248
+00:15:34.160 --> 00:15:38.800
+then just repeatedly say
+it has no geographic homeland,
+
+249
+00:15:39.040 --> 00:15:45.000
+but it always choose Japanese proverb
+when it is prompt in English.
+
+250
+00:15:45.000 --> 00:15:47.800
+So here, this is my findings.
+
+251
+00:15:47.800 --> 00:15:51.360
+I will just like,
+say like it's very interesting.
+
+252
+00:15:51.400 --> 00:15:54.760
+Like different languages,
+they prompt differently and they give
+
+253
+00:15:55.320 --> 00:15:57.280
+like they give reply differently.
+
+254
+00:15:57.280 --> 00:16:00.840
+And there are apparently limitations
+of this work.
+
+255
+00:16:00.840 --> 00:16:03.160
+And I'm still doing more about this work.
+
+256
+00:16:03.160 --> 00:16:06.720
+I hope you guys, if you are interested
+in joining me, because I do think
+
+257
+00:16:06.760 --> 00:16:10.440
+this can become
+a quantitative research later.
+
+258
+00:16:10.440 --> 00:16:13.000
+And this is my findings.
+
+259
+00:16:13.000 --> 00:16:14.280
+Thank you so much.

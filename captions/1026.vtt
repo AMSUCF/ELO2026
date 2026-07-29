@@ -1,0 +1,573 @@
+WEBVTT
+
+1
+00:00:00.320 --> 00:00:03.280
+And next up we have David Wright.
+
+2
+00:00:03.280 --> 00:00:06.280
+David.
+
+3
+00:00:12.240 --> 00:00:14.240
+Is that looking all right?
+
+4
+00:00:14.240 --> 00:00:15.800
+Looking great. Thank you.
+
+5
+00:00:15.800 --> 00:00:16.040
+All right.
+
+6
+00:00:16.040 --> 00:00:19.360
+I'll try and keep it brief
+so we can have some time for questions.
+
+7
+00:00:19.960 --> 00:00:24.040
+And that's not an excuse by me, but
+this is more of a proposal, less a paper.
+
+8
+00:00:24.480 --> 00:00:25.440
+My name is David Wright.
+
+9
+00:00:25.440 --> 00:00:26.640
+I'm an associate professor
+
+10
+00:00:26.640 --> 00:00:30.680
+at University of Bergen in Norway, but
+I'm currently in a hotel room in Dublin
+
+11
+00:00:30.680 --> 00:00:34.360
+because I'm doing research
+on Samuel Beckett's correspondence.
+
+12
+00:00:34.400 --> 00:00:37.960
+My plan is to make a Samuel Beckett robot.
+
+13
+00:00:39.360 --> 00:00:42.360
+And I'm also doing a project on
+
+14
+00:00:42.400 --> 00:00:44.640
+found historical
+
+15
+00:00:44.640 --> 00:00:47.640
+media and documents that feel like AI
+but aren't.
+
+16
+00:00:48.160 --> 00:00:51.520
+But this project, digitally speaking,
+the disfiguring the canon
+
+17
+00:00:52.080 --> 00:00:55.800
+came about from this poem,
+which is by Philip Larkin.
+
+18
+00:00:55.800 --> 00:00:59.120
+And I'll stop by reading the poem
+that note you hold, narrowing
+
+19
+00:00:59.120 --> 00:01:03.000
+and rising shakes like New Orleans
+reflected on the water and in all areas.
+
+20
+00:01:03.000 --> 00:01:07.120
+Appropriate falsehood wakes
+building for some legendary quarter
+
+21
+00:01:07.160 --> 00:01:11.600
+a balconies, flower baskets and quadrilles
+everyone making love and going shares
+
+22
+00:01:11.760 --> 00:01:13.040
+o play that thing
+
+23
+00:01:13.040 --> 00:01:16.600
+glorious story bills others may license
+grouping around their chairs.
+
+24
+00:01:16.600 --> 00:01:20.720
+Sporting house girls
+like circus tigers priced far above rubies
+
+25
+00:01:21.000 --> 00:01:22.440
+to pretend they're fads.
+
+26
+00:01:22.440 --> 00:01:25.560
+While scholars manque has not around
+unnoticed, wrapped up
+
+27
+00:01:25.560 --> 00:01:28.560
+in personals like old plays on me.
+
+28
+00:01:28.560 --> 00:01:29.440
+Your voice falls.
+
+29
+00:01:29.440 --> 00:01:33.880
+As they say love should like an enormous
+yes, my Crescent City
+
+30
+00:01:33.880 --> 00:01:38.360
+is where your speech alone is understood
+and greeted as the natural noise of good
+
+31
+00:01:38.400 --> 00:01:41.400
+scattering, long haired
+grief and squad pity.
+
+32
+00:01:42.120 --> 00:01:46.880
+This is a poem by Philip
+Larkin called For Sidney Bechet,
+
+33
+00:01:46.880 --> 00:01:50.120
+and it's about the clarinet player
+Sidney Bechet,
+
+34
+00:01:50.160 --> 00:01:53.240
+who was born in New Orleans
+but mostly worked in France.
+
+35
+00:01:53.240 --> 00:01:54.840
+And I'll play a little bit.
+
+36
+00:01:54.840 --> 00:01:59.920
+As you can hear, there's
+a very unique style with which he plays.
+
+37
+00:02:00.000 --> 00:02:04.720
+It's got a very strong vibrato,
+and I was interested
+
+38
+00:02:04.720 --> 00:02:09.600
+in giving this to an LLM and saying,
+analyze this poem
+
+39
+00:02:09.600 --> 00:02:13.520
+and then interpret it without words,
+and this is what it came up with.
+
+40
+00:02:18.880 --> 00:02:20.320
+And there was something
+
+41
+00:02:20.320 --> 00:02:24.080
+there is a sense of vibrato
+that's transferred from the poem
+
+42
+00:02:24.080 --> 00:02:28.600
+into this weird digital work
+that I asked an LLM to produce
+
+43
+00:02:29.760 --> 00:02:32.120
+that sort of transfers from the original.
+
+44
+00:02:32.120 --> 00:02:35.280
+So you've gone from music
+to poetry to a weird digital
+
+45
+00:02:35.320 --> 00:02:38.320
+LLM AI created thing.
+
+46
+00:02:38.480 --> 00:02:41.280
+I kind of see this as similar
+to a phrase this,
+
+47
+00:02:41.280 --> 00:02:45.520
+or kind of a digital like phrases,
+which Mitchell describes.
+
+48
+00:02:45.520 --> 00:02:47.360
+He has this idea of three phases
+
+49
+00:02:47.360 --> 00:02:50.160
+expressing indifference, hope,
+and despair.
+
+50
+00:02:50.160 --> 00:02:52.600
+The first stems
+from the common sense perception
+
+51
+00:02:52.600 --> 00:02:56.280
+that it is impossible
+that words can sight but never sight.
+
+52
+00:02:56.280 --> 00:02:58.480
+And I guess that does happen here.
+
+53
+00:02:58.480 --> 00:03:01.960
+The second hope is similar to Calvin's
+hope for a better understanding
+
+54
+00:03:01.960 --> 00:03:03.640
+and control of the visual imagination
+
+55
+00:03:03.640 --> 00:03:06.080
+that would accustom us
+to control our own inner vision
+
+56
+00:03:06.080 --> 00:03:10.320
+without suffocating it or letting it fall
+into confused, ephemeral daydreams.
+
+57
+00:03:10.760 --> 00:03:14.080
+He argues that in this phase, at phrases
+ceases to be a special or
+
+58
+00:03:14.080 --> 00:03:17.920
+exceptional moment in verbal or aural
+representation, and begins to seem
+
+59
+00:03:18.360 --> 00:03:22.200
+paradigmatic of a fundamental tendency
+in all linguistic expression.
+
+60
+00:03:22.200 --> 00:03:25.200
+He goes further, arguing that underpinning
+
+61
+00:03:25.400 --> 00:03:28.200
+hope is a central goal of overcoming
+otherness.
+
+62
+00:03:28.200 --> 00:03:31.800
+This stage, Mitchell continues,
+inevitably leads to a third phase,
+
+63
+00:03:31.800 --> 00:03:33.720
+which he labels a frantic fear
+
+64
+00:03:33.720 --> 00:03:36.160
+a moment of resistance, or counter
+desire, that occurs
+
+65
+00:03:36.160 --> 00:03:38.080
+when we sense that the difference
+between the verbal
+
+66
+00:03:38.080 --> 00:03:41.440
+and visual representation might collapse,
+and the figurative imaginary
+
+67
+00:03:41.440 --> 00:03:45.400
+desire of phrases might be realized
+literally and accurately.
+
+68
+00:03:45.400 --> 00:03:48.760
+It is the moment in athletics
+when the difference between verbal
+
+69
+00:03:48.760 --> 00:03:51.960
+and visual mediation
+becomes a moral, esthetic imperative.
+
+70
+00:03:53.040 --> 00:03:56.040
+I also saw this as a way of
+
+71
+00:03:56.080 --> 00:03:59.280
+applying Gilbert Bugs
+idea of machine vision.
+
+72
+00:03:59.320 --> 00:04:00.200
+She talks about.
+
+73
+00:04:00.200 --> 00:04:04.080
+She mentions the idea of August,
+a giant with a hundred eyes
+
+74
+00:04:05.120 --> 00:04:08.160
+he could see in all directions at once,
+and he never stopped watching,
+
+75
+00:04:08.160 --> 00:04:09.280
+even when he slept.
+
+76
+00:04:09.280 --> 00:04:10.880
+Only some of his eyes were closed.
+
+77
+00:04:10.880 --> 00:04:12.600
+Human vision is far more limited.
+
+78
+00:04:12.600 --> 00:04:12.960
+We have
+
+79
+00:04:12.960 --> 00:04:16.800
+just two eyes in the front of our heads
+and can't see what is behind us at all.
+
+80
+00:04:16.800 --> 00:04:18.800
+We see what is straight ahead of us
+clearly,
+
+81
+00:04:18.800 --> 00:04:20.920
+but our peripheral vision is poor.
+
+82
+00:04:20.920 --> 00:04:24.640
+Many other animals have eyes on the sides
+or even on the backs of their heads.
+
+83
+00:04:24.640 --> 00:04:27.640
+Some species can see infrared
+and ultraviolet light.
+
+84
+00:04:27.920 --> 00:04:28.800
+Humans cannot.
+
+85
+00:04:28.800 --> 00:04:33.480
+We can see only in the rather limited way
+that our eyes, brains and bodies enable.
+
+86
+00:04:33.480 --> 00:04:35.120
+And yet, for sighted humans,
+
+87
+00:04:35.120 --> 00:04:38.160
+vision is the primary way
+we make sense of the world around us.
+
+88
+00:04:38.160 --> 00:04:41.880
+Humans have used technology to expand our
+limited vision for millennia.
+
+89
+00:04:43.560 --> 00:04:44.280
+I then have this
+
+90
+00:04:44.280 --> 00:04:49.360
+very perverse idea of taking Bloom's
+canon, which he divides into for ages,
+
+91
+00:04:49.360 --> 00:04:52.520
+and having an LLM or various
+
+92
+00:04:52.560 --> 00:04:56.480
+llms generate me a visual representation
+
+93
+00:04:56.520 --> 00:05:00.840
+of the literary text without any words,
+and to see what it kind of came up with.
+
+94
+00:05:00.840 --> 00:05:04.000
+And it gets a bit
+weird for today's purposes,
+
+95
+00:05:04.040 --> 00:05:08.440
+I've taken three texts The Egyptian
+Book of the dead, The Divine Comedy,
+
+96
+00:05:08.440 --> 00:05:14.280
+and Madame Bovary, and I've used two llms
+one is ChatGPT, the other is Deep Sink.
+
+97
+00:05:14.400 --> 00:05:16.960
+And as you can see,
+they each have their own kind of flavor.
+
+98
+00:05:16.960 --> 00:05:19.960
+So this, for example, is
+
+99
+00:05:20.440 --> 00:05:23.360
+ChatGPT interpreting
+the Egyptian Book of the dead.
+
+100
+00:05:23.360 --> 00:05:26.960
+And here is deep sea doing the same thing.
+
+101
+00:05:31.560 --> 00:05:32.800
+Here is
+
+102
+00:05:32.800 --> 00:05:36.600
+Dante's Inferno by ChatGPT,
+which is kind of weird.
+
+103
+00:05:36.600 --> 00:05:38.200
+I kind of gave it some limitations.
+
+104
+00:05:38.200 --> 00:05:41.200
+Chapati was very kind of like,
+we don't have enough space to do this.
+
+105
+00:05:41.200 --> 00:05:42.920
+And I said, we'll make it happen anyway
+
+106
+00:05:42.920 --> 00:05:46.640
+because I sort of gave it
+parameters of publications like taper.
+
+107
+00:05:47.440 --> 00:05:50.000
+And then this was deep six
+
+108
+00:05:50.000 --> 00:05:53.840
+odd abstract
+interpretation of the Divine Comedy.
+
+109
+00:05:56.880 --> 00:05:59.880
+And then this is Madam Bovary by
+
+110
+00:06:01.120 --> 00:06:04.120
+ChatGPT here and deep here.
+
+111
+00:06:05.160 --> 00:06:07.040
+And it's very abstract.
+
+112
+00:06:07.040 --> 00:06:09.000
+It's not very literal at all.
+
+113
+00:06:09.000 --> 00:06:11.240
+And I suppose I want to finish today
+with just three questions.
+
+114
+00:06:11.240 --> 00:06:12.600
+What would this tell us?
+
+115
+00:06:12.600 --> 00:06:14.800
+I tell you about specific llms
+machine vision.
+
+116
+00:06:14.800 --> 00:06:18.920
+As you can see, different llms
+have a different kind of flavor to them.
+
+117
+00:06:19.000 --> 00:06:21.320
+What would this tell you
+about the concept of the Western canon,
+
+118
+00:06:21.320 --> 00:06:24.440
+which is something that I think
+is contested and needs to be interrogated?
+
+119
+00:06:24.440 --> 00:06:26.200
+And how do we read the visuals?
+
+120
+00:06:26.200 --> 00:06:29.040
+To the latter question,
+I kind of see it seems to almost
+
+121
+00:06:29.040 --> 00:06:32.040
+want to do this
+kind of abstract expressionism
+
+122
+00:06:32.040 --> 00:06:36.320
+to to the interpretive machine
+interpretation of a literary text,
+
+123
+00:06:37.280 --> 00:06:40.280
+and we all finish it there so we can have
+some more time for questions.
+
+124
+00:06:40.400 --> 00:06:41.080
+Thank you.

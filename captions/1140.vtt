@@ -1,0 +1,1392 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.240
+Yeah. Brilliant.
+
+2
+00:00:00.240 --> 00:00:01.240
+All right.
+
+3
+00:00:01.240 --> 00:00:02.160
+Good.
+
+4
+00:00:02.160 --> 00:00:03.000
+Well good morning.
+
+5
+00:00:03.000 --> 00:00:05.400
+From the eastern time zone to everyone.
+
+6
+00:00:05.400 --> 00:00:09.120
+Not sure where it is, what time it is,
+wherever you all are in the world.
+
+7
+00:00:09.120 --> 00:00:12.600
+But today we are officially starting day
+four of ello.
+
+8
+00:00:12.600 --> 00:00:12.840
+in mind, partly artistic,
+but also partly engineering and focus.
+
+9
+00:00:12.840 --> 00:00:15.640
+So welcome back to welcome.
+
+10
+00:00:15.640 --> 00:00:18.920
+And welcome back to the Algorithms
+and Imaginaries track.
+
+11
+00:00:18.920 --> 00:00:22.440
+We'll go ahead and get started here.
+
+12
+00:00:22.440 --> 00:00:26.400
+So our first presenter this morning
+well morning for me
+
+13
+00:00:26.400 --> 00:00:26.440
+the kind of themes I've done in the past
+about how we sense, how we make sense
+
+14
+00:00:26.440 --> 00:00:30.600
+is Tiffany Fung with coding A Poetics
+of Love and Politics on the remixing
+
+15
+00:00:30.600 --> 00:00:35.320
+potentials of Christopher Strategy
+and Liliana von Bertram's poem generators.
+
+16
+00:00:35.320 --> 00:00:38.320
+Tiffany,
+if you'd like to go ahead and get started.
+
+17
+00:00:38.320 --> 00:00:38.760
+What other stories would be
+told through these systems?
+
+18
+00:00:38.760 --> 00:00:41.440
+Okay. Can you guys hear me?
+
+19
+00:00:41.440 --> 00:00:43.600
+All right. Good. Okay.
+
+20
+00:00:43.600 --> 00:00:48.280
+I'm also going to time myself
+just to be safe.
+
+21
+00:00:48.280 --> 00:00:48.320
+more than perhaps what you might think of
+as a typical elite project,
+
+22
+00:00:48.320 --> 00:00:51.640
+Okay. Well. Hi, everyone.
+
+23
+00:00:51.640 --> 00:00:51.760
+but it has got elements that resonate, 
+and it certainly comes from a place
+
+24
+00:00:51.760 --> 00:00:53.120
+My name is Tiffany.
+
+25
+00:00:53.120 --> 00:00:56.720
+And good evening to you all from Hong
+Kong.
+
+26
+00:00:56.720 --> 00:01:00.160
+I'm a student
+in the Chinese University of Hong Kong,
+
+27
+00:01:00.160 --> 00:01:04.320
+and I'm going to be talking about
+poem generators today, so.
+
+28
+00:01:04.320 --> 00:01:05.920
+I come from the Nam
+June Paik school of using technology
+
+29
+00:01:05.920 --> 00:01:07.440
+to despise it properly, and we have enough
+celebrations of technology.
+
+30
+00:01:07.440 --> 00:01:08.520
+The intersection of
+
+31
+00:01:08.520 --> 00:01:12.520
+love and politics has been the key
+concern of contemporary poetics.
+
+32
+00:01:12.520 --> 00:01:16.400
+And when the poet Jericho Brown writes
+that every love poem
+
+33
+00:01:16.400 --> 00:01:19.600
+is political,
+every political poem must fall in love.
+
+34
+00:01:19.600 --> 00:01:19.640
+The heart of this project
+is a consideration of environmental
+
+35
+00:01:19.640 --> 00:01:23.360
+I take this as a provocation to ask,
+what about poem generators?
+
+36
+00:01:23.360 --> 00:01:26.280
+How is a love poem generator political?
+
+37
+00:01:26.280 --> 00:01:29.480
+And how can a political poem
+generator fall in love?
+
+38
+00:01:29.480 --> 00:01:30.080
+and thinking about
+
+39
+00:01:30.080 --> 00:01:30.160
+what are their implications
+for seeing and thinking going forward?
+
+40
+00:01:30.160 --> 00:01:33.880
+So to answer these questions,
+I will look at Christopher Strategy's Love
+
+41
+00:01:33.880 --> 00:01:39.360
+Letter Generator in 1952 and also
+a new sermon on the work land from Lilian
+
+42
+00:01:39.360 --> 00:01:44.000
+Yvonne Bertram's travesty Generator,
+who I think is here with us today.
+
+43
+00:01:44.000 --> 00:01:44.640
+the waste that's generated at every stage
+of the lifecycle of digital technologies.
+
+44
+00:01:44.640 --> 00:01:48.760
+And I will direct my focus to their data
+and code rather than the output.
+
+45
+00:01:48.760 --> 00:01:52.040
+And I'm looking at all
+this through the lens of remixing
+
+46
+00:01:52.040 --> 00:01:52.080
+That's something
+I am not particularly happy about.
+
+47
+00:01:52.080 --> 00:01:55.800
+as a poetic encoding strategy,
+as well as a means to maintain
+
+48
+00:01:55.800 --> 00:01:58.880
+relational kinship
+with one's communities of practice.
+
+49
+00:01:58.880 --> 00:01:59.320
+AI technologies have been critiqued
+for their environmental impact,
+
+50
+00:01:59.320 --> 00:02:03.360
+So, first of all, why code and data
+instead of the output?
+
+51
+00:02:03.360 --> 00:02:07.320
+Both of both of these generators
+are programed to produce
+
+52
+00:02:07.320 --> 00:02:07.360
+came onto the scene,
+and it was certainly not looking good.
+
+53
+00:02:07.360 --> 00:02:09.360
+output on an infinite loop.
+
+54
+00:02:09.360 --> 00:02:12.480
+So the sheer number of possible
+combinations
+
+55
+00:02:12.480 --> 00:02:16.440
+in their textual output
+simply makes close reading efforts futile.
+
+56
+00:02:16.440 --> 00:02:16.480
+generalized, mythologized sense
+in which they're pitched towards us.
+
+57
+00:02:16.480 --> 00:02:20.320
+And if, as John
+Kelly puts it, that a potential for human
+
+58
+00:02:20.320 --> 00:02:23.800
+reading is required to produce
+an event of language,
+
+59
+00:02:23.800 --> 00:02:23.840
+They're advanced analytical techniques.
+
+60
+00:02:23.840 --> 00:02:27.880
+then the inexhaustible generative
+possibilities of the output
+
+61
+00:02:27.880 --> 00:02:32.280
+makes it impossible to meaningfully
+read them as a complete body of work.
+
+62
+00:02:32.280 --> 00:02:32.320
+and we don't have to worry
+too much about their impacts as a result.
+
+63
+00:02:32.320 --> 00:02:35.360
+It sort of obstructs meaningful
+reading on the human readers part
+
+64
+00:02:35.360 --> 00:02:35.400
+And that has been fairly robustly
+critiqued as a load of greenwashing.
+
+65
+00:02:35.400 --> 00:02:39.080
+to produce an event of language,
+and in that case,
+
+66
+00:02:39.080 --> 00:02:42.160
+the code that enables this infinite
+generative ability
+
+67
+00:02:42.160 --> 00:02:46.160
+becomes the finite and legible artifact
+where meaning unfolds,
+
+68
+00:02:46.160 --> 00:02:46.280
+map and model about the world
+realistically.
+
+69
+00:02:46.880 --> 00:02:47.480
+Nevertheless,
+we are here, and it is very likely,
+
+70
+00:02:47.480 --> 00:02:49.680
+and specifically
+in the case of strategies.
+
+71
+00:02:49.680 --> 00:02:51.000
+Love letter generator.
+
+72
+00:02:51.000 --> 00:02:54.040
+The contextual parameters
+that could guide meaning
+
+73
+00:02:54.040 --> 00:02:54.080
+I think, that this technology
+in its current form, will persist
+
+74
+00:02:54.080 --> 00:02:56.520
+making approaches are largely absent.
+
+75
+00:02:56.520 --> 00:03:00.080
+So if we take this letter output here
+as an example,
+
+76
+00:03:00.080 --> 00:03:00.200
+through which environmental issues
+are seen and understood by many people.
+
+77
+00:03:00.200 --> 00:03:04.400
+when I was reading it, I was asking
+questions like who is writing to who?
+
+78
+00:03:04.400 --> 00:03:07.440
+And what is this passionate
+wish of the receiver?
+
+79
+00:03:07.440 --> 00:03:10.840
+And where is this
+wistful sympathy coming from?
+
+80
+00:03:10.840 --> 00:03:12.080
+Did something happen?
+
+81
+00:03:12.080 --> 00:03:14.600
+Which makes sense,
+because when you're reading a love letter,
+
+82
+00:03:14.600 --> 00:03:18.480
+you would expect there to be some context
+based on the relationship
+
+83
+00:03:18.480 --> 00:03:19.560
+between two people.
+
+84
+00:03:19.560 --> 00:03:24.320
+And the sentiments here are specific
+enough to provoke these questions,
+
+85
+00:03:24.320 --> 00:03:27.800
+but they cannot be answered
+because the combinations of these phrases
+
+86
+00:03:27.800 --> 00:03:32.240
+are the result of 
+aleatoric computational processes.
+
+87
+00:03:32.240 --> 00:03:32.560
+emulating human modes of thought,
+human imperatives, human agency,
+
+88
+00:03:32.560 --> 00:03:36.080
+So the tension created here
+is the reason why
+
+89
+00:03:36.080 --> 00:03:36.200
+but actually drawing our attention to the
+more than human world or non-human world.
+
+90
+00:03:36.200 --> 00:03:40.680
+wardrobe fun refers to the generators
+textual output as something
+
+91
+00:03:40.680 --> 00:03:44.880
+that is not working toward the pleasures
+traditionally found in reading.
+
+92
+00:03:44.880 --> 00:03:44.920
+and how the impact our daily lives.
+
+93
+00:03:44.920 --> 00:03:48.000
+It demands us to read the generator
+not by what it out
+
+94
+00:03:48.000 --> 00:03:51.680
+puts, but by its code,
+where meaning resides as poetry.
+
+95
+00:03:51.680 --> 00:03:51.760
+inspired by this call.
+
+96
+00:03:51.760 --> 00:03:55.680
+I'm equating strategies
+generator with poetry here because
+
+97
+00:03:55.680 --> 00:03:58.280
+I feel like his code works
+with formal constraints,
+
+98
+00:03:58.280 --> 00:04:02.720
+like templates and preset data
+to generate ideas and surprising language,
+
+99
+00:04:02.720 --> 00:04:05.720
+which is very similar
+to poetic constraints.
+
+100
+00:04:05.720 --> 00:04:06.280
+Very, very small compact package
+that is small enough, light enough,
+
+101
+00:04:06.280 --> 00:04:09.240
+So, having established my approach,
+
+102
+00:04:09.240 --> 00:04:13.680
+how can data and processes in strategies
+code be politically subversive?
+
+103
+00:04:13.680 --> 00:04:13.720
+You can carry it aboard a kite
+rather than a drone, as we might
+
+104
+00:04:13.720 --> 00:04:17.560
+Strategy himself
+thinks that the vocabulary vocabulary data
+
+105
+00:04:17.560 --> 00:04:23.280
+that he took from Roget's saurus lends
+a peculiar flavor to the output.
+
+106
+00:04:23.280 --> 00:04:25.200
+As you can see from the example just now.
+
+107
+00:04:25.200 --> 00:04:31.440
+And I think this peculiarity lies
+in the dissonance of using a standardized
+
+108
+00:04:31.440 --> 00:04:36.480
+language repository as data to compose
+love letters, which is a general
+
+109
+00:04:36.480 --> 00:04:36.600
+Let's make AI small again.
+
+110
+00:04:36.600 --> 00:04:41.120
+that usually employs
+a really personal and private language.
+
+111
+00:04:41.120 --> 00:04:45.280
+And that is probably also
+why many have thought of his generator
+
+112
+00:04:45.280 --> 00:04:48.440
+as a queer critique
+of normative expressions of love.
+
+113
+00:04:48.440 --> 00:04:48.600
+a awful lot that I could say
+about the technology of this program,
+
+114
+00:04:48.600 --> 00:04:49.680
+what I'm doing with it, and
+I just don't have the time to go into it.
+
+115
+00:04:49.680 --> 00:04:50.280
+So to
+
+116
+00:04:50.280 --> 00:04:55.360
+unpack what this queer critique entails,
+I look at how the use of a source
+
+117
+00:04:55.360 --> 00:04:55.400
+Now, essentially,
+it consists of a large lifting kite.
+
+118
+00:04:55.400 --> 00:05:00.560
+as data instead of a dictionary manifests
+as a kind of queer subversion.
+
+119
+00:05:00.560 --> 00:05:00.640
+In this case
+it was a big eight foot Delta Conine.
+
+120
+00:05:00.640 --> 00:05:05.600
+In a source entry, a word is grouped with
+other words that share similar meanings.
+
+121
+00:05:05.600 --> 00:05:08.480
+So the meaning of a word is built with
+and around
+
+122
+00:05:08.480 --> 00:05:12.280
+its relations, both immediate
+and distant with other words.
+
+123
+00:05:12.280 --> 00:05:12.360
+Attached to that is a small computing
+package, typically a Raspberry Pi.
+
+124
+00:05:12.360 --> 00:05:17.640
+A dictionary entry, however, stresses on
+an exactness and meaning, and a position
+
+125
+00:05:17.640 --> 00:05:21.320
+in equivalence when it comes
+to the definitions of a word.
+
+126
+00:05:21.320 --> 00:05:21.360
+I've primarily been working with images
+because that's what I understand best.
+
+127
+00:05:21.360 --> 00:05:25.200
+So comparing how these two sources
+organize and attribute
+
+128
+00:05:25.200 --> 00:05:25.240
+Hopefully very, very soon.
+
+129
+00:05:25.240 --> 00:05:29.000
+meaning differently, the source suggests
+something clear to me
+
+130
+00:05:29.000 --> 00:05:29.480
+what the Raspberry Pi is doing
+is it's taking in that data,
+
+131
+00:05:29.480 --> 00:05:33.240
+because it defines a word
+by measuring its proximity and likeness
+
+132
+00:05:33.240 --> 00:05:33.280
+feeding it into a small, large vision
+model
+
+133
+00:05:33.280 --> 00:05:36.360
+with other entries,
+which can range far and wide,
+
+134
+00:05:36.360 --> 00:05:36.400
+and setting various tasks
+and analysis on it.
+
+135
+00:05:36.400 --> 00:05:40.480
+it is more capacious in holding
+multitudes, variations and affinities
+
+136
+00:05:40.480 --> 00:05:44.320
+in what a word can signify,
+rather than insisting on an absolute
+
+137
+00:05:44.320 --> 00:05:47.840
+exactness and meaning,
+and this evokes a sense of queerness.
+
+138
+00:05:47.840 --> 00:05:52.000
+So for him to use the source as data
+
+139
+00:05:52.000 --> 00:05:52.200
+And frankly pulling them to work,
+seeing what they can do.
+
+140
+00:05:52.200 --> 00:05:55.880
+is to sort of
+code queerness into its data.
+
+141
+00:05:55.880 --> 00:05:56.080
+The whole lot is controlled
+in a manner typical of a drone actually.
+
+142
+00:05:56.080 --> 00:05:57.160
+So there's a
+there's a kite net, you log into the kite,
+
+143
+00:05:57.160 --> 00:05:57.720
+And with that
+
+144
+00:05:57.720 --> 00:06:00.720
+said, strategy then reimagines
+the love letter
+
+145
+00:06:00.720 --> 00:06:04.760
+as a space for preserving queer love
+with the generative nature of the code.
+
+146
+00:06:04.760 --> 00:06:04.800
+commands to be up
+linked video, imagery and data to be down,
+
+147
+00:06:04.800 --> 00:06:08.760
+And essentially, if you don't physically
+pause the code execution,
+
+148
+00:06:08.760 --> 00:06:12.120
+the loop just runs the system
+repeatedly and infinitely,
+
+149
+00:06:12.120 --> 00:06:16.800
+and the act of composing love letters
+infinitely and in endless amounts
+
+150
+00:06:16.800 --> 00:06:16.840
+Then we've gone to all the trouble
+of hauling it up.
+
+151
+00:06:16.840 --> 00:06:20.600
+is itself a testament to the capacious
+and boundless energy
+
+152
+00:06:20.600 --> 00:06:20.680
+So in terms of visual data,
+
+153
+00:06:20.680 --> 00:06:25.720
+of a love that could essentially outlive
+even the lovers themselves.
+
+154
+00:06:25.720 --> 00:06:25.960
+go, okay, I have this scene before me
+at an altitude of 200ft.
+
+155
+00:06:25.960 --> 00:06:31.120
+So I see this as strategy's way
+of animating and preserving queer love
+
+156
+00:06:31.120 --> 00:06:35.200
+by programing it, to be generative,
+to be able to run forever.
+
+157
+00:06:35.200 --> 00:06:39.640
+And this is how its generative
+potential resists a political reality
+
+158
+00:06:39.640 --> 00:06:43.000
+that threatens to silence queerness
+and queer love.
+
+159
+00:06:43.000 --> 00:06:43.240
+I'm bringing it down here and saying,
+okay, classify
+
+160
+00:06:43.240 --> 00:06:43.560
+this terrain according
+to these different land class types.
+
+161
+00:06:43.560 --> 00:06:46.640
+And with that said,
+I've also noticed that the operation
+
+162
+00:06:46.640 --> 00:06:50.920
+and form of the generators code
+welcomes a remixing possibility,
+
+163
+00:06:50.920 --> 00:06:50.960
+and it only gets worse
+the smaller they get.
+
+164
+00:06:50.960 --> 00:06:55.200
+because you can imagine
+substituting the source data set
+
+165
+00:06:55.200 --> 00:06:55.240
+very difficult to get it to pay attention
+to the natural world.
+
+166
+00:06:55.240 --> 00:06:59.480
+with a completely different input source, 
+or to change up the template
+
+167
+00:06:59.480 --> 00:07:03.560
+order slightly, which will then produce
+entirely different output results
+
+168
+00:07:03.560 --> 00:07:07.040
+that reimagine different kinds
+of interpersonal relationships
+
+169
+00:07:07.040 --> 00:07:10.040
+and also different ways
+of falling in love.
+
+170
+00:07:10.040 --> 00:07:10.520
+And even when it does point out a natural
+scene, it's like there was a bush.
+
+171
+00:07:10.520 --> 00:07:13.520
+And I think that this really mixing
+potential unsettles
+
+172
+00:07:13.520 --> 00:07:15.840
+the sexual political order
+that assigns the writer
+
+173
+00:07:15.840 --> 00:07:18.160
+who gets to express
+love and desire freely.
+
+174
+00:07:18.160 --> 00:07:22.160
+So these possibilities, implied
+by the choice of data and processes,
+
+175
+00:07:22.160 --> 00:07:26.280
+become a productive and generative force
+to rework the status quo.
+
+176
+00:07:26.280 --> 00:07:26.360
+are so different from the rich works
+
+177
+00:07:26.360 --> 00:07:26.960
+of environmentally literature
+that we are used to think of J.R.
+
+178
+00:07:26.960 --> 00:07:30.000
+And in light of the above,
+I will now bring the same logic
+
+179
+00:07:30.000 --> 00:07:30.040
+Carpenter's works, for instance.
+
+180
+00:07:30.040 --> 00:07:32.240
+on remixing
+to my reading of Lillian Yvonne
+
+181
+00:07:32.240 --> 00:07:35.680
+Bertram's A New Sermon on the War
+planned a poem by algorithm.
+
+182
+00:07:35.680 --> 00:07:35.920
+we had the kind of documenting
+
+183
+00:07:35.920 --> 00:07:39.280
+The code is not publicly available,
+I believe.
+
+184
+00:07:39.280 --> 00:07:39.400
+and really got this idea
+of more than human
+
+185
+00:07:39.400 --> 00:07:41.680
+I think it used to be
+from my digging of it,
+
+186
+00:07:41.680 --> 00:07:43.000
+but I don't think it is anymore.
+
+187
+00:07:43.000 --> 00:07:46.480
+But we do know from the creative statement
+and the poem output
+
+188
+00:07:46.480 --> 00:07:50.440
+that it works in a similar logic strategy
+generator
+
+189
+00:07:50.440 --> 00:07:50.480
+of doing anything remotely as clever
+as that without a lot of work.
+
+190
+00:07:50.480 --> 00:07:54.280
+as seen from this possible template
+that I wrote here.
+
+191
+00:07:54.280 --> 00:07:55.760
+But remixes
+
+192
+00:07:55.760 --> 00:08:00.000
+a coding and poetic strategy doesn't stop
+at the level of the systems processes.
+
+193
+00:08:00.000 --> 00:08:02.520
+By situating their writing
+and coding practice
+
+194
+00:08:02.520 --> 00:08:06.040
+as inherited from a range of poetic
+and algorithmic ships.
+
+195
+00:08:06.040 --> 00:08:06.080
+There are so many things they don't do,
+they don't do well.
+
+196
+00:08:06.080 --> 00:08:10.640
+The politically subversive purposes
+of digital remixing in this generator
+
+197
+00:08:10.640 --> 00:08:10.680
+at to highlight their failures,
+to highlight their failings.
+
+198
+00:08:10.680 --> 00:08:14.600
+ultimately becomes
+also an ardent expression of love.
+
+199
+00:08:14.600 --> 00:08:14.840
+And ultimately, by way of that,
+getting us to remind ourselves of a world
+
+200
+00:08:14.840 --> 00:08:18.280
+So I've put here
+the communities of practice
+
+201
+00:08:18.280 --> 00:08:23.240
+that Bertram shares a relational kinship
+with through remixing in this poem
+
+202
+00:08:23.240 --> 00:08:28.200
+generator, and I am suggesting
+that remixing is how Bertram initiates
+
+203
+00:08:28.200 --> 00:08:31.560
+and maintains this kinship,
+because remix theory puts
+
+204
+00:08:31.560 --> 00:08:36.280
+a lot of emphasis on acknowledging
+and honoring one's artistic lineages.
+
+205
+00:08:36.280 --> 00:08:36.320
+But nevertheless, you might think, okay,
+where's the angle going on in all of this?
+
+206
+00:08:36.320 --> 00:08:38.880
+For one, it's to avoid plagiarism,
+
+207
+00:08:38.880 --> 00:08:42.640
+but more importantly,
+it is to expose a dependency of a work
+
+208
+00:08:42.640 --> 00:08:46.280
+on a preexisting context
+that enables it to generate meaning.
+
+209
+00:08:46.280 --> 00:08:47.040
+I should say, is once the system
+classifies the landscape,
+
+210
+00:08:47.120 --> 00:08:47.200
+those classes and those short descriptions
+associated with each class in terms of
+
+211
+00:08:47.200 --> 00:08:50.400
+And if remixing is guided by an attention
+toward
+
+212
+00:08:50.400 --> 00:08:54.360
+how one's creative work is always situated
+in relation to other histories
+
+213
+00:08:54.360 --> 00:08:59.520
+and realities, then code, or in this case
+Bertram's poetry generator, must exist
+
+214
+00:08:59.520 --> 00:09:03.440
+as a political artifact
+that is shaped by the haunting legacy
+
+215
+00:09:03.440 --> 00:09:05.680
+of racial violence
+against black Americans,
+
+216
+00:09:05.680 --> 00:09:10.280
+and this relationality also manifests
+from a collective effort to fashion
+
+217
+00:09:10.280 --> 00:09:14.160
+a voice for the unimagined black coders,
+which I see as a gesture
+
+218
+00:09:14.160 --> 00:09:17.400
+of love from Bertram
+to their communities of practice.
+
+219
+00:09:17.400 --> 00:09:18.120
+So the idea is that
+the system is actually using what it sees
+
+220
+00:09:18.120 --> 00:09:22.480
+But of course, this remixing of codes
+and data is not just for the sake of it.
+
+221
+00:09:22.480 --> 00:09:22.520
+as a framing query,
+and is overlaying the visual landscape
+
+222
+00:09:22.520 --> 00:09:26.760
+To understand how it is a gesture of love,
+I will now turn to Gwendolyn Brooks
+
+223
+00:09:26.760 --> 00:09:26.840
+with some of these extracts from these,
+
+224
+00:09:26.840 --> 00:09:30.720
+The Sermon on the Warp Land,
+which not only inspired the title
+
+225
+00:09:30.720 --> 00:09:34.720
+of the poem generator,
+but it's also worked into the data of it.
+
+226
+00:09:34.720 --> 00:09:38.680
+And I wanted to direct you
+to the last stance of the poem here,
+
+227
+00:09:38.680 --> 00:09:42.600
+where Brooks sort of builds
+a voice to call for a sense of unity
+
+228
+00:09:42.600 --> 00:09:44.000
+among the black community.
+
+229
+00:09:44.000 --> 00:09:48.640
+I see a poetic and algorithmic
+convergence in Brooks's text here,
+
+230
+00:09:48.640 --> 00:09:48.720
+So it sees a distant hill,
+it sees a river, it sees a farmland.
+
+231
+00:09:48.720 --> 00:09:50.040
+because whether you read it
+
+232
+00:09:50.040 --> 00:09:54.160
+as poem or code, it functions
+as a set of executable instructions.
+
+233
+00:09:54.160 --> 00:09:56.000
+This is her rallying cry
+
+234
+00:09:56.000 --> 00:09:59.800
+to her people to build a future
+that embraces the multitudes of blackness.
+
+235
+00:09:59.800 --> 00:10:03.720
+And this future is built with a love
+like black are black.
+
+236
+00:10:03.720 --> 00:10:07.880
+And I think that this is the mantra
+that Bertram bears out in a new sermon,
+
+237
+00:10:07.880 --> 00:10:07.920
+Reading the landscape
+as a prompt for reflection,
+
+238
+00:10:07.920 --> 00:10:11.280
+because they show that they are conscious
+of this relationality
+
+239
+00:10:11.280 --> 00:10:16.080
+by remixing the legacies of their poetic
+and algorithmic predecessors,
+
+240
+00:10:16.080 --> 00:10:19.520
+because no one is doing anything in coding
+without someone else.
+
+241
+00:10:19.520 --> 00:10:23.320
+Teams of others, in fact,
+and more importantly,
+
+242
+00:10:23.320 --> 00:10:26.600
+Bertram is taking up this continuous work
+by positioning
+
+243
+00:10:26.600 --> 00:10:29.680
+themselves as an unimagined coder
+in writing and coding.
+
+244
+00:10:29.680 --> 00:10:29.720
+So coming up to near the end, very good.
+
+245
+00:10:29.720 --> 00:10:33.680
+Travesty generator computing practices
+have historically excluded
+
+246
+00:10:33.680 --> 00:10:38.040
+people of color, women, and those from
+lower socioeconomic backgrounds,
+
+247
+00:10:38.040 --> 00:10:38.080
+I've had to be very schematic.
+
+248
+00:10:38.080 --> 00:10:42.400
+and while there have been
+increasing efforts at making computation
+
+249
+00:10:42.400 --> 00:10:46.200
+a more accessible resource
+for them, attaining algorithmic literacy
+
+250
+00:10:46.200 --> 00:10:50.520
+remains a former privilege
+that renders these individuals unimagined.
+
+251
+00:10:50.520 --> 00:10:54.720
+Readers and coders of algorithms,
+let alone black experimental code work,
+
+252
+00:10:54.720 --> 00:10:59.200
+and by being explicit in their positioning
+as an unimagined black programmer
+
+253
+00:10:59.200 --> 00:10:59.280
+It's unlikely to achieve that aim, but
+that's part of the esthetic aspirations,
+
+254
+00:10:59.280 --> 00:11:03.680
+whose code confronts the oppressive
+political reality of their people.
+
+255
+00:11:03.680 --> 00:11:03.760
+this idea of imagining another world
+and imagining another world.
+
+256
+00:11:03.760 --> 00:11:07.960
+Bertram's work is also an intervention
+into a literary
+
+257
+00:11:07.960 --> 00:11:11.920
+and computational space
+that has long excluded people of color,
+
+258
+00:11:11.920 --> 00:11:12.560
+what are the challenges
+involved in doing so?
+
+259
+00:11:12.560 --> 00:11:15.040
+and I think that at its core,
+
+260
+00:11:15.040 --> 00:11:18.400
+this intervention is motivated by love.
+
+261
+00:11:18.400 --> 00:11:18.480
+quite important to me in terms of modeling
+what another world would look like,
+
+262
+00:11:18.480 --> 00:11:22.840
+Bertram's intention with programing
+the unimagined coder into existence.
+
+263
+00:11:22.840 --> 00:11:23.440
+what another sort of speculative sensory
+landscape may ultimately resemble as well.
+
+264
+00:11:23.760 --> 00:11:24.440
+And eventually what I hope to do
+is because the thing
+
+265
+00:11:24.440 --> 00:11:25.480
+It advocates
+
+266
+00:11:25.480 --> 00:11:28.520
+for a new narrative
+where there can be more black coders
+
+267
+00:11:28.520 --> 00:11:33.120
+and poets experimenting with this literary
+and computational practice.
+
+268
+00:11:33.120 --> 00:11:33.320
+I'd love to be able to do performances
+with this apparatus.
+
+269
+00:11:33.320 --> 00:11:34.880
+What Gwendolyn Brooks cause
+
+270
+00:11:34.880 --> 00:11:37.920
+a lot like black are black
+is exemplified by their commitment
+
+271
+00:11:37.920 --> 00:11:41.320
+to amplifying the voices
+and realities of the black community.
+
+272
+00:11:41.320 --> 00:11:41.360
+We can annotate the data
+that it's generating in real time,
+
+273
+00:11:41.360 --> 00:11:44.840
+And sort of code is something
+that has meaning beyond its functionality
+
+274
+00:11:44.840 --> 00:11:48.200
+as a form of symbolic expression
+and interaction.
+
+275
+00:11:48.200 --> 00:11:52.360
+Then it can be said that love,
+specifically a love embodied in honoring
+
+276
+00:11:52.360 --> 00:11:57.480
+once lineages and inheriting the work,
+inheriting the work of community advocacy.
+
+277
+00:11:57.480 --> 00:12:01.520
+That's what Bertram's code is expressing
+and interacting with.
+
+278
+00:12:01.520 --> 00:12:01.640
+Thank you very much for listening.
+
+279
+00:12:01.640 --> 00:12:05.640
+And finally, I would like to end
+with this quote from Jacob Brown,
+
+280
+00:12:05.640 --> 00:12:07.800
+who says, when I say I love you,
+
+281
+00:12:07.800 --> 00:12:10.880
+I mean for you to understand
+that I exist in relation to you.
+
+282
+00:12:10.880 --> 00:12:14.560
+And I really like this quote,
+because I think it perfectly encapsulates
+
+283
+00:12:14.560 --> 00:12:19.320
+the relationality that strategy and
+Bertram bear out in their home generators.
+
+284
+00:12:19.320 --> 00:12:21.320
+And ultimately,
+I think that there is no greater
+
+285
+00:12:21.320 --> 00:12:25.720
+act of love than centering your craft
+around your communities and relations,
+
+286
+00:12:25.760 --> 00:12:30.040
+despite the political circumstances
+that threaten to sever these ties.
+
+287
+00:12:30.920 --> 00:12:35.640
+This is my list of works,
+and that is all I have for you today.
+
+288
+00:12:35.720 --> 00:12:37.040
+Thank you very much.

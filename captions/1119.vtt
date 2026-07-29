@@ -1,0 +1,996 @@
+WEBVTT
+
+1
+00:00:01.600 --> 00:00:04.600
+next up we have
+
+2
+00:00:05.600 --> 00:00:08.920
+Brendan and Andreas can take it away.
+
+3
+00:00:10.840 --> 00:00:13.320
+And and Jenny
+
+4
+00:00:13.320 --> 00:00:16.320
+and. Yes.
+
+5
+00:00:16.800 --> 00:00:19.280
+Okay. So
+
+6
+00:00:19.280 --> 00:00:21.280
+I'll try and do a quick introduction here.
+
+7
+00:00:21.280 --> 00:00:25.360
+So what we're going to talk about today
+is a project that's called New Beginnings.
+
+8
+00:00:25.400 --> 00:00:26.960
+Never do the actual thing.
+
+9
+00:00:26.960 --> 00:00:32.080
+And this was a collective writing project
+where 48 authors used
+
+10
+00:00:32.080 --> 00:00:36.840
+a custom edit machine
+to write a collaborative text.
+
+11
+00:00:36.880 --> 00:00:41.240
+And this took place
+during the Toast Festival in 2023,
+
+12
+00:00:41.240 --> 00:00:44.440
+which is a literary festival in
+
+13
+00:00:45.440 --> 00:00:48.120
+Harvick Spec, which is near Minster,
+
+14
+00:00:48.120 --> 00:00:51.120
+Germany.
+
+15
+00:00:51.200 --> 00:00:52.920
+We I mean, all of us,
+
+16
+00:00:52.920 --> 00:00:56.560
+the three of us
+who sort of conceived and made the
+
+17
+00:00:56.560 --> 00:00:59.560
+there were 48 writers,
+but there were three of us who sort of
+
+18
+00:00:59.720 --> 00:01:03.720
+put the concept together
+and made the thing work. And
+
+19
+00:01:04.760 --> 00:01:06.400
+we're here today, and
+
+20
+00:01:06.400 --> 00:01:09.400
+unfortunately,
+we don't have time to do all the bios,
+
+21
+00:01:10.160 --> 00:01:12.240
+but also our bios are going to try
+and keep brief.
+
+22
+00:01:12.240 --> 00:01:16.280
+But so just a few words though.
+
+23
+00:01:16.320 --> 00:01:19.640
+Yanny Boone is the program director
+and deputy
+
+24
+00:01:19.640 --> 00:01:23.720
+artistic director
+at Book Who's Center for literature.
+
+25
+00:01:23.760 --> 00:01:27.920
+She's based in Cologne, Germany,
+but the institution
+
+26
+00:01:29.080 --> 00:01:31.000
+book is in Harvick
+
+27
+00:01:31.000 --> 00:01:34.000
+spec, which is, as I said, near Minster.
+
+28
+00:01:34.000 --> 00:01:38.360
+Andreas is also doing a lot of different
+things.
+
+29
+00:01:38.360 --> 00:01:41.040
+He's independent artist and researcher.
+
+30
+00:01:41.040 --> 00:01:45.200
+One of he's a
+he has a sort of label, so to speak,
+
+31
+00:01:45.720 --> 00:01:49.920
+where they publish sonic poetry
+and language based sound works.
+
+32
+00:01:49.920 --> 00:01:56.120
+And he currently lives in Hamburg,
+Germany, and I'm Brendan, I live in
+
+33
+00:01:57.160 --> 00:02:01.720
+Berlin, Germany, and I'm an independent
+artist and a reluctant engineer.
+
+34
+00:02:02.960 --> 00:02:03.440
+So this
+
+35
+00:02:03.440 --> 00:02:06.440
+concept was it was a collaboration
+between the three of us.
+
+36
+00:02:06.440 --> 00:02:10.320
+It borrows from some ideas
+from some earlier experiments
+
+37
+00:02:10.320 --> 00:02:13.720
+that I started,
+you know, more than 15 years ago now.
+
+38
+00:02:13.720 --> 00:02:15.960
+It was a series.
+It was called Exquisite Code.
+
+39
+00:02:15.960 --> 00:02:20.560
+And this project here was a kind of reboot
+and a and a rewrite
+
+40
+00:02:20.600 --> 00:02:21.920
+with some different mechanics.
+
+41
+00:02:21.920 --> 00:02:25.640
+And it was in a very different context
+from what I'd done before,
+
+42
+00:02:25.840 --> 00:02:30.400
+especially because we're all the writers
+were mostly writing in German.
+
+43
+00:02:30.400 --> 00:02:34.400
+And there also the people involved
+were also sort of discursive,
+
+44
+00:02:34.600 --> 00:02:39.400
+more active in more German
+speaking artistic scenes.
+
+45
+00:02:39.400 --> 00:02:43.160
+And there's actually
+also quite a diversity among the writers
+
+46
+00:02:43.200 --> 00:02:46.360
+in terms of their practices
+and their backgrounds. And
+
+47
+00:02:47.400 --> 00:02:48.840
+we don't have a lot of time.
+
+48
+00:02:48.840 --> 00:02:50.520
+And it's slightly complicated.
+
+49
+00:02:50.520 --> 00:02:51.880
+The thing worked.
+
+50
+00:02:51.880 --> 00:02:54.720
+Not too convoluted,
+but hopefully we can give you an idea
+
+51
+00:02:54.720 --> 00:02:59.440
+of the sort of novel,
+interesting and fun parts of the project.
+
+52
+00:02:59.560 --> 00:03:02.760
+Okay, so I'll hand it over to Yeni
+to give you some background.
+
+53
+00:03:03.640 --> 00:03:06.960
+Hello everybody,
+and thank you for the introduction.
+
+54
+00:03:07.760 --> 00:03:10.240
+My part is in the introduction as well
+
+55
+00:03:10.240 --> 00:03:13.720
+to the project New Beginnings,
+which was in 48 hours.
+
+56
+00:03:13.720 --> 00:03:18.520
+Human machine collective writing, books
+print conceived like said Andreas
+
+57
+00:03:18.680 --> 00:03:19.440
+Brand and me.
+
+58
+00:03:19.440 --> 00:03:23.120
+But it was based on
+Brendan's program The Maggot.
+
+59
+00:03:24.520 --> 00:03:27.040
+And over 48 hours, 48
+
+60
+00:03:27.040 --> 00:03:31.400
+authors each wrote for one hour
+into a dedicated writing interface.
+
+61
+00:03:31.400 --> 00:03:36.240
+So there were people were poets, prose
+writers, artists and scholars.
+
+62
+00:03:36.640 --> 00:03:39.440
+The project was like printed, embedded
+
+63
+00:03:39.440 --> 00:03:43.400
+in a festival,
+which seemed the theme of the festival
+
+64
+00:03:43.400 --> 00:03:47.240
+was I mean, the
+which is an old German word for comments.
+
+65
+00:03:47.240 --> 00:03:53.520
+And that question was became the question
+for new beginnings itself.
+
+66
+00:03:53.560 --> 00:03:55.280
+So who owns the text?
+
+67
+00:03:55.280 --> 00:03:59.480
+What does Arthur ship mean
+when a text is written by 48 people,
+
+68
+00:03:59.520 --> 00:04:02.520
+none of whom control the whole?
+
+69
+00:04:02.520 --> 00:04:07.520
+What happens to autonomy and to copyright
+once your individual writing
+
+70
+00:04:07.520 --> 00:04:12.640
+is pulled by the machine without credit
+and folded into a collective text
+
+71
+00:04:12.880 --> 00:04:15.880
+far bigger than any single contribution
+
+72
+00:04:15.960 --> 00:04:18.760
+for the whole project you see now.
+
+73
+00:04:18.760 --> 00:04:22.640
+Also the cover
+and the back cover of the publication,
+
+74
+00:04:22.640 --> 00:04:26.360
+because the project became a publication,
+which you can see now.
+
+75
+00:04:27.880 --> 00:04:28.880
+And for this
+
+76
+00:04:28.880 --> 00:04:31.880
+we work with the process design
+studio OSP,
+
+77
+00:04:32.040 --> 00:04:34.920
+who developed a dynamic font.
+
+78
+00:04:34.920 --> 00:04:39.120
+So each author was assigned
+with the customized font.
+
+79
+00:04:39.160 --> 00:04:43.600
+You can see this on the cover
+in the different type fonts that spell out
+
+80
+00:04:43.640 --> 00:04:44.600
+new beginnings.
+
+81
+00:04:44.600 --> 00:04:50.040
+And throughout the book itself,
+the shifting type shows that different
+
+82
+00:04:50.040 --> 00:04:53.960
+voices are writing without revealing
+
+83
+00:04:54.040 --> 00:04:58.640
+which customized font belongs
+to which author.
+
+84
+00:04:58.720 --> 00:05:01.320
+That's quite
+
+85
+00:05:01.320 --> 00:05:04.360
+important that there was so no copyright
+
+86
+00:05:04.400 --> 00:05:07.960
+or to one author possible. So.
+
+87
+00:05:08.000 --> 00:05:12.080
+And during the 48 hours of text
+as it developed, was shown at the festival
+
+88
+00:05:12.080 --> 00:05:15.200
+and as well on the website, once
+
+89
+00:05:15.200 --> 00:05:20.920
+all writing slots were complete,
+there was a small reading on the festival
+
+90
+00:05:20.920 --> 00:05:24.280
+site, but shortly after all
+
+91
+00:05:24.280 --> 00:05:29.440
+text was published on the website SaPD
+and as a print on demand book
+
+92
+00:05:29.480 --> 00:05:32.720
+available to order, which Andreas
+
+93
+00:05:32.720 --> 00:05:36.280
+will show later because he's the
+only one who found it in his
+
+94
+00:05:37.480 --> 00:05:39.160
+between his books. So.
+
+95
+00:05:39.160 --> 00:05:42.680
+And now I will pass to Andreas,
+who will tell you something
+
+96
+00:05:42.680 --> 00:05:45.680
+about interface and the mode of writing.
+
+97
+00:05:46.800 --> 00:05:49.560
+Yes. Thank you.
+
+98
+00:05:49.560 --> 00:05:52.560
+I will open the next slide.
+
+99
+00:05:56.480 --> 00:05:56.920
+Right.
+
+100
+00:05:56.920 --> 00:06:00.440
+So the text was staged as a
+
+101
+00:06:00.720 --> 00:06:05.520
+as a collective whole
+without negating its anonymous polyphony.
+
+102
+00:06:06.200 --> 00:06:11.360
+And this model of collectivity
+was achieved via machining or a rhythmic
+
+103
+00:06:11.400 --> 00:06:15.520
+editing process
+that gave the 48 authors heavily
+
+104
+00:06:15.520 --> 00:06:18.520
+time boxed writing tasks,
+
+105
+00:06:19.720 --> 00:06:24.160
+and to design and algorithmically inscribe
+an editing process before.
+
+106
+00:06:24.840 --> 00:06:28.440
+Before there was content,
+we had to make the writing
+
+107
+00:06:28.560 --> 00:06:31.640
+that would be produced
+as input by the authors
+
+108
+00:06:31.680 --> 00:06:34.840
+slash users algorithmically manageable.
+
+109
+00:06:34.840 --> 00:06:38.000
+So we had to assume chunks of text
+
+110
+00:06:38.040 --> 00:06:42.240
+that would be automatically combined
+by the editing algorithm to design
+
+111
+00:06:42.240 --> 00:06:46.520
+a book with chapters
+as some sort of fill in the blank form.
+
+112
+00:06:47.080 --> 00:06:51.840
+These assumptions of a book or text to be
+was enacted upon the authors,
+
+113
+00:06:51.880 --> 00:06:56.040
+as Jenny already said, via a sparse yet
+
+114
+00:06:56.080 --> 00:06:59.840
+effective interface, which you can see
+
+115
+00:07:01.000 --> 00:07:03.080
+in the screenshot right here.
+
+116
+00:07:03.080 --> 00:07:05.960
+So each author
+
+117
+00:07:05.960 --> 00:07:09.240
+was sent a link and which they could open
+
+118
+00:07:09.240 --> 00:07:12.240
+in their browser, and that this HTML
+
+119
+00:07:12.640 --> 00:07:15.560
+writing interface
+
+120
+00:07:15.560 --> 00:07:18.320
+and this interface provided them
+
+121
+00:07:18.320 --> 00:07:23.640
+with nothing more than a text box,
+a timer, and a writing task.
+
+122
+00:07:23.960 --> 00:07:28.960
+Each author author was assigned one hour
+of writing, divided into six writing
+
+123
+00:07:29.000 --> 00:07:32.000
+tasks with different timer lengths,
+
+124
+00:07:32.280 --> 00:07:34.880
+which were the following.
+
+125
+00:07:34.880 --> 00:07:39.320
+And I hope you can search enough
+so you can also read it here.
+
+126
+00:07:39.320 --> 00:07:43.360
+So the first task was write
+
+127
+00:07:43.400 --> 00:07:47.240
+a response to a text left for you
+by a previous participant.
+
+128
+00:07:47.360 --> 00:07:50.960
+Time 14 minutes two three.
+
+129
+00:07:51.000 --> 00:07:52.440
+Writing one of three.
+
+130
+00:07:52.440 --> 00:07:54.680
+Time five minutes three.
+
+131
+00:07:54.680 --> 00:07:59.680
+Free writing 2 or 3 time
+ten minutes for free
+
+132
+00:07:59.840 --> 00:08:04.200
+writing 3 or 3 time seven minutes five.
+
+133
+00:08:04.320 --> 00:08:09.800
+Write a task for the person who will write
+after you time five minutes six.
+
+134
+00:08:09.800 --> 00:08:15.040
+Corpus care added on the 200 words
+generated from all previous texts
+
+135
+00:08:15.080 --> 00:08:21.480
+using a Markov algorithm
+within three time 15 minutes seven.
+
+136
+00:08:22.480 --> 00:08:25.720
+Create a chapter title time three minutes.
+
+137
+00:08:26.880 --> 00:08:32.120
+The input from each task was pulled,
+so to speak, by the system
+
+138
+00:08:32.120 --> 00:08:37.400
+when the timer ran out,
+making further editing impossible.
+
+139
+00:08:37.520 --> 00:08:42.360
+Each chunk was then sorted and arranged
+by the editing algorithm in a certain way,
+
+140
+00:08:42.360 --> 00:08:46.120
+which,
+when we give some insights on after me.
+
+141
+00:08:46.640 --> 00:08:49.880
+But I want to finish
+with three observations
+
+142
+00:08:49.880 --> 00:08:54.200
+on this domesticated writing process one.
+
+143
+00:08:54.640 --> 00:08:59.640
+Writing is always constrained
+in the Olympian sense.
+
+144
+00:08:59.640 --> 00:09:03.440
+You gain back control
+by making the rules that implicitly govern
+
+145
+00:09:03.440 --> 00:09:07.120
+your writing explicit, which we kind of
+
+146
+00:09:07.760 --> 00:09:10.760
+forced upon the authors of this method.
+
+147
+00:09:11.120 --> 00:09:13.880
+Two writing had to be domesticated
+
+148
+00:09:13.880 --> 00:09:16.880
+in order to be manageable
+by the editing algorithm.
+
+149
+00:09:17.000 --> 00:09:22.080
+That is maybe something to keep in mind
+that writing is turned into data
+
+150
+00:09:22.120 --> 00:09:24.920
+also by social media platforms
+or the like.
+
+151
+00:09:24.920 --> 00:09:28.480
+And three the whole process
+
+152
+00:09:28.680 --> 00:09:31.680
+of making this, this performance
+
+153
+00:09:31.680 --> 00:09:35.560
+or publishing performance was imagining,
+
+154
+00:09:35.640 --> 00:09:39.720
+imagining,
+making a book as a self-made social media
+
+155
+00:09:40.440 --> 00:09:42.840
+publishing form, a platform.
+
+156
+00:09:42.840 --> 00:09:47.200
+The text box that opens up services
+like Twitter, Mastodon, Facebook
+
+157
+00:09:47.240 --> 00:09:52.080
+and the like, which requests you
+to make an input in order to participate,
+
+158
+00:09:52.080 --> 00:09:56.480
+and the timeline algorithms that sort
+collectively written text into an
+
+159
+00:09:56.480 --> 00:10:01.440
+endless stream resemble what we did
+with requesting input by the authors
+
+160
+00:10:01.440 --> 00:10:05.160
+and creating this collaged stream
+of input data.
+
+161
+00:10:05.200 --> 00:10:09.400
+Only this time
+we got to decide the rules of the game.
+
+162
+00:10:09.440 --> 00:10:13.680
+So new beginnings might imagine literature
+as an alternative reality
+
+163
+00:10:13.680 --> 00:10:16.920
+to the reality of social media
+or digital media in general.
+
+164
+00:10:17.800 --> 00:10:20.320
+If you want to make a boat claim.
+
+165
+00:10:20.320 --> 00:10:21.600
+Yeah. Brenton.
+
+166
+00:10:27.600 --> 00:10:28.000
+Sorry.
+
+167
+00:10:28.000 --> 00:10:29.920
+Unmute myself first.
+
+168
+00:10:29.920 --> 00:10:30.280
+Yeah.
+
+169
+00:10:30.280 --> 00:10:33.560
+So if we can have a look at the flowchart.
+
+170
+00:10:34.360 --> 00:10:36.840
+This is my readable here.
+
+171
+00:10:36.840 --> 00:10:40.720
+It's a bit dry in a way,
+but this is a very faithful
+
+172
+00:10:40.720 --> 00:10:43.920
+reproduction of the software's actual
+
+173
+00:10:45.000 --> 00:10:47.640
+mechanics and the way it worked.
+
+174
+00:10:47.640 --> 00:10:51.520
+So it was a fairly straightforward
+sort of web application
+
+175
+00:10:52.120 --> 00:10:55.720
+written in Python
+using a kind of minimal framework
+
+176
+00:10:55.720 --> 00:10:58.720
+called bottle and.
+
+177
+00:11:00.080 --> 00:11:04.280
+This helped to by constraining here
+the complexity of the system
+
+178
+00:11:04.320 --> 00:11:09.960
+helped to make it reasonably reliable
+for this particular thing.
+
+179
+00:11:10.000 --> 00:11:13.000
+And you can see
+
+180
+00:11:13.000 --> 00:11:15.880
+some of the typical,
+I don't know, user interface problems.
+
+181
+00:11:15.880 --> 00:11:20.600
+You know, things like if someone is late
+or if they're early or things like that,
+
+182
+00:11:21.680 --> 00:11:27.040
+how how we sort of cope with that
+and make it hopefully still work for the
+
+183
+00:11:27.040 --> 00:11:30.360
+the author, that they can still write
+something and contribute.
+
+184
+00:11:30.360 --> 00:11:33.400
+And Andreas,
+can you scroll down a little bit
+
+185
+00:11:35.000 --> 00:11:36.680
+and then you can see here
+
+186
+00:11:36.680 --> 00:11:40.600
+where it gets a little bit more dynamic
+than is where we're dealing with
+
+187
+00:11:40.640 --> 00:11:43.960
+either the, the sort of prompted input or
+
+188
+00:11:44.080 --> 00:11:47.080
+with the Markov stuff.
+
+189
+00:11:47.280 --> 00:11:51.000
+And again,
+this was some ways very helpful to just
+
+190
+00:11:51.040 --> 00:11:54.720
+I was using plain text files
+and a sort of home
+
+191
+00:11:54.760 --> 00:11:57.280
+brewed database system
+rather than some sort of
+
+192
+00:11:57.280 --> 00:12:01.600
+more complex or exotic setup,
+which made it a lot easier to then
+
+193
+00:12:01.640 --> 00:12:05.840
+just basically deal
+with raw pieces of text on the
+
+194
+00:12:06.120 --> 00:12:09.120
+in various different folders and files.
+
+195
+00:12:09.800 --> 00:12:12.960
+So yeah, someone's interested.
+
+196
+00:12:12.960 --> 00:12:15.600
+We can, I think
+have we published the code?
+
+197
+00:12:15.600 --> 00:12:19.480
+I think so I don't know
+if there's a link to it, but yeah we did.
+
+198
+00:12:19.520 --> 00:12:20.040
+That's right.
+
+199
+00:12:20.040 --> 00:12:23.040
+That's it's I remember
+
+200
+00:12:24.480 --> 00:12:27.000
+if anyone's really interested,
+you can certainly get in touch
+
+201
+00:12:27.000 --> 00:12:31.040
+to ask about the system or if you want to
+repurpose it or use it, then feel free.
+
+202
+00:12:32.400 --> 00:12:34.280
+But I think we're almost out of time,
+
+203
+00:12:34.280 --> 00:12:37.640
+so I will stop there. To.
+
+204
+00:12:38.800 --> 00:12:41.800
+Andreas, do we have a conclusion?
+
+205
+00:12:43.600 --> 00:12:44.080
+This.
+
+206
+00:12:44.080 --> 00:12:46.400
+This was the conclusion I feel.
+
+207
+00:12:46.400 --> 00:12:48.920
+Okay, yeah,
+
+208
+00:12:48.920 --> 00:12:49.160
+that's.
+
+209
+00:12:49.160 --> 00:12:51.440
+True,
+but I'm not sticking the landing here.
+
+210
+00:12:51.440 --> 00:12:52.760
+But anyway.
+
+211
+00:12:52.760 --> 00:12:54.560
+Yeah,
+
+212
+00:12:54.560 --> 00:12:56.960
+thanks.
+
+213
+00:12:56.960 --> 00:12:59.960
+Thank you.
+
+214
+00:13:01.800 --> 00:13:02.600
+All right.
+
+215
+00:13:02.600 --> 00:13:06.680
+Coming in early, we will have,
+I think, plenty of time for questions.
+
+216
+00:13:06.680 --> 00:13:09.240
+We are also bumping up
+against the lunch breaks.
+
+217
+00:13:09.240 --> 00:13:14.520
+We can go a bit longer,
+but first we have Michael.
+
+218
+00:13:15.600 --> 00:13:18.600
+Go ahead and start whenever you're ready.
+
+219
+00:13:18.800 --> 00:13:19.760
+Okey dokey.
+
+220
+00:13:19.760 --> 00:13:22.960
+I'm going to share my screen here. And.
