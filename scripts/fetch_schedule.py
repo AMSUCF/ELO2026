@@ -159,6 +159,36 @@ def vendored_captions(captions, caption_dir=CAPTION_DIR):
     return found
 
 
+def extract_paper_url(html):
+    """Pull the attached paper PDF out of a STARS event page. Events with a
+    full-text paper render an <a id="pdf"> download button; recorded sessions
+    without one render <a id="native"> for the raw video file instead, which
+    is not a paper."""
+    match = re.search(r'<a id="pdf"[^>]*\bhref="([^"]+)"', html)
+    if not match:
+        return None
+    url = unescape(match.group(1))
+    return url if url.startswith("https://") else None
+
+
+def check_papers(events, previous, fetcher):
+    """Map event url -> attached paper PDF url. Every event page is checked,
+    since proceedings papers are attached whether or not a session was
+    recorded, and a paper already published is never dropped on a bad fetch."""
+    papers = {}
+    for ev in events:
+        url = ev["url"]
+        try:
+            found = extract_paper_url(fetcher(url.rstrip("/") + "/"))
+        except (OSError, ValueError):
+            found = None
+        if found:
+            papers[url] = found
+        elif url in previous:
+            papers[url] = previous[url]
+    return papers
+
+
 def check_captions(events, videos, previous, fetcher):
     """Map event url -> caption file url for recorded sessions whose STARS
     page advertises a captions track. Only recorded sessions are checked,
@@ -201,10 +231,11 @@ def check_videos(events, previous, fetcher):
 
 
 def build_payload(events, rss_links, generated, videos=None, captions=None,
-                  caption_files=None):
+                  caption_files=None, papers=None):
     videos = videos or {}
     captions = captions or {}
     caption_files = caption_files or {}
+    papers = papers or {}
     events = [{**ev, **OVERRIDES.get(ev["url"], {})} for ev in events]
     out = []
     for ev in sorted(events, key=lambda e: (e["start"], e["title"])):
@@ -215,6 +246,8 @@ def build_payload(events, rss_links, generated, videos=None, captions=None,
             entry["captions"] = captions[ev["url"]]
         if ev["url"] in caption_files:
             entry["captions_file"] = caption_files[ev["url"]]
+        if ev["url"] in papers:
+            entry["paper"] = papers[ev["url"]]
         out.append(entry)
     return {"generated": generated, "source": SCHEDULE_URL, "events": out}
 
@@ -240,6 +273,8 @@ def validate(payload):
                 errors.append(f"bad captions url: {ev.get('title')}")
             if "video" not in ev:
                 errors.append(f"captions without a recording: {ev.get('title')}")
+        if "paper" in ev and not str(ev["paper"]).startswith("https://"):
+            errors.append(f"bad paper url: {ev.get('title')}")
         if "captions_file" in ev:
             path = str(ev["captions_file"])
             if not path.startswith("captions/") or not path.endswith(".vtt"):
@@ -261,12 +296,24 @@ def main():
     events = parse_schedule(_fetch(SCHEDULE_URL))
     rss_links = parse_rss_links(_fetch(RSS_URL))
     videos = check_videos(events, load_previous_field(OUTPUT, "video"), _fetch)
+    # The papers and captions checks read the same article pages; fetch each
+    # page once and share it.
+    page_cache = {}
+
+    def fetch_page(url):
+        if url not in page_cache:
+            page_cache[url] = _fetch(url)
+        return page_cache[url]
+
+    papers = check_papers(events, load_previous_field(OUTPUT, "paper"), fetch_page)
     captions = check_captions(
-        events, videos, load_previous_field(OUTPUT, "captions"), _fetch
+        events, videos, load_previous_field(OUTPUT, "captions"), fetch_page
     )
     caption_files = vendored_captions(captions)
     generated = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    payload = build_payload(events, rss_links, generated, videos, captions, caption_files)
+    payload = build_payload(
+        events, rss_links, generated, videos, captions, caption_files, papers
+    )
     errors = validate(payload)
     if errors:
         for err in errors:
@@ -279,7 +326,8 @@ def main():
     )
     print(
         f"Wrote {len(payload['events'])} events ({len(videos)} with recordings, "
-        f"{len(captions)} with captions, {len(caption_files)} served locally) to {OUTPUT}"
+        f"{len(captions)} with captions, {len(caption_files)} served locally, "
+        f"{len(papers)} with papers) to {OUTPUT}"
     )
     return 0
 

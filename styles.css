@@ -427,6 +427,43 @@ a:focus-visible, button:focus-visible, select:focus-visible {
   text-align: center;
 }
 
+.glow-subheading#papers { scroll-margin-top: 1.5rem; }
+
+.paper-count {
+  color: #bdbdbd;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.95rem;
+  margin: 0 0 1rem;
+}
+
+.paper-list {
+  list-style: none;
+  margin: 1.5rem 0;
+  padding: 0;
+}
+.paper-item {
+  background: var(--card-bg);
+  border: 2px solid rgba(255, 105, 180, 0.55);
+  border-radius: 14px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.9rem;
+}
+.paper-title { margin: 0; font-size: 1.15rem; line-height: 1.35; }
+.paper-title a { color: #fff; }
+.paper-title a:hover, .paper-title a:focus { color: var(--pink); }
+.paper-meta {
+  color: #d0d0d0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.95rem;
+  margin: 0.25rem 0 0;
+}
+.paper-links {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  margin: 0.4rem 0 0;
+}
+.paper-links a { color: var(--cyan); }
+
 /* Header menu on the schedule page */
 .header-nav { margin: 1rem 0; }
 .header-nav .cta-button { font-size: 0.95rem; padding: 0.5rem 1.25rem; }
