@@ -62,7 +62,7 @@ function renderSession(session, sessionId, timeZone, isPast) {
   const { heading, description } = sessionHeading(session.type);
   const recordingNote =
     isPast && awaitingRecording(session)
-      ? `<p class="recording-soon">Recording will be available soon.</p>`
+      ? `<p class="recording-soon">No recording is available for this session.</p>`
       : "";
   return `
         <section class="session" aria-labelledby="${sessionId}">
@@ -187,7 +187,7 @@ async function init() {
     timeStyle: "short",
   });
   document.getElementById("sync-note").innerHTML =
-    `Schedule last synced from <a href="${esc(payload.source)}">STARS</a> on ${esc(synced)}. ` +
+    `Archived schedule, last synced from <a href="${esc(payload.source)}">STARS</a> on ${esc(synced)}. ` +
     `Session times entered in STARS are US Eastern.`;
 
   document.getElementById("schedule").addEventListener("click", (evt) => {

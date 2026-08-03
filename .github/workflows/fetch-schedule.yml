@@ -1,8 +1,9 @@
 name: Sync schedule from STARS
 
+# The site is in archive mode: the hourly schedule is retired, and the sync
+# now runs only when triggered by hand (Actions tab -> Run workflow) after a
+# requested change to the archive on STARS.
 on:
-  schedule:
-    - cron: "23 * * * *"   # hourly
   workflow_dispatch:
 
 permissions:

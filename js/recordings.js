@@ -152,7 +152,7 @@ function renderNowMeta(ev) {
          <span class="visually-hidden">(opens in a new window)</span>
        </a>`,
     soon: `<span class="cc-link cc-pending"><span class="cc-badge" aria-hidden="true">CC</span>
-        Captions coming soon</span>`,
+        No captions available for this session</span>`,
   }[captionState(ev)];
   el.nowMeta.innerHTML = `
     <h2 class="now-title">${esc(ev.title)}</h2>
@@ -240,7 +240,7 @@ async function play(ev) {
       const note = el.nowMeta.querySelector(".cc-link");
       if (note) {
         note.classList.add("cc-pending");
-        note.innerHTML = `<span class="cc-badge" aria-hidden="true">CC</span> Captions coming soon`;
+        note.innerHTML = `<span class="cc-badge" aria-hidden="true">CC</span> Captions could not be loaded`;
       }
     });
     video.appendChild(track);

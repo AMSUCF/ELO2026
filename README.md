@@ -15,7 +15,7 @@ Portal and schedule tool for the [ELO (un)supervised 2026](https://stars.library
 Event data is scraped from the STARS combined-schedule HTML page (`https://stars.library.ucf.edu/elo2026/combined_schedule/`) and stored in `data/events.json`. The RSS feed is only used to flag the 7 featured plenary events.
 
 - **Script:** `scripts/fetch_schedule.py` — scrapes the combined-schedule HTML page, parses events, converts all times to UTC, and writes `data/events.json`.
-- **GitHub Action:** `.github/workflows/` runs the fetch script on a 6-hour schedule to keep data current.
+- **GitHub Action:** `.github/workflows/fetch-schedule.yml` runs the fetch script. The site is in archive mode, so the scheduled trigger is retired — run the workflow by hand (Actions tab → Run workflow) after a requested change to the archive on STARS.
 - **Time convention:** All times in `data/events.json` are stored as UTC ISO-8601 strings. The conference runs Eastern Time (America/New_York, UTC-4 in July). The canonical Eastern→UTC conversion lives in the `EASTERN` constant in `scripts/fetch_schedule.py` (that's what to change if the conference timezone base ever changes); `js/schedule-core.js` only formats already-UTC instants for display.
 
 ## Running tests
