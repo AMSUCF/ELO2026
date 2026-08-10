@@ -1,0 +1,1066 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.960
+I'm Roque Fernández Alcañiz
+and I come from Galicia, Spain, and I’m
+
+2
+00:00:05.000 --> 00:00:08.000
+here to present my paper, AI-generated
+code + E-Poetry: Exploring the
+
+3
+00:00:09.400 --> 00:00:11.040
+possibilities of digital poetry
+
+4
+00:00:11.040 --> 00:00:14.240
+with AI generated code in TouchDesigner.
+
+5
+00:00:14.360 --> 00:00:17.280
+So I wanted to start
+
+6
+00:00:17.280 --> 00:00:21.440
+with this quote by the author Lovelace,
+in which she
+
+7
+00:00:22.400 --> 00:00:24.480
+talks already about the possibility,
+
+8
+00:00:24.480 --> 00:00:28.160
+the possibilities of her poetic science
+
+9
+00:00:28.160 --> 00:00:31.440
+or her poetic mathematics, to integrate
+
+10
+00:00:31.480 --> 00:00:35.320
+art code in that time, and mathematics
+
+11
+00:00:35.320 --> 00:00:39.960
+to create a musical compositions
+or visual compositions.
+
+12
+00:00:40.280 --> 00:00:45.440
+And that's
+what we are going to be seen today.
+
+13
+00:00:46.480 --> 00:00:51.320
+And because I don't want to lose sometime
+I will be going forwards.
+
+14
+00:00:51.320 --> 00:00:58.560
+So I work with a hypothesis
+that the rapid increase
+
+15
+00:00:58.560 --> 00:01:00.440
+in artificial intelligence programing
+
+16
+00:01:00.440 --> 00:01:03.560
+capabilities
+and the existence of multimedia content
+
+17
+00:01:03.560 --> 00:01:07.800
+creation applications that enable
+the integration of such generative code
+
+18
+00:01:07.800 --> 00:01:10.840
+significantly stunted avenues
+for accessible creation
+
+19
+00:01:10.880 --> 00:01:15.360
+of experimental digital art and digital
+literacy, contemporary digital art
+
+20
+00:01:15.400 --> 00:01:19.200
+and contemporary digital poetry. And.
+
+21
+00:01:22.160 --> 00:01:24.400
+We'll be focusing on touch Designer
+
+22
+00:01:24.400 --> 00:01:28.680
+that is applied by derivatives
+and published, I think, in 2008.
+
+23
+00:01:28.720 --> 00:01:32.960
+And it's a novel
+visual programing software.
+
+24
+00:01:32.960 --> 00:01:37.400
+You can see here
+a screenshot of the user interface.
+
+25
+00:01:37.440 --> 00:01:41.800
+And it's really used basically
+to create multimedia creations
+
+26
+00:01:41.840 --> 00:01:44.880
+and live video performances.
+
+27
+00:01:45.160 --> 00:01:49.240
+And apart from that,
+I have other objectives that are of course
+
+28
+00:01:49.280 --> 00:01:53.440
+learned some Python
+and some touch designer and
+
+29
+00:01:53.440 --> 00:01:58.160
+avoid as much technical debt as possible
+because like technical debt,
+
+30
+00:01:58.160 --> 00:02:01.160
+is that knowledge that we get
+
+31
+00:02:01.160 --> 00:02:07.400
+when we used a lot of AI basically,
+and we use AI as a shortcut
+
+32
+00:02:07.560 --> 00:02:12.560
+to other processes
+that would get us that knowledge.
+
+33
+00:02:12.680 --> 00:02:17.640
+And also,
+I would like to allude a workflows
+
+34
+00:02:17.640 --> 00:02:20.760
+that include big corporations
+like anthropic or OpenAI
+
+35
+00:02:20.800 --> 00:02:24.960
+because of privacy and some compromise
+
+36
+00:02:24.960 --> 00:02:27.960
+with open source software.
+
+37
+00:02:28.040 --> 00:02:31.120
+And then I have here the methodology.
+
+38
+00:02:31.160 --> 00:02:32.800
+The first section will be academic.
+
+39
+00:02:32.800 --> 00:02:37.800
+I will introduce
+some some poets that work
+
+40
+00:02:37.800 --> 00:02:43.760
+with generated code
+and also with a with digital poetry.
+
+41
+00:02:43.760 --> 00:02:47.720
+And after that
+I will be making a practice based research
+
+42
+00:02:47.720 --> 00:02:52.240
+in which I will try myself to create
+a digital poem made in Tulsa.
+
+43
+00:02:52.800 --> 00:02:56.760
+And with the use of generative code
+
+44
+00:02:56.760 --> 00:02:59.760
+made by an AI.
+
+45
+00:02:59.800 --> 00:03:01.520
+And lastly, the final reports.
+
+46
+00:03:01.520 --> 00:03:07.040
+So my framework is 
+is not really complex.
+
+47
+00:03:07.120 --> 00:03:10.720
+I have as a reference the the works,
+
+48
+00:03:11.520 --> 00:03:13.720
+the words and works
+
+49
+00:03:13.720 --> 00:03:17.040
+by de Rosario
+and her definition of poetry.
+
+50
+00:03:17.040 --> 00:03:20.200
+And also I'm supported
+
+51
+00:03:20.200 --> 00:03:24.640
+by a whole bunch of really established
+authors in the matter
+
+52
+00:03:24.680 --> 00:03:29.800
+and in the field of digital poetry studies
+and for artificial intelligence,
+
+53
+00:03:29.840 --> 00:03:34.520
+I only work with a critical
+
+54
+00:03:34.680 --> 00:03:38.640
+and digital humanities
+approach and also critical AI approach.
+
+55
+00:03:38.680 --> 00:03:43.680
+For example, here the references
+their recent reference of ministry
+
+56
+00:03:44.120 --> 00:03:46.920
+and impossibility, and with that spirit
+
+57
+00:03:46.920 --> 00:03:52.920
+of defending the use of AI,
+but as a tool, as Loveless said
+
+58
+00:03:53.000 --> 00:03:56.680
+and about the center,
+I cannot say anything more.
+
+59
+00:03:56.720 --> 00:04:02.080
+It's a really complicated software is
+it is stated like that and the, the,
+
+60
+00:04:03.080 --> 00:04:04.320
+the proper derivative.
+
+61
+00:04:04.320 --> 00:04:08.560
+The company that holds talks
+designer states that.
+
+62
+00:04:08.640 --> 00:04:12.880
+So here we have the classification
+of digital points made that Rosario.
+
+63
+00:04:12.880 --> 00:04:17.480
+It has to access the classification
+of the points
+
+64
+00:04:17.560 --> 00:04:22.440
+under morphological semiotic categories
+and according to their reading practice.
+
+65
+00:04:22.560 --> 00:04:26.200
+So it's a really comprehensive
+classification that still
+
+66
+00:04:26.240 --> 00:04:29.040
+today has a use.
+
+67
+00:04:29.040 --> 00:04:32.000
+And here we have the three artists
+
+68
+00:04:32.000 --> 00:04:35.000
+that we are going to check.
+
+69
+00:04:35.200 --> 00:04:38.800
+The first one
+is the engineer cut song system
+
+70
+00:04:39.200 --> 00:04:42.200
+in Living and Simulated systems, and
+
+71
+00:04:43.360 --> 00:04:46.200
+basically Gemini AI with support
+
+72
+00:04:46.200 --> 00:04:49.960
+even from Google Labs
+to create her compositions.
+
+73
+00:04:49.960 --> 00:04:54.680
+He also she also uses a lot of the media
+type plugin.
+
+74
+00:04:54.680 --> 00:04:58.000
+And I have here
+two screenshots of her work.
+
+75
+00:04:58.000 --> 00:05:00.120
+Strange flowers of the mind
+are blossoming
+
+76
+00:05:00.120 --> 00:05:04.120
+silently under a fast and untitled
+first one.
+
+77
+00:05:04.120 --> 00:05:06.600
+I'm not, I'm not sure of.
+
+78
+00:05:06.600 --> 00:05:07.440
+I'm not sure if.
+
+79
+00:05:07.440 --> 00:05:12.160
+See you said the code so I'm not sure.
+
+80
+00:05:12.200 --> 00:05:16.360
+But the second one, untitled,
+the one in the top right.
+
+81
+00:05:16.360 --> 00:05:21.120
+See, stays in the description of her work
+that she used gaming.
+
+82
+00:05:21.480 --> 00:05:22.240
+Gemini.
+
+83
+00:05:22.240 --> 00:05:26.000
+And and it's a video that
+
+84
+00:05:26.760 --> 00:05:31.080
+if we had more time, we put in that
+two extra minutes, we would see.
+
+85
+00:05:31.080 --> 00:05:32.600
+It's a video that
+
+86
+00:05:34.520 --> 00:05:36.240
+in which we can see here
+
+87
+00:05:36.240 --> 00:05:39.240
+moving her hands and resizing continuously
+
+88
+00:05:39.440 --> 00:05:42.360
+that that takes that we can see here.
+
+89
+00:05:42.360 --> 00:05:47.160
+And, and it would be a segmented based
+with a primary exploratory
+
+90
+00:05:47.160 --> 00:05:49.040
+reading practice.
+
+91
+00:05:49.040 --> 00:05:51.480
+Then we have Gomez Santana.
+
+92
+00:05:51.480 --> 00:05:52.960
+Her real name is Natalia Herrick.
+
+93
+00:05:52.960 --> 00:05:55.920
+And she is also a digital
+
+94
+00:05:55.920 --> 00:06:00.280
+artist
+that works mainly with touch designer
+
+95
+00:06:00.280 --> 00:06:03.760
+and with intelligence
+artificial intelligence tools.
+
+96
+00:06:03.800 --> 00:06:07.840
+And I chose her work also
+
+97
+00:06:07.880 --> 00:06:11.320
+on that work
+that she uploaded to her TikTok.
+
+98
+00:06:11.360 --> 00:06:15.280
+And that we can see in the top right
+picture.
+
+99
+00:06:15.280 --> 00:06:17.000
+And it's also a video.
+
+100
+00:06:17.000 --> 00:06:21.440
+In the video,
+she uses a Midi controller to permute
+
+101
+00:06:21.440 --> 00:06:25.080
+and to move all those letters and words
+that we can see here.
+
+102
+00:06:25.080 --> 00:06:28.080
+So it's also like
+a really interesting piece of art
+
+103
+00:06:28.120 --> 00:06:30.160
+to see and to try and explore.
+
+104
+00:06:30.160 --> 00:06:34.400
+And then we have Okami
+for a visualization.
+
+105
+00:06:34.480 --> 00:06:36.720
+He is an artist and educator.
+
+106
+00:06:36.720 --> 00:06:39.840
+And he he didn't
+
+107
+00:06:39.840 --> 00:06:44.920
+create like the digital poem by by itself,
+but he had a plugin
+
+108
+00:06:45.000 --> 00:06:48.760
+that is given that you can use
+in Touch Designer, and it's a plugin
+
+109
+00:06:48.760 --> 00:06:52.120
+where text and Ascii symbols
+are generated from videos or images,
+
+110
+00:06:52.160 --> 00:06:55.080
+and they transform data into visual
+poetry.
+
+111
+00:06:55.080 --> 00:06:57.840
+So in the top left
+
+112
+00:06:58.960 --> 00:07:00.080
+picture one, see
+
+113
+00:07:00.080 --> 00:07:04.760
+an example of that
+and is the originals or untitled work
+
+114
+00:07:04.840 --> 00:07:09.160
+that could be a segment based
+and a read only text.
+
+115
+00:07:09.200 --> 00:07:13.040
+So after that
+I arrive on to the practice
+
+116
+00:07:13.240 --> 00:07:16.400
+based based research and I create.
+
+117
+00:07:16.440 --> 00:07:20.480
+I have created a document log
+that if you want, I can send
+
+118
+00:07:20.520 --> 00:07:24.880
+after that
+about 25 pages of resources and stuff.
+
+119
+00:07:24.880 --> 00:07:28.920
+That is really useful to learn both Python
+and to learn and touch the signer.
+
+120
+00:07:29.040 --> 00:07:33.920
+A derivative has some courses, and also
+I checked a lot of youth tutorials,
+
+121
+00:07:33.960 --> 00:07:38.080
+and that was the time I spent at the end
+
+122
+00:07:38.120 --> 00:07:41.880
+for the acceleration
+of my final digital poem.
+
+123
+00:07:41.880 --> 00:07:45.160
+I only spent five hours,
+so it's like really sort of time.
+
+124
+00:07:45.160 --> 00:07:48.240
+But I had to prepare a lot for IMS.
+
+125
+00:07:48.360 --> 00:07:51.400
+And we have here
+MCP architectural model, context protocol.
+
+126
+00:07:51.400 --> 00:07:57.160
+That is the architecture that allowed me
+to work together with the project and the
+
+127
+00:07:58.400 --> 00:08:02.600
+AI, AI model that I
+
+128
+00:08:03.280 --> 00:08:07.240
+thought I wanted to create a poem,
+and that's the one I wrote.
+
+129
+00:08:07.240 --> 00:08:11.240
+It's in the left, is in Galician
+because it's my native language
+
+130
+00:08:11.240 --> 00:08:12.240
+and in the right
+
+131
+00:08:12.240 --> 00:08:15.200
+you said an English translation,
+but it's not a really good English,
+
+132
+00:08:15.200 --> 00:08:18.680
+because a really good translation,
+because it
+
+133
+00:08:19.720 --> 00:08:23.080
+eliminated all, all of the of the runs.
+
+134
+00:08:23.120 --> 00:08:28.600
+And then we have something about
+what is like learning Python.
+
+135
+00:08:28.600 --> 00:08:33.240
+And I just want to state
+that the community of this program
+
+136
+00:08:33.240 --> 00:08:33.960
+is really amazing.
+
+137
+00:08:33.960 --> 00:08:34.560
+They have a lot
+
+138
+00:08:34.560 --> 00:08:39.440
+of courses, a lot of tutorials, open
+and free to use, and derivatives.
+
+139
+00:08:39.480 --> 00:08:41.480
+The company
+
+140
+00:08:41.480 --> 00:08:43.880
+sets meetups
+for the people to create together.
+
+141
+00:08:43.880 --> 00:08:46.880
+And for example, in this Austin designer
+meetup,
+
+142
+00:08:47.920 --> 00:08:49.920
+people got to see the poet engineer
+the artist.
+
+143
+00:08:49.920 --> 00:08:52.200
+I told you before
+and it was like really interesting.
+
+144
+00:08:52.200 --> 00:08:55.000
+And it's a really a wealthy community.
+
+145
+00:08:55.000 --> 00:09:00.640
+And then, okay,
+this is the AI setup that I used.
+
+146
+00:09:00.640 --> 00:09:02.920
+I tried a lot of things.
+
+147
+00:09:02.920 --> 00:09:06.520
+First of all, I wanted to try local
+AI because I was more concerned
+
+148
+00:09:06.520 --> 00:09:11.040
+about the quality and about sizes,
+but my computer is not that good,
+
+149
+00:09:11.080 --> 00:09:15.600
+so it can support a really good local AI,
+and I try those different combinations
+
+150
+00:09:15.600 --> 00:09:16.760
+at the end.
+
+151
+00:09:16.760 --> 00:09:19.600
+And the best one was using in the cloud.
+
+152
+00:09:19.600 --> 00:09:21.280
+That still has privacy.
+
+153
+00:09:21.280 --> 00:09:24.000
+And it's not a really big corp
+in that sense.
+
+154
+00:09:24.000 --> 00:09:27.520
+Like like like OpenAI for example.
+
+155
+00:09:27.520 --> 00:09:29.040
+And.
+
+156
+00:09:30.440 --> 00:09:31.440
+Okay.
+
+157
+00:09:31.440 --> 00:09:35.120
+And thank you for the minutes.
+
+158
+00:09:35.400 --> 00:09:40.680
+And then I used a continue
+that is an extension for visual codes.
+
+159
+00:09:40.680 --> 00:09:45.560
+And that allows us to load our model
+and top to our model
+
+160
+00:09:45.560 --> 00:09:50.400
+directly from from VS code
+and allows us to
+
+161
+00:09:51.720 --> 00:09:54.320
+to interact
+with the model context protocol.
+
+162
+00:09:54.320 --> 00:09:59.080
+The model context protocol
+that I used was a boy.
+
+163
+00:09:59.120 --> 00:10:04.920
+That is a really a really great protocol
+for touch designer
+
+164
+00:10:05.000 --> 00:10:10.000
+because it allows us to it allows the
+it allows the
+
+165
+00:10:10.080 --> 00:10:15.920
+the model to see and to create
+and to move things inside of the work.
+
+166
+00:10:15.960 --> 00:10:18.240
+And we can we can literally check
+
+167
+00:10:18.240 --> 00:10:21.480
+we can literally see the model
+moving things and creating things
+
+168
+00:10:21.520 --> 00:10:24.080
+according to the things
+that we write to it.
+
+169
+00:10:24.080 --> 00:10:28.320
+And for that I tried with the free coder,
+
+170
+00:10:28.360 --> 00:10:31.880
+but at the end the best one was the GLM.
+
+171
+00:10:31.920 --> 00:10:35.400
+That is a really
+a really new or recent model,
+
+172
+00:10:35.440 --> 00:10:39.080
+and that that works
+
+173
+00:10:39.360 --> 00:10:45.280
+really good
+with such complicated tasks. And
+
+174
+00:10:46.720 --> 00:10:49.400
+yes, that this is my main.
+
+175
+00:10:49.400 --> 00:10:54.840
+So my setup like we are going to like sit
+quit because I don't have much time left.
+
+176
+00:10:54.880 --> 00:10:57.920
+So in the in
+
+177
+00:10:57.960 --> 00:11:03.240
+the picture that is in the down side,
+we can see like the MCP service
+
+178
+00:11:03.240 --> 00:11:07.240
+connected to the local, the model in
+
+179
+00:11:07.720 --> 00:11:10.440
+in continue inside VS code.
+
+180
+00:11:10.440 --> 00:11:14.600
+And here we can see it working.
+
+181
+00:11:14.600 --> 00:11:19.240
+I asked it Rona query
+my network unleashed my ops,
+
+182
+00:11:19.240 --> 00:11:24.400
+my different nodules that I have in in
+and it's checked.
+
+183
+00:11:24.440 --> 00:11:27.440
+And those are literally
+the ops that I really has.
+
+184
+00:11:27.600 --> 00:11:30.600
+And now
+
+185
+00:11:31.600 --> 00:11:36.480
+yes, I have here some observations,
+some final remarks.
+
+186
+00:11:36.480 --> 00:11:39.240
+But before I wanted to.
+
+187
+00:11:39.240 --> 00:11:42.520
+So the work that I did so I will
+
+188
+00:11:43.600 --> 00:11:46.360
+I will be showing a different screen.
+
+189
+00:11:50.800 --> 00:11:53.800
+This one I made a video.
+
+190
+00:11:55.320 --> 00:11:58.560
+Of this of mean trading with the work.
+
+191
+00:11:58.560 --> 00:12:02.320
+So I hope it's running.
+
+192
+00:12:04.720 --> 00:12:08.240
+This is the the way that a user can see it
+as the center.
+
+193
+00:12:08.240 --> 00:12:12.240
+And my work is the thing
+that it's in the background.
+
+194
+00:12:21.040 --> 00:12:24.040
+So here we have different nodes.
+
+195
+00:12:25.560 --> 00:12:28.480
+And in a matter of seconds
+
+196
+00:12:28.480 --> 00:12:32.160
+we will be set work hopefully.
+
+197
+00:12:40.680 --> 00:12:43.600
+The thing was if I enjoy my fingers
+
+198
+00:12:43.600 --> 00:12:48.240
+the poem appears and if I let my fingers
+go, the poem disappears.
+
+199
+00:12:48.280 --> 00:12:53.840
+And when my fingers are pinched,
+you can see that the video goes
+
+200
+00:12:53.840 --> 00:12:55.040
+really slower.
+
+201
+00:12:55.040 --> 00:12:57.680
+Like almost like
+I think it's four times slower.
+
+202
+00:12:57.680 --> 00:13:00.560
+And when I let them go, it goes faster.
+
+203
+00:13:00.560 --> 00:13:03.680
+And it also detects some particular forms
+
+204
+00:13:03.680 --> 00:13:07.280
+in the background
+that make those strange squares.
+
+205
+00:13:07.520 --> 00:13:11.320
+And you can see here
+the media pipe plugin working.
+
+206
+00:13:14.120 --> 00:13:16.720
+And yes,
+
+207
+00:13:16.720 --> 00:13:19.720
+that was this.
+
+208
+00:13:20.440 --> 00:13:22.240
+And I
+
+209
+00:13:22.240 --> 00:13:26.800
+will just say my final remarks
+and I will be over with it.
+
+210
+00:13:26.800 --> 00:13:30.000
+So of course
+
+211
+00:13:30.040 --> 00:13:33.600
+I arrive at the
+at the obviously conclusion that that's
+
+212
+00:13:33.760 --> 00:13:37.320
+the center is an application with great
+potential for developing digital poetry.
+
+213
+00:13:37.360 --> 00:13:41.600
+It was really easy to create the
+the the digital poem.
+
+214
+00:13:41.640 --> 00:13:45.560
+It was not really easy
+to arrive at the correct
+
+215
+00:13:45.600 --> 00:13:52.280
+AI model, MCP, MCP set up
+and was really complicated
+
+216
+00:13:52.280 --> 00:13:56.680
+because you need to get
+because I hadn't it.
+
+217
+00:13:56.720 --> 00:13:58.120
+You need to get a lot of knowledge
+
+218
+00:13:58.120 --> 00:14:02.040
+about how to work
+and how to how to work with AI.
+
+219
+00:14:02.600 --> 00:14:07.880
+And and also the problem with
+the technical debt is not fixed.
+
+220
+00:14:07.880 --> 00:14:13.920
+So this, this, this alternative
+like not going to GDP
+
+221
+00:14:13.920 --> 00:14:19.680
+and writing make appointments
+but using as a tool the digital
+
+222
+00:14:19.720 --> 00:14:23.920
+then artificial intelligence to okay
+
+223
+00:14:24.840 --> 00:14:29.560
+one more sentence and I am so using.
+
+224
+00:14:31.080 --> 00:14:31.840
+Using digital
+
+225
+00:14:31.840 --> 00:14:36.960
+artificial intelligence to assist us
+in the creation of digital poems,
+
+226
+00:14:36.960 --> 00:14:39.960
+reduces the technical debt and
+
+227
+00:14:40.960 --> 00:14:43.080
+allows an open and opens
+
+228
+00:14:43.080 --> 00:14:46.200
+a really big avenues for innovation
+
+229
+00:14:46.200 --> 00:14:50.600
+and for a creation that are not,
+that are not served.
+
+230
+00:14:50.640 --> 00:14:53.120
+For a
+
+231
+00:14:53.120 --> 00:14:56.880
+person that knows anything about code
+or only a little bit like me.
+
+232
+00:14:56.880 --> 00:15:01.320
+And and yes, I think that's so.
+
+233
+00:15:01.720 --> 00:15:03.760
+Thank you all for being here.
+
+234
+00:15:03.760 --> 00:15:06.680
+And thank you
+also for the to the organization.

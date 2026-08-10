@@ -1,0 +1,792 @@
+WEBVTT
+
+1
+00:15:50.160 --> 00:15:52.560
+I am an assistant
+professor at Washington State University
+
+2
+00:15:52.560 --> 00:15:55.560
+in the Department
+of Digital Technology and Culture.
+
+3
+00:15:55.600 --> 00:15:57.840
+And this is my project.
+
+4
+00:15:57.840 --> 00:16:00.240
+A quick overview of this project.
+
+5
+00:16:00.240 --> 00:16:04.040
+I'll talk a bit about the background
+research on video game dialog texts.
+
+6
+00:16:04.240 --> 00:16:10.080
+I'll mention a few details about this
+fledgling corpus and where I intend
+
+7
+00:16:10.080 --> 00:16:13.440
+to go from here, so you can access a link
+
+8
+00:16:13.480 --> 00:16:16.920
+to the files that I put up on the site.
+
+9
+00:16:16.960 --> 00:16:19.840
+But emphasize
+this is very much a work in progress.
+
+10
+00:16:19.840 --> 00:16:22.840
+My background is in linguistics
+with a focus on French,
+
+11
+00:16:23.800 --> 00:16:26.120
+and I've done some work on corpus
+linguistics before,
+
+12
+00:16:26.120 --> 00:16:28.920
+and I'm also a fan of video
+games and RPGs.
+
+13
+00:16:28.920 --> 00:16:31.800
+So this is bringing a few things together.
+
+14
+00:16:31.800 --> 00:16:34.200
+We're looking at ludolinguistics here,
+
+15
+00:16:34.200 --> 00:16:39.240
+and previous research has focused on 
+recognizing video game dialog
+
+16
+00:16:39.280 --> 00:16:42.360
+as legitimate sources
+for discourse analysis, just like in film,
+
+17
+00:16:42.400 --> 00:16:43.920
+books, other media.
+
+18
+00:16:43.920 --> 00:16:47.840
+If we look at how language is created
+and used in video games
+
+19
+00:16:48.520 --> 00:16:53.200
+such as in RPGs,
+previous studies have looked at how—
+
+20
+00:16:53.480 --> 00:16:58.560
+male versus female characters,
+there's a domination—
+
+21
+00:16:59.080 --> 00:17:03.600
+dominated by male character speech,
+about 70% in some studies,
+
+22
+00:17:03.600 --> 00:17:06.880
+and also that male characters
+tend to be associated
+
+23
+00:17:06.880 --> 00:17:10.200
+with more objective speech,
+whereas female characters are more
+
+24
+00:17:11.000 --> 00:17:14.320
+receiving action that is done upon them.
+
+25
+00:17:15.000 --> 00:17:18.560
+We can also use a corpus
+linguistics of video
+
+26
+00:17:18.560 --> 00:17:23.800
+game dialog to look at
+how developers can create dialog
+
+27
+00:17:23.800 --> 00:17:27.560
+that is gender neutral, or to use
+non-binary language, not only because
+
+28
+00:17:27.560 --> 00:17:31.000
+we have different genders of gamers,
+but also as a way
+
+29
+00:17:31.000 --> 00:17:34.080
+of creating dialog
+
+30
+00:17:34.080 --> 00:17:37.280
+when we don't have the full context
+from the developers.
+
+31
+00:17:37.280 --> 00:17:40.160
+So for character, is writing to it
+or speaking to another character,
+
+32
+00:17:40.160 --> 00:17:41.480
+we don't know the gender.
+
+33
+00:17:42.960 --> 00:17:47.280
+This could
+pose a challenge for languages,
+
+34
+00:17:47.280 --> 00:17:50.280
+depending on the grammar of the language,
+
+35
+00:17:50.320 --> 00:17:53.320
+and we're looking at pre-scripted
+
+36
+00:17:54.160 --> 00:17:55.040
+video game dialog.
+
+37
+00:17:55.040 --> 00:18:00.880
+So we're not talking about voice chat
+or gamer chats in like multiplayer games.
+
+38
+00:18:01.080 --> 00:18:05.880
+Probably the best example of this corpus
+approach is the Video Game Dialog Corpus
+
+39
+00:18:05.880 --> 00:18:10.280
+that Rennick and Roberts and their team
+at Cardiff University have developed.
+
+40
+00:18:10.280 --> 00:18:13.560
+So they've taken several dozen RPGs
+
+41
+00:18:13.800 --> 00:18:17.520
+and compiled the dialog into texts,
+
+42
+00:18:17.520 --> 00:18:22.280
+into a corpus of over 6 million words
+that's really available online.
+
+43
+00:18:22.280 --> 00:18:24.800
+It's mostly in English.
+
+44
+00:18:24.800 --> 00:18:29.440
+They have done some work with non-English
+texts, such as in Mass Effect.
+
+45
+00:18:29.440 --> 00:18:33.280
+They looked at how the English “you”
+is rendered in French and Spanish,
+
+46
+00:18:33.280 --> 00:18:36.280
+because you have to distinguish
+between two forms of “you.”
+
+47
+00:18:36.520 --> 00:18:39.760
+And they saw that localizations
+
+48
+00:18:39.960 --> 00:18:43.040
+in this case
+tend to be more overly formal.
+
+49
+00:18:43.040 --> 00:18:45.880
+So this is a challenge for localizations.
+
+50
+00:18:46.920 --> 00:18:47.160
+There are
+
+51
+00:18:47.160 --> 00:18:52.600
+different ways that we can access
+the game text to create these corpora.
+
+52
+00:18:52.760 --> 00:18:56.320
+Sometimes it's as simple
+as accessing fan transcriptions
+
+53
+00:18:56.320 --> 00:18:59.320
+or community transcriptions online.
+
+54
+00:18:59.320 --> 00:19:01.760
+It's just that these are heavily
+dominated by English.
+
+55
+00:19:01.760 --> 00:19:05.080
+There's very few non-English
+game strips out there on the Internet.
+
+56
+00:19:06.120 --> 00:19:09.480
+If you have access to the game files,
+you can extract the text directly.
+
+57
+00:19:10.160 --> 00:19:13.560
+It's just that this is not always easy
+or technically feasible,
+
+58
+00:19:13.920 --> 00:19:15.000
+depending on the game.
+
+59
+00:19:15.000 --> 00:19:19.240
+And it is also, of course, possible
+to just play through the game
+
+60
+00:19:19.240 --> 00:19:23.000
+and write down the dialog, or increasingly
+go on the YouTube and watch or play
+
+61
+00:19:23.000 --> 00:19:28.360
+through or “Let's Play.” The problem,
+though, is that these walkthroughs tend
+
+62
+00:19:28.400 --> 00:19:31.960
+to not include
+all of the possible dialog options,
+
+63
+00:19:33.080 --> 00:19:36.240
+because in most RPGs
+you have branching dialog options.
+
+64
+00:19:36.360 --> 00:19:38.080
+And so we don't have a full
+
+65
+00:19:38.080 --> 00:19:41.640
+we don't have the complete dialog
+for a lot of these games, especially
+
+66
+00:19:42.920 --> 00:19:43.960
+non-English games.
+
+67
+00:19:43.960 --> 00:19:46.600
+And also access to
+these videos can be removed at any time.
+
+68
+00:19:46.600 --> 00:19:50.440
+So we don't necessarily
+have a stable repository of these texts.
+
+69
+00:19:50.600 --> 00:19:54.480
+So again, if you are looking for texts
+in English, it's pretty easy to find them
+
+70
+00:19:54.480 --> 00:19:55.840
+with a simple search.
+
+71
+00:19:55.840 --> 00:19:57.360
+So there's several examples.
+
+72
+00:19:57.360 --> 00:20:02.680
+If you take a game like 67, there's
+the original or the remake versions.
+
+73
+00:20:02.960 --> 00:20:06.960
+But if you look for other languages,
+the text of this game and other languages
+
+74
+00:20:07.000 --> 00:20:09.960
+in German, there is exactly one hit
+
+75
+00:20:09.960 --> 00:20:14.160
+for a published script in German,
+but it's just one playthrough.
+
+76
+00:20:14.160 --> 00:20:16.640
+It's not a complete dialog.
+Similar thing in Spanish.
+
+77
+00:20:16.640 --> 00:20:20.880
+There's one publication online
+that has the script as a playthrough,
+
+78
+00:20:20.880 --> 00:20:22.920
+so we don't, again,
+don't have the complete dialog.
+
+79
+00:20:22.920 --> 00:20:27.120
+And then in French, there's pretty much
+nothing at all in text formats
+
+80
+00:20:27.160 --> 00:20:32.000
+available online 
+for the dialog of Final Fantasy VII.
+
+81
+00:20:32.080 --> 00:20:32.960
+So I did it.
+
+82
+00:20:32.960 --> 00:20:36.880
+What I would consider it extensive search
+of a lot of snippets of dialog, and I
+
+83
+00:20:37.400 --> 00:20:38.280
+found nothing.
+
+84
+00:20:39.320 --> 00:20:42.760
+So I thought that this corpus
+
+85
+00:20:42.760 --> 00:20:48.480
+could give us a repository for these texts
+that especially those that
+
+86
+00:20:48.480 --> 00:20:51.880
+are in other languages besides English,
+
+87
+00:20:51.920 --> 00:20:55.240
+and collect them in a single location.
+
+88
+00:20:55.720 --> 00:21:00.640
+We can then, with multiple languages,
+make cross-linguistic comparisons.
+
+89
+00:21:00.640 --> 00:21:04.560
+So we would do parallel concordances,
+where you can use an application
+
+90
+00:21:04.560 --> 00:21:08.840
+like Sketch Engine to compare search
+for how a specific word
+
+91
+00:21:08.840 --> 00:21:12.680
+or phrase is translated
+from one language to another.
+
+92
+00:21:12.840 --> 00:21:17.720
+We can also add metadata so that we can
+search for particular characteristics,
+
+93
+00:21:17.720 --> 00:21:21.920
+such as the character who's
+speaking or their age, gender, and so on.
+
+94
+00:21:22.440 --> 00:21:27.440
+Okay, so I'll just give you a few details
+with this fledgling corpus,
+
+95
+00:21:27.440 --> 00:21:31.600
+and it's going to be based on Final
+Fantasy VII, as you probably
+
+96
+00:21:32.600 --> 00:21:33.800
+guess.
+
+97
+00:21:33.800 --> 00:21:36.800
+And so right now I'm in the process
+since I'm working with French.
+
+98
+00:21:36.800 --> 00:21:38.080
+And I had to start from scratch.
+
+99
+00:21:38.080 --> 00:21:42.840
+Basically, I have about 26,000 words
+that I've transcribed
+
+100
+00:21:44.040 --> 00:21:45.960
+from the English text that are provided,
+
+101
+00:21:45.960 --> 00:21:48.960
+that have been provided online.
+
+102
+00:21:49.680 --> 00:21:54.400
+I won't go into too much detail about
+the process, but I did use the game text.
+
+103
+00:21:54.400 --> 00:21:56.360
+I was able to extract the text from them.
+
+104
+00:21:56.360 --> 00:21:59.320
+So this slide gives you those details.
+
+105
+00:21:59.320 --> 00:22:02.880
+But I was working with a JSON text
+that the Video Game Dialog Corpus
+
+106
+00:22:04.000 --> 00:22:07.600
+has made available,
+so I cross-reference with that.
+
+107
+00:22:07.640 --> 00:22:11.960
+The JSON files
+give you basically a readable
+
+108
+00:22:13.680 --> 00:22:15.840
+text version of the files,
+
+109
+00:22:15.840 --> 00:22:20.640
+and the Video Game
+Dialog Corpus can be found on GitHub.
+
+110
+00:22:21.400 --> 00:22:22.320
+I give you an example
+
+111
+00:22:22.320 --> 00:22:26.280
+of the French version
+that I've assembled with the link there.
+
+112
+00:22:26.280 --> 00:22:28.080
+And that's on the Google site.
+
+113
+00:22:29.160 --> 00:22:30.440
+The Video Game Dialog Corpus
+
+114
+00:22:30.440 --> 00:22:35.240
+also has a visual representation
+of branching dialog options.
+
+115
+00:22:35.240 --> 00:22:36.480
+It's not just for Baldur's Gate.
+
+116
+00:22:36.480 --> 00:22:39.560
+You can upload any JSON file
+that's properly formatted
+
+117
+00:22:39.560 --> 00:22:42.880
+and you get a visual representation here.
+
+118
+00:22:42.880 --> 00:22:45.880
+So I hope to be able to incorporate
+this in the future.
+
+119
+00:22:47.520 --> 00:22:48.800
+So Sketch
+
+120
+00:22:48.800 --> 00:22:53.640
+Engine is an online tool that allows
+for parallel concordance extraction.
+
+121
+00:22:53.640 --> 00:22:57.840
+What that means again
+is, if we have an aligned corpus.
+
+122
+00:22:58.000 --> 00:23:02.320
+So every line of dialog
+in one language is aligned on the same row
+
+123
+00:23:02.320 --> 00:23:05.840
+in an Excel file with every line of dialog
+in another language.
+
+124
+00:23:05.880 --> 00:23:07.320
+And we can use.
+
+125
+00:23:07.320 --> 00:23:12.240
+Or I used our scripts to convert the JSON
+files into the appropriate Excel format.
+
+126
+00:23:12.240 --> 00:23:13.600
+So you can see an example of
+
+127
+00:23:13.600 --> 00:23:17.520
+that, of an Excel file
+that I uploaded to the Google site.
+
+128
+00:23:18.000 --> 00:23:21.240
+You do have to sign— create an account
+for Sketch Engine,
+
+129
+00:23:21.240 --> 00:23:23.880
+so that would take too much time
+to demonstrate here.
+
+130
+00:23:23.880 --> 00:23:26.360
+So I just have some snippets
+that I can show you.
+
+131
+00:23:26.360 --> 00:23:30.520
+The word plates in English is important
+in the context of this game,
+
+132
+00:23:30.520 --> 00:23:35.840
+but it was translated
+poorly in some examples of dialog.
+
+133
+00:23:36.840 --> 00:23:39.200
+It should be “plaque,” the second example,
+
+134
+00:23:39.200 --> 00:23:44.720
+versus “plateau.” So we can find
+discrepancies much more easily
+
+135
+00:23:44.720 --> 00:23:50.600
+than searching through individual texts 
+using this parallel concordance option.
+
+136
+00:23:50.800 --> 00:23:51.600
+Or we can go the other way.
+
+137
+00:23:51.600 --> 00:23:54.040
+You can start with the other language,
+like in French.
+
+138
+00:23:54.040 --> 00:23:57.480
+If you want to look for the word “ami,”
+or “friend,” we can see that
+
+139
+00:23:57.480 --> 00:24:02.040
+there is some confusion
+or possible ambiguity with the translators
+
+140
+00:24:02.040 --> 00:24:05.040
+and distinguishing between
+“friend” and “girlfriend” for example.
+
+141
+00:24:09.800 --> 00:24:13.120
+And it's not just for comparing
+two languages.
+
+142
+00:24:13.120 --> 00:24:15.160
+We can compare multiple languages.
+
+143
+00:24:15.160 --> 00:24:20.120
+I'm working on the Spanish
+and German texts right now
+
+144
+00:24:20.360 --> 00:24:23.400
+so that we can look at, for example,
+an enigmatic expression
+
+145
+00:24:23.400 --> 00:24:26.400
+like “to settle the score.”
+How is this rendered across
+
+146
+00:24:27.400 --> 00:24:30.440
+different localizations
+and even fan translations,
+
+147
+00:24:30.440 --> 00:24:34.320
+which is often the source of texts.
+
+148
+00:24:36.400 --> 00:24:37.120
+And then an
+
+149
+00:24:37.120 --> 00:24:40.480
+example with metadata we can tag
+for a specific character, for example.
+
+150
+00:24:40.480 --> 00:24:46.560
+So I give an example, screenshots
+here from the Sketch Engine outputs.
+
+151
+00:24:46.760 --> 00:24:50.520
+Which character references
+the other character more often.
+
+152
+00:24:50.520 --> 00:24:51.920
+So we see that.
+
+153
+00:24:51.920 --> 00:24:56.000
+For example, Tifa mentions Cloud’s
+name more often than Cloud mentions
+
+154
+00:24:56.240 --> 00:24:57.520
+Tifa’s name in their dialog.
+
+155
+00:24:57.520 --> 00:25:00.520
+So if the code for use metadata
+to code for
+
+156
+00:25:00.600 --> 00:25:03.440
+the names of characters,
+
+157
+00:25:03.440 --> 00:25:07.600
+and the example of that Excel file
+is also available on my site.
+
+158
+00:25:07.640 --> 00:25:10.640
+Okay, so quick recap here.
+
+159
+00:25:11.840 --> 00:25:12.680
+The main goal here
+
+160
+00:25:12.680 --> 00:25:16.360
+is to create a central repository
+for video game dialog,
+
+161
+00:25:16.360 --> 00:25:20.560
+especially of non-English text,
+because those are the most scarce online.
+
+162
+00:25:20.560 --> 00:25:23.120
+And I would like this caucus to be useful
+
+163
+00:25:23.120 --> 00:25:26.560
+for disciplines
+connected to ludolinguistics.
+
+164
+00:25:26.560 --> 00:25:30.440
+So as you can see, translation
+or localization studies, discourse
+
+165
+00:25:30.440 --> 00:25:35.280
+analysis, gender analysis,
+and especially keeping with ELO’s mission,
+
+166
+00:25:35.360 --> 00:25:40.440
+the preservation of these texts
+and the free dissemination of these texts.
+
+167
+00:25:42.040 --> 00:25:43.560
+Okay, think I'm out of time.
+
+168
+00:25:43.560 --> 00:25:49.080
+I do have some slides on where
+I would like to take this corpus, but
+
+169
+00:25:49.080 --> 00:25:54.320
+I could answer some of those questions
+in the Q&A, so I'll stop there.
+
+170
+00:25:54.480 --> 00:25:56.400
+Thank you.

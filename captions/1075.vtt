@@ -1,0 +1,1253 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.240
+Hi. Thank you all for attending our talk
+today.
+
+2
+00:00:02.240 --> 00:00:04.000
+As unsupervised as we are.
+
+3
+00:00:04.000 --> 00:00:05.320
+I'm Emily Johnson.
+
+4
+00:00:05.320 --> 00:00:09.280
+I'm an associate professor
+of English and core faculty in the text
+
+5
+00:00:09.280 --> 00:00:12.880
+and technology PhD program
+at the University of Central Florida.
+
+6
+00:00:13.120 --> 00:00:15.960
+And I was supposed to let Vee go first
+to introduce themselves.
+
+7
+00:00:15.960 --> 00:00:18.480
+Go ahead Vee.
+Hi everybody.
+
+8
+00:00:18.480 --> 00:00:20.640
+I am Vee Kennedy and I'm an instructor
+
+9
+00:00:20.640 --> 00:00:23.720
+of writing and rhetoric
+at the University of Central Florida,
+
+10
+00:00:23.760 --> 00:00:27.400
+where I am also a candidate in the Text
+and Technology PhD program.
+
+11
+00:00:27.400 --> 00:00:30.840
+If it sounds like I just had to read
+that off to remind myself I did.
+
+12
+00:00:30.840 --> 00:00:33.160
+E I read mind too. It's okay.
+
+13
+00:00:33.160 --> 00:00:37.200
+We are two unsupervised
+stress speakers here to present to you
+
+14
+00:00:37.240 --> 00:00:43.280
+Luffy Pumpkin cheesecake a critical baking
+exploration of unsupervised processes.
+
+15
+00:00:43.280 --> 00:00:46.600
+We created an interactive simulation
+that you see before
+
+16
+00:00:46.600 --> 00:00:49.600
+you collaboratively with each other
+and with cloud.
+
+17
+00:00:49.640 --> 00:00:55.000
+AI cloud suggested that we describe
+our creation process as negotiating
+
+18
+00:00:55.000 --> 00:00:59.120
+this simulation into existence,
+which feels very accurate.
+
+19
+00:00:59.160 --> 00:01:02.960
+The simulation is obviously a play
+on the conference theme, unsupervised,
+
+20
+00:01:02.960 --> 00:01:06.880
+and we set out to create it
+in a very unsupervised manner,
+
+21
+00:01:06.920 --> 00:01:09.960
+like as in the machine
+learning definition of unsupervised,
+
+22
+00:01:09.960 --> 00:01:13.600
+where there is no human guidance
+or label data sets.
+
+23
+00:01:13.640 --> 00:01:16.080
+I initially thought
+Claude would just be able to take
+
+24
+00:01:16.080 --> 00:01:19.960
+my fantastic ideas from my mind
+and digitally produce
+
+25
+00:01:19.960 --> 00:01:23.880
+whatever I had in my head,
+and I was absolutely not how it went.
+
+26
+00:01:23.880 --> 00:01:28.320
+And to be fair, this was before the paid
+version, before coworker, and paid before
+
+27
+00:01:28.320 --> 00:01:33.080
+I had the paid version and had coworker
+and fable and all the improvements.
+
+28
+00:01:33.120 --> 00:01:34.280
+Cloud really struggled.
+
+29
+00:01:34.280 --> 00:01:38.880
+It couldn't find the Kellogg's recipe
+that this is based on, so it guessed
+
+30
+00:01:38.920 --> 00:01:40.000
+the recipe is wrong.
+
+31
+00:01:40.000 --> 00:01:43.040
+So if you want the real recipe,
+please feel free to message me.
+
+32
+00:01:43.080 --> 00:01:46.360
+At one point,
+the mixer vanished after weeks of trying
+
+33
+00:01:46.360 --> 00:01:49.640
+to get it to display my beautiful mint
+green KitchenAid.
+
+34
+00:01:49.680 --> 00:01:52.560
+My actual prompt was okay, no revert.
+
+35
+00:01:52.560 --> 00:01:56.440
+The reflections wouldn't save
+even when Claude said they were saved.
+
+36
+00:01:56.480 --> 00:02:01.080
+Negotiation really is a polite description
+of my side of the chat
+
+37
+00:02:01.080 --> 00:02:03.440
+with Claude for a lot of this,
+
+38
+00:02:03.440 --> 00:02:07.000
+but you'll notice additional plays
+on supervision throughout.
+
+39
+00:02:07.200 --> 00:02:10.840
+We begin here in the kitchen,
+where we find ourselves unsupervised.
+
+40
+00:02:10.880 --> 00:02:15.880
+Again, we're stress bakers, 
+and once I add the cream cheese here
+
+41
+00:02:15.880 --> 00:02:19.320
+and complete the step,
+you can see that we are
+
+42
+00:02:19.320 --> 00:02:22.560
+at the unsupervised hour of 2:38 a.m..
+
+43
+00:02:23.640 --> 00:02:26.600
+I believe it was 2:38 a.m.
+
+44
+00:02:26.600 --> 00:02:28.760
+when I was writing my draft of this
+
+45
+00:02:28.760 --> 00:02:32.560
+abstract for submission,
+and that's why it's 2:38 a.m.
+
+46
+00:02:32.560 --> 00:02:34.840
+in this simulation.
+
+47
+00:02:34.840 --> 00:02:38.080
+So every step ends with beautiful
+field notes.
+
+48
+00:02:38.080 --> 00:02:40.280
+These are ours, not the machines.
+
+49
+00:02:40.280 --> 00:02:42.040
+It tried to eat hours several times.
+
+50
+00:02:42.040 --> 00:02:45.280
+So these went through a lot of iterations
+even without Claude.
+
+51
+00:02:45.560 --> 00:02:49.040
+Now mine here starts by saying
+I forgot to let the cream cheese soften
+
+52
+00:02:49.040 --> 00:02:49.840
+at room temperature.
+
+53
+00:02:49.840 --> 00:02:52.360
+For a while before starting,
+I was doing email.
+
+54
+00:02:52.360 --> 00:02:55.480
+When your hands are in dough or batter,
+they can't be an email.
+
+55
+00:02:55.480 --> 00:02:57.480
+That's a real truth friends.
+
+56
+00:02:57.480 --> 00:03:01.440
+Well, this is what I tell myself,
+but at this time it was 2:38 a.m.
+
+57
+00:03:01.440 --> 00:03:02.840
+and I was simultaneously
+
+58
+00:03:02.840 --> 00:03:06.800
+in email and batter, which is, you know,
+something has gone terribly wrong.
+
+59
+00:03:06.800 --> 00:03:10.120
+Now, as I gazed into the mixing bowl,
+
+60
+00:03:10.120 --> 00:03:14.320
+the cream cheese and sugar begin to blend
+and the mixture warms and softens.
+
+61
+00:03:14.320 --> 00:03:19.360
+No one will ever know that I forgot
+to get that cream cheese out early.
+
+62
+00:03:19.640 --> 00:03:23.120
+Now we are calling the stress baking.
+
+63
+00:03:23.200 --> 00:03:24.440
+This is not a new term.
+
+64
+00:03:24.440 --> 00:03:27.440
+A few scholars have taken it
+seriously as a coping practice, mostly
+
+65
+00:03:27.440 --> 00:03:28.960
+in the pandemic. Literature.
+
+66
+00:03:28.960 --> 00:03:30.440
+Alan grad student
+
+67
+00:03:30.440 --> 00:03:34.440
+out there who was looking at baking
+as coping and connection and Covid.
+
+68
+00:03:34.440 --> 00:03:38.000
+And then we had some folks out there
+also say, like literally prescribing
+
+69
+00:03:38.000 --> 00:03:41.520
+each other sourdough
+as a remedy for stress in the lockdown,
+
+70
+00:03:41.520 --> 00:03:46.440
+because the process of making sourdough
+is this extraordinarily slow process
+
+71
+00:03:46.440 --> 00:03:50.440
+that forces you to do
+all of these menial steps over and over.
+
+72
+00:03:50.880 --> 00:03:55.560
+But alas, the lockdown is over,
+and here I am, and it's 2:38 a.m.
+
+73
+00:03:55.560 --> 00:03:59.480
+and I am still baking 
+because the conditions
+
+74
+00:03:59.480 --> 00:04:02.480
+that created this kind of stress baking
+did not really start
+
+75
+00:04:02.480 --> 00:04:05.800
+or end with the lockdown,
+just became something that we focused on
+
+76
+00:04:05.800 --> 00:04:09.840
+a little bit more in the lockdown
+and then proceeded to kind of move away
+
+77
+00:04:09.840 --> 00:04:13.040
+from after the lockdown,
+at least move away from acknowledging.
+
+78
+00:04:13.800 --> 00:04:17.800
+So we'll go ahead and move on
+here to the next step.
+
+79
+00:04:18.000 --> 00:04:18.720
+All right.
+
+80
+00:04:18.720 --> 00:04:22.240
+So we're going to do sugar and pumpkin
+pie spice.
+
+81
+00:04:22.280 --> 00:04:24.000
+Enjoy the emojis.
+
+82
+00:04:24.000 --> 00:04:27.440
+The happy warm smell of the pumpkin pie
+spice
+
+83
+00:04:27.480 --> 00:04:29.640
+takes me briefly to the holiday break.
+
+84
+00:04:29.640 --> 00:04:32.840
+Then another buzz from my watch
+jerks me back to reality.
+
+85
+00:04:32.840 --> 00:04:35.600
+And that proposal let's do tomorrow.
+
+86
+00:04:35.600 --> 00:04:38.440
+So the frame for this project,
+of course, is critical.
+
+87
+00:04:38.440 --> 00:04:42.280
+Making that Natalie Loveless etc.
+
+88
+00:04:42.280 --> 00:04:46.160
+started as a silly experiment, honestly,
+which is like,
+
+89
+00:04:46.160 --> 00:04:48.440
+let's
+see if we can do a critical baking thing.
+
+90
+00:04:48.440 --> 00:04:49.400
+It'll be fun.
+
+91
+00:04:49.400 --> 00:04:53.400
+But honestly, the more we think about it,
+the more it is to think about right?
+
+92
+00:04:53.400 --> 00:04:55.840
+The simulation here is a flattening.
+
+93
+00:04:55.840 --> 00:05:00.040
+Nick Susanna's flattens
+the baking process right, removing
+
+94
+00:05:00.200 --> 00:05:04.720
+not only the three dimensional material
+tactile elements of baking,
+
+95
+00:05:04.800 --> 00:05:09.800
+but this sounds, the smells
+and the tastes that happen when you bake.
+
+96
+00:05:09.800 --> 00:05:14.800
+We took baking the one activity
+that pulls us away from the screen
+
+97
+00:05:14.800 --> 00:05:20.040
+and put it back inside one so that we
+could think out loud about why we do it.
+
+98
+00:05:22.360 --> 00:05:24.120
+Okay, and I have to do the eggs.
+
+99
+00:05:24.120 --> 00:05:26.280
+And then B has.
+
+100
+00:05:26.280 --> 00:05:29.280
+There we go I missed one okay.
+
+101
+00:05:29.920 --> 00:05:32.160
+Don't worry.
+There's no way to mess this up.
+
+102
+00:05:32.160 --> 00:05:35.520
+In fact, I'm not even sure how many eggs
+we just put in.
+
+103
+00:05:35.560 --> 00:05:36.720
+Was it too?
+
+104
+00:05:36.720 --> 00:05:38.080
+Was it three?
+
+105
+00:05:38.080 --> 00:05:41.520
+I don't know, I stare into the middle
+distance, the void.
+
+106
+00:05:41.520 --> 00:05:43.800
+There's a joke
+about Nietzsche here somewhere.
+
+107
+00:05:43.800 --> 00:05:46.760
+But this cake, it must resist philology.
+
+108
+00:05:46.760 --> 00:05:49.960
+At least more than I need to resist
+my email at 2 a.m..
+
+109
+00:05:50.200 --> 00:05:54.880
+Well, it's fluffy looking anyway, right?
+
+110
+00:05:54.920 --> 00:05:57.280
+At least some things it's thought to be.
+
+111
+00:05:57.280 --> 00:06:01.760
+So this is where baking is starting to do
+what a meditation app does not.
+
+112
+00:06:01.800 --> 00:06:04.960
+It occupies your hands
+and your short term memory at once.
+
+113
+00:06:04.960 --> 00:06:08.360
+You cannot draft or revise and resubmit
+while counting eggs.
+
+114
+00:06:08.360 --> 00:06:09.240
+Well, you can try,
+
+115
+00:06:09.240 --> 00:06:11.920
+but then you might end up protein
+maxing in your cheesecake
+
+116
+00:06:11.920 --> 00:06:14.320
+because there's a lot of extra eggs
+in there.
+
+117
+00:06:14.320 --> 00:06:18.200
+Researchers on the therapeutic side, like
+so's, work on baking as confectionery.
+
+118
+00:06:18.200 --> 00:06:22.880
+Art therapy describe this as the value
+of the tactile sequence sensory work.
+
+119
+00:06:22.920 --> 00:06:26.640
+We put it more plainly the recipe
+is the only deadline in the room,
+
+120
+00:06:26.640 --> 00:06:30.120
+and it's a deadline
+that ends and it ends in cheesecake.
+
+121
+00:06:30.240 --> 00:06:32.360
+Mid brainstorm,
+Claude asks us whether or not stress
+
+122
+00:06:32.360 --> 00:06:34.840
+baking helped us
+think or stop thinking. We?
+
+123
+00:06:34.840 --> 00:06:36.920
+You still really don't agree on that.
+
+124
+00:06:36.920 --> 00:06:40.120
+So moving forward.
+
+125
+00:06:40.760 --> 00:06:42.840
+Unsupervised.
+
+126
+00:06:42.840 --> 00:06:45.400
+Claude also decided
+that the pumpkin ingredient here
+
+127
+00:06:45.400 --> 00:06:48.160
+should be represented
+as a jack o'lantern emoji.
+
+128
+00:06:48.160 --> 00:06:51.200
+A grinning Halloween decoration
+headed for cheesecake.
+
+129
+00:06:51.200 --> 00:06:55.840
+Somehow I told it to go ahead
+and use Libby's the iconic pumpkin cam.
+
+130
+00:06:55.840 --> 00:07:00.160
+I usually use the off brand
+if we're being honest, but we tried to.
+
+131
+00:07:00.200 --> 00:07:04.360
+We tried some realism elsewhere
+to like Philadelphia Cream Cheese and the
+
+132
+00:07:04.360 --> 00:07:09.080
+McCormick Spice jar, but they came out
+so badly that we reverted back to the.
+
+133
+00:07:09.640 --> 00:07:10.160
+For those.
+
+134
+00:07:10.160 --> 00:07:16.160
+So the Libby's can sort of remains
+the lone icon of supervision here.
+
+135
+00:07:16.360 --> 00:07:19.360
+So I'll complete this step
+and we'll get some
+
+136
+00:07:19.360 --> 00:07:22.720
+pumpkin looking batter in a second focus.
+
+137
+00:07:22.720 --> 00:07:25.400
+I say aloud to myself,
+where was I in the recipe?
+
+138
+00:07:25.400 --> 00:07:27.640
+I did the eggs right.
+What about the sugar?
+
+139
+00:07:27.640 --> 00:07:30.200
+Isn't there supposed to be vanilla
+in this thing too?
+
+140
+00:07:30.200 --> 00:07:34.760
+Part of why I do this is to force myself
+to focus on something that isn't work,
+
+141
+00:07:34.760 --> 00:07:38.640
+and I literally have to tell myself
+to focus while I'm making.
+
+142
+00:07:40.880 --> 00:07:43.880
+Oh, and then go ahead and be.
+
+143
+00:07:44.480 --> 00:07:45.760
+Right.
+
+144
+00:07:45.760 --> 00:07:51.240
+Now here my field notes say I definitely
+did not match these graham crackers
+
+145
+00:07:51.240 --> 00:07:55.160
+finally enough when I was making the crust
+during my zoom office hours earlier.
+
+146
+00:07:55.160 --> 00:07:57.760
+But alas, what's done is done.
+
+147
+00:07:57.760 --> 00:08:01.600
+The thrashing they received from the
+not rolling pin that I fashioned
+
+148
+00:08:01.600 --> 00:08:05.800
+out of a can of Campbell's
+soup was, well, efficient and ingenious,
+
+149
+00:08:05.800 --> 00:08:09.640
+which are words that were used
+in my most recent annual evaluation.
+
+150
+00:08:09.760 --> 00:08:10.840
+Yes.
+
+151
+00:08:10.840 --> 00:08:14.520
+Notice what has leaked into the kitchen,
+the language of my most recent
+
+152
+00:08:14.520 --> 00:08:19.240
+annual avow, that is the supervised
+half of our title annual evasion
+
+153
+00:08:19.360 --> 00:08:23.320
+alley, annual evaluations, student credit
+hours, that prospectus.
+
+154
+00:08:23.320 --> 00:08:25.480
+I'm totally been writing.
+
+155
+00:08:25.480 --> 00:08:29.440
+You know, the audit follows
+you home and narrates you.
+
+156
+00:08:29.440 --> 00:08:33.680
+It joins your graham crackers, taking
+hours away from academic production.
+
+157
+00:08:33.680 --> 00:08:36.000
+To make something that we give away
+is small.
+
+158
+00:08:36.000 --> 00:08:39.800
+A small, deliberate act of resistance,
+something tasty and fun.
+
+159
+00:08:39.800 --> 00:08:42.720
+As if to say, I'm struggling,
+you're struggling.
+
+160
+00:08:42.720 --> 00:08:46.880
+This fluffy pumpkin cheesecake can nourish
+our physical bodies and our body minds.
+
+161
+00:08:46.880 --> 00:08:49.240
+In this meeting.
+That should have been an email.
+
+162
+00:08:49.240 --> 00:08:53.400
+We wanted the simulation to look more 
+splattered with cheesecake as we go.
+
+163
+00:08:53.400 --> 00:08:56.680
+So, as you might notice in the background
+behind the field notes,
+
+164
+00:08:56.680 --> 00:08:58.400
+there are these little blob like things.
+
+165
+00:08:58.400 --> 00:09:00.240
+They're supposed to be batter.
+
+166
+00:09:00.240 --> 00:09:03.240
+It's supposed to be Claude's
+best approximation of a mess,
+
+167
+00:09:03.440 --> 00:09:07.560
+but it really is just a reminder
+that Claude can't make a real mess, right?
+
+168
+00:09:07.560 --> 00:09:10.920
+We were hoping for something
+that would look more like a crime scene.
+
+169
+00:09:10.960 --> 00:09:15.000
+Is anyone who has ever set foot in
+my kitchen can tell you post, bake.
+
+170
+00:09:15.040 --> 00:09:18.000
+If you go into my kitchen,
+it looks like something died there.
+
+171
+00:09:18.000 --> 00:09:20.520
+And it wasn't just vanilla, right?
+
+172
+00:09:20.520 --> 00:09:25.280
+On a more literal note, Claude
+quite literally can't make images.
+
+173
+00:09:25.320 --> 00:09:30.040
+It can use SVG files
+to kind of put together pictures of shapes
+
+174
+00:09:30.040 --> 00:09:33.200
+that are blob together,
+so we can get a sense of what process
+
+175
+00:09:33.200 --> 00:09:38.680
+occurred here, that Claude didn't
+literally have a picture of a stand mixer,
+
+176
+00:09:38.680 --> 00:09:41.360
+but it's probably seen
+some pictures of a stand mixer,
+
+177
+00:09:41.360 --> 00:09:45.040
+and therefore it kind of tried to cobble
+one together out of shapes.
+
+178
+00:09:45.040 --> 00:09:49.120
+So in some ways,
+this is now me looking back into Claude
+
+179
+00:09:49.120 --> 00:09:51.320
+and imagining what its process was.
+
+180
+00:09:51.320 --> 00:09:54.240
+So I am now
+supervising my supervisor here.
+
+181
+00:09:54.240 --> 00:09:55.360
+We see you, Claude.
+
+182
+00:09:55.360 --> 00:09:57.520
+We know what you can and cannot do.
+
+183
+00:09:57.520 --> 00:10:01.920
+You were never able to actually pull
+together a beautiful mint green KitchenAid
+
+184
+00:10:01.920 --> 00:10:05.840
+stand mixer, but you could make
+some shapes that kind of made one.
+
+185
+00:10:06.400 --> 00:10:09.520
+All right. But who am I to judge here?
+
+186
+00:10:09.560 --> 00:10:10.240
+This cheesecake
+
+187
+00:10:10.240 --> 00:10:14.080
+would be a lot less fluffy and delicious
+if it were only mixed by human hands.
+
+188
+00:10:14.080 --> 00:10:15.280
+Continue.
+
+189
+00:10:17.080 --> 00:10:17.840
+All right,
+
+190
+00:10:17.840 --> 00:10:20.960
+so here we're putting it in the oven.
+
+191
+00:10:21.760 --> 00:10:24.320
+My internal dialog runs unchecked.
+
+192
+00:10:24.320 --> 00:10:25.080
+Check the oven.
+
+193
+00:10:25.080 --> 00:10:26.320
+Make sure nothing is in there.
+
+194
+00:10:26.320 --> 00:10:29.240
+Check again to make sure the wire rack
+is set at the right height.
+
+195
+00:10:29.240 --> 00:10:31.480
+30 minutes. Don't
+forget to start the timer. 30 minutes.
+
+196
+00:10:31.480 --> 00:10:33.760
+Don't forget to start the timer
+30 minutes. Set.
+
+197
+00:10:33.760 --> 00:10:38.080
+Okay, now you can check your email,
+but don't go too far from the kitchen.
+
+198
+00:10:38.480 --> 00:10:42.240
+Again, my actual insight here to my brain
+as we bake
+
+199
+00:10:42.240 --> 00:10:46.040
+academia
+feels really supervised at the moment.
+
+200
+00:10:46.080 --> 00:10:50.400
+It has us constantly jumping
+from task to tasks, from topic to topic,
+
+201
+00:10:50.480 --> 00:10:53.480
+and the feeling that
+because of that supervision,
+
+202
+00:10:53.480 --> 00:10:56.800
+we constantly need to be available
+and productive
+
+203
+00:10:56.840 --> 00:11:00.560
+is something that both of us
+clearly feel very strongly at the moment.
+
+204
+00:11:00.560 --> 00:11:03.000
+And it's come through in our simulation
+here.
+
+205
+00:11:03.000 --> 00:11:06.880
+And again,
+we're trying to resist that all in
+
+206
+00:11:06.960 --> 00:11:10.120
+at least this very small way of baking.
+
+207
+00:11:12.680 --> 00:11:13.640
+Okay.
+
+208
+00:11:13.640 --> 00:11:14.600
+All right.
+
+209
+00:11:14.600 --> 00:11:20.120
+Continuing forth, we 
+put the cake out on the rack to cool off.
+
+210
+00:11:20.120 --> 00:11:21.640
+We hope. Right.
+
+211
+00:11:21.640 --> 00:11:23.520
+We hope we remember to do this.
+
+212
+00:11:23.520 --> 00:11:25.200
+There's a chance of still in the oven.
+
+213
+00:11:25.200 --> 00:11:28.000
+So it says in an hour
+when the cheesecake cools
+
+214
+00:11:28.000 --> 00:11:31.880
+I can get into the fridge and nap with it
+for just enough time.
+
+215
+00:11:31.920 --> 00:11:33.760
+Shower and get to campus.
+
+216
+00:11:33.760 --> 00:11:35.040
+What is sleep like?
+
+217
+00:11:35.040 --> 00:11:36.200
+Actual sleep?
+
+218
+00:11:36.200 --> 00:11:40.040
+And then Microsoft Office dings again
+and lets me know
+
+219
+00:11:40.040 --> 00:11:42.480
+that I have another email or something
+else.
+
+220
+00:11:42.480 --> 00:11:44.520
+Some other deadline I forgot about.
+
+221
+00:11:44.520 --> 00:11:48.000
+Maybe if I write really fast
+I can get a little bit of a nap in.
+
+222
+00:11:48.680 --> 00:11:52.680
+Well again, here we are in our process,
+
+223
+00:11:52.720 --> 00:11:56.560
+being reminded of all of this supervision
+and yet non supervision.
+
+224
+00:11:57.040 --> 00:12:00.720
+As an aside, my KitchenAid stand mixer
+at home is not beautiful.
+
+225
+00:12:00.720 --> 00:12:01.920
+Mint green it's teal.
+
+226
+00:12:01.920 --> 00:12:02.880
+I bought it for myself
+
+227
+00:12:02.880 --> 00:12:06.720
+with some of my student loan refund money
+one term at the beginning of my PhD,
+
+228
+00:12:06.880 --> 00:12:09.960
+which means I've almost assuredly
+not actually paid for it
+
+229
+00:12:09.960 --> 00:12:12.680
+and probably will be paying for it
+until I die.
+
+230
+00:12:12.680 --> 00:12:15.640
+But should public service
+loan forgiveness
+
+231
+00:12:15.640 --> 00:12:17.400
+go the way of the dodo
+as it appears to be,
+
+232
+00:12:17.400 --> 00:12:21.600
+this KitchenAid will continue to sustain
+me and us collectively as a community.
+
+233
+00:12:21.720 --> 00:12:25.240
+We want to be careful
+not to sell you self-care,
+
+234
+00:12:25.800 --> 00:12:29.120
+and Warren warn us that self-care
+and institutional hands becomes
+
+235
+00:12:29.160 --> 00:12:32.440
+one more individual duty,
+one more thing to fail
+
+236
+00:12:32.440 --> 00:12:35.760
+at while the conditions
+producing the stress go and examined.
+
+237
+00:12:35.880 --> 00:12:40.400
+What redeems this cheesecake, however,
+is the fact that it does not stay home.
+
+238
+00:12:40.400 --> 00:12:42.600
+It goes to campus,
+to colleagues, to community,
+
+239
+00:12:42.600 --> 00:12:46.360
+and it facilitates those one minute
+long conversations where we catch up
+
+240
+00:12:46.360 --> 00:12:50.000
+with each other about not work,
+and we say things like, how are you?
+
+241
+00:12:50.000 --> 00:12:53.120
+And get responses
+like, oh, we don't ask that anymore,
+
+242
+00:12:53.360 --> 00:12:56.360
+shared distant cheesecake.
+
+243
+00:12:56.800 --> 00:12:58.040
+Continue.
+
+244
+00:12:59.000 --> 00:13:01.760
+And I feel
+like this started as sort of like a mini
+
+245
+00:13:01.760 --> 00:13:05.440
+therapy session in our reflections,
+but it's turned into a real love
+
+246
+00:13:05.440 --> 00:13:08.440
+letter for our communities
+for which we make.
+
+247
+00:13:08.440 --> 00:13:13.080
+So I'll go ahead and complete this step
+after refrigerate.
+
+248
+00:13:13.280 --> 00:13:17.440
+Will I remember to bring this
+to campus tomorrow or will I forget again?
+
+249
+00:13:17.640 --> 00:13:20.160
+The recipe is done, but the anxiety isn't.
+
+250
+00:13:20.160 --> 00:13:21.080
+It never is.
+
+251
+00:13:21.080 --> 00:13:23.880
+But at least now there's cheesecake too.
+
+252
+00:13:23.880 --> 00:13:28.800
+And so that's the end of our simulation
+here I want to point out it is public.
+
+253
+00:13:28.840 --> 00:13:32.480
+You can go to the link
+I think it's posted somewhere.
+
+254
+00:13:32.520 --> 00:13:36.720
+I'll post it again if you want 
+you can go here and edit reflections.
+
+255
+00:13:36.920 --> 00:13:39.400
+And so this is sort of our invitation.
+
+256
+00:13:39.400 --> 00:13:42.960
+Feel free to go in
+and replace our field notes with your own.
+
+257
+00:13:43.000 --> 00:13:46.200
+It should save now pending.
+
+258
+00:13:46.280 --> 00:13:49.520
+I haven't actually tested it,
+but cloud saw as it saves.
+
+259
+00:13:49.520 --> 00:13:52.800
+But at the top you notice
+it says changes are saved to your account.
+
+260
+00:13:52.840 --> 00:13:54.880
+There there's no account.
+
+261
+00:13:54.880 --> 00:13:59.280
+We left a few unsupervised
+things for your enjoyment.
+
+262
+00:14:00.440 --> 00:14:00.920
+All right.
+
+263
+00:14:00.920 --> 00:14:03.920
+So that's that's fine.
+
+264
+00:14:04.320 --> 00:14:05.080
+And we're good.
+
+265
+00:14:05.080 --> 00:14:05.400
+Yeah.
+
+266
+00:14:05.400 --> 00:14:09.080
+Baking will not fix academia
+and neither will this simulation.
+
+267
+00:14:09.080 --> 00:14:11.480
+But at least we can pretend
+we have cheesecake.
+
+268
+00:14:11.480 --> 00:14:12.440
+Thank you.

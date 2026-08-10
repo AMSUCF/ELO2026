@@ -8,9 +8,9 @@ import {
   sessionHeading,
   zoneLabel,
 } from "./schedule-core.js";
+import { attachStream } from "./hls-player.js";
 
 const CONFERENCE_ZONE = "America/New_York";
-const HLS_JS_SRC = "https://cdn.jsdelivr.net/npm/hls.js@1.5.15/dist/hls.min.js";
 
 const ZONES = [
   ["America/New_York", "Conference time — US Eastern"],
@@ -62,7 +62,7 @@ function renderSession(session, sessionId, timeZone, isPast) {
   const { heading, description } = sessionHeading(session.type);
   const recordingNote =
     isPast && awaitingRecording(session)
-      ? `<p class="recording-soon">Recording will be available soon.</p>`
+      ? `<p class="recording-soon">No recording is available for this session.</p>`
       : "";
   return `
         <section class="session" aria-labelledby="${sessionId}">
@@ -101,47 +101,35 @@ function renderSchedule(events, timeZone) {
   const container = document.getElementById("schedule");
   const { upcoming, past } = partitionEvents(events, new Date());
 
-  const upcomingHtml = upcoming.length
-    ? renderDayGroups(upcoming, timeZone, "upcoming", false)
-    : `<p class="section-note">The conference has concluded — thank you for joining us!
-       Session recordings are below.</p>`;
+  // Once every session has concluded the schedule is purely an archive, so
+  // the "upcoming" half is dropped rather than rendered as an empty state.
+  const upcomingSection = upcoming.length
+    ? `<section class="schedule-part" aria-labelledby="upcoming-heading">
+        <h2 class="glow-subheading part-heading" id="upcoming-heading">Upcoming Events</h2>
+        ${renderDayGroups(upcoming, timeZone, "upcoming", false)}
+      </section>`
+    : "";
 
   const pastHtml = past.length
     ? renderDayGroups(past, timeZone, "past", true)
     : `<p class="section-note">Recordings will appear here as sessions conclude.</p>`;
 
+  const archiveHeading = upcoming.length ? "Past Session Recordings" : "The Full Program";
+
   container.innerHTML = `
-      <section class="schedule-part" aria-labelledby="upcoming-heading">
-        <h2 class="glow-subheading part-heading" id="upcoming-heading">Upcoming Events</h2>
-        ${upcomingHtml}
-      </section>
+      ${upcomingSection}
       <section class="schedule-part" aria-labelledby="past-heading">
-        <h2 class="glow-subheading part-heading" id="past-heading">Past Session Recordings</h2>
-        <p class="section-note">Recordings are added to
+        <h2 class="glow-subheading part-heading" id="past-heading">${archiveHeading}</h2>
+        <p class="section-note">Recordings are hosted on
         <a href="https://stars.library.ucf.edu/elo2026/" target="_blank" rel="noopener">STARS</a>
-        as they are processed. Sessions without a player yet will have one soon.</p>
+        and can be played below, or browsed together on the
+        <a href="recordings.html">video archive</a>.</p>
         ${pastHtml}
       </section>`;
 
   document.getElementById("tz-note").textContent =
     `All times shown in ${zoneLabel(timeZone)}.` +
     (timeZone === CONFERENCE_ZONE ? " This is the conference's own time zone." : "");
-}
-
-// STARS recordings are HLS streams on S3 (CORS-enabled). Safari plays HLS
-// natively; other browsers get hls.js, loaded once on the first play click.
-let hlsLoader = null;
-function loadHlsJs() {
-  if (!hlsLoader) {
-    hlsLoader = new Promise((resolve, reject) => {
-      const script = document.createElement("script");
-      script.src = HLS_JS_SRC;
-      script.onload = () => resolve(window.Hls);
-      script.onerror = () => reject(new Error("hls.js failed to load"));
-      document.head.appendChild(script);
-    });
-  }
-  return hlsLoader;
 }
 
 async function playRecording(button) {
@@ -164,23 +152,8 @@ async function playRecording(button) {
       or view it on the session's STARS page.</p>`;
   };
 
-  try {
-    if (video.canPlayType("application/vnd.apple.mpegurl")) {
-      video.src = src;
-    } else {
-      const Hls = await loadHlsJs();
-      if (!Hls || !Hls.isSupported()) throw new Error("HLS unsupported");
-      const hls = new Hls();
-      hls.loadSource(src);
-      hls.attachMedia(video);
-      hls.on(Hls.Events.ERROR, (_evt, data) => {
-        if (data.fatal) fallback();
-      });
-    }
-    wrapper.replaceChildren(video);
-  } catch {
-    fallback();
-  }
+  wrapper.replaceChildren(video);
+  await attachStream(video, src, fallback);
 }
 
 async function init() {
@@ -214,7 +187,7 @@ async function init() {
     timeStyle: "short",
   });
   document.getElementById("sync-note").innerHTML =
-    `Schedule last synced from <a href="${esc(payload.source)}">STARS</a> on ${esc(synced)}. ` +
+    `Archived schedule, last synced from <a href="${esc(payload.source)}">STARS</a> on ${esc(synced)}. ` +
     `Session times entered in STARS are US Eastern.`;
 
   document.getElementById("schedule").addEventListener("click", (evt) => {

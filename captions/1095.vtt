@@ -1,0 +1,834 @@
+WEBVTT
+
+1
+00:00:00.080 --> 00:00:03.160
+Our video presentation will be entitled
+Algorithmic
+
+2
+00:00:03.200 --> 00:00:06.840
+Translation versus Human Imagination
+and Electronic Storytelling.
+
+3
+00:00:06.960 --> 00:00:09.960
+This is from Doctor Gloria Wilson. Ian.
+
+4
+00:00:12.240 --> 00:00:15.240
+So yeah.
+
+5
+00:00:16.760 --> 00:00:18.440
+Within the everyone.
+
+6
+00:00:18.440 --> 00:00:23.560
+And let me also welcome everyone to this
+and yellow
+
+7
+00:00:23.600 --> 00:00:26.600
+unsupervised and conference.
+
+8
+00:00:27.920 --> 00:00:30.920
+It's my pleasure to present
+
+9
+00:00:32.040 --> 00:00:33.920
+this paper
+
+10
+00:00:33.920 --> 00:00:38.720
+that I want to believe will help us
+have maybe some interactive moments
+
+11
+00:00:38.720 --> 00:00:42.280
+or maybe a time of discovering
+a few things.
+
+12
+00:00:42.320 --> 00:00:45.400
+Maybe we have a kind of at this
+
+13
+00:00:46.560 --> 00:00:48.840
+point for all of us.
+
+14
+00:00:48.840 --> 00:00:52.920
+The the title of this presentation
+is Algorithms
+
+15
+00:00:52.920 --> 00:00:57.800
+translations versus Human Imagination
+in Electronic Storytelling.
+
+16
+00:00:58.360 --> 00:01:01.600
+I want to talk about how algorithms
+
+17
+00:01:01.600 --> 00:01:06.200
+and human imagination
+work together in electronics to tourism.
+
+18
+00:01:06.200 --> 00:01:11.080
+As with a focus on English
+and French translation in Nigerian games
+
+19
+00:01:11.280 --> 00:01:14.280
+and films.
+
+20
+00:01:17.440 --> 00:01:18.240
+The background to
+
+21
+00:01:18.240 --> 00:01:22.320
+this work is about
+is on storytelling storytelling
+
+22
+00:01:22.320 --> 00:01:26.240
+that has with games, films
+and interactive media.
+
+23
+00:01:26.280 --> 00:01:30.040
+It also has to do with tools that now
+
+24
+00:01:30.080 --> 00:01:33.920
+handle translation, dialog and subtitles.
+
+25
+00:01:34.560 --> 00:01:35.360
+We have
+
+26
+00:01:36.760 --> 00:01:37.800
+like an AI
+
+27
+00:01:37.800 --> 00:01:41.800
+subtitles for running films on Netflix
+and all that,
+
+28
+00:01:41.800 --> 00:01:44.840
+and then also some real time
+
+29
+00:01:44.840 --> 00:01:48.600
+English
+as frank localization for mobile games.
+
+30
+00:01:49.200 --> 00:01:52.320
+We know that we are in an era
+where it came in
+
+31
+00:01:52.320 --> 00:01:56.240
+Lagos can be played in that car
+the next week.
+
+32
+00:01:56.280 --> 00:01:58.880
+A translation means possible.
+
+33
+00:01:58.880 --> 00:02:02.560
+But Pete, a loan is not enough.
+
+34
+00:02:04.000 --> 00:02:07.080
+We have as a first problem
+we are going to look at it
+
+35
+00:02:07.560 --> 00:02:11.400
+between efficiency that is a fast, cheap,
+
+36
+00:02:11.560 --> 00:02:14.560
+multilingual, rich and meaning
+
+37
+00:02:14.720 --> 00:02:19.200
+it has to do with a cultural tone
+and context.
+
+38
+00:02:19.240 --> 00:02:25.080
+For example, here I will translate his
+my guide to mean My God.
+
+39
+00:02:25.600 --> 00:02:27.880
+But humans know better
+
+40
+00:02:27.880 --> 00:02:32.360
+because it's about relationship,
+it's about emotions and all that.
+
+41
+00:02:32.400 --> 00:02:36.600
+So the human who said semaphore then same
+
+42
+00:02:36.680 --> 00:02:40.760
+put them on, put all the water, same
+
+43
+00:02:40.840 --> 00:02:43.840
+god depending on the context.
+
+44
+00:02:43.960 --> 00:02:46.960
+So here the problem is simple
+
+45
+00:02:47.000 --> 00:02:50.360
+algorithms give us kill
+when they offer me.
+
+46
+00:02:50.360 --> 00:02:53.480
+Then once a little friend translation
+
+47
+00:02:53.480 --> 00:02:56.840
+can break it up
+or change the relationship.
+
+48
+00:02:56.920 --> 00:03:00.240
+So how do we relate or balance?
+
+49
+00:03:00.280 --> 00:03:00.920
+Because
+
+50
+00:03:02.120 --> 00:03:05.120
+the objectives
+of this work will be changed, mean
+
+51
+00:03:05.160 --> 00:03:10.200
+the role of algorithms in translation
+for games and film, and also to examine
+
+52
+00:03:10.200 --> 00:03:13.760
+the role of human imaginaries
+in adapting to risk.
+
+53
+00:03:14.000 --> 00:03:15.160
+And also number three
+
+54
+00:03:15.160 --> 00:03:19.440
+will propose a hybrid model
+for Nigerian electronic storytelling.
+
+55
+00:03:19.720 --> 00:03:24.240
+I have to first look at what does well,
+
+56
+00:03:24.400 --> 00:03:29.200
+then what humans do well
+and then how to combine them.
+
+57
+00:03:30.520 --> 00:03:33.840
+Because in the conceptual framework
+we look at algorithms,
+
+58
+00:03:33.840 --> 00:03:37.280
+which is called data automation,
+
+59
+00:03:37.600 --> 00:03:40.640
+and then how repetition and scales
+
+60
+00:03:40.680 --> 00:03:45.440
+are handled,
+then imaginaries, human creativity,
+
+61
+00:03:45.760 --> 00:03:50.360
+culture, emotion, how harmony is handled,
+
+62
+00:03:50.400 --> 00:03:54.320
+and then the obedience as a section
+that is a hybrid story.
+
+63
+00:03:54.680 --> 00:04:00.040
+So imaginaries they will now enter
+into investment section.
+
+64
+00:04:00.160 --> 00:04:03.800
+We think of algorithms
+as the engine and imaginaries.
+
+65
+00:04:03.800 --> 00:04:07.880
+As a driver
+you need both to reach the destination.
+
+66
+00:04:09.440 --> 00:04:11.400
+Algorithms and storytelling.
+
+67
+00:04:11.400 --> 00:04:14.400
+What are the rhythms? Do well
+
+68
+00:04:14.520 --> 00:04:16.360
+in speed, yes, because they can
+
+69
+00:04:16.360 --> 00:04:20.040
+translate 1000 words in hours, not weeks.
+
+70
+00:04:20.480 --> 00:04:23.480
+The scale English, French
+for multiple countries as well.
+
+71
+00:04:23.640 --> 00:04:26.800
+You know they can translate
+into the different you know, you know,
+
+72
+00:04:27.120 --> 00:04:32.680
+varieties of friend in Canada,
+in Paris, in Senegal, in Africa.
+
+73
+00:04:32.920 --> 00:04:35.720
+The cartoons give that within few hours.
+
+74
+00:04:35.720 --> 00:04:37.160
+And then there is consistency.
+
+75
+00:04:37.160 --> 00:04:40.880
+Sentences
+across the whole came from the same times.
+
+76
+00:04:41.040 --> 00:04:44.400
+It's well,
+also even though there's consistency,
+
+77
+00:04:44.400 --> 00:04:48.200
+they could take steps
+and they can also be substance in
+
+78
+00:04:48.720 --> 00:04:51.240
+AI localizes a mobile game
+
+79
+00:04:51.240 --> 00:04:54.240
+from French
+to English to French for Cameroon,
+
+80
+00:04:55.040 --> 00:04:58.040
+and then simultaneously.
+
+81
+00:04:58.120 --> 00:04:59.160
+This is a big win.
+
+82
+00:04:59.160 --> 00:05:02.880
+Without AI, a small Nigerians to a studio
+
+83
+00:05:02.960 --> 00:05:06.400
+could never afford to translate
+into French
+
+84
+00:05:06.440 --> 00:05:09.600
+for all of Francophone Africa.
+
+85
+00:05:10.160 --> 00:05:13.240
+So what do the human imaginaries do when
+
+86
+00:05:15.000 --> 00:05:17.200
+in contact cultural contexts?
+
+87
+00:05:17.200 --> 00:05:18.880
+They understand human.
+
+88
+00:05:18.880 --> 00:05:23.040
+They understand tool
+and relationships in emotion.
+
+89
+00:05:23.080 --> 00:05:26.480
+They adapt, done to feel natural.
+
+90
+00:05:26.720 --> 00:05:32.000
+Then in the that they decide what to keep,
+what to change, or what you explain.
+
+91
+00:05:32.040 --> 00:05:33.360
+You know in translation.
+
+92
+00:05:33.360 --> 00:05:34.640
+We know that when you are doing
+
+93
+00:05:34.640 --> 00:05:37.720
+translations like entering into a theater,
+that's how you have
+
+94
+00:05:38.520 --> 00:05:42.640
+a different technical production,
+have the different techniques we have.
+
+95
+00:05:42.720 --> 00:05:46.600
+We have a problem,
+we have card, we have all the other ones.
+
+96
+00:05:47.640 --> 00:05:49.800
+Station modulation.
+
+97
+00:05:49.800 --> 00:05:52.800
+The rest is like entering into a theater.
+
+98
+00:05:53.160 --> 00:05:56.160
+You, you when you do a surgery, you remove
+what is normal
+
+99
+00:05:56.160 --> 00:05:59.520
+then and put back what is in the state
+of that level of stitching.
+
+100
+00:05:59.520 --> 00:06:02.720
+In top is where we have
+whatever is in there in translation.
+
+101
+00:06:02.720 --> 00:06:08.360
+So for example, we have
+if you are changing from let's go to you
+
+102
+00:06:08.960 --> 00:06:13.000
+say on user that or you say Ali,
+
+103
+00:06:13.520 --> 00:06:18.120
+this will depend on if the characters
+are friends or associates.
+
+104
+00:06:18.160 --> 00:06:21.960
+So he must know that French in Abuja
+is not the same as French in Paris.
+
+105
+00:06:22.080 --> 00:06:25.640
+And humans decide
+what sounds real to her audience.
+
+106
+00:06:25.760 --> 00:06:26.320
+That's the thing.
+
+107
+00:06:26.320 --> 00:06:29.720
+So we have to convert your analysis
+in terms of dimension.
+
+108
+00:06:29.880 --> 00:06:33.720
+We have algorithms that listen
+and the imagination
+
+109
+00:06:33.760 --> 00:06:35.560
+for speak in the area of dimension.
+
+110
+00:06:35.560 --> 00:06:39.680
+You see, it's very fast in algorithmic
+translation, and it's slower
+
+111
+00:06:39.680 --> 00:06:44.440
+in human imagination for scalability,
+in algorithmic translation,
+
+112
+00:06:44.440 --> 00:06:48.800
+it is an easily scalable
+to multiple languages, but limited in
+
+113
+00:06:48.840 --> 00:06:52.480
+human
+imagination, is limited by human hours.
+
+114
+00:06:53.240 --> 00:06:58.160
+In the cultural context, it is, you know,
+what comes to algorithmic translation.
+
+115
+00:06:58.160 --> 00:07:00.560
+It is weak with idioms and tools.
+
+116
+00:07:00.560 --> 00:07:04.320
+The that of the human imagination
+is strong emotions and all that.
+
+117
+00:07:04.640 --> 00:07:09.360
+The when it comes to cost for the trust,
+the ordinary translation,
+
+118
+00:07:09.360 --> 00:07:13.040
+it is lower and it is after sector,
+it is low.
+
+119
+00:07:13.120 --> 00:07:15.760
+And then for human it is higher
+because you need a lot of hearts.
+
+120
+00:07:15.760 --> 00:07:18.280
+You need to get,
+you know, a lot of things come into play.
+
+121
+00:07:18.280 --> 00:07:21.880
+So it's higher in terms, of course,
+when it comes to creativity
+
+122
+00:07:21.920 --> 00:07:24.920
+for algorithmic translation,
+it is pattern based.
+
+123
+00:07:24.920 --> 00:07:28.360
+And then when it comes to human
+validation, it is original
+
+124
+00:07:28.480 --> 00:07:29.880
+and adapted here.
+
+125
+00:07:29.880 --> 00:07:33.480
+So what we mean here
+is that the table adoption shows the trade
+
+126
+00:07:33.480 --> 00:07:38.600
+of algorithms win or speed across
+humans win our culture credibility.
+
+127
+00:07:38.720 --> 00:07:40.840
+But at the end of the day,
+we know we need both.
+
+128
+00:07:40.840 --> 00:07:42.320
+So there's a little case here.
+
+129
+00:07:42.320 --> 00:07:46.480
+Translation in Nigerian games
+of in the case for Nigeria mobile games
+
+130
+00:07:46.680 --> 00:07:48.280
+in AI English to French.
+
+131
+00:07:48.280 --> 00:07:51.280
+Your friend from France
+when the second countries
+
+132
+00:07:51.760 --> 00:07:55.080
+we say that means the level of passport
+
+133
+00:07:55.080 --> 00:07:59.520
+nivel and superior for natural to win
+the results.
+
+134
+00:07:59.520 --> 00:08:05.120
+It is whether it is natural languages
+in case study two no linguist
+
+135
+00:08:05.440 --> 00:08:09.440
+or stream as such past French subtitles
+
+136
+00:08:09.440 --> 00:08:12.800
+in 48 hours for human.
+
+137
+00:08:13.440 --> 00:08:15.600
+For example, he said he's my guy.
+
+138
+00:08:17.240 --> 00:08:20.160
+You the thing that
+
+139
+00:08:20.160 --> 00:08:23.160
+comes to the seven put
+because it is something
+
+140
+00:08:23.160 --> 00:08:26.800
+that personal, it's
+personally to you to cut your friendship.
+
+141
+00:08:27.160 --> 00:08:32.120
+And then the result is this fast
+distribution and the meaning is spread.
+
+142
+00:08:32.120 --> 00:08:33.880
+It is present in the distribution.
+
+143
+00:08:33.880 --> 00:08:38.080
+It goes faster because meaning is added
+and it is something that is closer to
+
+144
+00:08:38.120 --> 00:08:39.400
+our home study.
+
+145
+00:08:39.400 --> 00:08:42.720
+So the key takeaway here is an organism's
+made natural.
+
+146
+00:08:42.760 --> 00:08:44.960
+So it's tribal imaginaries.
+
+147
+00:08:44.960 --> 00:08:46.880
+Make them connect.
+
+148
+00:08:46.880 --> 00:08:52.640
+In Nigeria we create in English
+to reach the Caribbean when we need French
+
+149
+00:08:52.880 --> 00:08:57.080
+AI gives us speed that give us the right
+
+150
+00:08:57.080 --> 00:09:00.080
+French for our audience.
+
+151
+00:09:00.120 --> 00:09:05.320
+The key finding here is in hybrid models,
+the hybrid models works best.
+
+152
+00:09:05.480 --> 00:09:08.320
+Algorithm rules, translation
+
+153
+00:09:08.320 --> 00:09:13.120
+consistency and fast
+trust afford imaginary rules.
+
+154
+00:09:13.120 --> 00:09:17.040
+You have the meeting cultural
+and attention to the control.
+
+155
+00:09:17.080 --> 00:09:22.040
+And then we made it to the YouTube
+auto captions in English humanity
+
+156
+00:09:22.040 --> 00:09:26.160
+to adapt French subtitles for West African
+you know audience.
+
+157
+00:09:26.200 --> 00:09:26.840
+Listen.
+
+158
+00:09:26.840 --> 00:09:30.640
+We see on the screen, they are immediately
+done at times the the context,
+
+159
+00:09:30.720 --> 00:09:35.240
+the content may not actually reflect the
+the the the real meaning.
+
+160
+00:09:35.360 --> 00:09:39.400
+So the best workflow is AI first, human
+second.
+
+161
+00:09:39.760 --> 00:09:43.200
+Let the machine to 80% of the work,
+then letting
+
+162
+00:09:43.200 --> 00:09:47.360
+humans make it 100% right in
+
+163
+00:09:48.520 --> 00:09:50.800
+for the parts
+
+164
+00:09:50.800 --> 00:09:56.240
+you were scared hired to us
+for quality for researchers
+
+165
+00:09:56.360 --> 00:10:02.200
+study how AI handles English, French
+in African context for policies.
+
+166
+00:10:02.200 --> 00:10:06.280
+Invest in training
+for AI plus human transition tribes.
+
+167
+00:10:06.480 --> 00:10:09.480
+If you want Nigerian stories to go global,
+
+168
+00:10:09.760 --> 00:10:12.160
+we need to fund both the tech
+
+169
+00:10:12.160 --> 00:10:15.160
+and the people who make it work for us.
+
+170
+00:10:15.440 --> 00:10:20.920
+In conclusion, I will say
+algorithms provide rich and efficiency
+
+171
+00:10:21.320 --> 00:10:25.080
+imaginaries provide
+meaning and cultural connection.
+
+172
+00:10:25.240 --> 00:10:30.520
+The future of Nigerian electronic sewing
+telling is hybrid English
+
+173
+00:10:30.520 --> 00:10:35.320
+and French together, concurrent stories
+across Africa and beyond.
+
+174
+00:10:36.200 --> 00:10:41.680
+To conclude, you do not have to choose
+between AI and humans.
+
+175
+00:10:41.720 --> 00:10:44.200
+No, not at all.
+We don't need to make that choice.
+
+176
+00:10:44.200 --> 00:10:46.960
+What you have to know
+is that the future is both.
+
+177
+00:10:46.960 --> 00:10:49.920
+It is both AI and humans.
+
+178
+00:10:49.920 --> 00:10:52.760
+That's how Nigerian stories will travel.
+
+179
+00:10:52.760 --> 00:10:54.760
+And see if you like us.
+
+180
+00:10:54.760 --> 00:10:58.240
+And I want to say
+thank you very much for your attention.
+
+181
+00:10:58.360 --> 00:11:02.160
+I want to believe that this will help us
+explore more into the world
+
+182
+00:11:02.160 --> 00:11:05.920
+of AI and human translation.
+
+183
+00:11:06.040 --> 00:11:07.760
+Thank you very much.

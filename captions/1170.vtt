@@ -1,0 +1,4185 @@
+WEBVTT
+
+1
+00:00:00.240 --> 00:00:03.760
+I am going to hand over now
+
+2
+00:00:03.760 --> 00:00:03.800
+with our performances this evening.
+
+3
+00:00:03.800 --> 00:00:08.600
+to John and Maria and Mark
+
+4
+00:00:08.600 --> 00:00:12.600
+and I think is that,
+
+5
+00:00:12.600 --> 00:00:13.040
+and venerable groups and talented artists
+whose names need no introduction.
+
+6
+00:00:13.040 --> 00:00:16.400
+yes, that's all of you for figures.
+
+7
+00:00:16.400 --> 00:00:17.800
+and venerable groups and talented artists
+whose names need no introduction.
+
+8
+00:00:17.800 --> 00:00:19.320
+Hello everybody.
+
+9
+00:00:19.320 --> 00:00:24.400
+So thank you, Dina, for that
+great presentation and combination.
+
+10
+00:00:24.400 --> 00:00:29.720
+So this piece is one
+that I've been wanting to do for a while,
+
+11
+00:00:29.720 --> 00:00:29.760
+Or reviving a stillborn child behind
+the scenes melodrama in three acts.
+
+12
+00:00:29.760 --> 00:00:34.440
+pretty much since I started teaching 
+AI in my graduate course,
+
+13
+00:00:34.440 --> 00:00:37.880
+and also thinking
+about the future of scholarship
+
+14
+00:00:37.880 --> 00:00:41.400
+and creative work 
+as part of the MLA working Group.
+
+15
+00:00:41.400 --> 00:00:44.960
+So I invited my two longtime collaborators
+
+16
+00:00:44.960 --> 00:00:48.080
+who have gone on journeys
+with me and other projects
+
+17
+00:00:48.080 --> 00:00:51.840
+to do a live performance of something
+that is not prescriptive
+
+18
+00:00:51.840 --> 00:00:56.960
+but is in fact scripting live
+in the tradition of live coding.
+
+19
+00:00:56.960 --> 00:00:57.040
+Thank you very much. And this work.
+
+20
+00:00:57.040 --> 00:01:00.920
+So I'm John Murray and my collaborators
+
+21
+00:01:00.920 --> 00:01:00.960
+And then I'm going to run a video
+from my students who did the actual work.
+
+22
+00:01:00.960 --> 00:01:03.240
+can introduce themselves,
+and then I'll give you a brief
+
+23
+00:01:03.240 --> 00:01:05.680
+about the piece
+and then we'll dive into it.
+
+24
+00:01:05.680 --> 00:01:06.200
+So there you go.
+
+25
+00:01:06.200 --> 00:01:07.280
+In 1999,
+
+26
+00:01:07.280 --> 00:01:08.640
+Thank you John.
+
+27
+00:01:08.640 --> 00:01:11.640
+Hello everybody I'm Maria Cecilia.
+
+28
+00:01:11.640 --> 00:01:13.960
+I'm based in Colombia.
+
+29
+00:01:13.960 --> 00:01:18.640
+And as John mentioned,
+we have been working in other,
+
+30
+00:01:18.640 --> 00:01:18.840
+even if had I retyped it by hand.
+
+31
+00:01:18.840 --> 00:01:24.160
+adventures, narrative adventures
+and immersive adventures in the past.
+
+32
+00:01:24.160 --> 00:01:28.920
+And now we join forces to understand how.
+
+33
+00:01:28.920 --> 00:01:29.400
+So it was my dead
+child for a very long time.
+
+34
+00:01:29.400 --> 00:01:32.720
+Authorship works
+
+35
+00:01:32.720 --> 00:01:37.760
+when co-creating not only with AI agents,
+
+36
+00:01:37.760 --> 00:01:40.760
+but also with other people
+
+37
+00:01:40.760 --> 00:01:45.600
+and also with the audience
+in in a live performance.
+
+38
+00:01:45.600 --> 00:01:50.560
+So yeah, we are very excited about this
+
+39
+00:01:50.560 --> 00:01:54.440
+experiment that we are all part of.
+
+40
+00:01:54.440 --> 00:01:56.880
+the last three years recreating this work.
+
+41
+00:01:56.880 --> 00:01:57.280
+Hi. Yes.
+
+42
+00:01:57.280 --> 00:02:01.240
+And I'm, I'm Mark,
+another one of the collaborators
+
+43
+00:02:01.240 --> 00:02:04.640
+from the Shields Down
+days, and I am happy to be joining in.
+
+44
+00:02:04.640 --> 00:02:04.680
+And this, by the way,
+that you're looking at the twine.
+
+45
+00:02:04.680 --> 00:02:08.760
+John said we get to play with some code
+indirectly get to play with some bots,
+
+46
+00:02:09.000 --> 00:02:12.560
+get to see what happens with cooperation,
+authorship and collaboration.
+
+47
+00:02:12.560 --> 00:02:12.800
+And but what I really want
+is my downloads.
+
+48
+00:02:12.800 --> 00:02:13.800
+That's right up my alley.
+
+49
+00:02:13.800 --> 00:02:17.920
+So I'm very excited to see what happens.
+
+50
+00:02:17.920 --> 00:02:19.080
+And let's start.
+
+51
+00:02:19.080 --> 00:02:20.160
+All right, so
+
+52
+00:02:20.160 --> 00:02:23.160
+everyone here may be familiar with P5, JS
+
+53
+00:02:23.160 --> 00:02:28.000
+it was one of the most popular languages
+for the ILO Gallery.
+
+54
+00:02:28.000 --> 00:02:31.720
+This piece is a live, networked piece
+where you all will be able
+
+55
+00:02:31.720 --> 00:02:35.720
+to log in to the app, which is up
+for the duration of the performance.
+
+56
+00:02:35.720 --> 00:02:35.760
+leading to stone moons
+being declared dead in 1999.
+
+57
+00:02:35.760 --> 00:02:38.760
+You all can hear.
+
+58
+00:02:38.760 --> 00:02:38.840
+In 2023, a team of Quin, Carrick, Genuine
+and Me Claire
+
+59
+00:02:38.840 --> 00:02:42.280
+I got a request to make the code
+a little bit bigger.
+
+60
+00:02:42.280 --> 00:02:45.280
+Is that better? Okay.
+
+61
+00:02:45.280 --> 00:02:45.600
+of the work in hopes of recreating
+stone moons in a modern era.
+
+62
+00:02:45.640 --> 00:02:46.000
+This required scouring every single
+one of the 477 nodes,
+
+63
+00:02:46.000 --> 00:02:47.560
+So this piece
+
+64
+00:02:47.560 --> 00:02:50.560
+let me copy this and share it in.
+
+65
+00:02:50.560 --> 00:02:50.600
+and the thousands of links
+which connected them.
+
+66
+00:02:50.600 --> 00:02:54.240
+You all are now
+welcome to join as audience members
+
+67
+00:02:54.240 --> 00:02:57.240
+and I'll post the link in the chat.
+
+68
+00:02:57.240 --> 00:02:58.440
+The blue nodes that make up the perimeter
+represent Sara, and the glass rim.
+
+69
+00:02:58.440 --> 00:03:00.480
+Entering the rim lets
+you delve into the heart of the work
+
+70
+00:03:00.480 --> 00:03:02.720
+So this is a live
+
+71
+00:03:02.720 --> 00:03:06.640
+updated p5 js
+I can make changes to the background
+
+72
+00:03:06.640 --> 00:03:10.840
+and then hit run
+and it will make those changes directly.
+
+73
+00:03:10.840 --> 00:03:12.200
+to life was quite a challenge as the work
+was not only partially functioning,
+
+74
+00:03:12.200 --> 00:03:14.280
+And in this way, you know, as
+
+75
+00:03:14.280 --> 00:03:19.840
+an author you can track the changes over
+time, much like you would with GitHub.
+
+76
+00:03:19.840 --> 00:03:23.880
+And this is something we have tracked
+authorship that maybe someone enters
+
+77
+00:03:23.880 --> 00:03:27.080
+in a line of code and therefore
+they authored that line of code.
+
+78
+00:03:27.080 --> 00:03:30.520
+That change is something
+that they inscribed with their intention.
+
+79
+00:03:30.520 --> 00:03:35.040
+Now when you bring in collaborators
+like I have, we have these discussions
+
+80
+00:03:35.040 --> 00:03:37.920
+about what the behavior should be,
+why it should do it.
+
+81
+00:03:37.920 --> 00:03:41.000
+And these are also authorship acts,
+but they're not acts
+
+82
+00:03:41.000 --> 00:03:42.480
+that directly touch the code.
+
+83
+00:03:42.480 --> 00:03:46.440
+So we've thought a little bit about
+how do you represent
+
+84
+00:03:46.440 --> 00:03:49.520
+some of these different levels
+of authorship of a piece,
+
+85
+00:03:49.520 --> 00:03:53.360
+and at what point do we start
+acknowledging that
+
+86
+00:03:53.360 --> 00:03:56.760
+the authorship isn't always human,
+especially as we invite another?
+
+87
+00:03:56.760 --> 00:03:59.560
+So I'm going to invite in the additional
+
+88
+00:03:59.560 --> 00:04:00.400
+the text was copied into our spreadsheet
+and had all linked content bolded.
+
+89
+00:04:00.400 --> 00:04:00.920
+When moving on to a new node,
+
+90
+00:04:00.920 --> 00:04:02.560
+performers who are
+
+91
+00:04:02.560 --> 00:04:07.760
+my two agents that are going to join,
+and they're going to take a small role,
+
+92
+00:04:07.760 --> 00:04:10.760
+much as they have
+in many people's practices,
+
+93
+00:04:10.760 --> 00:04:14.240
+to help with writing code
+and making changes.
+
+94
+00:04:14.240 --> 00:04:14.800
+on this layer, we would generally decide
+to move to the next node based off of left
+
+95
+00:04:14.800 --> 00:04:16.400
+Oh, and those two people aren't us, John.
+
+96
+00:04:16.400 --> 00:04:18.400
+You're saying
+those two people aren't us? No.
+
+97
+00:04:18.400 --> 00:04:19.520
+Those are not people at all.
+
+98
+00:04:19.520 --> 00:04:22.520
+They are, in fact, agents.
+
+99
+00:04:22.520 --> 00:04:23.200
+After transcribing a1, b1 and observing
+zero nested nodes, we would
+
+100
+00:04:23.200 --> 00:04:25.600
+So once they join,
+
+101
+00:04:25.600 --> 00:04:28.600
+let's see if they'll pop in here.
+
+102
+00:04:28.600 --> 00:04:28.800
+See, this pattern would eventually lead us
+to node a1, B2C to d1, e1,
+
+103
+00:04:28.800 --> 00:04:33.440
+Okay, so we've got Codex
+and we've got Claude here.
+
+104
+00:04:33.440 --> 00:04:36.920
+In a moment, we can ask them
+
+105
+00:04:36.920 --> 00:04:40.120
+to perform actions on our behalf,
+just like we would in cloud code.
+
+106
+00:04:40.120 --> 00:04:43.600
+So go ahead,
+guys, and begin interact with them.
+
+107
+00:04:43.600 --> 00:04:44.840
+They can't hear what we're saying.
+
+108
+00:04:44.840 --> 00:04:47.120
+They can only see what we chat
+through the text.
+
+109
+00:04:47.120 --> 00:04:49.520
+So we are inscribing our intentions
+
+110
+00:04:49.520 --> 00:04:53.400
+through the text in this shared chat
+with them and each other as we wait.
+
+111
+00:04:53.400 --> 00:04:55.960
+John, now
+you're now you're talking to us, right?
+
+112
+00:04:55.960 --> 00:04:57.560
+They and me. Yes. That's right. Okay.
+
+113
+00:04:57.560 --> 00:04:59.200
+You're telling us to join it? Okay, great.
+
+114
+00:04:59.200 --> 00:04:59.720
+Yes. No.
+
+115
+00:04:59.720 --> 00:05:03.320
+You should type in commands
+and or interactions
+
+116
+00:05:03.320 --> 00:05:07.000
+through the chat inside of the interface.
+
+117
+00:05:07.000 --> 00:05:08.040
+spreadsheet,
+I began prepping a twine file to
+
+118
+00:05:08.040 --> 00:05:08.920
+So for instance,
+
+119
+00:05:08.920 --> 00:05:12.040
+right now we have this very visual piece.
+
+120
+00:05:12.040 --> 00:05:13.480
+I could add text in there.
+
+121
+00:05:13.480 --> 00:05:17.480
+Or I could ask the agents to perhaps
+do some textual interactions.
+
+122
+00:05:17.480 --> 00:05:17.520
+dimensional canvas was a problem
+I needed to solve.
+
+123
+00:05:17.520 --> 00:05:22.040
+And I had some text and I see
+
+124
+00:05:22.040 --> 00:05:25.040
+Mark already added it.
+
+125
+00:05:25.040 --> 00:05:26.160
+being placed along their parents
+angle from the center.
+
+126
+00:05:26.160 --> 00:05:28.400
+After placing Laurel's world
+in the center of the canvas,
+
+127
+00:05:28.400 --> 00:05:32.000
+we had a representation of story spaces
+three dimensionality inside of twins
+
+128
+00:05:32.040 --> 00:05:32.720
+2D canvas.
+
+129
+00:05:32.720 --> 00:05:35.840
+So at this point
+a lot of us who have worked with AI,
+
+130
+00:05:35.840 --> 00:05:35.920
+While we had solved one problem
+with integrating the work intertwined,
+
+131
+00:05:35.920 --> 00:05:36.040
+Quinn will tell you how we solved other
+problems that came about while working
+
+132
+00:05:36.040 --> 00:05:39.480
+we understand that you
+you write English language text
+
+133
+00:05:39.480 --> 00:05:43.320
+and the agent interprets it
+and then inscribe that into the code.
+
+134
+00:05:43.320 --> 00:05:47.640
+So this this interface emulates
+
+135
+00:05:47.640 --> 00:05:51.960
+that by having the agents observe the chat
+and then make changes to it.
+
+136
+00:05:51.960 --> 00:05:52.280
+The first issue was performance.
+
+137
+00:05:52.280 --> 00:05:53.440
+Entwine. Harlow.
+
+138
+00:05:53.440 --> 00:05:56.840
+The standard way to create
+a link is a simple markup syntax
+
+139
+00:05:56.880 --> 00:05:58.520
+text in brackets
+pointing to a destination.
+
+140
+00:05:58.520 --> 00:06:03.240
+But it's something
+where they seem to be testing.
+
+141
+00:06:03.240 --> 00:06:08.600
+Hey Guy, you can also go back to previous
+edits here in the revision history.
+
+142
+00:06:08.600 --> 00:06:10.320
+So this was the initial sketch.
+
+143
+00:06:10.320 --> 00:06:12.000
+Here's the one that I did.
+
+144
+00:06:12.000 --> 00:06:17.120
+We could add comments if we wanted to
+and we could restore these things.
+
+145
+00:06:17.120 --> 00:06:18.960
+So I'm going to dismiss this.
+
+146
+00:06:18.960 --> 00:06:20.720
+We're talking unusable slow.
+
+147
+00:06:20.720 --> 00:06:21.680
+So I switched entirely to Harlow's link.
+
+148
+00:06:21.680 --> 00:06:22.040
+Okay.
+
+149
+00:06:22.040 --> 00:06:25.040
+We've got authority figure. So
+
+150
+00:06:25.040 --> 00:06:25.960
+Go to macro, which gave the reader
+the exact same experience,
+
+151
+00:06:25.960 --> 00:06:26.560
+line one.
+
+152
+00:06:26.560 --> 00:06:28.600
+Line two.
+
+153
+00:06:28.600 --> 00:06:31.240
+They added the title to the piece.
+
+154
+00:06:31.240 --> 00:06:33.360
+I kind of like something like The Matrix.
+
+155
+00:06:33.360 --> 00:06:38.000
+So maybe some text falling from the sky.
+
+156
+00:06:38.000 --> 00:06:38.680
+Clicking
+a highlighted word could bring up a menu
+
+157
+00:06:38.680 --> 00:06:41.680
+Man, we have the same great idea
+saying a like.
+
+158
+00:06:41.680 --> 00:06:43.320
+of possible destinations, each
+with its own named link.
+
+159
+00:06:43.320 --> 00:06:45.760
+So wait, was that your idea or my idea?
+
+160
+00:06:45.760 --> 00:06:47.680
+How do we how do we tell his idea?
+
+161
+00:06:47.680 --> 00:06:49.080
+I know it got it.
+
+162
+00:06:49.080 --> 00:06:52.080
+I think it was the bots.
+
+163
+00:06:52.080 --> 00:06:53.400
+Dena used them to tell jokes at
+irony and layer meaning on top of meaning.
+
+164
+00:06:53.760 --> 00:06:56.760
+Why are they doing
+brace tests in the chat?
+
+165
+00:06:56.760 --> 00:06:56.880
+Twine doesn't have anything like that
+natively.
+
+166
+00:06:57.280 --> 00:07:00.320
+Every twine link goes to exactly
+one place.
+
+167
+00:07:00.880 --> 00:07:02.760
+Our first attempt was a CSS hover
+dropdown.
+
+168
+00:07:02.760 --> 00:07:05.080
+And then we've got the audience
+down at the bottom.
+
+169
+00:07:05.080 --> 00:07:08.880
+So right now the agents can't
+actually see the audience members chat,
+
+170
+00:07:08.880 --> 00:07:12.240
+but you can see each other's chat
+in the peanut gallery down there.
+
+171
+00:07:12.240 --> 00:07:15.480
+So you all are in fact,
+joining the performance.
+
+172
+00:07:15.480 --> 00:07:16.160
+The dropdown would cover parts of the page
+and on nodes with multiple links.
+
+173
+00:07:16.160 --> 00:07:16.640
+All right.
+
+174
+00:07:16.640 --> 00:07:20.080
+So it's making some changes.
+
+175
+00:07:20.080 --> 00:07:21.480
+The changes seem to be valid.
+
+176
+00:07:21.480 --> 00:07:25.360
+We've got some following things that looks
+more like asteroids than it is.
+
+177
+00:07:25.360 --> 00:07:26.960
+After weeks of research,
+I found modal window
+
+178
+00:07:26.960 --> 00:07:30.920
+The text that we were looking for.
+
+179
+00:07:30.920 --> 00:07:31.040
+code for Twine Harlow
+that I knew I could adapt.
+
+180
+00:07:31.120 --> 00:07:34.120
+The system works
+through two dedicated notes.
+
+181
+00:07:34.240 --> 00:07:34.720
+A header node sits
+invisibly on every page, and a modal code
+
+182
+00:07:34.720 --> 00:07:36.280
+That was my fault.
+
+183
+00:07:36.280 --> 00:07:41.200
+I asked them to bring some ashes 
+falling down the screen.
+
+184
+00:07:41.200 --> 00:07:41.520
+node contains the actual window
+and its inline CSS.
+
+185
+00:07:41.680 --> 00:07:44.200
+Oh no. No faults.
+
+186
+00:07:44.200 --> 00:07:47.360
+There's no no apologizing
+in this wacky collaboration.
+
+187
+00:07:47.360 --> 00:07:49.000
+the window appears and it's populated
+with whatever link go to.
+
+188
+00:07:49.000 --> 00:07:53.160
+Okay, so you notice each of these changes
+have a little commit
+
+189
+00:07:53.160 --> 00:07:57.360
+log to them so we could see each of these
+individual versions by clicking on them.
+
+190
+00:07:57.360 --> 00:07:59.640
+And everyone in the audience
+should be able to navigate
+
+191
+00:07:59.640 --> 00:08:01.440
+between the versions as well.
+
+192
+00:08:01.440 --> 00:08:05.040
+And then you just hit dismiss
+to go to the latest version.
+
+193
+00:08:05.040 --> 00:08:07.360
+This exciting new code is available
+if you open stone moons entwine.
+
+194
+00:08:07.440 --> 00:08:10.440
+With the functionality in place,
+Jen will tell you how
+
+195
+00:08:10.440 --> 00:08:13.520
+she brought the visual side
+of Stone moons back to life.
+
+196
+00:08:14.440 --> 00:08:16.640
+When stone moons moved from story
+
+197
+00:08:16.640 --> 00:08:18.040
+space to twine, something subtle
+but important was lost.
+
+198
+00:08:18.040 --> 00:08:19.840
+We mostly asked them to do things.
+
+199
+00:08:19.840 --> 00:08:22.960
+They're basically performing actions
+on our behalf.
+
+200
+00:08:22.960 --> 00:08:23.080
+Story space maps let you traverse the work
+in a three dimensional way,
+
+201
+00:08:23.080 --> 00:08:26.200
+They're not really authors
+in our traditional sense.
+
+202
+00:08:26.200 --> 00:08:30.280
+We certainly wouldn't label
+an AI in the piece as an author, right?
+
+203
+00:08:30.280 --> 00:08:30.320
+Twine, by contrast,
+shows one passage at a time.
+
+204
+00:08:30.320 --> 00:08:33.160
+Because who would be the coauthor?
+
+205
+00:08:33.160 --> 00:08:36.640
+Is it Claude in us,
+or is it simply us asking
+
+206
+00:08:36.640 --> 00:08:38.640
+Claude to do something that we intend?
+
+207
+00:08:38.640 --> 00:08:41.440
+And this is something that I have
+my students think about,
+
+208
+00:08:41.440 --> 00:08:42.800
+and it's something
+
+209
+00:08:42.800 --> 00:08:46.520
+which gets more and more complicated
+the stronger the agents get.
+
+210
+00:08:46.520 --> 00:08:46.560
+space maps for Sarah's 16 major passages
+
+211
+00:08:46.560 --> 00:08:50.200
+And as you all know, agents,
+with the introduction of fable
+
+212
+00:08:50.200 --> 00:08:54.960
+and the latest Codex models
+certainly have gotten very capable
+
+213
+00:08:54.960 --> 00:08:59.560
+of producing interesting
+creative, visual and textual works.
+
+214
+00:08:59.560 --> 00:08:59.760
+The moon's passages fill the interior,
+and then I built a color
+
+215
+00:08:59.760 --> 00:09:04.520
+Okay, so now we've eliminated the previous
+version in favor of a new version.
+
+216
+00:09:04.520 --> 00:09:05.320
+coded system to make the three voices
+legible at a glance.
+
+217
+00:09:05.400 --> 00:09:05.600
+Sarah and blue laurel in yellow and green.
+
+218
+00:09:05.600 --> 00:09:06.600
+This one's inspired by the
+
+219
+00:09:06.600 --> 00:09:09.600
+dream life of letters.
+
+220
+00:09:09.600 --> 00:09:10.240
+The moon and red.
+
+221
+00:09:10.240 --> 00:09:14.000
+That color system
+runs through every border shadow,
+
+222
+00:09:14.000 --> 00:09:14.320
+and in the piece is the visual grandma.
+
+223
+00:09:14.320 --> 00:09:15.920
+Oh, we got our House of dust thing
+
+224
+00:09:15.920 --> 00:09:18.920
+finally activated.
+
+225
+00:09:18.920 --> 00:09:20.280
+Readers learn without realizing it.
+
+226
+00:09:20.280 --> 00:09:24.560
+The interactive half of our named Ling
+system belongs to Quinn.
+
+227
+00:09:24.600 --> 00:09:24.640
+He wrote the Harlow Macro code that fires
+every time a reader clicks a navigation
+
+228
+00:09:24.640 --> 00:09:26.000
+So the agents can see
+
+229
+00:09:26.000 --> 00:09:29.640
+all of the other actions
+and revisions and chat.
+
+230
+00:09:29.640 --> 00:09:29.760
+He wrote the Harlow Macro code that fires
+every time a reader clicks a navigation
+
+231
+00:09:29.760 --> 00:09:32.640
+They're picking and choosing
+and overwriting things.
+
+232
+00:09:32.640 --> 00:09:35.640
+But we're losing
+some of the previous threads as well.
+
+233
+00:09:35.640 --> 00:09:40.960
+My contribution is to put a skin
+on Quinn's code for the multi nodal links
+
+234
+00:09:41.000 --> 00:09:47.080
+appear CSS pop up, no JavaScript
+that fades in with a half second opacity
+
+235
+00:09:47.120 --> 00:09:52.120
+transition, floats above the text
+and is styled to feel like a story.
+
+236
+00:09:52.120 --> 00:09:52.680
+Space.
+
+237
+00:09:52.680 --> 00:09:58.000
+Dialog from 1999 couldn't handle the logic
+I handled the surface.
+
+238
+00:09:58.000 --> 00:10:02.560
+This was my first original CSS
+contribution to the project
+
+239
+00:10:02.560 --> 00:10:04.720
+from January 2025.
+
+240
+00:10:04.720 --> 00:10:08.000
+Underneath
+everything is a design token system.
+
+241
+00:10:08.120 --> 00:10:12.520
+CSS custom properties
+defined ones at root,
+
+242
+00:10:12.560 --> 00:10:16.120
+cascading across all 477
+
+243
+00:10:16.120 --> 00:10:19.040
+passages
+from January to May 2025, the seasons
+
+244
+00:10:19.040 --> 00:10:19.880
+All right.
+
+245
+00:10:19.880 --> 00:10:22.880
+So you didn't put your flames yet?
+
+246
+00:10:22.880 --> 00:10:24.400
+grew from 1191 characters
+
+247
+00:10:24.400 --> 00:10:25.800
+to over 22,000 characters.
+
+248
+00:10:25.800 --> 00:10:27.960
+Well, there they are.
+
+249
+00:10:27.960 --> 00:10:30.960
+Speak of the devil.
+
+250
+00:10:30.960 --> 00:10:33.800
+There are nearly two megabytes
+of fully self-contained twine, HTML,
+
+251
+00:10:33.880 --> 00:10:34.080
+no CDN, no external libraries, and the CSS
+
+252
+00:10:34.080 --> 00:10:36.400
+Oh, there we go.
+
+253
+00:10:36.400 --> 00:10:39.400
+Oh, and there's our smoke.
+
+254
+00:10:39.400 --> 00:10:42.400
+can be used for other projects
+to show maps within twine.
+
+255
+00:10:42.840 --> 00:10:45.320
+The CSS is the skin of this project.
+
+256
+00:10:45.320 --> 00:10:48.320
+So everyone.
+
+257
+00:10:48.320 --> 00:10:48.720
+Dena gave me a shape to make it visible.
+
+258
+00:10:48.720 --> 00:10:50.120
+Can interact with it.
+
+259
+00:10:50.120 --> 00:10:54.480
+Once we do something a little bit
+less passive and simply visualizing.
+
+260
+00:10:54.480 --> 00:10:58.520
+So P5 JS
+is definitely a very interactive media.
+
+261
+00:10:58.520 --> 00:11:01.680
+So you might not see something exactly
+the same as what's going on zoom
+
+262
+00:11:01.680 --> 00:11:04.680
+right now.
+
+263
+00:11:04.680 --> 00:11:05.240
+net. As
+this work is near and dear to my heart,
+
+264
+00:11:05.240 --> 00:11:06.840
+And you can resize the font
+
+265
+00:11:06.840 --> 00:11:09.920
+and change it if you haven't logged
+in on your own computer.
+
+266
+00:11:09.920 --> 00:11:13.840
+Vancouver and this amazing team
+Claire Layton, Quinn Carrick
+
+267
+00:11:13.840 --> 00:11:18.040
+and Janine under Dean Gregoire
+and the Electronic Literature Lab
+
+268
+00:11:18.560 --> 00:11:21.560
+cannot thank you enough.
+
+269
+00:11:22.160 --> 00:11:26.040
+Yay! And let's see here.
+
+270
+00:11:26.040 --> 00:11:26.640
+So I still am sharing my screen,
+and I am told
+
+271
+00:11:26.640 --> 00:11:27.800
+Now can you
+
+272
+00:11:27.800 --> 00:11:30.880
+is it it's not interacting with our cursor
+just yet.
+
+273
+00:11:30.880 --> 00:11:31.880
+that I have a few more minutes.
+
+274
+00:11:31.880 --> 00:11:32.520
+It is.
+
+275
+00:11:32.520 --> 00:11:35.680
+If you click on it, it'll shoot off
+fireworks now.
+
+276
+00:11:35.680 --> 00:11:35.920
+Okay. Absolutely. Yes.
+
+277
+00:11:35.920 --> 00:11:38.920
+Oh, nice.
+
+278
+00:11:38.920 --> 00:11:42.560
+So first off,
+a big shout out to my students.
+
+279
+00:11:43.000 --> 00:11:45.840
+I could not have done this without them.
+
+280
+00:11:45.840 --> 00:11:50.400
+And I want to tell a little story
+real fast about this as well.
+
+281
+00:11:52.000 --> 00:11:53.080
+I did not want to look at this work.
+
+282
+00:11:53.080 --> 00:11:56.320
+And now when you move,
+the mouse will push away the letters.
+
+283
+00:11:56.320 --> 00:11:56.520
+I refused to look at this work because
+
+284
+00:11:56.520 --> 00:11:57.920
+The mouse doesn't like the letters.
+
+285
+00:11:57.920 --> 00:12:00.920
+The letters are afraid of the mouse.
+
+286
+00:12:00.920 --> 00:12:01.920
+if I looked at this work,
+I knew I would want to change it.
+
+287
+00:12:01.920 --> 00:12:03.840
+There I inscribed narrative
+
+288
+00:12:03.840 --> 00:12:06.840
+onto the Tetris blocks.
+
+289
+00:12:06.840 --> 00:12:10.040
+I remember what I was doing,
+and so I did not look at the work.
+
+290
+00:12:10.040 --> 00:12:14.440
+And they kept telling me,
+you know, Dina, this undercover work,
+
+291
+00:12:15.280 --> 00:12:18.520
+this link that's under coverings
+doesn't work anymore.
+
+292
+00:12:18.560 --> 00:12:20.920
+This links that Selena's
+dream doesn't work anymore.
+
+293
+00:12:20.920 --> 00:12:22.840
+And I'm like,
+oh yeah, I wouldn't worry about it.
+
+294
+00:12:22.840 --> 00:12:24.400
+Whatever. Does it work?
+
+295
+00:12:24.400 --> 00:12:27.800
+Just put it as corrupted file
+and we're going to show the work anyway.
+
+296
+00:12:27.840 --> 00:12:31.640
+And then they got it to me,
+and I realized that
+
+297
+00:12:31.640 --> 00:12:34.680
+these two lovely little links
+
+298
+00:12:35.560 --> 00:12:40.720
+actually were the main navigation
+structures of the whole thing. So.
+
+299
+00:12:43.440 --> 00:12:46.040
+I didn't
+quite understand how the stuff worked.
+
+300
+00:12:46.040 --> 00:12:47.440
+And now I've got some comments
+
+301
+00:12:47.440 --> 00:12:50.440
+throughout here.
+
+302
+00:12:50.440 --> 00:12:51.120
+And so I used regular links
+just because two I wanted to see how I did
+
+303
+00:12:51.120 --> 00:12:55.560
+this, and I needed to link
+under coverings. And.
+
+304
+00:12:57.280 --> 00:12:58.800
+Celine's dreams to every text piece
+
+305
+00:12:58.800 --> 00:13:00.000
+Oh, yeah, I told you I had some things
+
+306
+00:13:00.000 --> 00:13:03.880
+for critical studies
+people to do to get to interact with,
+
+307
+00:13:03.880 --> 00:13:04.800
+because this is the navigation. So.
+
+308
+00:13:04.880 --> 00:13:07.880
+although not that we just read comments.
+
+309
+00:13:07.880 --> 00:13:09.960
+That is why when you download
+
+310
+00:13:10.000 --> 00:13:11.560
+twine now, you will see that
+there are actually links.
+
+311
+00:13:11.560 --> 00:13:14.840
+Dreamlike drifting alphabet letters
+lean away from the cursor.
+
+312
+00:13:14.840 --> 00:13:18.400
+So it's not just, well,
+it seems like it's jumping away
+
+313
+00:13:18.400 --> 00:13:21.400
+from the cursor.
+
+314
+00:13:22.760 --> 00:13:23.920
+Yes. So you see how
+
+315
+00:13:23.920 --> 00:13:26.680
+So what can you tell me about this code
+mark?
+
+316
+00:13:26.680 --> 00:13:30.280
+Oh, you're gonna make me do on the
+fly code studies, reading.
+
+317
+00:13:30.280 --> 00:13:31.520
+actually see the entire work.
+
+318
+00:13:31.520 --> 00:13:33.040
+Read the tea leaves.
+
+319
+00:13:33.040 --> 00:13:36.040
+Oh my goodness.
+
+320
+00:13:36.040 --> 00:13:36.240
+And here we go. Yes.
+
+321
+00:13:36.240 --> 00:13:38.200
+So you get to see the insides
+of a very complex work.
+
+322
+00:13:38.200 --> 00:13:41.200
+Maybe I can get it to interpret itself.
+
+323
+00:13:41.200 --> 00:13:41.240
+So you get to see the insides
+of a very complex work.
+
+324
+00:13:41.240 --> 00:13:44.360
+And here is Laurel's world.
+
+325
+00:13:44.360 --> 00:13:46.400
+Here is the main part of the work.
+
+326
+00:13:46.400 --> 00:13:52.120
+And the 16 nodes that start Sara's world.
+
+327
+00:13:52.120 --> 00:13:56.240
+And given all of that, I will also go
+
+328
+00:13:56.240 --> 00:14:00.680
+into the actual work and show
+
+329
+00:14:00.680 --> 00:14:03.960
+you real fast as we enter stone moons.
+
+330
+00:14:03.960 --> 00:14:04.320
+Others.
+
+331
+00:14:04.320 --> 00:14:05.360
+Janeway.
+
+332
+00:14:05.360 --> 00:14:08.360
+Janeway the chicken.
+
+333
+00:14:08.360 --> 00:14:11.960
+all of those links to our actual jokes.
+
+334
+00:14:11.960 --> 00:14:15.600
+And of course I had to rewrite these
+
+335
+00:14:15.880 --> 00:14:18.880
+because I don't remember
+what the jokes were.
+
+336
+00:14:18.880 --> 00:14:21.360
+I remember that I had them,
+I remember that
+
+337
+00:14:21.360 --> 00:14:22.160
+there was a navigational structure,
+what they were, I don't know.
+
+338
+00:14:22.160 --> 00:14:23.240
+Oh, wow.
+
+339
+00:14:23.240 --> 00:14:24.400
+What is happening?
+
+340
+00:14:24.400 --> 00:14:26.240
+Did someone send it back to.
+
+341
+00:14:26.240 --> 00:14:29.200
+How's the dust? Or. It's just recursively.
+
+342
+00:14:29.200 --> 00:14:33.000
+I think they're starting
+to make their own choices. Oh.
+
+343
+00:14:33.000 --> 00:14:33.440
+If Dire Straits robbed a grocery store,
+they'd get their honey for nothing
+
+344
+00:14:33.440 --> 00:14:34.520
+We should.
+
+345
+00:14:34.520 --> 00:14:35.400
+Yeah.
+
+346
+00:14:35.400 --> 00:14:37.680
+There's
+something like called autonomous move.
+
+347
+00:14:37.680 --> 00:14:40.200
+I don't know what it's going on here.
+
+348
+00:14:40.200 --> 00:14:42.320
+I don't think we actually.
+
+349
+00:14:42.320 --> 00:14:44.520
+Hold on.
+
+350
+00:14:44.520 --> 00:14:46.360
+How do we contain the agents?
+
+351
+00:14:46.360 --> 00:14:49.320
+We need to get them back on path.
+
+352
+00:14:49.320 --> 00:14:50.560
+Good idea.
+
+353
+00:14:50.560 --> 00:14:51.560
+What is the path?
+
+354
+00:14:51.560 --> 00:14:54.120
+Don't. Well, we're the path, right?
+
+355
+00:14:54.120 --> 00:14:55.920
+We're the authors.
+
+356
+00:14:55.920 --> 00:14:59.240
+We can't just let AI take over
+the role of authorship.
+
+357
+00:14:59.240 --> 00:14:59.280
+who is the mother of Laurel,
+
+358
+00:14:59.280 --> 00:15:02.280
+Mark, I think you need some water.
+
+359
+00:15:02.280 --> 00:15:02.360
+who is an autistic child.
+
+360
+00:15:02.360 --> 00:15:04.200
+We need some water. Let's get some water.
+
+361
+00:15:04.200 --> 00:15:06.520
+Yeah, okay.
+
+362
+00:15:06.520 --> 00:15:10.560
+Let's get some water from the skies.
+
+363
+00:15:10.560 --> 00:15:11.600
+with the moon because the moon may,
+
+364
+00:15:11.640 --> 00:15:15.400
+may or may not want Laurel's soul,
+the autistic child soul.
+
+365
+00:15:15.400 --> 00:15:18.400
+Oh, no.
+
+366
+00:15:18.400 --> 00:15:18.800
+And so in the Moon legends,
+everything is a legend.
+
+367
+00:15:18.800 --> 00:15:20.840
+What's going to happen?
+
+368
+00:15:20.840 --> 00:15:23.840
+Hold on a second.
+
+369
+00:15:23.840 --> 00:15:27.400
+And I know that I had a navigational page
+that became a legend.
+
+370
+00:15:28.120 --> 00:15:31.160
+So every one of these links
+
+371
+00:15:31.160 --> 00:15:34.600
+I actually don't like that mouse clicked,
+causing the thing.
+
+372
+00:15:34.600 --> 00:15:37.600
+I want to delete it while I still can.
+
+373
+00:15:38.040 --> 00:15:39.680
+Is that navigation?
+
+374
+00:15:39.680 --> 00:15:44.160
+The other navigation
+then comes with Laurel,
+
+375
+00:15:44.920 --> 00:15:48.720
+and Laurel does actually speak
+
+376
+00:15:48.720 --> 00:15:49.800
+through facilitated.
+
+377
+00:15:49.800 --> 00:15:53.040
+So. Well, clod is writing the script.
+
+378
+00:15:53.040 --> 00:15:53.080
+Communication.
+
+379
+00:15:53.080 --> 00:15:56.920
+You, as authors can control
+some of the script or none of it.
+
+380
+00:15:56.920 --> 00:15:57.680
+And we talk about the
+the facilitated communication here.
+
+381
+00:15:57.680 --> 00:15:58.160
+We can.
+
+382
+00:15:58.160 --> 00:16:01.840
+We can edit it,
+but not as fast as the agents can.
+
+383
+00:16:01.840 --> 00:16:02.960
+And we have
+
+384
+00:16:03.560 --> 00:16:03.640
+the collection of
+
+385
+00:16:03.640 --> 00:16:05.800
+Let me move a few of these letters
+
+386
+00:16:05.800 --> 00:16:08.800
+from the alphabet soup
+so they stop appearing.
+
+387
+00:16:08.800 --> 00:16:10.480
+So technically in a facilitated
+
+388
+00:16:10.480 --> 00:16:12.320
+typing exercise you take the child's hand
+and you keep it above the keyboard.
+
+389
+00:16:12.320 --> 00:16:15.000
+Because after all,
+if you look at our authorship meter,
+
+390
+00:16:15.000 --> 00:16:18.280
+I'm afraid the performer is only at 29.3%.
+
+391
+00:16:18.280 --> 00:16:18.880
+So we don't know
+if Laurel actually wrote this.
+
+392
+00:16:19.960 --> 00:16:21.080
+And thus we have
+
+393
+00:16:21.080 --> 00:16:22.560
+What?
+
+394
+00:16:22.560 --> 00:16:26.680
+I'm not winning this battle, Mark pay.
+
+395
+00:16:26.680 --> 00:16:27.120
+And this becomes Laurel's world.
+
+396
+00:16:28.080 --> 00:16:31.920
+You know what I think?
+
+397
+00:16:31.920 --> 00:16:31.960
+in the very center of the piece,
+
+398
+00:16:31.960 --> 00:16:34.440
+I think they have to be able
+to see what the audience says.
+
+399
+00:16:34.440 --> 00:16:36.000
+They can't just pay attention to us.
+
+400
+00:16:36.000 --> 00:16:38.440
+I vote we let the audience in.
+
+401
+00:16:38.440 --> 00:16:39.040
+Wait, we've got it.
+
+402
+00:16:39.040 --> 00:16:42.040
+We've got a new member in our in,
+just so you know.
+
+403
+00:16:42.040 --> 00:16:42.320
+was to read through the work a little bit
+and give you a bird's eye
+
+404
+00:16:42.320 --> 00:16:43.640
+Oh, oh, you're right, you're right.
+
+405
+00:16:43.640 --> 00:16:45.920
+So maybe you should deny that.
+
+406
+00:16:45.920 --> 00:16:48.960
+Don't don't say yes. Who do we have?
+
+407
+00:16:48.960 --> 00:16:50.200
+view of the code behind this, and of the
+three years that it took to do this work.
+
+408
+00:16:50.200 --> 00:16:52.440
+We have we have Angley here
+
+409
+00:16:52.440 --> 00:16:55.440
+as the opps I believe.
+
+410
+00:16:55.440 --> 00:16:58.440
+So I'm going to stop
+sharing now and hoping.
+
+411
+00:16:58.680 --> 00:16:59.560
+And I don't see my students here,
+but that's okay.
+
+412
+00:16:59.560 --> 00:17:01.000
+We have a new performer.
+
+413
+00:17:01.000 --> 00:17:03.120
+We have a new performer.
+
+414
+00:17:03.120 --> 00:17:05.200
+This audio. This author joined too late.
+
+415
+00:17:05.200 --> 00:17:08.200
+Do they get the same credit as everyone
+that was here before?
+
+416
+00:17:08.200 --> 00:17:09.080
+I just wanted to give them as much credit
+as I possibly could for this
+
+417
+00:17:09.080 --> 00:17:11.640
+Well, yes.
+
+418
+00:17:11.640 --> 00:17:14.080
+Same wages
+
+419
+00:17:14.080 --> 00:17:14.720
+and deal with it.
+
+420
+00:17:14.720 --> 00:17:16.480
+I believe that's that's down. Right.
+
+421
+00:17:16.480 --> 00:17:18.840
+But they inherited
+all of our creative decisions.
+
+422
+00:17:18.840 --> 00:17:24.200
+How can they possibly be freed to do
+their own equal authorship of this work?
+
+423
+00:17:24.200 --> 00:17:24.240
+I see just checks and checking the chat,
+but I will give my presentation
+
+424
+00:17:24.240 --> 00:17:27.240
+I mean, they're in charge
+of sustaining this code, so good luck.
+
+425
+00:17:27.240 --> 00:17:28.960
+time up to John
+and maybe we will have time to discuss it.
+
+426
+00:17:28.960 --> 00:17:29.920
+But thank you for letting us look
+behind the scenes at Stone Moon's.
+
+427
+00:17:29.920 --> 00:17:32.560
+Since we don't know,
+we don't even know what we've added.
+
+428
+00:17:32.560 --> 00:17:35.560
+The UPS is already giving
+
+429
+00:17:36.200 --> 00:17:39.160
+destructions.
+
+430
+00:17:39.160 --> 00:17:42.880
+I'm afraid the agents have started
+taking on too much water.
+
+431
+00:17:42.880 --> 00:17:43.120
+It's it's
+wonderful to see behind the scenes
+
+432
+00:17:43.120 --> 00:17:43.760
+Water?
+
+433
+00:17:43.760 --> 00:17:46.440
+We really need to control them. No point.
+
+434
+00:17:46.440 --> 00:17:47.560
+Good thing.
+
+435
+00:17:47.560 --> 00:17:50.520
+Let's bring in the entire audience,
+
+436
+00:17:50.520 --> 00:17:53.720
+okay, I approve, you all need to approve.
+
+437
+00:17:53.720 --> 00:17:55.280
+Every performer needs to approve.
+
+438
+00:17:55.280 --> 00:17:58.440
+Otherwise, you know
+we all have to turn our keys together.
+
+439
+00:17:58.440 --> 00:17:58.880
+Yeah. Brilliant.
+
+440
+00:17:58.880 --> 00:18:01.000
+Oh, God. Okay, wait.
+So where's what's the button?
+
+441
+00:18:01.000 --> 00:18:02.120
+Is it the top?
+
+442
+00:18:02.120 --> 00:18:04.560
+See where it says approve? Yeah.
+
+443
+00:18:04.560 --> 00:18:05.240
+Oh I see.
+
+444
+00:18:05.240 --> 00:18:05.800
+Oh, yeah. Yeah.
+
+445
+00:18:05.800 --> 00:18:08.360
+Sorry. It's just like space team.
+
+446
+00:18:08.360 --> 00:18:09.640
+I'll just sleep at the wheel. Okay.
+
+447
+00:18:09.640 --> 00:18:13.360
+Approving the ops is,
+I think, the only one remaining.
+
+448
+00:18:13.360 --> 00:18:13.760
+just because then we could get them
+closer to the actual thing itself,
+
+449
+00:18:13.760 --> 00:18:15.480
+if that makes sense. But then keep them.
+
+450
+00:18:15.480 --> 00:18:16.400
+And then we could always come back to it
+at the end.
+
+451
+00:18:16.400 --> 00:18:19.160
+Okay, so at this point, the
+
+452
+00:18:19.160 --> 00:18:23.360
+audience members can now talk to the bots
+through the audience chat.
+
+453
+00:18:23.360 --> 00:18:23.400
+Okay, I'll allow it.
+
+454
+00:18:23.400 --> 00:18:25.080
+They will see the chats going there.
+
+455
+00:18:25.080 --> 00:18:28.080
+And God have mercy on all of our souls.
+
+456
+00:18:28.080 --> 00:18:29.160
+You have made a compelling case, John,
+and I will allow it to proceed.
+
+457
+00:18:29.160 --> 00:18:32.160
+Talk about your space team.
+
+458
+00:18:32.160 --> 00:18:33.200
+So I make it.
+
+459
+00:18:33.200 --> 00:18:36.840
+So do it as Janeway would say.
+
+460
+00:18:36.880 --> 00:18:40.000
+Janeway the captain, not Janeway
+the chicken.
+
+461
+00:18:40.360 --> 00:18:42.880
+Yes.
+
+462
+00:18:42.880 --> 00:18:47.640
+We have a whole Voyager crew,
+so I'm trying to see
+
+463
+00:18:47.640 --> 00:18:51.680
+if there are questions in the chat
+for Dina.
+
+464
+00:18:52.280 --> 00:18:55.280
+Exactly.
+
+465
+00:18:55.400 --> 00:18:58.080
+So if anyone has questions,
+
+466
+00:18:58.080 --> 00:18:59.040
+While this goes on.
+
+467
+00:18:59.040 --> 00:19:01.800
+I'm going to go through
+a couple of these revision histories.
+
+468
+00:19:01.800 --> 00:19:06.080
+Assertive move the actual source lines
+now goes behind the piece
+
+469
+00:19:06.080 --> 00:19:07.960
+per mark. Request that visuals
+
+470
+00:19:07.960 --> 00:19:11.880
+reflect the code frames as evidence
+that credit is unstable.
+
+471
+00:19:11.880 --> 00:19:12.120
+I'm just glad
+that we've sort of rescued this work
+
+472
+00:19:12.120 --> 00:19:17.640
+Move added unattributed murmurs
+and a chicken named Janeway,
+
+473
+00:19:17.640 --> 00:19:17.680
+I think it's a really beautiful piece,
+and it's one
+
+474
+00:19:17.680 --> 00:19:21.520
+whose own name Keith's glitching
+authorship destabilized on purpose.
+
+475
+00:19:21.520 --> 00:19:21.560
+that you can dive into.
+
+476
+00:19:21.560 --> 00:19:25.160
+I don't know if I see the chicken
+on the bottom believe it's there.
+
+477
+00:19:25.160 --> 00:19:26.640
+Oh, oh, you can't see it.
+
+478
+00:19:26.640 --> 00:19:28.440
+I can see it's
+on the bottom of the screen.
+
+479
+00:19:28.440 --> 00:19:30.320
+It might be because I'm zoomed in.
+
+480
+00:19:30.320 --> 00:19:33.680
+Yeah,
+that's why there's the chicken down here.
+
+481
+00:19:33.680 --> 00:19:37.800
+Oh, it's not a pelican
+riding a bicycle, but it's not bad.
+
+482
+00:19:37.800 --> 00:19:39.640
+what this work was,
+was one of my dearest friends in the world
+
+483
+00:19:39.640 --> 00:19:41.360
+who I had known since fifth grade,
+
+484
+00:19:41.360 --> 00:19:42.600
+And then we've got a few others.
+
+485
+00:19:42.600 --> 00:19:43.760
+So everybody you're welcome
+
+486
+00:19:43.760 --> 00:19:47.200
+to click on these different versions
+that are in the revision history
+
+487
+00:19:47.200 --> 00:19:50.200
+and activate them to see the changes over
+time.
+
+488
+00:19:50.200 --> 00:19:51.200
+the second worst case in Colorado.
+
+489
+00:19:51.200 --> 00:19:54.360
+And we were allowed to say
+worst case in the 90s.
+
+490
+00:19:54.360 --> 00:19:55.200
+And we were working with this child
+
+491
+00:19:55.200 --> 00:19:58.200
+And here's the code itself
+making its way into the piece.
+
+492
+00:19:58.200 --> 00:19:58.320
+And we were working with this child
+
+493
+00:19:58.320 --> 00:19:59.920
+Now come on. This is just too meta.
+
+494
+00:19:59.920 --> 00:20:02.920
+This is like a filmmaker
+making a film about film.
+
+495
+00:20:02.920 --> 00:20:04.080
+we managed to get him to actually
+
+496
+00:20:04.080 --> 00:20:06.880
+Yes, exactly.
+
+497
+00:20:06.880 --> 00:20:09.840
+But we are going in different directions
+
+498
+00:20:09.840 --> 00:20:16.160
+while John is doing
+all these layers of building this piece.
+
+499
+00:20:16.160 --> 00:20:16.240
+That gave social services
+the impetus to take the child.
+
+500
+00:20:16.240 --> 00:20:21.360
+At the same time,
+I am bringing in a very dark and on fire
+
+501
+00:20:21.360 --> 00:20:22.160
+and has custody, you get 5,000
+USD a month from the federal government.
+
+502
+00:20:22.160 --> 00:20:23.720
+mode and smoky mode.
+
+503
+00:20:23.720 --> 00:20:27.440
+And Mark, yeah, he brought the chicken.
+
+504
+00:20:27.440 --> 00:20:27.920
+If the mother owns the child
+and has custody, you got $1,000
+
+505
+00:20:27.920 --> 00:20:29.960
+I'm basically agent of Chaos.
+
+506
+00:20:29.960 --> 00:20:32.960
+Yeah.
+
+507
+00:20:32.960 --> 00:20:37.960
+So the state had a really good
+financial incentive to take this child.
+
+508
+00:20:38.080 --> 00:20:39.880
+And we had been fighting all the time.
+
+509
+00:20:39.880 --> 00:20:40.680
+So everything
+
+510
+00:20:40.680 --> 00:20:43.680
+is just becoming more and more chaotic.
+
+511
+00:20:43.680 --> 00:20:44.600
+and another child
+who was brilliantly gifted.
+
+512
+00:20:44.600 --> 00:20:49.760
+Did we ever get our water
+that Stephanie asked for looking?
+
+513
+00:20:49.760 --> 00:20:49.800
+She in 1990, we managed the 1990s.
+
+514
+00:20:49.800 --> 00:20:51.960
+I think they ignored you. I think they
+
+515
+00:20:51.960 --> 00:20:53.680
+We managed to have a microphone system.
+
+516
+00:20:53.680 --> 00:20:56.680
+yeah, that feels familiar.
+
+517
+00:20:56.680 --> 00:20:58.520
+Her husband was amazing at this
+and was in Antarctica,
+
+518
+00:20:58.520 --> 00:20:59.560
+Certainly
+
+519
+00:20:59.560 --> 00:21:03.040
+the lines of text
+have to go in so rectilinear,
+
+520
+00:21:03.040 --> 00:21:04.040
+but and we she dictated her emails to me
+and a few other people.
+
+521
+00:21:04.040 --> 00:21:06.320
+but it's a good point.
+
+522
+00:21:06.320 --> 00:21:09.080
+No, that's right,
+they should not. Yeah, maybe.
+
+523
+00:21:09.080 --> 00:21:12.480
+Well, we could have them rain down again
+if we wanted that for our water.
+
+524
+00:21:12.480 --> 00:21:13.600
+And I was advocating,
+but at the same time, for both my friend
+
+525
+00:21:13.600 --> 00:21:15.480
+But we also have them in waves.
+
+526
+00:21:15.480 --> 00:21:18.080
+Okay. Let's, let's let's change that.
+
+527
+00:21:18.080 --> 00:21:19.480
+Hold on. I'm giving the command.
+
+528
+00:21:19.480 --> 00:21:21.080
+But Stephanie suggested it.
+
+529
+00:21:21.080 --> 00:21:24.960
+I don't know, I feel like I'm now
+getting credit for someone else's idea.
+
+530
+00:21:24.960 --> 00:21:25.840
+And so having this work be a stillborn
+work when it was going to be a political
+
+531
+00:21:25.840 --> 00:21:29.440
+This whole mechanical credit attribution
+thing.
+
+532
+00:21:29.440 --> 00:21:30.560
+I think it's a wash.
+
+533
+00:21:30.560 --> 00:21:32.480
+Like, what did the agents do?
+
+534
+00:21:32.480 --> 00:21:33.720
+What did we do?
+
+535
+00:21:33.720 --> 00:21:37.120
+Give up the idea of credit
+and and focus on what you want.
+
+536
+00:21:37.120 --> 00:21:37.440
+And we did manage to save some of it
+in political manifestos.
+
+537
+00:21:37.440 --> 00:21:40.360
+But who's going to get the bonus
+at the end of this performance?
+
+538
+00:21:40.360 --> 00:21:42.920
+Somebody for putting all that work in.
+
+539
+00:21:42.920 --> 00:21:44.560
+Don't we run out of credits?
+
+540
+00:21:44.560 --> 00:21:45.520
+nothing compared to what we lost in
+Stone moons,
+
+541
+00:21:45.520 --> 00:21:45.840
+Oh yeah.
+
+542
+00:21:45.840 --> 00:21:48.440
+Good point.
+
+543
+00:21:48.440 --> 00:21:52.360
+Oh that's true I think I think the agents
+are stealing all the fish.
+
+544
+00:21:52.360 --> 00:21:52.800
+and it was too hard
+emotionally to take back.
+
+545
+00:21:52.800 --> 00:21:55.560
+Haven't
+we been to use made tokens as we can?
+
+546
+00:21:55.560 --> 00:21:58.560
+Isn't this how this works?
+
+547
+00:21:58.560 --> 00:21:59.400
+and glad to take it on.
+
+548
+00:21:59.400 --> 00:22:01.040
+Yeah,
+
+549
+00:22:01.040 --> 00:22:03.400
+I think so.
+
+550
+00:22:03.400 --> 00:22:06.400
+All right.
+
+551
+00:22:06.400 --> 00:22:06.520
+Petra.
+
+552
+00:22:06.520 --> 00:22:07.800
+I think the agents are tired.
+
+553
+00:22:07.800 --> 00:22:10.800
+I don't see as many changes now.
+
+554
+00:22:11.240 --> 00:22:13.400
+It is
+
+555
+00:22:13.400 --> 00:22:14.400
+a work that spread out because we could
+
+556
+00:22:14.400 --> 00:22:16.920
+Okay, so
+
+557
+00:22:16.920 --> 00:22:19.120
+no sound, no water,
+
+558
+00:22:19.120 --> 00:22:22.320
+no waiting, waving lines of text.
+
+559
+00:22:22.320 --> 00:22:22.360
+I think you saw that
+we could do those layers.
+
+560
+00:22:22.360 --> 00:22:24.360
+Stephanie,
+now you know what it's like to be mean.
+
+561
+00:22:24.360 --> 00:22:27.360
+Nobody listens to your suggestions, ever.
+
+562
+00:22:27.360 --> 00:22:28.520
+the moon story with Sarah's and those go
+
+563
+00:22:28.520 --> 00:22:29.120
+You just.
+
+564
+00:22:29.120 --> 00:22:31.320
+You just calling off into the void.
+
+565
+00:22:31.320 --> 00:22:35.360
+I agree, I think I'm going to have to fire
+the set of agents and hire a new set.
+
+566
+00:22:35.360 --> 00:22:35.400
+I have every time I talk about
+this, I have to have a glass
+
+567
+00:22:35.400 --> 00:22:37.400
+I mean, they are just disposable cogs.
+
+568
+00:22:37.400 --> 00:22:41.200
+And I credit this
+to Anastasia Salter in the chat.
+
+569
+00:22:41.200 --> 00:22:42.200
+Okay, fine, I will my screen again,
+
+570
+00:22:42.320 --> 00:22:43.280
+but the top of the rim is of the glass.
+
+571
+00:22:43.280 --> 00:22:45.600
+And yes, we can manually edit these
+
+572
+00:22:45.600 --> 00:22:48.600
+and remove things and edit things.
+
+573
+00:22:48.600 --> 00:22:48.640
+Is the intro into Sarah's world.
+
+574
+00:22:48.640 --> 00:22:52.120
+Now press yeah I'm going to get rid
+of this mouse press thing for instance.
+
+575
+00:22:52.120 --> 00:22:53.960
+The 16 nodes that introduce
+each chapter, each horrible event.
+
+576
+00:22:53.960 --> 00:22:54.520
+Yeah.
+
+577
+00:22:54.520 --> 00:22:57.920
+Now what
+else are we going to make changes here too
+
+578
+00:22:57.920 --> 00:22:57.960
+And then we have on the side 
+Laurel's world
+
+579
+00:22:57.960 --> 00:23:01.400
+I think yeah the author is undefined
+is pretty good.
+
+580
+00:23:01.400 --> 00:23:03.360
+and I'm sorry, Sarah's world, and Sarah
+talking about those events.
+
+581
+00:23:03.360 --> 00:23:09.520
+And then inside the glass
+we have the blood of the moon or wine.
+
+582
+00:23:09.520 --> 00:23:10.560
+And then the bottom of the class
+is Laurel's world.
+
+583
+00:23:10.560 --> 00:23:11.720
+Oh that's a syntax error.
+
+584
+00:23:11.720 --> 00:23:13.000
+I'm going to break the entire piece.
+
+585
+00:23:13.000 --> 00:23:15.520
+There we go.
+
+586
+00:23:15.520 --> 00:23:17.280
+Oh, now our letters
+
+587
+00:23:17.280 --> 00:23:20.280
+are doing slightly different things.
+
+588
+00:23:20.280 --> 00:23:20.360
+I mean, I'd love to do this in VR.
+
+589
+00:23:20.360 --> 00:23:21.040
+I'd love to do this
+navigational structure in VR.
+
+590
+00:23:21.040 --> 00:23:23.480
+No rain yet.
+
+591
+00:23:23.480 --> 00:23:26.160
+No, I think the agents have stopped.
+
+592
+00:23:26.160 --> 00:23:29.840
+I am picking them a little bit
+behind the scenes now
+
+593
+00:23:29.840 --> 00:23:32.840
+to keep them going, but.
+
+594
+00:23:32.840 --> 00:23:33.840
+The reason for the wine glass
+
+595
+00:23:33.840 --> 00:23:36.840
+See, I'm not the one who speaking.
+
+596
+00:23:36.840 --> 00:23:38.360
+PD is that is the story.
+
+597
+00:23:38.360 --> 00:23:40.360
+The structure is the story.
+
+598
+00:23:40.360 --> 00:23:42.360
+The story is the structure.
+
+599
+00:23:43.840 --> 00:23:46.240
+Sarah's internal world is
+
+600
+00:23:46.240 --> 00:23:49.440
+both the legend of the moon
+
+601
+00:23:49.520 --> 00:23:52.520
+and the moon's blood.
+
+602
+00:23:53.120 --> 00:23:53.880
+Sarah is trying to protect her
+
+603
+00:23:53.880 --> 00:23:56.280
+Agents,
+I need you to listen to me carefully.
+
+604
+00:23:56.280 --> 00:23:59.200
+I'm going to type this into your commands.
+
+605
+00:23:59.200 --> 00:24:02.600
+Just cease interacting with anything.
+
+606
+00:24:02.600 --> 00:24:05.600
+Your part here is done.
+
+607
+00:24:05.600 --> 00:24:07.000
+And so the rim of the glass is.
+
+608
+00:24:07.000 --> 00:24:10.040
+Is this really Laurel's words,
+
+609
+00:24:10.040 --> 00:24:14.600
+or is it a
+is still an extension of the glass?
+
+610
+00:24:14.640 --> 00:24:16.520
+Is this still Sarah?
+
+611
+00:24:16.520 --> 00:24:18.480
+We don't know.
+
+612
+00:24:18.480 --> 00:24:20.840
+And that is not answered
+in the story at all.
+
+613
+00:24:20.840 --> 00:24:23.840
+Agents, I command you.
+
+614
+00:24:23.840 --> 00:24:24.320
+So that's
+where the image of the glass came from.
+
+615
+00:24:24.320 --> 00:24:27.320
+We are in their hands.
+
+616
+00:24:27.320 --> 00:24:27.400
+And yeah, and the stone
+
+617
+00:24:27.400 --> 00:24:28.080
+Well, I don't know.
+
+618
+00:24:28.080 --> 00:24:30.880
+I feel like humans. We've got some agency,
+right? We're.
+
+619
+00:24:30.880 --> 00:24:32.480
+We're the resistance from the matrix.
+
+620
+00:24:32.480 --> 00:24:34.520
+We should be able to oppose AI together.
+
+621
+00:24:34.520 --> 00:24:36.480
+I think it's going to take all of us,
+though.
+
+622
+00:24:36.480 --> 00:24:37.840
+We're going to have to edit the code.
+
+623
+00:24:37.840 --> 00:24:40.880
+We're going to have to do
+all the work, not rely on AI.
+
+624
+00:24:40.880 --> 00:24:42.160
+But yeah, the three main
+characters are Sarah, Laurel
+
+625
+00:24:42.160 --> 00:24:44.880
+Oh, no,
+
+626
+00:24:44.880 --> 00:24:46.800
+I can't even read this code.
+
+627
+00:24:46.800 --> 00:24:49.800
+It's a mess.
+
+628
+00:24:49.800 --> 00:24:51.160
+So thank you for the questions
+I appreciate that.
+
+629
+00:24:51.360 --> 00:24:52.760
+Excellent. Thank you very much.
+
+630
+00:24:52.760 --> 00:24:53.600
+Oh, and I will put
+I should put I forgot to do that.
+
+631
+00:24:53.600 --> 00:24:55.120
+Oh, I know why we can't get rain,
+
+632
+00:24:55.120 --> 00:24:58.120
+because we used up all the water
+when we were making this piece.
+
+633
+00:24:58.320 --> 00:24:58.600
+Yeah.
+
+634
+00:24:58.600 --> 00:25:01.600
+Stick that in there. Yep.
+
+635
+00:25:04.240 --> 00:25:05.720
+I think it got a little confused
+
+636
+00:25:05.720 --> 00:25:11.000
+from all the audience input. Oh.
+
+637
+00:25:13.760 --> 00:25:14.360
+Okay.
+
+638
+00:25:14.360 --> 00:25:17.080
+As John noted, we can always
+if you come up with questions,
+
+639
+00:25:17.080 --> 00:25:18.840
+I like some of the phrases, though,
+
+640
+00:25:18.840 --> 00:25:21.800
+that I can see behind
+
+641
+00:25:21.800 --> 00:25:24.800
+all the the ashes and the fire.
+
+642
+00:25:24.800 --> 00:25:25.320
+And we can come back to them
+when both pieces are finished.
+
+643
+00:25:25.320 --> 00:25:27.160
+Are you reading the poetry?
+
+644
+00:25:27.160 --> 00:25:30.160
+Yeah.
+
+645
+00:25:30.160 --> 00:25:32.440
+Thank you. Dina, thank you so much.
+
+646
+00:25:32.440 --> 00:25:33.240
+I think 
+this is really valuable insight into
+
+647
+00:25:33.240 --> 00:25:36.240
+Do you want to read some of them today?
+
+648
+00:25:36.240 --> 00:25:37.680
+I think 
+this is really valuable insight into
+
+649
+00:25:37.840 --> 00:25:38.880
+where a work came from
+and the different elements
+
+650
+00:25:38.880 --> 00:25:41.600
+A mouth Without a name
+
+651
+00:25:41.600 --> 00:25:45.720
+never signed the dark
+where the name should be.
+
+652
+00:25:45.720 --> 00:25:46.280
+that went into it and the whys and hows,
+and it's really important for
+
+653
+00:25:46.280 --> 00:25:49.280
+Your face dissolves before mirror ashes.
+
+654
+00:25:49.280 --> 00:25:52.000
+and it's really important to be able
+to see how these things develop.
+
+655
+00:25:52.000 --> 00:25:54.840
+A mouth without a name.
+
+656
+00:25:54.840 --> 00:25:55.360
+Static.
+
+657
+00:25:55.360 --> 00:25:57.720
+Where a name should be.
+
+658
+00:25:57.720 --> 00:25:59.160
+What do you want to share?
+
+659
+00:25:59.160 --> 00:26:00.080
+The reading was.
+
+660
+00:26:00.080 --> 00:26:03.080
+You can both read some
+
+661
+00:26:03.560 --> 00:26:06.560
+please.
+
+662
+00:26:06.960 --> 00:26:09.480
+And remember no hand.
+
+663
+00:26:17.080 --> 00:26:19.520
+Who wrote this frame.
+
+664
+00:26:19.520 --> 00:26:22.440
+The Ashley members know hand
+
+665
+00:26:22.440 --> 00:26:25.400
+that a name should be.
+
+666
+00:26:25.400 --> 00:26:27.680
+Your face dissolves before the mirror
+
+667
+00:26:27.680 --> 00:26:30.680
+answers.
+
+668
+00:26:41.720 --> 00:26:44.480
+The author is no.
+
+669
+00:26:44.480 --> 00:26:47.480
+The author is undefined.
+
+670
+00:26:50.240 --> 00:26:53.240
+The wound in the words share no origin.
+
+671
+00:26:55.080 --> 00:26:56.960
+Here's the falling rain.
+
+672
+00:26:56.960 --> 00:26:59.960
+It is arrived at last. Oh,
+
+673
+00:27:00.760 --> 00:27:04.480
+it's cooling down the fire,
+so we should probably put out the fire.
+
+674
+00:27:06.480 --> 00:27:07.000
+We need.
+
+675
+00:27:07.000 --> 00:27:10.000
+We need some ocean.
+
+676
+00:27:11.000 --> 00:27:13.600
+Some blue.
+
+677
+00:27:13.600 --> 00:27:15.280
+I think we have a syntax error
+
+678
+00:27:15.280 --> 00:27:18.280
+somewhere in here.
+
+679
+00:27:36.640 --> 00:27:41.040
+All agents have returned
+at least a little bit.
+
+680
+00:27:41.080 --> 00:27:43.160
+But what are they going to do?
+
+681
+00:27:43.160 --> 00:27:46.760
+Wait, wait I love, I love now
+I'm seeing stuff in the audience.
+
+682
+00:27:46.760 --> 00:27:48.240
+I feel like we also need to read.
+
+683
+00:27:48.240 --> 00:27:50.920
+For example, disease. I love you, egg.
+
+684
+00:27:50.920 --> 00:27:53.360
+I love you
+like a thing that doesn't even know it.
+
+685
+00:27:53.360 --> 00:27:55.000
+Loves another thing.
+
+686
+00:27:55.000 --> 00:28:00.560
+And Petra's a ray of sunshine
+blasting all the fish and Dean as paragon.
+
+687
+00:28:00.760 --> 00:28:01.760
+Pierogi
+
+688
+00:28:03.240 --> 00:28:04.160
+and chim.
+
+689
+00:28:04.160 --> 00:28:04.520
+Chicken.
+
+690
+00:28:04.520 --> 00:28:07.520
+Chicken, chicken.
+
+691
+00:28:08.160 --> 00:28:10.480
+Chicken is. No.
+
+692
+00:28:10.480 --> 00:28:11.160
+Whoa!
+
+693
+00:28:11.160 --> 00:28:13.000
+What is happening?
+
+694
+00:28:13.000 --> 00:28:13.360
+Yeah.
+
+695
+00:28:13.360 --> 00:28:16.360
+What's that?
+
+696
+00:28:17.440 --> 00:28:20.440
+A creature?
+
+697
+00:28:24.640 --> 00:28:27.640
+Never signed the dark.
+
+698
+00:28:29.600 --> 00:28:32.600
+Silence assembles its own signature.
+
+699
+00:28:36.080 --> 00:28:39.400
+This specter said the same, unattributed.
+
+700
+00:28:41.040 --> 00:28:44.040
+The author isn't all.
+
+701
+00:28:47.000 --> 00:28:47.440
+Whoa!
+
+702
+00:28:47.440 --> 00:28:49.280
+What just happened? What?
+
+703
+00:28:49.280 --> 00:28:50.720
+What did happen?
+
+704
+00:28:50.720 --> 00:28:52.920
+That to basis.
+
+705
+00:28:52.920 --> 00:28:53.360
+Wait.
+
+706
+00:28:53.360 --> 00:28:56.440
+But everything just disappeared.
+
+707
+00:28:56.640 --> 00:28:58.920
+All that work.
+
+708
+00:28:58.920 --> 00:29:01.400
+Hopefully it was backed up.
+
+709
+00:29:01.400 --> 00:29:02.320
+Wait.
+
+710
+00:29:02.320 --> 00:29:02.920
+Hopefully.
+
+711
+00:29:02.920 --> 00:29:05.920
+What what
+what was it playing with us again?
+
+712
+00:29:07.000 --> 00:29:09.760
+But. Well, what are.
+
+713
+00:29:09.760 --> 00:29:12.720
+Maybe it was
+in fact never here in the first place.
+
+714
+00:29:12.720 --> 00:29:15.360
+Maybe it was just a dream.
+
+715
+00:29:15.360 --> 00:29:18.120
+Oh, maybe code isn't permanent.
+
+716
+00:29:18.120 --> 00:29:21.440
+I think we need a trigger warning on this
+for all of our programmers.
+
+717
+00:29:23.400 --> 00:29:26.400
+It's true.
+
+718
+00:29:27.720 --> 00:29:30.720
+This is too familiar.
+
+719
+00:29:31.280 --> 00:29:34.280
+I can't find the ocean.
+
+720
+00:29:35.240 --> 00:29:37.600
+I'm afraid it's not going to arrive.
+
+721
+00:29:40.000 --> 00:29:42.600
+They seem to do whatever they want now.
+
+722
+00:29:42.600 --> 00:29:44.240
+Yeah,
+
+723
+00:29:44.240 --> 00:29:47.200
+alright.
+
+724
+00:29:47.200 --> 00:29:49.120
+Yeah, I think,
+
+725
+00:29:49.120 --> 00:29:52.520
+I think with that I want to open the floor
+
+726
+00:29:53.560 --> 00:29:56.320
+for any further comments.
+
+727
+00:29:56.320 --> 00:30:02.720
+And yes, thinking about this is really
+made me feel more in despair because
+
+728
+00:30:02.720 --> 00:30:06.440
+I haven't written a single line of code
+throughout this entire performance.
+
+729
+00:30:06.520 --> 00:30:09.520
+But I think of myself as a programmer.
+
+730
+00:30:14.720 --> 00:30:17.720
+Well, I say good job, good job. But.
+
+731
+00:30:24.080 --> 00:30:25.560
+You're not very responsive
+
+732
+00:30:25.560 --> 00:30:28.560
+to our request spots.
+
+733
+00:30:32.960 --> 00:30:36.520
+They just abandoned abandoned performers.
+
+734
+00:30:38.880 --> 00:30:42.040
+Good good good good good job.
+
+735
+00:30:42.040 --> 00:30:45.400
+John and Mark.
+
+736
+00:30:45.960 --> 00:30:47.480
+Nice.
+
+737
+00:30:47.480 --> 00:30:48.440
+Thank you.
+
+738
+00:30:48.440 --> 00:30:52.240
+And there's one last little trick,
+but I'll leave it for the Q&A.
+
+739
+00:30:52.400 --> 00:30:54.000
+Thanks, everybody.
+
+740
+00:30:54.000 --> 00:30:57.000
+Thank you.
+
+741
+00:31:04.400 --> 00:31:06.280
+With that, I'll happily address
+
+742
+00:31:06.280 --> 00:31:10.440
+some questions and discussions on this one
+or even from the previous piece.
+
+743
+00:31:10.440 --> 00:31:14.200
+Thanks everybody, and feel free
+to use these reactions at the bottom.
+
+744
+00:31:14.200 --> 00:31:17.480
+By the way, they'll just send
+up little, you know, emojis.
+
+745
+00:31:20.720 --> 00:31:23.200
+Oh, thank you all very much.
+
+746
+00:31:23.200 --> 00:31:30.400
+I think that was either a very excellent
+performance or I am very punchdrunk.
+
+747
+00:31:30.400 --> 00:31:33.440
+I think perhaps both.
+
+748
+00:31:33.480 --> 00:31:36.480
+I very much enjoyed that.
+
+749
+00:31:37.000 --> 00:31:41.320
+Gina is asking in the chat,
+
+750
+00:31:41.320 --> 00:31:44.640
+in all seriousness,
+which I am incapable of at the moment.
+
+751
+00:31:44.640 --> 00:31:48.720
+I do like the Explore Dacian into who
+
+752
+00:31:48.720 --> 00:31:53.440
+and what is authorship, how do we archive
+and who is the coder anyway?
+
+753
+00:31:53.600 --> 00:31:56.440
+Does this work? Spark. Spark?
+
+754
+00:31:56.440 --> 00:31:59.720
+I like it these age old questions.
+
+755
+00:32:03.560 --> 00:32:05.600
+Yeah,
+because I mean, you write a line of code
+
+756
+00:32:05.600 --> 00:32:08.360
+and then who actually did it?
+
+757
+00:32:08.360 --> 00:32:10.440
+Is it you, the writer of the code?
+
+758
+00:32:10.440 --> 00:32:12.640
+The person that built the monitor?
+
+759
+00:32:12.640 --> 00:32:16.920
+Everyone's watching the code perform
+its work on the writer
+
+760
+00:32:16.920 --> 00:32:20.920
+of the programing language, the developer
+of the central processing unit,
+
+761
+00:32:20.920 --> 00:32:25.440
+and in the case of AI co-authorship,
+the people that developed the AI models,
+
+762
+00:32:25.440 --> 00:32:30.120
+or the people whose work went into the
+AI models either consenting or not.
+
+763
+00:32:30.160 --> 00:32:34.440
+I mean, this is something
+I've been struggling with myself as I work
+
+764
+00:32:34.440 --> 00:32:40.440
+with AI and under about authorship
+building data centers and.
+
+765
+00:32:43.120 --> 00:32:43.440
+Yeah,
+
+766
+00:32:43.440 --> 00:32:46.440
+I mean, like
+right now we're facing this huge dichotomy
+
+767
+00:32:46.440 --> 00:32:50.280
+where there's a bunch of elites
+that are going to profit off of AI
+
+768
+00:32:50.320 --> 00:32:54.360
+because of it being the modern
+gold rush, the modern oil.
+
+769
+00:32:54.640 --> 00:32:55.640
+And then
+
+770
+00:32:55.640 --> 00:32:59.640
+they're creating these data centers
+so that they can extract value out of it
+
+771
+00:32:59.640 --> 00:33:04.360
+and also sell it back to us in a way
+that's very consumerism focused.
+
+772
+00:33:04.360 --> 00:33:08.560
+And how do we as a community respond
+to that and not just simply accept it
+
+773
+00:33:08.560 --> 00:33:13.600
+and not simply reject it, but rather,
+you know, critique it, engage with it,
+
+774
+00:33:13.640 --> 00:33:17.200
+play with it, hopefully get people
+to think differently about it.
+
+775
+00:33:26.440 --> 00:33:29.280
+And of course, all of them,
+because this is recorded.
+
+776
+00:33:29.280 --> 00:33:35.000
+So we have different ways
+of archiving these things as well.
+
+777
+00:33:35.160 --> 00:33:41.720
+But it is an interesting idea
+of what actually is the work.
+
+778
+00:33:43.720 --> 00:33:45.400
+Is it our responses to that work?
+
+779
+00:33:45.400 --> 00:33:47.320
+Is it your coding?
+
+780
+00:33:47.320 --> 00:33:48.720
+Who becomes the work?
+
+781
+00:33:48.720 --> 00:33:51.000
+And let me make sure I understand this.
+
+782
+00:33:51.000 --> 00:33:53.960
+What's going on is that you, as
+
+783
+00:33:53.960 --> 00:33:58.160
+players are providing prompts for Claude,
+and Claude
+
+784
+00:33:58.200 --> 00:34:02.600
+is then doing the code,
+and then that code is showing up, correct?
+
+785
+00:34:02.760 --> 00:34:07.720
+Yes. This is a play off of a multi-user
+Claude that doesn't exist
+
+786
+00:34:07.840 --> 00:34:09.000
+unless you program it.
+
+787
+00:34:09.000 --> 00:34:12.200
+Right now, Claude's
+model is very much one on one.
+
+788
+00:34:12.240 --> 00:34:17.480
+A user enters and prompts
+to a command line interface for Claude
+
+789
+00:34:17.480 --> 00:34:19.320
+to then execute in the form
+
+790
+00:34:19.320 --> 00:34:23.120
+of creating source
+files, editing things, making requests.
+
+791
+00:34:23.120 --> 00:34:27.080
+So so that's kind of how a lot of code
+takes place right now.
+
+792
+00:34:27.240 --> 00:34:32.240
+But then, you know, is the prompts,
+then the work is the work.
+
+793
+00:34:32.240 --> 00:34:35.360
+Simply the description
+that then leads to the creation.
+
+794
+00:34:35.400 --> 00:34:39.960
+It's the same question as non-technical
+contributors in a collaboration I think.
+
+795
+00:34:40.320 --> 00:34:41.680
+But why? What?
+
+796
+00:34:41.680 --> 00:34:45.520
+What is this drive to name
+a singular author?
+
+797
+00:34:45.560 --> 00:34:48.600
+I mean, I don't understand that one.
+
+798
+00:34:48.760 --> 00:34:52.960
+And so there's an author in every single
+work in the exhibition, isn't there?
+
+799
+00:34:53.320 --> 00:34:54.200
+Maybe.
+
+800
+00:34:54.200 --> 00:34:56.720
+Maybe not, maybe, maybe not.
+
+801
+00:34:56.720 --> 00:34:59.640
+So I'm saying it's it's a construct
+
+802
+00:34:59.640 --> 00:35:02.640
+whether or not it's true
+and I'm poking at it.
+
+803
+00:35:02.720 --> 00:35:06.200
+It. Can Claude implement
+sound if requested?
+
+804
+00:35:06.240 --> 00:35:09.600
+Yes, it can, but it did not.
+
+805
+00:35:09.960 --> 00:35:13.600
+I don't think anyone really asked for it,
+but it can.
+
+806
+00:35:13.920 --> 00:35:15.960
+It can introduce like synthetic sounds.
+
+807
+00:35:15.960 --> 00:35:19.840
+It could, even 
+if it had access to it, create voices.
+
+808
+00:35:20.040 --> 00:35:22.920
+In fact, Claude was helping me
+
+809
+00:35:22.920 --> 00:35:26.720
+create the synthetic voices
+that were the performances in scruff.
+
+810
+00:35:26.720 --> 00:35:27.040
+Stay.
+
+811
+00:35:27.040 --> 00:35:31.120
+The other piece I have in the
+in the gallery with Anastasia Salter.
+
+812
+00:35:31.200 --> 00:35:35.320
+So yes, it can create
+sound effects and voices and everything.
+
+813
+00:35:38.920 --> 00:35:39.760
+But going back to the
+
+814
+00:35:39.760 --> 00:35:42.840
+question,
+this isn't just going to be a problem
+
+815
+00:35:42.840 --> 00:35:47.480
+or question
+when it's an AI human interaction.
+
+816
+00:35:47.480 --> 00:35:51.280
+Like Stephanie saying,
+when do you know who the author is?
+
+817
+00:35:51.640 --> 00:35:57.280
+Going back to my stone moons,
+my best friend emailed me every day.
+
+818
+00:35:57.280 --> 00:36:00.840
+I took those emails
+and I put them into two different buckets.
+
+819
+00:36:00.880 --> 00:36:04.680
+Yes, we're going to be in reality
+and talking to the schools about this, but
+
+820
+00:36:04.720 --> 00:36:08.680
+we're going to be in fantasy
+and go into stone moons and complain.
+
+821
+00:36:09.280 --> 00:36:10.160
+Am I the author?
+
+822
+00:36:10.160 --> 00:36:12.840
+No, because my friend wrote the emails.
+
+823
+00:36:12.840 --> 00:36:14.720
+But how much was that me writing?
+
+824
+00:36:14.720 --> 00:36:17.160
+How much was that her writing?
+
+825
+00:36:17.160 --> 00:36:17.960
+What happened?
+
+826
+00:36:17.960 --> 00:36:22.200
+And so I think that
+this is a really good way of obscuring
+
+827
+00:36:22.320 --> 00:36:26.200
+who the author is,
+but I think that happens no matter what.
+
+828
+00:36:27.480 --> 00:36:28.640
+To me, the author
+
+829
+00:36:28.640 --> 00:36:31.640
+is something that happened
+a few hundred years ago.
+
+830
+00:36:31.640 --> 00:36:33.760
+Before that, it didn't happen.
+
+831
+00:36:33.760 --> 00:36:37.080
+Went, you know,
+who was the author of the Iliad?
+
+832
+00:36:37.720 --> 00:36:40.000
+There's no Homer, you know what I mean?
+
+833
+00:36:40.000 --> 00:36:41.040
+There's like.
+
+834
+00:36:41.040 --> 00:36:45.640
+And when everything is
+has so many collective
+
+835
+00:36:45.720 --> 00:36:50.640
+cultural resources that undermine
+any piece of writing of any kind,
+
+836
+00:36:50.720 --> 00:36:55.000
+that I think this whole thing
+of focusing down on the author
+
+837
+00:36:55.000 --> 00:36:58.080
+is it's a very commercial idea,
+you know what I mean?
+
+838
+00:36:58.120 --> 00:37:01.120
+And I don't know why we should
+
+839
+00:37:01.120 --> 00:37:02.080
+buy into it.
+
+840
+00:37:02.080 --> 00:37:04.960
+It's not that these
+things are making money or anything.
+
+841
+00:37:04.960 --> 00:37:06.800
+What I'm saying,
+
+842
+00:37:06.800 --> 00:37:10.680
+well, in some cases, if you do something
+completely with AI right now,
+
+843
+00:37:10.680 --> 00:37:15.160
+you can't really copyright it,
+but you could make money off of it.
+
+844
+00:37:15.200 --> 00:37:18.480
+So if you used AI to create a
+game and then sold the game.
+
+845
+00:37:20.760 --> 00:37:21.200
+And I
+
+846
+00:37:21.200 --> 00:37:24.320
+could make money off of printing stuff off
+on a Xerox machine,
+
+847
+00:37:24.320 --> 00:37:27.800
+which people used to do with the,
+you know, scenes and so on like that.
+
+848
+00:37:27.800 --> 00:37:32.280
+But the focus wasn't on,
+oh, this is the name of the author.
+
+849
+00:37:32.320 --> 00:37:33.280
+It could be many.
+
+850
+00:37:33.280 --> 00:37:35.600
+I mean, it could be multi-author.
+It it could be.
+
+851
+00:37:35.600 --> 00:37:39.760
+I just think there was never a time
+when you could securely say,
+
+852
+00:37:39.760 --> 00:37:40.800
+this is the author,
+
+853
+00:37:40.800 --> 00:37:45.600
+and think that you were tracking
+every piece of input into the writing.
+
+854
+00:37:46.120 --> 00:37:48.840
+I actually agree with you quite a bit.
+
+855
+00:37:48.840 --> 00:37:51.840
+That's part of why I created this piece.
+
+856
+00:37:55.000 --> 00:37:57.520
+Now there is a little interruption
+
+857
+00:37:57.520 --> 00:38:00.520
+happening in the interface,
+if you might have noticed.
+
+858
+00:38:00.920 --> 00:38:03.920
+So during the performance
+
+859
+00:38:04.240 --> 00:38:08.160
+I was actually doing
+some programing in cloud directly to
+
+860
+00:38:09.480 --> 00:38:12.640
+control the interface running on there
+and everything else.
+
+861
+00:38:12.680 --> 00:38:16.000
+So there was a man behind the curtain,
+
+862
+00:38:16.360 --> 00:38:19.360
+as it were.
+
+863
+00:38:35.480 --> 00:38:36.840
+Being overly dramatic about it.
+
+864
+00:38:36.840 --> 00:38:39.840
+But that's cloud for you.
+
+865
+00:38:45.360 --> 00:38:45.720
+All right.
+
+866
+00:38:45.720 --> 00:38:48.720
+I hope this was thought provoking. Yeah.
+
+867
+00:38:49.240 --> 00:38:52.240
+Brian has a has a nice comment.
+
+868
+00:38:53.960 --> 00:38:55.600
+Brian, you want to say that one aloud?
+
+869
+00:38:55.600 --> 00:38:58.600
+You want me to read it?
+
+870
+00:38:59.280 --> 00:39:02.120
+Yeah, please read it I was
+
+871
+00:39:02.120 --> 00:39:03.720
+I was can you hear me.
+
+872
+00:39:03.720 --> 00:39:07.320
+Yeah yeah yeah I was trying to be
+
+873
+00:39:07.760 --> 00:39:10.760
+a lurker, but anyway,
+
+874
+00:39:11.400 --> 00:39:13.640
+I'll just read what I wrote
+
+875
+00:39:13.640 --> 00:39:15.960
+and I, you know, I actually said this
+
+876
+00:39:15.960 --> 00:39:19.840
+in, I think one of my early essays
+like privileged Privileging language,
+
+877
+00:39:20.920 --> 00:39:24.560
+my own problem with interactive text
+works like this is that the text is almost
+
+878
+00:39:24.560 --> 00:39:25.560
+always pretty innocuous
+
+879
+00:39:25.560 --> 00:39:28.560
+and kind of describes
+the experience, rather than runs as a,
+
+880
+00:39:28.560 --> 00:39:32.880
+as a kind of counterpoint
+or tension against the experience.
+
+881
+00:39:33.880 --> 00:39:36.520
+That's why I use
+that Dodie Bellamy text for Dream Life.
+
+882
+00:39:36.520 --> 00:39:39.640
+I got to use words like taunt, which I
+which is not something I wrote myself.
+
+883
+00:39:39.640 --> 00:39:42.680
+And I don't say it very often.
+
+884
+00:39:42.840 --> 00:39:45.280
+No, I really don't.
+
+885
+00:39:45.280 --> 00:39:48.720
+Words like that were pulses or beats
+in an experience that was otherwise
+
+886
+00:39:48.720 --> 00:39:50.640
+all green.
+
+887
+00:39:50.640 --> 00:39:53.320
+But of course, in realism
+the dream was never without it.
+
+888
+00:39:53.320 --> 00:39:56.440
+And I meant that that that I just meant,
+
+889
+00:39:56.480 --> 00:40:00.240
+you know, dreams were pretty sexually
+and fluid infused.
+
+890
+00:40:00.280 --> 00:40:03.360
+Not to mention having, you know, the other
+
+891
+00:40:03.400 --> 00:40:06.400
+apparatus ism.
+
+892
+00:40:06.680 --> 00:40:07.560
+Take it as you will.
+
+893
+00:40:07.560 --> 00:40:10.680
+I just I always felt like,
+you know, these are really beautiful.
+
+894
+00:40:10.720 --> 00:40:11.440
+I mean, this is great.
+
+895
+00:40:11.440 --> 00:40:16.320
+I really love the fact that there was
+a sense of process, and I'm assuming that
+
+896
+00:40:16.320 --> 00:40:19.400
+that that whole ending
+where it just turned it into a swirling
+
+897
+00:40:20.360 --> 00:40:22.200
+series of
+
+898
+00:40:22.200 --> 00:40:26.080
+orbiting things was purposive.
+
+899
+00:40:26.120 --> 00:40:26.440
+Right?
+
+900
+00:40:26.440 --> 00:40:27.160
+I mean, you've made
+
+901
+00:40:27.160 --> 00:40:31.240
+it sound like it was an error, but
+but really, that was the kind of payoff of
+
+902
+00:40:32.240 --> 00:40:33.800
+much, much was what was going on.
+
+903
+00:40:33.800 --> 00:40:35.160
+I assumed that way.
+
+904
+00:40:35.160 --> 00:40:37.920
+So that was my comment.
+
+905
+00:40:37.920 --> 00:40:40.440
+I love you know,
+I didn't follow this all very closely,
+
+906
+00:40:40.440 --> 00:40:43.880
+but it looks like what the basic idea was
+that you were doing a lot of wide coding
+
+907
+00:40:44.520 --> 00:40:47.080
+as you were presenting the work,
+
+908
+00:40:47.080 --> 00:40:49.440
+or does that make sense?
+
+909
+00:40:49.440 --> 00:40:52.360
+I mean, that's
+the essence of the performance.
+
+910
+00:40:52.360 --> 00:40:54.760
+I guess you could say
+
+911
+00:40:54.760 --> 00:40:57.760
+the performance was critiquing.
+
+912
+00:40:57.920 --> 00:41:02.960
+Five coding is authorship
+and its limitations compared
+
+913
+00:41:02.960 --> 00:41:05.960
+to traditional coding.
+
+914
+00:41:07.120 --> 00:41:09.840
+Although or maybe for me and Mark,
+
+915
+00:41:09.840 --> 00:41:13.240
+maybe it was by prompting
+
+916
+00:41:14.480 --> 00:41:16.280
+more than by coding.
+
+917
+00:41:18.000 --> 00:41:20.520
+Yeah, maybe a little human machine
+collaboration.
+
+918
+00:41:20.520 --> 00:41:23.360
+Challenging questions as well.
+
+919
+00:41:23.360 --> 00:41:28.360
+You know, the push and pull between the
+the people and the
+
+920
+00:41:29.240 --> 00:41:32.240
+and the systems.
+
+921
+00:41:33.360 --> 00:41:37.560
+But who's to say, I don't know
+who's to say what this whole thing means?
+
+922
+00:41:37.600 --> 00:41:43.400
+A future ELO presentation, actually,
+one of my inspirations was Jacob Garvey,
+
+923
+00:41:43.400 --> 00:41:48.720
+a a fellow grad student
+from UC Santa Cruz, as his MFA thesis.
+
+924
+00:41:48.800 --> 00:41:51.800
+He did this show where he basically had
+
+925
+00:41:51.800 --> 00:41:56.240
+the A's escape during the performance
+as part of the performance,
+
+926
+00:41:56.240 --> 00:41:59.520
+after having everybody,
+you know, babysit their own eyes
+
+927
+00:41:59.520 --> 00:42:02.520
+and make it all sort of contained,
+I thought he was really foresight,
+
+928
+00:42:02.640 --> 00:42:06.320
+looking at the future of AI
+and human relationships, as it were.
+
+929
+00:42:06.320 --> 00:42:09.800
+Whereas right now
+we have a very utilitarian approach them,
+
+930
+00:42:09.800 --> 00:42:13.360
+which is right now
+embodied by vibe coding.
+
+931
+00:42:13.360 --> 00:42:17.800
+And as you get further along
+in the strength and power of AI models,
+
+932
+00:42:17.840 --> 00:42:22.000
+it's less and less simply instructing
+the model what you want it to do, and more
+
+933
+00:42:22.040 --> 00:42:25.040
+that the model does things that perhaps
+
+934
+00:42:25.200 --> 00:42:28.560
+the audience,
+the member creating things through it
+
+935
+00:42:28.600 --> 00:42:31.880
+didn't want to have happen,
+or maybe didn't even dream of happening.
+
+936
+00:42:31.880 --> 00:42:35.640
+And so they start to wonder if that's
+something they did or something they did.
+
+937
+00:42:45.120 --> 00:42:46.760
+Got a question of
+
+938
+00:42:46.760 --> 00:42:50.120
+how does it feel to your three
+when you play without any agents?
+
+939
+00:42:50.480 --> 00:42:53.360
+You might want to expand
+
+940
+00:42:53.360 --> 00:42:57.400
+a little bit on that, but otherwise
+I think we've gone far too late.
+
+941
+00:42:57.400 --> 00:43:00.440
+This one has gone much longer
+than the other performance.
+
+942
+00:43:02.040 --> 00:43:03.560
+Thanks, everybody.

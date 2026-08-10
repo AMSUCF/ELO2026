@@ -1,0 +1,5791 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.480
+good.
+
+2
+00:00:00.480 --> 00:00:04.840
+All right, well, welcome,
+everybody, to our session
+
+3
+00:00:04.840 --> 00:00:10.440
+on Inventing Eliza, which serves
+as a kind of yellow book launch for us.
+
+4
+00:00:10.440 --> 00:00:12.640
+And it's it's a pleasure to be here.
+
+5
+00:00:12.640 --> 00:00:16.800
+We give our great thanks to the organizers
+of this conference.
+
+6
+00:00:16.800 --> 00:00:19.400
+You guys have been tireless
+
+7
+00:00:19.400 --> 00:00:20.400
+while exhausted.
+
+8
+00:00:20.400 --> 00:00:24.000
+So. And I'm just so, so grateful to you
+for all of your work.
+
+9
+00:00:24.120 --> 00:00:27.160
+Let me share screen
+
+10
+00:00:27.160 --> 00:00:30.160
+and we'll get ourselves started.
+
+11
+00:00:30.920 --> 00:00:34.080
+So our presentation is called.
+
+12
+00:00:34.080 --> 00:00:37.000
+I think you're in the last slide.
+Oh, yeah.
+
+13
+00:00:37.000 --> 00:00:38.360
+Let me get to the first slide.
+
+14
+00:00:38.360 --> 00:00:41.360
+Okay, here we go.
+
+15
+00:00:41.680 --> 00:00:43.920
+But but no, but I did.
+
+16
+00:00:43.920 --> 00:00:46.960
+I have another slide that said
+even the title of our talk is now I'm
+
+17
+00:00:46.960 --> 00:00:47.320
+forgetting.
+
+18
+00:00:47.320 --> 00:00:50.480
+Anyway, our talk is called something
+About Inventing Eliza.
+
+19
+00:00:50.480 --> 00:00:53.880
+And here you see
+the names of all of our team members.
+
+20
+00:00:53.880 --> 00:00:55.960
+We are not all here.
+
+21
+00:00:55.960 --> 00:01:01.080
+But I'm going to have everybody
+introduce themselves in just one second.
+
+22
+00:01:01.120 --> 00:01:04.640
+First, I'll show you a little screenshot
+of what we all look like.
+
+23
+00:01:04.760 --> 00:01:08.200
+Some of us, when we're holding up
+our copies of our book,
+
+24
+00:01:08.280 --> 00:01:11.480
+and some of us when we're not.
+
+25
+00:01:11.520 --> 00:01:12.920
+Oh, wait, someone did.
+
+26
+00:01:12.920 --> 00:01:14.320
+Someone had a book to Sarah.
+
+27
+00:01:14.320 --> 00:01:16.400
+Picture. Great. Yeah. Okay.
+
+28
+00:01:16.400 --> 00:01:17.200
+All right. Well.
+
+29
+00:01:17.200 --> 00:01:20.360
+But so as a way of getting started,
+let's go around
+
+30
+00:01:20.360 --> 00:01:23.800
+and everyone can can introduce themselves.
+
+31
+00:01:23.800 --> 00:01:26.280
+Let's let's go if we can.
+
+32
+00:01:26.280 --> 00:01:29.280
+And I don't know, 
+alphabetic order. David.
+
+33
+00:01:29.360 --> 00:01:29.800
+Yeah.
+
+34
+00:01:29.800 --> 00:01:32.960
+So I'm a professor of digital humanities
+here in the UK
+
+35
+00:01:32.960 --> 00:01:34.880
+at the University of Sussex.
+
+36
+00:01:34.880 --> 00:01:39.200
+And with my esteemed colleagues
+we have written Inventing Eliza,
+
+37
+00:01:39.240 --> 00:01:43.560
+a project that we've been working on for,
+well, four years.
+
+38
+00:01:43.560 --> 00:01:48.720
+Solid on the book, but much, much longer
+than that, and some even longer than lung.
+
+39
+00:01:48.720 --> 00:01:51.920
+Jeff, I'm looking at you and
+
+40
+00:01:51.920 --> 00:01:54.920
+I work on various forms
+of computational media
+
+41
+00:01:54.960 --> 00:01:58.600
+critical code studies, software studies,
+and the philosophy of technology.
+
+42
+00:02:00.000 --> 00:02:00.600
+Excellent.
+
+43
+00:02:00.600 --> 00:02:03.600
+And my, my Alphabet's breaking down
+because we have so many.
+
+44
+00:02:03.640 --> 00:02:05.040
+We have. Jeff.
+
+45
+00:02:05.040 --> 00:02:06.120
+You're next. No.
+
+46
+00:02:06.120 --> 00:02:09.120
+Oh! Oh, I was going to go last. What?
+
+47
+00:02:09.160 --> 00:02:10.880
+I was going to go last. Oh, okay.
+
+48
+00:02:10.880 --> 00:02:12.200
+All right. Whatever.
+
+49
+00:02:12.200 --> 00:02:16.560
+Jeff Schrager what David was obliquely
+referring to is I
+
+50
+00:02:16.560 --> 00:02:20.000
+when I was 13, in middle school,
+which was a long time ago,
+
+51
+00:02:20.000 --> 00:02:21.760
+we didn't learn to program in the womb
+at that time.
+
+52
+00:02:21.760 --> 00:02:24.720
+I wrote a really bad
+knockoff of Eliza in Basic,
+
+53
+00:02:24.720 --> 00:02:28.200
+which became famous
+just because of the timing of the.
+
+54
+00:02:28.240 --> 00:02:30.640
+It was like viral,
+as we would call it now.
+
+55
+00:02:30.640 --> 00:02:33.480
+And so but I didn't think of Eliza
+for a long time after that.
+
+56
+00:02:33.480 --> 00:02:34.720
+And we'll get back to the why.
+
+57
+00:02:34.720 --> 00:02:37.720
+I came back to it
+because David basically said to me,
+
+58
+00:02:37.760 --> 00:02:40.520
+oh, we're going to review your Eliza
+in one of our code studies group.
+
+59
+00:02:40.520 --> 00:02:43.040
+And I said, well, that's ridiculous.
+Why don't you review the original?
+
+60
+00:02:43.040 --> 00:02:48.160
+And he said, we don't have the original
+and the rest is history.
+
+61
+00:02:49.120 --> 00:02:51.280
+Nice.
+
+62
+00:02:51.280 --> 00:02:53.600
+I believe that puts you all right.
+
+63
+00:02:53.600 --> 00:02:56.680
+I'm was basically
+
+64
+00:02:56.680 --> 00:02:59.680
+a developer, all kinds of systems.
+
+65
+00:02:59.760 --> 00:03:03.560
+I became intrigued in this when Jeff,
+
+66
+00:03:03.800 --> 00:03:07.480
+a man that I truly disliked, called me up
+and said
+
+67
+00:03:08.880 --> 00:03:10.880
+I developed a version of slipped,
+
+68
+00:03:10.880 --> 00:03:14.080
+which I made public, and he said,
+are you interested?
+
+69
+00:03:14.080 --> 00:03:15.720
+And I said, yes.
+
+70
+00:03:15.720 --> 00:03:19.760
+So slip is the language
+that Eliza the code?
+
+71
+00:03:20.280 --> 00:03:23.520
+It's an application programing which Eliza
+
+72
+00:03:23.520 --> 00:03:28.240
+uses in its code
+to give you some perspective.
+
+73
+00:03:28.360 --> 00:03:31.880
+The actual Eliza is about 410 lines,
+
+74
+00:03:31.960 --> 00:03:34.960
+and the actual slip is about 1100 lines.
+
+75
+00:03:35.000 --> 00:03:39.880
+So Eliza makes heavy
+use of the application.
+
+76
+00:03:40.680 --> 00:03:43.240
+Anyhow, I became intrigued, and the more
+
+77
+00:03:43.240 --> 00:03:46.560
+I've been involved, the more I intrigued.
+
+78
+00:03:46.560 --> 00:03:50.880
+I become both with Eliza
+as a social impact
+
+79
+00:03:50.880 --> 00:03:53.960
+and Eliza as a technical impact.
+
+80
+00:03:54.520 --> 00:03:56.000
+So that's my involvement
+
+81
+00:03:57.600 --> 00:03:58.600
+since Mark's going last.
+
+82
+00:03:58.600 --> 00:04:00.400
+Peggy, you're up already.
+
+83
+00:04:00.400 --> 00:04:01.280
+Oh, that's just us.
+
+84
+00:04:01.280 --> 00:04:02.080
+Oh, okay.
+
+85
+00:04:02.080 --> 00:04:03.320
+So I'm Peggy, while
+
+86
+00:04:03.320 --> 00:04:06.880
+I'm nobody's mentioning where they live,
+but I'm an artist living in Los Angeles.
+
+87
+00:04:07.080 --> 00:04:11.600
+In case any of the rest of you are
+there, we're going to talk about an event
+
+88
+00:04:12.480 --> 00:04:17.600
+I'm was not involved
+with finding unearthing
+
+89
+00:04:17.640 --> 00:04:24.720
+the original Eliza at the beginning,
+but I was very influenced by and Eliza
+
+90
+00:04:24.720 --> 00:04:30.000
+to create my own bot in 1998,
+which I'll talk about a bit later.
+
+91
+00:04:30.080 --> 00:04:36.040
+Although I'll say
+that I was originally drawn in the 70s to
+
+92
+00:04:36.880 --> 00:04:41.200
+computation, which was unusual
+then because of my interest,
+
+93
+00:04:41.200 --> 00:04:45.240
+or in part at least
+because of my interest in Olympian.
+
+94
+00:04:45.240 --> 00:04:49.600
+And we didn't have hypertext then,
+but in, in
+
+95
+00:04:50.000 --> 00:04:55.120
+and Calvin in, in different literature
+and different interactive things.
+
+96
+00:04:55.160 --> 00:05:00.920
+And when I saw what was being done
+with some of the early games in 78 even
+
+97
+00:05:01.280 --> 00:05:03.440
+and some of the early text games,
+I said, oh,
+
+98
+00:05:03.440 --> 00:05:04.800
+this is a way to do something like that.
+
+99
+00:05:04.800 --> 00:05:05.520
+Very interesting.
+
+100
+00:05:05.520 --> 00:05:08.080
+But my work is mostly, mostly visual arts.
+
+101
+00:05:10.720 --> 00:05:11.440
+And yeah,
+
+102
+00:05:11.440 --> 00:05:17.240
+and I'm Mark Marino and I know a lot of
+you folks here at ELO, but I guess
+
+103
+00:05:17.240 --> 00:05:22.960
+I've had a very long obsession with Eliza,
+starting with my dissertation and maybe,
+
+104
+00:05:23.000 --> 00:05:28.680
+you know, before then, of course, as well,
+and was trying to track down the code.
+
+105
+00:05:28.680 --> 00:05:32.920
+And then again, the rest is history.
+
+106
+00:05:32.960 --> 00:05:34.240
+We filled in a few of those gaps.
+
+107
+00:05:34.240 --> 00:05:38.880
+I'm going to introduce a few
+of our members who are who are not here.
+
+108
+00:05:38.880 --> 00:05:42.880
+Let's go back to our slides for a second.
+
+109
+00:05:43.000 --> 00:05:45.880
+So currently we are missing.
+
+110
+00:05:45.880 --> 00:05:49.080
+Sarah. Sarah.
+
+111
+00:05:49.120 --> 00:05:53.680
+Sarah, who is a professor of computational
+thinking and esthetic doing,
+
+112
+00:05:53.680 --> 00:05:57.000
+which is maybe the greatest
+professorial title I've ever heard
+
+113
+00:05:57.080 --> 00:06:00.120
+at the Academy of Media Arts in Cologne.
+
+114
+00:06:00.160 --> 00:06:03.920
+She also recently won
+major prize at Rs electronica,
+
+115
+00:06:04.120 --> 00:06:08.000
+amongst her other work in critical AI.
+
+116
+00:06:08.440 --> 00:06:14.200
+She also created a bot called Lady Mouth,
+which replies to toxic comments
+
+117
+00:06:14.200 --> 00:06:18.880
+on online forums with feminist theory
+quotes from feminist theory.
+
+118
+00:06:19.160 --> 00:06:22.840
+And we are also missing
+Anthony Hay, a developer,
+
+119
+00:06:23.480 --> 00:06:29.000
+and he's credited as developing
+an identically operating version of Eliza,
+
+120
+00:06:29.160 --> 00:06:33.280
+who's had a lifelong fascination
+with with Eliza.
+
+121
+00:06:33.280 --> 00:06:34.240
+And he's helped
+
+122
+00:06:34.240 --> 00:06:35.480
+not only on the version
+
+123
+00:06:35.480 --> 00:06:39.240
+that you'll find on our website,
+but he also helped on the version
+
+124
+00:06:39.240 --> 00:06:43.520
+we'll talk about that
+we of our revived Eliza.
+
+125
+00:06:43.520 --> 00:06:47.520
+And then we're also missing, last
+but not least, Peter Milliken, who's
+
+126
+00:06:47.520 --> 00:06:51.640
+a professor of philosophy at Oxford
+in Singapore, who developed a program
+
+127
+00:06:51.640 --> 00:06:56.560
+called Elizabeth, which is an Eliza
+inspired chatbot teaching system.
+
+128
+00:06:57.560 --> 00:06:59.080
+And okay, good.
+
+129
+00:06:59.080 --> 00:07:01.520
+I think that's everybody.
+
+130
+00:07:01.520 --> 00:07:04.840
+The only person we're not mentioning
+who's who's two other people
+
+131
+00:07:04.840 --> 00:07:09.960
+who are featured in the book, 
+Claire James Carroll, who's got a dialog
+
+132
+00:07:09.960 --> 00:07:14.320
+that we feature in there, and also Janet
+Murray, who writes our forward thing.
+
+133
+00:07:14.360 --> 00:07:16.920
+Thank you to Janet.
+
+134
+00:07:16.920 --> 00:07:18.880
+Okay, so
+
+135
+00:07:18.880 --> 00:07:21.040
+I think this audience
+
+136
+00:07:21.040 --> 00:07:24.400
+has a strong familiarity with the program.
+
+137
+00:07:24.440 --> 00:07:29.120
+Eliza, here's a picture of Joseph
+Weissenborn, Eliza's creator.
+
+138
+00:07:29.120 --> 00:07:32.000
+And here's the famous night this we're in.
+
+139
+00:07:32.000 --> 00:07:35.680
+This is the 60th anniversary
+of the publication
+
+140
+00:07:35.680 --> 00:07:39.840
+of the chasm paper
+that debuted Eliza. And.
+
+141
+00:07:39.840 --> 00:07:42.480
+And this is what we're losing me.
+
+142
+00:07:42.480 --> 00:07:45.000
+In what sense?
+
+143
+00:07:45.000 --> 00:07:46.640
+Now? I think you're losing him.
+
+144
+00:07:46.640 --> 00:07:48.560
+I've got him fun. Okay.
+
+145
+00:07:48.560 --> 00:07:49.280
+All right, all right.
+
+146
+00:07:49.280 --> 00:07:53.280
+Well, as long as the audience is not
+losing the flow of this, which is that
+
+147
+00:07:53.280 --> 00:07:56.320
+there is this famous dialog mineral
+
+148
+00:07:56.360 --> 00:07:59.600
+like that was featured in that article.
+
+149
+00:07:59.600 --> 00:08:04.880
+And if you go to
+our website, Inventing Eliza,
+
+150
+00:08:06.040 --> 00:08:09.040
+you will find this version of Eliza.
+
+151
+00:08:09.320 --> 00:08:12.280
+And let me adjust the screen slightly
+that you can talk with.
+
+152
+00:08:12.280 --> 00:08:15.400
+And you can say
+
+153
+00:08:15.400 --> 00:08:19.120
+men are all alike and wait, do
+I need to put a period or not?
+
+154
+00:08:19.160 --> 00:08:21.640
+I don't, I don't know the script
+as well as I should.
+
+155
+00:08:21.640 --> 00:08:23.760
+Let's say mineral like, period.
+
+156
+00:08:23.760 --> 00:08:25.440
+They're always bugging us about something.
+
+157
+00:08:25.440 --> 00:08:30.200
+Let's just try to remember that
+they're all like, in what way?
+
+158
+00:08:30.520 --> 00:08:33.240
+They're always
+
+159
+00:08:33.240 --> 00:08:34.680
+bugging us.
+
+160
+00:08:34.680 --> 00:08:37.000
+Always this.
+
+161
+00:08:37.000 --> 00:08:38.520
+Oh, thanks.
+
+162
+00:08:38.520 --> 00:08:40.520
+Always bugging us about something
+or other.
+
+163
+00:08:40.520 --> 00:08:45.200
+Do any a period we think put a period
+that's easier to do a capital T all right.
+
+164
+00:08:45.480 --> 00:08:47.080
+Can you think of a specific example.
+
+165
+00:08:47.080 --> 00:08:50.920
+So you can go here
+and have the identical conversation
+
+166
+00:08:51.080 --> 00:08:53.120
+that was in that original piece.
+
+167
+00:08:53.120 --> 00:08:57.200
+And this is a version that Anthony
+Hey created for us.
+
+168
+00:08:57.200 --> 00:09:00.240
+And that was also featured at the
+
+169
+00:09:00.320 --> 00:09:04.520
+an exhibit
+at the Judith in Paris recently.
+
+170
+00:09:07.040 --> 00:09:09.360
+Other direction.
+
+171
+00:09:09.360 --> 00:09:12.200
+So the
+
+172
+00:09:12.200 --> 00:09:15.200
+move this over here.
+
+173
+00:09:15.200 --> 00:09:18.200
+So we had an idea.
+
+174
+00:09:18.280 --> 00:09:20.880
+So I think we filled
+in a few of these pieces.
+
+175
+00:09:20.880 --> 00:09:26.320
+We did a critical code studies working
+group about the code several times.
+
+176
+00:09:26.320 --> 00:09:31.360
+I think we did the doctor script once,
+and then we wanted to do Eliza in general.
+
+177
+00:09:31.360 --> 00:09:36.440
+And so that's when we chose Jeff's basic
+Eliza to read and to annotate in a way
+
+178
+00:09:36.440 --> 00:09:39.920
+that we had previously done with Dennis
+jurors with things like adventure.
+
+179
+00:09:41.120 --> 00:09:42.520
+Yeah, we are.
+
+180
+00:09:42.520 --> 00:09:43.680
+And with sorry,
+
+181
+00:09:43.680 --> 00:09:47.400
+I'm your problem, I'm going to continue
+until I hear from one of the organizers.
+
+182
+00:09:47.400 --> 00:09:50.400
+So the.
+
+183
+00:09:51.600 --> 00:09:52.800
+This code.
+
+184
+00:09:52.800 --> 00:09:54.680
+Well, so one more thing.
+
+185
+00:09:54.680 --> 00:09:55.360
+And so
+
+186
+00:09:55.360 --> 00:09:56.240
+and at the time
+
+187
+00:09:56.240 --> 00:09:58.080
+I was working on the book
+Critical Code Studies
+
+188
+00:09:58.080 --> 00:10:01.720
+and I remember talking to no wardrobe
+Frewin and he said, well, you know,
+
+189
+00:10:01.720 --> 00:10:05.280
+it would be great if you put in that book,
+it would be the source code to Eliza.
+
+190
+00:10:05.280 --> 00:10:07.560
+And I said, okay, well, hasn't
+the doctor's script
+
+191
+00:10:07.560 --> 00:10:08.520
+been read a million times?
+
+192
+00:10:08.520 --> 00:10:10.400
+And he's like,
+the doctor's script has been
+
+193
+00:10:10.400 --> 00:10:13.360
+the Eliza source code,
+however, has not been read.
+
+194
+00:10:13.360 --> 00:10:16.640
+And so we went in search of it.
+
+195
+00:10:16.640 --> 00:10:21.720
+And Patsy Bedouin,
+with whom was a coauthor on ten print
+
+196
+00:10:21.720 --> 00:10:26.280
+with Mark sample and
+and of course, Nick and others and I
+
+197
+00:10:26.720 --> 00:10:31.480
+she had said, well, there's this archive
+we have of Wiseman stuff.
+
+198
+00:10:31.520 --> 00:10:35.920
+There's this there's a bunch of boxes
+and I think it's probably in this box.
+
+199
+00:10:35.920 --> 00:10:40.280
+And there was a lot of, you know, back
+and forth about trying to get it open.
+
+200
+00:10:40.280 --> 00:10:45.800
+We contacted Pym Wise and bomb wise and
+mom's daughter to try to get permissions.
+
+201
+00:10:45.800 --> 00:10:50.280
+But there was there were challenges
+beyond challenges until Covid
+
+202
+00:10:50.400 --> 00:10:55.360
+in in the case in which Jeff was able
+to get one miles Crowley,
+
+203
+00:10:55.480 --> 00:10:59.280
+archivist over at MIT,
+to open up the box.
+
+204
+00:10:59.280 --> 00:11:03.160
+And there was the source code
+and of course, other things as well,
+
+205
+00:11:03.280 --> 00:11:08.120
+to Eliza, to a version of Eliza,
+which led to our four years
+
+206
+00:11:08.120 --> 00:11:11.320
+of of collaboratively close
+reading this, the source code.
+
+207
+00:11:11.320 --> 00:11:12.920
+And here you see some photographs.
+
+208
+00:11:12.920 --> 00:11:15.920
+When Peggy and I went to
+
+209
+00:11:16.120 --> 00:11:19.840
+to MIT to look at more
+of the documentation there.
+
+210
+00:11:21.200 --> 00:11:21.760
+Okay.
+
+211
+00:11:21.760 --> 00:11:27.080
+So just just to put this a little bit
+in context and I'll start my little note.
+
+212
+00:11:27.120 --> 00:11:32.280
+You might say you can get all the source
+code yourself in PDF form online
+
+213
+00:11:32.320 --> 00:11:36.520
+via Eliza Jen,
+or inventing any of our sites.
+
+214
+00:11:37.920 --> 00:11:39.120
+Absolutely.
+
+215
+00:11:39.120 --> 00:11:45.080
+So we were thinking about
+what makes Eliza literary or illiteracy.
+
+216
+00:11:45.360 --> 00:11:49.440
+And of course, part of it is, is Wiseman
+pulling the name
+
+217
+00:11:49.440 --> 00:11:53.120
+for the Eliza system from Pygmalion.
+
+218
+00:11:53.240 --> 00:11:58.440
+And you'll see this little dialog that
+led to our choosing, our title inventing.
+
+219
+00:11:58.440 --> 00:12:00.880
+We wanted
+to, Peggy really wanted to venting allies
+
+220
+00:12:00.880 --> 00:12:04.080
+as we chose Inventing Eliza
+at the end of the day or the.
+
+221
+00:12:04.360 --> 00:12:08.400
+Anyway, there was a little back
+and forth on that, but you think about
+
+222
+00:12:08.440 --> 00:12:11.240
+if you don't know the story
+of a lot of allies, it's,
+
+223
+00:12:11.240 --> 00:12:15.160
+you know, based, you know, inspired
+by the myth of Pygmalion, the statue
+
+224
+00:12:15.200 --> 00:12:21.560
+that is brought to life, we have George
+Bernard Shaw, a satire of class
+
+225
+00:12:21.560 --> 00:12:25.200
+and gendered performance, where he does
+
+226
+00:12:25.920 --> 00:12:29.480
+his experiment on the.
+
+227
+00:12:30.960 --> 00:12:33.480
+On a
+
+228
+00:12:33.480 --> 00:12:36.520
+woman
+from the streets, from a flower seller.
+
+229
+00:12:36.560 --> 00:12:39.000
+No flower.
+
+230
+00:12:39.000 --> 00:12:42.240
+Was that a flower, a flower girl?
+
+231
+00:12:42.280 --> 00:12:44.960
+Yeah. I'm not. I'm not saying.
+I'm not saying she's a prostitute.
+
+232
+00:12:44.960 --> 00:12:47.760
+I'm saying she finds her on the street
+selling flowers.
+
+233
+00:12:47.760 --> 00:12:48.520
+And he offered.
+
+234
+00:12:48.520 --> 00:12:49.520
+But thank you so.
+
+235
+00:12:49.520 --> 00:12:52.800
+And also, by the way, guys,
+so this when people say to me next slide
+
+236
+00:12:52.800 --> 00:12:56.360
+and I don't advanced slides or people
+correct me it's it's
+
+237
+00:12:56.560 --> 00:12:57.760
+for we're performing for you.
+
+238
+00:12:57.760 --> 00:13:01.120
+The collaborative process
+that has so seamlessly led
+
+239
+00:13:01.160 --> 00:13:02.640
+to the publication of this book.
+
+240
+00:13:02.640 --> 00:13:05.640
+So anyway, so I'll continue on. So
+
+241
+00:13:06.080 --> 00:13:10.760
+so if any of you are familiar
+with that play or if you've seen
+
+242
+00:13:10.760 --> 00:13:14.720
+the musical adaptation of My Fair Lady,
+you're from, you know that
+
+243
+00:13:14.720 --> 00:13:18.600
+that story is not just about,
+oh, anyone can perform any class.
+
+244
+00:13:18.640 --> 00:13:22.080
+You know, it's a satire
+on performance of identity itself.
+
+245
+00:13:22.080 --> 00:13:27.480
+And it is also a, you know,
+it's a it's a critique of masculinity.
+
+246
+00:13:27.520 --> 00:13:31.360
+It's a it's you know, Henry Higgins
+is as much a target of that musical
+
+247
+00:13:31.360 --> 00:13:35.600
+in that play as, as is the notion
+of how identity gets formed.
+
+248
+00:13:35.600 --> 00:13:38.600
+So it does seem like wise
+
+249
+00:13:38.600 --> 00:13:42.560
+embalm drew that notion of, okay, if
+
+250
+00:13:42.600 --> 00:13:45.920
+if I can make an upper
+
+251
+00:13:45.920 --> 00:13:49.520
+class person out of out of anyone
+by teaching them how to speak,
+
+252
+00:13:49.560 --> 00:13:53.000
+I can make a
+I can make a computer, perhaps.
+
+253
+00:13:53.040 --> 00:13:55.040
+I mean, again,
+it gets more complicated than that
+
+254
+00:13:55.040 --> 00:13:57.240
+in a second,
+but I'm just drawing the analogy.
+
+255
+00:13:57.240 --> 00:13:58.880
+I can make a computer.
+
+256
+00:13:58.880 --> 00:14:01.520
+If I can make them perform human speech,
+
+257
+00:14:01.520 --> 00:14:06.040
+then they can pass themselves off
+as a human.
+
+258
+00:14:06.080 --> 00:14:10.040
+However, of course, by
+drawing the comparison to Pygmalion
+
+259
+00:14:10.040 --> 00:14:15.280
+and my For lady, we know that this is
+is much more complicated than this.
+
+260
+00:14:15.280 --> 00:14:16.600
+And I just want to show you right here.
+
+261
+00:14:16.600 --> 00:14:19.120
+By the way,
+here's some lines from Henry Higgins
+
+262
+00:14:19.120 --> 00:14:22.840
+where he says,
+I've taught her how to speak properly.
+
+263
+00:14:22.840 --> 00:14:25.160
+She has strict instructions
+as to her behavior.
+
+264
+00:14:25.160 --> 00:14:29.960
+She's she's to keep to two subjects
+the weather and everybody's health.
+
+265
+00:14:30.240 --> 00:14:32.640
+Fine day. And how do you do?
+
+266
+00:14:32.640 --> 00:14:35.960
+And not just let yourself go on
+go on things in general.
+
+267
+00:14:35.960 --> 00:14:40.360
+And if you see in the doctor's script
+we found in the archives, the first line
+
+268
+00:14:40.360 --> 00:14:47.400
+is, how do you do a very un-American thing
+to say, I am the doctor.
+
+269
+00:14:47.400 --> 00:14:51.440
+So just thinking about how much wiser
+himself may have been conscious
+
+270
+00:14:51.440 --> 00:14:57.840
+of this connection between Eliza doctor
+and this this original script,
+
+271
+00:14:57.840 --> 00:15:01.800
+but also we see Eliza
+in all sorts of literary objects,
+
+272
+00:15:01.800 --> 00:15:06.960
+from Emily Schwartz, Galatea to Eliza
+and Andromeda to the blurring test.
+
+273
+00:15:07.000 --> 00:15:10.840
+Mr. mind, we'll hear more about in a bit
+to story, face to facade.
+
+274
+00:15:10.880 --> 00:15:13.760
+Certainly, this has been a program
+that's been incredibly influential.
+
+275
+00:15:13.760 --> 00:15:18.240
+We've had members of our community
+have have included Eliza and Output,
+
+276
+00:15:18.320 --> 00:15:21.960
+hamlet on the holodeck, life
+on the screen, expressive processing.
+
+277
+00:15:22.080 --> 00:15:25.560
+So we've I think Eliza is very much
+
+278
+00:15:25.600 --> 00:15:28.600
+in a lot of our minds.
+
+279
+00:15:28.600 --> 00:15:34.080
+I was interested in applying
+the critical code studies methods to Eliza
+
+280
+00:15:34.080 --> 00:15:38.560
+and, and sort of brought this team
+together to try to, to read
+
+281
+00:15:38.560 --> 00:15:43.240
+for the extra functional significance
+of the code collaboratively.
+
+282
+00:15:43.240 --> 00:15:48.200
+So we, we said sessions where we met
+weekly and biweekly
+
+283
+00:15:48.800 --> 00:15:52.040
+or every other week,
+and we went line by line through the code.
+
+284
+00:15:52.040 --> 00:15:54.720
+Sometimes we only made it through 1
+or 2 lines of the code.
+
+285
+00:15:54.720 --> 00:15:57.920
+We we've now put that into the book,
+and you could see it in its book
+
+286
+00:15:57.920 --> 00:16:01.160
+form with the the code
+and the annotations down below.
+
+287
+00:16:01.160 --> 00:16:03.800
+And where possible,
+we attributed our annotations
+
+288
+00:16:03.800 --> 00:16:06.800
+and little initials to us,
+so you could see how we're really having
+
+289
+00:16:06.800 --> 00:16:11.040
+a discussion with
+and about Eliza through the code.
+
+290
+00:16:11.040 --> 00:16:14.840
+And one more discovery I'm just going
+to share before I pass it on to David is
+
+291
+00:16:14.880 --> 00:16:20.160
+we found in the archives another version,
+at least one other version of the mineral
+
+292
+00:16:20.200 --> 00:16:24.160
+like dialog transcript,
+which again suggests that
+
+293
+00:16:24.160 --> 00:16:28.320
+maybe it's less of a transcript
+and more of an amalgamation.
+
+294
+00:16:28.400 --> 00:16:33.000
+Anyway, more on that's in the book,
+but let me pass things on to David.
+
+295
+00:16:33.720 --> 00:16:35.080
+Great, thanks.
+
+296
+00:16:35.080 --> 00:16:38.200
+So I'm just going to give you
+some very brief,
+
+297
+00:16:38.200 --> 00:16:43.680
+like moments from the book 
+and of course, remembering that we're
+
+298
+00:16:43.680 --> 00:16:47.000
+we were working through the annotations
+and through the code
+
+299
+00:16:47.000 --> 00:16:50.920
+over these four years,
+and we were very excited when we first
+
+300
+00:16:51.040 --> 00:16:57.480
+discovered the code, because we thought
+we'd found the Eliza, as it were.
+
+301
+00:16:57.480 --> 00:17:01.040
+The version
+that is being discussed in 1966,
+
+302
+00:17:01.040 --> 00:17:04.040
+in the chasm KMC paper.
+
+303
+00:17:04.040 --> 00:17:08.360
+But unfortunately, it soon became clear
+as we began to do a kind of close
+
+304
+00:17:08.360 --> 00:17:13.800
+reading of the code, that actually what
+we got was a prior version to the actual.
+
+305
+00:17:13.920 --> 00:17:15.440
+What everyone thinks of
+
+306
+00:17:15.440 --> 00:17:19.280
+really is the final version, but actually
+is a kind of mid mid version of the code.
+
+307
+00:17:19.360 --> 00:17:23.360
+And one of the problems we had
+was that there's no kind of clear
+
+308
+00:17:23.400 --> 00:17:27.320
+way of like understanding
+the different versioning
+
+309
+00:17:27.320 --> 00:17:29.360
+that was taking place
+because of the fact that people didn't
+
+310
+00:17:29.360 --> 00:17:33.200
+really think in terms of version numbers
+when they were developing software.
+
+311
+00:17:33.200 --> 00:17:38.000
+And so we had to kind of attribute
+our own versioning system
+
+312
+00:17:38.880 --> 00:17:41.000
+on what was really quite an ad hoc
+
+313
+00:17:41.000 --> 00:17:44.080
+like development process,
+from what we can understand.
+
+314
+00:17:44.120 --> 00:17:47.800
+I mean, we've we've had to sort of use
+sort of circumstantial evidence
+
+315
+00:17:47.800 --> 00:17:52.520
+in some cases to understand the different
+versioning that had developed.
+
+316
+00:17:52.520 --> 00:17:54.600
+So the first thing to remember
+is that the versioning
+
+317
+00:17:54.600 --> 00:17:57.240
+that you're going to see in the book,
+and I'm going to talk about very briefly
+
+318
+00:17:57.240 --> 00:18:02.520
+now, is something we have applied to
+the code as a sort of analytical system
+
+319
+00:18:02.520 --> 00:18:06.840
+to help us think through the way
+in which this code was developed.
+
+320
+00:18:06.960 --> 00:18:09.680
+And so if we move to the next slide,
+please.
+
+321
+00:18:09.680 --> 00:18:11.200
+Mark.
+
+322
+00:18:11.200 --> 00:18:15.560
+So essentially we think there are at least
+and it's very important to remember that
+
+323
+00:18:15.720 --> 00:18:21.000
+there's probably more than
+the five versions that we have identified.
+
+324
+00:18:21.040 --> 00:18:25.200
+But we from the evidence
+in the archives, evidence
+
+325
+00:18:25.200 --> 00:18:30.200
+of the code itself from the same Cam paper
+and of course,
+
+326
+00:18:30.240 --> 00:18:34.160
+from other documentary evidence,
+have been able to draw up a kind of
+
+327
+00:18:35.120 --> 00:18:37.440
+a tentative
+map, really, of the versioning.
+
+328
+00:18:37.440 --> 00:18:42.080
+And we've applied the years
+to what we think these versions are.
+
+329
+00:18:42.720 --> 00:18:45.200
+And essentially,
+if I run through very quickly,
+
+330
+00:18:45.200 --> 00:18:50.320
+we have the very, very earliest version,
+which was quite limited.
+
+331
+00:18:50.320 --> 00:18:55.680
+And we can see in the flowcharts
+that are given in the archives,
+
+332
+00:18:55.880 --> 00:19:00.640
+the second one that has the yellow color,
+that's the version we have discovered.
+
+333
+00:19:00.640 --> 00:19:04.800
+And that's very important
+because it is almost certainly,
+
+334
+00:19:04.840 --> 00:19:08.080
+very, very close to the version
+
+335
+00:19:08.080 --> 00:19:13.360
+that he's discussing in the
+CA cm article.
+
+336
+00:19:13.400 --> 00:19:19.240
+Although what's very, very fascinating
+is he actually mixes up this 1965
+
+337
+00:19:19.400 --> 00:19:24.800
+and 1965 B versions
+when he's discussing the work he's done
+
+338
+00:19:24.840 --> 00:19:29.480
+in his in terms of his algorithm,
+most notably, I think in terms of the
+
+339
+00:19:29.520 --> 00:19:33.840
+but delimiter, which was only apparent
+because we had the source code.
+
+340
+00:19:33.840 --> 00:19:38.000
+And this means essentially that
+the examples that he gives in the 1966
+
+341
+00:19:38.040 --> 00:19:43.720
+CAC and paper wouldn't actually work based
+on the algorithm given in the article.
+
+342
+00:19:43.720 --> 00:19:45.880
+So that's a very interesting finding.
+
+343
+00:19:45.880 --> 00:19:49.880
+And 1966 version,
+which we unfortunately don't have.
+
+344
+00:19:49.920 --> 00:19:53.280
+But we do think that that will be
+somewhere,
+
+345
+00:19:53.280 --> 00:19:55.520
+Wiseman did pass around the source code.
+
+346
+00:19:55.520 --> 00:19:57.520
+So it's likely to be sitting
+in someone's garage
+
+347
+00:19:57.520 --> 00:20:00.240
+or in some other archive,
+perhaps from is filed.
+
+348
+00:20:00.240 --> 00:20:05.800
+And that essentially has some additional
+material like the new key function.
+
+349
+00:20:06.360 --> 00:20:07.400
+And then
+
+350
+00:20:08.400 --> 00:20:09.200
+after the
+
+351
+00:20:09.200 --> 00:20:14.640
+1966 publication of the article,
+Wiseman seems to be hunting around for
+
+352
+00:20:14.680 --> 00:20:19.400
+for something to do with the, 
+the program.
+
+353
+00:20:19.400 --> 00:20:23.520
+And it's clearly not an AI.
+
+354
+00:20:23.560 --> 00:20:26.880
+It's clearly not an intelligent system,
+but he he thinks that
+
+355
+00:20:26.880 --> 00:20:30.640
+maybe it could become a tutoring system,
+and he has a series of meetings.
+
+356
+00:20:30.640 --> 00:20:34.000
+Unfortunately,
+the material that supports his claim,
+
+357
+00:20:34.000 --> 00:20:38.920
+we only found in the physics archives
+at MIT after the book was published,
+
+358
+00:20:38.920 --> 00:20:43.840
+but essentially it shows that was pitching
+Eliza to the physics department.
+
+359
+00:20:44.240 --> 00:20:45.920
+And actually,
+one of the things that came out of
+
+360
+00:20:45.920 --> 00:20:50.680
+that is the Taylor version of Eliza
+in 1967 and 1968,
+
+361
+00:20:50.720 --> 00:20:55.720
+and those versions
+have much more sophisticated functions.
+
+362
+00:20:55.760 --> 00:21:00.360
+They could do mathematics,
+they could handle multiple scripts.
+
+363
+00:21:00.360 --> 00:21:02.640
+The scripts could communicate
+with each other.
+
+364
+00:21:02.640 --> 00:21:06.680
+So we're seeing a completely 
+radical version
+
+365
+00:21:06.720 --> 00:21:09.720
+that starts to emerge after 1967.
+
+366
+00:21:09.720 --> 00:21:13.080
+Again, unfortunately,
+we don't have those versions of the code.
+
+367
+00:21:13.120 --> 00:21:14.400
+Next slide please Mark.
+
+368
+00:21:17.240 --> 00:21:19.160
+The other interesting finding
+
+369
+00:21:19.160 --> 00:21:22.840
+from trawling the archives was in fact,
+there are a very,
+
+370
+00:21:22.840 --> 00:21:26.760
+very large number of scripts
+in addition to the doctor script,
+
+371
+00:21:26.760 --> 00:21:29.280
+which everyone's very familiar
+with there.
+
+372
+00:21:29.280 --> 00:21:31.720
+There is, for example,
+the arithmetic function,
+
+373
+00:21:31.720 --> 00:21:35.880
+which allows you to do mathematical
+calculations within the scripts.
+
+374
+00:21:35.880 --> 00:21:41.760
+And you can develop a kind of mathematical
+tutoring system, f 29,
+
+375
+00:21:41.760 --> 00:21:46.440
+which again
+is to do with more mathematical work
+
+376
+00:21:46.600 --> 00:21:49.600
+and very simple scripts
+like Girl and New,
+
+377
+00:21:50.480 --> 00:21:54.040
+which again, some of which we've included
+in the book where we could.
+
+378
+00:21:54.160 --> 00:21:55.200
+And there are,
+
+379
+00:21:55.200 --> 00:21:59.400
+as you see in the last point, there
+a whole bunch of other scripts
+
+380
+00:21:59.440 --> 00:22:04.040
+either pointed to or listed,
+and we don't always have the full listing.
+
+381
+00:22:04.040 --> 00:22:05.880
+Sometimes we have the source code.
+
+382
+00:22:05.880 --> 00:22:09.160
+So the script, sometimes
+we have the output of the script,
+
+383
+00:22:09.160 --> 00:22:11.800
+and sometimes, sadly,
+we only have the names
+
+384
+00:22:11.800 --> 00:22:14.920
+because they're included in file
+listings, etc.
+
+385
+00:22:14.920 --> 00:22:16.560
+but there's the potential
+
+386
+00:22:16.560 --> 00:22:20.160
+for finding many more of these
+very interesting scripts.
+
+387
+00:22:20.360 --> 00:22:22.800
+Next slide please.
+
+388
+00:22:22.800 --> 00:22:25.320
+The other thing is that we
+
+389
+00:22:25.320 --> 00:22:28.640
+we there remains a kind of question
+as to why
+
+390
+00:22:29.080 --> 00:22:32.200
+I'm never published the Eliza code.
+
+391
+00:22:32.480 --> 00:22:35.800
+He did actually publish his slip code,
+
+392
+00:22:36.000 --> 00:22:40.280
+which really kind of raises
+the question of why he didn't.
+
+393
+00:22:40.600 --> 00:22:44.720
+There was a bit of an argument
+he was having with Colby at the time
+
+394
+00:22:44.720 --> 00:22:49.720
+about authorship over Eliza
+and the Eliza 1966 paper
+
+395
+00:22:49.720 --> 00:22:54.960
+was rushed out to kind of beat Colby,
+who had so
+
+396
+00:22:55.320 --> 00:23:00.240
+and said, been claiming to have been
+the author of Eliza at Stanford.
+
+397
+00:23:00.240 --> 00:23:02.120
+And in fact, he was very surprised
+
+398
+00:23:02.120 --> 00:23:06.200
+when people told him that
+Colby had written this amazing program,
+
+399
+00:23:06.240 --> 00:23:10.240
+not just surprised,
+he was also very annoyed about it.
+
+400
+00:23:10.240 --> 00:23:13.400
+So maybe that was part of the reason.
+
+401
+00:23:13.400 --> 00:23:16.520
+But it's kind of interesting that
+that code was never properly published,
+
+402
+00:23:16.520 --> 00:23:19.720
+although it did
+include the doctor script.
+
+403
+00:23:19.720 --> 00:23:20.480
+Of course,
+
+404
+00:23:21.960 --> 00:23:25.120
+one of the like small thing that I think
+Jeff referred to
+
+405
+00:23:25.160 --> 00:23:29.160
+earlier is the very interesting article,
+How to Make a Computer Appear Intelligent,
+
+406
+00:23:29.160 --> 00:23:31.120
+which I would definitely recommend
+you go and read,
+
+407
+00:23:31.120 --> 00:23:35.480
+which is really making the point
+that this kind of software
+
+408
+00:23:35.480 --> 00:23:39.600
+doesn't have to actually be intelligent
+to have a useful function.
+
+409
+00:23:39.640 --> 00:23:43.800
+If the user thinks it's intelligent,
+there will be an intelligent
+
+410
+00:23:43.800 --> 00:23:48.640
+to the software, and that can make
+for a smoother user interface experience.
+
+411
+00:23:48.640 --> 00:23:53.320
+And part of that fed into the design
+of allows in very interesting ways.
+
+412
+00:23:53.760 --> 00:23:56.760
+Next slide please. Mark.
+
+413
+00:23:56.760 --> 00:23:59.880
+So this is the kind of
+
+414
+00:23:59.960 --> 00:24:04.320
+experimental workbench 
+that we've developed on the Eliza website.
+
+415
+00:24:04.480 --> 00:24:07.560
+I've put the link in the chat
+for you to have a go on this.
+
+416
+00:24:07.560 --> 00:24:10.000
+It's on the one of the menus.
+
+417
+00:24:10.000 --> 00:24:13.320
+In fact I pull a precise one after I talk
+actually to go straight to it.
+
+418
+00:24:13.320 --> 00:24:18.880
+But essentially what this does is
+it allows you to see the insides of Eliza
+
+419
+00:24:18.880 --> 00:24:23.520
+as it works and shows you the way
+in which the a kind of tokenizer,
+
+420
+00:24:23.520 --> 00:24:27.600
+if you like, of the input, is broken down
+
+421
+00:24:27.600 --> 00:24:30.840
+and then transformed
+through a series of rules market.
+
+422
+00:24:30.840 --> 00:24:35.120
+And if you're just full, done
+searching for particular keywords.
+
+423
+00:24:35.120 --> 00:24:39.120
+For example, swapping words
+through transformation rules.
+
+424
+00:24:39.320 --> 00:24:43.320
+If you want to step on a game
+there, you've got the decomposition
+
+425
+00:24:43.320 --> 00:24:47.360
+happening, for example, and then working
+through these transformations.
+
+426
+00:24:47.360 --> 00:24:49.560
+So if we have another slide mark.
+
+427
+00:24:51.600 --> 00:24:52.400
+And then
+
+428
+00:24:52.400 --> 00:24:57.080
+eventually resulting in an output
+and that is written out to the user.
+
+429
+00:24:57.080 --> 00:25:00.080
+So this allows you to play two
+
+430
+00:25:00.360 --> 00:25:03.600
+really how Eliza is working internally.
+
+431
+00:25:03.600 --> 00:25:08.160
+And it's actually very fascinating to work
+through the actual decomposition rules
+
+432
+00:25:08.160 --> 00:25:11.480
+and see how well firstly
+how small Eliza is.
+
+433
+00:25:11.480 --> 00:25:15.560
+It's approximately 411 lines, and it's
+
+434
+00:25:15.560 --> 00:25:19.360
+quite remarkable that it was able
+to function at all, really.
+
+435
+00:25:19.400 --> 00:25:20.400
+I mean, it's only through clever
+
+436
+00:25:20.400 --> 00:25:24.480
+programing techniques 
+that it was able to do the things it does.
+
+437
+00:25:24.560 --> 00:25:24.840
+Okay.
+
+438
+00:25:24.840 --> 00:25:27.840
+I think that's it from me.
+
+439
+00:25:29.560 --> 00:25:30.560
+Okay.
+
+440
+00:25:30.560 --> 00:25:33.160
+So I'm actually going to do
+I was going to do three things.
+
+441
+00:25:33.160 --> 00:25:34.480
+I'm going to go two of them now.
+
+442
+00:25:34.480 --> 00:25:38.480
+And then the last we're going to hold to
+the end because we have to switch screens
+
+443
+00:25:38.480 --> 00:25:39.960
+where I'm going to demo.
+
+444
+00:25:39.960 --> 00:25:42.960
+There are going to be two Eliza demos,
+one David's going to do on a more recent
+
+445
+00:25:42.960 --> 00:25:46.480
+Eliza with some some of this fancy tools,
+and I'll show you the
+
+446
+00:25:46.480 --> 00:25:48.600
+if you hang on this long,
+it's a good reason to hang on.
+
+447
+00:25:48.600 --> 00:25:51.280
+I'll show you.
+The original eyes are really working
+
+448
+00:25:52.360 --> 00:25:54.280
+due to Rupert, the reanimation of Lisa.
+
+449
+00:25:54.280 --> 00:25:56.840
+So I want to talk about
+what's going on with the slides.
+
+450
+00:25:56.840 --> 00:25:58.480
+Give me a second to readjust slightly.
+
+451
+00:25:58.480 --> 00:25:59.720
+Okay. You're good.
+
+452
+00:25:59.720 --> 00:26:01.840
+So I'm going to talk
+a bit about genealogy.
+
+453
+00:26:01.840 --> 00:26:03.640
+I curate this site called Eliza Jen.
+
+454
+00:26:03.640 --> 00:26:04.720
+I'll talk about that a little bit.
+
+455
+00:26:04.720 --> 00:26:08.520
+And then I'm going to talk about Eliza
+as a research platform,
+
+456
+00:26:08.520 --> 00:26:12.200
+which is what I believe
+it was originally intended for, to study
+
+457
+00:26:12.240 --> 00:26:15.720
+what I'm coined this term not not
+
+458
+00:26:16.240 --> 00:26:18.720
+which is until morphism
+like anthropomorphism,
+
+459
+00:26:18.720 --> 00:26:19.680
+except instead of thinking
+
+460
+00:26:19.680 --> 00:26:23.160
+it's animal like you think, or human
+like you think, it's intelligent.
+
+461
+00:26:23.280 --> 00:26:24.920
+So next slide.
+
+462
+00:26:24.920 --> 00:26:27.520
+So first talk about genealogy. Next slide.
+
+463
+00:26:27.520 --> 00:26:30.160
+Unfortunately my builds
+are not going to work on.
+
+464
+00:26:30.160 --> 00:26:33.640
+So there's I did I worked on
+two different kinds of genealogy.
+
+465
+00:26:33.640 --> 00:26:35.840
+One is what you might call
+conceptual genealogy.
+
+466
+00:26:35.840 --> 00:26:37.040
+So this is a little hard to read.
+
+467
+00:26:37.040 --> 00:26:38.520
+But basically you can see in the legend
+
+468
+00:26:38.520 --> 00:26:41.280
+that what I was tracing
+was through history,
+
+469
+00:26:41.280 --> 00:26:45.760
+the technical project of what it
+what ended up being a little chatbot.
+
+470
+00:26:45.800 --> 00:26:46.240
+Eliza.
+
+471
+00:26:46.240 --> 00:26:48.000
+You'll see
+actually if you go to the next slide.
+
+472
+00:26:48.000 --> 00:26:50.680
+Sorry. Go back on
+sorry for just a second.
+
+473
+00:26:50.680 --> 00:26:54.200
+I didn't finish the legend,
+the technical project, the sort of media
+
+474
+00:26:54.200 --> 00:26:58.640
+response to it, the conceptual project,
+and then the code itself.
+
+475
+00:26:58.640 --> 00:27:02.880
+So the green things here are actual
+program instantiations or machines.
+
+476
+00:27:02.920 --> 00:27:05.640
+The yellow are technical,
+starting all the way
+
+477
+00:27:05.640 --> 00:27:09.240
+from Hilbert's mathematical project
+through Turing church, etc..
+
+478
+00:27:09.240 --> 00:27:11.960
+And now you can go to the next slide.
+
+479
+00:27:11.960 --> 00:27:14.800
+By the way, I can share this
+with anybody who's interested
+
+480
+00:27:14.800 --> 00:27:19.400
+all the way through how of course, which 
+I think I counted as a media project
+
+481
+00:27:20.480 --> 00:27:21.800
+which influenced
+
+482
+00:27:21.800 --> 00:27:25.040
+everybody's view of AI
+in that period of time.
+
+483
+00:27:25.080 --> 00:27:27.840
+And the Eliza and then has the influence.
+
+484
+00:27:27.840 --> 00:27:30.960
+So I've traced
+and I basically did this as a mind map
+
+485
+00:27:30.960 --> 00:27:32.080
+tracing the technical project.
+
+486
+00:27:32.080 --> 00:27:34.000
+And every one of these has, you know,
+
+487
+00:27:34.000 --> 00:27:36.920
+well, not everyone, but most of them,
+I try and have citations.
+
+488
+00:27:36.920 --> 00:27:39.400
+But then there's
+the technical project of genealogy.
+
+489
+00:27:39.400 --> 00:27:42.640
+Go ahead and no.
+
+490
+00:27:42.880 --> 00:27:45.480
+Okay, fine. And the technical genealogy,
+of course.
+
+491
+00:27:45.480 --> 00:27:47.240
+Now we have all these codes.
+
+492
+00:27:47.240 --> 00:27:53.000
+And so these programs
+and we have my program,
+
+493
+00:27:53.000 --> 00:27:56.280
+we have a Lisp version of Eliza
+that was written shortly
+
+494
+00:27:56.280 --> 00:28:00.600
+after based on the algorithm was shortly
+after the publication of the CSM article.
+
+495
+00:28:00.600 --> 00:28:05.480
+We found the, you know, in 2021,
+we found the actual original Eliza.
+
+496
+00:28:05.480 --> 00:28:07.640
+And next slide.
+
+497
+00:28:07.640 --> 00:28:11.360
+So what I did is
+I had been collecting these
+
+498
+00:28:11.360 --> 00:28:14.680
+in this site called Eliza Gen,
+which stands for Eliza Genealogy.
+
+499
+00:28:14.680 --> 00:28:19.440
+And by the way, this is the site you can
+go to to see it says the original idea.
+
+500
+00:28:19.440 --> 00:28:20.440
+If you click through there.
+
+501
+00:28:20.440 --> 00:28:23.440
+I don't have a picture of this,
+but you can go to the original code.
+
+502
+00:28:23.440 --> 00:28:25.080
+Nope. Next.
+
+503
+00:28:25.080 --> 00:28:25.440
+All right.
+
+504
+00:28:25.440 --> 00:28:26.040
+Okay,
+
+505
+00:28:26.040 --> 00:28:28.640
+so what I did is
+I took not all of these versions
+
+506
+00:28:28.640 --> 00:28:29.840
+because I have hundreds of versions,
+
+507
+00:28:29.840 --> 00:28:33.360
+but I took a exemplary versions,
+and they're the ones named on the left.
+
+508
+00:28:33.560 --> 00:28:34.720
+And don't worry about them.
+
+509
+00:28:34.720 --> 00:28:38.520
+They are otherwise other other than 
+it says what programing language
+
+510
+00:28:38.520 --> 00:28:39.000
+they're written in.
+
+511
+00:28:39.000 --> 00:28:40.720
+So you can see I've got Lisp versions,
+COBOL
+
+512
+00:28:40.720 --> 00:28:44.640
+versions, basic versions,
+you know, Python versions, et cetera, etc.
+
+513
+00:28:44.680 --> 00:28:47.680
+the original Matz
+that the one to pay attention to is
+
+514
+00:28:47.680 --> 00:28:51.840
+the one called see where it
+
+515
+00:28:53.040 --> 00:28:54.080
+is visible.
+
+516
+00:28:54.080 --> 00:28:55.560
+65 mail slip.
+
+517
+00:28:55.560 --> 00:28:59.480
+And then what I did is created
+a bunch of features role
+
+518
+00:28:59.520 --> 00:29:02.520
+based, pattern matching, keyword
+priority, etc.
+
+519
+00:29:02.720 --> 00:29:06.200
+these are not features
+at the programing level, but features
+
+520
+00:29:06.200 --> 00:29:10.000
+at the algorithmic level,
+or it's in some content
+
+521
+00:29:10.120 --> 00:29:12.000
+even higher than that
+of the conceptual level.
+
+522
+00:29:12.000 --> 00:29:13.240
+Okay. Next slide.
+
+523
+00:29:13.240 --> 00:29:16.280
+And then what I did
+is made a matrix of on the top.
+
+524
+00:29:16.280 --> 00:29:17.680
+You have those features now.
+
+525
+00:29:17.680 --> 00:29:20.600
+And on the side you have the different
+versions and basically just made a matrix.
+
+526
+00:29:20.600 --> 00:29:24.960
+This is the way you do phylogeny
+in biology I'm a molecular biologist
+
+527
+00:29:24.960 --> 00:29:26.520
+in addition to computer scientist.
+
+528
+00:29:26.520 --> 00:29:30.200
+And so then I dropped it into a standard
+biological phylogenetic engine.
+
+529
+00:29:30.200 --> 00:29:31.880
+Next slide.
+
+530
+00:29:31.880 --> 00:29:35.760
+And you and it creates a tree.
+
+531
+00:29:35.760 --> 00:29:41.360
+So you can see based on this feature set
+what in a sense came from what.
+
+532
+00:29:41.360 --> 00:29:44.960
+Just in the same sense that
+or in a similar analogous metaphorical,
+
+533
+00:29:45.000 --> 00:29:50.280
+maybe close analogous sense to which 
+organisms come from other organisms.
+
+534
+00:29:50.280 --> 00:29:52.760
+Now, it turns out programs
+don't really work that way.
+
+535
+00:29:52.760 --> 00:29:56.400
+That is to say, programs
+are not genetically related to each other.
+
+536
+00:29:56.400 --> 00:29:58.960
+They go through many different things
+that mind mapping.
+
+537
+00:29:58.960 --> 00:30:01.280
+There's influence through the media.
+There's influence.
+
+538
+00:30:01.280 --> 00:30:04.240
+You know, people may have traded
+code, et cetera, etc..
+
+539
+00:30:04.240 --> 00:30:05.200
+So there's a sort of
+
+540
+00:30:05.200 --> 00:30:08.400
+very interesting question
+about what this is actually showing us.
+
+541
+00:30:08.480 --> 00:30:10.640
+But it does tell us if you follow the.
+
+542
+00:30:10.640 --> 00:30:15.240
+So at the top level, you have the one
+I don't know, you guys can see my mouse.
+
+543
+00:30:15.360 --> 00:30:17.560
+No, you wouldn't be able to see my mouse
+because it's on screen.
+
+544
+00:30:17.560 --> 00:30:20.920
+But anyway E90 near the bottom is 19
+
+545
+00:30:20.920 --> 00:30:25.440
+and all the ones at the top
+including Anthony's the hay 21 keep.
+
+546
+00:30:25.920 --> 00:30:28.520
+That is the one that you're going to see
+when David does the demo.
+
+547
+00:30:28.520 --> 00:30:31.000
+And thankfully they all cluster together.
+
+548
+00:30:31.000 --> 00:30:35.880
+And then way farther away are things like
+the Lisp versions and basic versions.
+
+549
+00:30:35.880 --> 00:30:38.360
+And it's not because they're written
+a different programing languages,
+
+550
+00:30:38.360 --> 00:30:42.240
+because you can see at the top
+or to the right, you have Babcock's Basic
+
+551
+00:30:42.240 --> 00:30:43.360
+and Cherry's list.
+
+552
+00:30:43.360 --> 00:30:44.760
+They actually cluster together.
+
+553
+00:30:44.760 --> 00:30:47.560
+So this just telling us something,
+but it's not telling us everything.
+
+554
+00:30:47.560 --> 00:30:49.240
+So go to the next slide.
+
+555
+00:30:49.240 --> 00:30:52.800
+So the other thing I was going to
+talk about is this very important finding.
+
+556
+00:30:52.840 --> 00:30:56.320
+And to my mind this is the most important
+novel finding anyway,
+
+557
+00:30:56.600 --> 00:31:01.080
+which is that I was not a chatbot
+or at least was not intended a chatbot
+
+558
+00:31:01.120 --> 00:31:01.960
+by wasn't built.
+
+559
+00:31:01.960 --> 00:31:05.200
+It was intended as a research platform
+to study this thing.
+
+560
+00:31:05.200 --> 00:31:09.040
+I'm calling in teleport
+Morpheus and teleport teleport morphism.
+
+561
+00:31:09.320 --> 00:31:11.800
+And we can tell this
+because if you go to the next slide,
+
+562
+00:31:11.800 --> 00:31:14.600
+there's a lot of evidence
+a David or Mark.
+
+563
+00:31:14.600 --> 00:31:17.520
+Someone mentioned the data mission paper.
+Oh, sorry.
+
+564
+00:31:17.520 --> 00:31:19.480
+This is a paper
+which I published this in.
+
+565
+00:31:19.480 --> 00:31:23.920
+Okay, so the first piece of evidence
+is the title of the paper.
+
+566
+00:31:24.000 --> 00:31:27.640
+He doesn't say Eliza,
+a parody of a psychiatrist,
+
+567
+00:31:27.640 --> 00:31:30.640
+or Eliza, a computer program
+that talks to you.
+
+568
+00:31:30.680 --> 00:31:32.880
+He tells us, Eliza a computer program
+
+569
+00:31:32.880 --> 00:31:37.200
+for the study of natural language
+communication between man and machine.
+
+570
+00:31:37.200 --> 00:31:39.880
+Stabbed or sick, I suppose.
+
+571
+00:31:39.880 --> 00:31:41.400
+And machine.
+
+572
+00:31:41.400 --> 00:31:43.320
+So he's telling us right there
+
+573
+00:31:43.320 --> 00:31:47.040
+that it's a that it's a research platform
+and it uses all these different.
+
+574
+00:31:47.080 --> 00:31:49.640
+You can do all this research
+and he actually did research with it.
+
+575
+00:31:49.640 --> 00:31:50.800
+Go to the next slide.
+
+576
+00:31:52.480 --> 00:31:53.360
+So oh sorry.
+
+577
+00:31:53.360 --> 00:31:54.520
+This is the data paper.
+
+578
+00:31:54.520 --> 00:31:55.240
+And I want to point out
+
+579
+00:31:55.240 --> 00:31:58.240
+something in the data paper
+I think Mark put it in a little to
+
+580
+00:31:58.480 --> 00:32:00.560
+I wouldn't say that
+the main point of the data
+
+581
+00:32:00.560 --> 00:32:04.560
+mission paper was literally its title,
+How to Make Them, but really a critique.
+
+582
+00:32:04.560 --> 00:32:07.720
+Notice that he emphasizes the the appear.
+
+583
+00:32:07.920 --> 00:32:13.200
+And if you go to the next slide,
+I have a quote from there in the first,
+
+584
+00:32:13.400 --> 00:32:16.320
+actually, it's the second paragraph,
+but on the first left of the page,
+
+585
+00:32:16.320 --> 00:32:18.520
+if you go,
+I wish I could point on the mouse.
+
+586
+00:32:18.520 --> 00:32:22.600
+You say it starts from about 
+three quarters of the way down, he says.
+
+587
+00:32:22.600 --> 00:32:25.480
+The author of an artificial intelligence
+program.
+
+588
+00:32:25.480 --> 00:32:26.400
+Sorry.
+
+589
+00:32:26.400 --> 00:32:29.440
+When the observer begins to understand
+how it works, they believe that it's
+
+590
+00:32:29.480 --> 00:32:32.440
+that it's merely mechanical,
+not really intelligent.
+
+591
+00:32:32.440 --> 00:32:32.880
+Okay.
+
+592
+00:32:32.880 --> 00:32:37.840
+And then his success could be measured
+by the percentage of the exposed observers
+
+593
+00:32:37.840 --> 00:32:39.040
+who have been fooled.
+
+594
+00:32:39.040 --> 00:32:43.000
+Notice this 1962 he's writing
+this have been fooled,
+
+595
+00:32:43.000 --> 00:32:46.400
+multiplied by the length of time
+they have failed to catch on programs.
+
+596
+00:32:46.440 --> 00:32:49.600
+Programmers become so complex,
+either by themselves or learning programs.
+
+597
+00:32:49.600 --> 00:32:52.600
+By virtue of the author's
+poor documentation and debugging habits.
+
+598
+00:32:53.240 --> 00:32:56.320
+The author himself loses track
+obviously have the highest IQ, so he's
+
+599
+00:32:56.320 --> 00:33:00.960
+very, very, aggressively
+
+600
+00:33:01.120 --> 00:33:04.120
+critical of AI,
+even from his very first publication.
+
+601
+00:33:04.120 --> 00:33:05.160
+Next slide.
+
+602
+00:33:05.160 --> 00:33:09.280
+But he became interested
+when the MIT in studying this.
+
+603
+00:33:09.280 --> 00:33:12.240
+And my claim is
+that Eliza is a platform for doing this.
+
+604
+00:33:12.240 --> 00:33:15.800
+There was only one experiment of this sort
+ever done, in fact,
+
+605
+00:33:15.840 --> 00:33:19.080
+a version of Eliza, slightly modified,
+but basically the same thing
+
+606
+00:33:19.080 --> 00:33:20.320
+using the script called Yap.
+
+607
+00:33:20.320 --> 00:33:25.280
+Yap was used at MSG for this.
+
+608
+00:33:25.280 --> 00:33:28.280
+Is it Harvard or General MG?
+
+609
+00:33:28.480 --> 00:33:30.200
+Essentially they don't say in this thing.
+
+610
+00:33:30.200 --> 00:33:34.400
+But anyway, at a psychiatric lab
+across the across
+
+611
+00:33:34.400 --> 00:33:38.000
+the Charles to study
+
+612
+00:33:38.240 --> 00:33:42.320
+exactly this thing,
+which is basically how, you know, what
+
+613
+00:33:42.320 --> 00:33:46.760
+can you put into the program to get people
+to believe it or not believe it.
+
+614
+00:33:46.760 --> 00:33:49.880
+And if you go to the next slide,
+this is this, the data
+
+615
+00:33:49.880 --> 00:33:51.280
+from this study,
+the thing on the left here
+
+616
+00:33:51.280 --> 00:33:55.640
+I don't expect you to read it, is
+these are some of the actual scripts.
+
+617
+00:33:55.640 --> 00:33:56.880
+We have the actual scripts.
+
+618
+00:33:56.880 --> 00:33:59.840
+It is some of the few
+until very to literally this week.
+
+619
+00:33:59.840 --> 00:34:04.480
+These are the only known real
+conversations that we have dozens of these
+
+620
+00:34:04.520 --> 00:34:09.480
+that you can again get on the site
+of real people's real conversations. The
+
+621
+00:34:09.560 --> 00:34:12.520
+they posted the data, including the names
+
+622
+00:34:12.520 --> 00:34:15.880
+which we redacted of the subjects,
+
+623
+00:34:16.880 --> 00:34:18.440
+and the finding.
+
+624
+00:34:18.440 --> 00:34:23.200
+One of the findings of the study
+was that this maintenance of plausibility.
+
+625
+00:34:23.520 --> 00:34:27.280
+So 62% had no had
+
+626
+00:34:27.280 --> 00:34:30.720
+few or no doubts
+that they were conversing with a human,
+
+627
+00:34:30.760 --> 00:34:33.960
+despite the relatively high percentage
+of inappropriate replies.
+
+628
+00:34:33.960 --> 00:34:36.040
+If you've ever used to realize it,
+we'll see this later.
+
+629
+00:34:36.040 --> 00:34:39.040
+It's really bad at conversation,
+especially compared to,
+
+630
+00:34:39.040 --> 00:34:40.360
+you know, modern lens.
+
+631
+00:34:40.360 --> 00:34:42.600
+It's more like a terrible chatbot.
+
+632
+00:34:42.600 --> 00:34:43.760
+Okay, go to the next slide.
+
+633
+00:34:43.760 --> 00:34:48.040
+So the other reason we know that
+this is what he wanted to do
+
+634
+00:34:48.160 --> 00:34:51.520
+is that there's an we discovered
+an unpublished manuscript
+
+635
+00:34:51.520 --> 00:34:53.920
+that was supposed to be published
+or he had involved.
+
+636
+00:34:53.920 --> 00:34:55.000
+He decided it wasn't.
+
+637
+00:34:55.000 --> 00:34:57.200
+One wanted to publish next to the Eliza.
+
+638
+00:34:57.200 --> 00:34:57.920
+It says, the top
+
+639
+00:34:57.920 --> 00:35:02.080
+outline of paper to accompany Professor
+Wiseman's Eliza paper and Eliza Boat.
+
+640
+00:35:02.080 --> 00:35:06.120
+As it's signed by Weissenborn, we found
+a version that's actually signed by him.
+
+641
+00:35:06.320 --> 00:35:09.000
+I mean, he says,
+if you go to the next slide,
+
+642
+00:35:09.000 --> 00:35:11.360
+what he wants to do is
+he wants to understand
+
+643
+00:35:11.360 --> 00:35:14.720
+partial understanding,
+understanding and misunderstanding.
+
+644
+00:35:14.880 --> 00:35:15.120
+Right.
+
+645
+00:35:15.120 --> 00:35:18.400
+This was his goal of doing this
+in didactic communication
+
+646
+00:35:18.400 --> 00:35:21.400
+derives from clinical observation
+and the experimentally demonstrated
+
+647
+00:35:21.480 --> 00:35:24.480
+demonstrable effects
+that one or both parties in a two party
+
+648
+00:35:24.480 --> 00:35:28.200
+conversation is under the impression
+that they are understood by the other.
+
+649
+00:35:28.240 --> 00:35:32.840
+This is 1964 at this point,
+and this is what he wanted to study.
+
+650
+00:35:32.840 --> 00:35:37.200
+We found this material in the archives
+and the
+
+651
+00:35:37.240 --> 00:35:40.920
+and the data was in the Garfinkel archives
+due to an rolls.
+
+652
+00:35:40.960 --> 00:35:42.720
+Okay. Last slide.
+
+653
+00:35:42.720 --> 00:35:45.800
+So at the end I'll come back
+and I'll give you a demo
+
+654
+00:35:45.800 --> 00:35:48.920
+of the
+of the real Eliza that we reanimated.
+
+655
+00:35:49.920 --> 00:35:52.360
+Art. You're up.
+
+656
+00:35:52.360 --> 00:35:53.960
+Well, there are two parts of this.
+
+657
+00:35:53.960 --> 00:35:56.920
+As a software developer,
+that's interesting.
+
+658
+00:35:56.920 --> 00:35:59.920
+Our screen is just changed
+as a software developer.
+
+659
+00:35:59.920 --> 00:36:03.520
+But what is inbound
+then is absolutely fascinating.
+
+660
+00:36:03.520 --> 00:36:08.840
+We use what he did in the current time
+for our own software development.
+
+661
+00:36:09.400 --> 00:36:14.040
+It includes an API,
+an application programing interface.
+
+662
+00:36:14.040 --> 00:36:18.280
+That is, Eliza is a program,
+and within that program
+
+663
+00:36:18.280 --> 00:36:22.520
+it uses another series of functions
+to support itself.
+
+664
+00:36:22.560 --> 00:36:26.840
+This is probably the first use
+of something like that.
+
+665
+00:36:26.840 --> 00:36:29.360
+And slip, by the way, is interesting.
+
+666
+00:36:29.360 --> 00:36:34.280
+It uses regular expressions,
+probably from a language called comment.
+
+667
+00:36:34.480 --> 00:36:37.680
+It uses it for assembly
+and disassembly of output.
+
+668
+00:36:37.680 --> 00:36:40.800
+That is the recognition of the user input
+
+669
+00:36:40.800 --> 00:36:44.320
+and the construction of output.
+
+670
+00:36:44.400 --> 00:36:47.360
+It uses that. And that is a factor.
+
+671
+00:36:47.360 --> 00:36:52.640
+And the process of making the output
+appear to be
+
+672
+00:36:52.840 --> 00:36:57.240
+something that a machine understands,
+that the machine understands
+
+673
+00:36:57.240 --> 00:37:01.120
+the user by constructing
+the user's comment and a productive
+
+674
+00:37:01.120 --> 00:37:04.440
+way, it separates data from programing.
+
+675
+00:37:04.480 --> 00:37:06.400
+Again, this is fascinating.
+
+676
+00:37:06.400 --> 00:37:10.760
+And instead of writing a program
+in which the entire program is written,
+
+677
+00:37:10.760 --> 00:37:14.040
+including what it needs
+to do to do its job.
+
+678
+00:37:14.280 --> 00:37:15.640
+Why isn't Bandon?
+
+679
+00:37:15.640 --> 00:37:20.320
+He's he's pretty separated
+that we have a program called Eliza.
+
+680
+00:37:20.360 --> 00:37:25.240
+Eliza does a particular thing,
+but to do its job, we have a script.
+
+681
+00:37:25.240 --> 00:37:28.680
+And the script basically tells Eliza
+what to do.
+
+682
+00:37:28.880 --> 00:37:33.240
+You can have one program,
+Eliza, and 1000 scripts
+
+683
+00:37:33.320 --> 00:37:37.040
+rather than 1000 programs, each
+doing one thing.
+
+684
+00:37:37.240 --> 00:37:39.560
+It's absolutely fascinating.
+
+685
+00:37:40.800 --> 00:37:44.600
+Much
+of the stuff that that Weissenborn did
+
+686
+00:37:44.640 --> 00:37:45.560
+is to take things
+
+687
+00:37:45.560 --> 00:37:50.200
+from other projects in other areas
+and incorporate it into his work,
+
+688
+00:37:50.200 --> 00:37:55.800
+so he melded the output of other,
+other projects into Eliza.
+
+689
+00:37:55.800 --> 00:38:00.880
+And with that,
+he showed that you can use other programs
+
+690
+00:38:00.880 --> 00:38:05.560
+to facilitate the generation
+of your program at the time.
+
+691
+00:38:05.800 --> 00:38:10.320
+And I unfortunately, I'm an old, old,
+really old programmer.
+
+692
+00:38:10.320 --> 00:38:12.880
+At the time, that was unheard of.
+
+693
+00:38:12.880 --> 00:38:16.920
+You wrote your program
+and you ignored everyone else's.
+
+694
+00:38:18.120 --> 00:38:21.840
+It forms
+part of the framework that we do now.
+
+695
+00:38:23.480 --> 00:38:26.280
+That was part of the interaction
+with the user.
+
+696
+00:38:26.280 --> 00:38:28.800
+Eliza includes deception.
+
+697
+00:38:28.800 --> 00:38:32.320
+This is a deliberate attempt to hide
+
+698
+00:38:32.400 --> 00:38:36.240
+that Eliza is a program
+in order to fool people.
+
+699
+00:38:36.240 --> 00:38:39.160
+That thinking, to think it's a person.
+
+700
+00:38:39.160 --> 00:38:41.800
+I'll go into this just a little bit more.
+
+701
+00:38:41.800 --> 00:38:44.440
+The deception itself is very clever.
+
+702
+00:38:44.440 --> 00:38:47.440
+If you keep moving,
+this mark will never be able to finish.
+
+703
+00:38:47.600 --> 00:38:49.400
+Sorry about that. Sorry.
+
+704
+00:38:49.400 --> 00:38:51.560
+It's glitching.
+Glitching in all sorts of ways.
+
+705
+00:38:51.560 --> 00:38:52.800
+Hold on. Give me a second.
+
+706
+00:38:54.600 --> 00:38:55.080
+There we go.
+
+707
+00:38:55.080 --> 00:38:56.400
+Thank you.
+
+708
+00:38:56.400 --> 00:38:58.840
+So, your bank account, Mark.
+We could do that. Yeah, exactly.
+
+709
+00:38:58.840 --> 00:39:04.160
+Is. Deception is so clever that you have
+to wonder how we could think of it.
+
+710
+00:39:04.200 --> 00:39:07.920
+What he did is he included
+
+711
+00:39:08.040 --> 00:39:13.880
+dialogs that or fragments of dialogs
+that were done in the past,
+
+712
+00:39:13.880 --> 00:39:17.960
+and he stacked them,
+and that various times he took this
+
+713
+00:39:18.040 --> 00:39:23.600
+performer dialogs and presented him
+at the user as a new question.
+
+714
+00:39:23.600 --> 00:39:27.280
+So the user would think
+that this person, i.e.
+
+715
+00:39:27.280 --> 00:39:32.280
+Eliza, thought about what was said before
+and now introduces it.
+
+716
+00:39:32.320 --> 00:39:35.360
+It's a person that introduces from memory.
+
+717
+00:39:35.760 --> 00:39:39.920
+He reformatted the current dialog
+into a new one.
+
+718
+00:39:39.920 --> 00:39:43.720
+That is, you have a dialog
+and it seems to be okay.
+
+719
+00:39:43.720 --> 00:39:47.840
+But what what the wise man did
+
+720
+00:39:47.880 --> 00:39:53.920
+is he actually took parts of that dialog
+and reformatted into another question
+
+721
+00:39:53.920 --> 00:39:57.880
+or another statement, which he then went
+through his system through to produce
+
+722
+00:39:57.880 --> 00:40:03.720
+another output, which was more or less
+semi related to what you've already input.
+
+723
+00:40:03.880 --> 00:40:06.360
+Another deception.
+
+724
+00:40:06.360 --> 00:40:09.760
+I will get into some
+of this later very quickly.
+
+725
+00:40:11.120 --> 00:40:14.120
+Well, we'll get into it now.
+
+726
+00:40:15.800 --> 00:40:17.120
+Okay.
+
+727
+00:40:17.120 --> 00:40:19.200
+Well let's let's.
+
+728
+00:40:19.200 --> 00:40:20.280
+What are we doing here?
+
+729
+00:40:20.280 --> 00:40:23.560
+I'm I'm will confused. Is this slide.
+
+730
+00:40:23.880 --> 00:40:25.840
+This was the code slide.
+
+731
+00:40:25.840 --> 00:40:28.840
+It sounded like
+you were moving on to the next point.
+
+732
+00:40:30.680 --> 00:40:32.640
+Well I wasn't.
+
+733
+00:40:32.640 --> 00:40:34.360
+Okay.
+
+734
+00:40:34.360 --> 00:40:39.240
+Well, let me let me tell you about
+how this deception works in practice.
+
+735
+00:40:39.520 --> 00:40:43.280
+Suppose you're talking to your friend
+and you say to your friend
+
+736
+00:40:43.280 --> 00:40:44.960
+something, anything.
+
+737
+00:40:44.960 --> 00:40:47.840
+And your friend says, well,
+what do you mean?
+
+738
+00:40:47.840 --> 00:40:50.800
+You would immediately know
+that your friend didn't
+
+739
+00:40:50.800 --> 00:40:54.880
+understand what you said,
+and you would say, it's your fault
+
+740
+00:40:54.880 --> 00:40:58.880
+for doing that and will reformat
+whatever you are speaking about.
+
+741
+00:40:59.360 --> 00:41:01.160
+Suppose you're talking to machines.
+
+742
+00:41:01.160 --> 00:41:05.760
+Suppose you're talking to Eliza, and Eliza
+comes back and says, what do you mean?
+
+743
+00:41:06.200 --> 00:41:07.960
+You think of yourself.
+
+744
+00:41:07.960 --> 00:41:11.160
+It's your fault
+that the machine doesn't understand.
+
+745
+00:41:11.200 --> 00:41:16.200
+So you format your comment
+so that the machine can understand it.
+
+746
+00:41:16.480 --> 00:41:19.000
+The machine doesn't quite think the same.
+
+747
+00:41:19.000 --> 00:41:22.320
+The machine says, I can find
+
+748
+00:41:22.320 --> 00:41:25.960
+a sentence that matches the sentence
+that was given to me.
+
+749
+00:41:25.960 --> 00:41:29.360
+I don't know what to do,
+so I'm going to ask the user
+
+750
+00:41:29.360 --> 00:41:32.720
+to provide me a new sentence
+that I could understand.
+
+751
+00:41:33.400 --> 00:41:37.920
+If you knew that as a user,
+you would not think of it as a person.
+
+752
+00:41:37.920 --> 00:41:39.320
+You would think of it as a machine.
+
+753
+00:41:39.320 --> 00:41:42.400
+But when the machine says,
+what do you mean?
+
+754
+00:41:42.440 --> 00:41:45.040
+You immediately say, it's my fault.
+
+755
+00:41:45.040 --> 00:41:49.160
+I didn't explain myself properly
+rather than the machine's fault,
+
+756
+00:41:49.160 --> 00:41:53.320
+it doesn't understand properly
+the other facet,
+
+757
+00:41:53.320 --> 00:41:57.760
+which is the reason that it never
+really grew into something greater,
+
+758
+00:41:57.760 --> 00:42:01.520
+is that basically it has a static view
+of the universe,
+
+759
+00:42:01.720 --> 00:42:04.720
+cleverly placed, but a static view.
+
+760
+00:42:05.320 --> 00:42:10.320
+That means that all the questions
+you could possibly ask are known,
+
+761
+00:42:10.800 --> 00:42:15.200
+and all the answers
+that could possibly given are known.
+
+762
+00:42:16.800 --> 00:42:18.960
+It is impossible for
+
+763
+00:42:18.960 --> 00:42:24.080
+for this program
+to have any idea of semantic content.
+
+764
+00:42:24.080 --> 00:42:26.720
+To understand what is being said.
+
+765
+00:42:26.720 --> 00:42:30.360
+All it can do is to take a sentence
+it knows,
+
+766
+00:42:30.400 --> 00:42:34.400
+change it into a question
+it can ask and ask that question.
+
+767
+00:42:34.400 --> 00:42:39.520
+For example, suppose I said I hate you.
+
+768
+00:42:40.480 --> 00:42:43.840
+Well, in saying that the computer
+
+769
+00:42:43.880 --> 00:42:47.400
+would reform that to say you hate me.
+
+770
+00:42:47.760 --> 00:42:48.960
+Notice what's happened.
+
+771
+00:42:48.960 --> 00:42:51.600
+First, the computer understands the word.
+
+772
+00:42:51.600 --> 00:42:56.320
+The letter I hate it understands
+and you and transforms it.
+
+773
+00:42:56.360 --> 00:42:58.720
+So that's the first part of what it does.
+
+774
+00:42:58.720 --> 00:43:01.480
+But suppose and then ask a question.
+
+775
+00:43:01.480 --> 00:43:04.480
+For example, why do you hate me?
+
+776
+00:43:04.920 --> 00:43:07.920
+Suppose you say I hate George.
+
+777
+00:43:08.320 --> 00:43:11.400
+The computer would answer,
+why do you hate George?
+
+778
+00:43:11.440 --> 00:43:14.440
+Seemingly understanding what you have said
+
+779
+00:43:14.440 --> 00:43:18.240
+and transforming it into question
+that you can understand.
+
+780
+00:43:18.440 --> 00:43:23.680
+That's why people believe that
+this machine was more than just a machine
+
+781
+00:43:24.760 --> 00:43:25.120
+hobby.
+
+782
+00:43:25.120 --> 00:43:27.720
+Enjoyed it.
+
+783
+00:43:27.720 --> 00:43:28.560
+All right.
+
+784
+00:43:28.560 --> 00:43:31.560
+Is up, Peggy.
+
+785
+00:43:31.800 --> 00:43:32.800
+No you won't.
+
+786
+00:43:32.800 --> 00:43:35.000
+Can you just go back
+and say one thing about change?
+
+787
+00:43:35.000 --> 00:43:38.000
+Or should I just say that you'll say it
+later?
+
+788
+00:43:38.600 --> 00:43:40.200
+That's right. I'll just.
+
+789
+00:43:40.200 --> 00:43:41.760
+We were going to talk about change. Okay.
+
+790
+00:43:41.760 --> 00:43:46.920
+So I'm going to use my a really quick
+three minutes just to address.
+
+791
+00:43:47.040 --> 00:43:51.200
+Why are we talking about
+the inner workings and details of a
+
+792
+00:43:51.200 --> 00:43:55.160
+60 year old bot to, you know, in 2026
+
+793
+00:43:55.160 --> 00:43:59.480
+to electronic literature
+readers and writers and, and I,
+
+794
+00:43:59.840 --> 00:44:04.400
+I think we just referred to this program
+and we referred to the deception.
+
+795
+00:44:04.400 --> 00:44:09.840
+He started his famous paper in 66.
+
+796
+00:44:10.240 --> 00:44:14.160
+It is said to explain is to explain away.
+
+797
+00:44:14.200 --> 00:44:17.000
+So this is really underlying everything
+that's been said before.
+
+798
+00:44:17.000 --> 00:44:21.040
+We're he was famously distraught
+by the response,
+
+799
+00:44:21.040 --> 00:44:25.160
+by the anthropomorphism to his program
+and the uses that were suggested.
+
+800
+00:44:25.160 --> 00:44:29.200
+And we're not going to go into that today
+here, but it's in the book.
+
+801
+00:44:29.240 --> 00:44:33.560
+And so this was his attempt
+to explain away the code.
+
+802
+00:44:33.560 --> 00:44:38.920
+So I'm going to talk about bots as a
+unique branch of electronic literature,
+
+803
+00:44:38.960 --> 00:44:42.640
+creatures of emergent and variable texts
+that share elements
+
+804
+00:44:42.640 --> 00:44:43.600
+that you're interested.
+
+805
+00:44:43.600 --> 00:44:46.880
+I'm thinking drawing on my own 1998
+bot Mr.
+
+806
+00:44:46.880 --> 00:44:50.120
+Mind, which was directly influenced
+by Eliza, the Eliza Effect,
+
+807
+00:44:50.120 --> 00:44:54.320
+and my taking to heart his impassioned
+attempts to explain it away.
+
+808
+00:44:54.320 --> 00:44:56.440
+Next slide.
+
+809
+00:44:56.440 --> 00:44:59.440
+So my response was to create about
+
+810
+00:44:59.480 --> 00:45:02.480
+who attempted to explain itself away.
+
+811
+00:45:03.080 --> 00:45:05.520
+If you asked him, he'd say, I'm a
+are you telling the truth?
+
+812
+00:45:05.520 --> 00:45:07.280
+Are you lying? He'd say, I am a bot.
+
+813
+00:45:07.280 --> 00:45:09.240
+All bots are liars.
+
+814
+00:45:09.240 --> 00:45:13.200
+He used many.
+
+815
+00:45:13.320 --> 00:45:15.360
+It was very similar to an Eliza bot.
+
+816
+00:45:15.360 --> 00:45:16.760
+A little more complex.
+
+817
+00:45:16.760 --> 00:45:19.320
+If you go to the next slide, Mr..
+
+818
+00:45:19.320 --> 00:45:23.360
+Mind up from 1998 to 2014
+and then a little bit beyond
+
+819
+00:45:23.360 --> 00:45:27.520
+on the phone, and every so often
+when I could get it emulated or up again,
+
+820
+00:45:27.560 --> 00:45:30.560
+he conducted the blurring test 
+and he asked, hi.
+
+821
+00:45:30.600 --> 00:45:32.720
+Can you convince me that you're human?
+
+822
+00:45:32.720 --> 00:45:37.240
+And it wasn't a literal reverse
+Turing test, but a provocation.
+
+823
+00:45:37.240 --> 00:45:41.720
+It was my global conversation
+about humans and machines.
+
+824
+00:45:42.040 --> 00:45:43.800
+You know something?
+You're worried about it.
+
+825
+00:45:43.800 --> 00:45:45.320
+We should talk about it with a machine.
+
+826
+00:45:45.320 --> 00:45:46.680
+And to let Mr.
+
+827
+00:45:46.680 --> 00:45:49.680
+Mind explain himself away.
+
+828
+00:45:49.760 --> 00:45:51.720
+So next slide.
+
+829
+00:45:51.720 --> 00:45:57.880
+So I have some firsthand experience
+as an author composing
+
+830
+00:45:57.920 --> 00:46:01.920
+or coding conversational agent
+is really writing a one sided
+
+831
+00:46:01.920 --> 00:46:06.160
+conversation of crafting spaces
+for the reader's response.
+
+832
+00:46:06.280 --> 00:46:10.200
+Much like system
+Shandygaff has left a half a dozen places
+
+833
+00:46:10.200 --> 00:46:11.440
+purposely at the table.
+
+834
+00:46:11.440 --> 00:46:15.520
+These are for critics, but I'm also
+talking about just the reader here.
+
+835
+00:46:15.560 --> 00:46:21.520
+A bot harbors latent dialog,
+which is contingent upon the invoked
+
+836
+00:46:21.520 --> 00:46:25.560
+or provoked or anticipated
+or predicted is what the word
+
+837
+00:46:25.560 --> 00:46:29.000
+we use
+now responses of an active interlocutor.
+
+838
+00:46:29.040 --> 00:46:31.400
+So it's experienced as a dialog.
+
+839
+00:46:31.400 --> 00:46:32.760
+And this is the deception.
+
+840
+00:46:32.760 --> 00:46:34.640
+This is how we deceive ourselves.
+
+841
+00:46:34.640 --> 00:46:38.160
+The written script is really cut in half,
+marked by this range
+
+842
+00:46:38.160 --> 00:46:42.720
+of anticipatory, aleatoric, combinatory
+and iterative processes.
+
+843
+00:46:42.720 --> 00:46:45.640
+Next page, next slide.
+
+844
+00:46:45.640 --> 00:46:49.680
+So this paradox of scripting
+intentionally for chance
+
+845
+00:46:50.040 --> 00:46:53.880
+is something that
+this audience knows about and has studied
+
+846
+00:46:53.880 --> 00:46:55.280
+and takes for granted or does.
+
+847
+00:46:55.280 --> 00:46:58.280
+But Eliza was really the first to code it
+and give it
+
+848
+00:46:58.280 --> 00:47:01.840
+character, certainly practiced by people
+before that.
+
+849
+00:47:01.840 --> 00:47:02.600
+And, you know,
+
+850
+00:47:02.600 --> 00:47:05.640
+if it was practiced as a practitioner,
+whether you were throwing coins or,
+
+851
+00:47:06.240 --> 00:47:11.200
+or sticks or darts,
+but why isn't bombed as
+
+852
+00:47:12.280 --> 00:47:13.720
+somebody just mentioned?
+
+853
+00:47:13.720 --> 00:47:15.360
+I guess it was art.
+
+854
+00:47:15.360 --> 00:47:19.080
+His program allowed for multiple personas,
+which we could change
+
+855
+00:47:19.080 --> 00:47:22.880
+two characters, right, in the form
+of scripts.
+
+856
+00:47:22.880 --> 00:47:25.440
+So we're most familiar
+with the doctor script.
+
+857
+00:47:25.440 --> 00:47:30.680
+The doctor script is Eliza,
+but there were others, as maybe
+
+858
+00:47:30.880 --> 00:47:35.240
+David
+and both Jeff talked about with student
+
+859
+00:47:35.240 --> 00:47:38.240
+and other other scripts
+used for different purposes.
+
+860
+00:47:38.480 --> 00:47:42.120
+As we almost mentioned,
+
+861
+00:47:42.120 --> 00:47:47.040
+our team discovered the change function,
+which allowed the author
+
+862
+00:47:47.360 --> 00:47:50.200
+and you know why did not think of himself
+
+863
+00:47:50.200 --> 00:47:53.720
+as creating a character
+and an author in a literary sense?
+
+864
+00:47:53.800 --> 00:47:58.440
+But there's this expectation that also
+future authors would have this ability to,
+
+865
+00:47:58.480 --> 00:48:02.480
+or at least if he didn't anticipate
+that and did that or
+
+866
+00:48:02.600 --> 00:48:04.200
+or whether he did that intentionally.
+
+867
+00:48:04.200 --> 00:48:07.440
+It certainly gave us this ability
+to iterate
+
+868
+00:48:07.440 --> 00:48:11.120
+responsively,
+sometimes within the work itself.
+
+869
+00:48:11.120 --> 00:48:14.360
+And when you go through the code, you can
+you might mention that.
+
+870
+00:48:14.400 --> 00:48:16.280
+Oh, so one,
+
+871
+00:48:17.760 --> 00:48:20.160
+we didn't did we say here?
+
+872
+00:48:20.160 --> 00:48:23.160
+Okay. Yeah. So.
+
+873
+00:48:23.520 --> 00:48:24.920
+I think we can skip that
+
+874
+00:48:24.920 --> 00:48:28.560
+because we have a lot more to do,
+you know LMS.
+
+875
+00:48:28.600 --> 00:48:29.600
+Nope nope nope.
+
+876
+00:48:29.600 --> 00:48:32.360
+Back okay.
+
+877
+00:48:32.360 --> 00:48:36.880
+So LMS trained on the internet
+from data, acquired both legally
+
+878
+00:48:36.880 --> 00:48:40.040
+and illegally, leave a very different
+shaped place at the table.
+
+879
+00:48:40.320 --> 00:48:44.960
+A far more fawning and post
+than our friend Tristram Shandygaff.
+
+880
+00:48:44.960 --> 00:48:49.000
+But I'm hoping that this audience
+will find new ways, not just to shift
+
+881
+00:48:49.000 --> 00:48:53.760
+the chairs on the deck,
+but to leave some new space
+
+882
+00:48:53.840 --> 00:48:56.840
+at at the table.
+
+883
+00:48:57.080 --> 00:48:58.480
+So I'm.
+
+884
+00:48:58.480 --> 00:49:02.960
+This is a
+mister mind early from the 90s. Hi.
+
+885
+00:49:02.960 --> 00:49:04.520
+I wonder what effect I have on you.
+
+886
+00:49:04.520 --> 00:49:06.160
+User says you make me think.
+
+887
+00:49:06.160 --> 00:49:09.680
+Mr. mind says humans
+only think they understand thinking.
+
+888
+00:49:09.680 --> 00:49:12.240
+So that was keyed by think user.
+
+889
+00:49:12.240 --> 00:49:14.000
+Do you understand it better than humans.
+
+890
+00:49:14.000 --> 00:49:16.960
+So that user was keyed by understand Mr.
+
+891
+00:49:16.960 --> 00:49:17.200
+mind.
+
+892
+00:49:17.200 --> 00:49:20.640
+I understand exactly what
+I've been trained to understand.
+
+893
+00:49:21.080 --> 00:49:25.320
+I understand and the user answers
+I understand more than that.
+
+894
+00:49:25.360 --> 00:49:26.800
+So thank you very much.
+
+895
+00:49:28.280 --> 00:49:28.680
+Great.
+
+896
+00:49:28.680 --> 00:49:32.600
+And then just to close a parenthesis
+that Peggy opened and that I opened by
+
+897
+00:49:32.600 --> 00:49:36.720
+moving to that slide, the change function
+we found gave scriptures
+
+898
+00:49:36.720 --> 00:49:41.560
+the ability to change a script
+while the Eliza program was running.
+
+899
+00:49:41.560 --> 00:49:44.600
+So to edit a script
+while while the program was running.
+
+900
+00:49:44.640 --> 00:49:46.320
+Right. It's important.
+
+901
+00:49:46.320 --> 00:49:51.040
+So. So Jeff has suggested, rather than us
+going to the demo of the revived Eliza,
+
+902
+00:49:51.080 --> 00:49:52.800
+that maybe we should open up for questions
+
+903
+00:49:52.800 --> 00:49:54.680
+at this point in time,
+which probably is a good idea.
+
+904
+00:49:54.680 --> 00:49:59.360
+This also, there's a short plug for this
+event that's happening in Los Angeles
+
+905
+00:49:59.400 --> 00:50:04.240
+on Monday in case any there they're not
+on Monday on Sunday Sunday Sunday Sunday.
+
+906
+00:50:04.240 --> 00:50:05.840
+Thank you Sunday okay.
+
+907
+00:50:05.840 --> 00:50:06.560
+So thank you.
+
+908
+00:50:06.560 --> 00:50:08.840
+So let's yeah let's open up to questions.
+
+909
+00:50:14.680 --> 00:50:17.680
+I have some comments go by
+
+910
+00:50:18.520 --> 00:50:19.160
+lots of comments.
+
+911
+00:50:19.160 --> 00:50:21.720
+There were a bunch of
+so we didn't have time to read them.
+
+912
+00:50:21.720 --> 00:50:25.720
+So somebody wants to and also
+and as long as he's here clapping
+
+913
+00:50:25.720 --> 00:50:29.520
+we do have to thank Noah who's in the room
+without whom this book was not,
+
+914
+00:50:29.560 --> 00:50:33.800
+you know, is running the software
+study series and encouraging us to pursue
+
+915
+00:50:33.800 --> 00:50:37.200
+this project, as is everyone.
+
+916
+00:50:37.200 --> 00:50:39.280
+Just like dying to see the demos.
+
+917
+00:50:39.280 --> 00:50:42.800
+Is that what's going on, or do they have
+questions that they've already stated?
+
+918
+00:50:42.800 --> 00:50:45.080
+I see some some points and some comments.
+
+919
+00:50:45.080 --> 00:50:47.200
+It's sort of hard
+to read and talk at the same time,
+
+920
+00:50:47.200 --> 00:50:51.080
+so they'd have to actually
+bring them up their hand to ask,
+
+921
+00:50:51.080 --> 00:50:55.000
+okay, well, Jeff, why don't you show us
+the demo of the revision?
+
+922
+00:50:55.000 --> 00:50:56.280
+I think David was going to go first.
+
+923
+00:50:56.280 --> 00:50:59.000
+Or did you do your know
+David or Carrie did his in the.
+
+924
+00:50:59.000 --> 00:51:00.120
+Oh, okay. Great.
+
+925
+00:51:00.120 --> 00:51:01.400
+So I'll take over the screen.
+
+926
+00:51:01.400 --> 00:51:04.560
+So what I'm going to attempt to do here
+is run
+
+927
+00:51:04.560 --> 00:51:08.720
+the actual original Eliza to read these.
+
+928
+00:51:08.840 --> 00:51:10.040
+So this was published.
+
+929
+00:51:10.040 --> 00:51:13.200
+This is work was done primarily
+actually by Rupert Lane, who is kind of
+
+930
+00:51:13.240 --> 00:51:16.520
+a tangential member
+of the group, came in much later.
+
+931
+00:51:16.560 --> 00:51:20.280
+And a plus Anthony what team?
+
+932
+00:51:20.280 --> 00:51:23.680
+Eliza plus what can you guys see my screen
+Mark. Yes.
+
+933
+00:51:23.720 --> 00:51:25.400
+Yep yep. You can see it. Yep.
+
+934
+00:51:25.400 --> 00:51:28.400
+And Anthony Rupert David and I
+
+935
+00:51:28.480 --> 00:51:31.480
+you know maybe I would I applauded
+
+936
+00:51:31.640 --> 00:51:37.520
+but what they did 
+Anthony aren't art and Rupert is
+
+937
+00:51:37.560 --> 00:51:43.360
+they brought up an actual 7094 simulator
+which was the hardware at MIT
+
+938
+00:51:43.360 --> 00:51:47.040
+and then a KTS,
+which is the operating system, the actual
+
+939
+00:51:47.080 --> 00:51:50.920
+operating system, off the tapes,
+well off a read of the tapes.
+
+940
+00:51:51.200 --> 00:51:55.040
+And I'm going to do the same thing
+for you now and then made Eliza run on it.
+
+941
+00:51:55.040 --> 00:51:56.800
+And it was no simple feat.
+
+942
+00:51:56.800 --> 00:52:00.960
+So the first thing I'm going to do here
+is bring up CTS.
+
+943
+00:52:01.000 --> 00:52:03.320
+Hopefully
+this will all work as advertised.
+
+944
+00:52:03.320 --> 00:52:06.200
+So this is actually run from my machine
+here.
+
+945
+00:52:06.200 --> 00:52:07.320
+By the way. You can do this yourself.
+
+946
+00:52:07.320 --> 00:52:08.440
+It's all public and GitHub.
+
+947
+00:52:08.440 --> 00:52:10.480
+If you look at the IEEE paper.
+
+948
+00:52:10.480 --> 00:52:13.800
+And then I'm going to show
+Jeff tell us what DS is again.
+
+949
+00:52:13.800 --> 00:52:14.200
+Oh sorry.
+
+950
+00:52:14.200 --> 00:52:17.480
+That's I said it's the operating system
+that was running at MIT
+
+951
+00:52:18.080 --> 00:52:20.600
+to timesharing timesharing. Oh sorry.
+
+952
+00:52:20.600 --> 00:52:22.280
+Compatible timesharing system.
+
+953
+00:52:22.280 --> 00:52:24.520
+It was the first real multi-user operating
+
+954
+00:52:24.520 --> 00:52:28.520
+system 1960
+approximately, but is used through 1973.
+
+955
+00:52:28.520 --> 00:52:31.320
+And what I'm going to do
+is now telnet over to CTS.
+
+956
+00:52:31.320 --> 00:52:33.240
+Now I'm talking to CTS.
+
+957
+00:52:33.240 --> 00:52:35.680
+I need to copy that and I log in.
+
+958
+00:52:35.680 --> 00:52:37.720
+I guess I don't have
+to copy that one, but I will.
+
+959
+00:52:40.440 --> 00:52:43.160
+And the password is Eliza.
+
+960
+00:52:43.160 --> 00:52:43.560
+Great.
+
+961
+00:52:43.560 --> 00:52:46.960
+So now I'm, I'm
+a user on the actual CTS system here.
+
+962
+00:52:46.960 --> 00:52:50.800
+And excuse me.
+
+963
+00:52:51.200 --> 00:52:54.200
+And then I'm going to say R Eliza.
+
+964
+00:52:54.760 --> 00:52:57.760
+It's going to test me with script
+and script 200 is the script.
+
+965
+00:52:57.760 --> 00:53:00.240
+Now to be clear, this is not the Eliza.
+
+966
+00:53:00.240 --> 00:53:01.680
+Remember David's discussion?
+
+967
+00:53:01.680 --> 00:53:03.080
+One complicated discussion of versioning.
+
+968
+00:53:03.080 --> 00:53:04.320
+This is the version of the Eliza
+
+969
+00:53:04.320 --> 00:53:08.720
+we found, not the Eliza
+that is actually in the paper.
+
+970
+00:53:08.720 --> 00:53:11.400
+Although it's very close,
+there are some features that are missing.
+
+971
+00:53:11.400 --> 00:53:15.760
+So it turns out I can't do the actual
+script, the actual conversation.
+
+972
+00:53:15.800 --> 00:53:17.360
+How to do. Please tell me your problem.
+
+973
+00:53:17.360 --> 00:53:19.000
+I don't have to tell you this problem.
+
+974
+00:53:19.000 --> 00:53:21.440
+I want a pony.
+
+975
+00:53:21.440 --> 00:53:23.960
+So I'm talking to the actual real
+original.
+
+976
+00:53:23.960 --> 00:53:27.920
+The here the one we found in code
+sitting on this stack of simulators.
+
+977
+00:53:29.720 --> 00:53:30.880
+Got a pony.
+
+978
+00:53:30.880 --> 00:53:34.520
+My mother would be proud.
+
+979
+00:53:37.560 --> 00:53:38.800
+And worry about that.
+
+980
+00:53:38.800 --> 00:53:41.640
+So this is the actual
+real lies of running.
+
+981
+00:53:41.640 --> 00:53:46.480
+And if you think this has the teach mode
+in it, you can do this yourself.
+
+982
+00:53:46.480 --> 00:53:48.880
+If you just look in that IEEE paper,
+it tells you how to do this.
+
+983
+00:53:48.880 --> 00:53:51.000
+It's not very hard. Do the teach.
+
+984
+00:53:51.000 --> 00:53:51.400
+Go ahead.
+
+985
+00:53:51.400 --> 00:53:54.600
+What do the team
+I actually don't know how to do it.
+
+986
+00:53:55.200 --> 00:53:57.600
+Oh, yeah. There it is. Please.
+
+987
+00:53:57.600 --> 00:54:00.960
+So now it's in change mode,
+what I call teach mode.
+
+988
+00:54:01.040 --> 00:54:03.000
+It's not easy to do it.
+
+989
+00:54:03.000 --> 00:54:04.960
+It's not to do it.
+
+990
+00:54:04.960 --> 00:54:07.640
+Is that what you guys start typing
+live expressions.
+
+991
+00:54:07.640 --> 00:54:08.520
+You do.
+
+992
+00:54:08.520 --> 00:54:09.240
+That's the problem.
+
+993
+00:54:09.240 --> 00:54:11.720
+You have to teach
+and not to actually stop it.
+
+994
+00:54:13.880 --> 00:54:15.000
+Was the I'm not sure I
+
+995
+00:54:15.000 --> 00:54:18.000
+can't stop,
+but I don't remember how to do it.
+
+996
+00:54:19.080 --> 00:54:20.040
+He's gone.
+
+997
+00:54:20.040 --> 00:54:21.440
+It won't work.
+
+998
+00:54:21.440 --> 00:54:22.440
+Try just.
+
+999
+00:54:22.440 --> 00:54:25.440
+I don't think it will work or something.
+
+1000
+00:54:25.600 --> 00:54:28.320
+Try just stuck in teach mode.
+
+1001
+00:54:28.320 --> 00:54:31.680
+Anyway, if you read the actual code
+or the manual,
+
+1002
+00:54:32.040 --> 00:54:36.080
+you can see
+this is described in the in that paper.
+
+1003
+00:54:36.080 --> 00:54:38.280
+So all I'm doing is advertising.
+
+1004
+00:54:38.280 --> 00:54:40.880
+If you want to talk to the realizing
+could do what I wanted to do.
+
+1005
+00:54:40.880 --> 00:54:43.880
+Unfortunately,
+I also don't know how to get out of
+
+1006
+00:54:44.080 --> 00:54:46.640
+photos control Z, but it's not return.
+
+1007
+00:54:46.640 --> 00:54:48.520
+Oh you did I did.
+
+1008
+00:54:48.520 --> 00:54:50.920
+I thought it was control Z,
+but apparently it isn't.
+
+1009
+00:54:50.920 --> 00:54:51.640
+I try to look.
+
+1010
+00:54:51.640 --> 00:54:52.000
+There we go.
+
+1011
+00:54:52.000 --> 00:54:54.520
+Oh no, that's
+out of it. I can click that.
+
+1012
+00:54:58.640 --> 00:55:01.640
+All right, it's hung
+
+1013
+00:55:02.320 --> 00:55:02.760
+anyway.
+
+1014
+00:55:02.760 --> 00:55:04.240
+End of demo questions.
+
+1015
+00:55:04.240 --> 00:55:07.240
+Let me give my screen back.
+
+1016
+00:55:08.720 --> 00:55:09.240
+Comments.
+
+1017
+00:55:09.240 --> 00:55:12.240
+Things you'd like to bring up
+besides lunch.
+
+1018
+00:55:13.160 --> 00:55:15.480
+I have a question.
+
+1019
+00:55:15.480 --> 00:55:17.240
+There's a question from Judith, too.
+
+1020
+00:55:17.240 --> 00:55:19.280
+Oh, sorry. Let's just grab
+Judith's real quick.
+
+1021
+00:55:19.280 --> 00:55:20.600
+First, I have a historical question.
+
+1022
+00:55:20.600 --> 00:55:24.720
+I played with Eliza, the doctor,
+at a museum in Toronto in 1907.
+
+1023
+00:55:24.720 --> 00:55:27.120
+What version was that likely to be?
+
+1024
+00:55:27.120 --> 00:55:28.280
+And was it on the road?
+
+1025
+00:55:28.280 --> 00:55:30.880
+What 1970
+
+1026
+00:55:30.880 --> 00:55:33.520
+was the list and no doubt.
+
+1027
+00:55:33.520 --> 00:55:36.520
+Yeah, it was, but Bernie Kosar,
+
+1028
+00:55:36.600 --> 00:55:40.720
+so many people originally thought
+it was written in Lisp for two reasons.
+
+1029
+00:55:40.720 --> 00:55:45.320
+First of all, there was a lisp
+that came out on the was written at BBN by
+
+1030
+00:55:45.320 --> 00:55:49.360
+Bernie Cosell immediately, like the year
+after the original Lhasa was published,
+
+1031
+00:55:49.360 --> 00:55:53.400
+based on the Eliza algorithm
+using the Eliza script and Cosell.
+
+1032
+00:55:53.440 --> 00:55:57.400
+Also BBN was one of the wrote
+the software for the internet,
+
+1033
+00:55:57.560 --> 00:56:01.040
+the Arpanet at the time
+because that came out
+
+1034
+00:56:01.120 --> 00:56:04.080
+that that Lisp version came out.
+
+1035
+00:56:04.080 --> 00:56:05.600
+The other reason
+people thought it was in Lisp.
+
+1036
+00:56:05.600 --> 00:56:09.720
+I'll get to Tyler's question in a second,
+was that the Essex form
+
+1037
+00:56:09.720 --> 00:56:12.600
+which the scripts are in
+looks exactly like Lisp. I'm sorry.
+
+1038
+00:56:12.600 --> 00:56:13.760
+Tyler, go ahead.
+
+1039
+00:56:15.120 --> 00:56:16.320
+No, that's a great question.
+
+1040
+00:56:16.320 --> 00:56:20.400
+And I pretty much had a similar one,
+which was my own personal Eliza
+
+1041
+00:56:20.400 --> 00:56:23.400
+process or like encounter was.
+
+1042
+00:56:23.400 --> 00:56:27.600
+I mean, I'm in my 20s still,
+and I encountered Eliza
+
+1043
+00:56:27.600 --> 00:56:30.600
+when I was a young teenager at summer camp
+
+1044
+00:56:30.640 --> 00:56:35.920
+on the Apple computers in the computer lab
+playing with Emacs.
+
+1045
+00:56:35.920 --> 00:56:39.520
+And I guess
+I always thought it was doctor.
+
+1046
+00:56:39.520 --> 00:56:42.840
+I didn't fully know the history until
+I got to college and learned about it.
+
+1047
+00:56:42.840 --> 00:56:43.920
+So yeah.
+
+1048
+00:56:43.920 --> 00:56:45.240
+How did it get spread out?
+
+1049
+00:56:45.240 --> 00:56:45.440
+Yeah.
+
+1050
+00:56:45.440 --> 00:56:47.520
+With through that,
+you know, the history of that version two,
+
+1051
+00:56:47.520 --> 00:56:51.440
+it actually wasn't written by Stallman,
+although he modified it for Emacs,
+
+1052
+00:56:51.640 --> 00:56:53.560
+but it was written by
+I can't remember the name of the author,
+
+1053
+00:56:53.560 --> 00:56:56.160
+but it's in the documentation
+on Eliza. Jen.
+
+1054
+00:56:56.160 --> 00:56:57.520
+But yes.
+
+1055
+00:56:57.520 --> 00:57:00.840
+So, so one of the reasons
+I wanted to use Eliza for genealogy
+
+1056
+00:57:00.840 --> 00:57:04.360
+is that it's probably the most knocked off
+program in history.
+
+1057
+00:57:04.840 --> 00:57:07.320
+Pretty easy to write one.
+
+1058
+00:57:07.320 --> 00:57:11.360
+And you know, there are literally an
+Eliza and I have hundreds
+
+1059
+00:57:11.360 --> 00:57:15.120
+and I'm sure there are thousands
+because many of them are just replicative.
+
+1060
+00:57:15.160 --> 00:57:16.800
+Is that a word? You know what I mean?
+
+1061
+00:57:16.800 --> 00:57:21.360
+So that's why I wanted to do that
+genealogy and use Eliza as it.
+
+1062
+00:57:21.360 --> 00:57:24.400
+And the reason, the original reason
+other than David wanting,
+
+1063
+00:57:24.440 --> 00:57:25.880
+you know, David and Mark wanting,
+
+1064
+00:57:25.880 --> 00:57:29.360
+you know, have wanting to do this
+review was that I wanted to do.
+
+1065
+00:57:29.400 --> 00:57:30.480
+Eliza genealogy.
+
+1066
+00:57:30.480 --> 00:57:32.800
+But we didn't have the root of the tree.
+
+1067
+00:57:32.800 --> 00:57:34.280
+We didn't have the original.
+
+1068
+00:57:34.280 --> 00:57:35.960
+And so that was one of the another.
+
+1069
+00:57:35.960 --> 00:57:38.280
+My reason for going after the original.
+
+1070
+00:57:38.280 --> 00:57:41.880
+Rob asked about what was your version
+that he saw at Stanford.
+
+1071
+00:57:42.080 --> 00:57:46.200
+Sorry, Rob, waiting in the chat,
+asked about the version
+
+1072
+00:57:46.200 --> 00:57:50.040
+he would have seen in 1969, in Stanford on
+
+1073
+00:57:51.000 --> 00:57:53.360
+it would have been again,
+it would have been the Lisp version.
+
+1074
+00:57:53.360 --> 00:57:53.960
+Yeah.
+
+1075
+00:57:53.960 --> 00:57:58.520
+Almost anyone who saw in Eliza
+between 1965 or 66
+
+1076
+00:57:58.520 --> 00:58:01.920
+and 73 would have seen the Lisp version.
+
+1077
+00:58:01.920 --> 00:58:05.480
+Almost anyone, unless they were literally
+a Project Mac anybody.
+
+1078
+00:58:06.120 --> 00:58:10.040
+Although Stanford in 1969,
+it could have been
+
+1079
+00:58:11.240 --> 00:58:13.440
+because he sent it to Colby.
+
+1080
+00:58:13.440 --> 00:58:16.360
+Yeah, but did they have a 79?
+
+1081
+00:58:16.360 --> 00:58:17.960
+Don't know.
+
+1082
+00:58:17.960 --> 00:58:21.760
+Yeah, I think they mostly had 
+he was I mean, he was running it.
+
+1083
+00:58:21.760 --> 00:58:23.600
+Colby was running it
+because he was showing people.
+
+1084
+00:58:23.600 --> 00:58:26.960
+So some might have
+been, might have been the
+
+1085
+00:58:28.640 --> 00:58:31.120
+but again
+I think it's so easy to knock off.
+
+1086
+00:58:31.120 --> 00:58:36.200
+It's unclear anyone who saw one on an IBM
+PC between 77 or 75,
+
+1087
+00:58:36.240 --> 00:58:42.040
+maybe 77, and it would have to be 77,
+and about 83 would have seen mine.
+
+1088
+00:58:42.400 --> 00:58:45.320
+And anything after that is all
+bets are off
+
+1089
+00:58:45.320 --> 00:58:47.400
+because there were
+so many different versions.
+
+1090
+00:58:47.400 --> 00:58:48.840
+I have one.
+
+1091
+00:58:48.840 --> 00:58:50.920
+I do wonder about this because,
+
+1092
+00:58:52.800 --> 00:58:54.840
+the Rob says it was called
+
+1093
+00:58:54.840 --> 00:58:57.840
+Dear Doctor, which is the first time
+I've ever heard that term.
+
+1094
+00:58:57.960 --> 00:59:00.400
+So that's quite interesting.
+
+1095
+00:59:00.400 --> 00:59:02.240
+So, Rob, what did you talk about?
+
+1096
+00:59:02.240 --> 00:59:05.240
+Because I think, you know,
+and now you, you know,
+
+1097
+00:59:05.280 --> 00:59:09.120
+you went off into a career of interactive
+literature and hypertext.
+
+1098
+00:59:09.120 --> 00:59:11.880
+So at age 14, how did it affect you?
+
+1099
+00:59:11.880 --> 00:59:15.000
+I, I wish I could remember,
+
+1100
+00:59:15.000 --> 00:59:18.000
+but it it did affect me.
+
+1101
+00:59:18.440 --> 00:59:21.440
+You know, I just had a general sense that.
+
+1102
+00:59:22.840 --> 00:59:25.640
+I was tuned in to the fact
+that such things were happening
+
+1103
+00:59:25.640 --> 00:59:30.920
+and that both adults
+and kids were not afraid of them,
+
+1104
+00:59:30.920 --> 00:59:34.640
+and that they thought
+they were strange and amusing, and
+
+1105
+00:59:34.640 --> 00:59:38.480
+that they opened up a lot of questions,
+because, of course, you know,
+
+1106
+00:59:38.520 --> 00:59:42.080
+we were starting to think in
+crude ways about is this
+
+1107
+00:59:42.320 --> 00:59:43.520
+what are the functions of humans?
+
+1108
+00:59:43.520 --> 00:59:47.520
+So it got us thinking about, I mean, for
+me, that was my that was my experience.
+
+1109
+00:59:47.560 --> 00:59:51.600
+And just that atmosphere
+in those days in South Bay
+
+1110
+00:59:51.640 --> 00:59:55.480
+was just not panicked about computing.
+
+1111
+00:59:56.040 --> 00:59:56.400
+Right.
+
+1112
+00:59:56.400 --> 00:59:56.960
+Which helped me.
+
+1113
+00:59:56.960 --> 01:00:00.560
+I think later on I do have a wish I could.
+
+1114
+01:00:02.360 --> 01:00:05.080
+So I have a 1970 actual memory.
+
+1115
+01:00:05.080 --> 01:00:09.840
+And so I did also move from Eliza into
+fascination with interactive narrative.
+
+1116
+01:00:09.880 --> 01:00:11.720
+So if you're trying to look
+for a connection
+
+1117
+01:00:11.720 --> 01:00:13.160
+between that childhood experience
+
+1118
+01:00:13.160 --> 01:00:16.160
+and later fascination, I'm
+definitely a test case.
+
+1119
+01:00:16.360 --> 01:00:18.720
+So we're about your go ahead. Sorry.
+
+1120
+01:00:18.720 --> 01:00:22.800
+I let my family go all through the museum,
+and I stood there
+
+1121
+01:00:22.800 --> 01:00:26.000
+and I asked Eliza over and over again
+if it loved me.
+
+1122
+01:00:26.000 --> 01:00:28.160
+And I did it for 20 minutes.
+
+1123
+01:00:28.160 --> 01:00:29.520
+Where was this?
+
+1124
+01:00:29.520 --> 01:00:30.960
+Toronto. Where?
+
+1125
+01:00:30.960 --> 01:00:31.640
+I'm sorry.
+
+1126
+01:00:31.640 --> 01:00:34.520
+When? 1970.
+
+1127
+01:00:34.520 --> 01:00:35.640
+So there was.
+
+1128
+01:00:35.640 --> 01:00:37.880
+I even remember the space in the museum.
+
+1129
+01:00:37.880 --> 01:00:40.440
+It was really lit up.
+There was just one little console.
+
+1130
+01:00:40.440 --> 01:00:43.200
+I stood there and I just said,
+do you love me?
+
+1131
+01:00:43.200 --> 01:00:44.960
+Do you love me?
+Do you love me? And it ran through.
+
+1132
+01:00:44.960 --> 01:00:47.400
+I knew perfectly
+well that it was a program.
+
+1133
+01:00:47.400 --> 01:00:50.800
+I wasn't thinking it was alive, but I.
+
+1134
+01:00:51.200 --> 01:00:55.200
+I had it in my head to do this
+and it gave me all its answers.
+
+1135
+01:00:55.440 --> 01:00:59.480
+It started to repeat them, which
+is disappointing, but I didn't give up.
+
+1136
+01:00:59.520 --> 01:01:01.440
+It ran through all its answers
+to all this answers,
+
+1137
+01:01:01.440 --> 01:01:05.040
+and in 20 minutes, after 20 minutes
+it said yes.
+
+1138
+01:01:05.960 --> 01:01:06.360
+What?
+
+1139
+01:01:06.360 --> 01:01:08.840
+It said yes.
+
+1140
+01:01:10.320 --> 01:01:11.120
+After 20
+
+1141
+01:01:11.120 --> 01:01:15.080
+minutes I saw a dozen times
+all its other responses.
+
+1142
+01:01:15.120 --> 01:01:21.520
+And in that moment I thought, oh my God,
+I awakened into consciousness, right?
+
+1143
+01:01:21.560 --> 01:01:23.480
+So I would say that that was I,
+
+1144
+01:01:23.480 --> 01:01:26.480
+you know, in the chat,
+I was talking about my Doctor Dolittle
+
+1145
+01:01:26.600 --> 01:01:30.720
+romantic idea of wanting things,
+wanting to talk to inanimate things.
+
+1146
+01:01:30.720 --> 01:01:33.000
+So for me,
+it was a part of a larger story,
+
+1147
+01:01:33.000 --> 01:01:36.360
+and it definitely was into sort of
+like my seduction story,
+
+1148
+01:01:36.360 --> 01:01:40.440
+into like wanting interactive text
+to engage in a human like way.
+
+1149
+01:01:40.440 --> 01:01:42.560
+And now I'm sort of self-critical
+about it, but whatever.
+
+1150
+01:01:42.560 --> 01:01:47.440
+I have to say that Eliza absolutely,
+absolutely
+
+1151
+01:01:47.440 --> 01:01:52.440
+was connected to this sort of larger
+cultural fascination with the text.
+
+1152
+01:01:52.440 --> 01:01:57.320
+Talking back as John, I'm almost 100%
+sure you would have seen the list,
+
+1153
+01:01:57.720 --> 01:01:59.200
+and I do not know.
+
+1154
+01:01:59.200 --> 01:02:02.400
+I know this about the the man symbolizes.
+
+1155
+01:02:02.440 --> 01:02:04.440
+I would never have done what you described
+that isn't said.
+
+1156
+01:02:04.440 --> 01:02:08.520
+Yes, but I don't know that about the list
+is there might be an answer
+
+1157
+01:02:08.520 --> 01:02:11.080
+somewhere down the line
+where if you say, do you, do you, do you?
+
+1158
+01:02:11.080 --> 01:02:13.600
+It says, yes, it's a mystery,
+
+1159
+01:02:14.840 --> 01:02:17.120
+I, yes, I but I carried that memory.
+
+1160
+01:02:17.120 --> 01:02:19.640
+I wrote about it in my little diary.
+
+1161
+01:02:19.640 --> 01:02:22.800
+I wrote, I mean, I, I passed that memory
+
+1162
+01:02:22.840 --> 01:02:25.880
+pretty distinctly forward,
+you know, into my future.
+
+1163
+01:02:25.880 --> 01:02:28.080
+So I think it's an accurate memory.
+
+1164
+01:02:28.080 --> 01:02:32.640
+Anyway, but I think a lot of people
+we probably, if you ask
+
+1165
+01:02:32.640 --> 01:02:36.240
+for a genealogy of people, subjects
+I can't hear all of a sudden.
+
+1166
+01:02:36.320 --> 01:02:38.680
+Oh, I'm sorry. We can.
+We're okay. Go ahead.
+
+1167
+01:02:38.680 --> 01:02:41.640
+Peggy, Peggy said
+that it would be an interesting project
+
+1168
+01:02:41.640 --> 01:02:45.840
+to ask people to tell you
+their story of meeting Eliza, right?
+
+1169
+01:02:45.840 --> 01:02:48.120
+Yeah. What's really interesting,
+Eliza story.
+
+1170
+01:02:48.120 --> 01:02:52.040
+And connecting that into the questions
+that you asked in your
+
+1171
+01:02:52.160 --> 01:02:56.280
+how you positioned yourself in relation
+to interactive narrative later in life,
+
+1172
+01:02:56.280 --> 01:02:59.280
+I think be fascinating
+because a lot of people
+
+1173
+01:02:59.280 --> 01:03:03.520
+had that experience, and for some people
+it was the it was the programing.
+
+1174
+01:03:03.600 --> 01:03:03.960
+Right?
+
+1175
+01:03:03.960 --> 01:03:08.120
+So I mean, I did also like any of us
+who had this fascination
+
+1176
+01:03:08.120 --> 01:03:11.640
+and could program replicated
+it, tried to replicate it.
+
+1177
+01:03:11.640 --> 01:03:14.880
+And my latest version
+I just presented in in form seven.
+
+1178
+01:03:14.920 --> 01:03:15.160
+Right.
+
+1179
+01:03:15.160 --> 01:03:19.560
+So but that, that the fascination was both
+technological but also philosophical.
+
+1180
+01:03:19.600 --> 01:03:19.880
+Right.
+
+1181
+01:03:19.880 --> 01:03:24.400
+So how many of us also were fascinated
+in science fiction narratives,
+
+1182
+01:03:24.480 --> 01:03:27.440
+and then how many had spiritual
+sort of relationships?
+
+1183
+01:03:27.440 --> 01:03:28.760
+How many of us became critic?
+
+1184
+01:03:28.760 --> 01:03:30.840
+I mean, it would be
+an interesting project
+
+1185
+01:03:30.840 --> 01:03:34.200
+to look at the effect of the affective
+history.
+
+1186
+01:03:34.200 --> 01:03:36.560
+Thank you for writing this book.
+By the way.
+
+1187
+01:03:36.560 --> 01:03:38.800
+There's one more question
+I want to make sure we pick up,
+
+1188
+01:03:38.800 --> 01:03:43.160
+which is somebody asked
+which version of Eliza would we would
+
+1189
+01:03:43.160 --> 01:03:48.520
+we have wanted to see take off
+instead of the one that did take off?
+
+1190
+01:03:48.640 --> 01:03:52.360
+So, you know, is there one
+
+1191
+01:03:52.360 --> 01:03:55.760
+that we're more or more interested
+in than others, I guess?
+
+1192
+01:03:55.800 --> 01:03:57.520
+Well, there's a
+there's an interesting question of
+
+1193
+01:03:57.520 --> 01:03:59.240
+would the world have been different?
+
+1194
+01:03:59.240 --> 01:04:02.240
+In what way would
+the world have been different if
+
+1195
+01:04:02.240 --> 01:04:06.240
+Weissenborn had used a different script
+in the paper than the psychiatric script?
+
+1196
+01:04:06.240 --> 01:04:07.040
+Right, right.
+
+1197
+01:04:07.040 --> 01:04:10.040
+Or even a different dialog
+than the sample does?
+
+1198
+01:04:10.160 --> 01:04:12.160
+Dialog? Exactly.
+
+1199
+01:04:12.160 --> 01:04:14.080
+We don't know. To to the point.
+
+1200
+01:04:14.080 --> 01:04:17.120
+We don't actually know whether that dialog
+without a dialog appears
+
+1201
+01:04:17.120 --> 01:04:20.640
+to be at least partly fake. Right?
+
+1202
+01:04:20.680 --> 01:04:23.960
+There are my microscopic details
+from that dialog
+
+1203
+01:04:23.960 --> 01:04:27.160
+which demonstrate that it couldn't
+really have happened quite that way.
+
+1204
+01:04:27.200 --> 01:04:28.040
+That's no big deal.
+
+1205
+01:04:28.040 --> 01:04:32.360
+You always put dialogs out
+in, you know, made up outputs in
+
+1206
+01:04:32.360 --> 01:04:36.360
+you're not made up,
+but the perfected outputs.
+
+1207
+01:04:36.360 --> 01:04:38.880
+And the editor might have
+actually edited it a little bit.
+
+1208
+01:04:38.880 --> 01:04:40.560
+Right.
+
+1209
+01:04:40.560 --> 01:04:45.760
+The doctor script is actually a great one
+to use because it requires interactivity.
+
+1210
+01:04:45.920 --> 01:04:47.640
+The user inputs something.
+
+1211
+01:04:47.640 --> 01:04:50.000
+The doctor ask a question.
+
+1212
+01:04:50.000 --> 01:04:53.000
+It's the best one
+for not having to have understanding.
+
+1213
+01:04:53.320 --> 01:04:55.280
+But you know the but the men are all like,
+
+1214
+01:04:55.280 --> 01:04:57.400
+you know,
+but that dialog is part of the legend.
+
+1215
+01:04:57.400 --> 01:05:00.800
+So and part of the part
+of the suggestion of that legend is
+
+1216
+01:05:00.800 --> 01:05:04.480
+that it's a transcript of a conversation
+that actually happened. So
+
+1217
+01:05:05.480 --> 01:05:08.200
+if the
+question of like what might have happened,
+
+1218
+01:05:08.200 --> 01:05:13.280
+probably the best use of these really
+was the commercialization.
+
+1219
+01:05:13.320 --> 01:05:17.320
+Not for therapy, not for doctor,
+but for virtual agents
+
+1220
+01:05:17.320 --> 01:05:21.440
+to help people on the phone
+instead of of of phone trees.
+
+1221
+01:05:21.480 --> 01:05:24.400
+And, you know, I can
+
+1222
+01:05:24.400 --> 01:05:28.680
+the engine that I used for Eliza was,
+you know,
+
+1223
+01:05:28.720 --> 01:05:32.240
+I don't know very much about skincare,
+but I can help you
+
+1224
+01:05:32.240 --> 01:05:35.400
+with finding the part for on page
+such and such.
+
+1225
+01:05:35.400 --> 01:05:40.240
+So it was about and those
+nobody would ever really confused
+
+1226
+01:05:40.240 --> 01:05:44.040
+with the human much
+because it wasn't any need to.
+
+1227
+01:05:44.080 --> 01:05:48.840
+But that was a need that was a later
+demonstrated commercial need that
+
+1228
+01:05:48.880 --> 01:05:53.680
+that would have developed inevitably
+be a great parody doctor on a phone tree.
+
+1229
+01:05:53.760 --> 01:05:54.520
+Right? Right.
+
+1230
+01:05:54.520 --> 01:05:56.520
+That's what an agent.
+
+1231
+01:05:56.520 --> 01:05:58.520
+There are stories. Yeah.
+
+1232
+01:05:58.520 --> 01:06:00.680
+I mean, it could also be the education.
+
+1233
+01:06:00.680 --> 01:06:03.000
+Like it'd be interesting
+to see if the education
+
+1234
+01:06:03.000 --> 01:06:06.600
+he was on had taken, taken off
+because he was putting so much energy
+
+1235
+01:06:06.600 --> 01:06:10.520
+or the, his, his students were in Barbara
+and all this, I don't know,
+
+1236
+01:06:10.560 --> 01:06:13.720
+they were putting so much energy
+into making it a teaching system.
+
+1237
+01:06:14.600 --> 01:06:16.240
+Interesting
+to see how that would have gone.
+
+1238
+01:06:17.160 --> 01:06:20.720
+And we did find a thin tie between Eliza
+
+1239
+01:06:20.720 --> 01:06:24.480
+and Mavis beacon that you could read
+about in the book anyway.
+
+1240
+01:06:24.520 --> 01:06:27.600
+All right, I think
+I think we're even out of bonus time now,
+
+1241
+01:06:27.680 --> 01:06:30.680
+so thank we
+I want to thank all my co-presenters
+
+1242
+01:06:30.680 --> 01:06:35.600
+and thank the organizers and thank all of 
+you folks who joined us for today.
+
+1243
+01:06:35.600 --> 01:06:40.080
+And oh, wait,
+and there's a discount code for the book
+
+1244
+01:06:40.280 --> 01:06:43.280
+that I'm allowed to share with you.
+
+1245
+01:06:43.280 --> 01:06:46.280
+I'll share it through the discord
+
+1246
+01:06:46.480 --> 01:06:47.960
+in the chat.
+
+1247
+01:06:47.960 --> 01:06:49.960
+I don't know how to do that.
+
+1248
+01:06:49.960 --> 01:06:51.040
+Someone can save the chat.
+
+1249
+01:06:51.040 --> 01:06:53.480
+I bet that's art specialty.
+
+1250
+01:06:53.480 --> 01:06:57.840
+Well, I was just able to save it, so
+I don't know if it's my hosting as well.
+
+1251
+01:06:57.880 --> 01:07:00.600
+I send it over to Mark. Okay. All right.
+
+1252
+01:07:00.600 --> 01:07:01.920
+Thank you everyone.
+
+1253
+01:07:01.920 --> 01:07:03.440
+Thank you.
+
+1254
+01:07:03.440 --> 01:07:05.720
+Thank you all. That was incredible.
+
+1255
+01:07:05.720 --> 01:07:10.600
+And the history shared on
+the chat is also just fantastic.
+
+1256
+01:07:10.600 --> 01:07:16.240
+Clearly there's room for even more
+oral history gathering in this space.
+
+1257
+01:07:16.920 --> 01:07:19.040
+All right. Thank you.
+
+1258
+01:07:20.120 --> 01:07:20.480
+All right.
+
+1259
+01:07:20.480 --> 01:07:20.760
+Take care.
+
+1260
+01:07:20.760 --> 01:07:24.200
+Everybody else
+going right on my AI syllabus. Yay.

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="220" viewBox="0 0 800 220">
+  <!-- far rolling hills (lighter) -->
+  <path d="M0 104 C66 104 134 168 200 168 C266 168 334 104 400 104 C466 104 534 168 600 168 C666 168 734 104 800 104 L800 220 L0 220 Z" fill="#6cc35a"/>
+  <!-- near rolling hills (darker) -->
+  <path d="M0 188 C66 188 134 96 200 96 C266 96 334 188 400 188 C466 188 534 96 600 96 C666 96 734 188 800 188 L800 220 L0 220 Z" fill="#3ea23a"/>
+  <!-- scattered bushes: each a cluster of overlapping ovals, varied size -->
+  <g fill="#2f8a30">
+    <g>
+      <ellipse cx="90" cy="190" rx="31" ry="16"/>
+      <ellipse cx="68" cy="183" rx="18" ry="15"/>
+      <ellipse cx="90" cy="176" rx="22" ry="19"/>
+      <ellipse cx="112" cy="183" rx="18" ry="15"/>
+    </g>
+    <g>
+      <ellipse cx="250" cy="184" rx="39" ry="21"/>
+      <ellipse cx="222" cy="175" rx="23" ry="20"/>
+      <ellipse cx="250" cy="165" rx="28" ry="24"/>
+      <ellipse cx="278" cy="175" rx="23" ry="20"/>
+    </g>
+    <g>
+      <ellipse cx="470" cy="192" rx="26" ry="14"/>
+      <ellipse cx="452" cy="186" rx="15" ry="13"/>
+      <ellipse cx="470" cy="180" rx="18" ry="16"/>
+      <ellipse cx="488" cy="186" rx="15" ry="13"/>
+    </g>
+    <g>
+      <ellipse cx="640" cy="186" rx="34" ry="18"/>
+      <ellipse cx="616" cy="178" rx="20" ry="17"/>
+      <ellipse cx="640" cy="170" rx="24" ry="21"/>
+      <ellipse cx="664" cy="178" rx="20" ry="17"/>
+    </g>
+    <g>
+      <ellipse cx="735" cy="194" rx="20" ry="11"/>
+      <ellipse cx="721" cy="190" rx="12" ry="10"/>
+      <ellipse cx="735" cy="185" rx="15" ry="13"/>
+      <ellipse cx="749" cy="190" rx="12" ry="10"/>
+    </g>
+  </g>
+</svg>

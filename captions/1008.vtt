@@ -1,0 +1,1127 @@
+WEBVTT
+
+1
+00:00:00.120 --> 00:00:03.920
+Next up we have Richard Carter
+from the University of York
+
+2
+00:00:03.920 --> 00:00:07.680
+with from AI to towards
+an environmental Intelligence.
+
+3
+00:00:08.280 --> 00:00:09.320
+Hello. Right.
+
+4
+00:00:09.320 --> 00:00:13.120
+So once again,
+I hope you can see my slides.
+
+5
+00:00:13.200 --> 00:00:14.320
+That's all good.
+
+6
+00:00:14.320 --> 00:00:15.280
+Yeah. Brilliant.
+
+7
+00:00:15.280 --> 00:00:17.320
+Okay I'm going to start my timer now.
+
+8
+00:00:17.320 --> 00:00:18.520
+So hello.
+
+9
+00:00:18.520 --> 00:00:21.200
+Yeah I'm Richard Carter
+from the University of York,
+
+10
+00:00:21.200 --> 00:00:23.280
+the Old York from the United Kingdom.
+
+11
+00:00:23.280 --> 00:00:26.440
+And this presentation
+is about a very new project
+
+12
+00:00:26.440 --> 00:00:29.880
+in mind, partly artistic,
+but also partly engineering and focus.
+
+13
+00:00:29.920 --> 00:00:32.600
+And essentially it's called kite drone.
+
+14
+00:00:32.600 --> 00:00:34.240
+As the name suggests,
+
+15
+00:00:34.240 --> 00:00:38.440
+it's a very deliberate fusion of old
+and new technologies to consider along
+
+16
+00:00:38.480 --> 00:00:43.000
+the kind of themes I've done in the past
+about how we sense, how we make sense
+
+17
+00:00:43.000 --> 00:00:46.880
+of a changing world
+through technology, and in particular,
+
+18
+00:00:46.880 --> 00:00:51.720
+if we change those those infrastructures
+and contexts, what would we see?
+
+19
+00:00:51.760 --> 00:00:52.600
+What would we learn?
+
+20
+00:00:52.600 --> 00:00:56.040
+What other stories would be
+told through these systems?
+
+21
+00:00:56.200 --> 00:01:00.000
+This project is somewhat adjacent
+to electronic literature.
+
+22
+00:01:00.000 --> 00:01:00.680
+It's doing a bit
+
+23
+00:01:00.680 --> 00:01:04.440
+more than perhaps what you might think of
+as a typical elite project,
+
+24
+00:01:04.520 --> 00:01:08.320
+but it has got elements that resonate, 
+and it certainly comes from a place
+
+25
+00:01:08.320 --> 00:01:12.080
+of making digital art
+where the digital is not really the point.
+
+26
+00:01:12.080 --> 00:01:16.200
+The point is the richness and wonder
+of the world beyond its borders.
+
+27
+00:01:16.200 --> 00:01:20.240
+I come from the Nam
+June Paik school of using technology
+
+28
+00:01:20.240 --> 00:01:24.880
+to despise it properly, and we have enough
+celebrations of technology.
+
+29
+00:01:24.920 --> 00:01:26.920
+It is a very new project as well.
+
+30
+00:01:26.920 --> 00:01:28.760
+It's essentially didn't exist
+
+31
+00:01:28.760 --> 00:01:32.520
+until about March this year,
+so it's evolved in a breakneck pace.
+
+32
+00:01:33.000 --> 00:01:36.320
+The heart of this project
+is a consideration of environmental
+
+33
+00:01:36.320 --> 00:01:40.720
+sensing in the guise of the much heralded
+new AI technology.
+
+34
+00:01:40.720 --> 00:01:43.040
+So language, vision, models, etc.
+
+35
+00:01:43.040 --> 00:01:44.400
+and thinking about
+
+36
+00:01:44.400 --> 00:01:48.160
+what are their implications
+for seeing and thinking going forward?
+
+37
+00:01:48.200 --> 00:01:52.160
+The digital world, 
+no question, has an extremely difficult
+
+38
+00:01:52.160 --> 00:01:55.800
+relationship with the environment
+in terms of the energy that's used,
+
+39
+00:01:55.800 --> 00:02:00.720
+the waste that's generated at every stage
+of the lifecycle of digital technologies.
+
+40
+00:02:00.720 --> 00:02:05.640
+And that bothers me as an artist who uses
+digital technologies as their medium.
+
+41
+00:02:05.640 --> 00:02:08.160
+That's something
+I am not particularly happy about.
+
+42
+00:02:08.160 --> 00:02:12.320
+But that said, I think it's worth
+noting that although contemporary
+
+43
+00:02:12.360 --> 00:02:15.800
+AI technologies have been critiqued
+for their environmental impact,
+
+44
+00:02:15.880 --> 00:02:17.280
+things were bad before.
+
+45
+00:02:17.280 --> 00:02:20.520
+It wasn't as if things were great
+even before these technologies kind of
+
+46
+00:02:20.560 --> 00:02:23.560
+came onto the scene,
+and it was certainly not looking good.
+
+47
+00:02:23.840 --> 00:02:27.360
+We've got these systems now,
+and certainly in the very sort of
+
+48
+00:02:27.400 --> 00:02:30.800
+generalized, mythologized sense
+in which they're pitched towards us.
+
+49
+00:02:30.800 --> 00:02:34.000
+And earlier iterations of technology
+marketed as AI,
+
+50
+00:02:34.280 --> 00:02:37.280
+a common refrain is that they will
+somehow save the planet.
+
+51
+00:02:37.280 --> 00:02:39.680
+They're advanced analytical techniques.
+
+52
+00:02:39.680 --> 00:02:43.520
+That number crunching capability
+was somehow going to sort everything out,
+
+53
+00:02:43.520 --> 00:02:47.040
+and we don't have to worry
+too much about their impacts as a result.
+
+54
+00:02:47.040 --> 00:02:50.880
+And that has been fairly robustly
+critiqued as a load of greenwashing.
+
+55
+00:02:50.880 --> 00:02:53.600
+Then that's before
+we even get into thinking
+
+56
+00:02:53.600 --> 00:02:57.600
+quite cogently about the technology,
+what it can actually measure,
+
+57
+00:02:57.600 --> 00:03:00.600
+map and model about the world
+realistically.
+
+58
+00:03:01.200 --> 00:03:04.480
+Nevertheless,
+we are here, and it is very likely,
+
+59
+00:03:04.480 --> 00:03:08.760
+I think, that this technology
+in its current form, will persist
+
+60
+00:03:08.760 --> 00:03:12.920
+in some form of future and will be
+part of the public political tool set
+
+61
+00:03:12.960 --> 00:03:16.880
+through which environmental issues
+are seen and understood by many people.
+
+62
+00:03:16.920 --> 00:03:18.960
+People are going to query ChatGPT.
+
+63
+00:03:18.960 --> 00:03:21.480
+They are not going to read
+the scientific paper.
+
+64
+00:03:21.480 --> 00:03:24.320
+So if we take that premise, then
+
+65
+00:03:24.320 --> 00:03:27.440
+what other possibilities do exist
+for these technologies?
+
+66
+00:03:27.440 --> 00:03:29.200
+Can we use them fruitfully?
+
+67
+00:03:29.200 --> 00:03:30.920
+Can we use them thoughtfully?
+
+68
+00:03:30.920 --> 00:03:34.720
+Can we use them with respect to what
+they actually are, rather than what
+
+69
+00:03:34.760 --> 00:03:36.400
+then sort of typically sold to us?
+
+70
+00:03:36.400 --> 00:03:40.960
+As Sabina Linnell in this vein has called
+for the development
+
+71
+00:03:40.960 --> 00:03:45.520
+of environmental intelligence
+AI that is not oriented towards
+
+72
+00:03:45.520 --> 00:03:49.760
+emulating human modes of thought,
+human imperatives, human agency,
+
+73
+00:03:49.760 --> 00:03:54.360
+but actually drawing our attention to the
+more than human world or non-human world.
+
+74
+00:03:54.360 --> 00:03:58.480
+As she frames it,
+it scales its durations, its imperatives,
+
+75
+00:03:58.480 --> 00:04:00.920
+and how the impact our daily lives.
+
+76
+00:04:00.920 --> 00:04:05.200
+And it's here, then,
+that my project appears in, very much
+
+77
+00:04:05.240 --> 00:04:06.440
+inspired by this call.
+
+78
+00:04:06.440 --> 00:04:10.280
+But coming out of prior work
+that I've done, thinking about how we can
+
+79
+00:04:10.280 --> 00:04:14.200
+use drones and machine vision
+as environmental platforms, I'm
+
+80
+00:04:14.200 --> 00:04:15.480
+doing something similar here,
+
+81
+00:04:15.480 --> 00:04:19.400
+but instead I'm trying to create
+an AI driven sensor platform.
+
+82
+00:04:19.440 --> 00:04:23.480
+Very, very small compact package
+that is small enough, light enough,
+
+83
+00:04:23.480 --> 00:04:24.760
+and low power enough.
+
+84
+00:04:24.760 --> 00:04:28.520
+You can carry it aboard a kite
+rather than a drone, as we might
+
+85
+00:04:28.560 --> 00:04:29.680
+typically expect.
+
+86
+00:04:29.680 --> 00:04:33.320
+And I think this image actually is one
+I really like taking AI outside
+
+87
+00:04:33.320 --> 00:04:36.720
+of its sprawling,
+all consuming data center,
+
+88
+00:04:36.920 --> 00:04:41.120
+ripping it out there, shrinking it down,
+making it small, making it vulnerable,
+
+89
+00:04:41.160 --> 00:04:42.600
+putting it back in its box.
+
+90
+00:04:42.600 --> 00:04:46.160
+Frankly, a box
+you can hold and throwing it up there.
+
+91
+00:04:46.160 --> 00:04:48.600
+Let's see. No,
+enough of these cloud computing metaphors.
+
+92
+00:04:48.600 --> 00:04:49.920
+Let's make that happen.
+
+93
+00:04:49.920 --> 00:04:51.880
+Let's make AI small again.
+
+94
+00:04:51.880 --> 00:04:53.680
+Let's make it vulnerable again.
+
+95
+00:04:53.680 --> 00:04:57.000
+Let's make it something that respects
+its footprint in the world.
+
+96
+00:04:58.280 --> 00:04:58.880
+There is
+
+97
+00:04:58.880 --> 00:05:02.920
+a awful lot that I could say
+about the technology of this program,
+
+98
+00:05:02.920 --> 00:05:06.280
+what I'm doing with it, and
+I just don't have the time to go into it.
+
+99
+00:05:06.280 --> 00:05:08.040
+So I'm going to give a very rapid sketch.
+
+100
+00:05:08.040 --> 00:05:12.880
+Now, essentially,
+it consists of a large lifting kite.
+
+101
+00:05:12.920 --> 00:05:15.800
+In this case
+it was a big eight foot Delta Conine.
+
+102
+00:05:15.800 --> 00:05:20.080
+And below it is a sense of boom that's got
+aerodynamic plates on either end
+
+103
+00:05:20.120 --> 00:05:24.120
+that sort of stabilized,
+that boom in the winds aloft.
+
+104
+00:05:24.160 --> 00:05:28.640
+Attached to that is a small computing
+package, typically a Raspberry Pi.
+
+105
+00:05:28.680 --> 00:05:31.800
+And then attached to that package
+is all manner of different sensors.
+
+106
+00:05:31.800 --> 00:05:36.080
+I've primarily been working with images
+because that's what I understand best.
+
+107
+00:05:36.080 --> 00:05:38.680
+But there will be more sense
+as they are attached to it.
+
+108
+00:05:38.680 --> 00:05:40.280
+Hopefully very, very soon.
+
+109
+00:05:40.280 --> 00:05:42.400
+But in essence, once we've got all that,
+
+110
+00:05:42.400 --> 00:05:45.720
+what the Raspberry Pi is doing
+is it's taking in that data,
+
+111
+00:05:45.880 --> 00:05:49.920
+feeding it into a small, large vision
+model
+
+112
+00:05:49.920 --> 00:05:53.680
+and setting various tasks
+and analysis on it.
+
+113
+00:05:53.760 --> 00:05:57.960
+The models I've been using are Alibaba,
+clouds, Quinn and Google's Gemma.
+
+114
+00:05:57.960 --> 00:06:00.000
+2 to 4 billion parameters.
+
+115
+00:06:00.000 --> 00:06:04.000
+So these are really quite small models,
+very much edge case instances.
+
+116
+00:06:04.040 --> 00:06:07.040
+And frankly pulling them to work,
+seeing what they can do.
+
+117
+00:06:07.040 --> 00:06:10.400
+The whole lot is controlled
+in a manner typical of a drone actually.
+
+118
+00:06:10.400 --> 00:06:13.560
+So there's a
+there's a kite net, you log into the kite,
+
+119
+00:06:13.560 --> 00:06:17.840
+it has its own Wi-Fi address,
+and that allows for commands to be down,
+
+120
+00:06:18.480 --> 00:06:21.840
+commands to be up
+linked video, imagery and data to be down,
+
+121
+00:06:21.920 --> 00:06:23.280
+linked in real time as well.
+
+122
+00:06:23.280 --> 00:06:26.280
+So again very much like a typical drone.
+
+123
+00:06:26.600 --> 00:06:29.480
+So okay,
+we've got this very elaborate system.
+
+124
+00:06:29.480 --> 00:06:31.440
+Then we've gone to all the trouble
+of hauling it up.
+
+125
+00:06:31.440 --> 00:06:32.480
+What does it actually do.
+
+126
+00:06:32.480 --> 00:06:33.880
+What am I trying to get it to do?
+
+127
+00:06:33.880 --> 00:06:35.840
+So in terms of visual data,
+
+128
+00:06:35.840 --> 00:06:39.840
+I'm simply trying to get the thing
+to classify the scene sensibly, to
+
+129
+00:06:39.880 --> 00:06:44.040
+go, okay, I have this scene before me
+at an altitude of 200ft.
+
+130
+00:06:44.080 --> 00:06:45.080
+What am I looking at?
+
+131
+00:06:45.080 --> 00:06:47.440
+What are the natural features
+in that scene?
+
+132
+00:06:47.440 --> 00:06:50.800
+And particularly
+using a land class sort of
+
+133
+00:06:50.840 --> 00:06:54.320
+star filters, which are kind of typically
+for what we use for satellites.
+
+134
+00:06:54.440 --> 00:06:57.560
+I'm bringing it down here and saying,
+okay, classify
+
+135
+00:06:57.560 --> 00:07:00.880
+this terrain according
+to these different land class types.
+
+136
+00:07:00.960 --> 00:07:02.560
+It turns out that's incredibly hard.
+
+137
+00:07:02.560 --> 00:07:05.040
+Language vision
+models are trained on people and things,
+
+138
+00:07:05.040 --> 00:07:07.040
+and it only gets worse
+the smaller they get.
+
+139
+00:07:07.040 --> 00:07:08.560
+And so essentially, it's
+
+140
+00:07:08.560 --> 00:07:11.600
+very difficult to get it to pay attention
+to the natural world.
+
+141
+00:07:11.600 --> 00:07:13.760
+The natural world is an interesting
+backdrop.
+
+142
+00:07:13.760 --> 00:07:15.640
+Surely you're interested in cars.
+
+143
+00:07:15.640 --> 00:07:17.480
+Surely you're interested in people.
+
+144
+00:07:17.480 --> 00:07:20.080
+Surely you are interested in buildings.
+Well, the answer is no.
+
+145
+00:07:20.080 --> 00:07:20.720
+No I'm not.
+
+146
+00:07:20.720 --> 00:07:24.080
+But it's very hard
+to get it to steer away from that.
+
+147
+00:07:24.080 --> 00:07:28.160
+And even when it does point out a natural
+scene, it's like there was a bush.
+
+148
+00:07:28.360 --> 00:07:30.960
+There's a tree over there somewhere.
+Well that's fantastic.
+
+149
+00:07:30.960 --> 00:07:32.520
+What do we learn from that? Very little.
+
+150
+00:07:32.520 --> 00:07:35.120
+So I'm trying to wrestle
+with this technology
+
+151
+00:07:35.120 --> 00:07:38.520
+and ultimately its failings
+and its paucity
+
+152
+00:07:38.880 --> 00:07:40.680
+are so different from the rich works
+
+153
+00:07:40.680 --> 00:07:43.920
+of environmentally literature
+that we are used to think of J.R.
+
+154
+00:07:43.960 --> 00:07:46.000
+Carpenter's works, for instance.
+
+155
+00:07:46.000 --> 00:07:48.000
+And that work was mentioned yesterday.
+
+156
+00:07:48.000 --> 00:07:49.160
+And of course, we had
+
+157
+00:07:49.160 --> 00:07:50.360
+we had the kind of documenting
+
+158
+00:07:50.360 --> 00:07:53.360
+the imperceptible yesterday
+that was a lovely presentation
+
+159
+00:07:53.400 --> 00:07:55.800
+and really got this idea
+of more than human
+
+160
+00:07:55.800 --> 00:07:58.800
+sensing in all its richness
+and all its alien.
+
+161
+00:07:59.040 --> 00:08:01.640
+These language
+vision models are wholly incapable
+
+162
+00:08:01.640 --> 00:08:05.200
+of doing anything remotely as clever
+as that without a lot of work.
+
+163
+00:08:05.200 --> 00:08:06.960
+But that's part of the point.
+
+164
+00:08:06.960 --> 00:08:09.960
+You know, so many of us,
+so many researchers,
+
+165
+00:08:10.280 --> 00:08:14.040
+rush to get these exhausting technologies
+into their work to see what they can do,
+
+166
+00:08:14.040 --> 00:08:15.480
+and that's absolutely fine.
+
+167
+00:08:15.480 --> 00:08:18.440
+But it's also good to have projects
+which point out, you know what?
+
+168
+00:08:18.440 --> 00:08:19.200
+They're rubbish.
+
+169
+00:08:19.200 --> 00:08:22.200
+There are so many things they don't do,
+they don't do well.
+
+170
+00:08:22.240 --> 00:08:23.600
+They're not very effective
+
+171
+00:08:23.600 --> 00:08:26.800
+at to highlight their failures,
+to highlight their failings.
+
+172
+00:08:26.840 --> 00:08:31.080
+And ultimately, by way of that,
+getting us to remind ourselves of a world
+
+173
+00:08:31.080 --> 00:08:33.520
+that is so much richer
+than these technologies,
+
+174
+00:08:33.520 --> 00:08:37.560
+so much more alien
+in it's becoming more than human voices
+
+175
+00:08:37.560 --> 00:08:42.600
+that are not reducible to straightforward
+modalities of data that cannot be put
+
+176
+00:08:42.600 --> 00:08:47.160
+inside the neat black boxes we otherwise
+wish the world could be put into.
+
+177
+00:08:47.400 --> 00:08:49.360
+That's part of the idea.
+
+178
+00:08:49.360 --> 00:08:53.280
+But nevertheless, you might think, okay,
+where's the angle going on in all of this?
+
+179
+00:08:53.280 --> 00:08:57.040
+So ultimately, what I hope to do 
+and what I have been doing,
+
+180
+00:08:57.040 --> 00:09:01.360
+I should say, is once the system
+classifies the landscape,
+
+181
+00:09:01.440 --> 00:09:06.160
+those classes and those short descriptions
+associated with each class in terms of
+
+182
+00:09:06.160 --> 00:09:12.040
+what it's seeing are then used as lookups
+and a vector database to extract material
+
+183
+00:09:12.040 --> 00:09:16.560
+of kind of various kind of books
+and articles like put inside the system.
+
+184
+00:09:16.560 --> 00:09:20.200
+And they are all works by different
+writers such as Jennifer Gabriel.
+
+185
+00:09:20.280 --> 00:09:25.080
+You'll see Mia Bennett,
+who are all thinking about the nature
+
+186
+00:09:25.080 --> 00:09:29.240
+of environmental sensing and sense
+making, what it can do, what it can't do,
+
+187
+00:09:29.280 --> 00:09:30.880
+what its limitations are.
+
+188
+00:09:30.880 --> 00:09:35.600
+So the idea is that
+the system is actually using what it sees
+
+189
+00:09:35.640 --> 00:09:39.440
+as a framing query,
+and is overlaying the visual landscape
+
+190
+00:09:39.440 --> 00:09:41.360
+with some of these extracts from these,
+
+191
+00:09:41.360 --> 00:09:44.320
+from these different books
+and the eventual output,
+
+192
+00:09:44.320 --> 00:09:48.280
+not that you can really see it
+here, is effectively a hypertext window.
+
+193
+00:09:48.320 --> 00:09:52.520
+You have the visual scene and you can see
+the different machine vision boxes.
+
+194
+00:09:52.520 --> 00:09:55.640
+You can click on them and you can follow
+through some of the materials
+
+195
+00:09:55.640 --> 00:09:59.960
+that the system thinks is most appropriate
+for sort of characterizing that scene.
+
+196
+00:09:59.960 --> 00:10:04.080
+So it sees a distant hill,
+it sees a river, it sees a farmland.
+
+197
+00:10:04.120 --> 00:10:05.840
+Well,
+what are these authors written about?
+
+198
+00:10:05.840 --> 00:10:08.520
+The intersection of farmland
+and digital sensing.
+
+199
+00:10:08.520 --> 00:10:11.600
+What is the relationship
+between digital sensing and rivers?
+
+200
+00:10:11.640 --> 00:10:15.280
+It's never quite a one on one
+correspondence, but I rather like that.
+
+201
+00:10:15.280 --> 00:10:15.680
+Actually.
+
+202
+00:10:15.680 --> 00:10:19.640
+I like the strangeness of
+some of the outputs that come out of that.
+
+203
+00:10:19.640 --> 00:10:22.640
+Reading the landscape
+as a prompt for reflection,
+
+204
+00:10:22.640 --> 00:10:26.440
+rather than some immediate insights
+and the kind of narrow sense of the word.
+
+205
+00:10:26.480 --> 00:10:30.080
+So again, part of the idea is
+the system is generating
+
+206
+00:10:30.120 --> 00:10:34.520
+a meditation on the nature of digital
+sensing and sense making what it does
+
+207
+00:10:34.520 --> 00:10:38.520
+not see, what it does
+not know, the things that it cannot do
+
+208
+00:10:38.560 --> 00:10:42.920
+when it comes to characterizing human
+and more than human relationships.
+
+209
+00:10:43.640 --> 00:10:46.000
+So coming up to near the end, very good.
+
+210
+00:10:46.000 --> 00:10:47.560
+So I'm going to be the first to admit
+
+211
+00:10:47.560 --> 00:10:51.360
+this is an incredibly brief presentation
+on a very, very complex project.
+
+212
+00:10:51.360 --> 00:10:52.800
+I've had to be very schematic.
+
+213
+00:10:52.800 --> 00:10:56.560
+I hope that was enough to at least
+give you a guide and some interest.
+
+214
+00:10:56.600 --> 00:11:00.280
+One long term goal of this project
+actually is not artistic at all.
+
+215
+00:11:00.280 --> 00:11:04.120
+I would like to develop this technology
+so that it's robust enough
+
+216
+00:11:04.120 --> 00:11:07.200
+and capable enough
+that you could actually imagine
+
+217
+00:11:07.240 --> 00:11:10.400
+using it instead of a drone
+to gather environmental data.
+
+218
+00:11:10.440 --> 00:11:12.720
+Indeed, it may even be desirable.
+
+219
+00:11:12.720 --> 00:11:16.600
+It's unlikely to achieve that aim, but
+that's part of the esthetic aspirations,
+
+220
+00:11:16.600 --> 00:11:19.840
+this idea of imagining another world
+and imagining another world.
+
+221
+00:11:19.840 --> 00:11:22.280
+Seriously.
+All right then, let's make it happen.
+
+222
+00:11:22.280 --> 00:11:25.520
+Let's actually see what it would do,
+what it would look like,
+
+223
+00:11:25.520 --> 00:11:27.840
+what are the challenges
+involved in doing so?
+
+224
+00:11:27.840 --> 00:11:29.040
+And that's something that's actually
+
+225
+00:11:29.040 --> 00:11:32.840
+quite important to me in terms of modeling
+what another world would look like,
+
+226
+00:11:32.880 --> 00:11:37.760
+what another sort of speculative sensory
+landscape may ultimately resemble as well.
+
+227
+00:11:38.080 --> 00:11:40.760
+And eventually what I hope to do
+is because the thing
+
+228
+00:11:40.760 --> 00:11:43.840
+has kind of Wi-Fi downlink,
+you can access it on your phone.
+
+229
+00:11:43.840 --> 00:11:45.360
+It's kind of accessible to anyone.
+
+230
+00:11:45.360 --> 00:11:47.120
+As a broadcast stream.
+
+231
+00:11:47.120 --> 00:11:50.280
+I'd love to be able to do performances
+with this apparatus.
+
+232
+00:11:50.280 --> 00:11:52.680
+Once it's up in the air,
+there's a gathering of us.
+
+233
+00:11:52.680 --> 00:11:56.000
+We can annotate the data
+that it's generating in real time,
+
+234
+00:11:56.040 --> 00:11:59.640
+have our own different perspectives,
+and have a sort of a collaborative process
+
+235
+00:11:59.640 --> 00:12:03.440
+for mapping the landscape with the
+AI is just a tiny part of that.
+
+236
+00:12:03.440 --> 00:12:06.840
+It's really us working
+with more than human elements all around
+
+237
+00:12:06.840 --> 00:12:11.560
+us, seeing what we learn,
+seeing where they may ultimately take us.
+
+238
+00:12:11.720 --> 00:12:14.720
+And on that note, I think I'm out of time.
+
+239
+00:12:14.920 --> 00:12:16.520
+Thank you very much for listening.

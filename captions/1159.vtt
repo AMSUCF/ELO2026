@@ -1,0 +1,966 @@
+WEBVTT
+
+1
+00:00:00.080 --> 00:00:01.360
+All yours.
+
+2
+00:00:01.360 --> 00:00:03.760
+Okay. Thank you.
+
+3
+00:00:03.760 --> 00:00:06.520
+Hi everyone. My name is
+
+4
+00:00:06.520 --> 00:00:09.520
+and I'm presenting today with Adeline BC.
+
+5
+00:00:09.560 --> 00:00:10.800
+We are both graduate students
+
+6
+00:00:10.800 --> 00:00:13.960
+in the Digital Humanities program
+at the University of Alberta.
+
+7
+00:00:14.200 --> 00:00:15.720
+Today we're going to be talking
+
+8
+00:00:15.720 --> 00:00:19.320
+about multi-player interactive
+fiction experiences, the state of the
+
+9
+00:00:19.760 --> 00:00:22.840
+the challenges of cooperatively
+authoring and designing
+
+10
+00:00:22.840 --> 00:00:26.760
+co-op play, our approach to it
+and our project ether five.
+
+11
+00:00:26.960 --> 00:00:30.440
+Before going in, I'd like to acknowledge
+that our project is partially funded
+
+12
+00:00:30.440 --> 00:00:35.080
+by the 2026 if micro Grant and supported
+by the Crypt Research Lab
+
+13
+00:00:35.120 --> 00:00:38.120
+under the supervision of doctor P.B.
+Berger.
+
+14
+00:00:38.320 --> 00:00:42.920
+The interactive fiction space is largely
+populated with single player experiences.
+
+15
+00:00:42.960 --> 00:00:46.960
+So last year, as we were considering
+submitting a game to check on 25,
+
+16
+00:00:47.000 --> 00:00:49.400
+we asked ourselves
+what a cooperative interactive fiction
+
+17
+00:00:49.400 --> 00:00:52.400
+game would look like
+and challenged ourselves to make one.
+
+18
+00:00:52.640 --> 00:00:55.560
+Looking into existing games and research,
+
+19
+00:00:55.560 --> 00:00:59.320
+we found that there's a small body of work
+aiming in the direction,
+
+20
+00:00:59.320 --> 00:01:03.320
+but co-op and its authorship
+remain critically unexplored.
+
+21
+00:01:03.320 --> 00:01:07.000
+Some of the earliest examples
+are multi-user dungeons,
+
+22
+00:01:07.040 --> 00:01:10.920
+where a large number of players
+can asynchronously inhabit a shared space
+
+23
+00:01:10.920 --> 00:01:15.000
+and interact with the world and each other
+through text inputs or recent entries.
+
+24
+00:01:15.000 --> 00:01:19.080
+Modify tools like twine,
+allowing one player to host,
+
+25
+00:01:19.080 --> 00:01:23.840
+and we want to host a shared session
+that player to Canada join remotely.
+
+26
+00:01:23.880 --> 00:01:26.560
+Other approaches
+include repeated code sharing
+
+27
+00:01:26.560 --> 00:01:30.160
+between players or, in the case
+of Last Night with Alexis, grad players
+
+28
+00:01:30.160 --> 00:01:33.480
+are asked to choose different rules
+and take choices at the same time.
+
+29
+00:01:33.760 --> 00:01:37.480
+In titles like the YOG,
+you are one of four players in local co-op
+
+30
+00:01:37.560 --> 00:01:41.840
+taking turns to respond
+as the game cycles through each character.
+
+31
+00:01:42.640 --> 00:01:46.400
+As we look at popular authorship
+tools like twine, Inc.
+
+32
+00:01:46.480 --> 00:01:48.040
+in Form seven and read by,
+
+33
+00:01:48.040 --> 00:01:51.800
+we find that they're fundamentally
+designed for a single player experiences
+
+34
+00:01:51.800 --> 00:01:55.840
+and do not support collaborative
+authorship without complex workarounds.
+
+35
+00:01:55.880 --> 00:01:59.120
+On top of that, implementing
+gameplay mechanics in these environments
+
+36
+00:01:59.120 --> 00:02:03.240
+is dependent on two specific
+scripting languages and grammar,
+
+37
+00:02:03.240 --> 00:02:06.920
+which can often avionics newcomers
+and is experienced as less intuitive
+
+38
+00:02:06.960 --> 00:02:10.920
+than more visual and interactive
+approaches to dynamic logic building.
+
+39
+00:02:11.840 --> 00:02:14.840
+One of the more notable
+research in the area is by Kalem Sport
+
+40
+00:02:14.920 --> 00:02:16.240
+from University of Southampton,
+
+41
+00:02:16.240 --> 00:02:19.320
+who builds on Mark Bernstein's version
+of sculptural hypertext,
+
+42
+00:02:19.400 --> 00:02:23.080
+calling attention to its incompatibility
+for authoring multiplayer, interactive
+
+43
+00:02:23.080 --> 00:02:27.400
+narrative experience or minds,
+and outlines a new model called storyline.
+
+44
+00:02:27.400 --> 00:02:31.240
+Through this model, he breaks down
+recurring interaction patterns and factors
+
+45
+00:02:31.240 --> 00:02:34.320
+we can use to evaluate and analyze them,
+providing examples
+
+46
+00:02:34.320 --> 00:02:38.200
+of different relationships among nodes
+in multiplayer branching narratives,
+
+47
+00:02:39.240 --> 00:02:39.840
+barriers and
+
+48
+00:02:39.840 --> 00:02:43.240
+Martineau takes inspiration
+from small forts work and designs
+
+49
+00:02:43.240 --> 00:02:46.240
+a prototype recording the affordances
+of such a system in action.
+
+50
+00:02:46.320 --> 00:02:48.840
+They mentioned that players
+were highly interested in the experience,
+
+51
+00:02:48.840 --> 00:02:51.800
+but had difficulty
+keeping track of the multiple dimensions
+
+52
+00:02:51.800 --> 00:02:54.800
+of information available,
+so they focus on the public private
+
+53
+00:02:54.840 --> 00:02:57.400
+dichotomy of information
+available to the two players,
+
+54
+00:02:57.400 --> 00:03:01.200
+and use an interesting hybrid setup
+to solve this problem through players.
+
+55
+00:03:01.480 --> 00:03:02.160
+Side by side
+
+56
+00:03:02.160 --> 00:03:06.120
+to play the game on a single screen,
+but also have their respective phones out,
+
+57
+00:03:06.120 --> 00:03:09.760
+which they used to interact with the game
+and see information private to them.
+
+58
+00:03:10.880 --> 00:03:14.160
+Now, after looking at existing games,
+research and tools, we've
+
+59
+00:03:14.200 --> 00:03:15.720
+identified three gaps.
+
+60
+00:03:15.720 --> 00:03:18.640
+Firstly,
+there is currently no offering tool
+
+61
+00:03:18.640 --> 00:03:21.960
+that is designed to robustly support
+collaborative authorship of co-op.
+
+62
+00:03:21.960 --> 00:03:25.760
+If existing literature lacks
+in-depth discussions about tool
+
+63
+00:03:25.760 --> 00:03:29.200
+and interface design, and what
+meaningful abstractions and features
+
+64
+00:03:29.200 --> 00:03:32.080
+are essential for such a potential
+authoring environment.
+
+65
+00:03:32.080 --> 00:03:33.560
+As a result, the requirements
+
+66
+00:03:33.560 --> 00:03:37.320
+and complexities of designing
+accessible software in this domain
+
+67
+00:03:37.320 --> 00:03:41.880
+still remain a largely unexplored topic
+and a major barrier to authoring bias.
+
+68
+00:03:41.960 --> 00:03:45.720
+Secondly, while there are co-op,
+if experiences null, combine
+
+69
+00:03:45.720 --> 00:03:46.840
+split screen local co-op
+
+70
+00:03:46.840 --> 00:03:50.480
+on a single machine with real time
+multiplayer interaction and complex
+
+71
+00:03:50.480 --> 00:03:53.560
+shared states and gameplay mechanics
+for meaningful interplay.
+
+72
+00:03:53.640 --> 00:03:54.920
+Agency.
+
+73
+00:03:54.920 --> 00:03:58.320
+Thirdly, existing knowledge on co-op
+if design still remains
+
+74
+00:03:58.320 --> 00:04:00.560
+fragmented
+and difficult to operationalize.
+
+75
+00:04:00.560 --> 00:04:04.320
+No consolidated coherent
+framework, guideline or toolkit exists
+
+76
+00:04:04.320 --> 00:04:06.640
+that translates these findings
+into practical design
+
+77
+00:04:06.640 --> 00:04:10.960
+principles for authors and developers,
+so new creators are less to independently
+
+78
+00:04:10.960 --> 00:04:15.560
+reconstruct the design space and reinvent
+solutions to recurring issues
+
+79
+00:04:15.560 --> 00:04:19.480
+such as managing synchronization,
+information asymmetry, and interplay.
+
+80
+00:04:19.480 --> 00:04:21.200
+Agency with shared states.
+
+81
+00:04:23.640 --> 00:04:25.760
+Using our game ether five is a case study.
+
+82
+00:04:25.760 --> 00:04:28.040
+We argue that cooperative interactive
+fiction
+
+83
+00:04:28.040 --> 00:04:31.800
+remains critically underexplored
+and offer a design framework,
+
+84
+00:04:31.840 --> 00:04:35.320
+a writer first toolkit,
+and an auto ethnographic analysis
+
+85
+00:04:35.320 --> 00:04:39.080
+to advance its creative, technical
+and theoretical potential.
+
+86
+00:04:40.160 --> 00:04:44.640
+So our game ether five is a cyberpunk
+split screen co-op interactive fiction,
+
+87
+00:04:44.640 --> 00:04:48.480
+where two players take on the roles
+of ninth and Beck's queer cyborgs
+
+88
+00:04:48.480 --> 00:04:52.880
+surviving in the city of curio as they
+navigate and plan against the Queer
+
+89
+00:04:52.920 --> 00:04:58.200
+Relocation Federation's initiative for off
+planet rehabilitation of strange bodies.
+
+90
+00:04:59.400 --> 00:05:02.240
+Many games inspired us in our journey
+to create ether five,
+
+91
+00:05:02.240 --> 00:05:06.000
+but there are a few worth mentioning for
+their critical relevance to the project.
+
+92
+00:05:06.040 --> 00:05:07.640
+Disco Elysium, Citizen
+
+93
+00:05:07.640 --> 00:05:10.800
+Sleeper and Baldur's Gate
+three were key inspirations for OPEC.
+
+94
+00:05:10.840 --> 00:05:12.920
+They are text heavy narrative adventures
+
+95
+00:05:12.920 --> 00:05:16.480
+that use TRP mechanics
+that inspired our game greatly.
+
+96
+00:05:16.760 --> 00:05:19.320
+Depression
+quest is locked and it's locked out.
+
+97
+00:05:19.320 --> 00:05:22.640
+Dialog options
+where we wanted to implement in our game
+
+98
+00:05:22.640 --> 00:05:25.640
+is a way to have each player's choices
+impact the other.
+
+99
+00:05:26.000 --> 00:05:28.720
+Realistic Kissing
+Simulator inspired us to challenge
+
+100
+00:05:28.720 --> 00:05:31.880
+conventional mechanics
+in games and explore queer game design,
+
+101
+00:05:31.880 --> 00:05:34.880
+forcing players
+to interact in close proximity.
+
+102
+00:05:34.880 --> 00:05:38.320
+Additionally, Ivan PGS,
+which are rich with branching
+
+103
+00:05:38.320 --> 00:05:41.560
+narratives
+and heavily weighted in game decisions.
+
+104
+00:05:41.560 --> 00:05:44.840
+We also took a course on interactive
+storytelling with doctor PB,
+
+105
+00:05:45.320 --> 00:05:49.640
+who gave us the opportunity to explore
+game development with different mediums.
+
+106
+00:05:51.800 --> 00:05:52.240
+And Becs
+
+107
+00:05:52.240 --> 00:05:56.000
+are intrinsically queer characters
+bound by a co-processor,
+
+108
+00:05:56.080 --> 00:05:59.800
+although their relationship beyond
+that is subject to interpretation.
+
+109
+00:05:59.920 --> 00:06:03.640
+Likewise, the players are bound
+to the same screen, sharing inventories
+
+110
+00:06:03.640 --> 00:06:07.120
+and locked out of decision options
+based on what the other player is doing.
+
+111
+00:06:07.240 --> 00:06:11.480
+This forced proximity is reminiscent
+of games like Realistic Kissing Simulator,
+
+112
+00:06:11.480 --> 00:06:14.480
+which forces players into an intimate play
+style.
+
+113
+00:06:14.480 --> 00:06:18.560
+Boberg states that queer game design
+is the practice of deliberately using game
+
+114
+00:06:18.560 --> 00:06:22.400
+mechanics and other design elements
+to challenge normative expectations around
+
+115
+00:06:22.400 --> 00:06:26.400
+gender, sexuality, and the established
+logics of digital gameplay.
+
+116
+00:06:26.880 --> 00:06:29.480
+Players of ether
+five are not individuals with
+
+117
+00:06:29.480 --> 00:06:33.560
+independent parallel stories,
+but instead interweave their experiences
+
+118
+00:06:33.560 --> 00:06:36.560
+through shared choices,
+items, and proximity.
+
+119
+00:06:38.640 --> 00:06:41.080
+It was important to us
+that as our game developed,
+
+120
+00:06:41.080 --> 00:06:43.000
+we moved beyond parallel narratives
+
+121
+00:06:43.000 --> 00:06:46.760
+and into something more intricate
+and intimate so that the characters bond
+
+122
+00:06:46.800 --> 00:06:50.400
+is demonstrated not just in the narrative,
+but in the mechanics as well.
+
+123
+00:06:51.120 --> 00:06:54.960
+The processor makes you work together
+to share resources and lean on each other
+
+124
+00:06:54.960 --> 00:06:56.120
+in intimate ways.
+
+125
+00:06:56.120 --> 00:06:57.800
+It's not just about shared space,
+
+126
+00:06:57.800 --> 00:07:00.800
+but about shared materiality
+and shared constraints.
+
+127
+00:07:01.000 --> 00:07:01.960
+Our goal is to create
+
+128
+00:07:01.960 --> 00:07:06.400
+an embodied experience of what it means
+to lose out on choices that matter to you.
+
+129
+00:07:08.320 --> 00:07:10.000
+As stated by Piercey and Virga,
+
+130
+00:07:10.000 --> 00:07:14.320
+utilizing experiential play allows us
+to examine what Brandon Quixote calls
+
+131
+00:07:14.320 --> 00:07:17.320
+the coming together of hardware,
+flesh, and audio visuals.
+
+132
+00:07:17.400 --> 00:07:20.320
+In this project,
+we experiment with auto ethnographic
+
+133
+00:07:20.320 --> 00:07:23.760
+exploration through co-op play
+and collaborative authorship.
+
+134
+00:07:23.800 --> 00:07:27.560
+We examine how meaning emerges
+through negotiated decisions, shared
+
+135
+00:07:27.560 --> 00:07:28.480
+spatial perception,
+
+136
+00:07:28.480 --> 00:07:32.400
+and asymmetrical narrative knowledge
+between players and electronic literature.
+
+137
+00:07:32.880 --> 00:07:37.080
+Nodding to Sarah Ahmed, we reflect on
+how bodies as well as objects, take shape
+
+138
+00:07:37.080 --> 00:07:41.560
+through being oriented toward each other
+as an orientation that may be experienced
+
+139
+00:07:41.560 --> 00:07:45.640
+as the cohabitation of sharing space
+or sharing of space.
+
+140
+00:07:46.000 --> 00:07:48.640
+As such, the queer narratives in ether
+five push what it means
+
+141
+00:07:48.640 --> 00:07:52.000
+to be queer with more
+than just the POV of one character.
+
+142
+00:07:52.040 --> 00:07:56.120
+We ask, what does it mean
+to experience a queer narrative together?
+
+143
+00:07:58.120 --> 00:07:58.800
+Now, as
+
+144
+00:07:58.800 --> 00:08:01.800
+we're exploring the answers
+to some of these recurring questions,
+
+145
+00:08:01.840 --> 00:08:05.320
+one of the more immediate questions
+we were asking was,
+
+146
+00:08:05.320 --> 00:08:08.720
+can we build a toolkit,
+an ecosystem of tools where the barriers
+
+147
+00:08:08.720 --> 00:08:12.840
+to implementing copious
+where are modularized and supported.
+
+148
+00:08:12.840 --> 00:08:16.080
+And Godot became our engine of choice
+for several reasons.
+
+149
+00:08:16.080 --> 00:08:19.920
+It has a strong willed, documented
+UI library, which makes it well suited
+
+150
+00:08:19.920 --> 00:08:24.240
+for building text to the interfaces
+and for communicating TPG mechanics,
+
+151
+00:08:24.240 --> 00:08:26.160
+and it manages to remain lightweight
+
+152
+00:08:26.160 --> 00:08:27.640
+and accessible without compromising
+
+153
+00:08:27.640 --> 00:08:28.640
+some of the capabilities
+
+154
+00:08:28.640 --> 00:08:32.400
+of modern game engines, which we thought
+was essential for scalability,
+
+155
+00:08:32.400 --> 00:08:35.840
+innovation and experimentation
+in the design space moving forward.
+
+156
+00:08:36.120 --> 00:08:39.120
+So how do we write this game together
+efficiently?
+
+157
+00:08:39.160 --> 00:08:42.480
+Our initial approach was a custom
+dialog manager designed to power
+
+158
+00:08:42.480 --> 00:08:45.760
+stacks from a JSON file
+with right side by side in a CSV
+
+159
+00:08:45.800 --> 00:08:49.320
+tagging passages and choices
+from a predefined set of options.
+
+160
+00:08:49.320 --> 00:08:51.920
+And our pipeline
+would convert the CSV to JSON
+
+161
+00:08:51.920 --> 00:08:55.320
+and have our dialog manager parse
+and render the text and choices
+
+162
+00:08:55.320 --> 00:08:59.080
+and their relationships in each player's
+respective panels.
+
+163
+00:08:59.120 --> 00:09:01.560
+But while this works
+for very simple mechanics,
+
+164
+00:09:01.560 --> 00:09:06.080
+anything more complex would require
+a more sophisticated scripting grammar
+
+165
+00:09:06.080 --> 00:09:08.480
+or a new authoring environment
+designed from the ground
+
+166
+00:09:08.480 --> 00:09:11.640
+up to create a more intuitive,
+collaborative experience.
+
+167
+00:09:12.800 --> 00:09:13.760
+Another interesting
+
+168
+00:09:13.760 --> 00:09:16.760
+challenge we faced,
+and perhaps the more fun one to solve,
+
+169
+00:09:16.760 --> 00:09:21.560
+is that Godo does not support simultaneous
+multi-user control of UI components.
+
+170
+00:09:21.560 --> 00:09:22.640
+To solve this issue,
+
+171
+00:09:22.640 --> 00:09:27.320
+and to make it easy for new developers
+to make local co-op experiences in go.
+
+172
+00:09:27.720 --> 00:09:30.880
+We developed to go to plugin
+called Dual Cursor UI,
+
+173
+00:09:31.000 --> 00:09:33.320
+which we're actively working on
+and refining.
+
+174
+00:09:33.320 --> 00:09:36.120
+Dual cursor
+UI gives each player their virtual cursor.
+
+175
+00:09:36.120 --> 00:09:39.400
+We had a custom routing layer,
+which bypasses go to native
+
+176
+00:09:39.480 --> 00:09:43.760
+button controls and takes over managing
+all interaction events and UI states.
+
+177
+00:09:43.800 --> 00:09:47.400
+This also allows us to create
+UI panels that have distinct ownership
+
+178
+00:09:47.400 --> 00:09:51.320
+properties, such as a dice pool
+that only one player can access at a time,
+
+179
+00:09:51.320 --> 00:09:55.320
+so it should deny player entry
+if the other player is already using it.
+
+180
+00:09:55.320 --> 00:09:59.240
+Panels containing dialog choices
+which are specific to each player,
+
+181
+00:09:59.240 --> 00:10:03.320
+or shared panels containing special co-op
+abilities, which both players
+
+182
+00:10:03.320 --> 00:10:05.080
+need to access and trigger
+at the same time.
+
+183
+00:10:05.080 --> 00:10:08.200
+To activate, or panels
+which contain choices
+
+184
+00:10:08.200 --> 00:10:12.400
+that lets both players enter
+but only registers the first choice made.
+
+185
+00:10:13.200 --> 00:10:16.160
+Now, as we continue to work on ether five
+
+186
+00:10:16.160 --> 00:10:18.560
+and this project,
+we have a few milestones planned.
+
+187
+00:10:18.560 --> 00:10:23.120
+Firstly, we recently got our project
+project accepted to ACM hypertext
+
+188
+00:10:23.120 --> 00:10:26.400
+and we're looking forward to
+showcasing our demo there this September.
+
+189
+00:10:26.480 --> 00:10:29.840
+We also want to finish developing ether
+five and publish it on steam,
+
+190
+00:10:29.840 --> 00:10:33.320
+and each as a mechanics
+heavy example of split screen local co-op.
+
+191
+00:10:34.080 --> 00:10:36.480
+We also want to publish an author
+first resource
+
+192
+00:10:36.480 --> 00:10:40.320
+that translated consolidates
+our findings into and learnings
+
+193
+00:10:40.320 --> 00:10:43.840
+into practical design
+principles and guidelines for new co-op
+
+194
+00:10:44.160 --> 00:10:47.400
+makers and presents it in a coherent,
+accessible format.
+
+195
+00:10:47.400 --> 00:10:51.560
+We are also exploring feasible designs
+and architectures for a potential
+
+196
+00:10:51.560 --> 00:10:56.880
+collaborative authoring tool for co-op,
+which we lovingly refer to as intertwined.
+
+197
+00:10:56.920 --> 00:10:58.320
+We think this space holds
+
+198
+00:10:58.320 --> 00:11:02.560
+immense potential for a new subgenre
+of interactive fiction experiences
+
+199
+00:11:02.560 --> 00:11:06.760
+and electronic literature, and we aim
+to continue developing this research.
+
+200
+00:11:06.800 --> 00:11:07.560
+Thank you.

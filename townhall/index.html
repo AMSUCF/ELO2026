@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ELO 2026 Town Hall — Super (Un)Supervised World</title>
+<meta name="description" content="The Electronic Literature Organization 2026 Town Hall, presented as a retro side-scrolling adventure. Press the arrow keys to move through the year in electronic literature.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="townhall.css">
+</head>
+<body>
+<a class="skip-link" href="#stage-title">Skip to Town Hall content</a>
+
+<div id="game" role="application" aria-label="ELO 2026 Town Hall side-scrolling slide deck. Use the left and right arrow keys to move between slides.">
+
+  <!-- Parallax scenery -->
+  <div class="layer layer-sky" aria-hidden="true"></div>
+  <div class="layer layer-clouds" id="clouds" aria-hidden="true"></div>
+  <div class="layer layer-hills" id="hills" aria-hidden="true"></div>
+
+  <!-- The scrolling world of stages -->
+  <div id="world">
+
+    <!-- 1. TITLE -->
+    <section class="stage stage-title" id="stage-title" aria-label="Slide 1: Title">
+      <div class="panel panel-hero">
+        <p class="kicker">Press <span class="key">&rarr;</span> to begin &middot; Electronic Literature Organization</p>
+        <h1 class="title-flash">ELO&nbsp;2026<br>TOWN&nbsp;HALL</h1>
+        <p class="subtitle">Super (Un)Supervised World</p>
+        <p class="lede">A year of electronic literature, played as a side-scroller. Use <span class="key">&larr;</span> <span class="key">&rarr;</span> to travel, or the buttons below.</p>
+      </div>
+    </section>
+
+    <!-- 2. CREDITS / BOARD -->
+    <section class="stage" id="stage-credits" aria-label="Slide 2: The Board">
+      <div class="panel">
+        <h2 class="stage-heading"><span class="pblock">?</span> The Board &mdash; Player Select</h2>
+        <p class="stage-note">The people steering the ELO this year.</p>
+        <ul class="roster">
+          <li class="officer"><span class="badge-role">President</span><span class="who">Anastasia Salter</span></li>
+          <li class="officer"><span class="badge-role">Treasurer</span><span class="who">Dene Grigar</span></li>
+          <li class="officer"><span class="badge-role">Secretary</span><span class="who">Davin Heckman</span></li>
+          <li class="officer"><span class="badge-role">Dir. of Communication</span><span class="who">Mark C. Marino</span></li>
+          <li class="officer"><span class="badge-role">ELO Coordinator</span><span class="who">PD Edgar</span></li>
+        </ul>
+        <p class="stage-note">Board of Directors &amp; committees</p>
+        <ul class="roster roster-members">
+          <li>Lyle Skains</li><li>Zach Whalen</li><li>Rui Torres</li>
+          <li>Astrid Ensslin</li><li>Lai-Tze Fan</li><li>Caitlin Fisher</li>
+          <li>Erika F&uuml;l&ouml;p</li><li>Reham Hosny</li><li>Claudia Kozak</li>
+          <li>Jason Nelson</li><li>Alex Saum-Pascual</li><li>Shanmugapriya T</li>
+          <li>Joseph Tabbi</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 3. TREASURER'S REPORT -->
+    <section class="stage stage-coins" id="stage-treasurer" aria-label="Slide 3: Treasurer's Report">
+      <div class="panel">
+        <h2 class="stage-heading"><span class="coin-ico" aria-hidden="true"></span> Treasurer&rsquo;s Report</h2>
+        <p class="stage-note">Presented by Dene Grigar, Treasurer</p>
+        <div class="report-card">
+          <p>The Treasurer&rsquo;s report covers the ELO&rsquo;s current financial health, membership, and the coins we&rsquo;ve banked toward this year&rsquo;s programs and next year&rsquo;s adventure.</p>
+          <p>The organization enters 2026 with an estimated <strong>300 members</strong> worldwide.</p>
+        </div>
+        <div class="stat-coins" aria-hidden="true">
+          <span class="stat-coin"><b>~300</b><small>ELO members</small></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3b. MEMBERSHIP -->
+    <section class="stage" id="stage-membership" aria-label="Slide: ELO Membership">
+      <div class="panel">
+        <h2 class="stage-heading">Powered by Membership</h2>
+        <figure class="shot shot-logo">
+          <img src="../assets/elo_logo.png" width="127" height="100" alt="Electronic Literature Organization logo.">
+        </figure>
+        <p class="report-card">Every ELO project and conference &mdash; the collections, the series, the archives, and gatherings like this one &mdash; can <strong>only be supported by membership</strong>. If the ELO&rsquo;s work matters to you, please join or renew.</p>
+        <p class="link-line"><a href="https://eliterature.org/membership/" target="_blank" rel="noopener">Join or renew your ELO membership &rarr;</a></p>
+      </div>
+    </section>
+
+    <!-- 4. PROJECTS & PARTNERS -->
+    <section class="stage stage-world-sign" id="stage-projects" aria-label="Slide 4: Projects and Partners">
+      <div class="panel">
+        <h2 class="stage-heading">Projects &amp; Partners of the ELO</h2>
+        <p class="lede">Warp pipes to the worlds the ELO builds and sustains &mdash; the collections, series, and sessions keeping electronic literature alive. Keep pressing <span class="key">&rarr;</span>.</p>
+        <ul class="pipe-list">
+          <li>ELC5</li><li>Bloomsbury Series</li><li>MLA</li><li>The NEXT</li><li>CELL &amp; ELD</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 5. ELC5 -->
+    <section class="stage" id="stage-elc5" aria-label="Slide 5: ELC5">
+      <div class="panel">
+        <h2 class="stage-heading"><span class="pblock">?</span> ELC5 &mdash; The Fifth Collection</h2>
+        <div class="two-col">
+          <div>
+            <p>The <strong>Electronic Literature Collection, Volume 5</strong> is underway. The editorial retreat was hosted at <strong>UCF</strong>, with the collection&rsquo;s launch anticipated in <strong>2027</strong>.</p>
+            <p class="stage-note">Editorial collective:</p>
+            <ul class="team-list team-list-solo">
+              <li><span class="who">Dan Cox</span></li>
+              <li><span class="who">&Eacute;lika Ortega</span></li>
+              <li><span class="who">Dani Spinosa</span></li>
+              <li><span class="who">Zach Whalen</span></li>
+            </ul>
+          </div>
+          <div class="power-up" aria-hidden="true">
+            <span class="power-star">&#9733;</span>
+            <span class="power-label">1&nbsp;UP: 2027</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. BLOOMSBURY SERIES -->
+    <section class="stage" id="stage-bloomsbury" aria-label="Slide 6: Bloomsbury Electronic Literature Series">
+      <div class="panel">
+        <h2 class="stage-heading">Bloomsbury &ldquo;Electronic Literature&rdquo; Series</h2>
+        <p class="stage-note">Series editors: Astrid Ensslin &middot; Helen J. Burgess &middot; Mar&iacute;a Menc&iacute;a &middot; Alex Saum-Pascual &middot; Rui Torres &mdash; every volume also released Open Access.</p>
+        <ul class="book-shelf">
+          <li class="book">
+            <img src="screenshots/grammalepsy.jpg" alt="Book cover: Grammalepsy — Essays on Digital Language Art by John Cayley.">
+            <span class="book-meta">John Cayley &middot; 2020</span>
+          </li>
+          <li class="book">
+            <img src="screenshots/digitalimaginary.jpg" alt="Book cover: The Digital Imaginary — Literature and Cinema of the Database, edited by Roderick Coover.">
+            <span class="book-meta">Roderick Coover &middot; 2021</span>
+          </li>
+          <li class="book">
+            <img src="screenshots/elitdh.jpg" alt="Book cover: Electronic Literature as Digital Humanities — Contexts, Forms, and Practices, edited by Dene Grigar and James O&rsquo;Sullivan.">
+            <span class="book-meta">Grigar &amp; O&rsquo;Sullivan &middot; 2022</span>
+          </li>
+          <li class="book">
+            <img src="screenshots/arabicelit.jpg" alt="Book cover: @ArabicElit — Electronic Literature in the Arab World by Reham Hosny.">
+            <span class="book-meta">Reham Hosny &middot; 2026</span>
+          </li>
+          <li class="book">
+            <img src="screenshots/instapoetry.jpg" alt="Book cover: Reading #Instapoetry — A Poetics of Instagram, edited by James Mackay and JuEunhae Knox.">
+            <span class="book-meta">Mackay &amp; Knox &middot; 2026</span>
+          </li>
+        </ul>
+        <p class="link-line"><a href="https://www.bloomsbury.com/us/series/electronic-literature/" target="_blank" rel="noopener">Browse the full series &rarr;</a></p>
+      </div>
+    </section>
+
+    <!-- 7a. MLA 2026 -->
+    <section class="stage" id="stage-mla" aria-label="Slide: MLA 2026">
+      <div class="panel">
+        <h2 class="stage-heading">MLA 2026 &mdash; Sponsored by the ELO</h2>
+        <div class="two-col">
+          <div class="mla-card">
+            <h3 class="mla-year"><a href="https://anastasiasalter.net/DistantCoding/" target="_blank" rel="noopener">Distant Coding for the Digital Humanities</a></h3>
+            <figure class="shot">
+              <a href="https://anastasiasalter.net/DistantCoding/" target="_blank" rel="noopener" aria-label="Open the Distant Coding session page"><img src="screenshots/mla-distant-coding.jpg" width="1568" height="640" alt="Session page for Distant Coding for the Digital Humanities, MLA 2026 Session 213, presented by Anastasia Salter and Lai-Tze Fan."></a>
+            </figure>
+            <p>Session 213 &middot; Fri Jan 9 &middot; 10:15&ndash;11:30 AM<br>Anastasia Salter &amp; Lai-Tze Fan</p>
+          </div>
+          <div class="mla-card">
+            <h3 class="mla-year"><a href="https://anastasiasalter.net/OpenSourceHumanities/" target="_blank" rel="noopener">Open Source Humanities in the Age of AI</a></h3>
+            <figure class="shot">
+              <a href="https://anastasiasalter.net/OpenSourceHumanities/" target="_blank" rel="noopener" aria-label="Open the Open Source Humanities session page"><img src="screenshots/mla-open-source.jpg" width="1568" height="640" alt="Session page for Open Source Humanities in the Age of AI, MLA 2026 Session 82."></a>
+            </figure>
+            <p>Session 82 &middot; Thu Jan 8 &middot; 3:30&ndash;4:45 PM &middot; MTCC 206F<br>Organized by Anastasia Salter &amp; Lai-Tze Fan</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7b. MLA 2027 -->
+    <section class="stage" id="stage-mla-2027" aria-label="Slide: MLA 2027 upcoming">
+      <div class="panel">
+        <h2 class="stage-heading">MLA 2027 &mdash; Upcoming</h2>
+        <p class="lede">Coming to the 2027 MLA Convention in Los Angeles.</p>
+        <div class="three-col">
+          <div class="mla-card">
+            <h3 class="mla-year">Critical Coding: AI, Agency, and the Literary Imagination</h3>
+            <p class="warp-forward">Tina Escaja, Liz Losh, Anastasia Salter, Mark Sample &amp; Mark Marino.</p>
+            <p>Alex Saum-Pascual, presiding.</p>
+          </div>
+          <div class="mla-card">
+            <h3 class="mla-year">Prompting the Avant-Garde: GenAI Writing and the Evolution of Procedural Poetics</h3>
+            <p class="warp-forward">Craig Saper, Kimberly Hall &amp; &Eacute;lika Ortega.</p>
+            <p>Alex Saum-Pascual, presiding.</p>
+          </div>
+          <div class="mla-card">
+            <h3 class="mla-year">Alternate Minds: Ghosts, Aliens and Queer LLMs</h3>
+            <p class="warp-forward">Ken Alba, Bart Kuipers &amp; Jeff Shrager.</p>
+            <p>Mark Marino, presiding &middot; in collaboration with the Committee on Information Technology.</p>
+            <p class="mla-pending">Pending approval</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. THE NEXT -->
+    <section class="stage stage-dark" id="stage-next" aria-label="Slide 8: The NEXT">
+      <div class="panel">
+        <h2 class="stage-heading">the NEXT &mdash; Museum of the Born-Digital</h2>
+        <div class="two-col">
+          <div>
+            <p>The NEXT preserves <strong>over 3,000 works</strong> across <strong>30+ collections</strong> of born-digital art and literature, run through the Electronic Literature Lab at WSU Vancouver.</p>
+            <p>This year&rsquo;s featured exhibit: <strong>Talan Memmott &mdash; Works on Screen, 1998&ndash;2016</strong>, curated by Dene Grigar (March 3 &ndash; July 27, 2026).</p>
+            <p class="link-line"><a href="https://the-next.org/exhibition/works-on-screen/" target="_blank" rel="noopener">Enter the exhibit &rarr;</a></p>
+          </div>
+          <figure class="shot shot-glow">
+            <img src="screenshots/thenext-works-on-screen.jpg" width="1568" height="640" alt="The NEXT exhibition Talan Memmott: Works on Screen, glowing green net-art thumbnails on a black screen linking to Introduction, Works, Criticism, Ephemera, Recordings, Testimonials, Biography, and Statement.">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. CELL / ELD -->
+    <section class="stage" id="stage-cell" aria-label="Slide 9: CELL and ELD">
+      <div class="panel">
+        <h2 class="stage-heading">CELL &amp; the ELD &mdash; Finding the Field</h2>
+        <div class="two-col">
+          <figure class="shot">
+            <img src="screenshots/cell.jpg" width="1568" height="640" alt="The Index homepage of the Consortium on Electronic Literature (CELL), showing its cross-database catalog of electronic literature.">
+            <figcaption><strong>CELL</strong> &mdash; the Consortium on Electronic Literature. Founded 2009; its cross-database Index makes e-lit findable across member archives worldwide.</figcaption>
+          </figure>
+          <figure class="shot">
+            <img src="screenshots/eld.jpg" width="1568" height="640" alt="The Electronic Literature Directory listing individual works with authors and publication years.">
+            <figcaption><strong>ELD</strong> &mdash; the Electronic Literature Directory: an editorially reviewed, citable directory of individual works. Supervising editor: Davin Heckman.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10a. CONFERENCES — the ELOrlando trilogy (the first two) -->
+    <section class="stage" id="stage-conferences" aria-label="Slide: The ELOrlando Trilogy, the first two conferences">
+      <div class="panel">
+        <h2 class="stage-heading">Conferences &mdash; The ELOrlando Trilogy</h2>
+        <p class="stage-note">This Town Hall concludes a three-conference run hosted from Orlando. The first two chapters:</p>
+        <div class="two-col">
+          <figure class="shot">
+            <img src="elo2020.png" width="1920" height="1230" alt="STARS usage dashboard for ELO 2020: 16,321 downloads, 34,110 metadata page hits, 110 posted works, 132 countries, shown on a world map.">
+            <figcaption>ELO 2020 &mdash; &ldquo;(un)continuity&rdquo; &middot; #ELOrlando &middot; 16,321 downloads &middot; 132 countries</figcaption>
+          </figure>
+          <figure class="shot">
+            <img src="elo2024.png" width="1920" height="1230" alt="STARS usage dashboard for ELO 2024: 7,981 downloads, 12,445 metadata page hits, 115 posted works, 116 countries, shown on a world map.">
+            <figcaption>ELO 2024 &mdash; &ldquo;(Un)linked&rdquo; &middot; 7,981 downloads &middot; 116 countries</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10b. CONFERENCES — ELO 2026 (un)supervised (this year) -->
+    <section class="stage" id="stage-2026" aria-label="Slide: ELO 2026 (un)supervised">
+      <div class="panel">
+        <h2 class="stage-heading">ELO 2026 &mdash; The Final Chapter</h2>
+        <figure class="shot shot-logo">
+          <img src="../elo.png" width="400" height="170" alt="ELO (un)supervised 2026 conference logo.">
+        </figure>
+        <div class="stat-coins" aria-hidden="true">
+          <span class="stat-coin"><b>250</b><small>registrants</small></span>
+          <span class="stat-coin"><b>268</b><small>proceedings pages</small></span>
+          <span class="stat-coin"><b>48</b><small>exhibition works</small></span>
+          <span class="stat-coin"><b>110</b><small>events</small></span>
+        </div>
+        <p class="report-card"><strong>ELO 2026 (un)supervised</strong> &mdash; the third and final ELOrlando chapter &mdash; welcomed <strong>250 registrants</strong>, and our open-access repository is almost complete: a <strong>268-page proceedings</strong>, a <strong>48-work exhibition</strong>, and the full program on STARS. Please share and use it!</p>
+        <p class="link-line"><a href="https://stars.library.ucf.edu/elo2026/" target="_blank" rel="noopener">ELO 2026 on STARS &rarr;</a></p>
+      </div>
+    </section>
+
+    <!-- 10c. THANK YOU — Conference Committee -->
+    <section class="stage" id="stage-thanks-committee" aria-label="Slide: Thank you, Conference Committee">
+      <div class="panel">
+        <h2 class="stage-heading">Thank You &mdash; Conference Committee</h2>
+        <p class="stage-note">The team that built ELO 2026 (un)supervised.</p>
+        <ul class="roster">
+          <li class="officer"><span class="badge-role">Co-Chair</span><span class="who">Anastasia Salter</span></li>
+          <li class="officer"><span class="badge-role">Co-Chair</span><span class="who">John Murray</span></li>
+          <li class="officer"><span class="badge-role">Exhibition Co-Chair</span><span class="who">Lyle Skains</span></li>
+          <li class="officer"><span class="badge-role">Exhibition Co-Chair</span><span class="who">Daniel Cox</span></li>
+          <li class="officer"><span class="badge-role">Web Chair</span><span class="who">Mike Shier</span></li>
+          <li class="officer"><span class="badge-role">Logistics Chair</span><span class="who">PD Edgar</span></li>
+          <li class="officer"><span class="badge-role">Proceedings Chair</span><span class="who">Jack Murray</span></li>
+          <li class="officer"><span class="badge-role">Exhibitions Team</span><span class="who">Alyssa Barrack</span></li>
+          <li class="officer"><span class="badge-role">Exhibitions Team</span><span class="who">Ricky Finch</span></li>
+          <li class="officer"><span class="badge-role">Committee</span><span class="who">Emily Johnson</span></li>
+          <li class="officer"><span class="badge-role">Committee</span><span class="who">Mel Stanfill</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 10d. THANK YOU — Artistic & Scientific Committee -->
+    <section class="stage" id="stage-thanks-jury" aria-label="Slide: Thank you, Artistic and Scientific Committee">
+      <div class="panel">
+        <h2 class="stage-heading">Thank You &mdash; Artistic &amp; Scientific Committee</h2>
+        <p class="stage-note">The jurors and reviewers who shaped the exhibition and the program.</p>
+        <ul class="roster roster-members">
+          <li>Alex Saum-Pascual</li><li>Alia Hall</li><li>Alyssa Barrack</li>
+          <li>Anastasia Salter</li><li>Anne Sullivan</li><li>Anyssa Gonzalez</li>
+          <li>Astrid Ensslin</li><li>Christina Restrepo Nazar</li><li>Claudia Kozak</li>
+          <li>Dan Cox</li><li>Daniel Heslep</li><li>Deena Larsen</li>
+          <li>Dene Grigar</li><li>&Eacute;lika Ortega</li><li>Emery Beckman</li>
+          <li>Emily K. Johnson</li><li>Farrah Cato</li><li>Glenn S. Ritchey III</li>
+          <li>J.M.L. Whittington</li><li>Jack Murray</li><li>Jason Nelson</li>
+          <li>John T. Murray</li><li>Kathi Inman Berens</li><li>Kirk M. Lundblade</li>
+          <li>LJ Connolly</li><li>Lyle Skains</li><li>Mark C. Marino</li><li>Mel Stanfill</li>
+          <li>Mez Breeze</li><li>Mike Shier</li><li>Mirek Stolee</li>
+          <li>Nikki Barnes</li><li>PB Berge</li><li>P.D. Edgar</li>
+          <li>Ricky Finch</li><li>Samya Brata Roy</li><li>Shanmugapriya T</li>
+          <li>Stuart Moulthrop</li><li>Vee Kennedy</li><li>Yingzi Kong</li>
+          <li>Zach Whalen</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 10e. THANK YOU — Video Team & Moderators -->
+    <section class="stage" id="stage-thanks-video" aria-label="Slide: Thank you, Video Team and Moderators">
+      <div class="panel">
+        <h2 class="stage-heading">Thank You &mdash; Video Team &amp; Moderators</h2>
+        <p class="stage-note">Moderators &amp; Video Team coordinated by <strong>Mike Shier</strong></p>
+        <p class="stage-note">Video Team</p>
+        <ul class="roster roster-members">
+          <li>M&oacute;nica Gonzalez Burgos &middot; Chair</li>
+          <li>Frederic Caeyers</li><li>LJ Connolly</li><li>Tyler Gillis</li>
+          <li>Christina Restrepo Nazar</li><li>J.M.L. Whittington</li>
+        </ul>
+        <p class="stage-note">Moderators</p>
+        <ul class="roster roster-members">
+          <li>Vee Kennedy</li><li>Emery Beckman</li><li>Emilie Buckley</li>
+          <li>Daniel Heslep</li><li>Alyssa Barrack</li><li>Favour Boluwade</li>
+          <li>Kirk Lundblade</li><li>Matthew Bryan</li><li>P.D. Edgar</li>
+          <li>Glenn S. Ritchey III</li><li>Mark C. Marino</li><li>Zach Whalen</li>
+          <li>Reliance Enwerem</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 10f. SPONSORS -->
+    <section class="stage" id="stage-sponsors" aria-label="Slide: Sponsors">
+      <div class="panel">
+        <h2 class="stage-heading">With Thanks to Our Sponsors</h2>
+        <ul class="sponsor-wall">
+          <li class="sponsor-card">
+            <img src="../assets/sponsors/chdr.png" alt="Center for Humanities and Digital Research logo.">
+          </li>
+          <li class="sponsor-card sponsor-wordmark">
+            <span class="sw-top">University of Central Florida</span>
+            <span class="sw-name">College of Arts&nbsp;&amp; Humanities</span>
+          </li>
+          <li class="sponsor-card sponsor-wordmark">
+            <span class="sw-top">University of Central Florida</span>
+            <span class="sw-name">Texts&nbsp;&amp; Technology<br>Ph.D. Program</span>
+          </li>
+        </ul>
+        <p class="report-card">The sponsorship of these organizations is what makes it possible to run this conference <strong>free of charge</strong> &mdash; as a membership drive for the ELO. Thank you for helping keep electronic literature open to everyone.</p>
+      </div>
+    </section>
+
+    <!-- 11. BIG REVEAL -->
+    <section class="stage stage-reveal" id="stage-reveal" aria-label="Slide 11: ELO 2027 announcement">
+      <div class="panel panel-hero">
+        <p class="kicker">World 2-0 &middot; The next adventure</p>
+        <h2 class="title-flash reveal-title">ELO&nbsp;2027</h2>
+        <p class="subtitle">Universidad del Norte<br>Barranquilla, Colombia</p>
+        <p class="lede">The ELO is heading to South America! Our 2027 conference will be hosted by Universidad del Norte.</p>
+        <ul class="team-list">
+          <li><span class="who">Mar&iacute;a Cecilia Reyes</span><span class="aff">Universidad del Norte</span></li>
+          <li><span class="who">Jaime Rodr&iacute;guez</span><span class="aff">Universidad de los Andes</span></li>
+          <li><span class="who">Nelson Vera</span><span class="aff">Universidad de los Andes</span></li>
+          <li><span class="who">Mauricio V&aacute;squez</span><span class="aff">EAFIT</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 12. MORE TO COME -->
+    <section class="stage" id="stage-more" aria-label="Slide 12: More conferences to come">
+      <div class="panel">
+        <h2 class="stage-heading">And there&rsquo;s more&hellip;</h2>
+        <p class="lede">We have more exciting conferences already in the works, and we look forward to sharing the details with you soon. Watch this warp zone.</p>
+      </div>
+    </section>
+
+    <!-- 13. Q&A -->
+    <section class="stage" id="stage-qa" aria-label="Slide 13: Q and A">
+      <div class="panel">
+        <h2 class="stage-heading"><span class="pblock">?</span> Q&amp;A &mdash; Your Turn, Player 2</h2>
+        <ul class="qa-list">
+          <li>What would you like to see next from the ELO?</li>
+          <li>How do you feel about income-based membership?</li>
+          <li>What do you wish we were thinking about or doing?</li>
+        </ul>
+        <p class="stage-note">Unmute, raise a hand, or drop it in the chat.</p>
+      </div>
+    </section>
+
+    <!-- 14. THANK YOU / FLAGPOLE -->
+    <section class="stage stage-end" id="stage-end" aria-label="Slide 14: Thank you">
+      <div class="panel panel-hero">
+        <h2 class="title-flash">THANK&nbsp;YOU</h2>
+        <p class="subtitle">for playing the ELO 2026 Town Hall</p>
+        <p class="lede">See you in Barranquilla. <span class="key">&larr;</span> to replay any level.</p>
+        <p class="link-line"><a href="../index.html">&larr; Back to ELO 2026 home</a></p>
+      </div>
+      <div class="flagpole" aria-hidden="true"><span class="flag"></span></div>
+      <div class="castle" aria-hidden="true"></div>
+    </section>
+
+  </div><!-- /#world -->
+
+  <!-- Ground / bricks -->
+  <div class="layer layer-ground" aria-hidden="true"></div>
+
+  <!-- The hero sprite + the portal/door at the far end of each room -->
+  <canvas id="hero" width="56" height="56" aria-hidden="true"></canvas>
+  <div id="portal" aria-hidden="true"></div>
+
+  <!-- World-transition flash + banner, and per-world particle FX -->
+  <div id="world-flash" aria-hidden="true"></div>
+  <div id="world-banner" aria-hidden="true"><span class="wb-num"></span><span class="wb-name"></span></div>
+  <div id="fx-embers" aria-hidden="true"></div>
+  <div id="fx-bubbles" aria-hidden="true"></div>
+  <div id="fx-fish" aria-hidden="true"></div>
+  <div id="fx-birds" aria-hidden="true"></div>
+
+  <!-- Beach (Barranquilla) scenery: the setting sun and a pink flamingo -->
+  <div id="beach-sun" aria-hidden="true"></div>
+  <div id="flamingo" aria-hidden="true">
+    <svg viewBox="0 0 96 160" xmlns="http://www.w3.org/2000/svg">
+      <g stroke="#ff9ec2" stroke-width="4" fill="none" stroke-linecap="round">
+        <path d="M46 100 L44 152"/>
+        <path d="M54 100 L62 126 L56 152"/>
+        <path d="M40 152 L50 152"/>
+        <path d="M52 152 L62 152"/>
+      </g>
+      <path d="M20 84 L4 76 L22 92 Z" fill="#ff8fb8"/>
+      <ellipse cx="46" cy="86" rx="28" ry="19" fill="#ff6ea6"/>
+      <path d="M34 80 q18 -9 30 2 q-14 10 -30 -2 Z" fill="#ff8fb8"/>
+      <path d="M60 74 C80 68 78 40 63 31 C51 24 55 13 67 11" stroke="#ff6ea6" stroke-width="9" fill="none" stroke-linecap="round"/>
+      <circle cx="66" cy="12" r="8" fill="#ff6ea6"/>
+      <path d="M72 11 L90 19 L72 20 Z" fill="#ffcf6a"/>
+      <path d="M83 16 L90 19 L84 21 Z" fill="#1a1a2a"/>
+      <circle cx="68" cy="10" r="1.8" fill="#1a1a2a"/>
+    </svg>
+  </div>
+
+  <!-- HUD -->
+  <header id="hud">
+    <span class="hud-title">ELO&nbsp;2026 &#9733; TOWN&nbsp;HALL</span>
+    <span class="hud-world">WORLD <span id="world-num">1</span>-<span id="world-total">14</span></span>
+    <span class="hud-coins"><span class="hud-coin" aria-hidden="true"></span>&times;<span id="coin-count">0</span></span>
+  </header>
+
+
+  <!-- Controls -->
+  <nav id="controls" aria-label="Slide navigation">
+    <button type="button" id="btn-prev" class="ctrl-btn">&larr; Back</button>
+    <ol id="dots" aria-label="Jump to slide"></ol>
+    <button type="button" id="btn-next" class="ctrl-btn">Next &rarr;</button>
+  </nav>
+
+  <!-- Polite live region announces the current slide to screen readers -->
+  <p id="sr-status" class="visually-hidden" aria-live="polite"></p>
+</div>
+
+<script src="townhall.js"></script>
+</body>
+</html>

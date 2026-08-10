@@ -1,8 +1,9 @@
 name: Sync schedule from STARS
 
+# The site is in archive mode: the hourly schedule is retired, and the sync
+# now runs only when triggered by hand (Actions tab -> Run workflow) after a
+# requested change to the archive on STARS.
 on:
-  schedule:
-    - cron: "23 */6 * * *"   # every 6 hours
   workflow_dispatch:
 
 permissions:
@@ -22,8 +23,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Run parser tests against fixtures
-        run: python -m unittest tests.test_fetch_schedule -v
+      - name: Run parser and caption tests against fixtures
+        run: python -m unittest discover -s tests -p "test_*.py" -v
 
       - name: Fetch live schedule
         run: python scripts/fetch_schedule.py

@@ -1,0 +1,1361 @@
+WEBVTT
+
+1
+00:00:01.440 --> 00:00:03.200
+Okay.
+
+2
+00:00:03.200 --> 00:00:05.760
+After so many years of doing zoom,
+it's always like, is it working?
+
+3
+00:00:05.760 --> 00:00:08.760
+Can you see my screen? I think so
+
+4
+00:00:08.800 --> 00:00:09.120
+okay.
+
+5
+00:00:09.120 --> 00:00:12.400
+So yeah, I'm going to be talking about
+this game called
+
+6
+00:00:12.440 --> 00:00:15.640
+TR 49, its most recent game
+by Encore Studios.
+
+7
+00:00:15.640 --> 00:00:18.120
+And basically it's at me.
+
+8
+00:00:18.120 --> 00:00:22.880
+It's a game where you are playing
+somewhat like her story or other games
+
+9
+00:00:23.040 --> 00:00:27.440
+sort of involve deducing the story
+through putting together fragments.
+
+10
+00:00:27.440 --> 00:00:28.680
+You're sitting in front of a computer
+
+11
+00:00:28.680 --> 00:00:31.680
+interacting with that computer,
+and you're also talking
+
+12
+00:00:31.680 --> 00:00:32.920
+to somebody through a radio.
+
+13
+00:00:32.920 --> 00:00:35.400
+You don't quite know who it is,
+who's giving you instructions.
+
+14
+00:00:35.400 --> 00:00:40.040
+And what was most interesting about it
+is towards the start of the game,
+
+15
+00:00:40.640 --> 00:00:43.320
+the character Liam,
+who's talking to you, basically describes
+
+16
+00:00:43.320 --> 00:00:46.680
+the machine that you're interacting
+with as a machine that eats books.
+
+17
+00:00:46.680 --> 00:00:48.280
+So I was like,
+oh, this is very interesting.
+
+18
+00:00:48.280 --> 00:00:51.680
+Okay, I want to play the rest of this game
+and think about maybe what can it
+
+19
+00:00:51.680 --> 00:00:55.720
+tell me about the machines
+that I think are eating books around us?
+
+20
+00:00:55.760 --> 00:00:57.120
+AI yeah.
+
+21
+00:00:57.120 --> 00:01:00.080
+So that's what
+I want to talk about in this talk.
+
+22
+00:01:00.080 --> 00:01:01.240
+So this is somewhat preliminary.
+
+23
+00:01:01.240 --> 00:01:02.640
+I mean, I finished the game,
+
+24
+00:01:02.640 --> 00:01:04.800
+I thought about this
+and these are my initial thoughts.
+
+25
+00:01:04.800 --> 00:01:07.200
+So yeah any feedback you can give
+would be great.
+
+26
+00:01:07.200 --> 00:01:08.880
+So yeah, this this quote
+
+27
+00:01:08.880 --> 00:01:11.240
+that came up towards this
+about 20 minutes into the game
+
+28
+00:01:11.240 --> 00:01:13.440
+after you was just started
+figuring out what you're doing.
+
+29
+00:01:13.440 --> 00:01:17.360
+So Liam, the character
+who's explaining to you what to do,
+
+30
+00:01:17.400 --> 00:01:21.120
+says this machine was built to understand
+things that no one else can understand.
+
+31
+00:01:21.200 --> 00:01:25.320
+Define meaning where meaning is obscure
+and the way it does it is by eating books.
+
+32
+00:01:25.360 --> 00:01:28.040
+I mean it eats them. It choose them
+up, swallows them hold.
+
+33
+00:01:28.040 --> 00:01:30.320
+So basically the machine is an archive.
+
+34
+00:01:30.320 --> 00:01:33.880
+It was originally a code breaking machine
+during the Second World War.
+
+35
+00:01:33.880 --> 00:01:36.880
+But over time, as you discover,
+as you explore the archive,
+
+36
+00:01:36.920 --> 00:01:39.160
+it actually had a lot of other texts
+fed into it.
+
+37
+00:01:39.160 --> 00:01:43.200
+And it started started to become something
+that's actually affecting the way
+
+38
+00:01:43.200 --> 00:01:44.120
+the world is around us.
+
+39
+00:01:44.120 --> 00:01:47.600
+So yeah, all of this made me think,
+oh, this is like very familiar to
+
+40
+00:01:47.880 --> 00:01:49.200
+the situation we're in these days.
+
+41
+00:01:49.200 --> 00:01:52.480
+And the first thing that I thought
+I was basically this, I mean, this news
+
+42
+00:01:52.480 --> 00:01:55.480
+that I'd come across about, in this case
+
+43
+00:01:55.480 --> 00:01:58.480
+anthropic and other AI companies
+
+44
+00:01:59.200 --> 00:02:02.640
+buying physical books
+and then ripping them apart
+
+45
+00:02:02.640 --> 00:02:05.760
+and scanning them and then throwing them
+away as a way to sort of get around
+
+46
+00:02:05.760 --> 00:02:08.920
+copyright that I guess,
+because they felt they own the book.
+
+47
+00:02:08.920 --> 00:02:13.840
+Then that copy of the book, then it's
+much easier for them to basically do this,
+
+48
+00:02:13.880 --> 00:02:16.240
+what's called destructive scanning,
+where you cut off the spine
+
+49
+00:02:16.240 --> 00:02:20.240
+and then automatically feed
+the book through into the machine.
+
+50
+00:02:20.280 --> 00:02:20.440
+Yeah.
+
+51
+00:02:20.440 --> 00:02:24.880
+So this is exactly what I thought of
+when I thought of like a machine
+
+52
+00:02:24.880 --> 00:02:26.120
+that's eating books.
+
+53
+00:02:26.120 --> 00:02:27.920
+So I was thinking,
+okay, maybe there's something we can
+
+54
+00:02:27.920 --> 00:02:31.480
+I can do here by playing this game
+and use it as a way to think through
+
+55
+00:02:31.480 --> 00:02:34.880
+perhaps what is happening with AI
+and how it's affecting
+
+56
+00:02:35.080 --> 00:02:38.160
+our understanding of knowledge
+and and reading and writing.
+
+57
+00:02:38.800 --> 00:02:41.960
+So I'm going to start by talking a bit
+about the way the game is structured,
+
+58
+00:02:41.960 --> 00:02:44.160
+what the game is like,
+and then I'll talk a bit about my thoughts
+
+59
+00:02:44.160 --> 00:02:48.720
+that I that basically came my reflections
+as I was playing the game.
+
+60
+00:02:48.920 --> 00:02:49.080
+Yeah.
+
+61
+00:02:49.080 --> 00:02:51.360
+So the game
+basically you're playing as Abby,
+
+62
+00:02:51.360 --> 00:02:53.600
+you're not quite sure who you are
+initially.
+
+63
+00:02:53.600 --> 00:02:56.520
+You're sitting in front of this machine
+initially, everything is very garbled.
+
+64
+00:02:56.520 --> 00:03:00.080
+And Liam is explaining to you
+that this machine,
+
+65
+00:03:00.080 --> 00:03:04.040
+TR 49, is sort of an extension
+of this code breaking machine.
+
+66
+00:03:04.040 --> 00:03:06.360
+And what your job is to do.
+
+67
+00:03:06.360 --> 00:03:08.520
+Basically,
+your job is to try to figure out
+
+68
+00:03:08.520 --> 00:03:09.160
+the different codes.
+
+69
+00:03:09.160 --> 00:03:11.920
+You need to make connections
+between the books
+
+70
+00:03:11.920 --> 00:03:13.280
+that have been fed into the archive.
+
+71
+00:03:13.280 --> 00:03:16.640
+So initially, everything is garbled,
+and as you start to define these codes
+
+72
+00:03:16.640 --> 00:03:19.320
+and work through,
+the text becomes less and less garbled.
+
+73
+00:03:19.320 --> 00:03:21.800
+And basically
+you're restoring the archive.
+
+74
+00:03:21.800 --> 00:03:27.080
+So your initial game sort of objective
+is to find clues from the various texts.
+
+75
+00:03:27.080 --> 00:03:28.160
+And the text basically
+
+76
+00:03:28.160 --> 00:03:32.600
+are both fragments of the books
+that have been fed in, plus annotations,
+
+77
+00:03:32.640 --> 00:03:37.720
+either by scholars or by the Cecil,
+the person who was originally feeding
+
+78
+00:03:37.800 --> 00:03:38.760
+the text into the machine.
+
+79
+00:03:38.760 --> 00:03:40.760
+About those texts
+and what you're looking for
+
+80
+00:03:40.760 --> 00:03:44.480
+is things like the name of the authors
+and when the books were published,
+
+81
+00:03:44.480 --> 00:03:46.840
+and those eventually allow you
+to work out these codes.
+
+82
+00:03:46.840 --> 00:03:49.840
+And the initial objective is to basically
+
+83
+00:03:50.440 --> 00:03:53.520
+find different titles of the texts
+and then find the code that matches it.
+
+84
+00:03:53.520 --> 00:03:58.880
+And once you get all 50 of those, you have
+restored the archive and the objective.
+
+85
+00:03:58.920 --> 00:04:01.560
+The overall objective that Liam tells you
+is that you must find this,
+
+86
+00:04:01.560 --> 00:04:02.680
+this book called NPS,
+
+87
+00:04:02.680 --> 00:04:05.160
+and you have the title initially,
+but you don't know its code.
+
+88
+00:04:05.160 --> 00:04:07.040
+Once you've done
+that, you are supposed to delete that,
+
+89
+00:04:07.040 --> 00:04:11.640
+because that will stop this machine
+from basically causing damage to reality.
+
+90
+00:04:12.520 --> 00:04:15.080
+So the gameplay proceeds a bit like this.
+
+91
+00:04:15.080 --> 00:04:16.640
+You have some text.
+
+92
+00:04:16.640 --> 00:04:20.040
+In this case,
+we have information about this author.
+
+93
+00:04:20.080 --> 00:04:24.400
+We believe it's Quentin Marchant
+and his initials are QL.
+
+94
+00:04:24.400 --> 00:04:27.680
+And then as you try to figure out
+what the different books are in this case,
+
+95
+00:04:27.760 --> 00:04:29.320
+the book was published in 1918.
+
+96
+00:04:29.320 --> 00:04:34.120
+So one of the links
+that you need to figure out is QL 18.
+
+97
+00:04:34.160 --> 00:04:36.160
+So if the video works,
+you'll see what happens
+
+98
+00:04:36.160 --> 00:04:40.560
+as you code in on this very retro
+looking interface here, that code.
+
+99
+00:04:41.000 --> 00:04:44.000
+So basically you figure out okay QL 18.
+
+100
+00:04:44.040 --> 00:04:47.760
+Once that's locked in then it'll take you
+to another part of the archive.
+
+101
+00:04:47.800 --> 00:04:50.080
+So basically this is like a hypertext
+with no links.
+
+102
+00:04:50.080 --> 00:04:50.680
+And you're going through
+
+103
+00:04:50.680 --> 00:04:53.160
+and trying to restore those links,
+rebuild the archive
+
+104
+00:04:53.160 --> 00:04:55.280
+and put it back together
+as a way to figure out
+
+105
+00:04:55.280 --> 00:04:59.360
+sort of the history of this machine
+and hopefully be able to, to stop it.
+
+106
+00:05:00.680 --> 00:05:00.960
+Yeah.
+
+107
+00:05:00.960 --> 00:05:03.320
+So yeah, gradually you're
+reconstructing the archive.
+
+108
+00:05:03.320 --> 00:05:05.120
+And as with a lot of these games,
+it actually
+
+109
+00:05:05.120 --> 00:05:07.080
+in this case
+it does a really good job of providing you
+
+110
+00:05:07.080 --> 00:05:09.960
+the sort of automatic notes
+that help you build out the list
+
+111
+00:05:09.960 --> 00:05:11.440
+of all the different authors
+who were involved
+
+112
+00:05:11.440 --> 00:05:13.840
+and what has led to the way
+things are right now.
+
+113
+00:05:13.840 --> 00:05:17.440
+And as you go through it
+and discover these different fragments,
+
+114
+00:05:17.440 --> 00:05:20.560
+you realize that what's within the game
+world, what's happened
+
+115
+00:05:20.560 --> 00:05:23.240
+is since the late 19th century
+through until now,
+
+116
+00:05:23.240 --> 00:05:24.240
+there's been a number of authors
+
+117
+00:05:24.240 --> 00:05:27.600
+around the world and philosophers
+who've been realizing that actually,
+
+118
+00:05:27.640 --> 00:05:29.600
+there's a certain way
+you can write texts such that
+
+119
+00:05:29.600 --> 00:05:32.000
+it actually revises
+the way that people think,
+
+120
+00:05:32.000 --> 00:05:35.400
+not just by reading the text,
+but it literally changes your mind.
+
+121
+00:05:35.440 --> 00:05:37.520
+And they basically are experimenting
+
+122
+00:05:37.520 --> 00:05:39.440
+with ways
+in which this could be very powerful.
+
+123
+00:05:39.440 --> 00:05:44.520
+And then after the Second World War,
+scientists have started thinking
+
+124
+00:05:44.520 --> 00:05:48.320
+about basically feeding these into this,
+this code breaking machine and then
+
+125
+00:05:48.560 --> 00:05:53.280
+using some quantum mechanics to basically
+see what they can do with those texts.
+
+126
+00:05:53.280 --> 00:05:56.480
+And what happens in the game
+is that once the machine actually is fed
+
+127
+00:05:56.480 --> 00:05:57.320
+its own instructions,
+
+128
+00:05:57.320 --> 00:06:00.320
+it does instructions validate
+the machine can do what it actually does.
+
+129
+00:06:00.320 --> 00:06:01.760
+And these revisions
+
+130
+00:06:01.760 --> 00:06:04.840
+don't just affect people's minds,
+but because the machine is constantly,
+
+131
+00:06:04.840 --> 00:06:08.400
+constantly rereading these texts,
+it starts to change reality itself.
+
+132
+00:06:08.880 --> 00:06:09.240
+Right?
+
+133
+00:06:09.240 --> 00:06:12.120
+So yeah, basically,
+you eventually learn that your real goal
+
+134
+00:06:12.120 --> 00:06:15.400
+isn't just to figure out the archive,
+but is to destroy this machine
+
+135
+00:06:15.400 --> 00:06:17.960
+to save the world
+from being constantly rewritten.
+
+136
+00:06:17.960 --> 00:06:20.960
+So yeah, it felt like a lot of parallels
+going on here in terms of
+
+137
+00:06:21.000 --> 00:06:22.960
+what's happening around us. Yeah.
+
+138
+00:06:22.960 --> 00:06:24.920
+So just to put this in some context, yeah,
+
+139
+00:06:24.920 --> 00:06:28.000
+this is what you could call
+an epidemic database narrative.
+
+140
+00:06:28.000 --> 00:06:30.680
+So Mary Ryan calls this sort of
+
+141
+00:06:31.640 --> 00:06:34.000
+narrative where you're
+basically being driven by a need to know,
+
+142
+00:06:34.000 --> 00:06:37.800
+as opposed to by taking actions
+within the story and epistemic narrative
+
+143
+00:06:37.800 --> 00:06:42.160
+and a database narrative drawing
+originally from from work on database
+
+144
+00:06:42.240 --> 00:06:44.240
+versus narrative. It's one of these.
+
+145
+00:06:44.240 --> 00:06:46.680
+It's one
+where the process of basically involves
+
+146
+00:06:46.680 --> 00:06:49.680
+finding story fragments
+and making connections between them.
+
+147
+00:06:49.960 --> 00:06:51.520
+So a couple of examples here.
+
+148
+00:06:51.520 --> 00:06:54.880
+Her story is one of the earlier
+Sam Barlow works, where you're basically
+
+149
+00:06:54.880 --> 00:06:58.040
+going through putting a search terms
+in to figure out video,
+
+150
+00:06:58.080 --> 00:07:01.840
+use videos to figure out what happened,
+and then return of Over ten by Pope.
+
+151
+00:07:01.960 --> 00:07:05.000
+You're exploring a ship
+that has returned with a life on it,
+
+152
+00:07:05.000 --> 00:07:08.000
+and you're basically using a rewind
+mechanism to figure out what happened.
+
+153
+00:07:08.760 --> 00:07:11.160
+Yeah. So so that's basically the game.
+
+154
+00:07:11.160 --> 00:07:12.120
+I mean, there's a lot more to it.
+
+155
+00:07:12.120 --> 00:07:13.600
+I can't describe everything,
+
+156
+00:07:13.600 --> 00:07:16.840
+but what I want to do in the next
+few minutes is just think about
+
+157
+00:07:16.840 --> 00:07:19.840
+how this got me thinking
+about the impact of AI on reality.
+
+158
+00:07:19.840 --> 00:07:23.720
+So in the game, literally,
+this machine is changing the world
+
+159
+00:07:23.720 --> 00:07:27.080
+around us as it revises
+and constantly rewrites reality.
+
+160
+00:07:27.080 --> 00:07:30.520
+And you're sort of tasked
+with trying to stop this from happening.
+
+161
+00:07:30.600 --> 00:07:35.200
+But so yeah, what we write
+and read creates our reality.
+
+162
+00:07:35.240 --> 00:07:36.400
+I would say that's the case
+
+163
+00:07:36.400 --> 00:07:39.720
+in the real world as well,
+that it creates our perception of reality.
+
+164
+00:07:39.720 --> 00:07:41.240
+But in the game, it literally
+
+165
+00:07:41.240 --> 00:07:45.240
+is the sort of power of words
+to create and change reality.
+
+166
+00:07:45.240 --> 00:07:49.240
+So yeah, as the the screenshot here
+from one of the text says, yeah,
+
+167
+00:07:49.320 --> 00:07:53.720
+semantics is the creation of a reality
+like dolls in their houses coming to life.
+
+168
+00:07:53.720 --> 00:07:57.720
+When we write or dream,
+we create and we read and we play
+
+169
+00:07:57.720 --> 00:07:59.200
+and we're animating that, that belief.
+
+170
+00:07:59.200 --> 00:08:01.720
+So this was sort of at the start
+of what was happening in the game.
+
+171
+00:08:01.720 --> 00:08:02.960
+And I think it also is
+
+172
+00:08:02.960 --> 00:08:07.120
+sort of the way in which words
+have power over us in the real world.
+
+173
+00:08:07.320 --> 00:08:09.920
+And so in the game, basically,
+the machine has eaten up all this,
+
+174
+00:08:09.920 --> 00:08:12.280
+all the writing
+and including its own blueprints,
+
+175
+00:08:12.280 --> 00:08:14.720
+and now it's actually revising
+reality itself.
+
+176
+00:08:14.720 --> 00:08:16.440
+So what this made me think of is actually,
+
+177
+00:08:16.440 --> 00:08:20.200
+is that all that different
+from what's happening in the real world?
+
+178
+00:08:20.240 --> 00:08:20.560
+Right.
+
+179
+00:08:20.560 --> 00:08:23.600
+So if you think about it,
+I mean, we're feeling sort
+
+180
+00:08:23.600 --> 00:08:27.440
+of what we understand about the world
+is starting to be warped by AI.
+
+181
+00:08:27.480 --> 00:08:28.560
+I mean, this is just an example
+
+182
+00:08:28.560 --> 00:08:33.280
+of one of the big videos that came up
+during the around war, and the BBC
+
+183
+00:08:33.520 --> 00:08:36.640
+was setting up a site where you can check
+and see, are these things AI generated?
+
+184
+00:08:36.640 --> 00:08:38.240
+But I think that's a more extreme case.
+
+185
+00:08:38.240 --> 00:08:40.640
+But there's also a lot
+more subtle things that happen.
+
+186
+00:08:40.640 --> 00:08:45.960
+I didn't put a screenshot of it, but
+I was googling for one of my old papers
+
+187
+00:08:45.960 --> 00:08:51.640
+and a couple of days ago, and Google
+basically has its AI mode that pops up,
+
+188
+00:08:51.640 --> 00:08:55.000
+and it started telling me things
+about my paper that I knew were not true,
+
+189
+00:08:55.000 --> 00:08:57.280
+and it started telling me things
+about people
+
+190
+00:08:57.280 --> 00:09:00.280
+who I actually know and work with,
+but haven't coauthored with,
+
+191
+00:09:00.280 --> 00:09:04.120
+explaining how I had coauthored a paper
+with one of them about this topic.
+
+192
+00:09:04.120 --> 00:09:07.120
+And I was thinking, yeah, I mean,
+if it wasn't me that was reading that,
+
+193
+00:09:07.960 --> 00:09:08.760
+how could you be sure?
+
+194
+00:09:08.760 --> 00:09:11.200
+I mean, it actually also showed
+the sources supposedly
+
+195
+00:09:11.200 --> 00:09:13.120
+where it got this from, which,
+I mean, there were my papers,
+
+196
+00:09:13.120 --> 00:09:15.760
+but they weren't papers
+that I had with somebody else.
+
+197
+00:09:15.760 --> 00:09:17.160
+So it just made me realize that really.
+
+198
+00:09:17.160 --> 00:09:20.160
+I mean, as we depend on these tools,
+
+199
+00:09:20.160 --> 00:09:23.720
+it's starting to affect what we know
+and what we believe.
+
+200
+00:09:23.920 --> 00:09:26.120
+It's not changing the world
+physically around us,
+
+201
+00:09:26.120 --> 00:09:29.080
+but it's changing our perception
+and understanding of the world.
+
+202
+00:09:29.080 --> 00:09:32.520
+So the game presents basically,
+is that when you start, when you realize
+
+203
+00:09:32.520 --> 00:09:35.520
+this and Liam tells you, okay,
+this is actually what's really happening,
+
+204
+00:09:35.600 --> 00:09:39.160
+you need to 
+essentially destroy the machine.
+
+205
+00:09:39.160 --> 00:09:41.560
+And the way you destroy
+the machine is by going back
+
+206
+00:09:41.560 --> 00:09:44.680
+and actually using its own ability
+to rewrite and revise the world,
+
+207
+00:09:44.680 --> 00:09:48.080
+to remove the knowledge
+that actually led to the machine existing,
+
+208
+00:09:48.080 --> 00:09:51.160
+so that there's no way
+it could actually have ever been created.
+
+209
+00:09:51.200 --> 00:09:51.400
+Right.
+
+210
+00:09:51.400 --> 00:09:55.640
+And that seems to me
+like that's a very final way of dealing
+
+211
+00:09:55.640 --> 00:09:59.080
+with this, basically rendering the machine
+either mute or hopefully controllable.
+
+212
+00:09:59.120 --> 00:10:02.200
+So there are actually a number of
+different endings, which is interesting.
+
+213
+00:10:02.200 --> 00:10:04.640
+So I mean the game gets to an ending,
+allows you to go back
+
+214
+00:10:04.640 --> 00:10:06.760
+and basically try out
+different possibilities.
+
+215
+00:10:06.760 --> 00:10:09.280
+And it really makes this easy to do.
+
+216
+00:10:09.280 --> 00:10:10.560
+And I think this is an interesting
+
+217
+00:10:10.560 --> 00:10:14.240
+aspect of it, because it seems to suggest
+that the best thing to do is to
+
+218
+00:10:14.240 --> 00:10:16.520
+remove this machine
+that can affect our realities.
+
+219
+00:10:16.520 --> 00:10:20.080
+But there are variations
+where you disable its ability
+
+220
+00:10:20.080 --> 00:10:22.200
+to directly affect the world,
+but it still is there
+
+221
+00:10:22.200 --> 00:10:23.920
+and potentially
+could be something that's useful.
+
+222
+00:10:23.920 --> 00:10:25.680
+So I think it's sort of.
+
+223
+00:10:27.720 --> 00:10:30.520
+Avoiding
+just saying the way to basically deal
+
+224
+00:10:30.520 --> 00:10:33.120
+with this sort of technology
+that's the world around us
+
+225
+00:10:33.120 --> 00:10:35.000
+is to destroy it,
+but maybe as a possibility
+
+226
+00:10:35.000 --> 00:10:38.640
+we could control it and understand it,
+but just maybe so I'm not sure.
+
+227
+00:10:39.400 --> 00:10:43.480
+Okay, so just to end off, what can this
+tell us about our own realities
+
+228
+00:10:43.600 --> 00:10:44.840
+and how we might respond to AI?
+
+229
+00:10:44.840 --> 00:10:48.040
+So these are sort of my thoughts
+responding to having played this game.
+
+230
+00:10:48.520 --> 00:10:51.640
+So the underlying idea in the game
+is that revisions is what they call them.
+
+231
+00:10:51.640 --> 00:10:54.240
+That can be made to reality
+by reading initially temporarily
+
+232
+00:10:54.240 --> 00:10:56.400
+through books,
+and then eventually permanently
+
+233
+00:10:56.400 --> 00:10:59.400
+when the machine is constantly reading
+and rereading these, these books
+
+234
+00:10:59.400 --> 00:11:02.440
+and actually starts
+working the world around it.
+
+235
+00:11:02.560 --> 00:11:04.640
+So what's interesting here
+is it's the reading, not the computer.
+
+236
+00:11:04.640 --> 00:11:06.880
+That's the focus,
+and it's the idea that the computer
+
+237
+00:11:06.880 --> 00:11:08.840
+is reading and rereading,
+which is the danger,
+
+238
+00:11:08.840 --> 00:11:10.280
+and just made me think that,
+
+239
+00:11:10.280 --> 00:11:13.160
+yeah, reading can change our thoughts,
+but that hasn't always been the case.
+
+240
+00:11:13.160 --> 00:11:16.000
+But what is different is that it
+hasn't been a machine involved.
+
+241
+00:11:16.000 --> 00:11:17.680
+It's been us deciding and thinking about
+
+242
+00:11:17.680 --> 00:11:19.200
+and being critical
+about what we're reading.
+
+243
+00:11:19.200 --> 00:11:21.120
+Whereas here
+the machine is just on its own,
+
+244
+00:11:21.120 --> 00:11:24.160
+constantly rereading
+and affecting the world, much like AI.
+
+245
+00:11:25.040 --> 00:11:28.440
+And maybe also think about,
+I mean, the idea that the destroy
+
+246
+00:11:28.440 --> 00:11:30.440
+the text, that the texts
+and destroy the technologies
+
+247
+00:11:30.440 --> 00:11:34.200
+that way to deal with this feels like
+just an example of media panic, right?
+
+248
+00:11:34.240 --> 00:11:38.960
+People were afraid that that language,
+that writing, that being able to record
+
+249
+00:11:39.000 --> 00:11:42.120
+things that that almost every technology
+that's come
+
+250
+00:11:42.120 --> 00:11:45.280
+along is something that has been reacted
+to as potentially dangerous.
+
+251
+00:11:45.320 --> 00:11:47.160
+And maybe AI is categorically different.
+
+252
+00:11:47.160 --> 00:11:49.440
+I'm not sure that's
+something to think about. But yeah.
+
+253
+00:11:49.440 --> 00:11:53.360
+Is this basically a refusal
+to adapt to new technology
+
+254
+00:11:53.560 --> 00:11:54.920
+and is there a deeper insight here?
+
+255
+00:11:54.920 --> 00:11:56.120
+I mean, should we be avoiding
+
+256
+00:11:56.120 --> 00:11:59.800
+AI due to the danger it presents,
+or should we be trying to adapt,
+
+257
+00:11:59.840 --> 00:12:03.480
+learn to read AI critically, to make sure
+that we're not letting the machine
+
+258
+00:12:03.480 --> 00:12:05.040
+and the elite behind the machine.
+
+259
+00:12:05.040 --> 00:12:07.400
+So in the game, actually,
+there are a small number of people
+
+260
+00:12:07.400 --> 00:12:08.320
+who are controlling the machine
+
+261
+00:12:08.320 --> 00:12:12.560
+behind the scenes, and they sort of decide
+what reality is going to be, should we?
+
+262
+00:12:12.560 --> 00:12:14.200
+Rather than letting
+that do all the reading for us,
+
+263
+00:12:14.200 --> 00:12:17.760
+we should basically be critical
+and take that on ourselves.
+
+264
+00:12:17.880 --> 00:12:19.960
+Yeah. So what is the solution?
+
+265
+00:12:19.960 --> 00:12:23.400
+The machine destroying the machine seems
+to be what the game initially suggests.
+
+266
+00:12:23.440 --> 00:12:25.320
+That's sort of the official good ending.
+
+267
+00:12:25.320 --> 00:12:27.520
+Or maybe keep it under control,
+the sort of okay ending.
+
+268
+00:12:27.520 --> 00:12:30.520
+But I think it's also worth thinking that
+maybe there's something else.
+
+269
+00:12:30.600 --> 00:12:33.760
+So the fact that it does allow you
+to have multiple endings, I'm sorry.
+
+270
+00:12:33.800 --> 00:12:34.920
+Spoiler alert here.
+
+271
+00:12:34.920 --> 00:12:37.560
+It turns out Abby is actually
+the algorithm that runs the machine.
+
+272
+00:12:37.560 --> 00:12:40.760
+So you're actually the machine itself
+that is trying to destroy itself.
+
+273
+00:12:40.880 --> 00:12:43.320
+So yeah, it suggests
+that there is no simple answer to this.
+
+274
+00:12:43.320 --> 00:12:47.400
+So yeah, if nothing else,
+I mean, maybe by playing this game that
+
+275
+00:12:47.440 --> 00:12:51.480
+explores what it means for a machine
+to to eat books,
+
+276
+00:12:51.480 --> 00:12:55.400
+we can think about how the machines
+around us are perhaps also eating books.
+
+277
+00:12:55.400 --> 00:12:56.800
+And do we destroy them.
+
+278
+00:12:56.800 --> 00:12:58.680
+That's something we should think about.
+
+279
+00:12:58.680 --> 00:13:01.880
+Okay, so that's my analysis of 49.
+
+280
+00:13:01.920 --> 00:13:02.680
+Thank you.
+
+281
+00:13:09.120 --> 00:13:11.720
+Thank you very much for that, Alex.
+
+282
+00:13:11.720 --> 00:13:16.720
+Brilliantly on time
+and thorough and interesting.
+
+283
+00:13:16.960 --> 00:13:19.760
+So we will move now
+
+284
+00:13:19.760 --> 00:13:24.680
+to our third presenter of this panel.
+
+285
+00:13:24.680 --> 00:13:28.200
+And that is Lopo Muda Saha.
+
+286
+00:13:28.200 --> 00:13:29.720
+And apologies again.
+
+287
+00:13:29.720 --> 00:13:33.600
+If I am pronouncing that badly
+I'll let you introduce yourself.
+
+288
+00:13:35.280 --> 00:13:35.760
+We share

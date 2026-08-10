@@ -1,0 +1,760 @@
+WEBVTT
+
+1
+00:29:54.840 --> 00:29:56.040
+So, hello.
+
+2
+00:29:56.040 --> 00:30:00.320
+I'm an independent artist,
+writer, and coder based in the UK.
+
+3
+00:30:01.640 --> 00:30:04.120
+“FreeThem” is a narrative game web app
+
+4
+00:30:04.120 --> 00:30:07.800
+that I'm creating using HTML, CSS,
+and JavaScript.
+
+5
+00:30:08.000 --> 00:30:12.360
+It offers or implies a feminist critique
+of menstrual tracking apps
+
+6
+00:30:12.360 --> 00:30:17.320
+and how they shape diverse users’
+understandings of their bodies.
+
+7
+00:30:17.960 --> 00:30:22.560
+This creative work is an output from
+an international research project, “The
+
+8
+00:30:22.560 --> 00:30:26.840
+Intimate Technology Shaping
+Millions of Lives,” led by Sarah Riley,
+
+9
+00:30:26.840 --> 00:30:31.120
+professor of critical health psychology
+at Massey University in New Zealand.
+
+10
+00:30:32.200 --> 00:30:36.600
+And the members of the research team
+are on the screen.
+
+11
+00:30:37.120 --> 00:30:42.400
+Millions of people worldwide use digital
+apps to monitor their menstrual cycles.
+
+12
+00:30:42.760 --> 00:30:46.720
+These apps can be experienced
+as empowering, but they're not neutral.
+
+13
+00:30:47.120 --> 00:30:51.840
+They play a role in how users understand
+their bodies and by extension,
+
+14
+00:30:51.840 --> 00:30:55.040
+their selves, their relationships,
+and their place in the world.
+
+15
+00:30:55.480 --> 00:30:59.840
+Importantly, menstrual tracking apps
+are designed around a prototypical user:
+
+16
+00:30:59.840 --> 00:31:04.440
+a white, affluent, cisgender,
+heterosexual, able-bodied young woman,
+
+17
+00:31:04.800 --> 00:31:10.280
+which reinforces narrow, potentially
+harmful ideas about normal or ideal
+
+18
+00:31:10.320 --> 00:31:11.760
+bodies.
+
+19
+00:31:11.760 --> 00:31:16.680
+The research project asks,
+“What are the experience of experiences
+
+20
+00:31:16.680 --> 00:31:21.560
+of the many non-prototypical users
+whose bodies, identities, or life stages
+
+21
+00:31:21.600 --> 00:31:27.080
+are marginalized by these apps?” So,
+because “menstrual tracking
+
+22
+00:31:27.080 --> 00:31:31.840
+app” is quite a mouthful,
+I'll use MTA for short from now on.
+
+23
+00:31:32.880 --> 00:31:34.840
+So the research team conducted
+
+24
+00:31:34.840 --> 00:31:38.920
+participatory research
+with MTA users in New Zealand.
+
+25
+00:31:38.960 --> 00:31:43.360
+They focused on three life stage cohorts:
+16-to-18-year-olds,
+
+26
+00:31:43.400 --> 00:31:46.520
+postnatal, and perimenopausal groups.
+
+27
+00:31:46.720 --> 00:31:49.640
+They were particularly interested
+in talking to people who are less
+
+28
+00:31:49.640 --> 00:31:52.920
+likely to be represented in research,
+including indigenous
+
+29
+00:31:53.440 --> 00:31:58.120
+Māori and takatāpui people—
+Excuse my pronunciation.
+
+30
+00:31:58.560 --> 00:32:02.040
+People managing chronic health
+conditions or disability.
+
+31
+00:32:02.120 --> 00:32:05.840
+People identifying as fat or experiencing
+weight stigma, and
+
+32
+00:32:05.840 --> 00:32:09.120
+or who are gender or sexually diverse.
+
+33
+00:32:09.640 --> 00:32:14.680
+The findings give unprecedented insight
+into how MTAs shape diverse users
+
+34
+00:32:14.680 --> 00:32:18.560
+experiences of their bodies,
+and they are generating ideas
+
+35
+00:32:18.560 --> 00:32:22.640
+on how these apps might be designed
+to be affirmative and inclusive.
+
+36
+00:32:23.480 --> 00:32:25.840
+Another important output of the research
+
+37
+00:32:25.840 --> 00:32:28.880
+is the story game web app
+that I'm creating.
+
+38
+00:32:29.120 --> 00:32:32.920
+It's for mobile first,
+but all screen sizes eventually.
+
+39
+00:32:33.000 --> 00:32:36.560
+And here on-screen is my creative brief.
+
+40
+00:32:36.680 --> 00:32:41.880
+So “FreeThem” is a creative expression
+of the research findings.
+
+41
+00:32:42.800 --> 00:32:46.480
+Research with the postnatal
+and perimenopausal groups
+
+42
+00:32:46.480 --> 00:32:49.280
+went ahead as planned,
+but the teenage cohort
+
+43
+00:32:49.280 --> 00:32:52.360
+has taken much longer
+and the data isn't ready yet.
+
+44
+00:32:52.480 --> 00:32:56.960
+So initially, I was asked to create a
+story driven app focusing on postnatal and
+
+45
+00:32:58.040 --> 00:33:00.080
+menopausal users of MTAs.
+
+46
+00:33:00.080 --> 00:33:04.960
+However, the team are keen to include
+16-to-18-year-olds, so subject to funding,
+
+47
+00:33:05.000 --> 00:33:08.400
+I'll be incorporating those stories
+at a later date.
+
+48
+00:33:09.160 --> 00:33:12.200
+So some of the main themes
+from the research in those
+
+49
+00:33:12.240 --> 00:33:16.400
+in the postnatal and perimenopausal groups
+are the apps are paradoxical.
+
+50
+00:33:16.440 --> 00:33:19.440
+There's a tension between care
+versus control.
+
+51
+00:33:19.760 --> 00:33:23.960
+There are— the apps are experienced
+as empowering, but at the same time,
+
+52
+00:33:23.960 --> 00:33:27.120
+non-prototypical users
+experience exclusions and misfitting.
+
+53
+00:33:27.440 --> 00:33:31.400
+And the apps can exacerbate
+existing inequities that reinforce
+
+54
+00:33:31.400 --> 00:33:35.120
+stigmatizing norms
+and the pressure to regulate oneself.
+
+55
+00:33:35.760 --> 00:33:38.480
+The apps also reinforce
+the reproductive centered
+
+56
+00:33:38.480 --> 00:33:43.320
+biomedical paradigm
+by prioritizing fertility and pregnancy.
+
+57
+00:33:43.520 --> 00:33:47.600
+There's an implicit sense
+of perimenopausal “crones” versus
+
+58
+00:33:47.600 --> 00:33:49.760
+celebrated mothers.
+
+59
+00:33:49.760 --> 00:33:52.920
+And there's a big issue around trust
+and de-trust of both apps
+
+60
+00:33:52.920 --> 00:33:54.640
+and medical authority.
+
+61
+00:33:54.640 --> 00:33:57.760
+For example, a frequent complaint through
+
+62
+00:33:57.800 --> 00:34:00.960
+the research is of doctors not listening,
+
+63
+00:34:01.040 --> 00:34:04.680
+so users need the apps as an advocacy tool
+
+64
+00:34:04.720 --> 00:34:09.120
+to collect data to track symptoms,
+as well as to do things like get pregnant.
+
+65
+00:34:09.520 --> 00:34:13.280
+But they're also aware that they can't
+necessarily trust these commercial apps
+
+66
+00:34:13.280 --> 00:34:17.480
+with their private data,
+which can be exploited in so many ways.
+
+67
+00:34:17.840 --> 00:34:23.120
+Also, health is hard
+work, and MTAs tend to add to this burden.
+
+68
+00:34:24.760 --> 00:34:27.800
+So I'm of a generation
+that didn't have access to MTAs.
+
+69
+00:34:27.960 --> 00:34:32.680
+I've never used one,
+so I researched a variety of apps, MTAs,
+
+70
+00:34:32.680 --> 00:34:36.280
+and tried them by entering fake data, etc.
+
+71
+00:34:36.320 --> 00:34:40.360
+and what struck me is the vast majority
+look remarkably similar.
+
+72
+00:34:40.400 --> 00:34:42.280
+Pinks and
+
+73
+00:34:42.280 --> 00:34:44.840
+pastel colors really dominate.
+
+74
+00:34:44.840 --> 00:34:47.680
+They also have a predilection
+for representing
+
+75
+00:34:47.680 --> 00:34:50.680
+app users in this flat cartoon style.
+
+76
+00:34:50.760 --> 00:34:54.400
+There seems to be an attempt
+to represent diverse users
+
+77
+00:34:54.400 --> 00:34:57.440
+and body types,
+but the cartoon style style
+
+78
+00:34:57.440 --> 00:35:01.760
+is homogenizing and erases
+bodily human imperfections.
+
+79
+00:35:02.520 --> 00:35:05.280
+So I wanted to emulate
+this kind of aesthetics.
+
+80
+00:35:05.280 --> 00:35:10.320
+I wanted to design a story game app
+that initially and superficially resembles
+
+81
+00:35:10.360 --> 00:35:13.520
+a menstrual tracking app
+to lure the player in.
+
+82
+00:35:14.600 --> 00:35:19.320
+So the characters for this on-screen
+now is my app.
+
+83
+00:35:19.560 --> 00:35:23.120
+The characters are fictional, but they're
+based on the research participants.
+
+84
+00:35:23.120 --> 00:35:25.760
+Each character is a few participants,
+
+85
+00:35:25.760 --> 00:35:28.760
+kind of blended together
+that kind of composites.
+
+86
+00:35:28.760 --> 00:35:32.760
+As they currently stand,
+there are three postnatal characters:
+
+87
+00:35:32.800 --> 00:35:37.360
+Lucy, Danny, and Finley,
+who is non-binary; and three
+
+88
+00:35:37.560 --> 00:35:42.640
+perimenopausal characters:
+Arona—who is Maori—Zoe, and Claire.
+
+89
+00:35:44.120 --> 00:35:45.400
+Each character has an
+
+90
+00:35:45.400 --> 00:35:49.680
+associated casual game,
+whose procedural rhetoric expresses
+
+91
+00:35:49.680 --> 00:35:53.120
+some of the frustrations
+of using menstrual tracking apps.
+
+92
+00:35:53.480 --> 00:35:58.520
+Some games are based on overt
+or explicit features of typical MTAs:
+
+93
+00:35:58.560 --> 00:36:01.680
+period logging,
+identifying the symptoms of PMS
+
+94
+00:36:01.680 --> 00:36:05.760
+or perimenopause,
+predicting facility type cycles.
+
+95
+00:36:06.120 --> 00:36:09.600
+Other games speak to more hidden
+or covert characteristics.
+
+96
+00:36:09.640 --> 00:36:13.960
+As I said, using MTAs is hard work,
+adding to the pressures of daily life
+
+97
+00:36:14.080 --> 00:36:18.000
+at companies that sell or abuse users’
+private data.
+
+98
+00:36:19.000 --> 00:36:21.520
+The app encourages you to play the games.
+
+99
+00:36:21.520 --> 00:36:25.400
+It has a particular voice, which
+I think of as another distinct character,
+
+100
+00:36:25.400 --> 00:36:30.560
+and privately
+I characterize that as the “MTA Wizard,”
+
+101
+00:36:30.680 --> 00:36:35.360
+and I'm still working on that aspect
+because it actually is a work in progress.
+
+102
+00:36:35.880 --> 00:36:39.960
+The app tries to distract you
+from the characters’ stories.
+
+103
+00:36:40.000 --> 00:36:44.080
+It wants you to play the games
+much in the same way that commercial apps
+
+104
+00:36:44.120 --> 00:36:47.360
+want to capture user's attention,
+but the women
+
+105
+00:36:47.360 --> 00:36:51.240
+and the non-binary person
+want to communicate their experiences.
+
+106
+00:36:51.280 --> 00:36:53.000
+They want you to listen to them.
+
+107
+00:36:54.120 --> 00:36:55.880
+So as you play and
+
+108
+00:36:55.880 --> 00:36:59.560
+learn more about the fictional characters,
+the aesthetic changes.
+
+109
+00:36:59.680 --> 00:37:03.080
+The representation of the individuals
+becomes more rounded,
+
+110
+00:37:03.120 --> 00:37:04.840
+not necessarily more realistic,
+
+111
+00:37:04.840 --> 00:37:08.600
+but they become more visually rounded
+as the characters become more rounded.
+
+112
+00:37:08.600 --> 00:37:09.680
+In narrative terms,
+
+113
+00:37:09.680 --> 00:37:13.480
+as you, the player, learn more about them
+and their experiences.
+
+114
+00:37:13.800 --> 00:37:17.320
+The point is that as you listen to what
+the women and non-binary person
+
+115
+00:37:17.320 --> 00:37:21.760
+have to say, they can begin to escape
+or emerge from the prism
+
+116
+00:37:21.800 --> 00:37:24.800
+of flat caricature.
+
+117
+00:37:25.840 --> 00:37:28.040
+So I want to play some video
+
+118
+00:37:28.040 --> 00:37:31.800
+recordings of the app
+in this mobile device format.
+
+119
+00:37:32.240 --> 00:37:35.240
+So the first panel that you can see is
+
+120
+00:37:35.320 --> 00:37:39.600
+takes you through the player
+experience of the Lucy game story.
+
+121
+00:37:39.880 --> 00:37:42.880
+Lucy is a postnatal character.
+
+122
+00:38:00.920 --> 00:38:01.720
+It is possible
+
+123
+00:38:01.720 --> 00:38:05.400
+to win the game,
+but not in that particular iteration.
+
+124
+00:38:08.920 --> 00:38:10.600
+So here's Lucy's story
+
+125
+00:38:10.600 --> 00:38:14.480
+and will be scrolling quickly
+through it in a moment.
+
+126
+00:38:14.680 --> 00:38:17.680
+But here's the app
+
+127
+00:38:17.680 --> 00:38:20.680
+trying to get you to go back to the game.
+
+128
+00:38:21.240 --> 00:38:25.320
+So as you read through Lucy's story,
+you've come to the end
+
+129
+00:38:25.480 --> 00:38:29.280
+where you you can free her,
+you can set Lucy free,
+
+130
+00:38:29.280 --> 00:38:33.640
+and then she encourages you to go
+and help the others in the app.
+
+131
+00:38:33.920 --> 00:38:37.640
+So I'll just play you some of the other
+
+132
+00:38:37.640 --> 00:38:41.400
+characters’ games,
+just briefly, just to give you an idea.
+
+133
+00:38:41.840 --> 00:38:46.040
+So Arona is— Ooh, sorry.
+
+134
+00:38:51.520 --> 00:38:54.520
+Arona is a perimenopausal,
+
+135
+00:38:55.120 --> 00:38:58.320
+and Zoe is also perimenopausal.
+
+136
+00:39:09.200 --> 00:39:11.040
+So some of the games are winnable
+
+137
+00:39:11.040 --> 00:39:14.040
+and some aren't.
+
+138
+00:39:31.800 --> 00:39:35.440
+So here we have Finley, who's postnatal,
+
+139
+00:39:35.520 --> 00:39:39.280
+Claire is perimenopausal,
+and Danny is postnatal.
+
+140
+00:39:54.440 --> 00:39:57.400
+So there will be a global game
+scoring system
+
+141
+00:39:57.400 --> 00:40:01.400
+that will track how many games
+you've kind of won or lose— are lost.
+
+142
+00:40:01.400 --> 00:40:06.200
+I haven't yet implemented that,
+but basically that's not the real point.
+
+143
+00:40:06.200 --> 00:40:07.360
+That's a distraction.
+
+144
+00:40:07.360 --> 00:40:10.360
+The important thing is listening
+to the people, listening
+
+145
+00:40:10.400 --> 00:40:13.400
+to the characters.
+
+146
+00:40:15.760 --> 00:40:17.800
+So when you've freed
+
+147
+00:40:17.800 --> 00:40:22.880
+all the characters,
+you get to the ending where the characters
+
+148
+00:40:22.880 --> 00:40:28.480
+collectively express what they want 
+and how they envisage—
+
+149
+00:40:28.680 --> 00:40:32.240
+what possibilities they envisage
+for these technologies in the future
+
+150
+00:40:32.240 --> 00:40:35.240
+and the wider health and social setting.
+
+151
+00:40:35.800 --> 00:40:38.800
+So that's where the project is at at
+the moment.
+
+152
+00:40:39.000 --> 00:40:41.760
+I will be
+
+153
+00:40:41.760 --> 00:40:46.720
+putting online a private beta testing
+version early next month.
+
+154
+00:40:46.760 --> 00:40:51.600
+So if you'd like to— That's basically
+for the research team and participants.
+
+155
+00:40:51.600 --> 00:40:55.920
+But if you'd like to take part
+and give us some feedback, I'd be very—
+
+156
+00:40:56.920 --> 00:40:58.160
+I'd like that a lot.
+
+157
+00:40:58.160 --> 00:41:01.160
+So I'll put my
+
+158
+00:41:02.400 --> 00:41:05.400
+email in the chat.
+
+159
+00:41:15.880 --> 00:41:18.360
+If you'd like to.
+
+160
+00:41:18.360 --> 00:41:19.720
+And I'll send you the link.
+
+161
+00:41:19.720 --> 00:41:22.400
+And then you'll be able
+to test the app as well.
+
+162
+00:41:22.400 --> 00:41:24.640
+Thank you.

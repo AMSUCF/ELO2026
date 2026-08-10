@@ -1,0 +1,1160 @@
+WEBVTT
+
+1
+00:30:03.320 --> 00:30:03.760
+Perfect.
+
+2
+00:30:03.760 --> 00:30:04.080
+All right.
+
+3
+00:30:04.080 --> 00:30:09.520
+Well, thank you all very much
+for joining this session of ELO today.
+
+4
+00:30:09.680 --> 00:30:10.880
+I'm very excited to be here.
+
+5
+00:30:10.880 --> 00:30:13.000
+My name is Jeremy Andriano.
+
+6
+00:30:13.000 --> 00:30:15.680
+And my very recently completed M.A.
+
+7
+00:30:15.680 --> 00:30:19.000
+thesis research was centered around
+platform studies— a broad platform
+
+8
+00:30:21.040 --> 00:30:23.320
+studies inspired comparative
+analysis of the digital
+
+9
+00:30:23.320 --> 00:30:28.120
+writing platforms Twine and Inky,
+with a specific interest in the ways
+
+10
+00:30:28.120 --> 00:30:32.000
+that they can be used in creative
+writing classrooms that kind of foreground
+
+11
+00:30:32.960 --> 00:30:36.160
+literary, aesthetic,
+or rhetorical uses of the hyperlink
+
+12
+00:30:36.200 --> 00:30:39.280
+and downplay computer
+and technical aspects.
+
+13
+00:30:40.000 --> 00:30:42.400
+And I should say, even though this is ELO
+
+14
+00:30:42.400 --> 00:30:45.960
+(un)supervised, this research
+was very well supervised by Dr.
+
+15
+00:30:45.960 --> 00:30:48.000
+Jason Boyd.
+Thank you for being here today.
+
+16
+00:30:48.000 --> 00:30:51.040
+And I'd also like to thank ComCult’s
+faculty.
+
+17
+00:30:51.040 --> 00:30:54.160
+And just,
+I was honored to call my defense chair.
+
+18
+00:30:54.160 --> 00:30:56.960
+And just an endless source of
+
+19
+00:30:58.520 --> 00:30:59.320
+hope and encouragement.
+
+20
+00:30:59.320 --> 00:31:02.040
+Monique Tschofen is also here. So
+thank you.
+
+21
+00:31:02.040 --> 00:31:05.120
+But I think I can move pretty quickly.
+
+22
+00:31:05.120 --> 00:31:10.360
+I know most of you or all of you
+are aware of each of these tools.
+
+23
+00:31:10.720 --> 00:31:14.320
+They're both digital authoring platforms
+for writing interactive hypertext,
+
+24
+00:31:14.320 --> 00:31:15.920
+and they're both great for use
+
+25
+00:31:15.920 --> 00:31:18.960
+in the classroom for teaching students
+who are new to this kind of writing
+
+26
+00:31:19.000 --> 00:31:20.880
+for a lot of the same reasons,
+like the qualities
+
+27
+00:31:20.880 --> 00:31:25.240
+that they have in common, make them great
+for beginner and classroom use.
+
+28
+00:31:25.280 --> 00:31:29.280
+They've both demonstrated a dedication
+to remaining open source ish
+
+29
+00:31:29.320 --> 00:31:33.160
+and being freely available,
+and they do so through different methods
+
+30
+00:31:33.160 --> 00:31:34.520
+and for slightly different reasons.
+
+31
+00:31:34.520 --> 00:31:36.800
+But they have that in common.
+
+32
+00:31:36.800 --> 00:31:40.800
+They both make use of a very easy
+to grasp markup language for creating
+
+33
+00:31:40.800 --> 00:31:45.760
+and structuring hypertext, for creating
+the nodes and linking them together.
+
+34
+00:31:46.080 --> 00:31:49.640
+That can be grasped within
+a single session, but they're both capable
+
+35
+00:31:49.640 --> 00:31:53.760
+of layering on complex programing logic,
+and they both have ample
+
+36
+00:31:53.800 --> 00:31:58.640
+tutorial material available for students
+to expand and learn that as they go.
+
+37
+00:31:58.680 --> 00:32:02.000
+That's not something I would recommend
+starting with in the classroom.
+
+38
+00:32:02.320 --> 00:32:06.160
+And lastly, they both publish
+to sort of a default appearance.
+
+39
+00:32:06.160 --> 00:32:08.520
+They're easily shareable as HTML.
+
+40
+00:32:08.520 --> 00:32:13.640
+Writers don't have to do any additional
+formatting or HTML configuring in order
+
+41
+00:32:13.640 --> 00:32:16.240
+to make a playable version
+and share it with other people.
+
+42
+00:32:16.240 --> 00:32:19.440
+So new writers can do this quickly.
+
+43
+00:32:20.040 --> 00:32:23.120
+But for all these similarities,
+these platforms are really—
+
+44
+00:32:23.120 --> 00:32:24.960
+they're quite distinct.
+
+45
+00:32:24.960 --> 00:32:28.240
+They both let writers
+use hyperlinks to make meaning in creative
+
+46
+00:32:28.240 --> 00:32:32.320
+and expressive ways, but they do
+so through very different methods.
+
+47
+00:32:32.360 --> 00:32:35.120
+And this creates advantages
+and disadvantages
+
+48
+00:32:35.120 --> 00:32:37.720
+depending on what the writer
+is trying to accomplish.
+
+49
+00:32:37.720 --> 00:32:41.680
+What Skains refers to as key creative
+capacities of each of these platforms.
+
+50
+00:32:42.080 --> 00:32:45.200
+And with Twine and Inky,
+I find that these differences
+
+51
+00:32:45.200 --> 00:32:48.280
+can actually be really useful
+in demonstrating,
+
+52
+00:32:48.320 --> 00:32:51.480
+especially for new students,
+some really fundamental concepts
+
+53
+00:32:51.480 --> 00:32:53.320
+for writing interactive literature,
+
+54
+00:32:53.320 --> 00:32:57.080
+but then also these different approaches
+taken by each of these platforms.
+
+55
+00:32:57.600 --> 00:33:00.920
+They align with some interactive genres
+better than others.
+
+56
+00:33:00.920 --> 00:33:03.960
+They accommodate different writing styles
+and different learning styles.
+
+57
+00:33:03.960 --> 00:33:08.680
+So, you know, like educators,
+like Lyle Skains and Amy Letter
+
+58
+00:33:08.680 --> 00:33:12.040
+and others, you know, they stress
+the teaching technology is hard.
+
+59
+00:33:12.040 --> 00:33:13.600
+We shouldn't be teaching the technology.
+
+60
+00:33:13.600 --> 00:33:15.000
+And I'm not suggesting that students
+
+61
+00:33:15.000 --> 00:33:18.000
+or even instructors
+need to learn both of these platforms,
+
+62
+00:33:18.000 --> 00:33:21.640
+but having a basic understanding
+of both of them can help decide where
+
+63
+00:33:21.680 --> 00:33:24.120
+to expend your energy,
+and it can help you direct your students
+
+64
+00:33:24.120 --> 00:33:27.760
+as to where they might want to spend
+their energy for any given project.
+
+65
+00:33:27.800 --> 00:33:32.200
+And this is most apparent
+when we look at Marie-Laure
+
+66
+00:33:32.200 --> 00:33:35.400
+Ryan's several interpretive modes
+or metaphors,
+
+67
+00:33:36.080 --> 00:33:41.000
+or the ways hyperlinks can be used to
+represent different things for the reader,
+
+68
+00:33:41.040 --> 00:33:45.320
+giving more meaning than simply advancing
+a page or clicking through a database.
+
+69
+00:33:45.320 --> 00:33:48.560
+And one of the most prominent modes
+in use is,
+
+70
+00:33:48.600 --> 00:33:52.520
+of course, the spatial metaphor
+in which the text is a territory
+
+71
+00:33:52.520 --> 00:33:55.200
+and the links are roads
+between those passages.
+
+72
+00:33:55.200 --> 00:33:56.480
+And those passages
+
+73
+00:33:57.720 --> 00:33:59.320
+can be representative of different things.
+
+74
+00:33:59.320 --> 00:34:00.880
+They can be locations in a story.
+
+75
+00:34:00.880 --> 00:34:04.640
+They can be topics of conversation
+or subjects between two characters.
+
+76
+00:34:04.640 --> 00:34:08.000
+Or they might
+just be the parts of an academic essay.
+
+77
+00:34:08.000 --> 00:34:12.800
+But at its very foundation, Twine embodies
+the spatial conceptualization
+
+78
+00:34:12.800 --> 00:34:17.000
+of hypertext, and its entire interface
+is designed to let the writer
+
+79
+00:34:17.000 --> 00:34:20.160
+visualize the passages
+in spatial relation to one another.
+
+80
+00:34:21.160 --> 00:34:25.640
+This is demonstrated perfectly
+by Porpetine’s “Howling Dogs,” which
+
+81
+00:34:25.640 --> 00:34:29.600
+demonstrates Twine's natural alignment
+with the spatial modes of hypertext.
+
+82
+00:34:29.680 --> 00:34:33.520
+We see on the left the famous hub
+passage, the room of dark metal.
+
+83
+00:34:33.640 --> 00:34:35.400
+It's focused almost exclusively
+
+84
+00:34:35.400 --> 00:34:38.960
+on the spatial relationship
+between the objects and other rooms,
+
+85
+00:34:39.160 --> 00:34:41.000
+the links
+that are spread throughout the text,
+
+86
+00:34:41.000 --> 00:34:44.760
+and they invite the reader to explore
+those spaces, to kind of probe and poke.
+
+87
+00:34:45.120 --> 00:34:47.600
+And then on the right,
+I've put together just a simple mock
+
+88
+00:34:47.600 --> 00:34:50.040
+up of what
+the view of this passage might look like,
+
+89
+00:34:50.040 --> 00:34:53.600
+with the passages arranged
+according to their described positions.
+
+90
+00:34:54.640 --> 00:34:55.800
+But this—
+
+91
+00:34:55.800 --> 00:34:59.640
+Aaron Reed in “50 Years of Text
+Games” puts together this great
+
+92
+00:34:59.640 --> 00:35:04.000
+visual map of “Howling Dogs,” and
+I don't want to spend too much time on it.
+
+93
+00:35:04.000 --> 00:35:07.000
+But I think many of you actually know
+this story
+
+94
+00:35:07.560 --> 00:35:10.120
+intimately.
+
+95
+00:35:10.120 --> 00:35:12.960
+I researched a lot of— So.
+
+96
+00:35:12.960 --> 00:35:17.800
+But basically we see the room of dark
+metal starts here, and then the reader
+
+97
+00:35:18.120 --> 00:35:19.400
+shuffles through the activity room,
+
+98
+00:35:19.400 --> 00:35:23.280
+and then the story is told across
+five vignettes.
+
+99
+00:35:23.280 --> 00:35:27.600
+And as Reed points out,
+the last vignette, Empress,
+
+100
+00:35:27.640 --> 00:35:30.800
+you can really kind of see the long linear
+path that it takes.
+
+101
+00:35:30.800 --> 00:35:34.600
+And if the reader,
+when the reader finally pokes
+
+102
+00:35:34.600 --> 00:35:38.360
+and probes the right ways, you end up
+at the true ending of the story.
+
+103
+00:35:38.360 --> 00:35:41.600
+But there's all these potential pitfalls
+that take you back to the beginning.
+
+104
+00:35:45.800 --> 00:35:48.320
+This just demonstrates
+how spatial “Howling Dogs” is.
+
+105
+00:35:48.320 --> 00:35:48.960
+It really is.
+
+106
+00:35:48.960 --> 00:35:49.600
+Like,
+
+107
+00:35:49.600 --> 00:35:53.400
+for those of you who haven't read it,
+it's a fantastic experience of it really.
+
+108
+00:35:53.440 --> 00:35:57.640
+You are feeling your way in the dark and
+it is encouraging you to find a way out.
+
+109
+00:35:57.640 --> 00:36:00.640
+And it's a beautiful experience
+when it works.
+
+110
+00:36:01.880 --> 00:36:04.880
+Perhaps a better way
+to kind of demonstrate “Howling Dogs”’s
+
+111
+00:36:04.880 --> 00:36:07.920
+close relationship with the Twine platform
+and its dependance
+
+112
+00:36:07.920 --> 00:36:11.880
+on spatial interpretations of hyperlinks
+though, is to think about writing it
+
+113
+00:36:11.880 --> 00:36:12.920
+using a different tool.
+
+114
+00:36:12.920 --> 00:36:14.960
+So this is what the room of dark
+
+115
+00:36:14.960 --> 00:36:17.960
+metal might look like
+if it were created with Inky.
+
+116
+00:36:18.080 --> 00:36:21.760
+We'll go into this in a bit more detail,
+but when you write with Inky, you write in
+
+117
+00:36:21.760 --> 00:36:26.800
+lines, and ordered lines that are read in
+what an Ink story thinks of as its flow.
+
+118
+00:36:27.120 --> 00:36:31.200
+And here you can create passages,
+and this is what it would look like
+
+119
+00:36:31.200 --> 00:36:34.280
+to create links that lead
+to different passages that then you could,
+
+120
+00:36:34.280 --> 00:36:37.680
+further down in the script, describe
+the text of each of these passages.
+
+121
+00:36:37.680 --> 00:36:41.120
+And this is what Inky’s
+default presentation would look like
+
+122
+00:36:41.120 --> 00:36:42.120
+to the reader.
+
+123
+00:36:42.120 --> 00:36:48.200
+And the big thing it misses here
+is there's no natural way to incorporate
+
+124
+00:36:48.200 --> 00:36:52.680
+the links within the text in an Ink story
+the way you can in a Twine story.
+
+125
+00:36:53.280 --> 00:36:56.120
+So again,
+you could create the similar effect
+
+126
+00:36:56.120 --> 00:37:01.040
+and go to the different nodes,
+but you lose that kind of key element.
+
+127
+00:37:01.040 --> 00:37:01.960
+To what?
+
+128
+00:37:03.480 --> 00:37:05.760
+To what makes “Howling Dogs” what it is.
+
+129
+00:37:05.760 --> 00:37:09.680
+And this is because when you're writing
+with Inky, Inky aligns better with what
+
+130
+00:37:09.720 --> 00:37:13.440
+Marie-Laure Ryan thinks of as the theater
+or the performative interpretation
+
+131
+00:37:13.440 --> 00:37:14.200
+of hypertext.
+
+132
+00:37:14.200 --> 00:37:17.960
+Or I think of it as almost a temporal
+thought of hypertext,
+
+133
+00:37:17.960 --> 00:37:22.600
+where you're moving through a story,
+a linear plot in order with branches.
+
+134
+00:37:23.120 --> 00:37:25.520
+As we see here, Ryan compares
+this kind of hypertext
+
+135
+00:37:25.520 --> 00:37:29.040
+to a stage performance, like a script
+that's being read that occasionally asks
+
+136
+00:37:29.040 --> 00:37:33.200
+the reader to make decisions about
+how the performance is going to proceed.
+
+137
+00:37:33.240 --> 00:37:36.880
+So let me see— on the left here,
+as I said, it's written as numbered lines.
+
+138
+00:37:37.320 --> 00:37:41.720
+You introduce choices
+for the reader that then appear.
+
+139
+00:37:42.040 --> 00:37:46.520
+You test over here, and then what happens
+if each of the choices are selected—
+
+140
+00:37:46.560 --> 00:37:48.000
+is filled in underneath?
+
+141
+00:37:49.240 --> 00:37:51.240
+Again, I don't
+want to go too far into technique here,
+
+142
+00:37:51.240 --> 00:37:55.400
+but it is a very different writing process
+than thinking spatially within Twine.
+
+143
+00:37:55.640 --> 00:37:59.600
+And this is again personified
+by kind of a foundational work.
+
+144
+00:37:59.640 --> 00:38:02.960
+The Ink scripting language
+was essentially developed as a development
+
+145
+00:38:02.960 --> 00:38:06.200
+tool while Inkle Studios
+was creating “80 Days.”
+
+146
+00:38:06.200 --> 00:38:09.680
+So it makes perfect sense
+that they're intrinsically tied.
+
+147
+00:38:10.000 --> 00:38:13.520
+Ink is designed to write stories
+that are presented like stories,
+
+148
+00:38:13.520 --> 00:38:17.400
+which are downstream branching narratives
+that move in one direction
+
+149
+00:38:17.400 --> 00:38:20.640
+and allow the reader
+to make selections of text
+
+150
+00:38:20.680 --> 00:38:24.080
+that then gets added and read
+into that performance of the text.
+
+151
+00:38:24.080 --> 00:38:25.920
+And so we just hear some screenshots
+
+152
+00:38:25.920 --> 00:38:29.280
+of the way, like dialog
+choices are presented to the reader.
+
+153
+00:38:30.040 --> 00:38:33.960
+Here again,
+Aaron Reed dedicates his 2014 entry
+
+154
+00:38:34.040 --> 00:38:38.880
+in “50 Years of Text Games”
+to “80 Days” and showcases here.
+
+155
+00:38:38.880 --> 00:38:41.960
+So this flowchart,
+this is very different than the one
+
+156
+00:38:41.960 --> 00:38:45.360
+for “Howling Dogs,”
+which is kind of meant to be explored.
+
+157
+00:38:45.360 --> 00:38:48.360
+And it's like feeling around walls almost.
+
+158
+00:38:48.400 --> 00:38:52.360
+Ink stories move in one direction
+in this case, you know, travel
+
+159
+00:38:52.400 --> 00:38:53.880
+literally from east to west.
+
+160
+00:38:53.880 --> 00:38:57.080
+And, you know, you can see where like
+it's like a flowchart.
+
+161
+00:38:57.120 --> 00:38:58.240
+It branches differently.
+
+162
+00:38:58.240 --> 00:39:01.840
+It's not meant to be— you're not meant
+to backtrack in a single reading.
+
+163
+00:39:01.880 --> 00:39:05.000
+You make one decision
+and you close off other decisions.
+
+164
+00:39:06.880 --> 00:39:08.200
+And it's interesting.
+
+165
+00:39:08.200 --> 00:39:12.160
+And Reed points
+this out here, that when decided to adapt
+
+166
+00:39:12.160 --> 00:39:14.680
+Jules Verne's
+“Around the World in 80 Days,”
+
+167
+00:39:14.680 --> 00:39:17.800
+like they chose that plot
+because it matched this style
+
+168
+00:39:17.800 --> 00:39:19.840
+of storytelling
+and not the other way around.
+
+169
+00:39:19.840 --> 00:39:23.640
+Like they knew they wanted to tell a
+downstream flowchart, branching narrative.
+
+170
+00:39:23.640 --> 00:39:26.800
+And they found that because “80 Days”
+you have to travel east.
+
+171
+00:39:26.880 --> 00:39:27.800
+This worked perfectly.
+
+172
+00:39:27.800 --> 00:39:29.800
+And I just think that really shows
+great synergy
+
+173
+00:39:29.800 --> 00:39:33.080
+and alignment between all these things
+like the software,
+
+174
+00:39:33.120 --> 00:39:36.120
+the story they're trying to tell,
+and then the way they tell it.
+
+175
+00:39:36.600 --> 00:39:38.120
+I'm going to move a little quickly here.
+
+176
+00:39:38.120 --> 00:39:41.120
+But this is, you know, if
+
+177
+00:39:42.320 --> 00:39:46.760
+being able to spread links around
+in making an explorable screen is Twine’s
+
+178
+00:39:46.760 --> 00:39:49.160
+bread-and-butter, Ink’s
+bread-and-butter is being able
+
+179
+00:39:49.160 --> 00:39:52.240
+to let the reader select
+the text that then gets added.
+
+180
+00:39:52.280 --> 00:39:56.600
+It creates this back and forth
+collaborative text generating
+
+181
+00:39:56.640 --> 00:39:59.680
+kind of sensation
+for between author and reader.
+
+182
+00:39:59.680 --> 00:40:02.680
+And so again,
+this is a close up of “80 Days.”
+
+183
+00:40:02.680 --> 00:40:04.400
+You have like three options
+of the next line.
+
+184
+00:40:04.400 --> 00:40:07.240
+That can be
+when the reader selects the first one.
+
+185
+00:40:07.240 --> 00:40:11.560
+You see that text is read
+right into the plot or into the display.
+
+186
+00:40:11.640 --> 00:40:15.120
+The other two choices go away,
+and then there's even more text
+
+187
+00:40:15.160 --> 00:40:19.160
+that the reader didn't know was going
+to be there, and it leads to the next one.
+
+188
+00:40:19.160 --> 00:40:20.040
+And it's a
+
+189
+00:40:21.440 --> 00:40:22.320
+constant process
+
+190
+00:40:22.320 --> 00:40:26.720
+of co-creation of the manuscript
+when you're playing through “80 Days.”
+
+191
+00:40:27.400 --> 00:40:30.640
+And again,
+I'm not going to go into too much detail.
+
+192
+00:40:30.640 --> 00:40:33.720
+I think a lot of you know how to do this
+better than I do myself, but
+
+193
+00:40:33.720 --> 00:40:37.600
+this is a demonstration of how like, it's
+the simplest, most elegant mechanic
+
+194
+00:40:37.640 --> 00:40:41.480
+that Inky allows the Ink
+scripting language and by— you know,
+
+195
+00:40:41.680 --> 00:40:46.520
+by extension, its editing software, Inky
+allows the writer to come up with this.
+
+196
+00:40:46.520 --> 00:40:47.480
+And this demonstration
+
+197
+00:40:47.480 --> 00:40:51.080
+just shows how you can keep
+your dialog punctuation consistent.
+
+198
+00:40:51.360 --> 00:40:54.960
+Anything that appears before the brackets
+here will be in the choice,
+
+199
+00:40:54.960 --> 00:40:57.000
+and also in the resulting text.
+
+200
+00:40:57.000 --> 00:41:00.960
+What's in the brackets will only appear
+in the choices as the link is there,
+
+201
+00:41:00.960 --> 00:41:04.040
+and then everything afterwards is
+what appears after the reader
+
+202
+00:41:04.040 --> 00:41:05.560
+makes that selection. So
+
+203
+00:41:07.040 --> 00:41:08.680
+in practice it looks like this.
+
+204
+00:41:08.680 --> 00:41:10.640
+You know, like, no,
+I couldn't eat another bite.
+
+205
+00:41:10.640 --> 00:41:12.640
+This is punctuated correctly.
+
+206
+00:41:12.640 --> 00:41:16.680
+And then here we see if that's selected,
+it turns into the appropriate comma,
+
+207
+00:41:16.720 --> 00:41:20.360
+then the dialog brackets
+and then finishes with the attribution.
+
+208
+00:41:20.720 --> 00:41:25.200
+This is just a really specific example to
+kind of show like I can't express enough.
+
+209
+00:41:25.200 --> 00:41:27.600
+I didn't go through it
+to even try and demonstrate it.
+
+210
+00:41:27.600 --> 00:41:32.080
+But doing this is— it involves a lot
+more work if you're doing it within Twine.
+
+211
+00:41:32.080 --> 00:41:35.640
+Certainly not that it's impossible,
+but it's cumbersome.
+
+212
+00:41:35.680 --> 00:41:40.440
+And this is what Inky was designed to do,
+and Twine was not.
+
+213
+00:41:40.440 --> 00:41:42.000
+So that makes sense.
+
+214
+00:41:42.000 --> 00:41:45.480
+So again,
+this whole presentation is kind of
+
+215
+00:41:45.520 --> 00:41:48.520
+to point out that there's
+lots of these kind of examples where
+
+216
+00:41:48.520 --> 00:41:50.400
+if you're helping students
+learn about hypertext
+
+217
+00:41:50.400 --> 00:41:53.640
+for the first time, it can be helpful
+to know if they want to write—
+
+218
+00:41:53.680 --> 00:41:56.280
+And you can tell them it's helpful
+to know up front if they want to write
+
+219
+00:41:56.280 --> 00:41:58.960
+branching dialog trees,
+or if they want to write
+
+220
+00:41:58.960 --> 00:42:02.240
+if style explorations like go north,
+go east, go west— like that
+
+221
+00:42:02.240 --> 00:42:05.440
+will impact
+which platform they should use.
+
+222
+00:42:05.480 --> 00:42:06.000
+And you know,
+
+223
+00:42:06.000 --> 00:42:08.160
+they can use it
+just while they work on that project
+
+224
+00:42:08.160 --> 00:42:10.680
+and learn something else
+for a different project.
+
+225
+00:42:10.680 --> 00:42:14.000
+And it also might just appeal
+to different students in different ways.
+
+226
+00:42:14.000 --> 00:42:17.320
+Some people might want to structure
+their hypertext graphically in Twine
+
+227
+00:42:17.720 --> 00:42:19.440
+and then fill things in, and others might
+
+228
+00:42:19.440 --> 00:42:22.920
+just like to free write prose,
+which I think Inky works better for.
+
+229
+00:42:22.960 --> 00:42:26.240
+And it's just those kind of things
+I kind of want to focus on.
+
+230
+00:42:26.280 --> 00:42:29.040
+It's really what I came to.
+I think it's really fascinating.
+
+231
+00:42:30.000 --> 00:42:31.640
+And, you know, frankly, I
+
+232
+00:42:31.640 --> 00:42:35.760
+think there's evidence that Inky is kind
+of still underrepresented in this space.
+
+233
+00:42:35.760 --> 00:42:39.960
+And Twine for, you know,
+lots of reasons is very represented.
+
+234
+00:42:41.000 --> 00:42:44.480
+And so it's just good to spread the word
+that they do the same thing differently.
+
+235
+00:42:44.520 --> 00:42:48.160
+Like in “An Educator’s
+Guide to Interactive Digital Narrative”
+
+236
+00:42:48.160 --> 00:42:53.800
+last year, they collected 45 syllabi
+from a lot of great educators on this and
+
+237
+00:42:55.000 --> 00:42:56.920
+Twine outnumbers Inky 10-to-1.
+
+238
+00:42:56.920 --> 00:42:59.920
+Like it's like 31 references versus three.
+
+239
+00:43:00.800 --> 00:43:02.560
+And so it's
+
+240
+00:43:02.560 --> 00:43:03.760
+interesting to know about.
+
+241
+00:43:03.760 --> 00:43:05.520
+Anyway, thank you very much.
+
+242
+00:43:05.520 --> 00:43:07.480
+I'm kind of rambling here at the end.
+
+243
+00:43:07.480 --> 00:43:09.880
+I’d talk about this at length
+with any of you.
+
+244
+00:43:09.880 --> 00:43:12.880
+So thank you for joining us today.

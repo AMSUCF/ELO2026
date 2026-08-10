@@ -1,0 +1,185 @@
+/* ELO 2026 "Recordings On Demand" — a retro CRT/VCR media player laid over the
+   site's neon theme (styles.css supplies --pink / --cyan / --card-bg). */
+
+.rec-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(300px, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+  margin-top: 1.5rem;
+}
+@media (max-width: 900px) { .rec-layout { grid-template-columns: 1fr; } }
+
+/* ---------- CRT / VCR player frame ---------- */
+.crt {
+  background: linear-gradient(160deg, #1a1030, #0a0618);
+  border: 3px solid var(--cyan);
+  border-radius: 16px;
+  box-shadow: 0 0 26px rgba(77, 213, 232, 0.45), inset 0 0 40px rgba(0, 0, 0, 0.6);
+  padding: 12px;
+}
+.crt-bezel {
+  display: flex; align-items: center; gap: 0.6rem;
+  font-family: "Press Start 2P", monospace; font-size: 0.6rem;
+  color: var(--cyan); padding: 4px 4px 12px;
+}
+.crt-led {
+  width: 11px; height: 11px; border-radius: 50%;
+  background: #ff3b6b; box-shadow: 0 0 10px #ff3b6b;
+  animation: recblink 1.4s steps(1) infinite;
+}
+.crt-nowplaying { letter-spacing: 1px; color: var(--pink); }
+.crt-count { margin-left: auto; color: var(--cyan); }
+
+.crt-screen {
+  position: relative; border-radius: 8px; overflow: hidden;
+  background: #000; border: 2px solid #06121a;
+}
+.video-holder {
+  position: relative; width: 100%; aspect-ratio: 16 / 9;
+  background: #000; display: grid; place-items: center;
+}
+.video-holder video { width: 100%; height: 100%; display: block; background: #000; }
+.crt-idle {
+  font-family: "VT323", monospace; font-size: 1.7rem; color: var(--cyan);
+  text-align: center; padding: 1rem; text-shadow: 0 0 12px rgba(77, 213, 232, 0.7);
+}
+.scanlines {
+  position: absolute; inset: 0; pointer-events: none;
+  background: repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.18) 0 1px, transparent 1px 3px);
+  mix-blend-mode: multiply; opacity: 0.5;
+}
+.crt-screen::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  box-shadow: inset 0 0 70px rgba(0, 0, 0, 0.65); border-radius: 8px;
+}
+
+/* now-playing metadata */
+.now-meta { margin: 0.9rem 0 0.3rem; min-height: 2.6rem; }
+.now-title {
+  font-family: "Righteous", sans-serif; font-size: 1.3rem; color: #fff;
+  margin: 0 0 0.35rem; text-shadow: 0 0 14px rgba(255, 105, 180, 0.5);
+}
+.now-presenters { font-family: Arial, Helvetica, sans-serif; color: #d8d8ea; margin: 0 0 0.5rem; }
+
+.rec-transport { display: flex; align-items: center; gap: 0.9rem; margin: 0.4rem 0 0.4rem; flex-wrap: wrap; }
+.autoplay-toggle {
+  font-family: "VT323", monospace; font-size: 1.2rem; color: var(--cyan);
+  display: inline-flex; align-items: center; gap: 0.4rem; cursor: pointer;
+}
+
+.pixel-btn {
+  font-family: "Press Start 2P", monospace; font-size: 0.6rem;
+  color: #05121a; background: var(--cyan); border: none; border-radius: 6px;
+  padding: 0.65rem 0.85rem; cursor: pointer; box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.6);
+}
+.pixel-btn:hover, .pixel-btn:focus { background: var(--pink); color: #1a0010; }
+.pixel-btn:active { transform: translate(2px, 2px); box-shadow: none; }
+.pixel-btn[disabled] { opacity: 0.4; cursor: not-allowed; box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.6); }
+
+/* ---------- browse / playlist column ---------- */
+.rec-browse { display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; margin-bottom: 0.6rem; }
+.rec-browse-label { font-family: "VT323", monospace; font-size: 1.25rem; color: var(--pink); }
+.rec-tabs { display: inline-flex; gap: 0.35rem; flex-wrap: wrap; }
+.rec-tab {
+  font-family: "VT323", monospace; font-size: 1.2rem;
+  background: var(--card-bg); color: var(--cyan);
+  border: 2px solid var(--cyan); border-radius: 999px;
+  padding: 0.25rem 0.85rem; cursor: pointer;
+}
+.rec-tab[aria-selected="true"] { background: var(--cyan); color: #05121a; }
+
+.rec-search {
+  width: 100%; font-size: 1rem; padding: 0.6rem 0.75rem; margin-bottom: 0.7rem;
+  background: #120c22; color: #fff; border: 2px solid var(--pink); border-radius: 8px;
+}
+.rec-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.6rem; }
+.rec-chip {
+  font-family: "VT323", monospace; font-size: 1.1rem; color: #f0f0f8;
+  background: var(--card-bg); border: 2px solid rgba(255, 105, 180, 0.5);
+  border-radius: 999px; padding: 0.15rem 0.7rem; cursor: pointer;
+}
+.rec-chip[aria-pressed="true"] { background: var(--pink); color: #1a0010; border-color: var(--pink); }
+.rec-chip .chip-n { opacity: 0.65; margin-left: 0.25rem; }
+
+.rec-count { font-family: Arial, Helvetica, sans-serif; font-size: 0.85rem; color: #bdbdbd; margin: 0 0 0.5rem; }
+
+.rec-list {
+  list-style: none; margin: 0; padding: 0;
+  max-height: 64vh; overflow-y: auto;
+  display: flex; flex-direction: column; gap: 0.45rem;
+  scrollbar-width: thin; scrollbar-color: var(--cyan) transparent;
+}
+.rec-item {
+  display: grid; grid-template-columns: auto 1fr; gap: 0.6rem; align-items: start;
+  background: var(--card-bg); border: 2px solid rgba(77, 213, 232, 0.35); border-radius: 10px;
+  padding: 0.55rem 0.7rem; cursor: pointer; text-align: left; color: #fff; width: 100%;
+  font-family: inherit;
+}
+.rec-item:hover, .rec-item:focus-visible { border-color: var(--pink); }
+.rec-item[aria-current="true"] {
+  border-color: var(--cyan); box-shadow: 0 0 14px rgba(77, 213, 232, 0.5);
+  background: rgba(77, 213, 232, 0.09);
+}
+.rec-idx { font-family: "Press Start 2P", monospace; font-size: 0.55rem; color: var(--cyan); padding-top: 4px; }
+.rec-t { font-family: "Righteous", sans-serif; font-size: 1.02rem; line-height: 1.25; }
+.rec-p { font-family: Arial, Helvetica, sans-serif; font-size: 0.82rem; color: #cfcfe0; margin-top: 0.15rem; }
+.rec-badges { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.4rem; }
+
+.badge-track, .badge-type, .badge-tag {
+  display: inline-block; font-family: "VT323", monospace; font-size: 0.98rem;
+  line-height: 1.5; border-radius: 4px; padding: 0 0.45rem; border: 1px solid;
+}
+.badge-track { color: var(--cyan); border-color: var(--cyan); }
+.badge-type { color: var(--pink); border-color: var(--pink); }
+.badge-tag { color: #ffd23f; border-color: #ffd23f; }
+
+.rec-empty { font-family: "VT323", monospace; font-size: 1.3rem; color: #bdbdbd; padding: 1rem; text-align: center; }
+
+.rec-source-note { font-family: Arial, Helvetica, sans-serif; color: #bdbdbd; font-size: 0.9rem; text-align: center; margin-top: 1.75rem; }
+.rec-source-note a { color: var(--cyan); }
+
+/* ---------- share + captions on the now-playing panel ---------- */
+.now-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 0.7rem; margin-top: 0.6rem; }
+
+.cc-link {
+  display: inline-flex; align-items: center; gap: 0.45rem;
+  font-family: Arial, Helvetica, sans-serif; font-size: 0.85rem;
+  color: var(--cyan); text-decoration: none;
+}
+a.cc-link:hover, a.cc-link:focus { text-decoration: underline; }
+
+/* Sessions STARS has not captioned yet — stated plainly, not as a link. */
+.cc-pending { color: #9a9aad; }
+.cc-pending .cc-badge { border-color: #9a9aad; }
+.cc-badge {
+  font-family: "VT323", monospace; font-size: 1rem; line-height: 1.3;
+  border: 1px solid var(--cyan); border-radius: 4px; padding: 0 0.35rem;
+}
+
+.share-fallback {
+  flex: 1 1 18rem; min-width: 12rem;
+  padding: 0.4rem 0.6rem; border: 2px solid var(--cyan); border-radius: 6px;
+  background: #120c22; color: var(--cyan);
+  font-family: Arial, Helvetica, sans-serif; font-size: 0.85rem;
+}
+
+.vhs-toggle { font-size: 1.1rem; }
+
+/* ---------- "Remove VHS effect" ----------
+   Strips the CRT dressing down to a plain player: no scanlines, no vignette,
+   no glow, no blinking record light. */
+body.no-vhs .scanlines { display: none; }
+body.no-vhs .crt-screen::after { display: none; }
+body.no-vhs .crt {
+  background: var(--card-bg);
+  box-shadow: none;
+  border-color: rgba(77, 213, 232, 0.5);
+}
+body.no-vhs .crt-led { animation: none; background: #4b4b57; box-shadow: none; }
+
+@keyframes recblink { 0%, 100% { opacity: 1; } 50% { opacity: 0.2; } }
+@media (prefers-reduced-motion: reduce) {
+  .crt-led { animation: none; }
+  .pixel-btn:active { transform: none; }
+}

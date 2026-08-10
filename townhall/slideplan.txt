@@ -1,0 +1,55 @@
+the ELO Town Hall slides should take the form of a Mario-esque side scroller platformers that moves automatically to the next "slide" point when I press the arrow key. it should have retro pixel animation and lots of easter eggs inspired by this year's conference data (scraped from stars) 
+
+the narrative will be - 
+
+ELO 2026 Town Hall
+
+"credits" - the board member list (me as president, Dene Grigar as Treasurer, Davin Heckman as secretary, pull rest from board website, PD Edgar as ELO Coordinator) 
+
+Treasurer's Report (Dene Grigar)
+
+Projects & Partners of the ELO
+
+ELC5
+Editorial retreat at UCF - launch anticipated 2027
+
+Bloomsbury series (grab book details, series editors, and five images here: https://www.bloomsbury.com/us/series/electronic-literature/) 
+
+MLA
+2026 sessions - https://anastasiasalter.net/DistantCoding/ and https://anastasiasalter.net/OpenSourceHumanities/ (organized by Anastasia Salter and Lai-Tze Fan)
+2027 upcoming - Critical Coding: AI, Agency, And the Literary Imagination (Tina Escaja, Liz Losh, Anastasia Salter, Mark Sample, Mark Marino; Alex Saum-Pascual presiding)
+2027 upcoming - Prompting the Avant-Garde: GenAI Writing and the Evolution of Procedural Poetics (Craig Saper, Kimberly Hall, Elika Ortega; Alex Saum-Pascual presiding)
+2027 upcoming - Alternate Minds: Ghosts, Aliens and Queer LLMs (Ken Alba, Bart Kuipers, Jeff Shrager; Mark Marino presiding; with the Committee on Information Technology) - PENDING APPROVAL
+
+the NEXT
+link to their exhibit this time - https://the-next.org/exhibition/works-on-screen/
+
+CELL / ELD (look up, screenshot)
+
+Conferences
+
+this event concludes the ELOrlando trilogy
+https://stars.library.ucf.edu/elo2020/
+https://stars.library.ucf.edu/elo2024/
+https://stars.library.ucf.edu/elo2026/
+(include screenshots of usage in folder)
+
+our open access repository for this year (list event numbers, 250+ page proceedings, exhibition) is almost complete, and we hope you will share and use it!
+
+we are excited to announce the upcoming 2027 conference...[big reveal, should be on a separate screen]
+
+ELO 2027 at Universidad del Norte in Barranquilla
+
+Team:
+María Cecilia Reyes (Uni Norte)
+Jaime Rodríguez (Universidad de los Andes)
+Nelson Vera (Universidad de los Andes)
+Mauricio Vásquez (EAFIT)
+
+We have more exciting conferences already in the works, and look forward to sharing the details with you soon!
+
+Q&A
+
+What would you like to see next from the ELO?
+How do you feel about income-based membership?
+What do you wish we were thinking about or doing?

@@ -1,0 +1,798 @@
+WEBVTT
+
+1
+00:18:16.680 --> 00:18:18.040
+Hi, everyone.
+
+2
+00:18:18.040 --> 00:18:21.960
+My name is LJ Connolly,
+and I'm a PhD student in the Texts
+
+3
+00:18:21.960 --> 00:18:24.960
+and Technology program
+
+4
+00:18:25.040 --> 00:18:26.160
+at UCF.
+
+5
+00:18:26.160 --> 00:18:31.880
+I did my undergraduate degree in creative
+writing and my MA in women's and gender
+
+6
+00:18:31.880 --> 00:18:36.760
+studies, and now I'm bringing both
+those foundations to the digital space.
+
+7
+00:18:37.920 --> 00:18:42.360
+So I wanted to start with— there's this,
+you know, old adage a lot of us
+
+8
+00:18:42.360 --> 00:18:46.680
+creative writers know: that you need
+to read widely in order to write well.
+
+9
+00:18:46.680 --> 00:18:50.880
+And so today, I want to make the case
+that electronic literature,
+
+10
+00:18:50.880 --> 00:18:54.720
+and specifically queer centered Twine
+stories, can teach
+
+11
+00:18:54.720 --> 00:18:58.600
+creative writers just as much as reading
+traditional prose can.
+
+12
+00:18:59.640 --> 00:19:02.880
+I'm mostly thinking here
+about how this applies to short fiction
+
+13
+00:19:02.880 --> 00:19:07.280
+and nonfiction, since that's
+where my own creative interests lie,
+
+14
+00:19:07.320 --> 00:19:11.680
+but I suspect that a good deal
+of this carries over to other genres, too.
+
+15
+00:19:14.280 --> 00:19:16.880
+So many introductory
+
+16
+00:19:16.880 --> 00:19:21.400
+creative writing classes are avoiding
+the second person entirely,
+
+17
+00:19:21.800 --> 00:19:25.680
+and that guidance usually comes
+from a good place because, done badly,
+
+18
+00:19:26.000 --> 00:19:29.640
+the second person “you”
+can feel quite presumptuous
+
+19
+00:19:29.640 --> 00:19:33.720
+and intrusive and pretentious,
+sometimes jarring.
+
+20
+00:19:35.440 --> 00:19:37.720
+And like a writer is putting words
+
+21
+00:19:37.720 --> 00:19:40.720
+into a reader's mouth
+that they never agreed to speak.
+
+22
+00:19:40.840 --> 00:19:46.440
+But a recent essay published in SWFA
+by Valerie Vallas
+
+23
+00:19:47.000 --> 00:19:48.160
+describes conversations
+
+24
+00:19:48.160 --> 00:19:51.760
+with marginalized writers,
+and many of them are queer and BIPOC,
+
+25
+00:19:52.400 --> 00:19:56.480
+and they found that second person
+came most naturally to them
+
+26
+00:19:56.480 --> 00:19:59.520
+since it echoed a skill
+that already practiced daily code
+
+27
+00:19:59.520 --> 00:20:03.000
+switching, adjusting to expectations
+built around someone else's
+
+28
+00:20:03.040 --> 00:20:06.040
+needs, and inhabiting perspectives
+
+29
+00:20:06.920 --> 00:20:10.280
+that are not their own in order
+to navigate this world successfully.
+
+30
+00:20:10.360 --> 00:20:13.280
+So for many writers, one more shift
+
+31
+00:20:13.280 --> 00:20:16.280
+into “you” felt like a familiar move.
+
+32
+00:20:16.480 --> 00:20:19.680
+And Vallas argues
+that second person can be intimate
+
+33
+00:20:19.680 --> 00:20:24.400
+and coercive at the same time,
+and it's a tool for confronting readers.
+
+34
+00:20:25.080 --> 00:20:27.680
+So we're going to be thinking
+a little bit more about that today
+
+35
+00:20:30.080 --> 00:20:33.080
+through three specific
+
+36
+00:20:34.480 --> 00:20:36.280
+twine games.
+
+37
+00:20:36.280 --> 00:20:40.720
+So each one of these is built around
+second person.
+
+38
+00:20:40.720 --> 00:20:44.240
+And we're going to look at each one
+to see how it teaches us
+
+39
+00:20:44.240 --> 00:20:47.240
+something different about what
+second person can do.
+
+40
+00:20:47.360 --> 00:20:50.600
+So first we're going to discuss “Queers
+in Love at the End of the World,”
+
+41
+00:20:50.600 --> 00:20:53.640
+where the second person is paired
+with a named, in-particular “her” in
+
+42
+00:20:55.360 --> 00:20:59.520
+third person to learn
+how second person can hold intimacy
+
+43
+00:20:59.520 --> 00:21:04.200
+and relation at once
+without ever describing the reader.
+
+44
+00:21:05.200 --> 00:21:08.480
+And then second,
+we're going to talk about “Queer
+
+45
+00:21:08.520 --> 00:21:13.440
+Trans Mentally Ill Power Fantasy,”
+where “you” is deliberately left
+
+46
+00:21:13.440 --> 00:21:18.520
+open to learn how second person can widen
+rather than narrow,
+
+47
+00:21:18.560 --> 00:21:23.400
+who gets to occupy the story and work
+with identification of that person.
+
+48
+00:21:23.800 --> 00:21:28.040
+And thirdly, we're going to look at “With
+
+49
+00:21:28.040 --> 00:21:34.160
+Those We Love Alive,”
+which is to see how second person
+
+50
+00:21:34.160 --> 00:21:37.520
+can stop being a narrative device entirely
+
+51
+00:21:37.520 --> 00:21:40.600
+and become directed
+at the reader's actual body.
+
+52
+00:21:42.800 --> 00:21:45.800
+So in
+“Queers in Love at the End of the World,”
+
+53
+00:21:46.920 --> 00:21:50.240
+this was made in 2013 by Anna Anthropy.
+
+54
+00:21:50.240 --> 00:21:54.320
+It was created for a game jam whose theme
+
+55
+00:21:55.720 --> 00:21:58.920
+was to simply work within 10 seconds.
+
+56
+00:21:58.960 --> 00:22:04.400
+So the game gives the player 10 seconds
+with a partner before the world ends,
+
+57
+00:22:04.880 --> 00:22:09.840
+and a countdown timer runs on-screen
+the entire time, and when the timer hits
+
+58
+00:22:09.840 --> 00:22:13.080
+zero, the text changes to “Everything
+is wiped away.”
+
+59
+00:22:13.760 --> 00:22:16.560
+and the playthrough of the game ends
+no matter
+
+60
+00:22:16.560 --> 00:22:19.560
+how far you've gone in it.
+
+61
+00:22:21.360 --> 00:22:24.680
+So this is our relation example.
+
+62
+00:22:25.160 --> 00:22:29.240
+Traditional craft teaches
+that second person as a device
+
+63
+00:22:29.280 --> 00:22:33.840
+is either directly implicating the reader
+as in a choose
+
+64
+00:22:33.840 --> 00:22:38.680
+your own adventure, or a stand-in
+as a stylistic substitution for “I.”
+
+65
+00:22:39.240 --> 00:22:43.560
+But what it really does is hold
+a specific relationship.
+
+66
+00:22:44.400 --> 00:22:48.360
+“You” as pointed at one
+other named person in the room
+
+67
+00:22:48.360 --> 00:22:52.440
+right now,
+but here “you” describes itself.
+
+68
+00:22:52.440 --> 00:22:56.280
+So we never learn what the player
+character looks like, what they've done,
+
+69
+00:22:56.320 --> 00:22:58.480
+who they are outside this room.
+
+70
+00:22:58.480 --> 00:23:02.840
+What we do get instead is her specifically
+addressed and present as well.
+
+71
+00:23:03.960 --> 00:23:06.080
+The player is asked to want things toward
+
+72
+00:23:06.080 --> 00:23:09.880
+another person rather than to be described
+as a person themselves.
+
+73
+00:23:09.880 --> 00:23:13.400
+And that's very different
+from the traditional
+
+74
+00:23:13.400 --> 00:23:16.680
+second person that the workshop
+usually warns us against.
+
+75
+00:23:16.680 --> 00:23:21.280
+The pronoun is working relationally here,
+so it's holding
+
+76
+00:23:22.000 --> 00:23:25.560
+a couple in the frame together
+and putting them in a situation
+
+77
+00:23:25.720 --> 00:23:29.960
+so the reader is
+presented, is supplying that presence,
+
+78
+00:23:29.960 --> 00:23:34.240
+and it compresses relation
+and emotion into
+
+79
+00:23:35.240 --> 00:23:38.120
+a very quick, short amount of time,
+
+80
+00:23:38.120 --> 00:23:40.560
+no more than 10 seconds.
+
+81
+00:23:40.560 --> 00:23:43.920
+And the reader does not need pages
+
+82
+00:23:43.920 --> 00:23:47.800
+of habits and history and behavior
+about a character to feel something.
+
+83
+00:23:47.840 --> 00:23:50.840
+It happens very quickly
+
+84
+00:23:50.960 --> 00:23:53.960
+inside of this relationship.
+
+85
+00:23:55.640 --> 00:23:59.840
+And then the second text is “Queer
+Trans Mentally”—
+
+86
+00:23:59.880 --> 00:24:03.800
+Oh no, sorry, this was the slide for—
+
+87
+00:24:05.000 --> 00:24:07.000
+So we're going to see how
+
+88
+00:24:07.000 --> 00:24:10.520
+this works with identification
+more specifically.
+
+89
+00:24:12.600 --> 00:24:15.680
+So we kind of see this—
+
+90
+00:24:23.880 --> 00:24:24.560
+Oh, sorry.
+
+91
+00:24:24.560 --> 00:24:27.080
+No, “Queer Trans Mentally Ill Power
+Fantasy.” Okay, perfect.
+
+92
+00:24:27.080 --> 00:24:28.320
+We're moving on.
+
+93
+00:24:28.320 --> 00:24:31.960
+So this next piece is the same approach
+
+94
+00:24:31.960 --> 00:24:34.960
+to the pronoun, but
+
+95
+00:24:35.480 --> 00:24:36.760
+in kind of a new way.
+
+96
+00:24:36.760 --> 00:24:40.840
+So the player wakes up and finds
+their body has been replaced,
+
+97
+00:24:42.920 --> 00:24:45.920
+with what the
+
+98
+00:24:46.400 --> 00:24:47.920
+game’s own text is calling
+
+99
+00:24:47.920 --> 00:24:51.920
+a “glittering
+and iridescent mecha suit encrusted with
+
+100
+00:24:52.440 --> 00:24:54.800
+every very nice message
+that they've ever been sent.”
+
+101
+00:24:54.800 --> 00:24:57.240
+And the entire piece is written
+in capital letters.
+
+102
+00:24:57.240 --> 00:24:59.920
+So partway through the game,
+
+103
+00:24:59.920 --> 00:25:03.240
+it reverses its own premise
+by signaling that there was no mecha suit
+
+104
+00:25:03.240 --> 00:25:08.520
+after all, just the, as the text puts
+it, “like a lump of drain-clogged hair
+
+105
+00:25:08.560 --> 00:25:12.160
+spray-painted gold,” followed by the line
+“The magic was you the whole time.”
+
+106
+00:25:14.320 --> 00:25:17.320
+So the
+
+107
+00:25:18.080 --> 00:25:21.840
+“Queer Trans Mentally Ill Power
+Fantasy” is building a character
+
+108
+00:25:21.840 --> 00:25:22.520
+with “you”
+
+109
+00:25:22.520 --> 00:25:26.360
+and then collapsing that distance
+and bringing it back into your own life
+
+110
+00:25:26.360 --> 00:25:30.600
+so you get the characterization
+of the glitter body,
+
+111
+00:25:30.600 --> 00:25:33.600
+the cats, the scene.
+
+112
+00:25:34.200 --> 00:25:37.760
+But “you ”does the same work
+as the protagonist usually does.
+
+113
+00:25:37.760 --> 00:25:38.880
+So it's being built
+
+114
+00:25:38.880 --> 00:25:42.880
+in real time alongside
+you instead of described from the outside.
+
+115
+00:25:43.000 --> 00:25:47.520
+And then the game kind of breaks away
+with not a lot of warning,
+
+116
+00:25:47.520 --> 00:25:50.600
+and you've been treated the way with—
+
+117
+00:25:50.600 --> 00:25:53.600
+by saying something like,
+you've been treated the way you've—
+
+118
+00:25:54.280 --> 00:25:56.240
+or you've not been treated the way
+you should have been treated.
+
+119
+00:25:56.240 --> 00:26:01.080
+And then it clips to the next scene,
+which is “Your parents did not treat you
+
+120
+00:26:01.080 --> 00:26:05.600
+the way you should have been treated.”
+And then it says,
+
+121
+00:26:05.600 --> 00:26:09.720
+“No, they didn't.” And so the “No,
+they didn't,” that's the rebuttal.
+
+122
+00:26:11.280 --> 00:26:13.840
+So it answers
+an objection that you haven't voiced yet.
+
+123
+00:26:13.840 --> 00:26:18.160
+And so it might be a thought in your head,
+and the author is anticipating
+
+124
+00:26:18.160 --> 00:26:22.840
+what the reader is thinking
+and then speaking to that directly.
+
+125
+00:26:23.200 --> 00:26:26.200
+So it's collapsing
+the kind of boundary between
+
+126
+00:26:26.760 --> 00:26:29.520
+the author and the writer,
+
+127
+00:26:29.520 --> 00:26:33.240
+and bringing them as close
+together as possible.
+
+128
+00:26:33.400 --> 00:26:37.160
+And that's a different job
+for second person than the usual workshop
+
+129
+00:26:37.160 --> 00:26:38.320
+warnings account for.
+
+130
+00:26:38.320 --> 00:26:42.120
+And it's not just building a character
+you identify with, its using that
+
+131
+00:26:42.120 --> 00:26:46.000
+identification as a hinge and a closeness
+between the author and writer,
+
+132
+00:26:46.960 --> 00:26:52.000
+so that the fictional “you”
+and the other—your own “you”
+
+133
+00:26:52.000 --> 00:26:55.880
+in this lifetime—kind of occupy
+the same pronoun
+
+134
+00:26:55.880 --> 00:27:00.520
+closely enough that moving between them
+doesn't take a lot of transition either.
+
+135
+00:27:02.920 --> 00:27:06.920
+And so finally, we're going to end
+
+136
+00:27:06.960 --> 00:27:10.800
+with talking about embodiment in “With
+
+137
+00:27:10.800 --> 00:27:13.800
+Those We Love Alive.”
+
+138
+00:27:14.640 --> 00:27:17.400
+It was released in 2014, and here
+
+139
+00:27:17.400 --> 00:27:20.960
+the player takes on the role of an artisan
+serving an empress.
+
+140
+00:27:20.960 --> 00:27:24.760
+And the game is structured around
+repeating cycles of days, each one opening
+
+141
+00:27:24.760 --> 00:27:29.040
+with the same sort of block of text
+before branching outward from there.
+
+142
+00:27:29.240 --> 00:27:33.120
+And at several points,
+the game pauses and instructs the player
+
+143
+00:27:33.120 --> 00:27:37.760
+to draw a specific symbol
+onto their own skin, and
+
+144
+00:27:37.760 --> 00:27:42.080
+the very first line promises the player
+that nothing you can do is wrong.
+
+145
+00:27:43.640 --> 00:27:48.400
+So this is our embodiment example
+in the first two games,
+
+146
+00:27:48.440 --> 00:27:51.440
+the second person state
+as a narrative address,
+
+147
+00:27:51.640 --> 00:27:55.200
+something that you read and imagined,
+and this one is asking
+
+148
+00:27:55.200 --> 00:27:58.640
+what happens when second person stops
+being a pronoun and becomes
+
+149
+00:27:58.640 --> 00:28:01.720
+an instruction
+that's aimed at you sitting in the room.
+
+150
+00:28:01.760 --> 00:28:07.560
+So before fiction even starts, it's
+asking something about your actual body.
+
+151
+00:28:08.000 --> 00:28:11.400
+It asks you, “Do
+you have a pen or Sharpie nearby,
+
+152
+00:28:11.400 --> 00:28:15.800
+something that can write on skin?”
+And it's not talking about the character
+
+153
+00:28:15.800 --> 00:28:17.440
+skin, it's talking about yours.
+
+154
+00:28:17.440 --> 00:28:21.200
+And then it follows that up
+with, “We recommend headphones,”
+
+155
+00:28:21.240 --> 00:28:25.320
+which is also speaking to you,
+the person, before going into the story.
+
+156
+00:28:26.360 --> 00:28:29.360
+And then it comes back to that repeatedly.
+
+157
+00:28:30.040 --> 00:28:32.680
+Different parts of your body, your skin.
+
+158
+00:28:32.680 --> 00:28:36.120
+One of the ways it comes up is through
+breath.
+
+159
+00:28:37.760 --> 00:28:39.280
+It's cueing you to breathe.
+
+160
+00:28:39.280 --> 00:28:45.280
+And then the whole screen goes blue, as
+we see on this page in the bottom right.
+
+161
+00:28:45.320 --> 00:28:49.240
+Or the top here says, I'm holding
+my breath and then it goes all blue.
+
+162
+00:28:49.240 --> 00:28:52.920
+And that's about,
+I'd say, 20 to 30 seconds to kind of
+
+163
+00:28:52.960 --> 00:28:56.040
+just stay with your breath
+and be in your body.
+
+164
+00:28:59.040 --> 00:29:00.920
+And so we see that, you know,
+
+165
+00:29:00.920 --> 00:29:06.320
+second person is stripping away
+that distance, but also it's queering it.
+
+166
+00:29:06.320 --> 00:29:12.120
+And often traditional workshops
+are treating that loss as the risk.
+
+167
+00:29:12.120 --> 00:29:15.120
+But these games
+are treating it as a benefit.
+
+168
+00:29:16.200 --> 00:29:18.840
+So I would just say go
+plays games for yourselves
+
+169
+00:29:18.840 --> 00:29:22.480
+and see what else
+you might be able to learn about writing.
+
+170
+00:29:23.240 --> 00:29:24.120
+Thank you.

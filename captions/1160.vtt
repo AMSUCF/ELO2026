@@ -1,0 +1,1177 @@
+WEBVTT
+
+1
+00:27:07.040 --> 00:27:08.880
+So thank you for having me.
+
+2
+00:27:08.880 --> 00:27:11.880
+So this is called “From Voice
+to Environment: Authorship
+
+3
+00:27:12.160 --> 00:27:14.440
+in Spatial Collage.”
+My name is Dan Lichtman.
+
+4
+00:27:14.440 --> 00:27:18.400
+I'm an assistant professor at Saint John's
+University in New York City.
+
+5
+00:27:18.560 --> 00:27:22.120
+I teach game development
+and emerging media.
+
+6
+00:27:22.360 --> 00:27:26.760
+So I'm going to present today— Actually,
+I want to keep track of time.
+
+7
+00:27:26.880 --> 00:27:31.320
+I'm going to present
+about a project of mine called a Community
+
+8
+00:27:31.360 --> 00:27:36.600
+Game Development Toolkit, and I'm going to
+show example projects from this toolkit.
+
+9
+00:27:36.600 --> 00:27:40.920
+And then I'm going to talk at the end
+a little bit about themes of authorship
+
+10
+00:27:40.920 --> 00:27:46.360
+that I think, you know, can be reflected
+on as a result of these projects.
+
+11
+00:27:46.720 --> 00:27:51.760
+So the Community Game Development
+Toolkit is a— hold on one second.
+
+12
+00:27:51.800 --> 00:27:57.240
+Let me try to— My preview of all
+your faces is covering up my slide.
+
+13
+00:28:14.560 --> 00:28:18.840
+So. This is an accessible
+
+14
+00:28:18.840 --> 00:28:22.080
+collage based system for collective game
+making.
+
+15
+00:28:22.600 --> 00:28:26.880
+It's open to diverse participants
+and ways of making,
+
+16
+00:28:26.880 --> 00:28:30.080
+and it supports communities
+to represent their own stories
+
+17
+00:28:30.080 --> 00:28:33.080
+and knowledge.
+
+18
+00:28:34.040 --> 00:28:35.960
+Are you— sorry, I can't see chat
+
+19
+00:28:35.960 --> 00:28:39.280
+or anything or hear anything
+when I'm sharing my slides apparently.
+
+20
+00:28:39.360 --> 00:28:42.360
+You guys still see—
+
+21
+00:28:43.600 --> 00:28:44.760
+Yeah, we can see this way.
+
+22
+00:28:44.760 --> 00:28:45.240
+You do?
+
+23
+00:28:45.240 --> 00:28:46.360
+Okay, cool.
+
+24
+00:28:46.360 --> 00:28:47.320
+All right. Thanks.
+
+25
+00:28:47.320 --> 00:28:49.720
+I will continue with confidence.
+
+26
+00:28:49.720 --> 00:28:53.720
+Okay, so this is a summary
+of the Community Game Development Toolkit.
+
+27
+00:28:53.840 --> 00:28:57.880
+So the Community Game Development
+Toolkit is a system that works
+
+28
+00:28:57.880 --> 00:29:01.720
+in the Unity game engine,
+which if you're not familiar with it, it's
+
+29
+00:29:01.760 --> 00:29:07.040
+a big commercial game engine
+for making interactive experiences.
+
+30
+00:29:07.040 --> 00:29:10.520
+And the toolkit— in one of the main things
+it does
+
+31
+00:29:10.520 --> 00:29:14.280
+is simplify how you use it,
+because it's a pretty complex,
+
+32
+00:29:14.560 --> 00:29:18.760
+intimidating piece of software,
+but it has a real focus on collage.
+
+33
+00:29:18.760 --> 00:29:22.080
+So the kinds of source materials
+that people use might include
+
+34
+00:29:22.080 --> 00:29:25.360
+drawings and paintings, 
+photographic cutouts.
+
+35
+00:29:25.360 --> 00:29:29.800
+And then in the lower left
+I have a 3D scan.
+
+36
+00:29:29.840 --> 00:29:33.680
+So you can also
+easily make 3D scans with any smartphone
+
+37
+00:29:33.680 --> 00:29:37.280
+now and incorporate those
+into collages in 3D space.
+
+38
+00:29:37.280 --> 00:29:40.080
+So what do you do with those materials?
+
+39
+00:29:40.080 --> 00:29:41.720
+You bring them into the game engine.
+
+40
+00:29:41.720 --> 00:29:43.280
+So here I have an example.
+
+41
+00:29:43.280 --> 00:29:47.120
+And you arrange them in a 3D space
+
+42
+00:29:47.120 --> 00:29:50.320
+and you can kind of position and rotate
+and scale each object.
+
+43
+00:29:50.320 --> 00:29:52.600
+Here I have some scans of drawings
+
+44
+00:29:54.000 --> 00:29:55.080
+and also a
+
+45
+00:29:55.080 --> 00:29:58.880
+skybox, which is like a 360 degree photo
+that forms the background
+
+46
+00:29:58.880 --> 00:30:02.000
+and you form these
+into navigable environments.
+
+47
+00:30:02.000 --> 00:30:05.120
+So what the toolkit does is
+it makes this really complex piece
+
+48
+00:30:05.120 --> 00:30:09.760
+of software much more approachable
+through this lens of collage,
+
+49
+00:30:09.760 --> 00:30:13.120
+and it abstracts away
+quite a bit of the interface.
+
+50
+00:30:13.120 --> 00:30:14.960
+And also you don't have to do any coding
+
+51
+00:30:14.960 --> 00:30:18.480
+when you use this
+when you use this system.
+
+52
+00:30:18.880 --> 00:30:22.800
+So I'm going to show you
+some example projects.
+
+53
+00:30:23.840 --> 00:30:26.840
+This is called “In the Middle”
+
+54
+00:30:26.840 --> 00:30:31.960
+and in this project— used the toolkit
+as a shared platform for worldbuilding.
+
+55
+00:30:32.040 --> 00:30:36.000
+So in this project,
+I worked with some collaborators
+
+56
+00:30:36.000 --> 00:30:39.680
+at the University of Nebraska in Lincoln,
+and we worked
+
+57
+00:30:39.680 --> 00:30:43.320
+with community members in rural Nebraska,
+in the panhandle of Nebraska.
+
+58
+00:30:43.320 --> 00:30:46.600
+And one of the main communities
+that we worked with were people
+
+59
+00:30:46.600 --> 00:30:49.600
+that are affected
+by substance use disorder.
+
+60
+00:30:49.680 --> 00:30:52.600
+And we created a series
+of game-like worlds, which I'm
+
+61
+00:30:52.600 --> 00:30:56.800
+going to show you, and I'll tell you
+about the process of how we made them.
+
+62
+00:30:57.200 --> 00:31:00.160
+So in
+
+63
+00:31:00.160 --> 00:31:03.600
+this project, community members
+participated in worldbuilding sessions.
+
+64
+00:31:03.600 --> 00:31:09.600
+So these were kind of structured
+but open ended discussion and drawing
+
+65
+00:31:09.600 --> 00:31:13.040
+and ideation sessions
+where community members
+
+66
+00:31:13.400 --> 00:31:17.600
+imagined speculative futures
+in which the environment
+
+67
+00:31:17.600 --> 00:31:21.440
+and the social infrastructure
+and the community and
+
+68
+00:31:22.360 --> 00:31:25.680
+the city and town
+and all the services around them
+
+69
+00:31:25.720 --> 00:31:28.720
+would better serve the needs, particularly
+
+70
+00:31:28.720 --> 00:31:32.040
+of people affected by and recovering
+from substance use disorders.
+
+71
+00:31:32.040 --> 00:31:37.160
+So they imagine technologies,
+social systems, civic systems
+
+72
+00:31:37.160 --> 00:31:41.760
+that would make people feel supported,
+support their recovery,
+
+73
+00:31:41.960 --> 00:31:46.200
+enhance community engagement,
+enhance feeling connected to community.
+
+74
+00:31:46.520 --> 00:31:49.440
+And then we worked with collage.
+
+75
+00:31:49.440 --> 00:31:53.960
+So you can see here this is a
+this is a video
+
+76
+00:31:53.960 --> 00:31:56.880
+recording of a interactive scene.
+
+77
+00:31:56.880 --> 00:31:59.920
+And the scene consists of 3D
+
+78
+00:31:59.920 --> 00:32:03.360
+scans of objects, photos of objects,
+photo cutouts.
+
+79
+00:32:03.640 --> 00:32:07.760
+The ground is a series of textures
+that were either
+
+80
+00:32:07.760 --> 00:32:09.040
+photographed or 3D scanned.
+
+81
+00:32:09.040 --> 00:32:11.480
+And there's objects that are 3D scanned.
+
+82
+00:32:11.480 --> 00:32:13.080
+So this is a collage.
+
+83
+00:32:13.080 --> 00:32:16.440
+It's kind of visually abstract,
+but it's very much grounded in
+
+84
+00:32:16.840 --> 00:32:22.280
+embodied experience of kind of a cultural,
+geographic and political landscape.
+
+85
+00:32:23.560 --> 00:32:26.560
+Here's another recording.
+
+86
+00:32:29.600 --> 00:32:33.280
+The animal care robot is designed
+as a versatile solution for pet owners
+
+87
+00:32:33.280 --> 00:32:37.880
+with diverse needs, focusing on enhancing
+pet care through advanced functionality.
+
+88
+00:32:38.040 --> 00:32:41.600
+It monitors biometric levels,
+emotions, and basic needs.
+
+89
+00:32:41.880 --> 00:32:45.960
+The animal care role— Okay,
+so what you just heard
+
+90
+00:32:45.960 --> 00:32:51.040
+was that embedded in these scenes,
+there are recordings of the speculative
+
+91
+00:32:51.040 --> 00:32:54.200
+ideas that
+
+92
+00:32:54.200 --> 00:32:57.520
+the community members
+created during the worldbuilding sessions.
+
+93
+00:32:57.520 --> 00:33:00.520
+So as you navigate the scene,
+you can approach
+
+94
+00:33:01.080 --> 00:33:05.400
+these interactive animations
+and hear about the ideas
+
+95
+00:33:05.400 --> 00:33:10.120
+that— the speculative ideas
+about this preferable future.
+
+96
+00:33:10.680 --> 00:33:14.600
+And then lastly, for this project,
+there are—
+
+97
+00:33:15.080 --> 00:33:19.120
+we created some interactive features,
+such as leaving in-scene voice notes.
+
+98
+00:33:19.120 --> 00:33:20.600
+So if you're navigating the scene,
+
+99
+00:33:20.600 --> 00:33:22.000
+if you're a participant
+or a community member,
+
+100
+00:33:22.000 --> 00:33:24.880
+you can leave a voice note in the space
+and other people can listen to it.
+
+101
+00:33:24.880 --> 00:33:26.560
+So this is a way of building
+
+102
+00:33:26.560 --> 00:33:30.440
+kind of asynchronous dialog and discourse
+within the community.
+
+103
+00:33:30.440 --> 00:33:34.520
+And you can even vote on the ideas,
+
+104
+00:33:34.520 --> 00:33:39.320
+which ideas you think are interesting,
+which ideas should receive support.
+
+105
+00:33:39.320 --> 00:33:44.520
+So in total, this kind of leads to like
+a living distributed community archive.
+
+106
+00:33:46.760 --> 00:33:50.800
+So second example project
+that I want to show you is “Blanket Forts
+
+107
+00:33:50.800 --> 00:33:53.280
+and Other Assemblages.”
+This is a special issue
+
+108
+00:33:53.280 --> 00:33:56.520
+of the journal Hyperrhiz:
+New Media Cultures.
+
+109
+00:33:56.560 --> 00:34:01.000
+So this is a special issue
+that myself and a few other people,
+
+110
+00:34:01.000 --> 00:34:05.320
+listed on the slide—Catalina
+Alvarez, Sue Huang, Lee Tusman—
+
+111
+00:34:05.360 --> 00:34:10.600
+we co-edited this special issue
+and participants— contributors
+
+112
+00:34:10.600 --> 00:34:15.760
+created projects with the Toolkit,
+so that among the themes of the issue
+
+113
+00:34:15.800 --> 00:34:19.280
+was that 
+the projects were inspired by the idea
+
+114
+00:34:19.280 --> 00:34:22.880
+of the houseboat, the campsite,
+the terrarium, and the diorama.
+
+115
+00:34:22.880 --> 00:34:26.120
+So these are kind of ad hoc dwellings
+
+116
+00:34:26.120 --> 00:34:29.320
+or dwellings that are created
+
+117
+00:34:29.320 --> 00:34:32.480
+piecemeal, and they may be temporary
+and they're fragmented.
+
+118
+00:34:32.480 --> 00:34:35.480
+And a lot of the projects
+explored new modalities of intimacy
+
+119
+00:34:35.480 --> 00:34:39.120
+and collectivity, and also imagined
+how fragments of the past
+
+120
+00:34:39.120 --> 00:34:45.320
+could contribute
+to thinking about possible futures. So.
+
+121
+00:34:47.840 --> 00:34:49.960
+In one example project,
+
+122
+00:34:49.960 --> 00:34:54.120
+Camille Intson created “Bisexual Bedroom
+Imaginaries.”
+
+123
+00:34:54.160 --> 00:34:58.920
+So she used a series
+of a 360 degree photo, a series of photo
+
+124
+00:34:58.920 --> 00:35:01.960
+cutouts, and a number of 3D scans
+to kind of create
+
+125
+00:35:01.960 --> 00:35:04.960
+this memory
+
+126
+00:35:05.080 --> 00:35:09.440
+speculative version of her
+teenage bedroom, kind of past—
+
+127
+00:35:09.760 --> 00:35:12.800
+a memory of the past,
+but also projected it into the future
+
+128
+00:35:12.840 --> 00:35:15.840
+of this space where the creator
+
+129
+00:35:15.920 --> 00:35:20.440
+kind of came into an understanding
+of their own sexual identity.
+
+130
+00:35:20.520 --> 00:35:24.560
+And then on the right
+we have Bahareh Khoshooee.
+
+131
+00:35:25.120 --> 00:35:28.600
+And this scene
+
+132
+00:35:28.720 --> 00:35:31.920
+is called “Thoughts and Prayers
+from a Glowing Rectangle.”
+
+133
+00:35:31.920 --> 00:35:37.040
+And in this project,
+the author was imagining
+
+134
+00:35:37.040 --> 00:35:42.320
+spaces of diaspora and spaces of grief
+and intergenerational grief.
+
+135
+00:35:42.320 --> 00:35:45.680
+And you can navigate the environment
+
+136
+00:35:45.760 --> 00:35:48.760
+and read and hear
+
+137
+00:35:49.040 --> 00:35:53.160
+recordings
+and quotations from family members of the
+
+138
+00:35:54.240 --> 00:35:57.280
+author from different generations
+
+139
+00:35:57.800 --> 00:36:01.080
+amidst this kind of visually abstract
+environment.
+
+140
+00:36:04.600 --> 00:36:06.160
+All right. So.
+
+141
+00:36:06.160 --> 00:36:10.880
+“Workshops at the Queens Library.”
+So this is something
+
+142
+00:36:10.880 --> 00:36:14.800
+I've been working on recently
+and I'm currently working on.
+
+143
+00:36:14.800 --> 00:36:17.840
+So this took the tool that came Community
+Game Development
+
+144
+00:36:17.840 --> 00:36:21.960
+Toolkit into a public civic context.
+
+145
+00:36:22.120 --> 00:36:26.680
+It was workshops with teens,
+and the teens made stories
+
+146
+00:36:26.680 --> 00:36:28.800
+about their own lives
+and their own community
+
+147
+00:36:28.800 --> 00:36:33.120
+and their own culture using 3D collage,
+using the Toolkit.
+
+148
+00:36:33.120 --> 00:36:39.840
+So they were each—
+there's been two two series of workshops
+
+149
+00:36:39.840 --> 00:36:43.960
+so far, and each one had two two-hour
+long sessions.
+
+150
+00:36:44.120 --> 00:36:48.600
+And the general format was that the
+first session, we introduced the Toolkit,
+
+151
+00:36:49.240 --> 00:36:52.600
+and then later,
+so that students would understand
+
+152
+00:36:53.080 --> 00:36:57.760
+how to use the game environment,
+how to bring assets into the environment.
+
+153
+00:36:57.800 --> 00:37:01.840
+Had I composed and arranged them,
+and then later in the first session,
+
+154
+00:37:01.840 --> 00:37:05.560
+we would talk about
+the kind of creative exercise
+
+155
+00:37:05.560 --> 00:37:09.560
+of reflecting on participants’ own
+
+156
+00:37:09.560 --> 00:37:13.160
+lives and homes and families
+and social networks and communities.
+
+157
+00:37:13.160 --> 00:37:16.160
+And their homework
+was to create a kind of archive
+
+158
+00:37:16.160 --> 00:37:20.080
+and gather materials
+to create their own environment.
+
+159
+00:37:20.080 --> 00:37:23.280
+And then in the second workshop,
+they would bring these materials in
+
+160
+00:37:23.280 --> 00:37:26.280
+and they would work on their own projects.
+
+161
+00:37:26.600 --> 00:37:30.440
+So this had a lot of—
+
+162
+00:37:30.480 --> 00:37:33.440
+there was a lot of challenges in this,
+
+163
+00:37:33.440 --> 00:37:37.040
+in this project, which were
+really interesting to work through.
+
+164
+00:37:37.160 --> 00:37:39.440
+One was that,
+
+165
+00:37:39.440 --> 00:37:43.080
+you know, if you've ever worked with
+big public institutions, you probably know
+
+166
+00:37:43.080 --> 00:37:46.760
+that it's— there's a lot of bureaucracy,
+there's a lot of people involved.
+
+167
+00:37:46.760 --> 00:37:53.120
+And just getting, you know, getting things
+set up is a big undertaking.
+
+168
+00:37:53.200 --> 00:37:56.320
+And then with this, there's
+also a lot of technical infrastructure
+
+169
+00:37:56.320 --> 00:37:57.080
+that was involved.
+
+170
+00:37:57.080 --> 00:38:02.920
+So I got the IT department at
+my university, provided all the computers.
+
+171
+00:38:02.920 --> 00:38:06.440
+And to make it really as accessible
+as possible,
+
+172
+00:38:06.880 --> 00:38:12.160
+we set up an example project
+and so that it would be
+
+173
+00:38:12.200 --> 00:38:15.480
+you could basically turn on the computer
+and it would be ready to go.
+
+174
+00:38:16.000 --> 00:38:18.520
+I see something in the chat maybe.
+
+175
+00:38:20.880 --> 00:38:22.240
+About two minutes left.
+
+176
+00:38:22.240 --> 00:38:22.880
+Okay.
+
+177
+00:38:22.880 --> 00:38:28.120
+So one technology
+that I kind of developed for this,
+
+178
+00:38:28.640 --> 00:38:34.240
+for this workshop that overcame
+some of these challenges was
+
+179
+00:38:34.240 --> 00:38:38.520
+that it was really hard to get materials
+from people's phones to these laptops.
+
+180
+00:38:38.520 --> 00:38:41.440
+So I made a web based system
+where on the phone,
+
+181
+00:38:41.440 --> 00:38:43.760
+people can take their picture
+and upload it.
+
+182
+00:38:43.760 --> 00:38:47.560
+It would mask out the background
+by itself, and then they could download it
+
+183
+00:38:47.600 --> 00:38:50.600
+just through the web
+with a special code on their computer.
+
+184
+00:38:51.360 --> 00:38:51.880
+Okay.
+
+185
+00:38:51.880 --> 00:38:55.680
+So I'll use my last two minutes
+to talk about authorship
+
+186
+00:38:55.680 --> 00:38:58.680
+a little bit.
+
+187
+00:38:59.280 --> 00:39:03.200
+How is authorship distributed across
+the making and readings of these worlds?
+
+188
+00:39:03.200 --> 00:39:08.040
+So I'm going to talk about gathering,
+composing, and navigating.
+
+189
+00:39:08.120 --> 00:39:12.160
+So if you think about traditional
+
+190
+00:39:12.160 --> 00:39:16.320
+collage— So Benesch has written
+a book called “Collage Culture.”
+
+191
+00:39:16.320 --> 00:39:20.320
+In traditional collage, meaning no longer
+resides in a stable composition organized
+
+192
+00:39:20.320 --> 00:39:24.000
+around a central point of view, but
+emerges through relations among fragments.
+
+193
+00:39:24.080 --> 00:39:25.920
+I think most people who are familiar
+with collage
+
+194
+00:39:25.920 --> 00:39:27.680
+have thought about these kinds of ideas.
+
+195
+00:39:27.680 --> 00:39:30.920
+Collage unsettles
+the idea of a unified subject position,
+
+196
+00:39:30.960 --> 00:39:33.240
+suggesting
+instead that perception and experience
+
+197
+00:39:33.240 --> 00:39:37.120
+are assembled from partial, heterogeneous,
+and often conflicting elements.
+
+198
+00:39:37.240 --> 00:39:42.280
+So in this 3D version of collage
+that participants make,
+
+199
+00:39:42.320 --> 00:39:45.720
+they work with found photographs
+and family photographs, Internet images,
+
+200
+00:39:45.720 --> 00:39:50.160
+all kinds of materials, and the materials
+are gathered through lived experience.
+
+201
+00:39:50.480 --> 00:39:54.280
+So that's one thing that I think
+makes this process unique
+
+202
+00:39:54.280 --> 00:39:56.040
+compared
+to more traditional forms of collage,
+
+203
+00:39:56.040 --> 00:39:59.240
+is that most material
+that people work with is coming
+
+204
+00:39:59.240 --> 00:40:02.400
+from their own life and community.
+
+205
+00:40:02.920 --> 00:40:07.760
+The archive that people are working with,
+often they create during the project.
+
+206
+00:40:07.760 --> 00:40:09.640
+They're not working with established
+archives
+
+207
+00:40:09.640 --> 00:40:11.920
+like a library or a newspaper in general.
+
+208
+00:40:11.920 --> 00:40:16.040
+And sometimes the archive, for example,
+like in the Nebraska Project, is
+
+209
+00:40:16.280 --> 00:40:20.560
+collectively produced. So.
+
+210
+00:40:21.800 --> 00:40:24.000
+Composing is a second phase.
+
+211
+00:40:24.000 --> 00:40:29.120
+So in the process of composing,
+you add an image, you walk around,
+
+212
+00:40:29.240 --> 00:40:31.880
+you test it, you navigate it,
+you scan something else,
+
+213
+00:40:31.880 --> 00:40:34.960
+you change a scale, you rotate,
+you revisit things.
+
+214
+00:40:34.960 --> 00:40:38.480
+So during the composing process,
+the author inhabits the world.
+
+215
+00:40:38.520 --> 00:40:41.520
+The author is switching roles
+between maker and viewer,
+
+216
+00:40:41.680 --> 00:40:46.320
+and the author makes
+and remakes an environment.
+
+217
+00:40:46.320 --> 00:40:50.640
+So in a way, I would say that
+the author in this case composes
+
+218
+00:40:50.640 --> 00:40:54.640
+relations and meaning emerges
+through process and exploration.
+
+219
+00:40:54.920 --> 00:41:00.600
+And this relates to Ingold,
+who says that making can be understood
+
+220
+00:41:00.600 --> 00:41:04.440
+as a process of wayfinding, which form
+and meaning arise through engagement
+
+221
+00:41:04.440 --> 00:41:08.000
+in materials, rather through the execution
+of a predefined plan.
+
+222
+00:41:08.000 --> 00:41:10.480
+So one thing— I'm going to wrap up in
+just a second.
+
+223
+00:41:10.480 --> 00:41:12.760
+So one thing that I find
+really interesting about this process
+
+224
+00:41:12.760 --> 00:41:17.200
+is that the storytelling aspect
+of these visual worlds is really emergent.
+
+225
+00:41:17.200 --> 00:41:20.240
+So almost nobody has a preexisting plan.
+
+226
+00:41:20.240 --> 00:41:21.160
+Or even if they do,
+
+227
+00:41:21.160 --> 00:41:24.680
+they get led in different directions
+as they compose the relationships
+
+228
+00:41:24.680 --> 00:41:29.880
+between the objects in the 3D space
+and then finally navigating.
+
+229
+00:41:29.880 --> 00:41:34.160
+So if you're the viewer, you walk,
+you turn your approach, you enter,
+
+230
+00:41:34.280 --> 00:41:38.680
+and in the process, you might notice
+and discover and compare and revisit.
+
+231
+00:41:38.840 --> 00:41:41.760
+Narrative emerges through navigation.
+
+232
+00:41:41.760 --> 00:41:46.320
+The author composes relationships
+and the reader composes narratives.
+
+233
+00:41:46.320 --> 00:41:47.720
+So it's almost as though the author is
+
+234
+00:41:48.960 --> 00:41:52.040
+composing a space where
+
+235
+00:41:52.600 --> 00:41:56.400
+relationships and associations
+and meanings can occur.
+
+236
+00:41:56.400 --> 00:42:01.240
+And then the reader kind of completes
+this space by choosing their own path
+
+237
+00:42:02.120 --> 00:42:03.000
+through this space.
+
+238
+00:42:03.000 --> 00:42:07.240
+And so this relates to Murray’s
+“Hamlet on the Holodeck,”
+
+239
+00:42:07.320 --> 00:42:11.600
+which talks about digital environments
+and procedural—you know,
+
+240
+00:42:11.720 --> 00:42:16.080
+the procedural formation of environments
+that— participatory narrative.
+
+241
+00:42:16.080 --> 00:42:19.120
+So she was talking about hypertext,
+but I think some of the same ideas
+
+242
+00:42:19.120 --> 00:42:22.760
+apply to this
+aspect of interactive narrative.
+
+243
+00:42:22.880 --> 00:42:25.360
+So I will leave it there.
+I think I'm out of time.
+
+244
+00:42:25.360 --> 00:42:28.360
+There's been a number of
+
+245
+00:42:29.280 --> 00:42:33.480
+exhibitions and articles
+that were written about this.
+
+246
+00:42:33.480 --> 00:42:34.680
+Thank you very much.
+
+247
+00:42:34.680 --> 00:42:36.840
+That's my website.
+That's the community website.
+
+248
+00:42:36.840 --> 00:42:38.040
+That's my email address.
+
+249
+00:42:38.040 --> 00:42:40.160
+Hope to talk to some of you guys soon.

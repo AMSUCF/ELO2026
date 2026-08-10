@@ -1,0 +1,989 @@
+WEBVTT
+
+1
+00:17:05.080 --> 00:17:05.520
+All right.
+
+2
+00:17:05.520 --> 00:17:07.800
+Hey, I will get started then. Okay.
+
+3
+00:17:07.800 --> 00:17:10.040
+So thank you so much everyone.
+
+4
+00:17:10.040 --> 00:17:11.560
+My name is Jesse Ward.
+
+5
+00:17:11.560 --> 00:17:13.800
+I am a digital archivist by trade.
+
+6
+00:17:13.800 --> 00:17:17.440
+I'm based in Toronto, Canada,
+and I'm an independent artist
+
+7
+00:17:17.440 --> 00:17:20.920
+working in experimental interactive
+nonfiction.
+
+8
+00:17:21.200 --> 00:17:25.040
+So today, I want to show you
+a work of electronic literature
+
+9
+00:17:25.040 --> 00:17:30.280
+that I've built on the premise
+that every photograph is an atom
+
+10
+00:17:30.280 --> 00:17:34.920
+in a massive structure of narrative
+hypertext that we can navigate,
+
+11
+00:17:35.000 --> 00:17:38.920
+because when any two people
+are photographed in the same place
+
+12
+00:17:38.960 --> 00:17:40.240
+at the same moment,
+
+13
+00:17:40.240 --> 00:17:44.960
+they are connected in a narrative
+of all visually recorded human activity,
+
+14
+00:17:45.160 --> 00:17:48.680
+and we can explore that narrative
+to understand more about the story
+
+15
+00:17:48.680 --> 00:17:51.680
+we all share that has been recorded
+through photography.
+
+16
+00:17:53.640 --> 00:17:56.560
+So we're looking at a family photo
+right now.
+
+17
+00:17:56.560 --> 00:17:59.680
+This is a picture of me
+with my mom in 1994,
+
+18
+00:17:59.680 --> 00:18:02.920
+and I want to start here
+starting somewhere small,
+
+19
+00:18:02.920 --> 00:18:05.000
+because this is something
+we're all familiar with.
+
+20
+00:18:05.000 --> 00:18:08.000
+If you're lucky, you have family
+photo albums at home.
+
+21
+00:18:08.400 --> 00:18:11.560
+You'll see photos like this of yourself
+as a child with your parents,
+
+22
+00:18:11.560 --> 00:18:14.200
+and you have memories
+of what was happening.
+
+23
+00:18:14.200 --> 00:18:17.640
+If you keep going through the albums
+and you find older photos, you'll see
+
+24
+00:18:17.680 --> 00:18:21.560
+photos of your parents with their parents
+and you can start to infer
+
+25
+00:18:21.560 --> 00:18:23.720
+what's happening
+based on stories you've heard.
+
+26
+00:18:23.720 --> 00:18:26.720
+But here's where it gets interesting
+you'll eventually reach older
+
+27
+00:18:26.720 --> 00:18:30.480
+photos of your grandparents
+with people who you can't recognize.
+
+28
+00:18:30.680 --> 00:18:35.640
+You'll see photos that nobody alive
+maybe can tell you who is in those photos,
+
+29
+00:18:35.840 --> 00:18:38.840
+but you know that those photos
+are still part of your family narrative.
+
+30
+00:18:38.840 --> 00:18:41.440
+So you start reading the photographs
+themselves.
+
+31
+00:18:41.440 --> 00:18:43.280
+Who keeps appearing in these pictures?
+
+32
+00:18:43.280 --> 00:18:46.000
+What are they wearing?
+Where do they keep standing?
+
+33
+00:18:46.000 --> 00:18:49.920
+What you're what you're doing is you start
+constructing narrative from adjacency,
+
+34
+00:18:49.920 --> 00:18:54.880
+because adjacency is what you have to go
+by when you're unraveling that mystery.
+
+35
+00:18:55.520 --> 00:18:57.920
+So this experience of reading
+
+36
+00:18:57.920 --> 00:19:01.760
+unlabeled proximity in photos
+as a story is something that
+
+37
+00:19:01.760 --> 00:19:05.360
+almost everyone has experienced
+with a photo that you've come across.
+
+38
+00:19:05.800 --> 00:19:09.480
+The project that I want to share with you
+is an attempt to do this at the scale
+
+39
+00:19:09.480 --> 00:19:14.240
+of the entire photographic era,
+and I'll explore what I found with you.
+
+40
+00:19:14.440 --> 00:19:17.440
+So the next slide here,
+
+41
+00:19:17.560 --> 00:19:20.400
+we were just looking at me
+with my mom in 1994.
+
+42
+00:19:20.400 --> 00:19:25.320
+Now this is a picture of me
+with the entertainer, 50 Cent, last year
+
+43
+00:19:25.360 --> 00:19:29.440
+in Toronto, promoting his Branson cognac
+at a promotional event.
+
+44
+00:19:29.440 --> 00:19:33.440
+And now, think about what
+sits between those two photos.
+
+45
+00:19:33.440 --> 00:19:37.120
+It's kind of funny, but there's everyone
+that I've ever been photographed with.
+
+46
+00:19:37.120 --> 00:19:38.480
+Everyone my mom has ever been
+
+47
+00:19:38.480 --> 00:19:42.080
+photographed with, everyone 50 Cent
+has ever been photographed with.
+
+48
+00:19:42.320 --> 00:19:46.080
+If you go two degrees out,
+you start reaching basically everyone.
+
+49
+00:19:46.120 --> 00:19:47.760
+And this is the popular theory.
+
+50
+00:19:47.760 --> 00:19:52.320
+It's been documented and the Milgram
+experiments of six degrees of separation.
+
+51
+00:19:52.320 --> 00:19:56.680
+But when we look at this through photos,
+we start to realize that every photograph
+
+52
+00:19:56.680 --> 00:19:58.840
+in the world tagged with the people in
+
+53
+00:19:58.840 --> 00:20:02.880
+it is a structure
+that already exists intangibly.
+
+54
+00:20:02.920 --> 00:20:07.480
+And my project, a network of time,
+is my ongoing effort to excavate
+
+55
+00:20:07.480 --> 00:20:12.080
+this international graph of all group
+photos ever taken to make it tangible.
+
+56
+00:20:12.880 --> 00:20:16.160
+The claim that I want to make today
+is that a photograph in this system is
+
+57
+00:20:16.200 --> 00:20:18.080
+is not just an illustration,
+
+58
+00:20:18.080 --> 00:20:23.760
+but every photo of multiple people
+is a narrative atom in this story.
+
+59
+00:20:23.760 --> 00:20:28.240
+It's the smallest unit of nonfiction
+that can carry story, and it's in a photo.
+
+60
+00:20:29.160 --> 00:20:31.640
+And one photo on its own already
+does this.
+
+61
+00:20:31.640 --> 00:20:35.280
+Now we're looking at 50 Cent with Kobe
+Bryant and Meryl Streep.
+
+62
+00:20:35.280 --> 00:20:39.480
+And when you see a photo like this,
+you already start to ask questions.
+
+63
+00:20:39.720 --> 00:20:42.480
+You might start wondering,
+how close are they standing?
+
+64
+00:20:42.480 --> 00:20:45.160
+Are they good friends? Have they known
+each other for a long time?
+
+65
+00:20:45.160 --> 00:20:47.360
+How casual is the background?
+What's happening?
+
+66
+00:20:47.360 --> 00:20:49.760
+What on earth
+was this event that they were at?
+
+67
+00:20:49.760 --> 00:20:53.200
+Because when we aren't given an explicit
+narrative, we start to build one.
+
+68
+00:20:53.200 --> 00:20:56.200
+And that's the engine that this work
+runs on.
+
+69
+00:20:56.560 --> 00:20:59.600
+The real meaning arrives
+when these atoms actually start to change,
+
+70
+00:20:59.640 --> 00:21:03.160
+like we've just seen in these three photos
+and generate narratives.
+
+71
+00:21:03.160 --> 00:21:06.720
+So I want to show
+you this project live, in
+
+72
+00:21:07.920 --> 00:21:09.600
+a live demo here.
+
+73
+00:21:09.600 --> 00:21:13.880
+So the work is hosted on the website
+network of Time.com.
+
+74
+00:21:13.880 --> 00:21:17.280
+And I'm going to share my screen again
+on a different window.
+
+75
+00:21:18.360 --> 00:21:22.400
+So what we're looking at right
+now is an interactive,
+
+76
+00:21:22.400 --> 00:21:26.360
+infinite slideshow of all of the photos
+that I've collected for this project.
+
+77
+00:21:26.520 --> 00:21:30.840
+The database currently holds
+almost 30,000 verified people
+
+78
+00:21:30.920 --> 00:21:35.160
+across more than 28,000 photographs
+and screenshots that I have discovered
+
+79
+00:21:35.160 --> 00:21:36.640
+and annotated on and off.
+
+80
+00:21:36.640 --> 00:21:39.880
+As I've tended to this project
+over the last seven years,
+
+81
+00:21:40.000 --> 00:21:44.200
+spanning the whole photographic
+era we're seeing right now.
+
+82
+00:21:44.760 --> 00:21:48.240
+Figures
+from mid-century politics, Henry Wallace
+
+83
+00:21:48.240 --> 00:21:52.520
+and the Norwegian politician Trygve Lie.
+
+84
+00:21:52.840 --> 00:21:54.840
+There he is with David Rockefeller.
+
+85
+00:21:54.840 --> 00:21:59.040
+And this will go on and on through people
+connected through photos.
+
+86
+00:21:59.240 --> 00:22:02.720
+So notice what each step here represents.
+
+87
+00:22:02.840 --> 00:22:06.600
+It's not a link in a menu,
+but each photo is a self-contained
+
+88
+00:22:06.600 --> 00:22:08.080
+fragment of nonfiction.
+
+89
+00:22:08.080 --> 00:22:12.920
+Now we see Rockefeller
+with Castro and Castro with a journalist.
+
+90
+00:22:13.920 --> 00:22:16.920
+Each photo is a self-contained
+fragment of nonfiction.
+
+91
+00:22:16.920 --> 00:22:20.160
+There was a real day,
+a real room, a reason that two people
+
+92
+00:22:20.160 --> 00:22:23.160
+stood in the frame together
+even if they didn't interact.
+
+93
+00:22:23.400 --> 00:22:26.400
+The path doesn't explain itself,
+but the story is
+
+94
+00:22:26.400 --> 00:22:29.680
+whatever accumulates
+as we move through the slideshow.
+
+95
+00:22:30.280 --> 00:22:34.320
+So you can click on any photo
+to actually reveal more information,
+
+96
+00:22:34.320 --> 00:22:38.120
+because it's important that this is
+documented, sources are covered,
+
+97
+00:22:38.200 --> 00:22:41.640
+and every person that can be
+identified has been tagged
+
+98
+00:22:41.640 --> 00:22:44.800
+and annotated
+so you could explore more information,
+
+99
+00:22:44.840 --> 00:22:48.600
+see what other photos they are in,
+and navigate the entire graph this way.
+
+100
+00:22:49.400 --> 00:22:52.600
+But every sequence of photos
+when you just watch
+
+101
+00:22:52.600 --> 00:22:55.640
+this slideshow produces
+its own story on demand.
+
+102
+00:22:56.440 --> 00:23:00.440
+So photographs haven't
+actually been around for a very long time.
+
+103
+00:23:00.440 --> 00:23:04.680
+The spine of this graph starts with
+the British royal family in the 1850s,
+
+104
+00:23:04.680 --> 00:23:07.760
+because the first group photographs
+are basically Queen Victoria
+
+105
+00:23:07.760 --> 00:23:10.920
+and her family,
+and then Queen Elizabeth alone
+
+106
+00:23:10.920 --> 00:23:13.920
+connects most of the 20th century.
+
+107
+00:23:14.000 --> 00:23:16.800
+Now, there's a feature in this platform
+
+108
+00:23:16.800 --> 00:23:20.640
+that can help produce context or produce
+serendipity
+
+109
+00:23:20.640 --> 00:23:24.600
+for the connections between any two people
+by tracing connections.
+
+110
+00:23:24.920 --> 00:23:30.360
+If we want to take a look at how brief
+the scope of the history of photography
+
+111
+00:23:30.360 --> 00:23:34.480
+is, we can take a look at someone
+like a very popular contemporary streamer.
+
+112
+00:23:34.480 --> 00:23:38.240
+And this is an experiment that I know
+some teachers that I'm friends with
+
+113
+00:23:38.280 --> 00:23:42.280
+have done in their classrooms, is to show
+contemporary people to historic figures.
+
+114
+00:23:42.280 --> 00:23:47.840
+With this website, let's choose
+the popular streamer IShowSpeed and Queen
+
+115
+00:23:47.840 --> 00:23:52.880
+Victoria's mom, Princess
+Victoria of Saxe-Coburg Saalfeld,
+
+116
+00:23:52.880 --> 00:23:56.520
+and let's see how they can be
+matched through history.
+
+117
+00:23:56.920 --> 00:24:01.560
+So it runs the shortest path algorithm
+and we see that IShowSpeed met
+
+118
+00:24:01.600 --> 00:24:04.800
+the footballer
+David Beckham last year in Germany.
+
+119
+00:24:06.680 --> 00:24:09.360
+The next picture is
+
+120
+00:24:09.360 --> 00:24:11.440
+Beckham meeting Queen Elizabeth ten
+
+121
+00:24:11.440 --> 00:24:14.440
+years ago in Buckingham Palace.
+
+122
+00:24:14.880 --> 00:24:16.520
+Now this is a photo of her christening.
+
+123
+00:24:16.520 --> 00:24:20.600
+We see her highlighted here
+as a baby in May 1926,
+
+124
+00:24:20.600 --> 00:24:23.640
+and in the background
+we see Prince Arthur.
+
+125
+00:24:25.360 --> 00:24:26.760
+And then this photo is from
+
+126
+00:24:26.760 --> 00:24:30.600
+1854, 
+Prince Arthur with Princess Victoria.
+
+127
+00:24:30.720 --> 00:24:33.360
+So he's here as a child.
+
+128
+00:24:33.360 --> 00:24:34.640
+She's here in the background.
+
+129
+00:24:34.640 --> 00:24:38.360
+So the 1850s are
+when we see the first group photos
+
+130
+00:24:38.360 --> 00:24:42.320
+in the historic record,
+and we see right here
+
+131
+00:24:42.320 --> 00:24:45.800
+that we can get there in
+just about four photos from anyone today.
+
+132
+00:24:47.120 --> 00:24:48.960
+However,
+when we perform a shortest path match
+
+133
+00:24:48.960 --> 00:24:50.560
+like this,
+the narrative is going to be biased.
+
+134
+00:24:50.560 --> 00:24:52.800
+The most densely connected
+people in the graph.
+
+135
+00:24:52.800 --> 00:24:56.240
+Whenever you pick two random people
+and see how they're connected,
+
+136
+00:24:56.280 --> 00:24:58.920
+you'll generally always travel through
+either a world leader,
+
+137
+00:24:58.920 --> 00:25:02.400
+a royal family member, or a talk show host
+because these people
+
+138
+00:25:02.400 --> 00:25:06.680
+in the photographic records
+serve as mega hubs, hyper connectors
+
+139
+00:25:06.720 --> 00:25:11.680
+like particle colliders
+across all kinds of different people.
+
+140
+00:25:12.080 --> 00:25:14.680
+We see Queen Elizabeth met
+hundreds of world leaders in her life.
+
+141
+00:25:14.680 --> 00:25:17.320
+She also met Charlie Chaplin,
+who met Albert Einstein.
+
+142
+00:25:17.320 --> 00:25:21.240
+And just about anyone in the world
+is within five degrees of these people.
+
+143
+00:25:21.240 --> 00:25:24.240
+We see if we try and match random people
+through the photos.
+
+144
+00:25:24.560 --> 00:25:29.080
+So when we're just watching this,
+I mean, we've seen a huge a huge change.
+
+145
+00:25:29.080 --> 00:25:34.240
+We've gone from the mid century politics
+to now we're looking at tech leaders
+
+146
+00:25:34.240 --> 00:25:38.560
+and tech interviewers, but if we refresh
+the page, it would be a new set.
+
+147
+00:25:38.560 --> 00:25:39.960
+And we might see some
+
+148
+00:25:39.960 --> 00:25:44.040
+economists in Bangladesh,
+or we might see musicians in Angola.
+
+149
+00:25:44.480 --> 00:25:47.160
+It behaves almost like a dream,
+because you can get to anyone
+
+150
+00:25:47.160 --> 00:25:50.520
+in the world through a tonal whiplash
+in just a few photos.
+
+151
+00:25:50.520 --> 00:25:55.080
+It's unpredictable, tonally whiplash,
+but it's never invented.
+
+152
+00:25:55.280 --> 00:25:56.360
+Every transition we see
+
+153
+00:25:56.360 --> 00:25:59.640
+is grounded in evidence that we can review
+by following the links.
+
+154
+00:25:59.640 --> 00:26:01.000
+It's strange, but true.
+
+155
+00:26:02.640 --> 00:26:06.200
+So people read this as a narrative,
+and there are four reasons why
+
+156
+00:26:06.200 --> 00:26:10.000
+there's continuity, where one person
+is always carrying the sequence forward.
+
+157
+00:26:10.000 --> 00:26:11.240
+So there's a protagonist.
+
+158
+00:26:11.240 --> 00:26:14.080
+Even if the protagonist keeps changing,
+
+159
+00:26:14.080 --> 00:26:16.880
+there's a transformation
+where the context keeps shifting.
+
+160
+00:26:16.880 --> 00:26:21.960
+We go from formal interviews to candid
+photos, paparazzi shots, selfies,
+
+161
+00:26:22.040 --> 00:26:26.120
+formal events, weddings, professional
+documentation, or social media.
+
+162
+00:26:27.120 --> 00:26:31.360
+There's surprise where you can get
+from someone like Frida Kahlo
+
+163
+00:26:31.360 --> 00:26:35.520
+to professional wrestlers in four photos,
+you can never predict where you're going.
+
+164
+00:26:35.680 --> 00:26:37.880
+We see Barbra
+Streisand here with Taylor Swift,
+
+165
+00:26:37.880 --> 00:26:40.440
+but we could have easily
+seen her with Coco Chanel
+
+166
+00:26:40.440 --> 00:26:43.520
+and then got into Vincent van
+Gogh in just a few photos.
+
+167
+00:26:44.640 --> 00:26:47.520
+And there's a meta narrative
+for anyone who discovers the site.
+
+168
+00:26:47.520 --> 00:26:49.800
+Who made this?
+How many people are in here?
+
+169
+00:26:49.800 --> 00:26:52.920
+Would I find myself in here
+who could never appear here?
+
+170
+00:26:52.960 --> 00:26:54.280
+And that last question haunts me,
+
+171
+00:26:54.280 --> 00:26:57.920
+because one of the questions that comes up
+here is who is chosen to be included?
+
+172
+00:26:58.240 --> 00:27:02.040
+For example, there are only a few photos
+of Harriet Tubman with other people,
+
+173
+00:27:02.040 --> 00:27:04.840
+and I can't connect any of those
+to this graph.
+
+174
+00:27:04.840 --> 00:27:08.040
+The archive has edges,
+and the edges are based on who photography
+
+175
+00:27:08.080 --> 00:27:11.560
+captured,
+who photography excluded, and why,
+
+176
+00:27:11.840 --> 00:27:15.720
+and then who prioritized being added
+to this graph and why.
+
+177
+00:27:16.320 --> 00:27:19.720
+I built the first version of this site
+in 2019 as a coding experiment,
+
+178
+00:27:19.720 --> 00:27:22.280
+and I thought it was fun
+when I had a few hundred photos
+
+179
+00:27:22.280 --> 00:27:26.000
+and I could connect
+Simone de Beauvoir to Tupac, for example.
+
+180
+00:27:26.520 --> 00:27:29.080
+But seven years later,
+working on this on and off,
+
+181
+00:27:29.080 --> 00:27:31.080
+there's a small community
+because the website
+
+182
+00:27:31.080 --> 00:27:32.840
+does invite submissions where I want to
+
+183
+00:27:32.840 --> 00:27:37.080
+include as diverse range of content
+as possible and people's personal lives.
+
+184
+00:27:37.160 --> 00:27:39.960
+For example, there is a small community
+of contributors.
+
+185
+00:27:39.960 --> 00:27:44.520
+There's a man in Warsaw named Viktor,
+who is personally added more than 300
+
+186
+00:27:44.520 --> 00:27:46.840
+Polish rappers and streamers to the site,
+
+187
+00:27:46.840 --> 00:27:50.760
+which is an entire subcultural graph
+that I would have never added myself,
+
+188
+00:27:50.800 --> 00:27:52.480
+probably
+with the time that I put into this.
+
+189
+00:27:52.480 --> 00:27:58.240
+But now about 4000 people a month who view
+this site can wander through that.
+
+190
+00:27:58.920 --> 00:28:01.720
+So my conclusion is
+that we can make history function
+
+191
+00:28:01.720 --> 00:28:05.240
+as an interface, 
+a form of computational nonfiction
+
+192
+00:28:05.240 --> 00:28:08.920
+that reveals how deeply and oddly
+everyone is connected.
+
+193
+00:28:09.280 --> 00:28:12.640
+This is something that electronic
+literature is uniquely built to do.
+
+194
+00:28:12.680 --> 00:28:15.560
+It's built
+to take evidence of entanglement
+
+195
+00:28:15.560 --> 00:28:20.600
+and make it readable, make it navigable,
+and to dissolve artificial boundaries
+
+196
+00:28:20.600 --> 00:28:23.880
+between different concepts,
+or in this case, to dissolve
+
+197
+00:28:23.880 --> 00:28:28.120
+artificial boundaries between different
+groups of people by proving proximity.
+
+198
+00:28:28.680 --> 00:28:32.080
+Network of time is my attempt
+at making this legible.
+
+199
+00:28:32.080 --> 00:28:36.720
+It's a nonfiction hypertext
+with no true author because it's random
+
+200
+00:28:36.720 --> 00:28:40.560
+and no ending, but it's written by
+everyone who has ever stood
+
+201
+00:28:40.560 --> 00:28:44.120
+in the frame together, and then everyone
+who has contributed to this project.
+
+202
+00:28:44.120 --> 00:28:50.840
+And it's still being written and will be
+something that I continue for a long time.
+
+203
+00:28:51.480 --> 00:28:54.480
+So we'll see how far the graph
+really gets.
+
+204
+00:28:54.480 --> 00:28:57.080
+That's the presentation
+that I had prepared for today.
+
+205
+00:28:57.080 --> 00:28:58.200
+Thank you so much.

@@ -1,0 +1,1235 @@
+WEBVTT
+
+1
+00:00:00.280 --> 00:00:01.720
+Roll on.
+
+2
+00:00:01.720 --> 00:00:04.280
+Yeah I am. I should be good.
+
+3
+00:00:04.280 --> 00:00:05.560
+All yours.
+
+4
+00:00:05.560 --> 00:00:08.560
+Screen share and all that good stuff.
+
+5
+00:00:10.840 --> 00:00:11.520
+Cool.
+
+6
+00:00:11.520 --> 00:00:12.400
+You should be able to see me.
+
+7
+00:00:12.400 --> 00:00:15.400
+I'm singing. So.
+
+8
+00:00:16.200 --> 00:00:19.120
+Yes, we can see.
+
+9
+00:00:19.120 --> 00:00:20.600
+You're good.
+
+10
+00:00:20.600 --> 00:00:21.200
+All right.
+
+11
+00:00:21.200 --> 00:00:23.600
+Yeah, I am Taylor Howard.
+
+12
+00:00:23.600 --> 00:00:26.920
+I'm currently a lecturer in the Games
+and Interactive Media program
+
+13
+00:00:27.000 --> 00:00:28.480
+at University of Central Florida.
+
+14
+00:00:28.480 --> 00:00:30.560
+And a little less than a month,
+
+15
+00:00:30.560 --> 00:00:32.400
+like 2 or 3 weeks,
+I will be an assistant professor
+
+16
+00:00:32.400 --> 00:00:35.000
+in the Games and Interactive media program
+at University of Central Florida.
+
+17
+00:00:35.000 --> 00:00:36.760
+So I'm excited about that.
+
+18
+00:00:36.760 --> 00:00:38.840
+But today,
+I'm going to do a kind of postmortem
+
+19
+00:00:38.840 --> 00:00:42.120
+talk of an interactive fiction game
+that I made called
+
+20
+00:00:42.120 --> 00:00:46.440
+remaster of the Red death,
+which is a interactive fiction
+
+21
+00:00:46.440 --> 00:00:51.040
+remake recreation of Poe's
+Masque of the Red death. So.
+
+22
+00:00:51.480 --> 00:00:53.760
+So I'll kind of give a quick summary
+of the game and the main mechanics.
+
+23
+00:00:53.760 --> 00:00:56.120
+I'll talk a little bit
+of like a little bit about like theory
+
+24
+00:00:56.120 --> 00:00:57.600
+history stuff.
+
+25
+00:00:57.600 --> 00:00:59.400
+I'm going to talk
+mostly about the design process,
+
+26
+00:00:59.400 --> 00:01:02.080
+kind of like from ideation
+all the way to release.
+
+27
+00:01:02.080 --> 00:01:03.400
+Basically.
+
+28
+00:01:03.400 --> 00:01:06.840
+I do have some plans for future updates,
+although I do feel like
+
+29
+00:01:06.840 --> 00:01:09.120
+this is a fully released game
+at this point.
+
+30
+00:01:09.120 --> 00:01:11.120
+You know, it's fully fleshed out in terms
+of like visuals
+
+31
+00:01:11.120 --> 00:01:14.120
+and mechanics and narrative
+and all that kind of stuff.
+
+32
+00:01:14.200 --> 00:01:17.400
+But I do have some things I want to add
+to it and some lessons learned
+
+33
+00:01:17.640 --> 00:01:21.160
+from doing the project, kind of like in a
+typical postmortem style. So,
+
+34
+00:01:22.240 --> 00:01:25.120
+so to kind of give a summary of the game,
+let me minimize
+
+35
+00:01:25.120 --> 00:01:28.680
+the presenters thing just in case
+that's getting in the way of like visuals.
+
+36
+00:01:28.680 --> 00:01:33.000
+But yeah, the game is an interactive
+fiction remake of The Master,
+
+37
+00:01:33.000 --> 00:01:33.480
+the Red death.
+
+38
+00:01:33.480 --> 00:01:35.320
+If you're not familiar
+with that short story,
+
+39
+00:01:35.320 --> 00:01:38.120
+it's like a creepy gothic horror
+short story about a prince.
+
+40
+00:01:38.120 --> 00:01:41.280
+And some, like nobles
+who quarantine themselves away
+
+41
+00:01:41.280 --> 00:01:43.280
+from an illness
+that's ravaging the land, if you like.
+
+42
+00:01:43.280 --> 00:01:46.280
+This is something that we all kind of
+have some experience with them,
+
+43
+00:01:46.560 --> 00:01:50.440
+and they hold this party like a few months
+in, just like masquerade ball.
+
+44
+00:01:50.440 --> 00:01:53.760
+And at midnight,
+a weird, strange, creepy visitor shows up.
+
+45
+00:01:53.760 --> 00:01:57.760
+And spoilers for like, 150 year
+old short story Everybody Dies.
+
+46
+00:01:58.560 --> 00:02:01.000
+The game itself,
+you know, follows that narrative.
+
+47
+00:02:01.000 --> 00:02:02.800
+And so one of the potential endings
+is that.
+
+48
+00:02:02.800 --> 00:02:04.040
+But there are also
+
+49
+00:02:04.040 --> 00:02:06.360
+lots of other potential endings
+that you can get to and stuff like that.
+
+50
+00:02:07.880 --> 00:02:08.440
+I made it an
+
+51
+00:02:08.440 --> 00:02:11.880
+Inc., which is a scripting engine
+for making choice based games.
+
+52
+00:02:12.440 --> 00:02:13.840
+The images I didn't create myself,
+
+53
+00:02:13.840 --> 00:02:16.080
+and I'll talk about that
+a little bit in a minute,
+
+54
+00:02:16.080 --> 00:02:18.520
+but those were created in sketchbook,
+which is just a mobile
+
+55
+00:02:18.520 --> 00:02:21.520
+based digital drawing app
+that you can use on your phone,
+
+56
+00:02:21.720 --> 00:02:25.200
+and it's fully functional with like
+art mechanics, narrative, stuff like that.
+
+57
+00:02:25.480 --> 00:02:28.480
+I released it on my page
+about six months ago.
+
+58
+00:02:28.480 --> 00:02:29.880
+It was like end of January, I think.
+
+59
+00:02:29.880 --> 00:02:34.320
+I didn't small update like early February,
+so it's been out for around six months.
+
+60
+00:02:34.320 --> 00:02:38.680
+So, there's a lot of major mechanics
+that I'm not going to go
+
+61
+00:02:38.680 --> 00:02:43.480
+super deep on all of this just because
+obviously I'm only so much time.
+
+62
+00:02:43.840 --> 00:02:45.320
+But there's like a character creation
+
+63
+00:02:45.320 --> 00:02:49.200
+system, there's movement systems
+for the player and the Prince Prospero.
+
+64
+00:02:49.240 --> 00:02:52.240
+The from post story is like
+one of the major characters in the game.
+
+65
+00:02:53.000 --> 00:02:56.120
+There's a randomly generated
+secret room spoilers, which gets you to
+
+66
+00:02:56.120 --> 00:02:58.400
+some of the endings
+that are not just getting killed by death
+
+67
+00:02:58.400 --> 00:03:00.560
+when deaths rose up at
+midnight and kills everybody.
+
+68
+00:03:01.600 --> 00:03:03.840
+There's like
+time and health and inventory systems.
+
+69
+00:03:03.840 --> 00:03:05.440
+The time system is
+probably the most important
+
+70
+00:03:05.440 --> 00:03:07.840
+because the game keeps
+track of time and midnight.
+
+71
+00:03:07.840 --> 00:03:09.480
+The creepy visitor shows up.
+
+72
+00:03:09.480 --> 00:03:12.800
+And if you haven't gotten to another
+ending by then, you're going to die.
+
+73
+00:03:14.480 --> 00:03:16.880
+There's dialog systems, NPC favor systems.
+
+74
+00:03:16.880 --> 00:03:18.120
+There's like 13 different endings.
+
+75
+00:03:18.120 --> 00:03:21.120
+So there's a lot of major mechanics
+in the game.
+
+76
+00:03:22.760 --> 00:03:24.840
+I guess some theory and history stuff.
+
+77
+00:03:24.840 --> 00:03:27.800
+What this project is partially building on
+is a previous work of mine
+
+78
+00:03:27.800 --> 00:03:30.240
+that I think I may have talked
+about at ELO. At some point.
+
+79
+00:03:30.240 --> 00:03:32.760
+I tried to remember like various places
+where I've talked about it,
+
+80
+00:03:32.760 --> 00:03:36.040
+but retelling the Tell-Tale heart was a
+like interactive fiction remake.
+
+81
+00:03:36.040 --> 00:03:38.360
+I made a growing presence also heart.
+
+82
+00:03:38.360 --> 00:03:39.920
+I also made that an ink.
+
+83
+00:03:39.920 --> 00:03:42.280
+This game is a lot more expansive
+and it has visuals.
+
+84
+00:03:42.280 --> 00:03:45.320
+That was my previous
+work was like a fully text based game.
+
+85
+00:03:46.640 --> 00:03:48.040
+But yeah, it's also building somewhat
+
+86
+00:03:48.040 --> 00:03:49.920
+on like the history of remediation
+and adaptation.
+
+87
+00:03:49.920 --> 00:03:52.920
+And as outlined by people like Bolter
+and Grayson, I'm not going to throw
+
+88
+00:03:52.920 --> 00:03:55.920
+a bunch of like theory quotes into this,
+but I did write a paper.
+
+89
+00:03:55.920 --> 00:04:00.200
+So if you want some of the theory quotes
+and like some more in-depth stuff on that,
+
+90
+00:04:00.320 --> 00:04:02.000
+I did write a paper
+that should be in the proceedings,
+
+91
+00:04:02.000 --> 00:04:03.800
+so you can obviously check that out.
+
+92
+00:04:03.800 --> 00:04:08.480
+So, one of the other things I kind of
+identify in the paper is like that.
+
+93
+00:04:08.480 --> 00:04:09.480
+This is also something
+
+94
+00:04:09.480 --> 00:04:12.840
+that a lot of famous works at Blit
+have done in the past.
+
+95
+00:04:12.840 --> 00:04:13.920
+And this is not,
+
+96
+00:04:13.920 --> 00:04:15.920
+you know, a full, extensive list of that
+or something like that.
+
+97
+00:04:15.920 --> 00:04:18.000
+I just tried to kind of highlight
+some really famous works
+
+98
+00:04:18.000 --> 00:04:21.040
+that that have taken, like adaptation,
+remediation, rancid approaches
+
+99
+00:04:21.040 --> 00:04:24.920
+like Patchwork Girl being an adaptation
+of Frankenstein and The Password
+
+100
+00:04:25.160 --> 00:04:28.160
+of Oz, and Bronze being an adaptation
+of beauty and the beast.
+
+101
+00:04:28.200 --> 00:04:31.360
+80 days was made by the company
+that makes ink and one times
+
+102
+00:04:31.360 --> 00:04:34.480
+game of the Day game of the year award,
+and it's an adaptation
+
+103
+00:04:34.480 --> 00:04:35.600
+of Around the World in 80 days.
+
+104
+00:04:35.600 --> 00:04:38.400
+So, but yeah,
+if you want more depth on that.
+
+105
+00:04:38.400 --> 00:04:39.360
+Again, I wrote a paper
+
+106
+00:04:39.360 --> 00:04:42.680
+and obviously talk about that
+a lot more in the paper and stuff. So,
+
+107
+00:04:44.560 --> 00:04:46.160
+so the design process for the
+
+108
+00:04:46.160 --> 00:04:50.560
+game, I started working on this game
+almost exactly a year ago.
+
+109
+00:04:50.600 --> 00:04:53.600
+I want to say it was in like June,
+July of 2025.
+
+110
+00:04:53.600 --> 00:04:54.960
+So it's like basically when I started
+
+111
+00:04:54.960 --> 00:04:57.960
+like ideation and working in projects
+and mostly just started
+
+112
+00:04:57.960 --> 00:05:00.960
+with like a text monument
+with some ideas in it, basically.
+
+113
+00:05:02.320 --> 00:05:03.840
+From there,
+
+114
+00:05:03.840 --> 00:05:07.040
+I basically put together
+a simple mechanical prototype
+
+115
+00:05:07.040 --> 00:05:08.920
+and presented it at a conference called
+
+116
+00:05:08.920 --> 00:05:11.360
+Virtual International Conference
+for the fantastic in the Arts.
+
+117
+00:05:11.360 --> 00:05:13.280
+It's like the virtual sister
+
+118
+00:05:13.280 --> 00:05:16.280
+conference to the International conference
+with a fantastic in the arts.
+
+119
+00:05:16.480 --> 00:05:19.240
+They've been doing this
+for the past few years.
+
+120
+00:05:19.240 --> 00:05:22.440
+And so I specifically asked for feedback
+at that conference about art.
+
+121
+00:05:22.480 --> 00:05:23.960
+There were some things I wanted
+feedback on,
+
+122
+00:05:23.960 --> 00:05:26.880
+but one thing I specifically wanted
+to get feedback on was,
+
+123
+00:05:28.280 --> 00:05:29.440
+like, should the game have art?
+
+124
+00:05:29.440 --> 00:05:31.360
+And for context, I am not a visual artist.
+
+125
+00:05:31.360 --> 00:05:32.480
+So I asked that question.
+
+126
+00:05:32.480 --> 00:05:35.480
+Knowing that
+like that would mean they generate art,
+
+127
+00:05:35.480 --> 00:05:38.600
+copyright free art from the internet,
+or recruiting an artist, basically.
+
+128
+00:05:38.920 --> 00:05:41.760
+So basically changing up
+my typical design process
+
+129
+00:05:41.760 --> 00:05:44.760
+and working with someone
+to have them create art.
+
+130
+00:05:45.720 --> 00:05:48.120
+The feedback I got was, yes,
+you should have art, basically.
+
+131
+00:05:48.120 --> 00:05:51.600
+So, so I recruited an artist,
+which went very smoothly
+
+132
+00:05:51.600 --> 00:05:54.320
+because it was just my girlfriend,
+and she has never done
+
+133
+00:05:54.320 --> 00:05:56.960
+digital art for a game before,
+but I think it went really well.
+
+134
+00:05:56.960 --> 00:05:59.400
+Like, I'm very happy with the art that,
+
+135
+00:05:59.400 --> 00:06:00.160
+that she created.
+
+136
+00:06:00.160 --> 00:06:01.640
+And I really just gave her basically
+
+137
+00:06:01.640 --> 00:06:04.440
+like some very minimal technical direction
+and not much else.
+
+138
+00:06:04.440 --> 00:06:07.600
+Like I almost all the art style
+and things like that come from her.
+
+139
+00:06:07.600 --> 00:06:12.520
+But, I wrote most of the game's code
+during that time frame.
+
+140
+00:06:12.520 --> 00:06:15.160
+And specifically
+I'll talk about this later.
+
+141
+00:06:15.160 --> 00:06:19.440
+I wrote the narrative prose last, and
+that's a part of my lessons learned. So,
+
+142
+00:06:20.440 --> 00:06:23.080
+but yeah, I released the game,
+I think officially put it up on my edge
+
+143
+00:06:23.080 --> 00:06:27.040
+page at the end of January and then, like,
+made a snow updating early February.
+
+144
+00:06:27.040 --> 00:06:28.200
+And it's been accepted
+
+145
+00:06:28.200 --> 00:06:31.600
+for like a 1.0 release of the ACM
+hypertext conference in September.
+
+146
+00:06:31.600 --> 00:06:35.280
+So I'll be like kind of doing a 1.0
+release of the game at that conference.
+
+147
+00:06:36.120 --> 00:06:40.080
+So all of the future updates that I'm
+going to mention here on this next slide
+
+148
+00:06:40.080 --> 00:06:44.320
+are things that I would either have
+implemented by then or have cut by then.
+
+149
+00:06:44.800 --> 00:06:47.520
+And really, of these three things,
+
+150
+00:06:47.520 --> 00:06:50.520
+there's only one of them
+that I think that would get cut.
+
+151
+00:06:50.680 --> 00:06:55.080
+There's already in progress work
+on getting art for all 13 of the endings.
+
+152
+00:06:55.080 --> 00:06:58.400
+One of the places where the game doesn't
+have as much art is in the ending section.
+
+153
+00:06:58.400 --> 00:06:59.720
+And right now
+
+154
+00:06:59.720 --> 00:07:03.920
+Emily is working on making art basically
+for all of the other games endings.
+
+155
+00:07:03.920 --> 00:07:06.400
+This is an in progress
+image of one of the art pieces
+
+156
+00:07:06.400 --> 00:07:09.680
+that she's working on, which is like
+for the finding the secret room
+
+157
+00:07:09.680 --> 00:07:13.760
+and convincing people to leave the party
+with you ending basically. So,
+
+158
+00:07:15.200 --> 00:07:17.440
+there's I want to add a little bit
+more to character creation.
+
+159
+00:07:17.440 --> 00:07:18.200
+Right now.
+
+160
+00:07:18.200 --> 00:07:21.880
+I feel like the game is fairly difficult
+if you don't know how to get exactly to
+
+161
+00:07:21.920 --> 00:07:22.440
+some of those.
+
+162
+00:07:22.440 --> 00:07:25.520
+The endings, I think very likely
+the ending you're going to see frequently
+
+163
+00:07:25.520 --> 00:07:28.520
+is death throwing up
+and killing everybody at midnight.
+
+164
+00:07:28.920 --> 00:07:30.680
+So I want to add a little bit
+to character creation
+
+165
+00:07:30.680 --> 00:07:32.240
+to reduce time pressure on the player,
+
+166
+00:07:32.240 --> 00:07:34.440
+because I just feel like it's
+a little bit difficult right now.
+
+167
+00:07:34.440 --> 00:07:37.640
+And in particular, I'm thinking about kind
+of adding some like selectable
+
+168
+00:07:37.640 --> 00:07:41.400
+special abilities that you can use
+throughout the party to like,
+
+169
+00:07:41.440 --> 00:07:44.440
+you know, help reduce time
+pressure and stuff like that.
+
+170
+00:07:45.160 --> 00:07:48.080
+The one that's the most of a stretch goal
+right now is potentially music
+
+171
+00:07:48.080 --> 00:07:50.960
+and sound effects. This is mostly because,
+
+172
+00:07:52.360 --> 00:07:54.720
+a I will
+definitely need to outsource that.
+
+173
+00:07:54.720 --> 00:07:59.240
+And very likely that will mean
+getting copyright free, like music
+
+174
+00:07:59.240 --> 00:08:02.520
+and sound effects from the internet,
+which isn't a massive problem.
+
+175
+00:08:02.520 --> 00:08:03.800
+Like I think that will be easy to do,
+
+176
+00:08:03.800 --> 00:08:06.840
+and I can obviously like credit them
+appropriately and stuff like that.
+
+177
+00:08:08.040 --> 00:08:10.080
+The slightly more challenging thing
+
+178
+00:08:10.080 --> 00:08:13.080
+is limitations on
+
+179
+00:08:13.240 --> 00:08:14.240
+on audio.
+
+180
+00:08:14.240 --> 00:08:16.440
+It's very limited
+in terms of audio functionality,
+
+181
+00:08:16.440 --> 00:08:20.840
+I guess for context, Inkwell developed
+as a narrative middleware engine,
+
+182
+00:08:20.840 --> 00:08:23.560
+and almost all the games
+they have released with ink
+
+183
+00:08:23.560 --> 00:08:27.560
+have used a game engine like Unity
+or Unreal to handle music and SFX and all,
+
+184
+00:08:27.640 --> 00:08:29.120
+like all that kind of stuff.
+
+185
+00:08:29.120 --> 00:08:33.640
+Basically, there is limited support within
+ink to like
+
+186
+00:08:33.640 --> 00:08:37.520
+include music and SFX and visuals
+and like a web based version of the game.
+
+187
+00:08:37.520 --> 00:08:39.400
+And it has like a feature
+called export for web
+
+188
+00:08:39.400 --> 00:08:42.640
+that makes like an HTML, CSS,
+JSON package.
+
+189
+00:08:42.640 --> 00:08:45.640
+So you can make like a web
+playable version of it, basically.
+
+190
+00:08:46.080 --> 00:08:50.480
+But the audio restrictions
+are essentially one sound at a time.
+
+191
+00:08:50.480 --> 00:08:54.440
+So you cannot layer music or play
+like SFX over music or things like that.
+
+192
+00:08:54.480 --> 00:08:58.000
+You pretty much are limited to playing
+an audio track and playing a different
+
+193
+00:08:58.000 --> 00:09:01.120
+audio track,
+but but not much else than that.
+
+194
+00:09:02.200 --> 00:09:05.200
+That luckily actually lines up
+pretty well with
+
+195
+00:09:05.200 --> 00:09:06.120
+some of the way that the audio
+
+196
+00:09:06.120 --> 00:09:08.480
+was described in post story,
+so it might still be doable,
+
+197
+00:09:08.480 --> 00:09:11.640
+but if anything gets cut,
+it would be that, and probably mostly
+
+198
+00:09:11.640 --> 00:09:12.760
+with the justification that like
+
+199
+00:09:12.760 --> 00:09:14.360
+a lot of people
+may be playing this on a phone
+
+200
+00:09:14.360 --> 00:09:17.680
+and have the sound turned off anyway,
+and the sound may not be necessarily
+
+201
+00:09:17.720 --> 00:09:21.200
+having a fun, but, but it is something
+I want to try to do and we'll see.
+
+202
+00:09:21.240 --> 00:09:25.120
+Like that's of those three things,
+the one thing that I think I make. But
+
+203
+00:09:26.560 --> 00:09:28.600
+so some lessons learned
+
+204
+00:09:28.600 --> 00:09:32.200
+these I'm kind of basing on Chandler's
+Game Production Handbook
+
+205
+00:09:32.200 --> 00:09:35.280
+and a lot of other people who discuss,
+like doing postmortems for games,
+
+206
+00:09:35.280 --> 00:09:36.800
+and they almost always highlight
+
+207
+00:09:36.800 --> 00:09:39.800
+the value of doing like a lessons
+learned as part of that.
+
+208
+00:09:40.160 --> 00:09:43.000
+And so I, I present these in the paper
+to and talk about them
+
+209
+00:09:43.000 --> 00:09:43.840
+a little bit more in depth there.
+
+210
+00:09:43.840 --> 00:09:45.920
+So if you want like a little bit
+more depth of these
+
+211
+00:09:45.920 --> 00:09:46.960
+obviously you can read the paper,
+
+212
+00:09:46.960 --> 00:09:50.080
+but one was just staying flexible
+about development.
+
+213
+00:09:50.080 --> 00:09:53.360
+And in this particular situation, for me
+that meant staying flexible
+
+214
+00:09:53.360 --> 00:09:55.960
+about solar development versus
+working with someone else.
+
+215
+00:09:55.960 --> 00:09:58.520
+Because like I went into this project
+assuming I would do it
+
+216
+00:09:58.520 --> 00:10:01.480
+the same way I did every other project
+I've worked on in the past,
+
+217
+00:10:01.480 --> 00:10:05.000
+which was basically do something
+that I can make completely myself
+
+218
+00:10:05.000 --> 00:10:07.120
+without having to work with anybody else,
+because that gives me
+
+219
+00:10:07.120 --> 00:10:08.760
+like full control
+over the development process.
+
+220
+00:10:08.760 --> 00:10:12.880
+But early on, getting the feedback that,
+like, I should reconsider that was useful.
+
+221
+00:10:12.880 --> 00:10:16.120
+And then, you know, my lesson
+kind of take away from
+
+222
+00:10:16.120 --> 00:10:18.920
+that is staying flexible about development
+and maybe be considering some of your,
+
+223
+00:10:18.920 --> 00:10:22.600
+like, common conceptions about how you might approach the development process. So,
+
+224
+00:10:23.760 --> 00:10:25.800
+one that
+I do feel pretty strongly about that.
+
+225
+00:10:25.800 --> 00:10:28.560
+This is a really useful piece of advice
+for an interactive fiction developers.
+
+226
+00:10:28.560 --> 00:10:30.280
+I've given this advice to students a lot.
+
+227
+00:10:30.280 --> 00:10:33.560
+Is writing pros at the end,
+I based this piece of advice
+
+228
+00:10:33.560 --> 00:10:37.840
+to some extent on a game Developers
+Gain Developers
+
+229
+00:10:38.560 --> 00:10:41.760
+Conference talk given by Josh Sawyer
+about Fallout New Vegas,
+
+230
+00:10:41.760 --> 00:10:44.560
+and he prevents this like five step model
+for doing narrative design.
+
+231
+00:10:44.560 --> 00:10:47.240
+I didn't follow that five step model
+except for the last step.
+
+232
+00:10:47.240 --> 00:10:48.480
+And the last step is right crows.
+
+233
+00:10:48.480 --> 00:10:51.800
+And essentially his argument is do the
+majority of your narrative design first?
+
+234
+00:10:51.840 --> 00:10:55.120
+It will make writing the prose easier,
+which was very true for me,
+
+235
+00:10:55.560 --> 00:10:58.480
+and it kind of plays into my third lesson,
+
+236
+00:10:58.480 --> 00:11:01.000
+which was make an implementation prototype
+and get feedback early.
+
+237
+00:11:01.000 --> 00:11:02.840
+I'm borrowing the concept
+of an implementation
+
+238
+00:11:02.840 --> 00:11:06.440
+prototype from Food and Hill in an article
+called What Prototypes prototype.
+
+239
+00:11:06.680 --> 00:11:11.080
+Implementation prototype is essentially
+a mechanics oriented prototype
+
+240
+00:11:11.120 --> 00:11:11.960
+like it's not pretty.
+
+241
+00:11:11.960 --> 00:11:13.440
+There are no esthetics
+we're not worried about,
+
+242
+00:11:13.440 --> 00:11:16.640
+like the visuals, we're only worried
+about core functionality, basically.
+
+243
+00:11:17.040 --> 00:11:20.120
+And doing that was really useful for me
+because I got early feedback
+
+244
+00:11:20.160 --> 00:11:23.160
+that I should reconsider
+having visuals in the
+
+245
+00:11:23.640 --> 00:11:26.640
+in the piece,
+and that helped with the second lesson
+
+246
+00:11:26.640 --> 00:11:29.280
+learned that I just mentioned in that
+when I started writing the prose text,
+
+247
+00:11:29.280 --> 00:11:30.800
+I realized, like,
+I'm going to have visuals
+
+248
+00:11:30.800 --> 00:11:34.080
+and I do not need to spend a bunch of time
+writing out visual descriptions of,
+
+249
+00:11:34.120 --> 00:11:36.160
+like the rooms that the party takes place
+
+250
+00:11:36.160 --> 00:11:37.720
+in, inside of this mansion
+and stuff like that,
+
+251
+00:11:37.720 --> 00:11:40.080
+which all have these weird
+colors and stuff.
+
+252
+00:11:40.080 --> 00:11:43.160
+So because those the visual images
+can present that stuff and I can focus
+
+253
+00:11:43.160 --> 00:11:46.640
+the text more on like narrative
+and things like that. So,
+
+254
+00:11:47.840 --> 00:11:49.200
+so that pretty much does it for me.
+
+255
+00:11:49.200 --> 00:11:50.920
+I want to thank everybody
+for listening to me today.
+
+256
+00:11:50.920 --> 00:11:53.680
+If you want to play the game,
+I'll drop a link in the chat as well.
+
+257
+00:11:53.680 --> 00:11:56.680
+But obviously you can play
+the current version of it right now.
+
+258
+00:11:56.800 --> 00:11:59.960
+And if you want to get in touch with me,
+Gmail is the easiest way to reach me
+
+259
+00:11:59.960 --> 00:12:01.960
+because I have a lot of students
+in my classes,
+
+260
+00:12:01.960 --> 00:12:04.880
+and if you send an email to my UCLA email,
+I probably won't see it.
+
+261
+00:12:04.880 --> 00:12:05.920
+Thank you very much.

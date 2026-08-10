@@ -1,0 +1,1352 @@
+WEBVTT
+
+1
+00:39:55.360 --> 00:39:55.400
+And this is not the most exciting
+in the slides, so.
+
+2
+00:39:55.480 --> 00:39:56.440
+Well,
+
+3
+00:39:56.440 --> 00:40:00.520
+thank you to yellow and to the reviewers
+for letting me come and share about this.
+
+4
+00:40:00.720 --> 00:40:04.440
+I'm Matt Griffin, a New York City
+based writer, educator, and researcher.
+
+5
+00:40:04.440 --> 00:40:08.240
+I study creator communities in narrative
+games, emphasizing work
+
+6
+00:40:08.240 --> 00:40:10.400
+by solo authors and small teams.
+
+7
+00:40:10.400 --> 00:40:14.960
+So right now, for me, that means two
+engines choice script, which tends
+
+8
+00:40:14.960 --> 00:40:19.920
+towards the enormous, and video tone,
+which tends towards the very tiny.
+
+9
+00:40:20.360 --> 00:40:24.760
+Today is about the enormous one
+and about places
+
+10
+00:40:24.760 --> 00:40:29.600
+inside these 500,000,
+even 1 million, 2 million word
+
+11
+00:40:30.640 --> 00:40:33.600
+word count mountains
+where I think these authors are doing
+
+12
+00:40:33.600 --> 00:40:37.160
+truly interesting work
+and well deserving of wider leadership.
+
+13
+00:40:37.760 --> 00:40:40.760
+Next slide.
+
+14
+00:40:44.600 --> 00:40:47.600
+Are you seeing it? No.
+
+15
+00:40:48.080 --> 00:40:52.000
+Maybe we share that.
+
+16
+00:40:52.200 --> 00:40:54.640
+I can see it
+now. Great. Okay. This is my second slide.
+
+17
+00:40:54.640 --> 00:40:57.560
+We can just go this way
+and I can share slides afterwards.
+
+18
+00:40:57.560 --> 00:40:58.360
+Okay.
+
+19
+00:40:58.360 --> 00:41:00.720
+So my method has sort of two halves.
+
+20
+00:41:00.720 --> 00:41:03.720
+One is knowing the creators,
+
+21
+00:41:04.240 --> 00:41:06.760
+the authors, editors, testers.
+
+22
+00:41:06.760 --> 00:41:09.160
+I'm building
+a book length collection of interviews
+
+23
+00:41:09.160 --> 00:41:10.720
+so other researchers can
+
+24
+00:41:10.720 --> 00:41:13.840
+come into this community
+and find something waiting for them.
+
+25
+00:41:13.920 --> 00:41:17.400
+The other half is reading the code,
+not the published text.
+
+26
+00:41:17.480 --> 00:41:18.920
+The writer facing source.
+
+27
+00:41:18.920 --> 00:41:21.040
+And here's something
+that even some published
+
+28
+00:41:21.040 --> 00:41:23.120
+choice script authors don't know.
+
+29
+00:41:23.120 --> 00:41:24.800
+When you buy one of these novels,
+
+30
+00:41:24.800 --> 00:41:27.840
+you get a backdoor
+into reading all of its source.
+
+31
+00:41:28.040 --> 00:41:33.880
+And that's sort of you know, the second
+part is the half this talk sits on.
+
+32
+00:41:34.120 --> 00:41:35.000
+Next slide.
+
+33
+00:41:37.600 --> 00:41:39.920
+Oh, actually you were on the right side.
+
+34
+00:41:39.920 --> 00:41:41.680
+Can you go back inside. I'll keep going.
+
+35
+00:41:41.680 --> 00:41:42.080
+Sorry.
+
+36
+00:41:42.080 --> 00:41:45.800
+Choice script is a scripting language
+for interactive novels.
+
+37
+00:41:45.840 --> 00:41:51.280
+So Dan Fabulous was a co-creator
+and is the current developer.
+
+38
+00:41:51.360 --> 00:41:55.880
+More than 450 choice script works
+have been published since 2010
+
+39
+00:41:55.920 --> 00:41:57.680
+across their own in-house label.
+
+40
+00:41:57.680 --> 00:41:58.880
+Choice of games.
+
+41
+00:41:58.880 --> 00:42:03.360
+Their romance label, Hearts
+Choice and community driven hosted games.
+
+42
+00:42:03.520 --> 00:42:07.440
+I suspect that the
+this community has largely been overlooked
+
+43
+00:42:07.440 --> 00:42:10.200
+by the yellow world
+because it looks commercial
+
+44
+00:42:10.200 --> 00:42:13.760
+from the outside, and I guess they do make
+a little bit of money.
+
+45
+00:42:14.080 --> 00:42:16.160
+Not a huge amount.
+
+46
+00:42:16.160 --> 00:42:20.120
+They publish power fantasy
+games, epic fantasy collaborations
+
+47
+00:42:20.120 --> 00:42:21.480
+with World of Darkness
+
+48
+00:42:21.480 --> 00:42:25.000
+and those kind of things may seem like
+they sort of put it in a
+
+49
+00:42:25.160 --> 00:42:28.880
+aiming for sort of commercial engagement
+direction,
+
+50
+00:42:28.880 --> 00:42:32.640
+but when you go and start reading these
+and look under the hood,
+
+51
+00:42:32.680 --> 00:42:36.840
+the creative community is just
+so much stranger than it first looks.
+
+52
+00:42:37.240 --> 00:42:40.120
+Next slide. Yep.
+
+53
+00:42:40.120 --> 00:42:43.440
+So here's the crucial fact towards
+the games.
+
+54
+00:42:43.440 --> 00:42:46.440
+Publishes fiction writers and tabletop
+creators.
+
+55
+00:42:46.640 --> 00:42:49.280
+Not really career video game designers.
+
+56
+00:42:49.280 --> 00:42:53.120
+Some of them also are video
+game designers.
+
+57
+00:42:53.120 --> 00:42:55.280
+But that's not who they caught.
+
+58
+00:42:55.280 --> 00:42:56.560
+They caught writers.
+
+59
+00:42:56.560 --> 00:43:01.200
+And the house encourages practices
+it does not enforce
+
+60
+00:43:01.320 --> 00:43:05.520
+branch and bottle delayed branching
+narrative goals, which is a approach
+
+61
+00:43:05.520 --> 00:43:08.600
+to stats attached to the story
+and not to your character.
+
+62
+00:43:08.960 --> 00:43:12.360
+They're also a progressive,
+feminist, trans inclusive company,
+
+63
+00:43:12.400 --> 00:43:14.880
+and they carry that all the way
+into the engine.
+
+64
+00:43:14.880 --> 00:43:19.800
+Every choice of games game lets
+you choose gender and orientation
+
+65
+00:43:19.800 --> 00:43:24.000
+to a sort of profound level,
+which is quite interesting.
+
+66
+00:43:24.000 --> 00:43:29.400
+You end up in a situation
+where essentially all the work is is queer
+
+67
+00:43:29.440 --> 00:43:35.480
+literature, but it's also 
+that it must meet the mandate
+
+68
+00:43:35.480 --> 00:43:41.120
+of serving that audience, not necessarily
+in terms of that authorship.
+
+69
+00:43:41.280 --> 00:43:43.080
+It's an interesting place.
+
+70
+00:43:43.080 --> 00:43:49.520
+So but nothing in the platform
+makes you do any of these
+
+71
+00:43:50.560 --> 00:43:52.000
+these conventions.
+
+72
+00:43:52.000 --> 00:43:53.680
+Template. No. Linter.
+
+73
+00:43:53.680 --> 00:43:56.480
+These are encouraged not enforced.
+
+74
+00:43:56.480 --> 00:43:58.000
+And that's where this talk lives.
+
+75
+00:43:58.000 --> 00:44:01.480
+And it's where this conference means
+I think
+
+76
+00:44:01.680 --> 00:44:04.520
+with unsupervised.
+
+77
+00:44:04.520 --> 00:44:07.520
+Next slide.
+
+78
+00:44:07.560 --> 00:44:10.080
+So the reflection scene
+
+79
+00:44:10.080 --> 00:44:13.320
+picture of branch and bottle parser
+spreading out.
+
+80
+00:44:13.320 --> 00:44:16.680
+And then squeeze back together
+before a big scene
+
+81
+00:44:16.680 --> 00:44:20.520
+that most readers will hit at that neck.
+
+82
+00:44:20.560 --> 00:44:24.000
+Again, again
+I kept finding the same kind of passage.
+
+83
+00:44:24.040 --> 00:44:25.600
+It gathers up what you've done.
+
+84
+00:44:25.600 --> 00:44:29.360
+It tells you where you stand, it points
+at what's coming, and then the story
+
+85
+00:44:29.400 --> 00:44:30.560
+starts moving again.
+
+86
+00:44:30.560 --> 00:44:33.720
+It's a breather scene, 
+a calm before the storm.
+
+87
+00:44:34.040 --> 00:44:36.040
+So why not just call it that?
+
+88
+00:44:36.040 --> 00:44:38.200
+Because of what's underneath.
+
+89
+00:44:38.200 --> 00:44:42.720
+So almost no choices that open future
+branches, but behind them,
+
+90
+00:44:43.160 --> 00:44:44.400
+behind the code.
+
+91
+00:44:44.400 --> 00:44:47.400
+An enormous amount of conditional logic.
+
+92
+00:44:47.400 --> 00:44:52.120
+If authors spending heavily to produce a
+passage where you don't get to do anything
+
+93
+00:44:53.760 --> 00:44:54.680
+makes them.
+
+94
+00:44:54.680 --> 00:44:58.600
+The style
+guides barely mentioned this approach.
+
+95
+00:44:58.640 --> 00:45:01.920
+So why do authors
+invent their own strategies for this?
+
+96
+00:45:02.000 --> 00:45:06.800
+And what does it cost them to do this
+next scene or slide?
+
+97
+00:45:08.240 --> 00:45:11.480
+So reflection scenes
+look like conventional narrative moments,
+
+98
+00:45:11.480 --> 00:45:15.080
+but they can require thousands of lines
+of conditional code
+
+99
+00:45:15.080 --> 00:45:19.440
+to aggregate tone relationships
+and priorities shaped by prior choices.
+
+100
+00:45:19.440 --> 00:45:22.360
+Sometimes the entire reader facing output
+
+101
+00:45:22.360 --> 00:45:25.760
+is a short paragraph
+or even a single sentence.
+
+102
+00:45:26.360 --> 00:45:29.840
+And that's why I call them
+miniature novels hidden in the code.
+
+103
+00:45:29.880 --> 00:45:33.680
+Sometimes the source material to produce
+
+104
+00:45:33.680 --> 00:45:38.440
+those things can be tens
+and hundreds of thousands of words.
+
+105
+00:45:38.520 --> 00:45:42.520
+Well, not hundreds of thousands,
+but thousands and tens of thousands.
+
+106
+00:45:42.520 --> 00:45:47.680
+And at best, all that labor validates what
+the reader already thinks is happening,
+
+107
+00:45:48.840 --> 00:45:49.760
+as in
+
+108
+00:45:49.760 --> 00:45:52.920
+being very responsive to the decisions
+they've made so far.
+
+109
+00:45:53.200 --> 00:45:56.760
+Get one thing wrong, one
+event out of order, and the gig is up.
+
+110
+00:45:56.960 --> 00:46:00.840
+The reader knows the system doesn't
+really know what they've been doing.
+
+111
+00:46:01.080 --> 00:46:03.920
+Next slide.
+
+112
+00:46:03.920 --> 00:46:06.160
+Because these scenes are not important
+
+113
+00:46:06.160 --> 00:46:09.760
+and do not even break the game
+should they be largely omitted?
+
+114
+00:46:09.800 --> 00:46:12.320
+They're very clear markers
+for creative labor
+
+115
+00:46:12.320 --> 00:46:15.960
+that the author assigns to themselves
+as being important.
+
+116
+00:46:16.000 --> 00:46:20.160
+Studying what a writer has done with these
+and why helps you understand
+
+117
+00:46:20.320 --> 00:46:24.080
+how they understand their own novels
+and what they value
+
+118
+00:46:24.080 --> 00:46:26.120
+and how they solve problems.
+
+119
+00:46:26.120 --> 00:46:28.120
+Next slide.
+
+120
+00:46:28.120 --> 00:46:31.200
+I've been experimenting with scripts
+
+121
+00:46:31.600 --> 00:46:35.000
+that find these structures
+and measure them the most straightforward.
+
+122
+00:46:35.040 --> 00:46:37.000
+Count every word the author wrote.
+
+123
+00:46:37.000 --> 00:46:42.040
+Estimate what one reader
+actually receives and divide.
+
+124
+00:46:42.280 --> 00:46:44.320
+I call it burden.
+
+125
+00:46:44.320 --> 00:46:46.520
+Effort spent per word delivered.
+
+126
+00:46:46.520 --> 00:46:48.800
+Be clear about where I am, though.
+
+127
+00:46:48.800 --> 00:46:50.560
+These are estimates, not simulations.
+
+128
+00:46:50.560 --> 00:46:52.960
+Every book is different.
+
+129
+00:46:52.960 --> 00:46:56.080
+These strategies are sort of emerging
+
+130
+00:46:56.120 --> 00:46:59.400
+as design patterns
+that multiple authors make.
+
+131
+00:46:59.440 --> 00:47:01.600
+They aren't following a template.
+
+132
+00:47:01.600 --> 00:47:03.680
+And so my my waiting is pretty rough.
+
+133
+00:47:03.680 --> 00:47:08.360
+And I have a lot more to code
+and a lot more conversations
+
+134
+00:47:08.360 --> 00:47:11.360
+about how some of these structures
+work ahead of me.
+
+135
+00:47:11.560 --> 00:47:15.160
+But author variance is the thing
+I want to know, and
+
+136
+00:47:15.280 --> 00:47:18.520
+it tells me what to ask authors about
+when I interview them.
+
+137
+00:47:19.000 --> 00:47:19.960
+Next slide.
+
+138
+00:47:21.080 --> 00:47:21.960
+So here we go.
+
+139
+00:47:21.960 --> 00:47:26.280
+Seven books, same publisher,
+same encouraged practices.
+
+140
+00:47:26.480 --> 00:47:32.040
+This is 3.7 million words
+written, 1.2 million delivered.
+
+141
+00:47:32.120 --> 00:47:32.560
+So okay.
+
+142
+00:47:32.560 --> 00:47:36.560
+Benjamin Rosenbaum's readers
+receive 12% of his book.
+
+143
+00:47:36.600 --> 00:47:39.240
+He wrote eight words for everyone.
+You'll see.
+
+144
+00:47:39.240 --> 00:47:43.520
+Phoebe Barton's readers received 50%
+very different strategy.
+
+145
+00:47:43.680 --> 00:47:46.600
+This is a 4 to 1 spread under one roof,
+
+146
+00:47:46.600 --> 00:47:49.880
+under one house style,
+and nobody is doing it wrong.
+
+147
+00:47:50.040 --> 00:47:51.240
+Barton isn't lazy.
+
+148
+00:47:51.240 --> 00:47:56.600
+Rosenbaum isn't inefficient, though
+maybe his editor would disagree at times.
+
+149
+00:47:56.640 --> 00:48:01.320
+These are two different
+theories of what a reader is owed
+
+150
+00:48:01.720 --> 00:48:07.360
+and and writers who are
+who are finding their way to delivering
+
+151
+00:48:07.400 --> 00:48:11.600
+what they want to deliver, often
+with nobody else sitting next to them
+
+152
+00:48:11.640 --> 00:48:13.320
+saying it should look like this.
+
+153
+00:48:13.320 --> 00:48:19.080
+So that's my answer to the literary
+imprint question about choice of games.
+
+154
+00:48:19.120 --> 00:48:24.400
+They're not a factory producing,
+you know, a 4 to 1 spread.
+
+155
+00:48:24.480 --> 00:48:26.160
+This is an imprint.
+
+156
+00:48:26.160 --> 00:48:31.720
+This is something this is somewhat
+thankless labor chosen by the author,
+
+157
+00:48:31.920 --> 00:48:35.680
+valued by the readers in terms of
+deepening their engagement with the work.
+
+158
+00:48:35.760 --> 00:48:39.560
+But none of this would necessarily
+make a games industry project manager
+
+159
+00:48:39.560 --> 00:48:40.840
+very happy.
+
+160
+00:48:40.840 --> 00:48:41.800
+One caution.
+
+161
+00:48:41.800 --> 00:48:45.440
+The middle of that table is not.
+
+162
+00:48:45.480 --> 00:48:47.200
+Is a cluster really not a ranking?
+
+163
+00:48:47.200 --> 00:48:50.400
+The gaps between Powell, Smith and
+
+164
+00:48:50.400 --> 00:48:53.600
+Ricky are just say
+they were within my error bars.
+
+165
+00:48:53.600 --> 00:48:56.920
+And forgive that my scripts
+so far are failing to properly interpret
+
+166
+00:48:56.960 --> 00:49:00.120
+a few complex formulations
+that appear in those books.
+
+167
+00:49:00.120 --> 00:49:02.600
+But the spread is the finding.
+
+168
+00:49:02.600 --> 00:49:06.240
+The leaderboard isn't. Next slide.
+
+169
+00:49:07.600 --> 00:49:09.960
+So here's
+here's a pattern at its cleanest.
+
+170
+00:49:09.960 --> 00:49:12.320
+It's sort of a simple intro to this.
+
+171
+00:49:12.320 --> 00:49:16.400
+So Joey Jones Lysander Ice
+which is fantastic by the way.
+
+172
+00:49:16.400 --> 00:49:21.000
+A colony under the ice Europa
+between chapters six and seven.
+
+173
+00:49:21.040 --> 00:49:24.320
+There's an interlude with eight downtime
+activities poetry.
+
+174
+00:49:24.320 --> 00:49:27.000
+Cooking. Stargazing.
+Learning to fly a rover.
+
+175
+00:49:27.000 --> 00:49:31.960
+You pick two, which means each one
+is seen by 3 to 6% of the readers.
+
+176
+00:49:32.160 --> 00:49:35.320
+And then every path,
+all of them, pour into
+
+177
+00:49:35.320 --> 00:49:39.280
+into 282 words
+with no choices in them at all,
+
+178
+00:49:39.320 --> 00:49:43.320
+seen by 100% of the readers
+right before chapter seven.
+
+179
+00:49:43.320 --> 00:49:44.480
+And so that's the net.
+
+180
+00:49:44.480 --> 00:49:45.440
+The neck of the bottle
+
+181
+00:49:45.440 --> 00:49:49.400
+and the menu is the branching,
+the reflections where it reconvert.
+
+182
+00:49:49.920 --> 00:49:54.080
+Now let's look inside one of those
+6% activities.
+
+183
+00:49:54.240 --> 00:49:55.600
+Next slide.
+
+184
+00:49:55.600 --> 00:49:58.720
+So this is sort of a cute
+little little piece here.
+
+185
+00:49:58.760 --> 00:50:00.000
+It's a poem.
+
+186
+00:50:00.000 --> 00:50:01.280
+So it's 12 lines.
+
+187
+00:50:01.280 --> 00:50:02.760
+It's about 50 words.
+
+188
+00:50:02.760 --> 00:50:05.840
+So your roping is a narrative goal.
+
+189
+00:50:05.840 --> 00:50:08.240
+How attached you still are to Earth.
+
+190
+00:50:08.240 --> 00:50:09.960
+It doesn't get a choice here.
+
+191
+00:50:09.960 --> 00:50:13.480
+It decides
+what the poem is about, is about
+
+192
+00:50:13.480 --> 00:50:17.960
+if you've let go,
+if you write about, if you let go.
+
+193
+00:50:19.800 --> 00:50:22.400
+Of earth in your your
+
+194
+00:50:22.400 --> 00:50:25.560
+behaviors up to that point,
+you write about Europa.
+
+195
+00:50:25.560 --> 00:50:28.120
+And if you haven't,
+you write about the grass.
+
+196
+00:50:28.120 --> 00:50:29.120
+No choice.
+
+197
+00:50:29.120 --> 00:50:30.600
+Then both branches merge
+
+198
+00:50:30.600 --> 00:50:34.400
+and the prose says focus on
+something less consequential for a time.
+
+199
+00:50:34.480 --> 00:50:38.120
+Well,
+the text names itself as a breather.
+
+200
+00:50:38.360 --> 00:50:42.160
+And here's my favorite thing about this
+tiny little bud vase.
+
+201
+00:50:42.200 --> 00:50:43.960
+The hopeful branch is 15 words.
+
+202
+00:50:43.960 --> 00:50:46.960
+The homesick branch is 36 words.
+
+203
+00:50:46.960 --> 00:50:50.560
+Jones wrote the nostalgic version
+two and a half times longer.
+
+204
+00:50:50.880 --> 00:50:54.360
+Now, no stat is requiring
+that no editor asked for this.
+
+205
+00:50:54.400 --> 00:50:57.400
+It is invisible to any reader
+who doesn't play it twice.
+
+206
+00:50:57.520 --> 00:51:00.480
+This isn't really about
+like an implementation to solve,
+
+207
+00:51:00.480 --> 00:51:01.320
+like a clear problem.
+
+208
+00:51:01.320 --> 00:51:05.320
+This is a writer who really wanted to do
+that, took those steps
+
+209
+00:51:05.520 --> 00:51:07.760
+and made that happen. Next slide.
+
+210
+00:51:09.400 --> 00:51:10.600
+So here's two authors.
+
+211
+00:51:10.600 --> 00:51:13.400
+Same pattern
+while the different appetites.
+
+212
+00:51:13.400 --> 00:51:15.800
+So Rosenbaum the ghost and the Golem.
+
+213
+00:51:15.800 --> 00:51:19.120
+Acetyl a golem and a narrator
+who calls you bubble.
+
+214
+00:51:19.200 --> 00:51:21.400
+There's a scene called Home Again.
+
+215
+00:51:21.400 --> 00:51:23.520
+You come home after a long night.
+
+216
+00:51:23.520 --> 00:51:25.920
+It's 2400 words of code.
+
+217
+00:51:25.920 --> 00:51:29.000
+It delivers 188 words.
+
+218
+00:51:29.040 --> 00:51:30.680
+Every reader passes through it.
+
+219
+00:51:30.680 --> 00:51:34.840
+It touches like 48 stats, goals and runs
+
+220
+00:51:35.360 --> 00:51:40.680
+171 consecutive lines of conditional prose
+without offering a single choice.
+
+221
+00:51:40.880 --> 00:51:42.320
+So routing through.
+
+222
+00:51:42.320 --> 00:51:46.360
+And then there's Karl Marx
+Werewolf The Apocalypse game,
+
+223
+00:51:46.360 --> 00:51:49.360
+which is this insane 2 million word
+
+224
+00:51:49.360 --> 00:51:52.360
+sort of metafictional, philosophical,
+
+225
+00:51:52.640 --> 00:51:55.760
+you know, world of of darkness game.
+
+226
+00:51:55.800 --> 00:51:58.800
+So 1.7 million words,
+
+227
+00:51:58.800 --> 00:52:02.440
+though it's actually more than 2 million
+if you get all the extras.
+
+228
+00:52:02.440 --> 00:52:03.920
+I need to reload this.
+
+229
+00:52:03.920 --> 00:52:07.320
+When I build better scripts, 
+there's a block you pass through
+
+230
+00:52:07.320 --> 00:52:12.120
+when you leave a main sort of hub
+that most, most of the central.
+
+231
+00:52:12.520 --> 00:52:18.960
+At the center of the early game, you get
+to choose where to go and off that hub.
+
+232
+00:52:19.000 --> 00:52:24.200
+And so it's this section is 28,000 words.
+
+233
+00:52:24.200 --> 00:52:26.440
+It contains zero choices.
+
+234
+00:52:26.440 --> 00:52:29.760
+It's the largest unbroken
+
+235
+00:52:29.760 --> 00:52:34.760
+run of conditional prose in 1297 lines.
+
+236
+00:52:34.800 --> 00:52:37.800
+It's a little novel inside the code.
+
+237
+00:52:37.840 --> 00:52:39.920
+Nobody reads more than a fraction of it.
+
+238
+00:52:39.920 --> 00:52:41.320
+Nobody knows it exists.
+
+239
+00:52:41.320 --> 00:52:46.080
+And he he called it Leave Auto Spender
+because it runs after the automatic stat
+
+240
+00:52:46.080 --> 00:52:46.920
+spender.
+
+241
+00:52:46.920 --> 00:52:51.680
+Both the largest mirror in all of my research corpus and named it after plumbing.
+
+242
+00:52:52.760 --> 00:52:55.640
+Next slide.
+
+243
+00:52:55.640 --> 00:52:56.760
+I should be good for time.
+
+244
+00:52:56.760 --> 00:52:59.320
+So thank you for the warning. 
+I want to be careful
+
+245
+00:52:59.320 --> 00:53:02.520
+not to claim I discovered something
+authors don't know about.
+
+246
+00:53:02.520 --> 00:53:04.800
+So Phoebe Barton The Luminous Underground.
+
+247
+00:53:04.800 --> 00:53:06.720
+Here are two of her file names.
+
+248
+00:53:06.720 --> 00:53:10.640
+Chapter eight the column before
+chapter 11, last column time.
+
+249
+00:53:10.880 --> 00:53:12.640
+She named her chapter after this.
+
+250
+00:53:12.640 --> 00:53:15.560
+This pattern unprompted
+before I got there.
+
+251
+00:53:15.560 --> 00:53:19.240
+Inside chapter eight, someone asked
+the protagonist if she's okay.
+
+252
+00:53:19.480 --> 00:53:23.360
+One of three answers is 135 words
+
+253
+00:53:23.360 --> 00:53:27.560
+long, offers no choices, and touches
+24 stats.
+
+254
+00:53:27.560 --> 00:53:28.240
+Goals.
+
+255
+00:53:28.240 --> 00:53:31.840
+That's the densest passage
+I've measured anywhere of this type.
+
+256
+00:53:32.160 --> 00:53:36.160
+And that same chapter has three complete
+versions of the trip across town
+
+257
+00:53:36.200 --> 00:53:39.440
+bike, cab, and subway. 8400 words.
+
+258
+00:53:39.560 --> 00:53:40.600
+You take one.
+
+259
+00:53:40.600 --> 00:53:46.320
+Barton has the lowest burden in my table
+from that earlier table 2.0.
+
+260
+00:53:46.360 --> 00:53:47.760
+But that's not thrift.
+
+261
+00:53:47.760 --> 00:53:52.160
+She spends evenly every chapter
+within a hair of the same number.
+
+262
+00:53:52.240 --> 00:53:56.880
+When Marquis spins in enormous spikes.
+
+263
+00:53:57.040 --> 00:54:00.680
+Same publisher 
+opposite theory of where effort belongs
+
+264
+00:54:01.000 --> 00:54:04.000
+both writing beloved books.
+
+265
+00:54:04.360 --> 00:54:05.200
+Next slide.
+
+266
+00:54:06.800 --> 00:54:09.480
+So here's where I've landed and where
+I'm going.
+
+267
+00:54:09.480 --> 00:54:12.400
+The reflection scene is a literary
+interface.
+
+268
+00:54:12.400 --> 00:54:16.600
+It's a place where a state machine
+and a human voice have to be reconciled,
+
+269
+00:54:16.600 --> 00:54:17.880
+and a choice script.
+
+270
+00:54:17.880 --> 00:54:20.040
+That reconciliation is legible.
+
+271
+00:54:20.040 --> 00:54:21.720
+You can read it, you can measure it.
+
+272
+00:54:21.720 --> 00:54:24.360
+And what I'm claiming
+today is not a taxonomy.
+
+273
+00:54:24.360 --> 00:54:27.480
+I have, you know, one measure scene per
+author here.
+
+274
+00:54:27.640 --> 00:54:29.000
+There's a there's a lot more.
+
+275
+00:54:29.000 --> 00:54:31.880
+And I'm still playing around
+with how these patterns work.
+
+276
+00:54:31.880 --> 00:54:34.560
+And they're heterogeneous by design.
+
+277
+00:54:34.560 --> 00:54:38.560
+This is again, you know,
+this is a merged from the practices
+
+278
+00:54:38.560 --> 00:54:42.280
+of each of these writers
+and happens to fill a similar function.
+
+279
+00:54:42.320 --> 00:54:44.520
+They're not using a template.
+
+280
+00:54:44.520 --> 00:54:48.240
+They're not expecting it
+to have to look a certain way.
+
+281
+00:54:48.280 --> 00:54:51.720
+That may have some opinions
+about how they can do it in a way
+
+282
+00:54:51.720 --> 00:54:55.600
+they would advise, but they tend to advise
+like literary editors.
+
+283
+00:54:56.000 --> 00:54:58.200
+And so this is sort of the point.
+
+284
+00:54:58.200 --> 00:55:02.920
+What I'm saying is that there's a site
+where authors do uncompensated work here.
+
+285
+00:55:03.200 --> 00:55:07.200
+They each solve it differently, and
+the difference is visible in the source.
+
+286
+00:55:07.400 --> 00:55:11.680
+So next I'm going after the 45 works
+
+287
+00:55:11.720 --> 00:55:17.000
+I've identified to go after here
+for for the interview book as well.
+
+288
+00:55:17.040 --> 00:55:21.440
+And that's a trimmed down
+of a pretty exciting corpus.
+
+289
+00:55:21.600 --> 00:55:23.360
+So I'll be doing more interviews.
+
+290
+00:55:23.360 --> 00:55:24.840
+The tools will be open
+
+291
+00:55:24.840 --> 00:55:28.200
+when they're working better,
+and I'd love for others to break them.
+
+292
+00:55:28.240 --> 00:55:29.160
+So I'll leave you with this.
+
+293
+00:55:29.160 --> 00:55:33.400
+These authors are willing 
+to write thousands of lines
+
+294
+00:55:33.400 --> 00:55:39.400
+so that a reader will get one sentence
+that knows who they've become in the text.
+
+295
+00:55:39.480 --> 00:55:41.000
+Nobody makes them do this.
+
+296
+00:55:41.000 --> 00:55:42.840
+The platform doesn't check.
+
+297
+00:55:42.840 --> 00:55:45.760
+The authors do this
+because they think you're worth it.
+
+298
+00:55:45.760 --> 00:55:48.040
+It's not a factory. Thank you.

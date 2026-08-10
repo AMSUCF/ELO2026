@@ -1,0 +1,1220 @@
+WEBVTT
+
+1
+00:00:01.800 --> 00:00:02.560
+Where'd it go?
+
+2
+00:00:02.560 --> 00:00:05.320
+Here we go.
+
+3
+00:00:05.320 --> 00:00:08.000
+Okay,
+
+4
+00:00:08.000 --> 00:00:09.680
+terrific.
+
+5
+00:00:09.680 --> 00:00:12.400
+So my name is Michael Merriam.
+
+6
+00:00:12.400 --> 00:00:17.160
+I work with games and epistemologies
+and games and perception.
+
+7
+00:00:17.160 --> 00:00:20.120
+This often means
+working with games and pedagogy.
+
+8
+00:00:20.120 --> 00:00:22.840
+And this is called.
+
+9
+00:00:22.840 --> 00:00:24.840
+This has had a few titles.
+
+10
+00:00:24.840 --> 00:00:27.200
+It is now called course correction.
+
+11
+00:00:27.200 --> 00:00:30.680
+And it is about nodes.
+
+12
+00:00:31.600 --> 00:00:34.680
+So I'm briefly
+
+13
+00:00:34.680 --> 00:00:39.400
+mentioning the wonderful electronic
+literature and digital humanities
+
+14
+00:00:39.880 --> 00:00:44.920
+work and tradition and trajectory
+that kind of supports and explains
+
+15
+00:00:44.920 --> 00:00:48.360
+the importance of what
+I'm going to talk about, which is quizzes
+
+16
+00:00:48.400 --> 00:00:51.560
+as a form of interactive nonfiction.
+
+17
+00:00:51.560 --> 00:00:54.720
+And without this
+
+18
+00:00:54.840 --> 00:00:58.760
+that I'm just gesturing at here, it's
+going to sound like I'm
+
+19
+00:00:58.760 --> 00:01:02.680
+just giving tips or best practices
+or fun things to think about.
+
+20
+00:01:02.680 --> 00:01:06.440
+If you're an educator and you create
+a quiz, it's not really true.
+
+21
+00:01:06.440 --> 00:01:08.840
+It's kind of weirder
+and more important than that.
+
+22
+00:01:08.840 --> 00:01:12.640
+I'm saying
+that the quiz can't be non-fictional.
+
+23
+00:01:12.640 --> 00:01:16.600
+It's too much like a game, it's too ludic,
+and I hope to
+
+24
+00:01:16.640 --> 00:01:18.440
+demonstrate a little bit of how.
+
+25
+00:01:18.440 --> 00:01:23.800
+But rather than harp on that,
+I want to look at how game mechanics,
+
+26
+00:01:24.080 --> 00:01:27.920
+especially when they involve interactive
+text, are games
+
+27
+00:01:27.920 --> 00:01:33.640
+that use questions as nodes
+and that use them game and mechanically.
+
+28
+00:01:33.640 --> 00:01:37.120
+And as long as that's been around,
+they've been doing research
+
+29
+00:01:37.120 --> 00:01:40.120
+into the potential of questions
+
+30
+00:01:40.240 --> 00:01:43.720
+and we should learn from them.
+
+31
+00:01:43.840 --> 00:01:46.240
+Hope to demonstrate why this is.
+
+32
+00:01:46.240 --> 00:01:50.560
+I've got so many anecdotes, of course,
+but this is a to in virology
+
+33
+00:01:50.600 --> 00:01:52.680
+and very frustrated.
+
+34
+00:01:52.680 --> 00:01:57.840
+Told me he cannot figure out
+how to word the question so he doesn't get
+
+35
+00:01:58.040 --> 00:02:01.720
+what he used to perceive
+as smart aleck answers like this.
+
+36
+00:02:01.720 --> 00:02:02.280
+He would say,
+
+37
+00:02:02.280 --> 00:02:05.040
+explain how you used a graph to a Ravager
+answer, the student would say.
+
+38
+00:02:05.040 --> 00:02:05.960
+I looked at it
+
+39
+00:02:07.000 --> 00:02:10.120
+to his surprise, when he talked with
+some of these students
+
+40
+00:02:10.120 --> 00:02:14.280
+one on one, he realized
+sometimes these are not sarcastic.
+
+41
+00:02:14.320 --> 00:02:16.000
+They are sincere, right?
+
+42
+00:02:16.000 --> 00:02:19.440
+There are cultural contexts
+where one does not
+
+43
+00:02:19.440 --> 00:02:23.160
+give more information than one is asked
+for, where it should be that literal.
+
+44
+00:02:23.200 --> 00:02:27.600
+So I was developing this because
+
+45
+00:02:27.720 --> 00:02:31.640
+during Covid, I had one of those classes
+satisfied a lot of guys.
+
+46
+00:02:31.720 --> 00:02:34.160
+I was trying to make it accessible
+to everyone.
+
+47
+00:02:34.160 --> 00:02:38.360
+I of course made it worse,
+but I could have made it
+
+48
+00:02:38.360 --> 00:02:41.640
+very clear to everyone if I could just
+have talked to them for five minutes.
+
+49
+00:02:41.680 --> 00:02:43.240
+There wasn't a way to do that.
+
+50
+00:02:43.240 --> 00:02:48.720
+They weren't going to come to the virtual,
+you know, intro lecture reliably.
+
+51
+00:02:49.360 --> 00:02:52.320
+Discussion posts were okay,
+but they're kind of phoning it in.
+
+52
+00:02:52.320 --> 00:02:57.160
+What they would do is
+if there was a quiz then and it was
+
+53
+00:02:57.200 --> 00:03:00.880
+had to be completed by a certain time,
+they pretty much always did it in a panic.
+
+54
+00:03:01.320 --> 00:03:03.880
+That enabled me to simulate
+a conversation with them.
+
+55
+00:03:03.880 --> 00:03:06.760
+Because there's me asking a question.
+It's a harmless one.
+
+56
+00:03:06.760 --> 00:03:10.120
+They see that no matter what they do,
+they're going to get 100 on this quiz.
+
+57
+00:03:10.120 --> 00:03:13.680
+And that enabled me
+to have that conversation.
+
+58
+00:03:13.680 --> 00:03:16.720
+What it didn't enable was a back and forth
+based on what they said,
+
+59
+00:03:16.720 --> 00:03:20.560
+because it's just marking them right or
+wrong and advancing to the next question.
+
+60
+00:03:20.560 --> 00:03:23.440
+So I had to do a lot of bizarre things
+to kind of fake.
+
+61
+00:03:23.440 --> 00:03:26.160
+It made me wish
+the LMS had more functionality.
+
+62
+00:03:26.160 --> 00:03:31.520
+And everything I'm talking about today
+is also relies on this digital humanities
+
+63
+00:03:31.560 --> 00:03:36.200
+theoretical tradition, because writing
+so technically and precisely about it,
+
+64
+00:03:36.200 --> 00:03:37.840
+that also means it can be coded
+
+65
+00:03:37.840 --> 00:03:41.240
+and it can be coded to comply
+with administrative standards.
+
+66
+00:03:41.240 --> 00:03:42.880
+That's really important.
+
+67
+00:03:42.880 --> 00:03:45.720
+So I'm going to look at question types.
+
+68
+00:03:45.720 --> 00:03:49.480
+And then I'm going to look at game
+mechanics that do the same thing.
+
+69
+00:03:49.520 --> 00:03:53.520
+And how the game mechanic teaches us
+the potential of that question type.
+
+70
+00:03:53.520 --> 00:03:56.720
+We didn't see so true or false questions.
+
+71
+00:03:56.720 --> 00:03:59.320
+This is from a high school biology quiz.
+
+72
+00:03:59.320 --> 00:04:03.440
+And it is not from AP bio,
+and it is not from honors biology.
+
+73
+00:04:03.440 --> 00:04:07.320
+This is we're going
+to get through this biology right.
+
+74
+00:04:07.320 --> 00:04:11.240
+So the instructor wanted very much
+
+75
+00:04:11.240 --> 00:04:14.960
+to make sure they weren't missing
+some of the crucial details.
+
+76
+00:04:15.000 --> 00:04:15.680
+True or false.
+
+77
+00:04:15.680 --> 00:04:18.040
+Osmosis is diffusion through a membrane.
+
+78
+00:04:18.040 --> 00:04:19.440
+Last time I gave this talk
+
+79
+00:04:19.440 --> 00:04:21.800
+there was so much debate around it,
+which astonished me
+
+80
+00:04:21.800 --> 00:04:23.920
+because I thought for sure
+the answer was true.
+
+81
+00:04:23.920 --> 00:04:27.040
+In this particular quiz,
+the answer is false. Why?
+
+82
+00:04:27.040 --> 00:04:30.720
+Because most is diffusion of water
+through a membrane.
+
+83
+00:04:31.160 --> 00:04:34.240
+Okay, I get it.
+I disagree. It's diffusion.
+
+84
+00:04:34.240 --> 00:04:36.600
+It's through a membrane.
+These are true. It has to be true.
+
+85
+00:04:36.600 --> 00:04:39.080
+But it's not I'm not the teacher.
+
+86
+00:04:39.080 --> 00:04:40.760
+Here's the thing though. The
+
+87
+00:04:41.840 --> 00:04:42.440
+the sort of
+
+88
+00:04:42.440 --> 00:04:46.720
+idea of a modest witness
+or a neutral standpoint isn't so.
+
+89
+00:04:46.800 --> 00:04:52.160
+And again, rather than harp on that, I'm
+going to look at what
+
+90
+00:04:52.160 --> 00:04:55.680
+I would have been asked to do in my day
+job as a narrative designer,
+
+91
+00:04:56.480 --> 00:04:59.800
+what kind of solutions
+I would be expected to bring to this,
+
+92
+00:05:00.960 --> 00:05:03.640
+and it would probably be
+to give it a character skin.
+
+93
+00:05:03.640 --> 00:05:07.880
+Okay, so let's say that the teacher wanted
+the answer to be false.
+
+94
+00:05:07.880 --> 00:05:09.160
+That was what they thought was correct.
+
+95
+00:05:09.160 --> 00:05:10.000
+It was that false.
+
+96
+00:05:10.000 --> 00:05:13.360
+It's not because we want to avoid
+the misconception.
+
+97
+00:05:14.360 --> 00:05:17.400
+Let's say we skin it
+as Doctor Victoria Frankenstein.
+
+98
+00:05:17.400 --> 00:05:21.640
+She's saying, I'm so close, but are these
+facts in my lab notebook reliable?
+
+99
+00:05:21.640 --> 00:05:24.080
+I fear I have overlooked some detail.
+
+100
+00:05:24.080 --> 00:05:25.360
+Am I missing something?
+
+101
+00:05:25.360 --> 00:05:28.000
+Will you help? I'm desperate for your aid.
+
+102
+00:05:28.000 --> 00:05:28.680
+True or false?
+
+103
+00:05:28.680 --> 00:05:30.400
+Osmosis. Diffusion. To remember it. Right.
+
+104
+00:05:30.400 --> 00:05:34.640
+So she's dramatizing the fact that we're
+afraid we've left something out.
+
+105
+00:05:35.040 --> 00:05:37.240
+And this discloses.
+
+106
+00:05:37.240 --> 00:05:38.840
+And some teachers might object.
+
+107
+00:05:38.840 --> 00:05:41.480
+It gives away what we're looking for.
+
+108
+00:05:41.480 --> 00:05:43.160
+But let's say they didn't want that.
+
+109
+00:05:43.160 --> 00:05:44.760
+Let's say they don't want details.
+
+110
+00:05:44.760 --> 00:05:46.280
+They want just the basics.
+
+111
+00:05:46.280 --> 00:05:50.360
+The character of skin would be something
+like the Jack Webb character from Dragnet,
+
+112
+00:05:50.560 --> 00:05:52.200
+you know, never mind the fancy details.
+
+113
+00:05:52.200 --> 00:05:53.440
+We know you got some kind of degree.
+
+114
+00:05:53.440 --> 00:05:55.600
+Just the facts, please.
+The law is the law.
+
+115
+00:05:55.600 --> 00:05:59.240
+Either way, it's osmosis, diffusion
+through a membrane or false.
+
+116
+00:05:59.480 --> 00:06:01.560
+Okay, so the core concept is recognized.
+
+117
+00:06:01.560 --> 00:06:03.400
+It is true. These are.
+
+118
+00:06:05.600 --> 00:06:06.960
+Fictional skins.
+
+119
+00:06:06.960 --> 00:06:11.040
+So it seems incompatible with nonfiction
+and therefore incompatible
+
+120
+00:06:11.040 --> 00:06:12.520
+with teaching a science.
+
+121
+00:06:12.520 --> 00:06:16.840
+However, these narrative skins
+do not add a fictional layer.
+
+122
+00:06:16.840 --> 00:06:18.400
+They remove a fictional layer.
+
+123
+00:06:18.400 --> 00:06:20.880
+The fiction was that the test was neutral.
+
+124
+00:06:20.880 --> 00:06:23.360
+The fiction was that
+the question was impartial,
+
+125
+00:06:23.360 --> 00:06:26.560
+and once you have this, you're
+disclosing the bias.
+
+126
+00:06:26.600 --> 00:06:26.880
+It's true.
+
+127
+00:06:26.880 --> 00:06:28.160
+You're doing it in a fun way.
+
+128
+00:06:28.160 --> 00:06:33.520
+But this is also the most efficient way,
+because without a character personality
+
+129
+00:06:33.520 --> 00:06:37.360
+that communicates
+all of this context, body language stuff
+
+130
+00:06:37.360 --> 00:06:41.680
+that you might be able to do yourself
+if it was a synchronous class, right?
+
+131
+00:06:42.240 --> 00:06:46.440
+Without all that, it would just take
+too many words to explain, you know,
+
+132
+00:06:46.480 --> 00:06:50.720
+to disclose your standpoint and why
+you're asking and, and all of that.
+
+133
+00:06:50.720 --> 00:06:54.840
+But more importantly,
+a true false question is a branch.
+
+134
+00:06:54.840 --> 00:06:56.160
+It is a binary branch.
+
+135
+00:06:56.160 --> 00:07:02.840
+And imagine if we had a spatial sense
+and we already kind of
+
+136
+00:07:02.880 --> 00:07:06.000
+do when we talked to students,
+we talk about getting them back on track.
+
+137
+00:07:06.040 --> 00:07:07.600
+We say, you're lost, right?
+
+138
+00:07:07.600 --> 00:07:10.840
+We say, I wish you would take me with you
+in this paragraph.
+
+139
+00:07:10.880 --> 00:07:11.680
+Right?
+
+140
+00:07:11.680 --> 00:07:15.920
+So imagine if instead of saying, Is Iago
+
+141
+00:07:15.960 --> 00:07:20.360
+the villain of Othello, is a fellow
+a bad man, or is he a weak man?
+
+142
+00:07:20.680 --> 00:07:23.240
+Okay, now
+we've got two different ways of thinking.
+
+143
+00:07:23.240 --> 00:07:25.640
+And you as an instructor,
+in this case, you're saying.
+
+144
+00:07:25.640 --> 00:07:27.920
+Fair enough. If you wish.
+
+145
+00:07:27.920 --> 00:07:30.920
+This was more about,
+you know, thinking about it deeply
+
+146
+00:07:30.920 --> 00:07:34.320
+and the nuance and the ins and outs,
+we got a path that goes there.
+
+147
+00:07:34.520 --> 00:07:35.320
+Right?
+
+148
+00:07:35.320 --> 00:07:37.480
+And if you're not, if you're like, look,
+I read it.
+
+149
+00:07:37.480 --> 00:07:38.480
+What do you want from me?
+
+150
+00:07:38.480 --> 00:07:40.400
+We can go that way too.
+
+151
+00:07:40.400 --> 00:07:43.720
+And the questions are,
+
+152
+00:07:45.320 --> 00:07:47.360
+well, that's
+another way in which they can be nodal.
+
+153
+00:07:47.360 --> 00:07:50.880
+It can be a geographic conception
+of it. So.
+
+154
+00:07:52.920 --> 00:07:56.160
+Let's look at another game mechanic
+
+155
+00:07:56.840 --> 00:07:59.200
+for multiple choice right.
+
+156
+00:07:59.200 --> 00:08:01.360
+Let's think about branching dialog.
+
+157
+00:08:01.360 --> 00:08:04.840
+And some of you guys are familiar
+with this Mass Effect wheel.
+
+158
+00:08:04.840 --> 00:08:09.360
+It means that when the protagonist of Mass
+Effect is in any situation.
+
+159
+00:08:09.680 --> 00:08:10.600
+This is the dialog.
+
+160
+00:08:10.600 --> 00:08:13.160
+But this button
+is always going to be kind of charming.
+
+161
+00:08:13.160 --> 00:08:15.320
+This button is always going
+to be kind of hostile.
+
+162
+00:08:15.320 --> 00:08:19.200
+They're mapped reliably,
+consistently onto something like that.
+
+163
+00:08:19.760 --> 00:08:22.760
+That's an innovation
+that came out of games.
+
+164
+00:08:22.760 --> 00:08:24.600
+This is what it would be in an RPG.
+
+165
+00:08:24.600 --> 00:08:27.960
+It can be any situation,
+but this one is always going to be polite.
+
+166
+00:08:28.000 --> 00:08:31.000
+This one's going to be curious,
+neutral, hostile.
+
+167
+00:08:31.640 --> 00:08:32.880
+Let's look at it in nonfiction.
+
+168
+00:08:32.880 --> 00:08:34.760
+Let's look at it in math.
+
+169
+00:08:34.760 --> 00:08:38.760
+What is 20 minus
+four times two minus three?
+
+170
+00:08:39.280 --> 00:08:43.760
+A lot of people would be shocked
+at how much the answers might vary.
+
+171
+00:08:43.840 --> 00:08:48.720
+Okay, let's say I have mapped it so that A
+
+172
+00:08:48.880 --> 00:08:52.760
+is always the answer you'll get
+if you focus on order of operations.
+
+173
+00:08:52.960 --> 00:08:54.720
+B is what you'll get
+
+174
+00:08:54.720 --> 00:08:58.280
+if you always just try
+to get to the answer without overthinking.
+
+175
+00:08:58.640 --> 00:09:03.640
+C is if you focus on the most recent
+concept and deeds.
+
+176
+00:09:03.640 --> 00:09:07.280
+If you assume it's a trick question, right
+this way,
+
+177
+00:09:07.720 --> 00:09:13.200
+when we can see after 20 questions
+what kind of error they're making
+
+178
+00:09:13.200 --> 00:09:17.280
+most often, right, we'll be able to say
+and even tell them at the end of the quiz.
+
+179
+00:09:17.320 --> 00:09:22.640
+It looks like you're assuming
+that we are only reviewing the last week.
+
+180
+00:09:23.200 --> 00:09:25.880
+Like let's say, in the last week
+they had learned that a negative times
+
+181
+00:09:25.880 --> 00:09:27.320
+a negative makes it positive.
+
+182
+00:09:27.320 --> 00:09:30.000
+They would calculate this to be 15, right?
+
+183
+00:09:30.000 --> 00:09:31.720
+If that's what they're focused on.
+
+184
+00:09:31.720 --> 00:09:34.000
+It is in fact an order of operations
+issue.
+
+185
+00:09:34.000 --> 00:09:35.080
+It is this one.
+
+186
+00:09:35.080 --> 00:09:37.360
+And of course you don't have to disclose.
+
+187
+00:09:37.360 --> 00:09:41.760
+You can still randomize where they show up
+visually in terms of the,
+
+188
+00:09:41.800 --> 00:09:44.960
+you know,
+in case you don't want students to
+
+189
+00:09:45.000 --> 00:09:50.280
+to gain the system, but the LMS itself
+could still keep track of that for you
+
+190
+00:09:50.280 --> 00:09:55.240
+and could still diagnose either for you
+or even student facing if you wanted to.
+
+191
+00:09:55.240 --> 00:09:59.840
+And that's that's a functionality
+that we wouldn't arrive
+
+192
+00:09:59.880 --> 00:10:03.840
+at, I don't think, unless we looked at
+what games are using it for.
+
+193
+00:10:04.520 --> 00:10:07.520
+So in the interest of time,
+
+194
+00:10:07.960 --> 00:10:11.000
+let's just talk about word problems
+really quickly.
+
+195
+00:10:11.120 --> 00:10:13.040
+And I got to slide this down okay.
+
+196
+00:10:14.000 --> 00:10:16.920
+So I actually had ChatGPT
+
+197
+00:10:16.920 --> 00:10:20.240
+generate a word problem for me then.
+
+198
+00:10:20.360 --> 00:10:23.120
+Look they are narrative right.
+
+199
+00:10:23.120 --> 00:10:26.000
+The characters are poorly handled
+and the hypothetical people in them
+
+200
+00:10:26.000 --> 00:10:26.760
+seem irrational.
+
+201
+00:10:26.760 --> 00:10:31.080
+So I said to generate an obnoxious word
+problem on a 10th grade math test,
+
+202
+00:10:31.080 --> 00:10:34.120
+one where the protagonist need for
+the answer is unconvincing,
+
+203
+00:10:34.120 --> 00:10:38.280
+and the difficulty of the calculation
+makes us not want to give the protagonist
+
+204
+00:10:38.320 --> 00:10:39.360
+what they want.
+
+205
+00:10:39.360 --> 00:10:43.040
+I obviously I'm biasing the heck
+out of this, but this is my point.
+
+206
+00:10:43.040 --> 00:10:45.720
+It said, okay, Crispin's
+emergency chocolate.
+
+207
+00:10:45.720 --> 00:10:49.000
+Crispin has decided the only acceptable
+way to announce his candidacy
+
+208
+00:10:49.000 --> 00:10:52.320
+for sophomore class treasurer is to stand
+beneath a rented chocolate fountain.
+
+209
+00:10:52.320 --> 00:10:55.320
+At exactly the moment it contains
+42l of chocolate.
+
+210
+00:10:55.640 --> 00:10:58.160
+He has not explained why
+this will make anyone trust him with money
+
+211
+00:10:58.160 --> 00:11:00.000
+at 8 a.m.,
+the fountain contains 18 leaders.
+
+212
+00:11:00.000 --> 00:11:01.920
+You see where this is going?
+
+213
+00:11:01.920 --> 00:11:05.000
+He wants to know the earliest time
+at which to make his announcement.
+
+214
+00:11:05.040 --> 00:11:07.440
+So a narrative designer
+is going to be able to say,
+
+215
+00:11:07.440 --> 00:11:10.920
+the problem here is not
+only do we not understand
+
+216
+00:11:10.920 --> 00:11:15.320
+the States for Crispin,
+but we are now hostile to him
+
+217
+00:11:15.320 --> 00:11:20.600
+because this is not just absurd,
+it's also trivial.
+
+218
+00:11:20.600 --> 00:11:21.680
+It's very unimportant.
+
+219
+00:11:21.680 --> 00:11:24.760
+And he's making a demand of us
+that we do not want to fill.
+
+220
+00:11:25.040 --> 00:11:28.160
+So I'm going to give another extreme
+example.
+
+221
+00:11:28.720 --> 00:11:31.560
+It's going to demonstrate
+what a narrative designer would do.
+
+222
+00:11:31.560 --> 00:11:33.600
+It's a little too much for what
+we do in a class.
+
+223
+00:11:33.600 --> 00:11:37.640
+But let's how about this Crispin is on
+trial for a crime he did not commit.
+
+224
+00:11:38.000 --> 00:11:39.960
+The crime occurred at 6:33 p.m.
+
+225
+00:11:39.960 --> 00:11:42.200
+at a store one and a half miles
+east of the station.
+
+226
+00:11:42.200 --> 00:11:45.360
+Security footage shows him
+boarding a westbound train at 618.
+
+227
+00:11:45.800 --> 00:11:48.240
+You had the idea to submit to the court
+the distance Crispin
+
+228
+00:11:48.240 --> 00:11:50.640
+was from the scene of the crime
+when it occurred, showing all work.
+
+229
+00:11:50.640 --> 00:11:51.640
+The court will check your work
+
+230
+00:11:51.640 --> 00:11:54.360
+and if your math is wrong,
+Crispin will be found guilty.
+
+231
+00:11:54.360 --> 00:11:57.160
+They don't have to appreciate
+what you're doing.
+
+232
+00:11:57.160 --> 00:11:58.040
+They don't have to think it's
+
+233
+00:11:58.040 --> 00:12:02.280
+funny or fun, and it can be absurd,
+but they do have to understand it
+
+234
+00:12:02.280 --> 00:12:05.280
+and they have to understand
+why it's important.
+
+235
+00:12:05.480 --> 00:12:06.920
+All right, they did it.
+
+236
+00:12:06.920 --> 00:12:09.880
+And I've seen every variation of this
+where they're like,
+
+237
+00:12:09.880 --> 00:12:11.720
+I really resent what you've done here.
+
+238
+00:12:11.720 --> 00:12:15.200
+But the answer is this to like,
+okay, that's fair.
+
+239
+00:12:15.240 --> 00:12:16.520
+That's fine, I like it.
+
+240
+00:12:17.560 --> 00:12:19.160
+I will also mention,
+
+241
+00:12:19.160 --> 00:12:22.200
+unless they're working on
+an educational game, which forces them
+
+242
+00:12:22.200 --> 00:12:25.320
+to prioritize things,
+most designers will say the task
+
+243
+00:12:25.320 --> 00:12:29.720
+and the diagnosis of the premise
+must simulate, not replicate,
+
+244
+00:12:29.720 --> 00:12:32.920
+but simulate a meaningful involvement
+of the math you're asking them to do.
+
+245
+00:12:32.960 --> 00:12:35.000
+It's a competence fantasy, right?
+
+246
+00:12:35.000 --> 00:12:37.760
+So that's why you really shouldn't
+have asteroids with numbers on them.
+
+247
+00:12:37.760 --> 00:12:41.800
+And then an equation and shoot the right
+asteroid because that's not real.
+
+248
+00:12:41.840 --> 00:12:43.040
+Right? Okay.
+
+249
+00:12:43.040 --> 00:12:45.680
+So just about out of time.
+
+250
+00:12:45.680 --> 00:12:48.680
+So I'm going to speed through this.
+
+251
+00:12:48.960 --> 00:12:52.560
+I'm trying to imagine beyond
+what I've been able to think of.
+
+252
+00:12:52.560 --> 00:12:58.680
+And starting in 2023, I was started
+making a database of questions
+
+253
+00:12:58.680 --> 00:13:02.680
+in Emily Johnson's class, question types
+from all different kinds of games.
+
+254
+00:13:02.680 --> 00:13:06.520
+And I'm interested in
+what's two beyond, like Marco Polo.
+
+255
+00:13:06.560 --> 00:13:09.440
+That seems to be we're
+trying to find where they are. Right.
+
+256
+00:13:10.560 --> 00:13:12.600
+And I've got
+
+257
+00:13:12.600 --> 00:13:16.520
+a list of the known unknowns
+that will be available on my website.
+
+258
+00:13:16.560 --> 00:13:19.320
+Ludo ception perception through Gamescom.
+
+259
+00:13:19.320 --> 00:13:20.480
+These are the references.
+
+260
+00:13:20.480 --> 00:13:24.520
+Thank you so much for your kind attention
+and I'm
+
+261
+00:13:24.520 --> 00:13:27.520
+all done.
+
+262
+00:13:30.280 --> 00:13:31.400
+All right,
+
+263
+00:13:31.400 --> 00:13:35.440
+so that concludes the presentations part.
+
+264
+00:13:35.440 --> 00:13:38.960
+And we have technically
+about three minutes left.
+
+265
+00:13:38.960 --> 00:13:42.120
+However there's not a panel
+waiting for us other than.
